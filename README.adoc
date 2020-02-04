@@ -1,0 +1,5 @@
+= Ascii1000D Demonstration
+Lopsotronic Publications
+v0.0.1, {docdate} 
+
+Demonstration of S1000D "Bike" sample using Asciidoc
