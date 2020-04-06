@@ -6,6 +6,7 @@ v0.0.1, {docdate}
 DMC-ASDEMO-AAAA-000-00-00-01A-000B-A
 
 Demonstration of S1000D "Bike" sample using Asciidoc, with the following:
+
 * S1000D-style filenaming conventions
 * CIRs/TIRs (Common Information Repositories) / (Technical Information Repositories) via `+include+` directive to tagged regions
 * Conditional Content aka Applicability via Asciidoc Conditional Directives
