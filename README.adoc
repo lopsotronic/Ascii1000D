@@ -5,4 +5,9 @@ v0.0.1, {docdate}
 [abstract]
 DMC-ASDEMO-AAAA-000-00-00-01A-000B-A
 
-Demonstration of S1000D "Bike" sample using Asciidoc, with S1000D-style filenaming conventions, CIRs/TIRs (Common Information Repositories) / (Technical Information Repositories), Applicability via Asciidoc Conditional Directives, Publication Modules as destination for `+include+` directives, and DMRLs for project planning.
+Demonstration of S1000D "Bike" sample using Asciidoc, with the following:
+* S1000D-style filenaming conventions
+* CIRs/TIRs (Common Information Repositories) / (Technical Information Repositories) via `+include+` directive to tagged regions
+* Conditional Content aka Applicability via Asciidoc Conditional Directives
+* PM (Publication Module) and DMRL (Data Module Requirement List) via Asciidoc `+include+` directives, and DMRLs for project planning.
+* Line art parts identification via SVG+CSS or inclusion of X3D or applicable HTML5 web 3d format.
