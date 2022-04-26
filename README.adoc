@@ -5,6 +5,8 @@ v0.0.1, {docdate}
 [abstract]
 DMC-ASDEMO-AAAA-000-00-00-01A-000B-A
 
+image::Ascii1000D.svg[]
+
 Demonstration of S1000D "Bike" sample using Asciidoc, with the following:
 
 * S1000D-style filenaming conventions
