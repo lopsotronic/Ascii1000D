@@ -1,0 +1,6 @@
+Acronyms - Common information repository
+
+
+// tag::AC[]
+AC (Alternating Current)
+// end::AC[]

@@ -1,0 +1,23 @@
+= Ascii1000D Test : PNR 999-999999-999
+John Mogilewsky <mogilews@gmail.com>
+v0.0.1, October 7, 2020: Initial revision
+:doctype: book
+:encoding: utf-8
+:lang: en
+:toc: left
+:toclevels: 4
+:numbered:
+:CONFIGZ:
+:CONFIGZ1:
+
+== General
+
+=== Demo systems
+
+include::../DMC/DMC-ASCII1KD-DEMO-000-10-00-01A-040B-A.adoc[leveloffset=+3]
+
+include::../DMC/DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A.adoc[leveloffset=+3]
+
+include::../DMC/DMC-ASCII1KD-DEMO-000-10-00-01A-520A-A.adoc[leveloffset=+3]
+
+include::../DMC/DMC-ASCII1KD-DEMO-000-10-00-01A-720A-A.adoc[leveloffset=+3]

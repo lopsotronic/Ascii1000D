@@ -1,0 +1,26 @@
+[[DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A.adoc]]
+= Ascii1000D - Inspect
+
+[abstract]
+DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A
+
+
+== Prerequisites
+:CONFIG1:
+
+== Procedure
+
+[.procedure]
+. {empty}
++
+include::../CIR/DMC-DEMO-000-00-00-01A-0A4A-A.adoc[tag=HighVoltage]
++
+Turn on the system
+. Use the `source` switch to ensure that the electrical system is not
+include::../CIR/DMC-DEMO-000-00-00-01A-0A6A-A.adoc[tag=AC]
+during maintenance.
+
+ifdef::CONFIG1[]
+. If the system is CONFIG1, check yellow warning light
+endif::CONFIG1[]
+. Confirm green light

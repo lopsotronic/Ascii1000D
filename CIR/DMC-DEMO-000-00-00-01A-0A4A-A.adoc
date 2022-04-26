@@ -1,0 +1,6 @@
+= List of Warnings - Common information repository
+
+
+// tag::HighVoltage[]
+WARNING: High voltage kills! ZAP
+// end::HighVoltage[]
