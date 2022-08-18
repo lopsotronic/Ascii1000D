@@ -25,6 +25,9 @@ v1.0, {docdate}: DRAFT
 :compliance: Recommended
 :chargecode: N999.99.9.9.9
 
+[abstract]
+DMC-DEMO-000-10-00-01A-930A-A.adoc
+
 == Applicability
 
 //include to applicability asset
