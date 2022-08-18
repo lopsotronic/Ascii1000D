@@ -10,7 +10,7 @@ image::Ascii1000D.svg[]
 
 == General
 
-Demonstration of S1000D "Bike" sample using Asciidoc, with the following:
+Demonstration of an S1000D architecture using the Asciidoc LML (lightweight markup language)
 
 * S1000D-style filenaming conventions
 * CIRs/TIRs (Common Information Repositories) / (Technical Information Repositories) via `+include+` directive to tagged regions
