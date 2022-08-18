@@ -1,0 +1,233 @@
+= TECHNAME - Service Bulletin : SUBTITLE Description of change
+
+Technical Publications
+
+v1.0, {docdate}: DRAFT
+
+:sectnums:
+
+:docpnr: ###-######-##
+
+//initial release (date)
+
+:initrel: {docdate}
+
+//release date (date)
+
+:reldate: {docdate}
+
+//next review (date)
+
+:nextrev: TBD
+
+:SBSAOA: Service Advisory
+
+//See S1000D42 sbTaskCategory
+
+:TaskType: Modification
+
+:SBModList: ECN99999, ECO99999
+
+//See S1000D42 sbImpact
+
+:SBImpact: Weight, Balance
+
+//See S1000D42 sbConcurrentSbList
+
+:sbConcurrentSbList: NA
+
+//See S1000D42 sbAccomplishmentLimit regarding staff limits and time limits
+
+:sbAccomplishmentLimit: NA
+
+//See S1000D42 sbTimeAssessment Estimated time for completion
+
+:sbTimeAssessment: NA
+
+//See S1000D42 sbComplianceCategory
+
+:compliance: Recommended
+
+:chargecode: N999.99.9.9.9
+
+ 
+
+== Applicability
+
+ 
+
+//include to applicability asset
+
+ 
+
+== Referenced Data Modules
+
+ 
+
+//includes to affected DMs
+
+ 
+
+== {SBSAOA}
+
+ 
+
+=== Management Information
+
+ 
+
+==== Compliance
+
+ 
+
+ifeval::["{compliance}" == "Recommended"]
+
+[graphviz, file ="../TEMPimages/Recommended.svg"]
+
+----
+
+digraph g {
+
+    bgcolor = green
+
+    label="Recommended"
+
+    fontsize="40"
+
+    shape=record
+
+    fontname = Arial
+
+    fontcolor = white
+
+}
+
+----
+
+endif::[]
+
+ 
+
+ifeval::["{compliance}" == "Mandatory"]
+
+ 
+
+[graphviz, file ="../TEMPimages/Mandatory.svg"]
+
+----
+
+digraph g {
+
+    bgcolor = red
+
+    label="Mandatory"
+
+    fontsize="40"
+
+    shape=record
+
+    fontname = Arial
+
+    fontcolor = white
+
+}
+
+----
+
+endif::[]
+
+ 
+
+ifeval::["{compliance}" == "Desirable"]
+
+ 
+
+[graphviz, file ="../TEMPimages/Urgent.svg"]
+
+----
+
+digraph g {
+
+    bgcolor = darkorange
+
+    label="Urgent"
+
+    fontsize="40"
+
+    shape=record
+
+    fontname = Arial
+
+    fontcolor = white
+
+}
+
+----
+
+endif::[]
+
+ 
+
+ifeval::["{compliance}" == "Optional"]
+
+ 
+
+[graphviz, file ="../TEMPimages/Optional.svg"]
+
+----
+
+digraph g {
+
+    bgcolor = yellow
+
+    label="Optional"
+
+    fontsize="40"
+
+    shape=record
+
+    fontname = Arial
+
+    fontcolor = white
+
+}
+
+----
+
+endif::[]
+
+ 
+
+==== Task Type
+
+{tasktype}
+
+ 
+
+==== Modification Identification
+
+{SBModList}
+
+ 
+
+==== Impact
+
+{SBImpact}
+
+ 
+
+==== Concurrent SB List
+
+{sbConcurrentSbList}
+
+ 
+
+==== Accomplishment Limit
+
+{sbAccomplishmentLimit}
+
+ 
+
+==== Time assessment
+
+{sbTimeAssessment}
