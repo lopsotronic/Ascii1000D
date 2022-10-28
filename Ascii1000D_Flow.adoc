@@ -23,7 +23,7 @@ The system assumes that engineering data must be integrated using the following 
 == Example Data Flow
 
 .The red line shows one of the big problems: MTAs need to be done before writers start writing.
-[graphviz, JABS076, svg]
+[graphviz, JABS076.svg, svg]
 ----
 digraph g {
   graph [fontsize=10 fontname="Arial" compound=true];
