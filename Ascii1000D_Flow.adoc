@@ -1,0 +1,89 @@
+= Ascii1000D: Goals and Data Flow
+
+== Goals
+
+Ascii1000D has a few basic goals
+
+* Component Authoring with as Little As Possible
++
+Everything should work with as few keystrokes as possible, as few licenses as possible, as little setup as possible. Technical Publications systems are not multi-million dollar integration projects.
+
+* S1000D Architecture
++
+Filenames (data module codes), file relationships, data flows, all non-markup related architecture from S1000D is used in Ascii1000D. The exception to this is where it violates the above rule: for example, CGM illustrations can't be implemented on an open architecture, so we adopt SVG instead.
+
+* Business System Agnostic
++
+The system will function regardless of the type or number of different business systems that contain engineering data. 
+
+* Engineering Data Sources
++
+The system assumes that engineering data must be integrated using the following formats as interchange: 3MF and/or STEP; CSV for engineering parts data, and CSV for Logistics.
+
+== Example Data Flow
+
+.The red line shows one of the big problems: MTAs need to be done before writers start writing.
+[graphviz, JABS076, svg]
+----
+digraph g {
+  graph [fontsize=10 fontname="Arial" compound=true];
+  edge [arrowsize=".5"]
+  node [shape=record]
+  node [fontname="Arial" fontsize=10]
+  rankdir="LR";
+"Blue = git version controlled" [color=blue]
+"Red = DMC process problem" [color=red]
+"??Business??
+??Intelligence??
+??Thing??" [shape=tripleoctagon]
+"??Business??
+??Intelligence??
+??Thing??" -> "Solid Model" [style="dotted" arrowsize=0]
+"??Business??
+??Intelligence??
+??Thing??" -> "PDM" [style="dotted" arrowsize=0]
+"??Business??
+??Intelligence??
+??Thing??" -> "LSAR" [style="dotted" arrowsize=0]
+"Xquery" [color=blue]
+"PCIR (engineering)" [color=blue]
+"PCIR (release)" [color=blue]
+"PCIR (production)" [color=blue]
+"LSAR" -> "PCIR (production)"
+"LSAR" -> "MTA" [color=red]
+"MTA" -> "DMC" [color=red]
+"MTA" -> "Many many many
+other MX Procedures" [color=red]
+"Solid Model" -> "3MF/STEP"
+"PDM" -> "PCIR (release)"
+"PCIR (release)" -> "Parts Data (TextQL)"
+"3MF/STEP" [color=blue]
+"3MF/STEP" -> "OpenCascade"
+"OpenCascade" -> "SVG (PDF)"
+"OpenCascade" -> "Web 3D (HTML)"
+"3MF/STEP" -> "Xquery"
+"Xquery" -> "PCIR (engineering)"
+"PCIR (engineering)" -> "Parts Data (TextQL)"
+"PCIR (production)" -> "Parts Data (TextQL)"
+        subgraph cluster_01{
+        color=blue;
+        subgraph cluster_0 {
+            subgraph cluster_1 {
+            color=black;
+            "Web 3D (HTML)" [color=blue];
+            "SVG (PDF)" [color=blue];
+            label = "ICN";
+            }
+        "Parts Data (TextQL)" ;
+        "DMC";
+        label = "MX Procedure 000" ;
+    }
+        "Many many many
+other MX Procedures" [color=blue]
+    label = "Publication Module" ;
+    "User-defined Attributes
+for Applicability";
+    } 
+    
+}
+----
