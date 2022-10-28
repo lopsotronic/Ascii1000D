@@ -1,5 +1,4 @@
 = Ascii1000D: Goals and Data Flow
-:data-uri:
 
 == Goals
 
@@ -24,6 +23,8 @@ The system assumes that engineering data must be integrated using the following 
 == Example Data Flow
 
 .The red line shows one of the big problems: MTAs need to be done before writers start writing.
+ifdef::env-github[image::JABS076.svg[]]
+ifndef::env-github[]
 [graphviz, JABS076.svg, svg]
 ----
 digraph g {
@@ -88,3 +89,4 @@ for Applicability";
     
 }
 ----
+endif::env-github[]
