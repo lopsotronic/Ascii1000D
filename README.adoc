@@ -17,3 +17,5 @@ Demonstration of an S1000D architecture using the Asciidoc LML (lightweight mark
 * Conditional Content aka Applicability via Asciidoc Conditional Directives
 * PM (Publication Module) and DMRL (Data Module Requirement List) via Asciidoc `+include+` directives, and DMRLs for project planning.
 * Line art parts identification via SVG+CSS or inclusion of X3D or applicable HTML5 web 3d format.
+
+See <<Ascii1000D_Flow.adoc>> for details on data flow.
