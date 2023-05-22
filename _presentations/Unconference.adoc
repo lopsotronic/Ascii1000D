@@ -1,0 +1,353 @@
+= LML in Aerospace
+:toc:
+:revealjs_theme: solarized
+:revealjs_width: 1920
+:icons: font
+
+
+== State of the Art
+
+image:OLDCOMPUTER.jpg[width=400,float=left]
+
+* Intricate change process
+* Cornucopia of baffling legacy integration
+* Paper-based with strange print formats
+* Limited compute environment
+* Contractually require CCS/CCMS
+
+== The Usual Suspects
+
+.An extremely simple overview of mil/aero
+[graphviz]
+----
+digraph automata{
+node [shape = record];
+node [fontname = "arial"];
+ATA100 -> iSpec -> ATA2XXX -> ATA_Spec1000BR
+ATA100 -> JASC -> MILSTD
+"Dewey Decimal System" -> S1000D
+BMoD -> S1000D
+ATA100 -> S1000D -> S1000D20 -> S1000D30 -> S1000D40  -> ATA_Spec1000BR
+S1000D40 -> S1000D50
+"MILSTD" -> S1000D20
+MILSTD -> "MILSTD USA GROUND" -> S1000D30
+InformationMapping -> DITA
+"Hughes STOP" -> InformationMapping -> S1000D
+"FAA FAR Federal Aviation Regulations" -> "14 CFR Code of Federal Regulations" [color="red"]
+}
+----
+
+=== The Ivory Tower
+
+Usual solution is a vendor-supplied "Ivory Tower" publications stack based on a thick XML specification.
+
+* Disappearing vendors in VERY niche markup
+*  XML inherent limitations: recursion; 1NF; namespaces; charset; "sneaky schema tricks"
+*  Cost
+*  Content locked in ivory tower, due often to cost.
+
+
+== Hark, a Lightweight Markup Cometh
+
+image:asciidoctor.png[width=300, float=left]
+
+Back to our requirements. These can  be satisfied with so-called "Docs-As-Code" techniques: LMLs (lightweight markup languages), standardized editors, DVCS as CMS (distributed version control system), automated build (Antora, GitHub Actions / GitLab, etc). 
+
+But wait! So many LMLs!! Which one? Well, for this application, you will want Asciidoc.
+
+=== Why?
+
+* Shared XML lineage with formal systems
+* CCS capability: transclusion, conditionals, partial transclusion
+* Standard tooling (VCS/Atom, Gitlab/Github)
+* Monolothic spec: no Markdown "Fork Madness". 
+* Complex PDF, high quality vector graphics
+* AST (abstract syntax tree)
+* Full table model
+
+=== So . . 
+
+image:RotateThinker.gif[width=300, float=left]
+
+S1000D's business architecture, then, can be layered on top of this easier markup and tooling.
+
+What we do is add a business architecture and business process on top of Asciidoc to support industrial requirements. 
+
+We're not building anything here - we're doing about the same amount of mod we'd have to do for a boxed S1000D solution.
+
+== Before you start
+
+As always, some cautions before you start any docs as code initiative.
+
+Particularly one using CCS techniques.
+
+=== The Applicability Trap
+
+.An Unnamed Aircraft That Perhaps Has Landed In The Trap
+image:ApplicTrap.png[]
+
+=== False Equivalence is an Unhealthy Goal
+
+"Oh sure, that's the same plane, of course it is."
+
+image:SureThereTheSame.jpg[width=400,float=left]
+
+Pie In The Sky prototypes will cause problems unless architected. 
+
+More often, though, this will happen because too much variance is being shoved into an existing product.
+
+=== Wait, it's a trap?
+
+So how do you know you are in this "trap"? 
+
+. Make a task for each variant, then combine them into one file. 
+. Now make a single task, but use conditional content for the variants.
+. *If the conditionalized task is longer than the combined content, you are in the Applicability Trap*. 
+
+=== Beware the Applicability Trap!
+
+[quote]
+"If your product is not architected, don't try and architect the publications". 
+
+* Entirely new product being lumped in as mere variant of an existing system.
+** "Our new fighter jet now includes a tree trimmer, but doesn't need any new maintenance tooling through a miracle of science"
+* *Design / prototype / Pie-In-The-Sky product* being sold as *full rate production*.
+
+=== Buy-In
+Reviewers must be willing to work in git and text files.
+
+image:TheFilesAreInTheComputer.gif[]
+
+A 50 year old mechanical engineer probably doesn't want to learn what "git" is, aside from possibly being a British swear.
+
+=== Not everone's a L33T HAKK0RZ
+Make it clear that reviewers just need to know how to comment, how to do basic requests in git, pull, commit, and push. 
+
+*THAT'S IT!* 
+
+That's all they need - see <<gitflow>>. 
+
+Not everyone wants to be a programmer! Keep it simple.
+
+=== Beware the InfoSec Nazis
+
+[quote]
+Docker ist ein Kommunisten-Schwindel!
+
+image:Klink.jpg[]
+
+=== They're not really Nazis
+
+Defense limitations are *harsh*, and you might not have control over this part of your operations.
+
+The compute environment MUST allow VSC, git, and a build environment OR CLI (command line interface) usage. CLI can stand in for build systems, to a point. 
+
+If the compute environment is locked down to circa 1998, *Ascii1000D* will not be worth it. Point the customer to Adobe, PTC, or another expensive vendor, let them hash it out. They have the bodies. 
+
+=== And sometimes the perfect doc system is sitting right in front of you
+
+Or point the customer to their own ERP or PDM documentation tool. 
+
+Modern ERP/PDM often have a doc stack that is already integrated with their *everything*.
+
+If they don't know how to use their own ERP, that's probably a good time to just toss up your hands.
+
+== So how does this work?
+
+image:Ascii1000D_files.png[]
+
+
+=== Well . . not too bad, actually
+
+image:https://raw.githubusercontent.com/ggrossetie/asciidoctor-web-pdf/main/examples/images/front-cover-image.png[width=400]
+
+
+=== S1000D + Asciidoc = Ascii1000D
+
+Ascii1000D is my sort of private joke word for the combination of S1000D business architecture and Asciidoc markup language. 
+
+Think of it like a LWDITA for S1000D, but simpler. 
+
+The secret sauce is transclusion (`include` directives), partial transclusion (include to tagged regions) and conditionals (conditional directives `ifdef`, `ifeval`, and `ifndef`)
+
+=== Check your business
+
+Having an integrated ERP with the publications system is THE way to do aerospace pubs. 
+
+HOWEVER - if you have very little money, and your data is all over the place, and you need to use CCS/CCMS techniques, and you want people to contribute from ALL OVER the business, AND your staff has some decent technical skill (or just isn't afraid of technology) . . then this might be the right path for your business.
+
+
+== Starting up
+
+Let's do this!
+
+image:LetsDoThis.png[]
+
+=== DMRLs (Data Module Requirement Lists)
+
+Engineering has identified the maintenance tasks, and Flight has determined the aircrew tasks. Put them together. That's the DMRL.
+
+Getting those straight - along with the variants - is THE heavy lifting of an aerospace documentation project. 
+
+It depends on *configuration management*, *maintenance engineering*, and *good faith communication*.
+
+=== DMRLs II
+
+In S1000D lists of "chunks" may be called DMRLs (Data Module Requirement List). Changes to the lists might be called a Change Package or DocPlan (S1000D leaves that to the Project), but these change lists can evolve into Service Bulletins, which *are* an S1000D artifact.
+
+
+=== Regulations within Regulations
+
+When considering the DMRL, always keep the regulations PoC in the loop.
+
+It depends on a lot of specialized knowledge and regulations: 14 CFR for commercial, hundreds of specs on the MIL-STD side *plus* whatever the Procurement/Program Officer decides xhe wants. 
+
+Even FDA and HSA get into the act, because of environment impact and security. EASA/ICAO too.
+
+=== Data Modules
+
+DMRLs make DMs (Data Modules), which are analogous to DITA topics. 
+
+They're also filenames, which can slot in to Ascii1000D.
+
+image:chrome_fXgpPGbCHd.png[]
+
+=== {empty}
+
+Those files are named according to the S1000D Data Module Code system. You can even call them DMs if you like. 
+
+=== Inside the DM
+
+Each DM is like a recipe: it has a set structure that's optimal for maintenance, aircrew, ground, wiring, or other types of data. It will always have a DMTITLE like "Engine - Inspection", a DMC or Data Module Code,  a maintenance task might include a *Prerequisite* section, a *Procedure* (obviously), and a Closing Requirements or `closereqs` section. 
+
+=== But what about validation?!
+
+This kind of structure is checkable - indeed, is similarly being checked right now - via Vale/RedPen/TextLint/LanguageTool or your favorite natural language linter. 
+
+*You DO NOT NEED XML/XSD to validate natural language structure.*
+
+=== Publication Modules (PM)
+
+[graphviz]
+----
+digraph automata{
+node [shape = record];
+node [fontname = "arial"];
+PM [color="red"]
+DM [image="stack.png"]
+ERP -> CAD
+MTA -> DMRL
+DMRL -> DM
+DM -> PM [color="red"]
+LSA -> MTA
+LSA -> "Parts" -> DM
+ERP -> PDM -> "Parts"
+MTA -> APPLIC
+LSA -> APPLIC
+CAD -> Art -> DM
+APPLIC -> PM
+PM -> Deliverable
+}
+----
+
+=== No, seriously, what's in a PM?
+
+
+We'll make a deliverable for every coherent variant of airplane: 100 series (which might include 101, 110, etc), 200, and 300. 
+
+To make these deliverables we make a different kind of Asciidoc file: a Publication Module. Again, this follows the S1000D architecture. 
+
+=== Inside the PM
+
+image:PM_sshot.png[width=500]
+
+* `includes` the right DMs for the plane type
+* declares `applicability` (document attributes)
+
+=== SemVer for Ascii1000D
+
+[horizontal]
+Major Version:: ISSNO from S1000D
+Minor Version:: release count between issues
+Patch:: draft count, 0=released deliverable, otherwise this is a draft rev
+Git hash:: Add the git hash to the SEMVER - ties the deliverable to repository state
+
+
+== Other Cool Stuff
+
+Automated LoEDM, RevHist, ToC, LoT, LoF, and Index from either git CLI or Asciidoc features
+
+CIRs (common information repositories) for standardized acronyms, warnings, cautions, glossary, safety data sheets, and other tiny chunks. Change a CIR and it's fixed everywhere.
+
+Dynamic graphs (graohviz, plantuml, vega, mermaid) generate block diagrams, wiring diagrams, geographic maps, and more from text.
+
+Build environments like Antora schedule PDF publish.
+
+== Change Process
+
+We're leaving big huge holes here, as change process is no simple thing in aerospace.
+
+image:Sseries.png[]
+
+=== Gitflow
+
+Let's look at how the git might work.
+
+[[gitflow]]
+[mermaid]
+----
+gitGraph
+   commit
+   branch Approval
+   checkout Approval
+   checkout main
+   branch "SuperProp Feature" 
+   checkout "SuperProp Feature"
+   commit type: HIGHLIGHT tag: "Writer works feature"
+   commit
+   branch SME
+   checkout SME
+   commit type: HIGHLIGHT tag: "SME comments"
+   commit 
+   checkout "SuperProp Feature"
+   merge SME type: HIGHLIGHT tag: "SME inclusion"
+   commit
+   commit type: HIGHLIGHT tag: "Final edits"
+   checkout Approval
+   merge "SuperProp Feature" type: HIGHLIGHT tag: "Approval of Change Package"
+   checkout main
+   merge Approval type: HIGHLIGHT tag: "Publication"
+----
+
+
+=== Docplan
+
+If someone wants to JUST see the DMs that have changed, make a DocPlan of the proposed change that `includes ` the changed data modules.
+
+This is a great way for non-contributors to review changes - the output just includes the changed things.
+
+CAUTION: A DOCPLAN IS NOT A DELIVERABLE. It's a change package. It can later be DEVELOPED into a Service Bulletin if necessary.
+
+=== Flow in Words
+
+An engineering system outputs changes to be documented via ECN/ECO/ECR. 
+
+This creates a feature branch.
+
+The writer works feature branch. If more than one writer works on a feature, make writer branches from the feature branch.
+
+When ready for SME review, make SME branch from writer or feature branch.
+
+*_-CONTINUED-_*
+
+=== Flow in Words, continued
+
+SME enters comments, PR/MR back to writer branch. That's the issue tracking for SME drafts.
+
+Writer incorporates comments, PR/MR to master branch is the Approval.
+
+Everything on master branch is PUBLISHED - it can be used on planes at this very moment. 
+
+With more than a half dozen deliverables, there will be a build system. It could be some shell scripts on a cron job. It could be Antora. It could be Jenkins. 
+
+But you _do_ have it. Life's too short to spend pounding the PDF button. 

@@ -1,0 +1,290 @@
+= Technical Publications in Aerospace
+:toc:
+:revealjs_theme: solarized
+:revealjs_width: 1920
+:icons: font
+:data-uri:
+:imagesdir: images
+
+== Why is this a thing?
+
+Aerospace publications have some of the lowest risk thresholds in industry.
+
+The tools themselves are designed to make change difficult. That's by design. 
+
+== The Shape of Things
+
+image:AirplanesOverTime.png[]
+
+*Aircrew publications* have had two big shocks: four engine aircraft, and the rise of EFB equivalents.
+
+*Maintenance publications* have had somewhat more: supplier variance, de-unionization, post-1970s financialization, and the return of supplier variance
+
+== Beginnings: 1910-1930
+
+Realm of artisans and hobbyists from 1910-1930
+
+Aircrew learned from person to person.
+
+Maintenance was from manufacturer to field technician - often the same person, and would largely remain so until the 1950s. 
+
+[transition="zoom"]
+=== Separation
+
+In the 1920s, HtA Heavier than Air accidents and growing complexity saw separation into Aircrew and Maintenance
+
+[graphviz]
+----
+digraph automata{
+node [shape = record];
+node [fontname = "arial"];
+Operators -> Checklists
+Manufacturers -> Handbooks
+}
+----
+
+[transition="zoom"]
+=== The Era of Air Mail
+
+The ATA was instrumental in the formation of the ACA and then the Watres Act - leading directly to the CAB
+
+National Advisory Committee for Aeronautics (1915-1958)| NASA (1958-2023)
+
+Air Commerce Act of 1926| Branch (1926–1934)|ATA/A4A (1936-2023) | Airmail Act of 1930/Watres Act 1927-1938)
+
+Aeronautics Civil Aeronautics Board :1938-1978
+
+
+== World War II and the 1950s
+
+[transition="zoom"]
+=== "Too much plane for one man"
+
+Boeing Model 299 (later the B-17) had high losses in aircrew due to variation between OEM and aircrew. Flight Checklists born, hand in hand with the birth of the CAA/CAB.
+
+CAA/CAB (1940-1942)
+
+[graphviz]
+----
+digraph automata{
+node [shape = record];
+node [fontname = "arial"];
+Operators -> Checklists
+Regulators -> Checklists
+Manufacturers -> Handbooks
+}
+----
+
+[transition="zoom"]
+=== Those Pesky Tuskegee Airmen
+
+CAB|Civilian Pilot Training Program (1940-1944)
+
+US Army initially rejected the CAB results until forced to confront the lack of rigor in their own examinations. 
+
+[transition="zoom"]
+=== Obvious thing is Obvious
+
+With the lack of combat aircrew circa 1943, this came to a head with the so-called "Red Tails", who had been rejected on USAA grounds.
+
+However, in the cold light of CAB statistics, they were found to actually be superior to freshly-trained white pilots - their loss rate was due to mission mix, aircraft type, and just being in the fight longer.
+
+Combat experienced pilots better than green pilots, see news at 11.
+
+[transition="zoom"]
+=== Maintenance and Trust
+
+The Boeing Model 345 was unmaintainable with only manufacturer documentation - but much time was wasted pretending.
+
+This was never solved during the war, but left deep impressions.
+
+Staff from this project went on to contribute to ATA Spec 100, which used what we would today call Systems Engineering: classifying content and deliverables according to functional groups.
+
+[transition="zoom"]
+=== ATA Spec 100 / JASC codes
+
+image:ATA100.jpg[width=600]
+
+[transition="zoom"]
+=== Postwar Regulation Growth
+
+National Advisory Committee for Aeronautics (1915-1958) | NASA (1958-2023)
+
+Aeronautics Civil Aeronautics Board (1938-1978)|ICAO (1944-2023)|FAA (1958-2023)|Department of Transportation / NTSB / HSA (1967-2023)
+
+AECMA Association Europeene des Constructeurs de Materiel Aerospatial (1950-2004)|ASD (2003-2023)
+Joint Airworthiness Authorities JAA (1970-2009)|EASA (2002-2023)
+
+[transition="zoom"]
+=== Rise of Integrated Specifications
+
+Two forces drive the integration push in the 1980s: 
+
+. De-unionization removed the sole mechanism by which labor skill could be evaluated
+
+. The monetary shock of the 1970s had brought capital risk thresholds down to somewhere near dinosaur bones.
+
+[transition="zoom"]
+=== S1000D and iSpec
+
+The sister specs of this age are iSpec2000/2200/2300 and S1000D (S-Series).
+
+The draw of these specifications is the degree to which integration was possible with other ground, aircraft, and enterprise systems.
+
+S-Series comes from BMOD, ESD, and AECMA; iSpec is an ATA development from the Spec 100. 
+
+ATA now also integrates with S1000D via ATA Spec1000BR, a set of specializations for S1000D that - theoretically - allow it to work with iSpec
+
+=== The Tooling Environment
+
+DP environments like Interleaf/Quicksilver
+
+Framemaker until CC
+
+PTC and its spawn
+
+Many, many, _many_ one-off suppliers. 
+
+== Aerospace Deliverable Types
+
+[horizontal]
+CMM:: Component Maintenance Manual
+AMM:: Aircraft Maintenance Manual
+SB:: Service Bulletin
+OA:: Operational Advisory
+IOMAN:: Installation and Operation Manual (LRU or GSE)
+Flight Manual:: How to fly the thing
+Operators
+
+== A look into S1000D
+
+S1000D is an XML vocabulary designed as a CCS (Component Content System) which stores content in Data Modules (DMs) for use in Publication Modules (PMs) which create the deliverables.
+
+One thing that it does right: it's publicly available. You can download the spec and start writing in it right now in whatever full-featured editor you might want.
+
+No such luxury with iSpec: you'll need to fork over five grand to see that spec.
+
+[transition="zoom"]
+=== Origins
+
+
+BMOD wanted to use the ATA 100 for a new milspec. 
+
+They asked USAF for one, but nothing doing, so they went to NATO to get something together.
+
+AECMA introduced concepts from Horn's Information Mapping research, as well as the classification system of the  Dewey Decimal Classification (DDC) - hence "1000" in the "S1000D". This was Issue 1.0 prerelease from 1988.
+
+[transition="zoom"]
+=== Complications
+
+Once NATO had buy in, US DoD stopped the process for fear of losing interoperability - US DoD had to get into the steering groups. 
+
+This process - a sort of transatlantic hissy fit - has yielded 13 issues of the spec, with an Issue 6 coming next year.
+
+According to the WG/TSGs, each issue is meant to be a living document in its own right. Because of this, there is no official issue to issue transformation framework.
+
+[transition="zoom"]
+=== S-Series Family
+
+image:SSeriesSpecs.png[width=600]
+
+== Summary of Working in S1000D
+
+Writers work from change documents, MTAs (maintenance task analysis), LSA (logistics support analysis), ERP/ PDM (enterprise resource planning / parts data management), Systems Engineering, and CAD models to develop DMs (data modules), which are transcluded by Publications Modules into deliverables.
+
+Conditional content is handled via Applicability using two specialized data module types: ACTs (applicability cross reference tables) and PCTs (product cross reference tables)
+
+[transition="zoom"]
+=== Opaque and Brittle
+
+Given the complexity of the document specification and the degree of integration that's expected with other BIS (business information systems), it's not surprising that the best S1000D systems are those which are integrated into a larger ERP.
+
+Standalone S1000D systems require a lot of tool specialist time to make them functional. 
+
+[transition="zoom"]
+=== New Product
+
+This part is fairly well documented in the S-Series specifications. 
+
+.New Product
+[graphviz]
+----
+digraph automata{
+rankdir="LR"
+node [shape = record];
+node [fontname = "arial"];
+Writers [color=green]
+DM [color=green]
+MTA -> DMRL
+MTA -> PCT
+Aircrew -> DMRL
+DMRL -> DM
+ConfigMgmt -> LSA
+LSA -> ACT
+PCT -> PM
+ACT -> DM
+DM -> PM
+"Deliverable Requirements" -> PM
+PM -> IETM
+PM -> PDF
+PM -> Whatever
+}
+----
+
+[transition="zoom"]
+=== Changing Product
+
+Change process is not so well documented, that is changing with new specs being added to the S-Series family. 
+
+The change originates in a formal document, propagates to a planned change with individual DMs, then is published as a separate SB if necessary.
+
+.New Product
+[graphviz]
+----
+digraph automata{
+rankdir="LR"
+node [shape = record];
+node [fontname = "arial"];
+"ECO/ECN/ECR" -> ChangePlan
+ChangePlan -> DM
+ChangePlan -> ACT
+ChangePlan -> PM
+ChangePlan -> SB
+DM -> Diff -> "Change Artifacts: RevHist, LoEDM, Change Bars"
+"Change Artifacts: RevHist, LoEDM, Change Bars" -> PM
+}
+----
+
+== Alternatives and Horizons
+
+S1000D is a tripartite specification:
+
+. Content architecture: what are files called, how to they link, etc
+. Semantic specification: what is a component called, what's a system
+. Markup specification: //para means paragraph, etc
+
+[transition="zoom"]
+=== What's that mean?
+
+This means you can use the Content Architecture part of the spec for interoperability, while using another markup language or set of internal semantics to do the actual work.
+
+What we have to consider, though, is that in speeding up the development of S1000D documents we might be undermining the  principle behind aviation publications:
+
+Slow and safe
+
+== Final Notes
+
+I do eat my own dogfood! This presentation written with 
+
+. Visual Studio Code
+. Asciidoctor extension for VSC (Asciidoctor.js)
+. asciidoctor-reveal.js for the presentation
+. Kroki for flowcharts
+. Mermaid for gantt/timelines
+
+
+
+
+
+
+

@@ -1,0 +1,198 @@
+= The Applicability Trap
+:backend: revealjs
+:revealjs_theme: solarized
+:revealjs_width: 1920
+:icons: font
+:title-slide-background-image: SUPERPLANED.png
+
+== Definitions
+
+[horizontal]
+CCS:: tasks, transclusion, map, conditions, deliverables
+Product:: Products, Systems, Components, Variants
+Maturity:: Design, Prototype, Test, Production
+
+== The Story
+
+"Duplication is always less expensive than bad abstraction"
+
+image:Abstraction.png[]
+
+=== Product
+
+BigCorp makes a new product, SUPERPLANE. It will have three variants: A, B, and C. 
+
+image:PlaneVariants.png[width=800]
+
+=== Publications planning
+
+The SUPERPLANE publications department opts to use CCS techniques. 
+
+They create a "chunking" strategy based on SUPERPLANE's requirements. 
+
+Each chunk or task can support multiple variants via conditional content (applicability), so the HANDBOOK SUPERPLANE A uses the same tasks as HANDBOOK SUPERPLANE B.
+
+For example, one set of tasks is for the Wing System, and another set of tasks is for the Fuel System.
+
+=== Things go well
+
+The tasks are produced and revisioned independent of the product variants. 
+
+Writers use conditions to specialize each of the tasks for the variant.
+
+Efficiency is gained. Automated builds mean that each Product variant has the latest version of the documentation.
+
+=== SUPERPLANE D Introduction
+
+image:PlaneVariants2.png[width=800]
+
+Hmm
+
+Can you spot anything . . _different_?
+
+=== D Variant Impact on Publications
+
+It's determined that SUPERPLANE D will also function as a car. 
+
+The Wing and Fuel systems will now be WingFuel System. 
+
+There are new systems to support ground travel.
+
+*SUPERPLANE D is the new baseline*
+
+but . . 
+
+*SUPERPLANE B has Systems that do not work on SUPERPLANE D!*
+
+=== Impact Continued II
+
+WingFuel System tasks are created - but new files don't share change history with separate Wing and Fuel.
+
+The history of Wing and Fuel tasks is lost for SuperPlane D.
+
+This will cause problems with the FAR/FAA TC (type certification) process.
+
+=== Impact Continued III
+
+image:GreatScott.png[]
+
+=== {empty}
+
+Conditional Directives for SUPERPLANE B can't support SUPERPLANE D as the "new baseline". This causes publishing failures and content failures - the Grandfather Paradox in action. 
+
+This results in contract problems and airworthiness inspection issues, as our inspection procedures are no longer valid.
+
+=== Impact Continued IV
+
+The conditional overhead in a typical task is now greater than the amount of content that is saved via de-duplication, due to complexity. The gains we sought have been eliminated.
+
+
+=== {empty}
+
+Add costs of migration, implementation, plus fines, and costs of AOG (aircraft on ground). 
+
+This is the stuff that gets your publications system shut down, your department restructured, your boss fired, or every writer fired and references burnt for all time - basically setting your CV on fire.
+
+Or all of the above.
+
+=== Cleaning Up
+
+AKA, digging ourselves out of this mess
+
+Behind the scenes, SUPERPLANE D is classified as a separate Product - not a variant of SUPERPLANE.
+
+A new "pseudo-variant" SUPERPLANE 0 is created to include the baseline parts from SUPERPLANE D - but NOT the new Systems. 
+
+The deliverable for SUPERPLANE D variant is folded back into SUPERPLANE fold post-processing, as a technical appendix in the deliverable.
+
+=== Litmus Test: Are you in the Applicability Trap?
+
+. Given a product component/system, make a separate task for each variant, add them up.
+. Now make one task, but use conditional content for variants.
+. *If the single task is longer than the combined tasks, you are in the Applicability Trap*. 
+
+This test can be automated for a codebase fairly easily.
+
+=== Nothing new
+
+
+These are not new problems. Issues with *display* (style), *addressing* (DMCs), and *modification* (applicability) were predicted as early as 1997 by architects working with transclusion in DynaText, Hytime, and SGML/DSSSL.
+
+LaTeX and CommonMark emphatically rejected transclusion as a design goal due to necessarily domain semantics - precisely what we see with the Applicability Trap. 
+
+=== Conservation of Complexity
+
+image:SoManyConditions.png[width=700]
+
+Variants live in a change system (as forks) or in an applicability model.
+
+The Trap is a side effect from cumulative overhead of conditional logic - it's agnostic of tools/markup.
+
+== Why Did This Happen?
+
+*Many stones to throw here*, but root cause is inherent to CCS/CCMS. CCS replaces:
+
+. *natural language* of unified documents (headings, etc) with
+. *constructed language* of a Product/BIS (business information system, generating things like Systems, Variants, etc).
+
+If the BIS is well-architected, all goes well. 
+
+If the BIS *isn't* . . then a CCS deliverable is meaningless.
+
+== Lessons Learned: New Products
+
+CCS / CCMS techniques poor fit for product at Design or Prototype maturity without extremely active Maintainability, Logistics, and Support. 
+
+What're your options?
+
+[transition="zoom"]
+=== Unified Formats
+
+Use unified (non-CCS) formats for prototype product. 
+
+That means one deliverable per variant. Lots of duplication, but no reliance on Systems, Configuration Management, etc.
+
+image:OldTimes.png[width=300, float=left]
+
+
+Old-timey, sure. But old-timey works for a reason.
+
+[transition="zoom"]
+=== Get Support
+
+If CCS/CCMS is contractually required, Configuration Management and Maintainability must be active players in the CCS "chunking" (DMCs). 
+
+The same groups must also be active in planning Conditions (applic).
+
+=== You Might Not Have Any Support
+
+image:GenInTheRobot.png[width=500]
+
+But you can't force everyone to get on the boat.
+
+[transition="zoom"]
+=== Pseudo-Product (S1000D SDC)
+
+If pubs HAS to "go it alone" AND has contractual requirements for CCS, THEN give the tasks their own variant code (S1000D SDC, DISCODEV, INCODEV)
+
+*ISOLATE* until this . . whatever this is . . is mature. 
+
+Then merge back when it's entered FRP (full rate production) - IF it ever shares content with anything else. Which it probably will not - it's unarchitected. 
+
+Also, put the FAA on speed dial, because this is a huge red flag.
+
+== Lessons Learned: New Variants
+
+With mature product, tag overactive "variants" early and *escalate*. 
+
+Use S1000D SDC (or discodev [disassembly code variant] equivalent) liberally for alien, immature, undocumented variants.
+
+Strongly consider unified formats for those "variants" which have 0% commonality with anything else. _Because those aren't variants. Someone's making fibs, for money._
+
+== Inactive Leadership Still Gets You Fired When The Whole Damn Thing Lawn Darts Into An Elementary School
+
+If leadership is inactive, <<Cleaning Up, take action>>. 
+
+Blame flows down regardless, so . .
+
+we might as well fix things.
