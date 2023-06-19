@@ -7,17 +7,12 @@ v0.0.1, October 7, 2020: Initial revision
 :toc: left
 :toclevels: 4
 :numbered:
-:CONFIGZ:
-:CONFIGZ1:
+:CONFIG2: 000000101
 
-== General
+include::../DMC/DMC-DEMO-000-10-00-01A-040B-A.adoc[leveloffset=+1]
 
-=== Demo systems
+include::../DMC/DMC-DEMO-000-10-00-01A-280A-A.adoc[leveloffset=+1]
 
-include::../DMC/DMC-ASCII1KD-DEMO-000-10-00-01A-040B-A.adoc[leveloffset=+3]
+include::../DMC/DMC-DEMO-000-10-00-01A-520A-A.adoc[leveloffset=+1]
 
-include::../DMC/DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A.adoc[leveloffset=+3]
-
-include::../DMC/DMC-ASCII1KD-DEMO-000-10-00-01A-520A-A.adoc[leveloffset=+3]
-
-include::../DMC/DMC-ASCII1KD-DEMO-000-10-00-01A-720A-A.adoc[leveloffset=+3]
+include::../DMC/DMC-DEMO-000-10-00-01A-720A-A.adoc[leveloffset=+1]

@@ -8,12 +8,6 @@
 
 == Prerequisites
 
-[format=csv]
-|===
-include::../PIR/DMC-DEMO-000-10-00-01A-00GA-A.csv[tag=720A]
-|===
-
-
 === Support equipment
 
 NA
@@ -24,7 +18,10 @@ NA
 
 === Spares
 
-NA
+[format=csv]
+|===
+include::../PIR/DMC-DEMO-000-10-00-01A-00GA-A.adoc[tag=720A]
+|===
 
 == Procedure
 

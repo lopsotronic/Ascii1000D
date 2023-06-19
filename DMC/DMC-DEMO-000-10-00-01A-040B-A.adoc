@@ -18,3 +18,13 @@ Content
 
 Descriptive data modules are relatively unconstrained. 
 
+ifdef::CONFIG1[]
+This content is specific to CONFIG1.
+endif::CONFIG1[]
+
+ifdef::CONFIG2[]
+This content is specific to CONFIG2.
+endif::CONFIG2[]
+
+
+
