@@ -1,0 +1,374 @@
+= Ascii1000D: Overview
+John Mogilewsky
+v0.0.1, {docdate}
+:imagesdir: images
+:title-slide-background-image: Ascii1000D.png
+:backend: revealjs
+:revealjs_theme: solarized
+:revealjs_width: 1920
+:icons: font
+
+== Origins
+
+=== XML Component Content Systems (CCS)
+
+* DITA: Information Mapping, Minimalism, IBM, HUGHES STOP
+
+* S1000D: ATA 100, BMoD Spec 200, DDC, AECMA Spec 1000D
+
+* DocBook xinclude + profiles
+
+=== S1000D as Tripartite Specification
+
+* Business Architecture Spec: DMCs, PMs, Applic, etc
+
+* Semantic Spec: "Procedures" represented by steps, etc
+
+* Markup Spec: <para0/>, <step/>, XSD, etc
+
+Takeaway: you can use the BA with another markup spec. *The S1000D WG did this themselves*, writing the spec in MS Word.
+
+=== CCS Common Functionality
+
+* Transclusion
+
+* Partial Transclusion
+
+* Conditionals
+
+=== Lightweight Markup Languages (LMLs)
+
+Markdown (MD), ReStructuredText (RsT), Org-Mode (ORG), LaTeX (LTX), Asciidoc (ADOC)
+
+
+=== CCS Functionality in Lightweight Markup
+
+* Asciidoc (core)
+
+* RsT (core)
+
+* Markdown (extensions)
+
+
+=== Asciidoc as Heavy Industry CCS
+
+* DocBook XML equivalence
+
+* Complex print output, mature table model
+
+* Transclusion, Partial Transclusion, Conditionals
+
+* Open standards for editing, versioning, output
+
+=== The Applicability Trap
+
+* CCS tightly couple publications to product.
+
+* This fundamentally changes the nature of documentation. This can go badly!
++
+NOTE: Origins of CCS were pedagogy / psychiatry academics and/or with extremely constrained corpus - NOT computational science or linguistics.
+
+* "New variant of SuperPlane is also a lawnmower"
+
+== Architecture
+
+=== Large Scale
+
+[graphviz, JABS076, svg]
+----
+digraph g {
+  graph [fontsize=10 fontname="Arial" compound=true];
+  edge [arrowsize=".5"]
+  node [shape=record]
+  node [fontname="Arial" fontsize=10]
+  rankdir="LR";
+"Blue = git version controlled" [color=blue]
+"Red = DMC process problem" [color=red]
+"??Business??
+??Intelligence??
+??Thing??" [shape=tripleoctagon]
+"??Business??
+??Intelligence??
+??Thing??" -> "Solid Model" [style="dotted" arrowsize=0]
+"??Business??
+??Intelligence??
+??Thing??" -> "PDM" [style="dotted" arrowsize=0]
+"??Business??
+??Intelligence??
+??Thing??" -> "LSAR" [style="dotted" arrowsize=0]
+"Xquery" [color=blue]
+"PCIR (engineering)" [color=blue]
+"PCIR (release)" [color=blue]
+"PCIR (production)" [color=blue]
+"LSAR" -> "PCIR (production)"
+"LSAR" -> "MTA" [color=red]
+"MTA" -> "DMC" [color=red]
+"MTA" -> "Many many many
+other MX Procedures" [color=red]
+"Solid Model" -> "3MF/STEP"
+"PDM" -> "PCIR (release)"
+"PCIR (release)" -> "Parts Data (TextQL)"
+"3MF/STEP" [color=blue]
+"3MF/STEP" -> "OpenCascade"
+"OpenCascade" -> "SVG (PDF)"
+"OpenCascade" -> "Web 3D (HTML)"
+"3MF/STEP" -> "Xquery"
+"Xquery" -> "PCIR (engineering)"
+"PCIR (engineering)" -> "Parts Data (TextQL)"
+"PCIR (production)" -> "Parts Data (TextQL)"
+        subgraph cluster_01{
+        color=blue;
+        subgraph cluster_0 {
+            subgraph cluster_1 {
+            color=black;
+            "Web 3D (HTML)" [color=blue];
+            "SVG (PDF)" [color=blue];
+            label = "ICN";
+            }
+        "Parts Data (TextQL)" ;
+        "DMC";
+        label = "MX Procedure 000" ;
+    }
+        "Many many many
+other MX Procedures" [color=blue]
+    label = "Publication Module" ;
+    "User-defined Attributes
+for Applicability";
+    }
+   
+}
+----
+
+== Implementation
+
+=== Version Control
+
+* GitLab (on-prem)
+
+* GitHub (cloud)
+
+* BitBucket (BB)
+
+* Git Client: Github Desktop, Gitlab GitDock, BB Client
+
+=== Editors
+
+* AsciidocFX: self-contained, DocBook PDF pipeline
+
+* Visual Studio Code (VSC): "best in show" text editor, change history accessible in the editor
+
+** VSC means you'll need some form of PDF tooling, but if you are designing for the future you will want automated PDF build anyway: asciidoctor-pdf (Ruby/prawn); asciidoctor-web-pdf (JS+CSS); FOPUB (DBXSL)
+
+* Any text editor: NPP, Sublime, Atom, etc
+
+=== Other Software
+
+* WireViz: Python utility for automating wiring diagrams from textual harness description
++
+NOTE: It's hard to overstate how good this is
+
+* TextQL: Asciidoc extension for selectively including *columns* and *rows* from an external CSV file using SQL
+
+=== Project Management
+
+* Self-hosted OSS: GitLab, OpenProject, Redmine, Taiga, Trac, etc
+
+* Cloud: Taiga, GitLab
+
+* Proprietary: Azure/Teams, JIRA, GitHub, Trello
+
+=== Build Systems
+
+WARNING: Depending entirely on the business requirements - your org might not need a build system.
+
+* Antora: official build engine for Asciidoc, uses asciidoctor-web-pdf, slight re-think of architecture
+
+* DocToolChain: older pipeline, more DocBook integration
+
+* Jenkins, Gradle, extending GitLab/GitHub
+
+=== Output Options
+
+[graphviz, adocpipeline8, svg]
+----
+digraph g {
+  edge [arrowsize=".5"]
+  node [shape=record]
+  node [fontname="Arial" fontsize=18]
+  rankdir="TD";
+    "Content" -> "Asciidoc"
+    "Asciidoc" -> "Presentation"
+    "Presentation" -> CSS
+    "Presentation" -> "DocBook-XSL templates"
+    "Presentation" -> "theme.yml"
+    "Presentation" -> "TeX CTAN templates"
+    "Presentation" -> "React.js template"
+    "Asciidoc" -> HTML
+    HTML -> "WeasyPrint (Python)"
+    CSS -> "WeasyPrint (Python)"
+    "WeasyPrint (Python)" -> "PDF (Weasyprint)"
+    HTML -> "Paged.js"
+    CSS -> "Paged.js"
+    CSS -> "MOBI"
+    CSS -> "HTML"
+    "Paged.js" -> "PDF (paged.js)"
+    "React.js template" -> "Paged.js"
+    HTML -> "Prince ($$$)"
+    "Prince ($$$)" -> "PDF (Prince)"
+    "DocBook" -> "PDF (DocBook-XSL)"
+    "DocBook-XSL templates" -> "PDF (DocBook-XSL)"
+    "DocBook" -> "Prince ($$$)"
+    "Asciidoc" -> "theme.yml"
+    "theme.yml" -> "PDF (Prawn)"
+    "Asciidoc" -> "DocBook"
+    "Asciidoc" -> "DBLaTeX (Python)"
+    "TeX CTAN templates" -> "DBLaTeX (Python)"
+    "DBLaTeX (Python)" -> "PDF (LaTeX)"
+    "Asciidoc" -> "Pandoc"
+    "Asciidoc" -> "CSS" -> "ePub"
+    "Asciidoc" -> "MOBI"
+    "Pandoc" -> "Markdown"
+    "Pandoc" -> "DOCX"
+    "Pandoc" -> "ReStructuredText"
+    "Pandoc" -> "RTF"
+    "Pandoc" -> "Man page"
+    "Pandoc" -> "TexInfo"
+    "Pandoc" -> "MediaWiki"
+    "Pandoc" -> "OrgMode"
+}
+----
+
+== Creating a New Project
+
+=== Establish the DMRL
+
+* List Data Modules required for support of a Product and all its planned variants
+
+* If not integrating with LSA, use CSV to coordinate the Data Module Codes.
+
+** Also recommended to use Tabula to strip DMC tables from Issue 3.0.1 of the spec.
+
+=== Create DMs
+
+* Use bash or PowerShell to create Data Modules for writers.
+
+* Check in to master.
+
+=== Write Data Modules
+
+* Writers get a Writer Branch.
+
+* Writers populate content.
+
+* Writers create issues in Project Management for missing illustrations.
+
+=== Illustration Pipeline
+
+WARNING: Business-dependent
+
+* Art creation
+
+* Illustration Control Files (ICF) control which art is visible for purposes of applicability
+
+=== Parts Common Information Repositories (pCIRs)
+
+* Exported from:
+** CAD
+** PDM
+** LSAR
+
+This will change depending on the product's maturity, and how the business decides to use the pCIR CSVs.
+
+=== Review
+
+When writer and art is complete, create a Review (SME) branch
+
+This branch is checked out by reviewers
+
+When the reviewers have marked up their version, SME branch is merged back to writer branch
+
+Writer may then implement or reject reviews
+
+=== Publication Module
+
+Publication Module for the product is finalized from the DMRL
+
+Each variant may have its own PM, re-using the Data Modules as applicable
+
+=== Publish
+
+Writer branch is merged with Master
+
+=== GitFlow
+
+[[gitflow]]
+[mermaid]
+----
+gitGraph
+   commit
+   branch Approval
+   checkout Approval
+   checkout main
+   branch "SuperProp Feature" 
+   checkout "SuperProp Feature"
+   commit type: HIGHLIGHT tag: "Writer works feature"
+   commit
+   branch SME
+   checkout SME
+   commit type: HIGHLIGHT tag: "SME comments"
+   commit 
+   checkout "SuperProp Feature"
+   merge SME type: HIGHLIGHT tag: "SME inclusion"
+   commit
+   commit type: HIGHLIGHT tag: "Final edits"
+   checkout Approval
+   merge "SuperProp Feature" type: HIGHLIGHT tag: "Approval of Change Package"
+   checkout main
+   merge Approval type: HIGHLIGHT tag: "Publication"
+----
+
+== Revisions
+
+=== Engineering Change to DocPlan
+
+Evaluate engineering change by identifying the Data Modules, Variants (Applicability), and Publications affected
+
+This listing becomes the change package, which can be run independently as a non-releasable document
+
+=== Writer Branch + Review
+
+Writer begins work on impacted Data Modules
+
+SME review as with new Project
+
+=== Generate Change Artifacts
+
+*Revision History Table*, *List of Effective Data Modules*, and *Change Bars* are generated by diffing the Writer Branch vs the Master Branch's release states
+
+=== Merge with Master
+
+Writer Branch is merged into Master as the approval process
+
+== Complications
+
+=== The Applicability Trap
+
+Yes, mentioning this twice.
+
+=== Technical Skills Gap
+
+Writers for heavy industry publications not conversant with git, full-featured text editors, or other "programmer skills"
+
+=== Systems Ownership
+
+Who owns the systems that are being set up? Project Management and content hosting are now the org's responsibility and not a vendor's. 
+
+We're not "building our own" with Ascii1000D, we're using a generally available coding platform, but we're using it for documentation. 
+
+Still, the point remains: the buck now stops with us.
+
+=== Ugly Output
+
+All modular documentation is 1) uglier, 2) clumsier, and 3) more complicated than a unified document created in a dedicated layout system (i.e., InDesign). 
+
+Modifying layouts requires special skills, either XSL-FO or Javascript + CSS.

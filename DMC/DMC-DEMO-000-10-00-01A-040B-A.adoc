@@ -4,9 +4,17 @@
 :part-title: DMC-ASCII1KD-DEMO-000-10-00-01A-040B-A
 
 [abstract]
-DMC-ASCII1KD-DEMO-000-10-00-01A-040B-A
+{part-title}
 
 == Description
 
 Content
+
+* Bullet
+* Bullet
+* Bullet
+
+== Description part two
+
+Descriptive data modules are relatively unconstrained. 
 

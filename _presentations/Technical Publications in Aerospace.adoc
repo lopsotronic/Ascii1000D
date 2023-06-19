@@ -4,7 +4,6 @@
 :revealjs_width: 1920
 :icons: font
 :data-uri:
-:imagesdir: images
 
 == Why is this a thing?
 

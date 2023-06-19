@@ -1,4 +1,4 @@
-Acronyms - Common information repository
+= Acronyms - Common information repository
 
 
 // tag::AC[]

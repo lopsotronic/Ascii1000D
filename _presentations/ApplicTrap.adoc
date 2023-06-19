@@ -1,14 +1,18 @@
 = The Applicability Trap
+:imagesdir: images
 :backend: revealjs
 :revealjs_theme: solarized
 :revealjs_width: 1920
 :icons: font
-:title-slide-background-image: SUPERPLANED.png
+:title-slide-background-image: SUPERPLANED.png[]
+
+image::SUPERPLANED.png[background, size=cover]
+
 
 == Definitions
 
 [horizontal]
-CCS:: tasks, transclusion, map, conditions, deliverables
+CCS:: Component Content System, meaning: tasks, transclusion, map, conditions, and deliverables
 Product:: Products, Systems, Components, Variants
 Maturity:: Design, Prototype, Test, Production
 
@@ -18,11 +22,13 @@ Maturity:: Design, Prototype, Test, Production
 
 image:Abstraction.png[]
 
+All CCS (Component Content Systems) _abstract_ the natural language of a unified document into independent modules and sets of conditions.
+
 === Product
 
 BigCorp makes a new product, SUPERPLANE. It will have three variants: A, B, and C. 
 
-image:PlaneVariants.png[width=800]
+image:PlaneVariants.png[width=700]
 
 === Publications planning
 
@@ -44,9 +50,9 @@ Efficiency is gained. Automated builds mean that each Product variant has the la
 
 === SUPERPLANE D Introduction
 
-image:PlaneVariants2.png[width=800]
+Uh-oh
 
-Hmm
+image:PlaneVariants2.png[width=800]
 
 Can you spot anything . . _different_?
 
@@ -120,24 +126,29 @@ These are not new problems. Issues with *display* (style), *addressing* (DMCs), 
 
 LaTeX and CommonMark emphatically rejected transclusion as a design goal due to necessarily domain semantics - precisely what we see with the Applicability Trap. 
 
+////
+=== {empty}
+
+Note that architects of CCS (DITA, S1000D) come primarily from Psychology and Social Science backgrounds - there is very little representation from Linguistics (Formal, Computational, or otherwise)
+////
+
 === Conservation of Complexity
 
 image:SoManyConditions.png[width=700]
 
 Variants live in a change system (as forks) or in an applicability model.
 
-The Trap is a side effect from cumulative overhead of conditional logic - it's agnostic of tools/markup.
+The Trap is a side effect from cumulative overhead of conditional logic - it's a risk for CCS as a _concept_, regardless of markup.
 
 == Why Did This Happen?
 
-*Many stones to throw here*, but root cause is inherent to CCS/CCMS. CCS replaces:
+*Many stones to throw here*, but root cause is inherent to CCS/CCMS. 
 
-. *natural language* of unified documents (headings, etc) with
-. *constructed language* of a Product/BIS (business information system, generating things like Systems, Variants, etc).
+CCS replaces: *natural language* of unified documents (headings, etc) with *constructed language* of a Product/BIS (business information system, generating things like Systems, Variants, etc).
 
-If the BIS is well-architected, all goes well. 
+If the BIS is well-architected, then all goes well. 
 
-If the BIS *isn't* . . then a CCS deliverable is meaningless.
+If the BIS _isn't_ . . then a *CCS deliverable is meaningless*.
 
 == Lessons Learned: New Products
 
@@ -152,10 +163,11 @@ Use unified (non-CCS) formats for prototype product.
 
 That means one deliverable per variant. Lots of duplication, but no reliance on Systems, Configuration Management, etc.
 
-image:OldTimes.png[width=300, float=left]
-
+image:OldTimes.png[width=200, float=left]
 
 Old-timey, sure. But old-timey works for a reason.
+
+But sometimes you're required to take the CCS path.
 
 [transition="zoom"]
 === Get Support
@@ -189,7 +201,7 @@ Use S1000D SDC (or discodev [disassembly code variant] equivalent) liberally for
 
 Strongly consider unified formats for those "variants" which have 0% commonality with anything else. _Because those aren't variants. Someone's making fibs, for money._
 
-== Inactive Leadership Still Gets You Fired When The Whole Damn Thing Lawn Darts Into An Elementary School
+== Inactive Leadership Still Gets You Fired When The Thing Lawn Darts Into An Elementary School
 
 If leadership is inactive, <<Cleaning Up, take action>>. 
 

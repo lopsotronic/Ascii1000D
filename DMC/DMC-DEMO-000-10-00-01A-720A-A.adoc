@@ -4,10 +4,42 @@
 :part-title: DMC-ASCII1KD-DEMO-000-10-00-01A-720A-A
 
 [abstract]
-DMC-ASCII1KD-DEMO-000-10-00-01A-720A-A
+{part-title}
 
 == Prerequisites
 
-Content
+[format=csv]
+|===
+include::../PIR/DMC-DEMO-000-10-00-01A-00GA-A.csv[tag=720A]
+|===
 
-{part-title}
+
+=== Support equipment
+
+NA
+
+=== Supplies
+
+NA
+
+=== Spares
+
+NA
+
+== Procedure
+
+[.procedure]
+
+. Install the part
+
+ifdef::CONFIG1[]
+. For CONFIG1, perform the following steps
+.. Remove the yellow light]
+endif::CONFIG1[]
+
+== Closing Requirements
+
+|===
+|Perform inspection|
+<<../DMC/DMC-DEMO-000-10-00-01A-280A-A.adoc#DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A>>
+|===

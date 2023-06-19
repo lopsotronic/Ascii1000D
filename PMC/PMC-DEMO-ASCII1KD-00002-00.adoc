@@ -1,4 +1,4 @@
-= Ascii1000D Test : PNR 999-999999-999
+= Ascii1000D Test : PNR 999-999999-998
 John Mogilewsky <mogilews@gmail.com>
 v0.0.1, October 7, 2020: Initial revision
 :doctype: book

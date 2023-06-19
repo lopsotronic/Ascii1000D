@@ -1,0 +1,6 @@
+:icons: font
+:icon-set: fas
+:experimental:
+
+kbd:[icon:arrow-up[\], icon:arrow-down[\], icon:arrow-right[\],icon:arrow-left[\]]
+

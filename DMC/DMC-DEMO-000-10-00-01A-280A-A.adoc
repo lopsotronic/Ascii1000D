@@ -1,12 +1,24 @@
-[[DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A.adoc]]
+[[DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A]]
 = Ascii1000D - Inspect
+:!part-title:
+:part-title: DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A
 
 [abstract]
-DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A
-
+{part-title}
 
 == Prerequisites
-:CONFIG1:
+
+=== Support equipment
+
+NA
+
+=== Supplies
+
+NA
+
+=== Spares
+
+NA
 
 == Procedure
 
@@ -24,3 +36,7 @@ ifdef::CONFIG1[]
 . If the system is CONFIG1, check yellow warning light
 endif::CONFIG1[]
 . Confirm green light
+
+== Closing Requirements
+
+NA

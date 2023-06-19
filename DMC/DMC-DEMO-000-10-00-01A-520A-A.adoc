@@ -4,8 +4,30 @@
 :part-title: DMC-ASCII1KD-DEMO-000-10-00-01A-520A-A
 
 [abstract]
-DMC-ASCII1KD-DEMO-000-10-00-01A-520A-A
+{part-title}
 
 == Prerequisites
 
-Content
+=== Support equipment
+
+NA
+
+=== Supplies
+
+NA
+
+=== Spares
+
+NA
+
+== Procedure
+
+[.procedure]
+. Remove the part
++
+WARNING: Do not remove the wrong part
+
+
+== Closing Requirements
+
+NA
