@@ -36,6 +36,7 @@ endif::CONFIG1[]
 . Reserve spare units in accordance with 
 include::../CIR/DMC-DEMO-000-00-00-01A-0A6A-A.adoc[tag=OEM]
 published storage procedures.
+
 == Closing Requirements
 
 NA
