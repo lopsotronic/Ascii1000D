@@ -29,6 +29,8 @@ Turn on the system
 include::../CIR/DMC-DEMO-000-00-00-01A-0A6A-A.adoc[tag=AC]
 during maintenance.
 
+. Ensure electrical safety procedures are followed.
+
 ifdef::CONFIG1[]
 . If the system is CONFIG1, check yellow warning light
 endif::CONFIG1[]
