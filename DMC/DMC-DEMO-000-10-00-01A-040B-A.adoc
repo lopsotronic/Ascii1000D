@@ -3,12 +3,9 @@
 :!part-title:
 :part-title: DMC-ASCII1KD-DEMO-000-10-00-01A-040B-A
 
-[abstract]
-{part-title}
-
 == Description
 
-System definitions
+=== System definitions
 
 .Unordered List
 * Item
@@ -22,6 +19,10 @@ System definitions
 .. Item
 ... Item
 . Item
+
+=== System 2 Definitions
+
+Demo for change process
 
 == Description part two
 
