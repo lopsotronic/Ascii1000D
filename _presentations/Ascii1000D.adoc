@@ -312,20 +312,20 @@ gitGraph
    checkout main
    branch "SuperProp Feature" 
    checkout "SuperProp Feature"
-   commit type: HIGHLIGHT tag: "Writer works issue feature"
+   commit type: HIGHLIGHT tag: "Writer works feature"
    commit
    branch SME
    checkout SME
    commit type: HIGHLIGHT tag: "SME comments"
    commit 
    checkout "SuperProp Feature"
-   merge SME type: HIGHLIGHT tag: "PR SME inclusion"
+   merge SME type: HIGHLIGHT tag: "SME inclusion"
    commit
    commit type: HIGHLIGHT tag: "Final edits"
    checkout Approval
-   merge "SuperProp Feature" type: HIGHLIGHT tag: "PR Approval of Change Package"
+   merge "SuperProp Feature" type: HIGHLIGHT tag: "Approval of Change Package"
    checkout main
-   merge Approval type: HIGHLIGHT tag: "PR Publication"
+   merge Approval type: HIGHLIGHT tag: "Publication"
 ----
 
 == Revisions
