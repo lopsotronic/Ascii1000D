@@ -3,8 +3,6 @@
 :!part-title:
 :part-title: DMC-ASCII1KD-DEMO-000-10-00-01A-520A-A
 
-[abstract]
-{part-title}
 
 == Prerequisites
 
@@ -27,6 +25,9 @@ NA
 +
 WARNING: Do not remove the wrong part
 
+. Reserve the removed part for bench testing according to
+include::../CIR/DMC-DEMO-000-00-00-01A-0A6A-A.adoc[tag=OEM]
+ storage procedures.
 
 == Closing Requirements
 
