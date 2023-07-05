@@ -1,0 +1,319 @@
+<?xml-stylesheet href="TB-landscape.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="TB-landscape.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2012, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN" [
+<!ENTITY flyingparticles_eyeshield SYSTEM "P:\Graphics\_Standard symbols\Warning icons\flyingparticles_eyeshield.tif" NDATA tif>
+<!ENTITY cryogenic SYSTEM "P:\Graphics\_Standard symbols\Warning icons\cryogenic.tif" NDATA tif>
+<!ENTITY need-a-graphic SYSTEM "P:\Graphics\_Standard symbols\need_a_graphic.tif" NDATA tif>
+<!NOTATION txt SYSTEM "txt">
+<!NOTATION gif SYSTEM "gif">
+<!NOTATION bmp SYSTEM "bmp">
+<!NOTATION jpg SYSTEM "jpg">
+]>
+<?Pub Inc>
+<doc service="army" docid="1-1500-341-01" docstat="formal" columns="one">
+<front>
+<idinfo>
+<tmidno service="army"></tmidno>
+<doctype pubtype="tb"> </doctype>
+<prtitle>
+<nomen>AIRCRAFT COMPONENTS REQUIRING<brk>MAINTENANCE MANAGEMENT AND<brk>HISTORICAL
+DATA REPORTS </nomen>
+</prtitle>
+<distrib type="d">Approved for public release, distribution is unlimited.
+Approved for public release, distribution is unlimited. Approved for
+public release, distribution is unlimited.</distrib>
+<supersed>This bulletin supersedes TB 1-1500-341-01, dated 1 March
+2010.</supersed>
+<authnot>HEADQUARTERS, DEPARTMENT OF THE ARMY</authnot>
+<pubdate>DD MMMMMMM 2013</pubdate></idinfo>
+<reportoferrors>
+<para>You can help improve this manual. If you find mistakes or know
+of a way to improve procedures, please let us know. Mail your letter,
+(Recommended Changes to Publications and Blank Forms) located at the
+back of this manual, directly to: US. You can improve this manual.
+If you find any mistakes or if you know of a way to improve these
+procedures, please let us know. Mail your letter or DA Form 2028 (Recommended
+Changes to Publications and Blank Forms), located in the back of this
+manual, directly to: Commander, U.S. Army Aviation and Missile Command,
+ATTN: AMSAM-MMA-L, Redstone Arsenal, AL 35898-5000. A reply will be
+furnished to you. You may also send in your comments electronically
+to our E-mail address: 2028@redstone.army.mil or by fax 256-842-6546/DSN
+788-6546. For the World Wide Web use: https://amcom2028.redstone.army.mil.
+Instructions for sending an electronic 2028 may be found at the back
+of this manual immediately preceding the hard copy 2028.</para>
+</reportoferrors>
+<hazardmaterialstatement><para>This document has been reviewed for
+the presence of HAZARDOUS CHEMCIALS AND TOXIC SUBSTANCES as defined
+by the EPCRA 302 and 313 lists by the AMCOM G-4 (Logistics) Environmental
+Division. As of base document, dated 1 March 2010, all references
+to Hazardous Chemicals and Toxic Substances have been removed from
+this document by substitution with non-hazardous or less hazardous
+materials where possible.</para></hazardmaterialstatement>
+<contents></front>
+<body>
+<chapter label="nonum">
+<title></title>
+<para0>
+<title>PURPOSE.</title><para>This Technical Bulletin (TB) prescribes
+the aircraft components/parts for which a requirement is established
+to maintain and collect maintenance and historical data.  <emphasis
+type="undl">This bulletin supersedes the previous TB 1-1500-341-01,
+dated 31 March 2010, and incorporates up to and including Change 64
+to the Unit Level Logistics System-Aviation (ULLS-A) Parts Master
+Files.</emphasis></para>
+<para>The most current information for this TB (incorporating all
+safety message changes or information from the Program Management
+offices) is available online at the TAMMS-A/MCDS website (https://tammsa.redstone.army.mil/).
+ Select &ldquo;Legitimate Code File&rdquo; from the &ldquo;APPS&rdquo;
+drop down menu.  PKI is required to access this site. </para>
+</para0>
+<para0>
+<title>RESPONSIBILITIES.</title>
+<subpara1>
+<title></title><para></para>
+</subpara1>
+<subpara1>
+<title></title><para></para>
+</subpara1>
+<subpara1>
+<title></title><para></para>
+</subpara1></para0>
+<para0>
+<title>DEFINITIONS.</title>
+<subpara1>
+<title>End Item. </title><para></para>
+</subpara1>
+<subpara1>
+<title></title><para></para>
+</subpara1>
+<subpara1>
+<title></title><para></para>
+</subpara1>
+<subpara1>
+<title></title><para></para>
+</subpara1>
+<subpara1>
+<title></title><para></para>
+</subpara1>
+<subpara1>
+<title></title><para></para>
+</subpara1>
+<subpara1>
+<title></title><para></para>
+</subpara1>
+<subpara1>
+<title></title><para></para>
+</subpara1>
+<subpara1>
+<title></title><para></para>
+</subpara1></para0>
+<para0>
+<title>GENERAL INSTRUCTIONS.</title></para0>
+</chapter>
+<chapter>
+<title></title>
+<section>
+<title>(SORTED BY SYSTEM/WUC per NHA)<brk>AH-64 AIRCRAFT</title>
+<table>
+<title></title>
+<tgroup cols="13"><colspec colname="col1" colwidth="1.36*"><colspec
+colname="col2" colwidth="0.97*"><colspec colname="col3" colwidth="0.97*">
+<colspec colname="col4" colwidth="0.96*"><colspec colname="col5"
+align="center" colwidth="0.97*"><colspec colname="col6" align="center"
+colwidth="0.97*"><colspec colname="col7" align="center" colwidth="0.97*">
+<colspec colname="col8" align="center" colwidth="0.97*"><colspec
+colname="col9" align="center" colwidth="0.97*"><colspec colname="col10"
+align="center" colwidth="0.96*"><colspec colname="col11" align="center"
+colwidth="0.97*"><colspec colname="col12" align="center"
+colwidth="0.97*"><colspec colname="col13" align="center"
+colwidth="0.97*">
+<thead>
+<row valign="bottom"><entry>NOUN</entry><entry>PN</entry><entry>NSN</entry>
+<entry>WUC</entry><entry>MUO</entry><entry>TYPE 1</entry><entry>FORM
+16</entry><entry>NHA 16</entry><entry>TC-16</entry><entry>CC-16</entry>
+<entry>DA 2410</entry><entry>NHA 16&ndash;1</entry><entry>FORM 16&ndash;1
+</entry></row><?Pub Caret 7>
+</thead>
+<tbody>
+<row><entry>ENG MOUNT SPT FWD INBD</entry><entry>7-311670131</entry>
+<entry>1560-01-264-2085</entry><entry>02B10N</entry><entry>AD</entry>
+<entry>CC</entry><entry></entry><entry></entry><entry></entry><entry>X</entry>
+<entry>X</entry><entry></entry></row>
+<row><entry>ENG MOUNT SPT FWD INBD</entry><entry>7-311670131-3</entry>
+<entry>1560-01-264-2085</entry><entry>02B10N</entry><entry>AD</entry>
+<entry>CC</entry><entry></entry><entry></entry><entry></entry><entry>X</entry>
+<entry>X</entry><entry></entry></row>
+<row><entry>WING ASSY LH</entry><entry>7-311130200-1</entry><entry>1560-01-157-2499
+</entry><entry>02B18A</entry><entry>A</entry><entry>CC</entry><entry></entry>
+<entry></entry><entry></entry><entry>X</entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>WING ASSY LH</entry><entry>7-311130200-601</entry><entry>1560-01-259-2159
+</entry><entry>02B18A</entry><entry>A</entry><entry>CC</entry><entry></entry>
+<entry></entry><entry></entry><entry>X</entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>WING ASSY LH</entry><entry>7-311131200-1</entry><entry>1560-01-455-8233
+</entry><entry>02B18A</entry><entry>D</entry><entry>CC</entry><entry></entry>
+<entry></entry><entry></entry><entry>X</entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>WING ASSY LH</entry><entry>7-311131200-5</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B18A</entry><entry>AD</entry><entry>CC</entry>
+<entry></entry><entry></entry><entry></entry><entry>X</entry><entry>X</entry>
+<entry></entry></row>
+<row><entry>WING ASSY LH</entry><entry>7-311131200-9</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B18A</entry><entry>D</entry><entry>CC</entry>
+<entry></entry><entry></entry><entry></entry><entry>X</entry><entry>X</entry>
+<entry></entry></row>
+<row><entry>WING ASSY LH</entry><entry>7-511130201-601</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B18A</entry><entry>D</entry><entry>CC</entry>
+<entry></entry><entry></entry><entry></entry><entry>X</entry><entry>X</entry>
+<entry></entry></row>
+<row><entry>WING ASSY LH</entry><entry>7-511130201-603</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B18A</entry><entry>D</entry><entry>CC</entry>
+<entry></entry><entry></entry><entry></entry><entry>X</entry><entry>X</entry>
+<entry></entry></row>
+<row><entry>WING ASSY LH</entry><entry>7-511130201-605</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B18A</entry><entry>D</entry><entry>CC</entry>
+<entry></entry><entry></entry><entry></entry><entry>X</entry><entry>X</entry>
+<entry></entry></row>
+<row><entry>WING ASSY LH</entry><entry>7-511130201-607</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B18A</entry><entry>D</entry><entry>CC</entry>
+<entry></entry><entry></entry><entry></entry><entry>X</entry><entry>X</entry>
+<entry></entry></row>
+<row><entry>WING ASSY RH</entry><entry>7-311130200-2</entry><entry>1560-01-157-1282
+</entry><entry>02B18B</entry><entry>A</entry><entry>CC</entry><entry></entry>
+<entry></entry><entry></entry><entry>X</entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>WING ASSY RH</entry><entry>7-311130200-602</entry><entry>1560-01-259-2158
+</entry><entry>02B18B</entry><entry>A</entry><entry>CC</entry><entry></entry>
+<entry></entry><entry></entry><entry>X</entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>WING ASSY RH</entry><entry>7-311131200-2</entry><entry>1560-01-455-8238
+</entry><entry>02B18B</entry><entry>D</entry><entry>CC</entry><entry></entry>
+<entry></entry><entry></entry><entry>X</entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>WING ASSY RH</entry><entry>7-311131200-10</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B18B</entry><entry>D</entry><entry>CC</entry>
+<entry></entry><entry></entry><entry></entry><entry>X</entry><entry>X</entry>
+<entry></entry></row>
+<row><entry>WING ASSY RH</entry><entry>7-311131200-6</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B18B</entry><entry>AD</entry><entry>CC</entry>
+<entry></entry><entry></entry><entry></entry><entry>X</entry><entry>X</entry>
+<entry></entry></row>
+<row><entry>WING ASSY RH</entry><entry>7-511130201-602</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B18B</entry><entry>D</entry><entry>CC</entry>
+<entry></entry><entry></entry><entry></entry><entry>X</entry><entry>X</entry>
+<entry></entry></row>
+<row><entry>WING ASSY RH</entry><entry>7-511130201-604</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B18B</entry><entry>D</entry><entry>CC</entry>
+<entry></entry><entry></entry><entry></entry><entry>X</entry><entry>X</entry>
+<entry></entry></row>
+<row><entry>WING ASSY RH</entry><entry>7-511130201-606</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B18B</entry><entry>D</entry><entry>CC</entry>
+<entry></entry><entry></entry><entry></entry><entry>X</entry><entry>X</entry>
+<entry></entry></row>
+<row><entry>WING ASSY RH</entry><entry>7-511130201-608</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B18B</entry><entry>D</entry><entry>CC</entry>
+<entry></entry><entry></entry><entry></entry><entry>X</entry><entry>X</entry>
+<entry></entry></row>
+<row><entry>MAST, M/R SUPPORT</entry><entry>7-311160020</entry><entry>1615-01-166-1963
+</entry><entry>02B27</entry><entry>AD</entry><entry>RC</entry><entry></entry>
+<entry></entry><entry>X</entry><entry></entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>MAST, M/R SUPPORT</entry><entry>7-311160020-5</entry><entry>1615-01-166-1963
+</entry><entry>02B27</entry><entry>AD</entry><entry>RC</entry><entry></entry>
+<entry></entry><entry>X</entry><entry></entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>BASE ASSY MAST SUPPORT</entry><entry>7-311160030</entry>
+<entry>1615-01-155-6581</entry><entry>02B28</entry><entry>AD</entry>
+<entry>RC</entry><entry></entry><entry></entry><entry>X</entry><entry></entry>
+<entry>X</entry><entry></entry></row>
+<row><entry>BASE ASSY MAST SUPPORT</entry><entry>7-311160030-7</entry>
+<entry>1615-01-155-6581</entry><entry>02B28</entry><entry>AD</entry>
+<entry>RC</entry><entry></entry><entry></entry><entry>X</entry><entry></entry>
+<entry>X</entry><entry></entry></row>
+<row><entry>STRUT FWD CENTER LH</entry><entry>7-311160055-1</entry>
+<entry>1615-01-164-3791</entry><entry>02B29A</entry><entry>AD</entry>
+<entry>RC</entry><entry></entry><entry></entry><entry>X</entry><entry></entry>
+<entry>X</entry><entry></entry></row>
+<row><entry>STRUT FWD CENTER RH</entry><entry>7-311160055-2</entry>
+<entry>1615-01-164-3790</entry><entry>02B29B</entry><entry>AD</entry>
+<entry>CC</entry><entry></entry><entry></entry><entry></entry><entry>X</entry>
+<entry>X</entry><entry></entry></row>
+<row><entry>STRUT AFT CENTER LH</entry><entry>7-311160085-1</entry>
+<entry>1615-01-163-9508</entry><entry>02B31A</entry><entry>AD</entry>
+<entry>RC</entry><entry></entry><entry></entry><entry>X</entry><entry></entry>
+<entry>X</entry><entry></entry></row>
+<row><entry>STRUT AFT CENTER RH</entry><entry>7-311160085-2</entry>
+<entry>1615-01-163-9507</entry><entry>02B31B</entry><entry>AD</entry>
+<entry>CC</entry><entry></entry><entry></entry><entry></entry><entry>X</entry>
+<entry>X</entry><entry></entry></row>
+<row><entry>REACTION BAR</entry><entry>7-511310325-1</entry><entry>1615-01-454-3810
+</entry><entry>02B39</entry><entry>D</entry><entry>RC</entry><entry></entry>
+<entry></entry><entry>X</entry><entry></entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>REACTION BAR</entry><entry>7-511310316-1</entry><entry>5340-01-438-9284
+</entry><entry>02B39</entry><entry>D</entry><entry>RC</entry><entry></entry>
+<entry></entry><entry>X</entry><entry></entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>REACTION BAR</entry><entry>7-511310316-13</entry><entry>5340-01-438-9284
+</entry><entry>02B39</entry><entry>D</entry><entry>RC</entry><entry></entry>
+<entry></entry><entry>X</entry><entry></entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>TORQUE TUBE</entry><entry>7-511310315-1</entry><entry>1680-01-438-4762
+</entry><entry>02B40</entry><entry>D</entry><entry>RC</entry><entry></entry>
+<entry></entry><entry>X</entry><entry></entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>TORQUE TUBE</entry><entry>7-511310315-5</entry><entry>1680-01-438-4762
+</entry><entry>02B40</entry><entry>D</entry><entry>RC</entry><entry></entry>
+<entry></entry><entry>X</entry><entry></entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>TORQUE TUBE</entry><entry>7-511310315-3</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B40</entry><entry>D</entry><entry>RC</entry>
+<entry></entry><entry></entry><entry>X</entry><entry></entry><entry>X</entry>
+<entry></entry></row>
+<row><entry>FRAME FS 176</entry><entry>7-311113225-5</entry><entry>1560-01-586-0002
+</entry><entry>02B45</entry><entry>AD</entry><entry>RC</entry><entry></entry>
+<entry></entry><entry>X</entry><entry></entry><entry>L</entry><entry></entry>
+</row>
+<row><entry>FRAME FS 176</entry><entry>7-311113118-3</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B45</entry><entry>AD</entry><entry>RC</entry>
+<entry></entry><entry></entry><entry>X</entry><entry></entry><entry>L</entry>
+<entry></entry></row>
+<row><entry>FRAME FS 176</entry><entry>7-311113225-3</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B45</entry><entry>AD</entry><entry>RC</entry>
+<entry></entry><entry></entry><entry>X</entry><entry></entry><entry>L</entry>
+<entry></entry></row>
+<row><entry>FRAME FS 230</entry><entry>7-311113123-3</entry><entry>NSN
+NOT ASSIGNED</entry><entry>02B46</entry><entry>AD</entry><entry>RC</entry>
+<entry></entry><entry></entry><entry>X</entry><entry></entry><entry>L</entry>
+<entry></entry></row>
+<row><entry>STABILATOR ASSY</entry><entry>7-311123600</entry><entry>1560-01-179-7264
+</entry><entry>02C15B</entry><entry>A</entry><entry>RC</entry><entry>X</entry>
+<entry></entry><entry>X</entry><entry></entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>STABILATOR ASSY</entry><entry>7-311123600-603</entry><entry>1560-01-466-3661
+</entry><entry>02C15B</entry><entry>D</entry><entry>RC</entry><entry>X</entry>
+<entry></entry><entry>X</entry><entry></entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>STABILATOR ASSY</entry><entry>7-511123645-1</entry><entry>1560-01-564-6397
+</entry><entry>02C15B</entry><entry>D</entry><entry>RC</entry><entry>X</entry>
+<entry></entry><entry>X</entry><entry></entry><entry>X</entry><entry></entry>
+</row>
+<row><entry>STABILATOR FITTING (ACFT)</entry><entry>7-311114201</entry>
+<entry>1560-01-592-1214</entry><entry>02C15B02</entry><entry>AD</entry>
+<entry>RC</entry><entry></entry><entry></entry><entry>X</entry><entry></entry>
+<entry>L</entry><entry></entry></row>
+<row><entry>  STABILATOR FITTING (STA</entry><entry>7-311123622</entry>
+<entry>1560-01-179-0739</entry><entry>02C15B03</entry><entry>AD</entry>
+<entry>RC</entry><entry></entry><entry>X</entry><entry></entry><entry></entry>
+<entry>L</entry><entry></entry></row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section>
+<title></title>
+<para0>
+<title></title></para0>
+</section></chapter></body></doc>

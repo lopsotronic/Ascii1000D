@@ -1,0 +1,446 @@
+<?xml-stylesheet href="SB.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="SB.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2004, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN" [
+<!ENTITY gfire SYSTEM "P:\Graphics\_Standard symbols\Warning icons\fire2.tif" NDATA tif>
+<!ENTITY gexplode SYSTEM "P:\Graphics\_Standard symbols\Warning icons\explosion.tif" NDATA bmp>
+<!ENTITY gheavy SYSTEM ".\GRAPHICS\M013528A.png" NDATA bmp>
+<!ENTITY gexplodefire SYSTEM ".\GRAPHICS\ICONS\WARNING\explodefire.bmp" NDATA bmp>
+<!ENTITY ggloves SYSTEM ".\GRAPHICS\ICONS\WARNING\gloves.bmp" NDATA bmp>
+<!ENTITY disclosure CDATA "This information is furnished upon the condition that it will not be released to another nation without the specific authority of the Department of the Army of the United States, that it will be used for military purposes only, that individual or corporate rights originating in the information, whether patented or not, will be respected, that the recipient will report promptly to the United States, any known or suspected compromise, and that the information will be provided substantially the same degree of security afforded it by the Department of Defense of the United States. Also, regardless of any other markings on the document, it will not be downgraded or declassified without written approval of the originating United States agency.">
+<!ENTITY graphic1_4 SYSTEM ".\GRAPHICS\1_4.jpg" NDATA jpg>
+<!NOTATION jpg SYSTEM "jpg">
+<!ENTITY g662604 SYSTEM ".\GRAPHICS\g662604.G4" NDATA g4>
+<!ENTITY g662602 SYSTEM ".\GRAPHICS\g662602.G4" NDATA cal>
+<!ENTITY g662601 SYSTEM ".\GRAPHICS\g662601.g4" NDATA g4>
+<!ENTITY g662600 SYSTEM "graphics\g662600.g4" NDATA g4>
+<!ENTITY g662493 SYSTEM ".\GRAPHICS\g662493.g4" NDATA g4>
+<!ENTITY g662492 SYSTEM ".\GRAPHICS\g662492.g4" NDATA g4>
+<!ENTITY g602413a SYSTEM ".\GRAPHICS\g602413a.g4" NDATA g4>
+<!ENTITY g602403a SYSTEM ".\GRAPHICS\g602403a.g4" NDATA g4>
+<!ENTITY g791109 SYSTEM ".\GRAPHICS\g791109.cgm" NDATA cgm>
+<!ENTITY g791128 SYSTEM ".\GRAPHICS\g791128.cgm" NDATA cgm>
+<!ENTITY g791129 SYSTEM ".\GRAPHICS\g791129.cgm" NDATA cgm>
+<!ENTITY g791113 SYSTEM ".\GRAPHICS\g791113.cgm" NDATA cgm>
+<!ENTITY g791112 SYSTEM ".\GRAPHICS\g791112.cgm" NDATA cgm>
+<!NOTATION cal SYSTEM "cal">
+<!NOTATION bmp SYSTEM "bmp">
+<!NOTATION cgmchar PUBLIC "ISO 8632/2//NOTATION Character encoding//EN">
+]>
+<?Pub UDT _bookmark _target>
+<?Pub Inc>
+<doc service="army" docid="SB 742-1340-92-012" docstat="formal" columns="one">
+<front>
+<idinfo>
+<tmidno service="army"></tmidno>
+<doctype pubtype="sb"></doctype>
+<prtitle>
+<nomen>NOMENCLATURE</nomen>
+<partno>123456</partno><nsn>1234-56-789-1234</nsn><eic> TBD</eic>
+</prtitle>
+<distrib type="d">Distribution authorized to Department of Defense and DoD
+contractors only to protect critical technical data on systems or hardware.
+This determination was made Nov 86. Other requests shall be referred to Department
+of the Army, Precision Fires Rocket &amp; Missile Systems Project Office ATTN:
+SFAE-MSL-PF-SS-MR, Redstone Arsenal, AL 35898.</distrib>
+<expcont></expcont>
+<destr>National Security Agency (NSA) accepts Distribution Restricted CD-ROMs
+for destruction and meets environmental standards. If your local facility
+does not handle CD-ROMs, send expired ones FIRST CLASS to Director, National
+Security Agency, 9800 Savage Road, ATTN: CMC S714, Suite 6890, Fort Meade,
+MD 20755-6000. Ship ONLY WHOLE discs. Do not send sleeves, mailers and cases.
+No need to scratch discs going to NSA. Maximum box size and weight: 18-inches
+in height, width or length and 40 pounds. Send no more than 10 boxes at a
+time. If shipper wants receipt, include documentation/destruction form, and
+enter total CD-ROMs in box; if others want receipt, also include self-addressed
+envelope. SINGLE wrap outside box with brown paper. If loose discs rattle,
+mark box "Rattle Okay".</destr>
+<avail>This publication is not available through the AG publications centers.
+This publication is available through (TBD).</avail>
+<authnot>Headquarters Department of the Army, Washington, D.C.</authnot>
+<pubdate>DD Mmmmm YYYY</pubdate>
+</idinfo>
+<reportoferrors>
+<para>You may report errors and recommend improvements.</para>
+</reportoferrors>
+<contents></front>
+<body>
+<chapter label="nonum"><title></title>
+<section>
+<title>INTRODUCTION</title>
+<para0>
+<title>PURPOSE.</title><para></para>
+</para0>
+<para0>
+<title>SCOPE.</title><para></para>
+</para0>
+<para0>
+<title>ITEM DESCRIPTION.</title><para></para><?Pub Caret>
+</para0>
+</section>
+<section>
+<title>STORAGE AND SURVEILLANCE</title>
+<para0>
+<title>STORAGE AND TRANSPORTATION.</title></para0>
+<para0>
+<title>INSPECTION AND CLASSIFICATION OF DEFECTS CHECKLISTS.</title></para0>
+<para0>
+<title>SURVEILLANCE INSPECTION.</title></para0>
+<para0>
+<title>DISPOSITION OF INSPECTION SAMPLES.</title></para0>
+<para0>
+<title>RECORDS AND REPORTS.</title></para0>
+<para0>
+<title>HAZARD CLASSIFICATIONS.</title><para></para>
+</para0>
+<para0>
+<title>EXPLOSIVE WEIGHTS.</title><para></para>
+</para0>
+<para0>
+<title>PHYSICAL DATA.</title></para0>
+<para0>
+<title>ROCKET POD DIMENSIONS.</title></para0>
+<para0>
+<title>Inspection Tables.</title></para0>
+</section></chapter>
+<chapter label="nonum"><title></title>
+<para0 label="nonum">
+<title></title></para0>
+</chapter></body><rear>
+<appendix xid="appa"><?Pub Dtl><title>REFERENCES</title>
+<lrp><?Pub Dtl><para0 label="nonum">
+<title>AMC Regulations</title></para0>
+<lrpentry tmid="amc-r-385-100"><tmidno>AMCR 385-100</tmidno><title>SB 742-1340-92-012
+</title>
+</lrpentry>
+<?Pub _newline>
+<para0 label="nonum">
+<title>Army Regulations</title></para0>
+<lrpentry tmid="ar75-1"><tmidno>AR 75-1</tmidno><title>AMC Safety Manual</title>
+</lrpentry>
+<lrpentry tmid="ar385-5"><tmidno>AR 380-5</tmidno><title>Physical Security
+of Arms, Ammunition and Explosives</title>
+</lrpentry>
+<lrpentry tmid="ar385-40"><tmidno>AR 385-40</tmidno><title>Military Security;
+Safeguarding Ammunition and Explosives</title>
+</lrpentry>
+<lrpentry tmid="ar385-64"><tmidno>AR 385-64</tmidno><title>Accident Reporting
+and Records</title>
+</lrpentry>
+<lrpentry tmid="ar700-19"><tmidno>AR 700-19</tmidno><title>Ammunition and
+Explosives Safety Standards</title>
+</lrpentry>
+<lrpentry tmid="ar702-6"><tmidno>AR 702-6</tmidno><title>U.S. Army Munitions
+Reporting System</title>
+</lrpentry>
+<lrpentry tmid="ar702-7"><tmidno>AR 702-7</tmidno><title>Ammunition Stockpile
+Reliability Program</title>
+</lrpentry>
+<lrpentry tmid="ar725-50"><tmidno>AR 725-50</tmidno><title>Product Quality
+Deficiency Report Program</title>
+</lrpentry>
+<lrpentry tmid="ar735-11-2"><tmidno>AR 735-11-2</tmidno><title>Requisitioning,
+Receipt and Issue System</title>
+</lrpentry>
+<para0 label="nonum">
+<title>Technical Manuals</title></para0>
+<lrpentry tmid="tm9-1055-647-13"><tmidno>TM 9-1055-647-13</tmidno><title>
+Ammunition and Explosives Standards</title>
+</lrpentry>
+<?Pub _newline>
+<para0 label="nonum">
+<title>Miscellaneous Publications</title></para0>
+<lrpentry tmid="cfr_title_49"><tmidno>CFR Title 49</tmidno><title>Loading
+and Bracing in Commercial Side-Opening Containers</title>
+</lrpentry>
+<lrpentry tmid="dapam700-10"><tmidno>DA PAM 700-10</tmidno><title>Reporting
+of Item and Packaging Discrepancies</title>
+</lrpentry>
+<lrpentry tmid="dapam738-750"><tmidno>DA PAM 738-750</tmidno><title>Procedures
+for United States Army Munitions Reporting System</title>
+</lrpentry>
+<lrpentry tmid="dapam738-751"><tmidno>DA PAM 738-751</tmidno><title>The Army
+Maintenance Management System (TAMMS)</title>
+</lrpentry>
+<lrpentry tmid="dod6055.9-std"><tmidno>DoD 6055.9-STD</tmidno><title>Department
+of Transportation Regulation</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-5245"><tmidno>DWG 19-48-5245</tmidno><title>The Army
+Maintenance Management System (TAMMS-A)</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-5267"><tmidno>DWG 19-48-5267</tmidno><title>Storage
+in Approved Magazines of RP/Cs</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-5516"><tmidno>DWG 19-48-5516</tmidno><title>Storage
+in Approved Standard Magazines of RP/Cs. (SVADA Only)</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-5517"><tmidno>DWG 19-48-5517</tmidno><title>Loading
+and Bracing (CL &amp; LCL) in Boxcars</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-5541"><tmidno>DWG 19-48-5541</tmidno><title>Loading
+and Bracing (CL &amp; LCL) in European Boxcars</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-5542"><tmidno>DWG 19-48-5542</tmidno><title>Loading
+and Bracing (CL &amp; LCL) in Korean Gondola Cars</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-5578"><tmidno>DWG 19-48-5578</tmidno><title>Loading
+and Bracing (CL &amp; LCL) in Bulkhead Flatcars</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-5966"><tmidno>DWG 19-48-5966</tmidno><title>Handling,
+Stowage, and Bracing aboard Ships</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-5967"><tmidno>DWG 19-48-5967</tmidno><title>Loading
+and Bracing (TL &amp; LTL) in Van Trailers of GMLRS RP</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-5968"><tmidno>DWG 19-48-5968</tmidno><title>Loading
+and Bracing in Milvan Containers</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-5971"><tmidno>DWG 19-48-5971</tmidno><title>Loading
+and Bracing in Closed/Open Top Commercial Containers</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-8152"><tmidno>DWG 19-48-8152</tmidno><title>Loading
+and Bracing (TL &amp; LTL) on Flat Bed Trailers of RP</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-8184"><tmidno>DWG 19-48-8184</tmidno><title>Loading,
+Tiedown, and Unloading Procedures of RP/C in/on Tactical Vehicles</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-8195"><tmidno>DWG 19-48-8195</tmidno><title>Loading
+and Bracing with Load and Roll Pallet (LRP)</title>
+</lrpentry>
+<lrpentry tmid="dwg19-48-8196"><tmidno>DWG 19-48-8196</tmidno><title>Loading
+and Bracing on Commercial Flatrack Containers</title>
+</lrpentry>
+<lrpentry tmid="mil-std-105"><tmidno>MIL-STD-105</tmidno><title>DoD Ammunition
+and Explosives Safety Standards</title>
+</lrpentry>
+<lrpentry tmid="mil-std-129"><tmidno>MIL-STD-129</tmidno><title>Sampling Procedures
+and Tables for Inspection</title>
+</lrpentry>
+<lrpentry tmid="mil-std-1167"><tmidno>MIL-STD-1167C</tmidno><title>Marking
+for Shipment and Storage</title>
+</lrpentry>
+<lrpentry tmid="sb9-219"><tmidno>SB 9-219</tmidno><title>Ammunition Data Cards
+</title>
+</lrpentry>
+<lrpentry tmid="sb742-1340-92-012"><tmidno>SB 742-1340-92-012</tmidno><title>
+Inspection of Supplies and Equipment Ammunition Surveillance Procedure Storage
+and Material Handling</title>
+</lrpentry>
+</lrp>
+</appendix>
+<appendix><?Pub Dtl><title>IDENTIFICATION OF COMPONENTS</title><?Pub _newline>
+<table label="nonum" frame="topbot" colsep="1" rowsep="1" pgwide="1">
+<title></title>
+<tgroup cols="2" align="left"><colspec colname="col1" colwidth="3.50in"><colspec
+colname="col2" align="center" colwidth="3.50in">
+<thead>
+<row rowsep="0"><entry rowsep="1" align="center">COMMON NAME</entry><entry
+rowsep="1" align="center">OFFICIAL NOMENCLATURE</entry></row>
+</thead>
+<tbody>
+<row><entry></entry><entry align="left"></entry></row>
+<row><entry></entry><entry align="left"></entry></row>
+<row><entry></entry><entry align="left"></entry></row>
+<row><entry></entry><entry align="left"></entry></row>
+</tbody>
+</tgroup>
+</table>
+<para0 label="nonum">
+<title></title></para0></appendix>
+<appendix><?Pub Dtl><title>Safety And Handling</title><para0>
+<title>SAFETY AND HANDLING.</title>
+<subpara1>
+<title></title><para>The RPs are in a propulsive state and must be pointed
+in the same direction toward the barricaded sides of the magazine wall (either
+rear or side walls). </para>
+</subpara1></para0></appendix>
+<appendix><?Pub Dtl><title>SAFE TO SHIP, SAFE TO STORE, AND EMERGENCY PROCEDURES
+</title>
+<section>
+<title>SAFE-TO-SHIP, SAFE-TO-STORE</title>
+<para0>
+<title>GENERAL.</title>
+<subpara1>
+<title></title><para>The procedures contained in this section cover the hazardous
+conditions, emergency procedures, inspections and safe-to-ship procedures
+and special packaging instructions for the weapon involved in an accident
+or incident.</para>
+</subpara1></para0><para0>
+<title>HAZARDOUS CONDITIONS.</title><para>This section lists hazardous conditions
+involving a damaged round that will require Explosive Ordnance Disposal (EOD)
+support, and hazardous conditions not requiring EOD support.</para>
+</para0><?Pub _newline>
+<para0>
+<title>SAFE-TO-SHIP INSPECTION AND SAFE-TO-STORE PROCEDURES.</title>
+<warning>
+<para><emphasis type="bold">Prior to performing safe-to-ship procedures for
+damaged connectors and/or missing protective covers, ensure personnel are
+grounded to the rocket pod and the rocket pod is grounded.</emphasis></para>
+</warning>
+<para>RP Electrical Inspection for Safe-to-Ship</para>
+</para0></section>
+<section>
+<title>EMERGENCY</title>
+<para0>
+<title>EMERGENCY PROCEDURES FOR MISSILE ACCIDENT OR INCIDENT.</title><para>
+This section provides guidance relative to an accident or incident involving
+real or suspected damage to the weapon. </para>
+<subpara1>
+<title>General.</title><para>Emergency procedures for an accident or incident
+are listed in the Emergency Procedures table. Conditions, hazard levels and
+action required are listed from the most hazardous to the least hazardous.
+</para>
+<subpara2>
+<title>Conditions.</title><para>Emergency procedures for a RP accident or
+incident are listed in the Emergency Procedures table. Conditions, hazard
+levels and action required are listed from the most hazardous to the least
+hazardous.</para>
+</subpara2>
+<subpara2>
+<title>Hazard Levels.</title><para>Hazard levels "High", "Low" and "Very Low"
+for potential safety hazards have been assigned to each condition to assist
+the senior officer (site commander) at the accident site.</para>
+</subpara2>
+<subpara2>
+<title>Action Required.</title><para>Required actions reflect necessary steps,
+but not necessarily in order. Some actions must be performed simultaneously
+to decrease the time required to reduce the hazard and bring the situation
+under control.</para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Reporting Accidents or Incidents.</title><para>In cases of accidents
+involving RP, personnel and other equipment, an Accident Report, DA Form 285,
+must be completed and forwarded by the owning unit in accordance with (IAW)
+AR 385-40. Incidents such as malfunctions, misfires or hangfires must be reported
+IAW AR 75-1. Any other reports or documents required by local policy must
+also be completed.</para>
+</subpara1>
+<subpara1>
+<title>Specific Points.</title><para>Clarification is necessary for specific
+points concerning RP accidents or incidents.</para>
+</subpara1></para0><?Pub _newline>
+<para0>
+<title>RESPONSIBILITIES FOR ASSISTING ORGANIZATIONS.</title>
+<subpara1>
+<title>EOD will be responsible for the following:</title><para></para>
+<subpara2>
+<title></title><para>Advise the Site Commander as to potential explosive hazards
+associated with the accident or incident when requested.</para>
+</subpara2>
+<subpara2>
+<title></title><para>Perform the render safe procedures when required IAW
+applicable EOD technical manuals for GMLRS, and advise and assist in the removal
+or disposal of hazardous explosive materials and components.</para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>QASAS will be responsible for the following:</title>
+<subpara2>
+<title></title><para>Advise the Site Commander on matters pertaining to rigging,
+lifting, handling, securing and transporting explosive items which have been
+rendered safe, or have been determined to be safe and require transportation
+to another site.</para>
+</subpara2>
+<subpara2>
+<title></title><para>Assess the serviceability and safety condition of the
+missiles and advise the Site Commander in writing of determination.</para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>QASAS is responsible for the following:</title>
+<subpara2>
+<title></title><para>Advise the Site Commander on matters pertaining to rigging,
+lifting, handling, securing and transporting explosive items which have been
+rendered safe, or have been determined to be safe and require transportation
+to another site.</para>
+</subpara2>
+<subpara2>
+<title></title><para>Assess the serviceability and safety condition of the
+rocket(s) and advise the Site Commander in writing of determination.</para>
+</subpara2>
+</subpara1></para0><para0>
+<title>EMERGENCY PROCEDURES.</title><para></para>
+</para0></section></appendix>
+<appendix><?Pub Dtl><title>EXPENDABLE/DURABLE SUPPLIES AND MATERIALS LIST
+</title><?Pub _newline>
+<para0>
+<title>SCOPE.</title><para>This listing provides information on expendable/durable
+supplies and materials you will need to operate and maintain the weapon.</para>
+<subpara1>
+<title></title><para>Explanation of Columns</para>
+</subpara1>
+<subpara1>
+<title></title><para>Expendable/Durable Supplies and Materials List</para>
+<para></para>
+</subpara1></para0><para0>
+<title>EXPLANATION OF COLUMNS.</title><para></para>
+<subpara1>
+<title>Column 1 - Item Number.</title><para>The unique number assigned to
+the item.</para>
+</subpara1>
+<subpara1>
+<title>Column 2 - Level.</title><para>Identifies the lowest level of maintenance
+that requires the listed item.<randlist>
+<item>C = Operator/Crew</item>
+<item>O = Unit</item>
+<item>F = Direct Support</item>
+<item>H = General Support</item>
+<item>D = Depot</item>
+</randlist></para>
+</subpara1>
+<subpara1>
+<title>Column 3 - National Stock Number.</title><para>The national stock number
+assigned to the item. Use it to request or requisition the item.</para>
+</subpara1>
+<subpara1>
+<title>Column 4 - Description.</title><para>Item Name, Description, Commercial
+and Government Entity Code (CAGEC), and Part Number (P/N). This column provides
+the other information you need to identify the item.</para>
+</subpara1>
+<subpara1>
+<title>Column 5 - Unit of Issue (U/I).</title><para>Indicates the physical
+measurement or count of the item issued per National Stock Number shown on
+column 3.</para>
+</subpara1></para0><para0 label="nonum">
+<title></title><para><table label="nonum" frame="topbot" colsep="1" rowsep="1">
+<title>Expendable/Durable Supplies and Materials List</title>
+<tgroup cols="5"><colspec colname="col1" align="center" colwidth="0.67in">
+<colspec colname="col2" align="center" colwidth="0.67in"><colspec colname="col3"
+align="center" colwidth="1.52in"><colspec colname="col4" colwidth="3.66in">
+<colspec colname="col5" align="center" colwidth="0.46in">
+<thead>
+<row rowsep="0"><entry align="center">(1)</entry><entry align="center">(2)
+</entry><entry align="center">(3)</entry><entry align="center">(4)</entry>
+<entry align="center">(5)</entry></row>
+<row rowsep="1"><entry align="center">ITEM NUMBER</entry><entry align="center">
+LEVEL</entry><entry align="center">NATIONAL STOCK NUMBER</entry><entry align="center">
+ITEM NAME, DESCRIPTION, CAGEC, AND PART NUMBER</entry><entry align="center">
+U/I</entry></row>
+</thead>
+<tbody>
+<row><entry></entry><entry></entry><entry></entry><entry></entry><entry></entry>
+</row>
+<row><entry></entry><entry></entry><entry></entry><entry></entry><entry></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</para0></appendix>
+<appendix><?Pub Dtl><title>STOCKPILE RELIABILITY PROGRAM (SRP)</title><?Pub _newline>
+<para0>
+<title>GENERAL.</title>
+<subpara1>
+<title></title><para>The Stockpile Reliability Program (SRP) for the weapon
+will be conducted according to the approved SRP Plan. Each Army SRP is developed
+with the philosophy of building on subsystem data from previous SRP programs,
+thus optimizing the assets needed to support the subsequent SRP. The positive
+return on investment and increased confidence in our weapon system makes the
+programs essential to the weapon system life cycle. </para>
+</subpara1></para0></appendix>
+<glossary>
+<deflist>
+<term>AMC</term><def>Army Materiel Command</def></deflist>
+</glossary>
+</rear></doc>
+<?Pub *0000019855 0>

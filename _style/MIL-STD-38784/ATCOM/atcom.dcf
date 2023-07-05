@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2012, v.4002-->
+<!DOCTYPE DocumentTypeConfiguration PUBLIC "-//Arbortext//DTD Document Type Configuration 2.0//EN" "dcfdtd.dtd">
+<DocumentTypeConfiguration>
+<Options allowApplicationToolbar="yes" allowComposeStylesheetList="yes"></Options>
+<NewDialog>
+<New description="PREVENT MAINT-38784" sampleFile="PreventMaint-sample.sgm" templateFile="PreventMaint-template.sgm"/>
+<New description="TB - 38784" sampleFile="tb-sample.sgm" templateFile="tb-template.sgm"/>
+<New description="SB - 38784" sampleFile="SB-sample.sgm" templateFile="sb-template.sgm"/>
+<New description="MWO - 38784" sampleFile="mwo-sample.sgm" templateFile="mwo-template.sgm"/>
+<New description="RPSTL -38784" sampleFile="rpstl-sample.sgm" templateFile="rpstl-template.sgm"/>
+<New description="DMWR - 38784" sampleFile="dmwrs-sample.sgm" templateFile="dmwrs-template.sgm"/>
+<New description="TM 38784" sampleFile="TM-template.sgm" templateFile="TM-template.sgm"/></NewDialog>
+<ElementOptions>
+<ElementOption category="division" element="body"/>
+<ElementOption category="division" element="step1"/>
+<ElementOption category="division" element="step2"/>
+<ElementOption category="division" element="appendix"/>
+<ElementOption category="title" element="appendix"/>
+<ElementOption category="division" element="chapter"/>
+<ElementOption category="title" element="chapter"/>
+<ElementOption category="division" element="chginssht"/>
+<ElementOption category="division" element="figure"/>
+<ElementOption category="division" element="foldsect"/>
+<ElementOption category="division" element="front"/>
+<ElementOption category="title" element="para0"/>
+<ElementOption category="division" element="rear"/>
+<ElementOption category="division" element="section"/>
+<ElementOption category="title" element="section"/>
+<ElementOption category="division" element="subpara1"/>
+<ElementOption category="division" element="subpara2"/>
+<ElementOption category="division" element="subpara3"/>
+<ElementOption category="division" element="subpara4"/>
+<ElementOption category="division" element="subpara5"/>
+<ElementOption category="division" element="table"/>
+<ElementOption category="division" element="volume"/>
+<ElementOption category="division" element="warnpage"/>
+<ElementOption allowSpellChecking="no" element="insertpg"/>
+<ElementOption allowSpellChecking="no" element="removepg"/></ElementOptions><?Pub Caret -1?>
+<AttributeOptions>
+<AttributeOption attribute="fontsize" dialogHidden="yes" screenHidden="yes"/></AttributeOptions>
+<Display></Display>
+<Specials>
+<Graphic cropHeight="llcordra" cropLowerLeftX="coordst" cropLowerLeftY="coordend" cropWidth="rucordra" element="graphic" entity="boardno" horizOffsetAmount="coordend" horizOffsetPercent="coordst" horizScale="hscale" reproDepth="reprodep" reproWidth="reprowid" scaleToFit="scalefit" vertScale="vscale"/></Specials>
+<ContextTransformations></ContextTransformations>
+<TextStyles>
+<Superscript attribute="type" attributeValue="superscript" element="emphasis"/>
+<Subscript attribute="type" attributeValue="subscript" element="emphasis"/>
+<Bold attribute="type" attributeValue="bold" element="emphasis" primary="yes"/>
+<Underline attribute="type" attributeValue="underline" element="emphasis" primary="yes"/>
+<Italic attribute="type" attributeValue="italic" element="emphasis" primary="yes"/></TextStyles>
+<Lists></Lists>
+<SmartInsert></SmartInsert>
+<FrameSets></FrameSets>
+<Composition></Composition>
+</DocumentTypeConfiguration>

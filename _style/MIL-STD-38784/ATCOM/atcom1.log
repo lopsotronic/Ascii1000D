@@ -1,0 +1,63 @@
+Log filename: "C:\Program Files\PTC\Arbortext PE\custom\doctypes\atcom\atcom1.log"
+Document type compile date: Thu May 16 07:50:35 2013
+Version "Arbortext Architect 6.0 M070 January 22, 2013"   R60M070-1022
+Platform: Windows Server 2008 R2
+
+Host: REDSAUPA0PE60   Login: allissa.leach
+
+Catalog path: "C:\Program Files\PTC\Arbortext PE\custom\doctypes\atcom;C:\Program Files\PTC\Arbortext Editor\doctypes;C:\Program Files\PTC\Arbortext PE\custom\doctypes;C:\Program Files\PTC\Arbortext Editor\application\com.arbortext.sma\doctypes;C:\Program Files\PTC\Arbortext Editor\application\com.arbortext.dita\doctypes;C:\Program Files\PTC\Arbortext Editor\doctypes;"
+
+
+Update (.ptd file written) or Validate (.ptd file not written): Update
+XML or SGML Application: SGML
+Force Compile: Yes
+Top level element: doc
+Public ID: (not specified)
+DTD Path: "C:\Program Files\PTC\Arbortext PE\custom\doctypes\atcom\atcom.dtd"
+PTD Path: "C:\Program Files\PTC\Arbortext PE\custom\doctypes\atcom\atcom.ptd"
+ATI Tag Path: "C:\Program Files\PTC\Arbortext Editor\lib\dtgen\atitag.cf"
+Message File Path: (not specified)
+SGML Declaration Path: (specified) using "C:\Program Files\PTC\Arbortext PE\custom\doctypes\atcom\Default.txt"
+
+Entity Name: %ISOgrk3
+Public Identifier: "ISO 8879:1986//ENTITIES Greek Symbols//EN"
+System Identifier: (none)
+Resolved Path: "C:\Program Files\PTC\Arbortext PE\custom\entities\iso-grk3.gml"
+Catalog File: "C:\Program Files\PTC\Arbortext PE\custom\doctypes\atcom\catalog"
+
+Entity Name: %ISOlat1
+Public Identifier: "ISO 8879:1986//ENTITIES Added Latin 1//EN"
+System Identifier: (none)
+Resolved Path: "C:\Program Files\PTC\Arbortext PE\custom\entities\iso-lat1.gml"
+Catalog File: "C:\Program Files\PTC\Arbortext PE\custom\doctypes\atcom\catalog"
+
+Entity Name: %ISOnum
+Public Identifier: "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN"
+System Identifier: (none)
+Resolved Path: "C:\Program Files\PTC\Arbortext PE\custom\entities\iso-num.gml"
+Catalog File: "C:\Program Files\PTC\Arbortext PE\custom\doctypes\atcom\catalog"
+
+Entity Name: %ISOpub
+Public Identifier: "ISO 8879:1986//ENTITIES Publishing//EN"
+System Identifier: (none)
+Resolved Path: "C:\Program Files\PTC\Arbortext PE\custom\entities\iso-pub.gml"
+Catalog File: "C:\Program Files\PTC\Arbortext PE\custom\doctypes\atcom\catalog"
+
+Entity Name: %ISOtech
+Public Identifier: "ISO 8879:1986//ENTITIES General Technical//EN"
+System Identifier: (none)
+Resolved Path: "C:\Program Files\PTC\Arbortext PE\custom\entities\iso-tech.gml"
+Catalog File: "C:\Program Files\PTC\Arbortext PE\custom\doctypes\atcom\catalog"
+
+Entity Name: %ISOamsa
+Public Identifier: "ISO 8879:1986//ENTITIES Added Math Symbols: Arrow Relations//EN"
+System Identifier: (none)
+Resolved Path: "C:\Program Files\PTC\Arbortext PE\custom\entities\iso-amsa.gml"
+Catalog File: "C:\Program Files\PTC\Arbortext PE\custom\doctypes\atcom\catalog"
+
+Entity Name: %ISOamsb
+Public Identifier: "ISO 8879:1986//ENTITIES Added Math Symbols: Binary Operators//EN"
+System Identifier: (none)
+Resolved Path: "C:\Program Files\PTC\Arbortext PE\custom\entities\iso-amsb.gml"
+Catalog File: "C:\Program Files\PTC\Arbortext PE\custom\doctypes\atcom\catalog"
+

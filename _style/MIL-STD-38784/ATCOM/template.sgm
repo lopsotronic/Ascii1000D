@@ -1,0 +1,3038 @@
+<?xml-stylesheet href="test-paranumber.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="test-paranumber.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2004, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN"
+ "atcom.dtd" [
+<!ENTITY testpdfextraction SYSTEM "P:\shared\bennett-kb\fig14_1_1_1.tif" NDATA tif>
+<!ENTITY caution SYSTEM "P:\Graphics\_Standard symbols\caution.tif" NDATA tif>
+<!ENTITY need_a_graphic SYSTEM "P:\Graphics\_Standard symbols\need_a_graphic.tif" NDATA tif>
+<!ENTITY fig1 SYSTEM "P:\Graphics\DMWR1-2915-350\fig1.tif" NDATA tif>
+<!ENTITY checkmark SYSTEM "P:\Graphics\_Standard symbols\check mark\check mark.tif" NDATA tif>
+<!ENTITY fig2 SYSTEM "P:\Graphics\DMWR1-2915-350\fig2.tif" NDATA tif>
+<!ENTITY fig3 SYSTEM "P:\Graphics\DMWR1-2915-350\fig3.tif" NDATA tif>
+<!ENTITY fig4 SYSTEM "P:\Graphics\DMWR1-2915-350\fig4.tif" NDATA tif>
+<!ENTITY fig5 SYSTEM "P:\Graphics\DMWR1-2915-350\fig5.tif" NDATA tif>
+<!ENTITY fig6 SYSTEM "P:\Graphics\DMWR1-2915-350\fig6.tif" NDATA tif>
+<!ENTITY fig7 SYSTEM "P:\Graphics\DMWR1-2915-350\fig7.tif" NDATA tif>
+<!ENTITY fig8 SYSTEM "P:\Graphics\DMWR1-2915-350\fig8.tif" NDATA tif>
+<!ENTITY fig9 SYSTEM "P:\Graphics\DMWR1-2915-350\fig9.tif" NDATA tif>
+<!ENTITY fig10 SYSTEM "P:\Graphics\DMWR1-2915-350\fig10.tif" NDATA tif>
+<!ENTITY fig11 SYSTEM "P:\Graphics\DMWR1-2915-350\fig11.tif" NDATA tif>
+<!ENTITY fig12 SYSTEM "P:\Graphics\DMWR1-2915-350\fig12.tif" NDATA tif>
+<!ENTITY fig13 SYSTEM "P:\Graphics\DMWR1-2915-350\fig13.tif" NDATA tif>
+<!ENTITY fig14 SYSTEM "P:\Graphics\DMWR1-2915-350\fig14.tif" NDATA tif>
+<!ENTITY fig15 SYSTEM "P:\Graphics\DMWR1-2915-350\fig15.tif" NDATA tif>
+<!ENTITY fig16 SYSTEM "P:\Graphics\DMWR1-2915-350\fig16.tif" NDATA tif>
+<!ENTITY fig17 SYSTEM "P:\Graphics\DMWR1-2915-350\fig17.tif" NDATA tif>
+<!ENTITY fig18 SYSTEM "P:\Graphics\DMWR1-2915-350\fig18.tif" NDATA tif>
+<!ENTITY fig19 SYSTEM "P:\Graphics\DMWR1-2915-350\fig19.tif" NDATA tif>
+<!ENTITY fig20 SYSTEM "P:\Graphics\DMWR1-2915-350\fig20.tif" NDATA tif>
+<!ENTITY fig21 SYSTEM "P:\Graphics\DMWR1-2915-350\fig21.tif" NDATA tif>
+<!ENTITY fig22 SYSTEM "P:\Graphics\DMWR1-2915-350\fig22.tif" NDATA tif>
+<!ENTITY fig23 SYSTEM "P:\Graphics\DMWR1-2915-350\fig23.tif" NDATA tif>
+<!ENTITY fig24 SYSTEM "P:\Graphics\DMWR1-2915-350\fig24.tif" NDATA tif>
+<!ENTITY fig25 SYSTEM "P:\Graphics\DMWR1-2915-350\fig25.tif" NDATA tif>
+<!ENTITY fig26 SYSTEM "P:\Graphics\DMWR1-2915-350\fig26.tif" NDATA tif>
+<!ENTITY fig28 SYSTEM "P:\Graphics\DMWR1-2915-350\fig28.tif" NDATA tif>
+<!ENTITY fig29 SYSTEM "P:\Graphics\DMWR1-2915-350\fig29.tif" NDATA tif>
+]>
+<?Pub EntList alpha bull copy rArr sect trade plusmn deg>
+<?Pub Inc>
+<doc service="army" docid="1-2915-350" columns="two">
+<!--Enter only the numbers of the publicaiton in the docid attribute.-->
+<front><idinfo>
+<tmidno service="army"></tmidno>
+<doctype pubtype="dmwr"><!--yOU MUST SELECT THE ATTRIBUTE PUBTYPE TO CREATE THE COMPLETE PUB NUMBER AND THIS HEADER INFO.-->
+</doctype>
+<prtitle>
+<nomen>NOMENCLATURE</nomen>
+<partno>2284-9</partno><nsn>2915-01-159-8522</nsn><eic>ABC</eic>
+</prtitle>
+<repro>repro statement if necessary</repro>
+<distrib type="d"><!--Select the type attribute and then type in the actual statement to create the distribution statement. Note, Distribution A automatically enters the statement.  To get the Export Control Notice and/or Destruction Notice, you will need to follow the <distrib> tag with <expcont> and/or <destr>.--
+>This is distribution D and is a rather long explanation of why no one can
+view this book unless they give up their first born and cut off their own
+left arm.</distrib>
+<expcont></expcont>
+<destr></destr>
+<avail>This publication is not available through U.S. Army Publication Distribution
+Centers. It must be obtained from U.S. Army Aviation and Missile Command,
+ATTN: AMSAM-MMC-MA-NP, Redstone Arsenal, AL 35898-5000.</avail>
+<authnot>U.S. ARMY AVIATION AND <brk>MISSILE COMMAND</authnot>
+<pubdate>30 June 1996</pubdate></idinfo><warnpage>
+<!--The Warning, Caution and Note explanations MUST be created prior to the actual Warning Page <wpgentry> entries.-->
+<warning>
+<para>This is a warning explanation for the warning page and is not a wpgentry.
+</para>
+</warning>
+<caution>
+<para>This is a caution for explanation purposes only.</para>
+</caution>
+<note>
+<para>This is a note for explanation purposes only.</para>
+</note>
+<wpgentry>
+<!--centered-para="1" will center a one-line warning statement instead of justifying it to the margins.-->
+<title></title>
+<para>Observe all cautions and warnings on the containers of consumable materials
+specified for use in this DMWR. When applicable, wear approved protective
+clothing during handling and use.</para>
+<para>Consumables that are flammable or explosive must be kept away from heat,
+spark, and flame. Make certain that fire fighting equipment is of the type
+necessary and approved for the consumables involved.</para>
+</wpgentry>
+<wpgentry warnbox="0">
+<!--warnbox="0" removes the boxed WARNING title to a wpgentry.-->
+<title>CHEMICAL BURNS</title>
+<para>This document has been reviewed for the presence of burn chemicals.
+</para>
+</wpgentry>
+</warnpage>
+<chginssht>
+<!--Repeat this tagset for each Change Instruction Sheet.-->
+<chgnum>1</chgnum><address>U.S. ARMY AVIATION AND<brk>MISSILE COMMAND<brk>REDSTONE
+ARSENAL, AL 35898-5000</address><date>31 March 1999</date>
+<prtitle>
+<nomen>FUEL TRANSFER PUMP</nomen>
+<partno>2284-9</partno><nsn>2915-01-159-8522</nsn><eic>N/A</eic>
+</prtitle>
+<hazardmaterialstatement>
+<title>Hazard Material Statement</title>
+<para>HAZARD MATERIAL...<?Pub Caret></para>
+</hazardmaterialstatement>
+<distrib type="c">This is distribution C and is on the chginssht. </distrib>
+<expcont></expcont>
+<destr></destr>
+<para>DMWR 1-2915-350, 30 June 1996, is changed as follows:</para>
+<brk>
+<para>1. Remove and insert pages as indicated below. New or changed text material
+is indicated by a vertical bar in the margin. An illustration change is indicated
+by a miniature pointing hand.</para>
+<chglist>
+<removepg>A/B (Blank)</removepg><insertpg>A/B (Blank)</insertpg>
+<removepg>i and ii</removepg><insertpg>i and ii</insertpg>
+<removepg>1-1 and 1-2</removepg><insertpg>1-1 and 1-2</insertpg>
+<removepg>2-1 and 2-2</removepg><insertpg>2-1 and 2-2</insertpg>
+<removepg>6-1/6-2(Blank)</removepg><insertpg>6-1/6-2(Blank)</insertpg></chglist>
+<para>2. Retain this sheet in front of manual for reference purposes.</para>
+</chginssht>
+<lep><totalpgs>133</totalpgs></lep>
+<reportoferrors><changest level="2">
+<para>You can improve this manual. If you find any mistakes, or if you know
+of a way to improve these procedures, please let us know. Mail your letter
+or DA Form 2028 (Recommended Changes to Publications and Blank Forms) located
+in the back of this manual, directly to: Commander, U.S. Army Aviation and
+Missile Command, ATTN: AMSAM-MMC-MA-NP, Redstone Arsenal, AL 35898-5000. A
+reply will be furnished to you. You may also provide DA Form 2028 information
+to AMCOM via e-mail, fax, or the World Wide Web. Our fax number is: DSN 788-6546
+or Commercial 256-842-6546. Our e-mail address is: <emphasis type="undl">
+2028@redstone.army.mil</emphasis>. Instructions for sending an electronic
+2028 may be found at the back of this manual immediately preceding the hard
+copy 2028. For the World Wide web use: <emphasis type="undl">https\\amcom2028.redstone.army.mil
+</emphasis></para>
+</reportoferrors>
+<distrib type="a"></distrib>
+<changeend level="2">
+<contents levels="3">
+<illuslist>
+<oiplist>
+<tablelist>
+<preface>
+<para0 xid="parp-1" tocitem="1">
+<title>SCOPE long title to check the TOC long long TOC long long TOC long
+long TOC long long TOC long long TOC long long TOC long longTOC long long
+TOC long long TOC long long TOC long long TOC long longTOC long longTOC long
+long.</title>
+<brk><para>These instructions are for use by depot/contractor personnel. They
+apply to Fuel Transfer Pump 2284-9 and in case of conflict, take precedence
+over all other documents pertinent to depot maintenance of the item. Condition
+of the overhauled pump shall be that utility and performance is equal to that
+of a condition Code A as defined in <extref tmref="ar725-50">. This DMWR also
+provides disposition instructions for parts which do not pass the established
+minimum requirements.</para>
+<para>Parts, components or subassemblies worn beyond the repairable limits,
+as established by this DMWR, shall be replaced and disposed of as directed
+by the overhaul inspection procedures in Chapter <xref xref="chp4"> and the
+supply provisions of the contract.</para>
+<para>Repairable parts, components, or subassemblies shall be repaired in
+accordance with the instructions set forth in Chapter <xref xref="chp4">,
+Tolerance and limits supplied in this DMWR are the minimum acceptable standards.
+Repair procedures provided in this manual are not mandatory if the depot/contractor
+has developed a satisfactory alternative method. Any repair procedure deviating
+from the instructions in this DMWR shall be subject to approval by the <change
+level="2">AMCOM</change>Representative, Contracting Officer, or his designated
+representative.</para>
+</para0>
+<para0>
+<title></title><para>THIS IS A BLANK PAGE.</para>
+</para0>
+</preface>
+</front>
+<body>
+<chapter xid="chp1">
+<title>INTRODUCTION</title>
+<section xid="chp1scti">
+<title>General</title>
+<para0 xid="par1-1" tocitem="1">
+<title>PRIMARY SUBHEAD.</title><para>These instructions are for use by depot/contractor
+personnel. They apply to Fuel Transfer Pump 2284-9 and in case of conflict,
+take precedence over all other documents pertinent to depot maintenance of
+the item. Condition of the overhauled pump shall be that utility and performance
+is equal to that of a condition Code A as defined in <extref tmref="ar725-50">.
+This DMWR also provides disposition instructions for parts which do not pass
+the established minimum requirements.</para>
+<step1><para>step1</para></step1>
+<step1><para>step1</para>
+<step2><para>step2</para></step2>
+<step2><para>step2</para>
+<step3><para>step3</para></step3>
+<step3><para>step3</para>
+<step4><para>step4</para></step4>
+<step4><para>step4</para>
+<step5><para>step5</para></step5>
+<step5><para>step5</para></step5></step4></step3></step2></step1></para0>
+<para0 xid="par1-2"><?Pub Dtl>
+<title>FORMS, RECORDS AND REPORTS.</title><para>Department of the Army forms
+and records appropriate for the pump are specified in the contract and can
+be found in <extref tmref="dapam738-751">, The Army Maintenance Management
+System - Aviation (TAMMS-A).</para>
+<subpara1>
+<title>Secondary Subhead</title>
+<step1><para>step1</para></step1>
+<step1><para>step1</para>
+<step2><para>step2</para></step2>
+<step2><para>step2</para>
+<step3><para>step3</para></step3>
+<step3><para>step3</para>
+<step4><para>step4</para></step4>
+<step4><para>step4</para>
+<step5><para>step5</para></step5>
+<step5><para>step5</para></step5></step4></step3></step2></step1>
+<subpara2>
+<title>Third Subhead</title>
+<step1><para>step1</para></step1>
+<step1><para>step1</para>
+<step2><para>step2</para></step2>
+<step2><para>step2</para>
+<step3><para>step3</para></step3>
+<step3><para>step3</para>
+<step4><para>step4</para></step4>
+<step4><para>step4</para>
+<step5><para>step5</para></step5>
+<step5><para>step5</para></step5></step4></step3></step2></step1>
+<subpara3>
+<title>Fourth Subhead</title>
+<step1><para>step1</para></step1>
+<step1><para>step1</para>
+<step2><para>step2</para></step2>
+<step2><para>step2</para>
+<step3><para>step3</para></step3>
+<step3><para>step3</para>
+<step4><para>step4</para></step4>
+<step4><para>step4</para>
+<step5><para>MUST BE LABELED.</para></step5>
+<step5><para>MUST BE LABELED.</para></step5></step4></step3></step2></step1>
+<subpara4>
+<title>Fourth Subhead</title>
+<step1><para>step1</para></step1>
+<step1><para>step1</para>
+<step2><para>step2</para></step2>
+<step2><para>step2</para>
+<step3><para>step3</para></step3>
+<step3><para>step3</para>
+<step4><para>MUST BE LABELED.</para></step4>
+<step4><para>MUST BE LABELED.</para>
+<step5><para>MUST BE LABELED.</para></step5>
+<step5><para>MUST BE LABELED.</para></step5></step4></step3></step2></step1>
+<subpara5>
+<title>Fifth Subhead</title>
+<step1><para>step1</para></step1>
+<step1><para>step1</para>
+<step2><para>step2</para></step2>
+<step2><para>step2</para>
+<step3><para>MUST BE LABELED.</para></step3>
+<step3><para>MUST BE LABELED.</para>
+<step4><para>MUST BE LABELED.</para></step4>
+<step4><para>MUST BE LABELED.</para>
+<step5><para>MUST BE LABELED.</para></step5>
+<step5><para>MUST BE LABELED.</para></step5></step4></step3></step2></step1>
+<subpara6>
+<title>Sixth Subhead</title>
+<step1><para>step1</para></step1>
+<step1><para>step1</para>
+<step2><para>MUST BE LABELED.</para></step2>
+<step2><para>MUST BE LABELED.</para>
+<step3><para>MUST BE LABELED.</para></step3>
+<step3><para>MUST BE LABELED.</para>
+<step4><para>MUST BE LABELED.</para></step4>
+<step4><para>MUST BE LABELED.</para>
+<step5><para>MUST BE LABELED.</para></step5>
+<step5><para>MUST BE LABELED.</para></step5></step4></step3></step2></step1>
+<subpara7>
+<title>Seventh Subhead</title>
+<step1><para>MUST BE LABELED.</para></step1>
+<step1><para>MUST BE LABELED.</para>
+<step2><para>MUST BE LABELED.</para></step2>
+<step2><para>MUST BE LABELED.</para>
+<step3><para>MUST BE LABELED.</para></step3>
+<step3><para>MUST BE LABELED.</para>
+<step4><para>MUST BE LABELED.</para></step4>
+<step4><para>MUST BE LABELED.</para>
+<step5><para>MUST BE LABELED.</para></step5>
+<step5><para>MUST BE LABELED.</para></step5></step4></step3></step2></step1>
+</subpara7>
+</subpara6>
+</subpara5>
+</subpara4>
+</subpara3>
+</subpara2>
+</subpara1>
+<table pgwide="0">
+<title></title>
+<tgroup cols="2">
+<?PubTbl tgroup dispwid="3.02in">
+<colspec colname="col1" colwidth="0.77*"><colspec colname="col2" colwidth="1.23*">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row><row><entry></entry><entry></entry></row><row><entry></entry><entry>
+al</entry></row><row><entry>kja</entry><entry>l;</entry></row><row><entry></entry>
+<entry></entry></row><row><entry></entry><entry></entry></row><row><entry></entry>
+<entry></entry></row><row><entry>lk</entry><entry></entry></row><row><entry></entry>
+<entry></entry></row><row><entry></entry><entry></entry></row><row><entry></entry>
+<entry></entry></row><row><entry>klj</entry><entry></entry></row><row><entry></entry>
+<entry></entry></row><row><entry></entry><entry></entry></row><row><entry></entry>
+<entry></entry></row><row><entry>lk</entry><entry>j</entry></row><row><entry></entry>
+<entry></entry></row><row><entry></entry><entry></entry></row><row><entry></entry>
+<entry></entry></row><row><entry></entry><entry></entry></row><row><entry></entry>
+<entry>kl;lk</entry></row><row><entry></entry><entry></entry></row><row><entry></entry>
+<entry></entry></row><row><entry></entry><entry></entry></row><row><entry></entry>
+<entry></entry></row><row><entry></entry><entry></entry></row><row><entry>
+j</entry><entry></entry></row></tbody>
+</tgroup>
+</table>
+</para0>
+<para0 xid="par1-3">
+<title>REPORTING EQUIPMENT IMPROVEMENT RECOMMENDATIONS (EIR).</title><para><change
+level="2">EIR will be prepared using SF 368, Quality Deficiency Report (QDR).
+Instructions for preparing QDRs are provided in <extref tmref="dapam738-751">,
+</change> The Army Maintenance Management System (TAMMS) -Aircraft. Mail them
+to U.S. Army Aviation and Missile Command, ATTN: AMSAM-MMC-RE-FD, Redstone
+Arsenal, AL 35898-<change level="2">5000</change>. A reply will be furnished
+directly to you.</para>
+</para0>
+<figure>
+<graphic boardno="need_a_graphic" reprowid="2in" reprodep="2in" scalefit="1">
+<figtitle><title></title></figtitle></figure>
+<para0>
+<title></title><para><change level="2">EIR will be prepared using SF 368,
+Quality Deficiency Report (QDR). Instructions for preparing QDRs are provided
+in <extref tmref="dapam738-751">,</change> The Army Maintenance Management
+System (TAMMS) -Aircraft. Mail them to U.S. Army Aviation and Missile Command,
+ATTN: AMSAM-MMC-RE-FD, Redstone Arsenal, AL 35898-<change level="2">5000</change>.
+A reply will be furnished directly to you.</para>
+</para0>
+<pgbrk pgnumber="K-2" pageblank="1">
+<para0 xid="par1-4">
+<title>ENGINEERING CHANGE PROPOSALS (ECPS).</title><para>ECPs will be prepared
+using DD Form 1693, Engineering Change Proposal. Instructions for preparing
+ECPs are provided in contract requirements. ECPs should be mailed direct to
+Commander, U.S. Army Aviation and Missile Command, ATTN: AMSAM-RD-SE-TD-CM,
+Redstone Arsenal, AL 35898-<change level="2">5000</change>. A reply will be
+furnished directly to you.</para>
+</para0>
+<para0 xid="par1-5">
+<title>DEVIATIONS AND EXCEPTIONS.</title>
+<subpara1>
+<title></title><para>Contractors</para>
+<seqlist numstyle="alphalc" label="(a)">
+<item label="(a)">seqlist item 1</item>
+<item>seqlist item 2</item>
+<item>seqlist item 3</item>
+<item>seqlist item 4</item></seqlist>
+<randlist>
+<item></item>
+</randlist>
+<subpara2 label="(1)">
+<title></title><para>These instructions are for use by contractor personnel.
+They apply to requests for work deviations and exceptions and take precedence
+over similar procedures specified in application Depot Maintenance Work Requirement
+(DMWR). Care must be taken to assure that all active <change level="2">AMCOM
+</change>Engineering Directives (AEDs) relevant to DMWR have been considered.
+</para>
+</subpara2>
+<subpara2 label="(2)">
+<title></title><para>When any work segment as set forth in this DMWR cannot
+be accomplished or can be accomplished only in a manner other than specified,
+the contractor shall submit a Request for Depot Engineering Support (AM-SAT-I-M
+Form 1379-R-E), located in the back of this manual, through the Contracting
+Officer to <change level="2">AMSAM-MMC-AV-CC with a copy to AMSAM-MMC-AV-U
+</change>. This request shall state the problems, the reason for urgency,
+and give the specifics listed below.</para>
+<seqlist>
+<item label="(a)">Serial Number (SN), if applicable, Part Number (PN), and
+National Stock Number (NSN) of the affected equipment.</item>
+<item label="(b)">Work elements which will not be completed or which will
+not be accomplished as specified here in.</item>
+<item label="(c)">Reason for non-accomplishment or deviation.</item>
+<item label="(d)">Action taken to correct the condition causing non-accomplishment
+or need for deviation.</item>
+<item label="(e)">Data relative to non-availability of parts required, if
+applicable.</item>
+<item label="(f)">Estimated man-hours.</item>
+<item label="(g)">Instructions and inspection required to maintain the integrity
+of the end item because of such omission or deviation.</item></seqlist>
+</subpara2>
+</subpara1>
+<subpara1 xid="sub1-5.2">
+<title></title><para>Depots. Defects shall be processed in accordance with <extref
+tmref="descom-r702-1">.</para>
+<subpara2>
+<title></title><para>This is a subpara2 paragraph.</para>
+<randlist prefix="&bull;">
+<item>This is a randlist item.</item>
+<item>This is another. These do not have bullets</item>
+</randlist>
+<subpara3>
+<title></title><para>subpara3</para>
+<randlist>
+<item>Randlist with no prefix.</item>
+</randlist>
+<subpara4>
+<title></title><para></para>
+<randlist>
+<item>This is a randlist in a para4</item>
+</randlist></subpara4>
+</subpara3>
+</subpara2>
+</subpara1></para0>
+</section>
+<section xid="chp1sctii">
+<title>Descriptions, Data Plates, and Data</title>
+<warning>
+<para>warning para</para>
+</warning>
+<warning>
+<para>warning second warning</para>
+<para>warning second warning</para>
+</warning>
+<para0 xid="par1-6">
+<title>DESCRIPTION.</title>
+<brk><para>The pump (Figure <xref xref="fig1-1">) consists of two main elements;
+the motor assembly, and the pump assembly. The pump assembly housing contains
+a gerotor assembly positioned on a central shaft splined to the motor assembly
+shaft. The pump provides the capability of drawing fuel from either of two
+fuel tanks, one situated forward in the aircraft, and the other situated aft.
+</para>
+<pgbrk pgnumber="K-3"></para0>
+<para0 xid="par1-7">
+<title>DATA PLATES.</title>
+<caution>
+<para>Impression stamping directly on the surface of an installed data plate,
+or on the item itself, is prohibited.</para>
+</caution>
+<subpara1>
+<title></title><para>Data Plates. Data plates will contain the manufacturer's
+name and address, model number, rating, part number, serial number, contract
+number, NSN, vendor part number, vendor code number, and date, if applicable.
+See Figure <xref xref="fig1-1">, Pump Data Plate Locations. When sufficient
+space is not available on the existing data plate to add information, the
+plate shall be replaced and all pertinent data transferred to the new plate.
+Data shall not be stamped directly on any part, assembly, or item of equipment,
+except when approved by the government.</para>
+</subpara1>
+<subpara1>
+<title></title><para>Overhaul Data Plate. Overhaul data plate is attached
+to pump by use of a SCOTCHCAL, photosensitive aluminum label (item <xref xref="itm14appc">,
+Appendix <xref xref="appc">), Figure <xref xref="fig1-1">. Stamp data on plate
+prior to installation on component.</para>
+</subpara1>
+<subpara1>
+<title></title><para>Stamping and/or Replacement of Data Plates.</para>
+<step1 label="(a)." xid="stpa"><para>If required, locally manufacture replacement
+equipment data plate in accordance with specification <extref tmref="mil-p-6906"> Aircraft
+Identification Plates, and marked in accordance with <extref tmref="as478">.
+The data plate shall be fabricated from SCOTCHCAL photosensitive, aluminum
+label, 0.005 inch thick (item <xref xref="itm14appc">, Appendix <xref xref="appc">),
+0.75 inch wide by 2 inches long. Letters and <xref xref="stpa">numbers shall
+be 3/16 or 1/8 inch high Gothic style. Attach regular replacement identification
+plate (Figure <xref xref="fig1-1">) to the top of pump.</para>
+<note>
+<para>Area to which the data plate is applied must be free from dirt, moisture,
+oil, and grease.</para>
+</note>
+<step2><para>This is a step2</para></step2>
+<step2><para>This is a step 2, but it's longer so it wraps around and around
+and around and around and around and around and around and around and around
+and around and.</para>
+<step3><para>This is a step3.</para></step3>
+<step3><para>This is a step 3, but it's longer so it wraps around and around
+and around and around and around and around and around and around and around
+and around and.</para>
+<step4><para>This is a step4.</para></step4><pgbrk pgnumber="K-4">
+<step4><para>This is a step 4, but it's longer so it wraps around and around
+and around and around and around and around and around and around and around
+and around and.</para>
+<step5><para>This is a step 5.</para></step5>
+<step5><para>This is a step 5, but it's longer so it wraps around and around
+and around and around and around and around and around and around and around
+and around and.</para></step5></step4></step3></step2></step1>
+<step1 label="(b)."><para>The overhaul data plate, Figure <xref xref="fig1-1">,
+is installed at the first overhaul and replaced at subsequent overhauls. The
+overhaul data plate is marked or printed as follows: Overhaul agency, symbol,
+name, Q.C. stamp or initials, the word "OVERHAULED," and the date item was
+overhauled. The letters shall be Gothic style. The overhaul data plate can
+be fabricated from SCOTCHCAL photosensitive, aluminum label, 0.005 inch thick
+(item <xref xref="itm14appc">, Appendix <xref xref="appc">). The overhaul
+data plate shall be 0.45 inch wide by 0.75 inch long.</para></step1>
+<step1 label="(c)."><para>Peel paper backing and immediately apply data plate
+to cleaned area by pressing into position</para></step1>
+<subpara2 label="nonum">
+<title></title><para>The pump identification plate (Figure <xref xref="fig1-1">)
+provides the technician with original manufacturer's or modification data.
+</para>
+</subpara2>
+</subpara1><pgbrk pgnumber="K-5"></para0>
+<pgbrk pgnumber="K-6" pageblank="K-7">
+<para0>
+<title>DATA</title>
+<subpara1 xid="sub1-8.1">
+<title>Tabulated Data.</title><para>Major characteristics of the pump are
+listed in Table <xref xref="tbl1-1">.</para>
+</subpara1>
+<subpara1 xid="sub1-8.2">
+<title>Configuration Data.</title><para>Usable on code letters are assigned
+to the parts listed in Chapter <xref xref="chp4"> to indicate limited usage
+when required.</para>
+<table frame="none" pgwide="1" xid="tbl1-1">
+<title>Component Characteristics</title>
+<tgroup cols="3"><colspec colnum="1" colname="colspec0" colwidth="0.30in">
+<colspec colnum="2" colname="c1" colwidth="2.50in"><colspec colnum="3" colname="c2"
+colwidth="3.00in"><spanspec namest="colspec0" nameend="c2" spanname="span2">
+<spanspec namest="colspec0" nameend="c1" spanname="span1">
+<thead><row><entry spanname="span1" rowsep="0">Parameter</entry><entry colsep="1"
+rowsep="1" valign="bottom" align="center">Characteristic</entry></row></thead>
+<tbody><row>
+<?PubTbl row rht="0.23in">
+<entry spanname="span1" rowsep="0" align="left">Dimensions (nominal)</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left"></entry></row><row>
+<entry colsep="0" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="top"
+align="left">Length (overall)</entry><entry colsep="1" rowsep="0" valign="top"
+align="left">6.25 (15.88 cm)</entry></row><row><entry colsep="0" rowsep="0"></entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">Width (overall)</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">5.0 (12.7 cm)</entry>
+</row><row><entry colsep="0" rowsep="0"></entry><entry colsep="1" rowsep="0"
+valign="top" align="left">Height</entry><entry colsep="1" rowsep="0" valign="top"
+align="left"></entry></row><row><entry colsep="0" rowsep="0"></entry><entry
+colsep="1" rowsep="0" valign="top" align="left">Dry Weight (maximum)</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">3.0 (1.36 kg)</entry>
+</row><row><entry spanname="span1" rowsep="0" align="left">Pneumatic Power
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">Unfiltered
+air pressure<?Pub _newline>(19.0 &plusmn; 3.0 psig at 15 scfm nominally)</entry>
+</row><row><entry spanname="span2" rowsep="1"><note centered-para="1">
+<para>This is a note in a table cell.</para>
+</note></entry></row><row><entry spanname="span1" align="left">Rated Flow
+</entry><entry colsep="1" rowsep="1" valign="top" align="left">4.0 gpm at
+4.0 psig minimum (with 36.0 inch lift at +75&deg;F&plusmn;15&deg;F)</entry>
+</row></tbody>
+</tgroup>
+</table>
+</subpara1></para0>
+</section>
+<section xid="chp1sctiii">
+<title>Mobilization Requirements</title>
+<para0 xid="par1-9">
+<title>GENERAL.</title>
+<brk><para>In the event of mobilization, all depot maintenance overhaul/repair
+procedure requirements, except those necessary to return the end item, assembly,
+subassembly, or component to a serviceable condition, are to be exempt or
+revised. The exemptions/revisions are identified in Appendix <xref xref="appd">.
+</para>
+</para0>
+</section></chapter>
+<chapter xid="chp2">
+<title>TECHNICAL SUPPORT REQUIREMENTS</title>
+<section xid="chp2scti">
+<title>Support Items</title>
+<para0 xid="par2-1">
+<title>FACILITIES.</title>
+<brk><para>The contractor/depot facilities required to perform complete depot
+maintenance on the pump consist of a general work area and facilities for
+cleaning, Magnetic Particle Inspection, processing of bearings, and testing
+of pump assembly. The contractor/depot facilities shall be clean, well lighted,
+and equipped to perform all phases of the operation as prescribed by this
+DMWR.</para>
+</para0>
+<figure>
+<graphic boardno="need_a_graphic" reprowid="3in" reprodep="3in" scalefit="1">
+<figtitle><title></title></figtitle></figure>
+<para0 xid="par2-2">
+<title>TOOLS AND EQUIPMENT.</title>
+<brk><para>The following categories of tools, inspection instruments, and
+test equipment are those considered necessary for performance of depot maintenance.
+</para>
+<subpara1 xid="sub2-2.1">
+<title>Special Tools And Equipment.</title><para>None required.</para>
+</subpara1>
+<subpara1>
+<title>Inspection and Test Equipment.</title><para>Table <extref tmref="tbl2-1"> lists
+inspection and test equipment, including diagnostic equipment, used to determine
+conformance to specifications and requirements contained in this DMWR.</para>
+</subpara1>
+<table frame="all" pgwide="1" xid="tbl2-1">
+<title>Inspection and Test Equipment</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1" colwidth="0.582in"><colspec
+colnum="2" colname="c2" colwidth="2.728in"><colspec colnum="3" colname="c3"
+colwidth="2.03in"><colspec colnum="4" colname="c4" colwidth="1.66in"><spanspec
+namest="c1" nameend="c4" spanname="s1-4">
+<thead><row><entry colsep="1" rowsep="1" valign="bottom" align="center">Item
+No.</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">Nomenclature
+</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">NSN or
+Part Number</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">
+Reference Paragraph of Use</entry></row></thead>
+<tbody><row><entry colsep="1" rowsep="0" valign="top" align="center">1</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">DC Resistance Bridge
+(0-100K)</entry><entry colsep="1" rowsep="0" valign="top" align="left">General
+Radio 1666</entry><entry colsep="1" rowsep="0" valign="top" align="center"><xref
+xref="par4-25"></entry></row><row><entry colsep="1" rowsep="0" valign="top"
+align="center">2</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+Magnifying Glass</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+6650-00-133-7743</entry><entry colsep="1" rowsep="0" valign="top" align="center">
+(1)</entry></row><row><entry colsep="1" rowsep="0" valign="top" align="center">
+3</entry><entry colsep="1" rowsep="0" valign="top" align="left">Depth Gauge
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">5210-00-710-4359
+</entry><entry colsep="1" rowsep="0" valign="top" align="center">(1)</entry>
+</row><row><entry colsep="1" rowsep="0" valign="top" align="center">4</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">Magnetic Particle Inspection
+Equipment</entry><entry colsep="1" rowsep="0" valign="top" align="left"><change
+level="1">6635-00-566-5167</change></entry><entry colsep="1" rowsep="0" valign="top"
+align="center">(1)</entry></row><changeend level="1"><row><entry colsep="1"
+rowsep="0" valign="top" align="center">5</entry><entry colsep="1" rowsep="0"
+valign="top" align="left">Liquid Penetrant Inspection Equipment</entry><entry
+colsep="1" rowsep="0" valign="top" align="left">6635-00-566-5198</entry><entry
+colsep="1" rowsep="0" valign="top" align="center">(1)</entry></row><row><entry
+colsep="1" rowsep="0" valign="top" align="center">6</entry><entry colsep="1"
+rowsep="0" valign="top" align="left">Pressure Gauge (0-200 PSI), Ashcroft
+</entry><entry colsep="1" rowsep="0" valign="top" align="left"><change level="1">
+6685-00-846-9720</change></entry><entry colsep="1" rowsep="0" valign="top"
+align="center"><xref xref="par4-27">, <xref xref="par4-28"></entry></row>
+<changeend level="1"><row><entry colsep="1" rowsep="0" valign="top" align="center">
+7</entry><entry colsep="1" rowsep="0" valign="top" align="left">Flowmeter,
+positive displacement (2-10 gpm)</entry><entry colsep="1" rowsep="0" valign="top"
+align="left">6695-01-286-7500</entry><entry colsep="1" rowsep="0" valign="top"
+align="center"><xref xref="par4-29">,<xref xref="par4-30"></entry></row><row>
+<entry colsep="1" rowsep="0" valign="top" align="center"><changest level="1">8
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">Compound Gauge
+(0-30 Vac, 0-30 psig)</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+6685-00-011-1998</entry><entry colsep="1" rowsep="0" valign="top" align="center"><xref
+xref="par4-26"></entry></row><row><entry colsep="1" rowsep="0" valign="top"
+align="center">9</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+Thermocouple Gauge</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+Omega 115-JF<brk>6685-00-113-1888</entry><entry colsep="1" rowsep="0" valign="top"
+align="center"><xref xref="par4-29">, <xref xref="par4-30"><changeend level="1"></entry>
+</row><row><entry spanname="s1-4" colsep="0" rowsep="1" valign="top" align="left">
+NOTE: Equivalent parts may be used for all listed parts.</entry></row></tbody>
+</tgroup>
+</table>
+<subpara1>
+<title>Special Inspection Equipment (SIE).</title><para>Not applicable.</para>
+</subpara1>
+<subpara1>
+<title>Fabricated Tools and Equipment.</title><para>Not applicable.</para>
+</subpara1></para0>
+</section><pgbrk>
+<section xid="chp2sctii">
+<title>Finite Life Items, Time Between Overhaul (TBO) Items, Parts, and Modifications
+</title>
+<para0 xid="par2-3">
+<title>FINITE LIFE ITEMS AND TIME BETWEEN OVERHAUL (TBO) ITEMS.</title>
+<brk><para>The pump assembly does not have an overhaul interval. The pump
+has an "on condition" retirement life.</para>
+</para0>
+<para0 xid="par2-4">
+<title>MANDATORY REPLACEMENT PARTS.</title>
+<brk><para>Refer to Table <xref xref="tbl2-2">, Mandatory Replacement Parts
+for Pump if Disassembled, Disturbed, or Exposed.</para>
+</para0>
+<para0 xid="par2-5">
+<title>REPAIR PARTS.</title>
+<brk><para>Not applicable.</para>
+<table frame="all" pgwide="1" xid="tbl2-2">
+<title>Mandatory Replacement Parts for Pump if Disassembled, Disturbed, or
+Exposed</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="1.605in"><colspec
+colnum="2" colname="c2" colwidth="1.446in"><colspec colnum="3" colname="c3"
+colwidth="1.77in"><colspec colnum="4" colname="c4" colwidth="1.54in"><colspec
+colnum="5" colname="c5" colwidth="0.63in">
+<thead><row><entry colsep="1" rowsep="1" valign="bottom" align="center">Item
+Description</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">
+Part Number (CAGE)</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">
+NSN</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">Identification
+Item &amp; Figure Numbers</entry><entry colsep="1" rowsep="1" valign="bottom"
+align="center">QTY</entry></row></thead>
+<tbody><row><entry colsep="1" rowsep="0" valign="top" align="left">Packing
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">M83248/1-032
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">5330-00-166-8392
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">4, Figure <xref
+xref="fig4-1"></entry><entry colsep="1" rowsep="0" valign="top" align="center">
+1</entry></row><row><entry colsep="1" rowsep="0" valign="top" align="left">
+Machine Key</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+MS20068-49</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+5315-01-213-4417</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+7, Figure <xref xref="fig4-2"></entry><entry colsep="1" rowsep="0" valign="top"
+align="center">1</entry></row><row><entry colsep="1" rowsep="0" valign="top"
+align="left">Screw</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+NAS1189E06P4</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+5305-01-116-8946</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+1, Figure <xref xref="fig4-3"></entry><entry colsep="1" rowsep="0" valign="top"
+align="center">2</entry></row><row><entry colsep="1" rowsep="0" valign="top"
+align="left"><change level="2">O-Ring</change></entry><entry colsep="1" rowsep="0"
+valign="top" align="left">M83248/1-031</entry><entry colsep="1" rowsep="0"
+valign="top" align="left">5330-00-166-8391</entry><entry colsep="1" rowsep="0"
+valign="top" align="left">3, Figure <xref xref="fig4-3"></entry><entry colsep="1"
+rowsep="0" valign="top" align="center">1</entry></row><row><entry colsep="1"
+rowsep="0" valign="top" align="left">Washer, Spring Tension</entry><entry
+colsep="1" rowsep="0" valign="top" align="left">W1235-014</entry><entry colsep="1"
+rowsep="0" valign="top" align="left">5310-01-055-2029</entry><entry colsep="1"
+rowsep="0" valign="top" align="left">4, Figure <xref xref="fig4-3"></entry>
+<entry colsep="1" rowsep="0" valign="top" align="center">1</entry></row><row>
+<entry colsep="1" rowsep="0" valign="top" align="left">Shaft Seal Set</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">14648</entry><entry
+colsep="1" rowsep="0" valign="top" align="left">2915-01-179-4175</entry><entry
+colsep="1" rowsep="0" valign="top" align="left">6, Figure <xref xref="fig4-3"></entry>
+<entry colsep="1" rowsep="0" valign="top" align="center">2</entry></row><row>
+<entry colsep="1" rowsep="0" valign="top" align="left">Retaining Ring</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">MS16624-4025</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">5365-00-298-6564</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">2, 11, Figure <xref
+xref="fig4-4"></entry><entry colsep="1" rowsep="0" valign="top" align="center">
+2</entry></row><row><entry colsep="1" rowsep="0" valign="top" align="left">
+Bearing</entry><entry colsep="1" rowsep="0" valign="top" align="left">14628
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">3110-01-179-0794
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">6, 13, Figure <xref
+xref="fig4-4"></entry><entry colsep="1" rowsep="0" valign="top" align="center">
+2</entry></row><row><entry colsep="1" rowsep="0" valign="top" align="left">
+Washer, Spring Tension</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+R4 (92830)</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+5310-00-753-4402</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+8, Figure <xref xref="fig4-4"></entry><entry colsep="1" rowsep="0" valign="top"
+align="center">1</entry></row><row><entry colsep="1" rowsep="0" valign="top"
+align="left">Vane</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+14585</entry><entry colsep="1" rowsep="0" valign="top" align="left">2915-01-179-4174
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">19, Figure <xref
+xref="fig4-4"></entry><entry colsep="1" rowsep="0" valign="top" align="center">
+3</entry></row><row><entry colsep="1" rowsep="1" valign="top" align="left">
+Spring</entry><entry colsep="1" rowsep="1" valign="top" align="left">14579
+</entry><entry colsep="1" rowsep="1" valign="top" align="left">5360-01-179-4243
+</entry><entry colsep="1" rowsep="1" valign="top" align="left">20, Figure <xref
+xref="fig4-4"></entry><entry colsep="1" rowsep="1" valign="top" align="center">
+3</entry></row></tbody>
+</tgroup>
+</table>
+</para0>
+<para0>
+<title>MODIFICATIONS.</title>
+<brk><para>The overhaul agency is required to check the Department of the
+Army Modification Work Order (DAMWO) Index for all published Modification
+Work Orders (MWOs). Refer to <extref tmref="dapam25-30"> and <extref tmref="dapam750-10"> for
+those applicable to the pump. The text in Chapter <xref xref="chp4"> of this
+DMWR reflects all the MWOs issued prior to the latest revision date. Any MWO
+that has been included will be listed in paragraph <xref xref="sub2-6.1">.
+A rescinded MWO will appear in this manual as an appendix.</para>
+<subpara1 xid="sub2-6.1">
+<title></title><para>MWOs Included in Chapter <xref xref="chp4">. Not applicable.
+</para>
+</subpara1></para0>
+</section><pgbrk>
+<section xid="chp2sctiii">
+<title>Standards</title>
+<para0 xid="par2-7">
+<title>QUALITY OF MATERIAL.</title>
+<brk><para>Parts and material used for replacement, repair, or modification
+shall meet the requirements of the equipment drawings and specifications if
+standards are not provided in this DMWR.</para>
+</para0>
+<para0 xid="par2-8">
+<title>ELECTROMAGNETIC COMPATIBILITY STANDARDS.</title>
+<brk><para>Not applicable.</para>
+</para0>
+<para0 xid="par2-9">
+<title>ELECTROSTATIC DISCHARGE (ESD).</title>
+<brk><para>Not applicable.</para>
+</para0>
+<para0 xid="par2-10">
+<title>NUCLEAR HARDNESS.</title>
+<brk><para>Not applicable.</para>
+</para0>
+<para0 xid="par2-11">
+<title>FLIGHT SAFETY PARTS PROGRAM.</title>
+<brk><para>This DMWR is not impacted by the Flight Safety Parts Program.</para>
+</para0>
+</section></chapter>
+<chapter xid="chp3">
+<title>PRESHOP ANALYSIS OPERATIONS</title>
+<section xid="chp3scti">
+<title>Purpose, Test, and Analysis Standards</title>
+<para0 xid="par3-1">
+<title>PURPOSE.</title>
+<brk><para>The purpose of preshop analysis operation is to determine at the
+highest assembly level possible, the work required to return the pump to a
+serviceable condition as specified in this DMWR. If inspection at the highest
+level of assembly is precluded by missing, damaged, or diagnosed defective
+assemblies, consideration will be given to techniques that would allow continued
+inspection at that level. If this is not possible, inspection will proceed
+at the next lower level. The preshop analysis checklist will be used to record
+the results of the analysis and any required maintenance. Where it has been
+previously determined that a 100% overhaul will be accomplished, preshop analysis
+is not mandatory. 100% teardown is required if the pump was removed from service
+for internal failure, overspeeding, sudden stoppage, lubricant contamination,
+lightning strike, and when overheating and/or excessive vibration has been
+verified. Basically, the preshop analysis provides the overhaul/repair facility
+with guidelines (inspection and diagnostic) to aid in the preparation of cost
+estimates and determine workload.</para>
+</para0>
+<para0 xid="par3-2">
+<title>GENERAL.</title>
+<brk>
+<subpara1 xid="sub3-2.1">
+<title>Inspection of Forms.</title>
+<brk><para>Check all tags and forms attached to the pump to determine the
+reason for removal from service. Do not remove tags or forms from the pump
+until depot maintenance work has actually started. If any of the paperwork
+is missing, it shall be requested from the procuring activity. Check also
+if all applicable Technical Bulletins (TBs) and Modification Work Orders (MWOs)
+issued to date have been incorporated.</para>
+</subpara1>
+<subpara1 xid="sub3-2.2">
+<title>Removal of Pump from Shipping Container, Package, or Storage.</title>
+<brk><para>Shipping Containers and packing material are reusable. Use care
+during unpacking to avoid damaging shipping container, packing material, and/or
+the pump. Open shipping container, remove packing material and the pump. Store
+packing material in shipping container and retain shipping container for future
+use. If shipping container or packing material are damaged, repair or discard
+(see Chapter <xref xref="chp6"> for Instructions).</para>
+</subpara1>
+<subpara1 xid="sub3-2.3">
+<title>External Inspection.</title>
+<brk><para>Visually check the pump for missing or damaged hardware, corrosion,
+dents, chipped or broken housing, or evidence of leakage.</para>
+<warning><changest level="2">
+<para>P-D-680, Type II, is toxic to skin, eyes, and respiratory tract. Avoid
+repeated contact. Good general ventilation is normally adequate.</para>
+<changeend level="2"></warning>
+</subpara1>
+<subpara1 xid="sub3-2.4">
+<title>Cleaning.</title><para>Wipe the exterior of the pump thoroughly with
+P-D-880, Type II (item <xref xref="itm12appc">, Appendix <xref xref="appc">),
+prior to performing preshop analysis.</para>
+</subpara1>
+<subpara1 xid="sub3-2.5">
+<title>Operational Check.</title>
+<brk><para>Perform Calibration Run in accordance with Chapter <xref xref="chp4">,
+paragraph <xref xref="par4-29">.</para>
+</subpara1>
+<subpara1 xid="sub3-2.6">
+<title>Temporary Preservation/Protection.</title>
+<brk><para>Items awaiting inspection, modification, or repair shall be preserved
+to prevent corrosion. Use corrosion preventative (item <xref xref="itm4appc">,
+Appendix <xref xref="appc">) to coat all metal parts after cleaning. Wrap
+parts with barrier material (item <xref xref="itm3appc">, Appendix <xref xref="appc">)
+for additional protection. It is not necessary to apply corrosion preventative
+to parts that will be repaired or reassembled immediately.</para>
+</subpara1>
+<subpara1 xid="sub3-2.7">
+<title>Special Handling or Condemnation Procedures.</title>
+<brk><para>Not applicable.</para>
+</subpara1>
+<subpara1 xid="sub3-2.8">
+<title>Analysis Maintenance Actions.</title>
+<brk><para>Compare conditions/dimensions found during preshop analysis with
+limits provided in paragraph <xref xref="sub3-2.5"> and preshop analysis checklist
+to determine what maintenance is required to return the pump to a serviceable
+condition.</para>
+</subpara1></para0>
+</section><pgbrk>
+<section xid="chp3sctii">
+<title>Preshop Analysis Checklist</title>
+<para0 xid="par3-3">
+<title>GENERAL.</title>
+<brk><para>Perform the inspection/test requirements called for in Table <xref
+xref="tbl3-1">, Preshop Analysis Checklist, and record your findings in the
+Condition/Dimensions Found column. Record your recommendations as a result
+of your findings in the Recommended Maintenance Action column. Sign and date
+the checklist in the last column.</para>
+</para0>
+<para0 xid="par3-4">
+<title>PRESHOP ANALYSIS (PSA) CHECKLIST.</title>
+<brk>
+<subpara1 xid="sub3-4.1">
+<title>Disassembly.</title><para>The overhaul/repair facility shall disassemble
+the pump only to the extent required to accomplish repair, modification, or
+overhaul, or to make an estimate of cost.</para>
+<subpara2 label="(1)">
+<title></title><para>Before disassembly, comply with the information requested
+on the Preshop Analysis Checklist, Table <xref xref="tbl3-1">.</para>
+</subpara2>
+<subpara2 label="(2)">
+<title></title><para>A complete disassembly and inspection are required if
+the pump is removed from service for internal failure, overspeeding, sudden
+stoppage, lubricant contamination, lightning strike, and when overheating
+and/or excessive vibration have been confirmed.</para>
+</subpara2>
+<subpara2 label="(3)">
+<title></title><para>Parts of individual pump must be tagged or kept together
+so that wear condition of mating parts can be evaluated during inspection.
+Matched parts shall be tagged, handled, and stored together to preclude mixups,
+and thus ensure reassembly and installation in their matched positions. Record
+and tag defective parts with reason for rejection. Parts which are normally
+replaced, such as packings, retaining rings, etc., need not be tagged for
+identification.</para>
+</subpara2>
+<subpara2 label="(4)">
+<title></title><para>To prevent damage of parts due to exposure, wrap all
+gears, bearings, and other corrosion sensitive parts in barrier material (item <xref
+xref="itm3appc">, Appendix <xref xref="appc">) unless they are going to be
+repaired or reassembled immediately.</para>
+</subpara2>
+</subpara1>
+<subpara1 xid="sub3-4.2">
+<title>Supplemental PSA.</title><para>A blank Supplemental Preshop Analysis
+Checklist, Table <xref xref="tbl3-2">, is provided in this section in the
+event additional maintenance actions are required. For example: MWO applications;
+ECPs published after DMWR publication date; or commander's/depot/major subordinate
+command requirements.</para>
+<table frame="all" rowsep="0" pgwide="1" xid="tbl3-1">
+<title>Preshop Analysis Checklist</title>
+<tgroup cols="6"><colspec colnum="1" colname="colspec0" colwidth="0.22in">
+<colspec colnum="2" colname="c1" colwidth="1.63in"><colspec colnum="3" colname="c2"
+colwidth="0.68in"><colspec colnum="4" colname="c3" colwidth="1.61in"><colspec
+colnum="5" colname="c4" colwidth="1.99in"><colspec colnum="6" colname="c5"
+colwidth="0.97in"><spanspec namest="colspec0" nameend="c1" spanname="span1">
+<thead><row><entry spanname="span1" rowsep="1" align="center">Inspection/Test
+</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">Para.
+Ref.</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">Condition/Dimensions
+Found</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">
+Recommended Maintenance Action</entry><entry colsep="1" rowsep="1" valign="bottom"
+align="center">Signature of Person Performing Analysis and Date</entry></row>
+</thead>
+<tbody><row>
+<?PubTbl row rht="0.56in">
+<entry spanname="span1" rowsep="0" align="left">Review records and tags</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left"><xref xref="sub3-2.1"></entry>
+<entry colsep="1" rowsep="0" valign="top" align="left"></entry><entry colsep="1"
+rowsep="0" valign="top" align="left"></entry><entry colsep="1" rowsep="0"
+valign="top" align="left"></entry></row><row><entry spanname="span1" rowsep="0"
+align="left">External visible:&nbsp;&nbsp;&nbsp;</entry><entry colsep="1"
+rowsep="0" valign="top" align="left"><xref xref="sub3-2.3"></entry><entry
+colsep="1" rowsep="0" valign="top" align="left"></entry><entry colsep="1"
+rowsep="0" valign="top" align="left"></entry><entry colsep="1" rowsep="0"
+valign="top" align="left"></entry></row><row><entry colsep="0"></entry><entry>
+missing or damaged hardware, corrosion, dents, chipped or broken housing,
+or evidence of leakage.</entry><entry></entry><entry></entry><entry></entry>
+<entry colsep="0"></entry></row><row><entry spanname="span1" rowsep="0" align="left">
+Operational Check&nbsp;&nbsp;&nbsp;</entry><entry colsep="1" rowsep="0" valign="top"
+align="left"><xref xref="sub3-2.5"></entry><entry colsep="1" rowsep="0" valign="top"
+align="left"></entry><entry colsep="1" rowsep="0" valign="top" align="left"></entry>
+<entry colsep="0" rowsep="0" valign="top" align="left"></entry></row><row>
+<entry></entry><entry></entry><entry></entry><entry></entry><entry></entry>
+<entry colsep="0"></entry></row><row><entry colsep="0"></entry><entry>Calibration
+Run</entry><entry><xref xref="par4-29"></entry><entry></entry><entry></entry>
+<entry colsep="0"></entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table frame="all" rowsep="0" pgwide="1" xid="tbl3-2">
+<title>Supplemental Preshop Analysis Checklist</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="1.86in"><colspec
+colnum="2" colname="c2" colwidth="0.61in"><colspec colnum="3" colname="c3"
+colwidth="1.63in"><colspec colnum="4" colname="c4" colwidth="2.01in"><colspec
+colnum="5" colname="c5" colwidth="0.89in">
+<thead><row><entry colsep="1" rowsep="1" valign="bottom" align="center">Inspection/Test
+</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">Para.
+Ref.</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">Condition/Dimensions
+Found</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">
+Recommended Maintenance Action</entry><entry colsep="1" rowsep="1" valign="bottom"
+align="center">Signature of Person Performing Analysis and Date</entry></row>
+</thead>
+<tbody><row><entry colsep="1" rowsep="0" valign="top" align="left"></entry>
+<entry colsep="1" rowsep="0" valign="top" align="left"></entry><entry colsep="1"
+rowsep="0" valign="top" align="left"></entry><entry colsep="1" rowsep="0"
+valign="top" align="left"></entry><entry colsep="1" rowsep="0" valign="top"
+align="left"></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry><entry></entry>
+<entry></entry><entry></entry></row></tbody>
+</tgroup>
+</table>
+</subpara1></para0>
+</section></chapter>
+<chapter xid="chp4">
+<title>OVERHAUL OPERATIONS</title>
+<section xid="chp4scti">
+<title>General Requirements</title>
+<para0 xid="par4-1">
+<title>GENERAL ARRANGEMENTS.</title>
+<brk><para>Overhaul operations in this chapter are arranged in sections by
+equipment top-down generation breakdown. The maintenance tasks are in a logically
+performed sequence.</para>
+<brk><para>This chapter provides the overhaul agency with complete disassembly/assembly
+instructions for the pump.</para>
+<brk><para>The information in this chapter has been arranged in the most logically
+performed sequence and should be followed whenever possible. Where necessary
+for clarity, the text has been supplemented with assembly illustrations and
+exploded views.</para>
+</para0>
+<para0 xid="par4-2">
+<title>SCOPE.</title>
+<brk><para>Section <xref xref="chp4scti"> provides general Instructions to
+be followed during overhaul of the pump. Section <xref xref="chp4sctii"> provides
+an illustrated parts breakdown of the pump. Section <xref xref="chp4sctii"> provides
+information on preparation for disassembly of the pump and parts. Section <xref
+xref="chp4sctiv"> provides repair/overhaul instructions which may be required
+to restore the pump to a serviceable condition. Section <xref xref="chp4sctv"> consists
+of final assembly testing instructions to verify that the overhauled pump
+is in a serviceable condition.</para>
+</para0>
+<para0 xid="par4-3">
+<title>REFERENCES.</title>
+<brk><para>References to other technical publications, necessary for overhaul
+operations, have been kept to a minimum. All DMWR references have been listed
+by their descriptive titles in Appendix <xref xref="appa">.</para>
+</para0>
+<para0 xid="sub4-19.1">
+<title></title></para0>
+<para0 xid="sub4-19.5">
+<title></title></para0>
+<para0 xid="sub4-19.6">
+<title></title></para0>
+<para0 xid="sub4-22.2">
+<title></title></para0>
+<para0 xid="par4-4">
+<title>SAFETY.</title>
+<brk><para>Adequate safety precautions shall be provided by the contractor
+for the performance of maintenance, overhaul, and repair operations. These
+precautions shall include safety in the work environment, selection and usage
+of equipment, and procedures provided for performing all operations. Inspection
+which follows completion of maintenance, overhaul, and repair procedures shall
+assure equipment compliance with applicable safety standards. The warning
+page at the front of this DMWR shall be read before maintenance is performed
+on the pump. All warnings, cautions, and notes shall be observed. Approved
+first aid and safety equipment shall be readily available. Safety equipment
+shall be serviceable. Work areas shall be kept in a clean, neat manner. The
+proper tools and equipment shall be used to perform all tasks. Equipment shall
+be serviceable and properly grounded. Equipment shall be used with all safety
+devices attached (i.e., shields and guards).</para>
+</para0>
+</section>
+<section xid="chp4sctiv">
+<title>Fuel Transfer Pump</title>
+<para0 xid="par4-13">
+<title>GENERAL.</title>
+<brk><para>This section provides instructions for disassembly, cleaning, inspection,
+mandatory replacement parts, repair/replace, reclamation, assembly, lubrication,
+testing, painting, refinishing, and marking.</para>
+</para0>
+<pgbrk>
+<table label="1" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip1">
+<title>Cover Assembly, Pump</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="0.802in"><colspec
+colnum="2" colname="c2" colwidth="0.61in"><colspec colnum="3" colname="c3"
+colwidth="1.78in"><colspec colnum="4" colname="c4" colwidth="1.21in"><colspec
+colnum="5" colname="c5" colwidth="2.60in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="bottom" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="bottom" align="center">
+PART NUMBER</entry></row></thead>
+<tbody><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+Cover Assembly, Pump (4, Fig <xref xref="fig4-2">)</entry><entry spanname="s4-5"
+colsep="0" rowsep="1" valign="top" align="center">14647</entry></row><row>
+<entry spanname="s1-5" colsep="0" rowsep="0" valign="top" align="center"><graphic
+boardno="fig6" reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry>
+</row><row><entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry>
+<entry colsep="0" rowsep="1" valign="middle" align="center">REF LTR</entry>
+<entry colsep="0" rowsep="1" valign="top" align="left">CHARACTERISTIC</entry>
+<entry colsep="0" rowsep="1" valign="top" align="left">INSP METHOD</entry>
+<entry colsep="0" rowsep="1" valign="top" align="left">REQUISITE</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="center">1</entry><entry
+colsep="0" rowsep="0" valign="top" align="center"></entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Serviceability</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Visual/Measure</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Dents and scratches 0.020 in. depth maximum
+after rework. Rework per paragraph 1</entry></row><row><entry colsep="0" rowsep="0"
+valign="top" align="center">2</entry><entry colsep="0" rowsep="0" valign="top"
+align="center"></entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Fractures/Cracks</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Visual/Florescent Penetrant</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">None allowed.</entry></row><row><entry colsep="0" rowsep="0"
+valign="top" align="center">3</entry><entry colsep="0" rowsep="0" valign="top"
+align="center"></entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Alodined Finish</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Visual</entry><entry colsep="0" rowsep="0" valign="top" align="left">Repair
+damaged or missing finish per paragraph 1.</entry></row><row><entry colsep="0"
+rowsep="0" valign="top" align="center">4</entry><entry colsep="0" rowsep="0"
+valign="top" align="center">A</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Surface</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Visual/Measure</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Grooving not deeper than 0.010 in. connecting inlet and outlet cavities.</entry>
+</row><row><entry colsep="0" rowsep="0" valign="top" align="center">5</entry>
+<entry colsep="0" rowsep="0" valign="top" align="center">B</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Bearing</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual/Measure</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">No nicks, gouges, burrs, scratches, or corrosion.
+Maximum diameter 0.4057 in.</entry></row><row><entry colsep="0" rowsep="0"
+valign="top" align="center">6</entry><entry colsep="0" rowsep="0" valign="top"
+align="center">C</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Thickness</entry><entry colsep="0" rowsep="0" valign="top" align="left">Visual/Measure
+</entry><entry colsep="0" rowsep="0" valign="top" align="left">Minimum 0.249
+in.</entry></row><row><entry colsep="0" rowsep="0" valign="top" align="center">
+7</entry><entry colsep="0" rowsep="0" valign="top" align="center">D</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Dowel Pin Slot</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Measure</entry><entry
+colsep="0" rowsep="0" valign="top" align="left">Maximum width 0.067 in.</entry>
+</row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table label="2" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip2">
+<title>Shaft, Pump</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="0.85in"><colspec
+colnum="2" colname="c2" colwidth="0.65in"><colspec colnum="3" colname="c3"
+colwidth="1.41in"><colspec colnum="4" colname="c4" colwidth="1.55in"><colspec
+colnum="5" colname="c5" colwidth="2.54in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="bottom" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="bottom" align="center">
+PART NUMBER</entry></row></thead>
+<tbody><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+Shaft, Pump (6, Figure <xref xref="fig4-2">)</entry><entry spanname="s4-5"
+colsep="0" rowsep="1" valign="top" align="center">14645</entry></row><row>
+<entry spanname="s1-5" colsep="0" rowsep="0" valign="top" align="center"><graphic
+boardno="fig7" reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry>
+</row><row><entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry>
+<entry colsep="0" rowsep="1" valign="top" align="center">REF<brk>LTR</entry>
+<entry colsep="0" rowsep="1" valign="top" align="left">CHARACTERISTIC</entry>
+<entry colsep="0" rowsep="1" valign="top" align="left">INSP METHOD</entry>
+<entry colsep="0" rowsep="1" valign="top" align="left">REQUISITE</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="center">1</entry><entry
+colsep="0" rowsep="0" valign="top" align="center"></entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Serviceability</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Visual/Measure</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Nicks, gouges, burrs, and corrosion not
+deeper than 0.020 in. after rework. Rework per paragraph .</entry></row><row>
+<entry colsep="0" rowsep="0" valign="top" align="center">2</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Fractures/Cracks</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual/Magnetic Particle</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">None allowed.</entry></row><row><entry
+colsep="0" rowsep="0" valign="top" align="center">3</entry><entry colsep="0"
+rowsep="0" valign="top" align="center">A</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Keyway</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Measure</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Maximum width 0.128 in.</entry></row><row><entry colsep="0" rowsep="0" valign="top"
+align="center">4</entry><entry colsep="0" rowsep="0" valign="top" align="center">
+B</entry><entry colsep="0" rowsep="0" valign="top" align="left">Diameter (2)
+</entry><entry colsep="0" rowsep="0" valign="top" align="left">Measure</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Minimum diameter 0.4040
+in. Rework per paragraph .</entry></row><row><entry colsep="0" rowsep="0"
+valign="top" align="center">5</entry><entry colsep="0" rowsep="0" valign="top"
+align="center"></entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Heat Discoloration</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Visual</entry><entry colsep="0" rowsep="0" valign="top" align="left">Replace.
+</entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table label="3" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip3">
+<title>Geroter Element, Outer</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="0.659in"><colspec
+colnum="2" colname="c2" colwidth="0.80in"><colspec colnum="3" colname="c3"
+colwidth="1.62in"><colspec colnum="4" colname="c4" colwidth="1.33in"><colspec
+colnum="5" colname="c5" colwidth="2.59in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="bottom" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="bottom" align="center">
+PART NUMBER</entry></row></thead>
+<tbody><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+Gerotor, Outer (9, Figure <xref xref="fig4-2">)</entry><entry spanname="s4-5"
+colsep="0" rowsep="1" valign="top" align="center">14646-1</entry></row><row>
+<entry spanname="s1-5" colsep="0" rowsep="0" valign="top" align="center"><graphic
+boardno="fig8" reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry>
+</row><row><entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry>
+<entry colsep="0" rowsep="1" valign="top" align="center">REF LTR</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">CHARACTERISTIC</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">INSP METHOD</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">REQUISITE</entry></row><row>
+<entry colsep="0" rowsep="0" valign="top" align="center">1</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Serviceability</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual/Measure</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Nicks, gouges, burrs, scratches, and corrosion not
+deeper than 0.020 in. after rework. Rework per paragraph .</entry></row><row>
+<entry colsep="0" rowsep="0" valign="top" align="center">2</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Fractures/Cracks</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">None allowed.</entry></row><row><entry colsep="0" rowsep="0"
+valign="top" align="center">3</entry><entry colsep="0" rowsep="0" valign="top"
+align="center"></entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Thickness</entry><entry colsep="0" rowsep="0" valign="top" align="left">Measure
+</entry><entry colsep="0" rowsep="0" valign="top" align="left">Minimum 0.6232
+in.</entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table label="4" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip4">
+<title>Geroter Element, Inner</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="0.649in"><colspec
+colnum="2" colname="c2" colwidth="0.82in"><colspec colnum="3" colname="c3"
+colwidth="1.61in"><colspec colnum="4" colname="c4" colwidth="1.34in"><colspec
+colnum="5" colname="c5" colwidth="2.58in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="bottom" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="bottom" align="center">
+PART NUMBER</entry></row></thead>
+<tbody><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+Gerotor, Inner (10 Figure )</entry><entry spanname="s4-5" colsep="0" rowsep="1"
+valign="top" align="center">14646-2</entry></row><row><entry spanname="s1-5"
+colsep="0" rowsep="0" valign="top" align="center"><graphic boardno="fig9"
+reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry></row><row>
+<entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry><entry
+colsep="0" rowsep="1" valign="top" align="center">REF LTR</entry><entry colsep="0"
+rowsep="1" valign="top" align="left">CHARACTERISTIC</entry><entry colsep="0"
+rowsep="1" valign="top" align="left">INSP METHOD</entry><entry colsep="0"
+rowsep="1" valign="top" align="left">REQUISITE</entry></row><row><entry colsep="0"
+rowsep="0" valign="top" align="center">1</entry><entry colsep="0" rowsep="0"
+valign="top" align="center"></entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Serviceability</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Visual/Measure</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Nicks, gouges, burrs, and corrosion not deeper than 0.020 in.
+after rework. Rework per paragraph <xref xref="sub4-19.1">.</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="center">2</entry><entry
+colsep="0" rowsep="0" valign="top" align="center"></entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Fractures/Cracks</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Visual</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">None allowed.</entry></row><row><entry colsep="0"
+rowsep="0" valign="top" align="center">3</entry><entry colsep="0" rowsep="0"
+valign="top" align="center">A</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Keyslot</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Measure</entry><entry colsep="0" rowsep="0" valign="top" align="left">Maximum
+width 0.128 in.</entry></row><row><entry colsep="0" rowsep="0" valign="top"
+align="center">4</entry><entry colsep="0" rowsep="0" valign="top" align="center"></entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Thickness</entry><entry
+colsep="0" rowsep="0" valign="top" align="left">Measure</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Minimum 0.6232 in.</entry></row><row>
+<entry colsep="0" rowsep="0" valign="top" align="center">5</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Heat Discoloration</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Replace</entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table label="5" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip5">
+<title>Housing Assembly, Pump</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="0.845in"><colspec
+colnum="2" colname="c2" colwidth="0.68in"><colspec colnum="3" colname="c3"
+colwidth="1.59in"><colspec colnum="4" colname="c4" colwidth="1.423in"><colspec
+colnum="5" colname="c5" colwidth="2.464in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="top" align="center">
+PART NUMBER</entry></row><row><entry spanname="s1-3" colsep="0" rowsep="1"
+valign="top" align="center">Housing Assembly, Pump (11, Figure <xref xref="fig4-2">)
+</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="top" align="center">
+14640</entry></row></thead>
+<tbody><row><entry spanname="s1-5" colsep="0" rowsep="0" valign="top" align="center"><graphic
+boardno="fig10" reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry>
+</row><row><entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry>
+<entry colsep="0" rowsep="1" valign="top" align="center">REF LTR</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">CHARACTERISTIC</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">INSP METHOD</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">REQUISITE</entry></row><row>
+<entry colsep="0" rowsep="0" valign="top" align="center">1</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Serviceability</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual/Measure</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Nicks, gouges, burrs, scratches, and corrosion not
+deeper than 0.020 in. after rework. Rework per paragraph .</entry></row><row>
+<entry colsep="0" rowsep="0" valign="top" align="center">2</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Fractures/Cracks</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual/Florescent Penetrant</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">None allowed.</entry></row><row><entry
+colsep="0" rowsep="0" valign="top" align="center">3</entry><entry colsep="0"
+rowsep="0" valign="top" align="center">A</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Threaded Holes (4)</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual (threaded insert)</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Thread damage not to exceed one-half
+of one thread. Repair per paragraph .</entry></row><row><entry colsep="0"
+rowsep="0" valign="top" align="center">4</entry><entry colsep="0" rowsep="0"
+valign="top" align="center">B</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Threaded Holes (2)</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Visual</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+See No. 3.</entry></row><row><entry colsep="0" rowsep="0" valign="top" align="center">
+5</entry><entry colsep="0" rowsep="0" valign="top" align="center">C</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Grounding Surface</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Visual</entry><entry
+colsep="0" rowsep="0" valign="middle" align="left">No damage allowed. Repair
+per paragraph </entry></row><row><entry colsep="0" rowsep="0" valign="top"
+align="center">6</entry><entry colsep="0" rowsep="0" valign="top" align="center">
+D</entry><entry colsep="0" rowsep="0" valign="top" align="left">Packing Surface
+</entry><entry colsep="0" rowsep="0" valign="top" align="left">Visual</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Nicks, gouges, burrs,
+scratches, and corrosion not deeper than 0.010 in. after rework. Rework per
+paragraph .</entry></row><row><entry colsep="0" rowsep="0" valign="top" align="center">
+7</entry><entry colsep="0" rowsep="0" valign="top" align="center">E</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Dowel Pin</entry><entry
+colsep="0" rowsep="0" valign="top" align="left">Visual</entry><entry colsep="0"
+rowsep="0" valign="middle" align="left">Secure and unbroken. Rework per paragraph 
+</entry></row><row><entry colsep="0" rowsep="0" valign="top" align="center">
+8</entry><entry colsep="0" rowsep="0" valign="top" align="center">F</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Surface</entry><entry
+colsep="0" rowsep="0" valign="top" align="left">Visual/Measure</entry><entry
+colsep="0" rowsep="0" valign="top" align="left">Grooving not deeper than 0.010
+in. connecting inlet and outlet cavities.</entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table label="6" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip6">
+<title>Cover, Motor</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="0.718in"><colspec
+colnum="2" colname="c2" colwidth="0.79in"><colspec colnum="3" colname="c3"
+colwidth="1.56in"><colspec colnum="4" colname="c4" colwidth="1.31in"><colspec
+colnum="5" colname="c5" colwidth="2.62in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="bottom" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="bottom" align="center">
+PART NUMBER</entry></row></thead>
+<tbody><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+Cover, Motor (2, Figure <xref xref="fig4-3">)</entry><entry spanname="s4-5"
+colsep="0" rowsep="1" valign="top" align="center">14630</entry></row><row>
+<entry spanname="s1-5" colsep="0" rowsep="0" valign="top" align="center"><graphic
+boardno="fig11" reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry>
+</row><row><entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry>
+<entry colsep="0" rowsep="1" valign="top" align="center">REF LTR</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">CHARACTERISTIC</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">INSP METHOD</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">REQUISITE</entry></row><row>
+<entry colsep="0" rowsep="0" valign="top" align="center">1</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Serviceability</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual/Measure</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Dents and scratches 0.020 in. depth maximum after
+rework. Rework per paragraph <xref xref="sub4-19.1">.</entry></row><row><entry
+colsep="0" rowsep="0" valign="top" align="center">2</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Fractures/Cracks</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual/Fluorescent Penetrant</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">None allowed.</entry></row><row><entry
+colsep="0" rowsep="0" valign="top" align="center">3</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Alodined Finish</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Repair damaged or missing finish per paragraph <xref xref="sub4-22.2">.
+</entry></row><row><entry colsep="0" rowsep="0" valign="top" align="center">
+4</entry><entry colsep="0" rowsep="0" valign="top" align="center">A</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Holes (2)</entry><entry
+colsep="0" rowsep="0" valign="top" align="left">Visual</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">No nicks, gouges, burrs, scratches, or
+corrosion.</entry></row><row><entry colsep="0" rowsep="0" valign="top" align="center">
+5</entry><entry colsep="0" rowsep="0" valign="top" align="center">B</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Surface</entry><entry
+colsep="0" rowsep="0" valign="top" align="left">Visual</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">No nicks, gouges, burrs, scratches, or
+corrosion.</entry></row><row><entry colsep="0" rowsep="0" valign="top" align="center">
+6</entry><entry colsep="0" rowsep="0" valign="top" align="center">C</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Dowel Slot</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Measure</entry><entry
+colsep="0" rowsep="0" valign="top" align="left">Maximum width 0.130 in.</entry>
+</row><row><entry colsep="0" rowsep="0" valign="top" align="center">7</entry>
+<entry colsep="0" rowsep="0" valign="top" align="center">D</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Packing Groove</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Visual</entry><entry colsep="0" rowsep="0"
+valign="middle" align="left">No nicks, gouges, burrs, scratches, or corrosion.
+</entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table label="7" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip7">
+<title>Spacer, Cover</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="0.638in"><colspec
+colnum="2" colname="c2" colwidth="0.81in"><colspec colnum="3" colname="c3"
+colwidth="1.62in"><colspec colnum="4" colname="c4" colwidth="1.34in"><colspec
+colnum="5" colname="c5" colwidth="2.59in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="bottom" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="bottom" align="center">
+PART NUMBER</entry></row></thead>
+<tbody><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+Spacer, Cover (5, Figure <xref xref="fig4-3">)</entry><entry spanname="s4-5"
+colsep="0" rowsep="1" valign="top" align="center">14589</entry></row><row>
+<entry spanname="s1-5" colsep="0" rowsep="0" valign="top" align="center"><graphic
+boardno="fig12" reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry>
+</row><row><entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry>
+<entry colsep="0" rowsep="1" valign="top" align="center">REF LTR</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">CHARACTERISTIC</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">INSP METHOD</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">REQUISITE</entry></row><row>
+<entry colsep="0" rowsep="0" valign="top" align="center">1</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Serviceability</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual/Measure</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Nicks, gouges, burrs, scratches, and corrosion not
+deeper than 0.020 in. after rework. Rework per paragraph <xref xref="sub4-19.1">.
+</entry></row><row><entry colsep="0" rowsep="0" valign="top" align="center">
+2</entry><entry colsep="0" rowsep="0" valign="top" align="center"></entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Fractures/Cracks</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Visual</entry><entry
+colsep="0" rowsep="0" valign="top" align="left">None allowed.</entry></row>
+</tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table label="8" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip8">
+<title>Spacer, Shaft</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="0.595in"><colspec
+colnum="2" colname="c2" colwidth="0.87in"><colspec colnum="3" colname="c3"
+colwidth="1.60in"><colspec colnum="4" colname="c4" colwidth="1.33in"><colspec
+colnum="5" colname="c5" colwidth="2.60in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="bottom" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="bottom" align="center">
+PART NUMBER</entry></row></thead>
+<tbody><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+Spacer, Shaft (3, 12, Figure <xref xref="fig4-4">)</entry><entry spanname="s4-5"
+colsep="0" rowsep="1" valign="top" align="center">14588</entry></row><row>
+<entry spanname="s1-5" colsep="0" rowsep="0" valign="top" align="center"><graphic
+boardno="fig13" reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry>
+</row><row><entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry>
+<entry colsep="0" rowsep="1" valign="middle" align="center">REF LTR</entry>
+<entry colsep="0" rowsep="1" valign="top" align="left">CHARACTERISTIC</entry>
+<entry colsep="0" rowsep="1" valign="top" align="left">INSP METHOD</entry>
+<entry colsep="0" rowsep="1" valign="top" align="left">REQUISITE</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="center">1</entry><entry
+colsep="0" rowsep="0" valign="top" align="center"></entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Thickness</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Measure</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">0.019 &plusmn;0.001 in.</entry></row><row><entry colsep="0" rowsep="0"
+valign="top" align="center">2</entry><entry colsep="0" rowsep="0" valign="top"
+align="center"></entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Fractures/Cracks</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Visual</entry><entry colsep="0" rowsep="0" valign="top" align="left">None
+allowed.</entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table label="9" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip9">
+<title>Housing Assembly, Motor</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="0.639in"><colspec
+colnum="2" colname="c2" colwidth="0.74in"><colspec colnum="3" colname="c3"
+colwidth="1.64in"><colspec colnum="4" colname="c4" colwidth="1.34in"><colspec
+colnum="5" colname="c5" colwidth="2.646in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="bottom" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="bottom" align="center">
+PART NUMBER</entry></row></thead>
+<tbody><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+Housing Assembly, Motor (13, Figure <xref xref="fig4-3">)</entry><entry spanname="s4-5"
+colsep="0" rowsep="1" valign="top" align="center">15238</entry></row><row>
+<entry spanname="s1-5" colsep="0" rowsep="0" valign="top" align="center"><graphic
+boardno="fig14" reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry>
+</row><row><entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry>
+<entry colsep="0" rowsep="1" valign="middle" align="center">REF LTR</entry>
+<entry colsep="0" rowsep="1" valign="top" align="left">CHARACTERISTIC</entry>
+<entry colsep="0" rowsep="1" valign="top" align="center">INSP METHOD</entry>
+<entry colsep="0" rowsep="1" valign="top" align="left">REQUISITE</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="center">1</entry><entry
+colsep="0" rowsep="0" valign="top" align="center"></entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Serviceability</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Visual/Measure</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Nicks, gouges, burrs, scratches, and
+corrosion not deeper than 0.020 in. after rework. Rework per paragraph <xref
+xref="sub4-19.1">.</entry></row><row><entry colsep="0" rowsep="0" valign="top"
+align="center">2</entry><entry colsep="0" rowsep="0" valign="top" align="center"></entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Fractures/Cracks</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Visual/Fluorescent
+Penetrant</entry><entry colsep="0" rowsep="0" valign="top" align="left">None
+allowed.</entry></row><row><entry colsep="0" rowsep="0" valign="top" align="center">
+3</entry><entry colsep="0" rowsep="0" valign="top" align="center">A</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Threaded Holes (2)
+</entry><entry colsep="0" rowsep="0" valign="top" align="left">Visual (threaded
+insert)</entry><entry colsep="0" rowsep="0" valign="top" align="left">Thread
+damage not to exceed one-half of one thread. Repair per paragraph <xref xref="sub4-19.5">.
+</entry></row><row><entry colsep="0" rowsep="0" valign="top" align="center">
+4</entry><entry colsep="0" rowsep="0" valign="top" align="center">B</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Threaded Holes (2)
+</entry><entry colsep="0" rowsep="0" valign="top" align="left">Visual</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">See No. 3.</entry>
+</row><row><entry colsep="0" rowsep="0" valign="top" align="center">5</entry>
+<entry colsep="0" rowsep="0" valign="top" align="center">C</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Threaded Hole</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Visual</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">See No. 3.</entry></row><row><entry colsep="0" rowsep="0"
+valign="top" align="center">6</entry><entry colsep="0" rowsep="0" valign="top"
+align="center">D</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Packing Surface</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Visual</entry><entry colsep="0" rowsep="0" valign="top" align="left">Nicks,
+gouges, burrs, scratches, and corrosion not deeper than 0.010 in. after rework.
+Rework per paragraph <xref xref="sub4-19.1"></entry></row><row><entry colsep="0"
+rowsep="0" valign="top" align="center">7</entry><entry colsep="0" rowsep="0"
+valign="top" align="center">E</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Holes (4)</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Visual</entry><entry colsep="0" rowsep="0" valign="top" align="left">Elongation:
+none allowed</entry></row><row><entry colsep="0" rowsep="0" valign="top" align="center">
+8</entry><entry colsep="0" rowsep="0" valign="top" align="center">F</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Packing Groove</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Visual</entry><entry
+colsep="0" rowsep="0" valign="top" align="left">No nicks, scratches, gouges,
+burrs, or corrosion.</entry></row><row><entry colsep="0" rowsep="0" valign="top"
+align="center">9</entry><entry colsep="0" rowsep="0" valign="top" align="center">
+G</entry><entry colsep="0" rowsep="0" valign="top" align="left">Diameters
+(2)</entry><entry colsep="0" rowsep="0" valign="top" align="left">Visual</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">No damage allowed.
+</entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table label="10" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip10">
+<title>Spacer, Rotor</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="0.658in"><colspec
+colnum="2" colname="c2" colwidth="0.83in"><colspec colnum="3" colname="c3"
+colwidth="1.58in"><colspec colnum="4" colname="c4" colwidth="1.34in"><colspec
+colnum="5" colname="c5" colwidth="2.59in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="bottom" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="bottom" align="center">
+PART NUMBER</entry></row></thead>
+<tbody><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+Spacer, Rotor (9, Figure <xref xref="fig4-4">)</entry><entry spanname="s4-5"
+colsep="0" rowsep="1" valign="top" align="center">14587</entry></row><row>
+<entry spanname="s1-5" colsep="0" rowsep="0" valign="top" align="center"><graphic
+boardno="fig15" reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry>
+</row><row><entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry>
+<entry colsep="0" rowsep="1" valign="top" align="center">REF LTR</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">CHARACTERISTIC</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">INSP METHOD</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">REQUISITE</entry></row><row>
+<entry colsep="0" rowsep="0" valign="top" align="center">1</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Thickness</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Measure</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+0.076 &plusmn;0.001 in.</entry></row><row><entry colsep="0" rowsep="0" valign="top"
+align="center">2</entry><entry colsep="0" rowsep="0" valign="top" align="center"></entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Fractures/Cracks</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Visual</entry><entry
+colsep="0" rowsep="0" valign="top" align="left">None allowed.</entry></row>
+</tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table label="11" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip11">
+<title>Bearing Plate</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="0.81in"><colspec
+colnum="2" colname="c2" colwidth="0.65in"><colspec colnum="3" colname="c3"
+colwidth="1.73in"><colspec colnum="4" colname="c4" colwidth="1.23in"><colspec
+colnum="5" colname="c5" colwidth="2.58in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="bottom" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="bottom" align="center">
+PART NUMBER</entry></row></thead>
+<tbody><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+Bearing Plate (10, 16, Figure <xref xref="fig4-4">)</entry><entry spanname="s4-5"
+colsep="0" rowsep="1" valign="top" align="center">14582</entry></row><row>
+<entry spanname="s1-5" colsep="0" rowsep="0" valign="top" align="center"><graphic
+boardno="fig16" reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry>
+</row><row><entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry>
+<entry colsep="0" rowsep="1" valign="top" align="center">REF LTR</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">CHARACTERISTIC</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">INSP METHOD</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">REQUISITE</entry></row><row>
+<entry colsep="0" rowsep="0" valign="top" align="center">1</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Serviceability</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual/Measure</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Nicks, gouges, burrs, scratches, and corrosion not
+deeper than 0.020 in. after rework. Rework per paragraph <xref xref="sub4-19.1"></entry>
+</row><row><entry colsep="0" rowsep="0" valign="top" align="center">2</entry>
+<entry colsep="0" rowsep="0" valign="top" align="center"></entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Fractures/Cracks</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Visual</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">None allowed.</entry></row><row><entry colsep="0"
+rowsep="0" valign="top" align="center">3</entry><entry colsep="0" rowsep="0"
+valign="top" align="center">A</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Bearing Bore Diameter</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Measure</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Maximum 0.6255 in.</entry></row><row><entry colsep="0" rowsep="0" valign="top"
+align="center">4</entry><entry colsep="0" rowsep="0" valign="top" align="center">
+B</entry><entry colsep="0" rowsep="0" valign="top" align="left">Dowel Hole
+</entry><entry colsep="0" rowsep="0" valign="top" align="left">Measure</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Maximum diameter 0.128
+in.</entry></row><row><entry colsep="0" rowsep="0" valign="top" align="center">
+5</entry><entry colsep="0" rowsep="0" valign="top" align="center"></entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Thickness</entry><entry
+colsep="0" rowsep="0" valign="top" align="left">Measure</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Minimum 0.240 in.</entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table label="12" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip12">
+<title>Spacer, Rotor</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="0.627in"><colspec
+colnum="2" colname="c2" colwidth="0.80in"><colspec colnum="3" colname="c3"
+colwidth="1.64in"><colspec colnum="4" colname="c4" colwidth="1.33in"><colspec
+colnum="5" colname="c5" colwidth="2.60in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="bottom" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="bottom" align="center">
+PART NUMBER</entry></row></thead>
+<tbody><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+Spacer, Rotor (15, Figure <xref xref="fig4-4">)</entry><entry spanname="s4-5"
+colsep="0" rowsep="1" valign="top" align="center">14586</entry></row><row>
+<entry spanname="s1-5" colsep="0" rowsep="0" valign="top" align="center"><graphic
+boardno="fig17" reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry>
+</row><row><entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry>
+<entry colsep="0" rowsep="1" valign="middle" align="center">REF LTR</entry>
+<entry colsep="0" rowsep="1" valign="top" align="left">CHARACTERISTIC</entry>
+<entry colsep="0" rowsep="1" valign="top" align="left">INSP METHOD</entry>
+<entry colsep="0" rowsep="1" valign="top" align="left">REQUISITE</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="center">1</entry><entry
+colsep="0" rowsep="0" valign="top" align="center"></entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Thickness</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Measure</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">0.046 &plusmn;0.001 in.</entry></row><row><entry colsep="0" rowsep="0"
+valign="top" align="center">2</entry><entry colsep="0" rowsep="0" valign="top"
+align="center"></entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Fractures/Cracks</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Visual</entry><entry colsep="0" rowsep="0" valign="top" align="left">None
+allowed.</entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table label="13" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip13">
+<title>Rotor, Machining</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="0.988in"><colspec
+colnum="2" colname="c2" colwidth="0.48in"><colspec colnum="3" colname="c3"
+colwidth="1.61in"><colspec colnum="4" colname="c4" colwidth="1.33in"><colspec
+colnum="5" colname="c5" colwidth="2.59in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="bottom" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="bottom" align="center">
+PART NUMBER</entry></row></thead>
+<tbody><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+Rotor, Machining (18, Figure <xref xref="fig4-4">)</entry><entry spanname="s4-5"
+colsep="0" rowsep="1" valign="top" align="center">15452</entry></row><row>
+<entry spanname="s1-5" colsep="0" rowsep="0" valign="top" align="center"><graphic
+boardno="fig18" reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry>
+</row><row><entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry>
+<entry colsep="0" rowsep="1" valign="top" align="center">REF LTR</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">CHARACTERISTIC</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">INSP METHOD</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">REQUISITE</entry></row><row>
+<entry colsep="0" rowsep="0" valign="top" align="center">1</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Serviceability</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual/Measure</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Nicks, gouges, burrs, scratches, and corrosion not
+deeper than 0.020 in. after rework. Rework per paragraph <xref xref="sub4-19.1"></entry>
+</row><row><entry colsep="0" rowsep="0" valign="top" align="center">2</entry>
+<entry colsep="0" rowsep="0" valign="top" align="center"></entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Fractures/Cracks</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Visual</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">None allowed.</entry></row><row><entry colsep="0"
+rowsep="0" valign="top" align="center">3</entry><entry colsep="0" rowsep="0"
+valign="top" align="center">A</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Vane Slots (3)</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Measure</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Maximum width 0.103 in.</entry></row><row><entry colsep="0" rowsep="0" valign="top"
+align="center">4</entry><entry colsep="0" rowsep="0" valign="top" align="center">
+B</entry><entry colsep="0" rowsep="0" valign="top" align="left">Hole</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Measure</entry><entry
+colsep="0" rowsep="0" valign="top" align="left">Maximum diameter 0.2504 in.,
+both ends.</entry></row><row><entry colsep="0" rowsep="0" valign="top" align="center">
+5</entry><entry colsep="0" rowsep="0" valign="top" align="center">C</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Outside Diameter</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Measure</entry><entry
+colsep="0" rowsep="0" valign="middle" align="left">1.293/1.292 in. measured
+at three different places along diameter.</entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table label="14" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip14">
+<title>Stator, Machining</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="1.009in"><colspec
+colnum="2" colname="c2" colwidth="0.40in"><colspec colnum="3" colname="c3"
+colwidth="1.75in"><colspec colnum="4" colname="c4" colwidth="1.36in"><colspec
+colnum="5" colname="c5" colwidth="2.481in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="bottom" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="bottom" align="center">
+PART NUMBER</entry></row></thead>
+<tbody><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+Stator, Machining (21, Figure <xref xref="fig4-4">)</entry><entry spanname="s4-5"
+colsep="0" rowsep="1" valign="top" align="center">15450</entry></row><row>
+<entry spanname="s1-5" colsep="0" rowsep="0" valign="top" align="center"><graphic
+boardno="fig19" reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry>
+</row><row><entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry>
+<entry colsep="0" rowsep="1" valign="top" align="center">REF LTR</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">CHARACTERISTIC</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">INSP METHOD</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">REQUISITE</entry></row><row>
+<entry colsep="0" rowsep="0" valign="top" align="center">1</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Serviceability</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual/Measure</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Nicks, gouges, burrs, scratches, and corrosion not
+deeper than 0.020 in. after rework. Rework per paragraph <xref xref="sub4-19.1"></entry>
+</row><row><entry colsep="0" rowsep="0" valign="top" align="center">2</entry>
+<entry colsep="0" rowsep="0" valign="top" align="center"></entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Fractures/Cracks</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Visual</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">None allowed.</entry></row><row><entry colsep="0"
+rowsep="0" valign="top" align="center">3</entry><entry colsep="0" rowsep="0"
+valign="top" align="center">A</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Holes (2)</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Measure</entry><entry colsep="0" rowsep="0" valign="top" align="left">Maximum
+diameter 0.132 in.;</entry></row><row><entry colsep="0" rowsep="0" valign="top"
+align="center">4</entry><entry colsep="0" rowsep="0" valign="top" align="center">
+B</entry><entry colsep="0" rowsep="0" valign="top" align="left">Thickness
+(2)</entry><entry colsep="0" rowsep="0" valign="top" align="left">Measure
+</entry><entry colsep="0" rowsep="0" valign="top" align="left">0.287 minimum
+in. at thickest point.</entry></row><row><entry colsep="0" rowsep="0" valign="top"
+align="center">5</entry><entry colsep="0" rowsep="0" valign="top" align="center">
+C</entry><entry colsep="0" rowsep="0" valign="middle" align="left">Surface
+Finish (entire bore)</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Visual/Measure</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+16-8 micron finish.</entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<table label="15" tabstyle="oip" frame="top" orient="port" pgwide="1" xid="oip15">
+<title>Shaft, Motor</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1" colwidth="0.662in"><colspec
+colnum="2" colname="c2" colwidth="0.81in"><colspec colnum="3" colname="c3"
+colwidth="1.74in"><colspec colnum="4" colname="c4" colwidth="1.40in"><colspec
+colnum="5" colname="c5" colwidth="2.40in"><spanspec namest="c1" nameend="c3"
+spanname="s1-3"><spanspec namest="c1" nameend="c5" spanname="s1-5"><spanspec
+namest="c4" nameend="c5" spanname="s4-5">
+<thead><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="bottom" align="center">
+ITEM</entry><entry spanname="s4-5" colsep="0" rowsep="1" valign="bottom" align="center">
+PART NUMBER</entry></row></thead>
+<tbody><row><entry spanname="s1-3" colsep="0" rowsep="1" valign="top" align="center">
+Shaft, Motor (23, Figure <xref xref="fig4-4">)</entry><entry spanname="s4-5"
+colsep="0" rowsep="1" valign="top" align="center">14581</entry></row><row>
+<entry spanname="s1-5" colsep="0" rowsep="0" valign="top" align="center"><graphic
+boardno="fig20" reprowid="1" reprodep="1" hplace="center" vplace="middle"></entry>
+</row><row><entry colsep="0" rowsep="1" valign="top" align="center">NO.</entry>
+<entry colsep="0" rowsep="1" valign="top" align="center">REF LTR</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">CHARACTERISTIC</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">INSP METHOD</entry><entry
+colsep="0" rowsep="1" valign="top" align="left">REQUISITE</entry></row><row>
+<entry colsep="0" rowsep="0" valign="top" align="center">1</entry><entry colsep="0"
+rowsep="0" valign="top" align="center"></entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Serviceability</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Visual/Measure</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Nicks, gouges, burrs, scratches, and corrosion not
+deeper than 0.020 inch after rework. Rework per paragraph <xref xref="sub4-19.1"></entry>
+</row><row><entry colsep="0" rowsep="0" valign="top" align="center">2</entry>
+<entry colsep="0" rowsep="0" valign="top" align="center"></entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Fractures/Cracks</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Visual/Magnetic Particle</entry><entry
+colsep="0" rowsep="0" valign="top" align="left">None allowed.</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="center">3</entry><entry
+colsep="0" rowsep="0" valign="top" align="center">A</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Diameter (2)</entry><entry colsep="0"
+rowsep="0" valign="top" align="left">Measure</entry><entry colsep="0" rowsep="0"
+valign="top" align="left">Minimum diameter 0.2494 in. Rework per paragraph <xref
+xref="sub4-19.6">.</entry></row><row><entry colsep="0" rowsep="0" valign="top"
+align="center">4</entry><entry colsep="0" rowsep="0" valign="top" align="center">
+B</entry><entry colsep="0" rowsep="0" valign="top" align="left">Spline Teeth
+</entry><entry colsep="0" rowsep="0" valign="top" align="left">Visual</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">No pitting, scuffing,
+scoring, or spalling allowed.</entry></row><row><entry colsep="0" rowsep="0"
+valign="top" align="center">5</entry><entry colsep="0" rowsep="0" valign="top"
+align="center">C</entry><entry colsep="0" rowsep="0" valign="top" align="left">
+Keyway</entry><entry colsep="0" rowsep="0" valign="top" align="left">Measure
+</entry><entry colsep="0" rowsep="0" valign="top" align="left">Maximum width
+0.067 in.</entry></row><row><entry colsep="0" rowsep="0" valign="top" align="center">
+6</entry><entry colsep="0" rowsep="0" valign="top" align="center">D</entry>
+<entry colsep="0" rowsep="0" valign="top" align="left">Retaining Ring Slots
+(2)</entry><entry colsep="0" rowsep="0" valign="top" align="left">Measure
+</entry><entry colsep="0" rowsep="0" valign="top" align="left">Maximum width
+0.032 in.</entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<para0 xid="par4-21">
+<title>ASSEMBLY.</title>
+<brk>
+<subpara1 xid="sub4-21.1">
+<title>General Shop Practices.</title>
+<brk><para>In addition to the established shop practices for aircraft, the
+following practices must be complied with to ensure a serviceable end product:
+</para>
+<step1><para>Make sure that all parts are clean and that corrosion preventative
+materials have been removed.</para></step1>
+<step1><para>Apply torques within specified limits. If specific torques are
+not supplied in the instructions, refer to <extref tmref="tm1-1500-204-23">,
+General Aircraft Maintenance manual. When bolts or nuts have to be safety
+wired and alignment of holes is required, torque to the lower specified limit
+first. Continue torquing until holes align. Never go beyond higher specified
+torque.</para></step1>
+<step1><para>Lightly coat all packings with lubricant (item <xref xref="itm7appc">,
+Appendix <xref xref="appc">).</para></step1>
+<step1><para>Replace all parts listed in Table <xref xref="tbl2-2">, Mandatory
+Replacement Parts for pump if disassembled, disturbed, or exposed.</para>
+</step1></subpara1>
+<subpara1 xid="sub4-21.2">
+<title>Motor Cartridge Assembly (Figure <xref xref="fig4-4">).</title>
+<brk>
+<warning>
+<para>Isopropyl alcohol, Federal Spec TT-I-735, is flammable. Use extreme
+caution to prevent ignition of alcohol and subsequent fire or explosion.</para>
+<brk>
+<para>Do not breathe vapors of isopropyl alcohol, Federal Spec TT-735, because
+it can cause drowsiness, dizziness, and headache.</para>
+<brk>
+<para>Do not allow liquid isopropyl alcohol to contact skin or eyes as it
+can cause dermatitis and irritation.</para>
+</warning>
+<note>
+<para>Using isopropyl alcohol (11, Appendix <xref xref="appc">) or equivalent,
+ensure all internal motor cartridge parts are dust and oil free prior to assembly
+</para>
+</note>
+<step1><para>Lay dowel (22) in motor shaft (23) and slide rotor (18) onto
+shaft from spline end until dowel fits into groove in rotor.</para></step1>
+<pgbrk>
+<step1><para>Slide spacer (15) over spline end of shaft (23) and slide it
+against rotor (18).</para></step1>
+<step1><para>Install bearing plate (16) over spline end of shaft (23) and
+slide it against rotor (18).</para></step1>
+<step1><para>Install shim (14) into bearing plate (16) and slide bearing (13)
+over spline end of shaft (23) and into bearing plate against shim.</para>
+</step1>
+<step1><para>Slide shaft spacer (12) onto shaft (23) from spline end and slide
+it against bearing (13).</para></step1>
+<step1><para>Install new retaining ring (11) over spline end and into groove
+in shaft (23).</para></step1>
+<step1><para>Check to insure that rotor (18) does not rub against bearing
+plate (16).</para></step1>
+<step1><para>Install new spring (20) into new vane (19) and slide spring/vane
+assembly into rotor (18) (three places).</para></step1>
+<step1><para>Slide stator, machining (21) over rotor/vane/spring assembly
+and slide it against bearing plate (16).</para>
+<note>
+<para>Check to ensure ports are positioned as shown in Figure <xref xref="fig4-4">.
+</para>
+</note>
+</step1>
+<step1><para>Slide rotor spacer (9) over shaft (23) and against rotor (18)
+and slide bearing (6) over shaft and against rotor spacer.</para></step1>
+<step1><para>Slide shaft spacer (3) over shaft (23) and against bearing (6).
+</para></step1>
+<step1><para>Install new retaining ring (2) over shaft (23) and into groove
+in shaft.</para></step1>
+<step1><para>Using two feeler gauges, measure and record gap between shaft
+spacer (3) and bearing (6) to determine the number of shims required.</para>
+</step1>
+<step1><para>Remove retaining ring (2), shaft spacer (3), and bearing (6).
+</para></step1>
+<step1><para>Slide bearing plate (10) over shaft (23) and against stator (21).
+</para></step1>
+<step1><para>Install washer (8) and then shim (7) into bearing plate (10).
+</para></step1>
+<step1><para>Slide bearing (6) over shaft (23) and into bearing plate (10).
+</para></step1>
+<step1><para>Slide predetermined (from step 13) number of shims (4 and/or
+5) over shaft (23) and against bearing (6).</para></step1>
+<step1><para>Slide shaft spacer (3) over shaft (23) and against shims (4 and/or
+5).</para></step1>
+<step1><para>Install retaining ring (2) into groove in shaft (23).</para>
+</step1>
+<step1><para>Align dowel holes in bearing plates (10 and 16) and install dowels
+(1 and 17) as shown in Figure <xref xref="fig4-4">.</para></step1>
+<step1><para>(QI) Inspect the assembled motor cartridge assembly for evidence
+of roughness, sticking, and/or binding upon shaft rotation.</para></step1>
+</subpara1>
+<subpara1 xid="sub4-21.3">
+<title>Motor Assembly (Figure <xref xref="fig4-3">).</title>
+<brk>
+<step1><para>If insert (14) was removed in DISASSEMBLY, Install new insert
+in housing (15).</para>
+<caution>
+<para>Handle shaft seal sets (6) with care to avoid scratching or damaging
+mating surfaces.</para>
+</caution>
+</step1>
+<step1><para>Using a new rotary shaft seal set (6), separate the rotor seal
+(7) from the static seal (9) and discard packing paper from between the two
+seals. Mate the two seals back together. To facilitate lubrication, remove
+packings (8 and 10) from their respective grooves. Apply lubricant (7, Appendix <xref
+xref="appc">) to packing grooves in rotor seal and static seal and to packings.
+Install packing into rotor seal and onto static seal.</para></step1>
+<step1><para>Install shaft seal sets (6), as shown in figure <xref xref="fig4-3">,
+into the motor housing (13).</para></step1>
+<step1><para>Position motor cartridge (12) as shown in figure <xref xref="fig4-3">,
+and install into housing assembly (13).</para></step1>
+<step1><para>Apply assembly fluid (7, Appendix <xref xref="appc">) to packing
+groove in cover (2) and to packing (3). Install packing onto cover.</para>
+</step1>
+<step1><para>Assemble cover spacer (5), with lip toward cover, and washer
+(4) into cover (2).</para></step1>
+<step1><para>Using screws (1), install cover (2) onto housing assembly (13),
+making sure dowel pin in motor cartridge (12) aligns with dowel slot in cover.
+</para></step1>
+<step1><para>Ensure that fluid side of rotary seal is fully seated.</para>
+</step1></subpara1><pgbrk>
+<subpara1 xid="sub4-21.4">
+<title>Pump Assembly (figure <xref xref="fig4-2">).</title>
+<brk>
+<step1><para>Install key (7) in shaft (6) and assemble inner gerotor (10)
+over assembled shaft.</para></step1>
+<step1><para>Inspect the bearing and the area contained within the housing
+assembly (11) to ensure that no contaminants are located in the bearing surface
+or in the adjacent area in the housing assembly.</para></step1>
+<step1><para>Install assembled shaft, with splined end of shaft facing out,
+and inner gerotor into housing assembly (11).</para></step1>
+<step1><para>Install outer gerotor (9) into housing assembly (11).</para>
+</step1>
+<step1><para>Hand rotate shaft in both directions ensuring that all rotating
+parts move free of roughness, sticking, and/or binding.</para></step1>
+<step1><para>Inspect bearing contained in cover assembly (4) to assure clean
+and smooth surfaces.</para></step1>
+<step1><para>Install cover assembly (4) into housing assembly (11), making
+sure dowel hole is in alignment with dowel pin (5) in housing assembly.</para>
+</step1>
+<step1><para>Install retaining ring (3) in housing assembly (11).</para></step1>
+<step1><para>Install two filters (2) and two retaining rings (1) into housing
+assembly (11).</para></step1></subpara1>
+<subpara1 xid="sub4-21.5">
+<title>Fuel Transfer Pump, Assembly (Figure <xref xref="fig4-1">).</title>
+<brk>
+<step1><para>(QI) Hand rotate motor assembly (3) and pump assembly (2) in
+both directions ensuring that all rotating parts move free of roughness, sticking,
+and/or binding.</para></step1>
+<step1><para>Apply lubricant (7, Appendix <xref xref="appc">) to packing groove
+in motor assembly (3) and to packing (4) and install packing onto motor.</para>
+</step1>
+<step1><para>Using four screws (1), attach motor assembly (3) to pump assembly
+(2).</para></step1></subpara1></para0>
+</section><pgbrk>
+<section xid="chp4sctv">
+<title>Final Assembly Testing</title>
+<para0 xid="par4-23">
+<title>(QI) INSPECTION.</title>
+<brk><para>This section provides final assembly testing procedures with supporting
+schematics. It also includes a troubleshooting chart and test data sheet.
+</para>
+</para0>
+<para0 xid="par4-25">
+<title>BONDING AND GROUNDING.</title>
+<brk>
+<step1 label="1."><para>Using a resistance bridge (item 1, Table <xref xref="tbl2-1">)
+, check the resistance between the alodined bonding area on the mounting flange
+of the point on the pump assembly and motor assembly casting as shown in Figure <xref
+xref="fig4-5"> test set-up. To complete test, penetrate the alodine with a
+probe and apply alodine per paragraph <xref xref="sub4-22.2"> after test.
+</para></step1>
+<step1 label="2."><para>The resistance between the mounting flange and the
+motor assembly casting shall not exceed 1.0 ohm.</para></step1>
+<step1 label="3."><para>Record the required data on the test data sheet,.
+Figure <xref xref="fig4-11">.</para>
+<figure pgwide="1" orient="port" xid="fig4-5">
+<graphic boardno="fig21" reprowid="1" reprodep="1" hplace="center" vplace="middle">
+<figtitle><title>Bonding and Grounding</title></figtitle></figure>
+</step1></para0>
+<pgbrk>
+<para0 xid="par4-26">
+<title>NEGATIVE INTERNAL PRESSURE LEAKAGE.</title>
+<brk>
+<step1 label="1."><para>Install a plug into fuel port 1. Connect line from
+vacuum pump to fuel port 2, as shown in Figure <xref xref="fig4-6">.</para>
+</step1>
+<step1 label="2."><para>With valve A closed, start vacuum pump.</para></step1>
+<step1 label="6."><para>Record the required data on the test data sheet, Figure <xref
+xref="fig4-11">.</para>
+<figure pgwide="1" orient="port" xid="fig4-6">
+<graphic boardno="fig22" reprowid="1" reprodep="1" hplace="center" vplace="middle">
+<figtitle><title>Negative Internal Pressure Leakage</title></figtitle></figure>
+</step1></para0>
+<pgbrk>
+<para0 xid="par4-27">
+<title>PROOF PRESSURE MOTOR HOUSING.</title>
+<brk>
+<step1 label="4."><para>With valve B closed, use valve A to apply 93 psig
+to Air In port. Place the loose end of the flexible hose from seal drain port
+into container of water.</para></step1>
+<step1 label="8."><para>Record required data on test data sheet, Figure <xref
+xref="fig4-11">.</para>
+<figure pgwide="1" orient="port" xid="fig4-7">
+<graphic boardno="fig23" reprowid="1" reprodep="1" hplace="center" vplace="middle">
+<figtitle><title>Proof Pressure Motor Housing</title></figtitle></figure>
+</step1></para0>
+<pgbrk>
+<para0 xid="par4-28">
+<title>PROOF PRESSURE PUMP ASSEMBLY.</title>
+<brk>
+<step1 label="5."><para>Open valve A to bleed pressure. Note that hand pump
+valve may need to be opened.</para></step1>
+<step1 label="6."><para>Remove pump from test setup.</para></step1>
+<step1 label="7."><para>Record the required data on the lest data sheet, Figure <xref
+xref="fig4-11">.</para>
+<figure pgwide="1" orient="port" xid="fig4-8">
+<graphic boardno="fig24" reprowid="1" reprodep="1" hplace="center" vplace="middle">
+<figtitle><title>Proof Pressure, Pump Assembly</title></figtitle></figure>
+</step1></para0>
+<para0 xid="par4-29">
+<title>CALIBRATION RUN.</title>
+<note>
+<para>When using an air flowmeter that is not pressure and temperature compensating,
+the formula found in Table <xref xref="tbl4-2"> must be used to calculate
+SCFM.</para>
+</note>
+<pgbrk>
+<figure pgwide="0" orient="port" xid="fig4-9">
+<graphic boardno="fig25" reprowid="1" reprodep="1" hplace="center" vplace="middle">
+<figtitle><title>Rotational Diagram.</title></figtitle></figure>
+<step1 label="1." xid="stp4-29-1"><para><emphasis type="undl">Condition 1:
+</emphasis></para>
+<step2 label="a."><para>Attach inlet line from reservoir to Fuel Port 1.</para>
+</step2>
+<step2 label="b."><para>Attach discharge line to reservoir to Fuel Port 2.
+</para></step2>
+<step2 label="c."><para>Attach air supply to Air in Port 2.</para></step2>
+</step1>
+<step1 label="nonum"><para><emphasis type="undl">Condition 2:</emphasis></para>
+<step2 label="a."><para>Attach inlet line from reservoir to Fuel Port 2.</para>
+</step2>
+<step2 label="b."><para>Attach discharge line to reservoir to Fuel Port 1.
+</para></step2>
+<step2 label="c."><para>Attach air supply to Air In Port 1.</para></step2>
+</step1>
+<step1 label="2." xid="stp4-29-2"><para>Install pump into test setup per Figure <xref
+xref="fig4-10"> for Condition 1.</para>
+<caution>
+<para>Over revving air motor before it is loaded by the pump can cause springs
+to break.</para>
+</caution>
+</step1>
+<table frame="all" pgwide="1" xid="tbl4-2">
+<title>Calculating SCFM</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1" colwidth="1.995in"><colspec
+colnum="2" colname="c2" colwidth="5.00in"><spanspec namest="c1" nameend="c2"
+spanname="s1-2">
+<tbody><row><entry spanname="s1-2" colsep="1" rowsep="0" valign="top" align="left">
+scfm = cfm x (14.7 + P)/33.7 x (460 + T)/550</entry></row><row><entry morerows="3"
+colsep="0" rowsep="1" valign="top" align="left">Where:</entry><entry colsep="1"
+rowsep="0" valign="top" align="left">scfm = corrected air flow reading</entry>
+</row><row><entry colsep="1" rowsep="0" valign="top" align="left">cfm - uncorrected
+reading from flowmeter calibrated at 19 psig and 90&deg;F</entry></row><row>
+<entry colsep="1" rowsep="0" valign="top" align="left">P = air pressure into
+pump (19 psig nominal)</entry></row><row><entry colsep="1" rowsep="1" valign="top"
+align="left">T = air temperature into pump (90&deg;F nominal)</entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+<pgbrk>
+<para0 xid="par4-30">
+<title>PUMP STARTUP.</title>
+<brk>
+<step1 label="1."><para>With pump installed in test setup per Figure <xref
+xref="fig4-10"> and still running from Calibration Run, open valves B and
+C.</para></step1>
+<step1 label="2."><para>Slowly close valve A all the way. The pump will stop
+running. Slowly open valve A until pump starts running. At the point the pump
+starts running, note the air inlet pressure. Increase air inlet pressure to
+7.0 psig maximum and allow pump to run at this pressure for 20 seconds. After
+20 seconds, slowly close valve A and keep closed for 10 seconds (pump is stopped).
+</para></step1>
+<step1 label="3."><para>Repeat this cycle 10 times. Each time the pump shall
+start up with an air inlet pressure of 7.0 psig maximum to the motor. The
+pump shall not consume more than 6.9 scfm maximum while running. Fluid temperature
+shall be 75&deg; &plusmn; 15&deg; F.</para></step1>
+<step1 label="4."><para>Record the required data on the test data sheet.</para>
+</step1>
+<step1 label="5."><para>Close off Air supply and return to Calibration Run,
+paragraph <xref xref="par4-29">. Reconfigure test setup for Condition 2. Repeat
+steps 29-3 through 29-7.</para></step1>
+<step1 label="6."><para>Repeat Pump Startup Test.</para>
+<figure pgwide="1" orient="port" xid="fig4-10">
+<graphic boardno="fig26" reprowid="1" reprodep="1" hplace="center" vplace="middle">
+<figtitle><title>Test Setup</title></figtitle></figure>
+</step1></para0>
+<pgbrk>
+<para0 xid="par4-31">
+<title>TROUBLESHOOTING.</title>
+<brk><para>Refer to Table <xref xref="tbl4-3"> for aid in determining and
+correcting cause of pump malfunctions.</para>
+<table frame="all" pgwide="1" xid="tbl4-3">
+<title>Troubleshooting</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1" colwidth="1.469in"><colspec
+colnum="2" colname="c2" colwidth="1.81in"><colspec colnum="3" colname="c3"
+colwidth="1.875in"><colspec colnum="4" colname="c4" colwidth="1.84in">
+<thead><row><entry colsep="1" rowsep="1" valign="bottom" align="center">Test
+</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">Problem
+</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">Possible
+Cause</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">
+Corrective Action</entry></row></thead>
+<tbody><row><entry colsep="1" rowsep="1" valign="top" align="left">Bonding
+and Grounding</entry><entry colsep="1" rowsep="1" valign="top" align="left">
+Resistance exceeds 1.0 ohm</entry><entry colsep="1" rowsep="1" valign="top"
+align="left">Poor continuity between parts</entry><entry colsep="1" rowsep="1"
+valign="top" align="left">Remove alodine in a small area between parts.</entry>
+</row><row><entry morerows="1" colsep="1" rowsep="1" valign="top" align="left">
+Negative Internal Pressure Leakage</entry><entry morerows="1" colsep="1" rowsep="1"
+valign="top" align="left">Pressure increases to more than 10.7 psia</entry>
+<entry colsep="1" rowsep="1" valign="top" align="left">Damaged O-ring</entry>
+<entry colsep="1" rowsep="1" valign="top" align="left">Replace damaged O-ring.
+</entry></row><row><entry colsep="1" rowsep="1" valign="top" align="left">
+Bad shaft seat</entry><entry colsep="1" rowsep="1" valign="top" align="left">
+Replace shaft seal.</entry></row><row><entry morerows="2" colsep="1" rowsep="1"
+valign="top" align="left">Proof Pressure Motor Housing</entry><entry colsep="1"
+rowsep="1" valign="top" align="left">Leak between mating parts</entry><entry
+colsep="1" rowsep="1" valign="top" align="left">Damaged O-ring</entry><entry
+colsep="1" rowsep="1" valign="top" align="left">Replace damaged O-ring.</entry>
+</row><row><entry morerows="1" colsep="1" rowsep="1" valign="top" align="left">
+Leak from shaft seal</entry><entry colsep="1" rowsep="1" valign="top" align="left">
+Damaged O-ring on shaft seal</entry><entry colsep="1" rowsep="1" valign="top"
+align="left">Replace damaged O-ring.</entry></row><row><entry colsep="1" rowsep="1"
+valign="top" align="left">Shaft seal sealing face damaged</entry><entry colsep="1"
+rowsep="1" valign="top" align="left">Replace shaft seal</entry></row><row>
+<entry morerows="2" colsep="1" rowsep="1" valign="top" align="left">Proof
+Pressure Motor/Pump Assembly</entry><entry colsep="1" rowsep="1" valign="top"
+align="left">Leak between mating parts</entry><entry colsep="1" rowsep="1"
+valign="top" align="left">Damaged O-ring</entry><entry colsep="1" rowsep="1"
+valign="top" align="left">Replace damaged O-ring</entry></row><row><entry
+morerows="1" colsep="1" rowsep="1" valign="top" align="left">Leak from shaft
+seal</entry><entry colsep="1" rowsep="1" valign="top" align="left">Damaged
+O-ring on shaft seat</entry><entry colsep="1" rowsep="1" valign="top" align="left">
+Replace damaged O-ring.</entry></row><row><entry colsep="1" rowsep="1" valign="top"
+align="left">Shaft seal sealing face damaged</entry><entry colsep="1" rowsep="1"
+valign="top" align="left">Replace shaft seal.</entry></row><row><entry morerows="2"
+colsep="1" rowsep="1" valign="top" align="left">Calibration Run</entry><entry
+morerows="1" colsep="1" rowsep="1" valign="top" align="left">Low flow</entry>
+<entry colsep="1" rowsep="1" valign="top" align="left">Poor motor performance
+</entry><entry colsep="1" rowsep="1" valign="top" align="left">Motor cartridge
+not shimmed properly.</entry></row><row><entry colsep="1" rowsep="1" valign="top"
+align="left">Broken spring</entry><entry colsep="1" rowsep="1" valign="top"
+align="left">Check for broken spring.</entry></row><row><entry colsep="1"
+rowsep="1" valign="top" align="left">Drive shaft seal leakage</entry><entry
+colsep="1" rowsep="1" valign="top" align="left">Shaft seal sealing face damaged
+</entry><entry colsep="1" rowsep="1" valign="top" align="left">Replace shaft
+seal.</entry></row><row><entry morerows="2" colsep="1" rowsep="1" valign="top"
+align="left">Pump Startup</entry><entry morerows="2" colsep="1" rowsep="1"
+valign="top" align="left">Pump falls to start with 7.0 psig</entry><entry
+colsep="1" rowsep="1" valign="top" align="left">Poor motor performance between
+parts</entry><entry colsep="1" rowsep="1" valign="top" align="left">Motor
+cartridge not shimmed properly.</entry></row><row><entry colsep="1" rowsep="1"
+valign="top" align="left">Broken Spring</entry><entry colsep="1" rowsep="1"
+valign="top" align="left">Check for broken spring.</entry></row><row><entry
+colsep="1" rowsep="1" valign="top" align="left">Gerotor not turning freely
+</entry><entry colsep="1" rowsep="1" valign="top" align="left">Clean gerotor.
+Check for dings in gerotor</entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk>
+<figure pgwide="1" orient="port" xid="fig4-11">
+<subfig><macrograph>
+<figtable frame="all" rowsep="1">
+<tgroup cols="7"><colspec colname="col1" colwidth="0.91in"><colspec colname="col2"
+colwidth="1.04in"><colspec colname="col3" colwidth="1.68in"><colspec colname="col4"
+colwidth="1.19in"><colspec colname="colspec0" colwidth="1.13in"><colspec colname="col5"
+colwidth="0.59in"><colspec colname="col6" colwidth="0.44in"><spanspec namest="col4"
+nameend="colspec0" spanname="span3"><spanspec namest="col4" nameend="col6"
+spanname="span2"><spanspec namest="col1" nameend="col3" spanname="span1">
+<tbody><row><entry spanname="span1" colsep="0" align="left">Serial Number
+</entry><entry spanname="span2" align="right">Part No. 2284-9</entry></row>
+<row><entry><emphasis type="bold">PARA NO.</emphasis></entry><entry align="center"><emphasis
+type="bold">TEST</emphasis></entry><entry align="center"><emphasis type="bold">
+VALUES</emphasis></entry><entry spanname="span3"><emphasis type="bold">ACTUAL
+</emphasis></entry><entry><emphasis type="bold">CCN. No.</emphasis></entry>
+<entry><emphasis type="bold">ACC</emphasis></entry></row><row><entry><xref
+xref="par4-25"></entry><entry>Bonding &amp; Grounding</entry><entry>Resistance
+shall be 1.0 ohm or less</entry><entry spanname="span3" align="left">_____
+(<graphic boardno="checkmark" reprowid="1" reprodep="1">)</entry><entry></entry>
+<entry></entry></row><row><entry><xref xref="par4-26"></entry><entry>Negative
+Internal Pressure Leakage</entry><entry>Pressure not to exceed 8.2 in. Hg,
+Vac</entry><entry spanname="span3" align="left">_____ (<graphic boardno="checkmark"
+reprowid="1" reprodep="1">)</entry><entry></entry><entry></entry></row><row>
+<entry><xref xref="par4-27"></entry><entry>Proof Pressure Motor Housing</entry>
+<entry>Motor Test: Immersed in water, apply 93 psig for 2 minutes minimum.
+No deformation or leakage through drain port shall be evidenced.</entry><entry
+spanname="span3" align="left">____ psig<?Pub _newline>____ minutes<?Pub _newline>____
+No leakage</entry><entry></entry><entry></entry></row><row><entry><xref xref="par4-28"></entry>
+<entry>Proof Pressure Pump Assembly</entry><entry>Pump Test: Pressurize to
+180 psig and hold for 2 minutes minimum. No deformation or leakage through
+drain port shall be evidenced.</entry><entry spanname="span3" align="left">
+____ psig<?Pub _newline>____ minutes<?Pub _newline>____ No leakage</entry>
+<entry></entry><entry></entry></row><row><entry>4-29.5</entry><entry>Drive
+Shaft Seal Leakage</entry><entry>No fuel leakage<?Pub _newline>No air leakage
+</entry><entry spanname="span3" align="left">_____ No leakage<?Pub _newline>_____
+No leakage</entry><entry></entry><entry></entry></row><row><entry rowsep="0"></entry>
+<entry rowsep="0"></entry><entry rowsep="0"></entry><entry colsep="0" rowsep="0"><emphasis
+type="undl">Cond. 1</emphasis></entry><entry rowsep="0"><emphasis type="undl">
+Cond. 2</emphasis></entry><entry rowsep="0"></entry><entry rowsep="0"></entry>
+</row><row><entry rowsep="0"><xref xref="par4-29"></entry><entry rowsep="0">
+Calibration Run</entry><entry rowsep="0">Energize at 19.0 &plusmn; 3.0 psig
+maximum</entry><entry colsep="0" rowsep="0">_____ psig</entry><entry rowsep="0">
+_____ psig</entry><entry rowsep="0"></entry><entry rowsep="0"></entry></row>
+<row><entry rowsep="0"></entry><entry rowsep="0"></entry><entry rowsep="0">
+4.0 gpm minimum at 4.0 psig minimum</entry><entry colsep="0" rowsep="0">_____
+gpm</entry><entry rowsep="0">_____ gpm</entry><entry rowsep="0"></entry><entry
+rowsep="0"></entry></row><row><entry rowsep="0"></entry><entry rowsep="0"></entry>
+<entry rowsep="0">36.0 inch lift minimum</entry><entry colsep="0" rowsep="0">
+_____ psig</entry><entry rowsep="0">_____ psig</entry><entry rowsep="0"></entry>
+<entry rowsep="0"></entry></row><row><entry rowsep="0"></entry><entry rowsep="0"></entry>
+<entry rowsep="0">15 scfm maximum</entry><entry colsep="0" rowsep="0">_____
+scfm</entry><entry rowsep="0">_____ scfm</entry><entry rowsep="0"></entry>
+<entry rowsep="0"></entry></row><row><entry rowsep="0"></entry><entry rowsep="0"></entry>
+<entry rowsep="0">Air Temp at 75&deg; &plusmn; 15&deg;F</entry><entry colsep="0"
+rowsep="0">_____ &deg;F</entry><entry rowsep="0">_____ &deg;F</entry><entry
+rowsep="0"></entry><entry rowsep="0"></entry></row><row><entry rowsep="0"></entry>
+<entry rowsep="0"></entry><entry rowsep="0">Operate for 7.5 minutes minimum
+each condition</entry><entry colsep="0" rowsep="0">_____ min</entry><entry
+rowsep="0">_____ min</entry><entry rowsep="0"></entry><entry rowsep="0"></entry>
+</row><row><entry></entry><entry></entry><entry></entry><entry colsep="0"></entry>
+<entry></entry><entry></entry><entry></entry></row></tbody>
+</tgroup>
+</figtable>
+<figtitle><title>Test Data Sheet</title></figtitle></macrograph></subfig>
+<pgbrk>
+<subfig><macrograph>
+<figtable frame="all" colsep="1" rowsep="1">
+<tgroup cols="10"><colspec colname="col1" colwidth="0.44in"><colspec colname="col2"
+colwidth="1.04in"><colspec colname="col3" colwidth="0.54in"><colspec colname="col4"
+colwidth="0.70in"><colspec colname="col5" colwidth="0.72in"><colspec colname="col6"
+colwidth="0.71in"><colspec colname="col7" colwidth="0.58in"><colspec colname="col8"
+colwidth="0.65in"><colspec colname="col9" colwidth="0.59in"><colspec colname="col10"
+colwidth="1.01in"><spanspec namest="col3" nameend="col5" spanname="span3">
+<spanspec namest="col8" nameend="col9" spanname="span2"><spanspec namest="col6"
+nameend="col7" spanname="span1">
+<tbody><row><entry colsep="1" rowsep="1"></entry><entry colsep="1" rowsep="1">
+Calculate per para <xref xref="par4-29"></entry><entry colsep="1" rowsep="1">
+COND</entry><entry colsep="1" rowsep="1" align="center">PSIG 4.0 min</entry>
+<entry colsep="1" rowsep="1" align="center">FLOW GPM 4.0 min</entry><entry
+colsep="1" rowsep="1" align="center">FLUID <emphasis type="supscrpt">&plusmn;75
+&plusmn; 15&deg;F</emphasis></entry><entry colsep="1" rowsep="1" align="center">
+FM IND. (REC)</entry><entry colsep="1" rowsep="1" align="center">SCFM (CALC)
+15.0 max</entry><entry colsep="1" rowsep="1" align="center">AIR F <emphasis
+type="supscrpt">&plusmn;75 &plusmn; 15&deg;F</emphasis></entry><entry colsep="1"
+rowsep="1" align="center">AIR PSIG 19.0 &plusmn; 3.0</entry></row><row>
+<?PubTbl row rht="0.20in">
+<entry></entry><entry></entry><entry align="center">1</entry><entry></entry>
+<entry></entry><entry></entry><entry></entry><entry></entry><entry></entry>
+<entry></entry></row><row>
+<?PubTbl row rht="0.20in">
+<entry></entry><entry></entry><entry align="center">2</entry><entry></entry>
+<entry></entry><entry></entry><entry></entry><entry></entry><entry></entry>
+<entry></entry></row><row><entry rowsep="0"></entry><entry rowsep="0"></entry>
+<entry spanname="span3" rowsep="0"></entry><entry spanname="span1" colsep="0"
+rowsep="0"><emphasis type="undl">Cond. 1</emphasis></entry><entry spanname="span2"
+rowsep="0"><emphasis type="undl">Cond. 2</emphasis></entry><entry rowsep="0"></entry>
+</row><row><entry rowsep="0"><xref xref="par4-30"></entry><entry rowsep="0">
+Pump Start Up</entry><entry spanname="span3" rowsep="0" align="left">Air Pressure:
+7.0 psig max</entry><entry spanname="span1" colsep="0" rowsep="0" align="left">
+_____ psig</entry><entry spanname="span2" rowsep="0" align="left">_____ psig
+</entry><entry rowsep="0"></entry></row><row><entry rowsep="0"></entry><entry
+rowsep="0"></entry><entry spanname="span3" rowsep="0" align="left">Air Flow:
+6.9 scfm max</entry><entry spanname="span1" colsep="0" rowsep="0" align="left">
+_____ scfm</entry><entry spanname="span2" rowsep="0" align="left">_____ scfm
+</entry><entry rowsep="0"></entry></row><row><entry rowsep="0"></entry><entry
+rowsep="0"></entry><entry spanname="span3" rowsep="0" align="left">Ambient
+Temp: +75&deg;F &plusmn; 15&deg;F</entry><entry spanname="span1" colsep="0"
+rowsep="0" align="left">_____ &deg;F</entry><entry spanname="span2" rowsep="0"
+align="left">_____ &deg;F</entry><entry rowsep="0"></entry></row><row><entry
+rowsep="0"></entry><entry rowsep="0"></entry><entry spanname="span3" rowsep="0"
+align="left">Duration: 20 seconds min. &ldquo;On&rdquo;, 10 seconds &ldquo;Off&rdquo;
+(20 cycles)</entry><entry spanname="span1" colsep="0" rowsep="0" align="left">
+_____ Cycles</entry><entry spanname="span2" rowsep="0" align="left">_____Cycles
+</entry><entry rowsep="0"></entry></row></tbody>
+</tgroup>
+</figtable>
+<figtable frame="none" colsep="0">
+<tgroup cols="4"><colspec colname="col1" colwidth="2.13in"><colspec colname="colspec2"
+colwidth="1.41in"><colspec colname="colspec3" colwidth="1.59in"><colspec colname="colspec1"
+colwidth="1.85in"><spanspec namest="col1" nameend="colspec2" spanname="span1">
+<tbody><row><entry>CALCULATE:</entry><entry></entry><entry></entry><entry></entry>
+</row><row><entry>Condition 1: ______________ =</entry><entry align="center">
+_______________ x <?Pub _newline>FM IND</entry><entry align="center"><emphasis
+type="undl">14.7 +</emphasis>____________<?Pub _newline>14.7 + 19.0</entry>
+<entry><emphasis type="undl">460 +</emphasis>_____________<?Pub _newline>460
++</entry></row><row><entry>Condition 2: ______________ =</entry><entry align="center">
+_______________ x <?Pub _newline>FM IND</entry><entry align="center"><emphasis
+type="undl">14.7 +</emphasis>____________<?Pub _newline>14.7 + 19.0</entry>
+<entry><emphasis type="undl">460 +</emphasis>_____________<?Pub _newline>460
++</entry></row><row><entry></entry><entry></entry><entry></entry><entry></entry>
+</row><row><entry></entry><entry></entry><entry></entry><entry></entry></row>
+<row><entry></entry><entry></entry><entry></entry><entry></entry></row><row>
+<entry></entry><entry></entry><entry></entry><entry></entry></row><row><entry
+spanname="span1" align="left">TESTED BY:_______________________</entry><entry>
+STAMP:____________</entry><entry>DATE:_______________</entry></row></tbody>
+</tgroup>
+</figtable>
+</macrograph></subfig>
+</figure>
+</para0>
+<pgbrk>
+<para0 xid="par4-32">
+<title>PAINTING, SEALING, AND MARKING OF ASSEMBLED PUMP.</title>
+<brk><para>All units shipped will be packaged in accordance with purchase
+order requirements.</para>
+<subpara1 xid="sub4-32.1">
+<title>Port Protection.</title><para>All ports shall be adequately plugged
+or capped.</para>
+</subpara1>
+<subpara1 xid="sub4-32.2">
+<title>Installation of Data Plates.</title><para>See paragraph <xref xref="par1-7"> for
+instructions for the installation of data plates.</para>
+</subpara1>
+<subpara1 xid="sub4-32.3">
+<title>(QI) Sealing.</title><para>Apply adhesive sealer (item <xref xref="itm5appc">,
+Appendix <xref xref="appc">) to one screw (1, Figure <xref xref="fig4-3">)
+and one screw (1, Figure <xref xref="fig4-1">).</para>
+</subpara1>
+<subpara1 xid="sub4-32.4">
+<title>Painting.</title><para>Not applicable.</para>
+</subpara1></para0>
+<para0 xid="par4-33">
+<title>FINAL ASSEMBLY INSPECTION.</title>
+<brk>
+<subpara1 xid="sub4-33.1">
+<title>(QI) Inspection.</title><para>Inspect the complete pump for:</para>
+<step1><para>Evidence of damage.</para></step1>
+<step1><para>Correctness of information on data plates.</para></step1>
+<step1><para>Installation of protective plugs.</para></step1>
+<step1><para>Application of torque seal.</para></step1>
+<step1><para>Verify that all data has been entered on Test Data Sheet, Figure <xref
+xref="fig4-11">.</para></step1></subpara1></para0>
+</section></chapter>
+<chapter xid="chp5"><?Pub Dtl>
+<title>QUALITY ASSURANCE REQUIREMENTS</title>
+<section xid="chp5scti">
+<title>General</title>
+<para0 xid="par5-1">
+<title>RESPONSIBILITY.</title>
+<brk><para>The contractor/depot quality assurance activity is responsible
+for the performance of the inspections specified in the DMWR. The contractor/depot
+may utilize their own facilities for any commercial laboratory acceptable
+to the procuring activity/commodity manager (PA/CM). The PA/CM reserves the
+right to perform any of the inspections specified in the DMWR, when such inspections
+are necessary to assure that supplies or services conform to the prescribed
+requirements.</para>
+</para0>
+<para0 xid="par5-2">
+<title>DEFINITIONS.</title>
+<brk><para>For quality assurance terms and definitions refer to <extref tmref="ansia8402"> and
+the glossary in the DMWR.</para>
+</para0>
+<para0 xid="par5-3">
+<title>INSPECTION EQUIPMENT.</title>
+<brk><para>The overhaul facility is responsible for acquisitions, maintenance,
+calibration, and disposition of all inspection and test equipment. Test equipment
+to be used by AMC (Army) elements will be acquired in accordance with <xref
+xref="ar750-43"> and AMC Supplement 1 to <extref tmref="ar750-43">. All instrumentation
+and inspection equipment used in compliance with this DMWR shall be calibrated
+and controlled in accordance with MIL-I-45607 and <extref tmref="ansi-z540-10002"> (commercial
+facility) or <extref tmref="descom-r702-1">, Depot Quality Systems (Army facility),
+with all standards traceable to the National Bureau of Standards. Descriptions
+of inspection and measuring equipment are left to the discretion of the overhauling
+facility to be considered as good shop practice.</para>
+</para0>
+<para0 xid="par5-4">
+<title>CERTIFICATION REQUIREMENTS.</title>
+<brk><para>The contractor/depot QA activity shall be responsible for ascertaining
+and certifying personnel skills, equipment, and material meet the requirements
+of the work to be accomplished. Unless otherwise specified in the contract
+or by PA/CM representative, the contractor/depot QA activity shall provide
+the PA/CM with statements or other evidence that specifications for such special
+processes as welding, nondestructive testing, plating, and the like have been
+complied with. Personnel performing magnetic particle and penetrant tests
+shall be certified in accordance with <extref tmref="snt-tc-1">.</para>
+</para0>
+<para0 xid="par5-5">
+<title>QUALITY ASSURANCE PLAN.</title>
+<brk><para>The contractor/depot QA activity is responsible for preparing the
+QA/QC plan covering the work required by the DMWR and contract/work directive.
+Depots shall prepare the plan in accordance with <extref tmref="descom-r702-1">. <change
+level="2">Contractors shall conform to <extref tmref="iso9001"></change> as
+specified by the PA/CM. In addition to meeting the requirements of the foregoing
+references, the plan will provide that:</para>
+<step1><para>The QA/QC plan shall be made available to the PA/CM for review
+prior to the start of work and through the life of the program. The contractor
+shall notify the PA/CM in writing of any change. The basic plan and changes
+thereto are subject to disapproval by the PA/CM.</para></step1>
+<step1><para>Comparison Inspection standards are coordinated with the PA/CM
+Quality Assurance element.</para></step1>
+<step1><para>Material or procedural departure from the DMWR or supporting
+specifications will not be accepted without prior approval of the PA/CM.</para>
+</step1>
+<step1><para>Rejected material is randomly inspected to verify classification
+prior to reclamation or disposal.</para></step1>
+<step1><para>Maintenance and reclamation procedures are verified before and
+periodically during operations.</para></step1>
+<step1><para>Inspection requirements in Section <xref xref="chp5sctii"> on
+the following page are accomplished.</para></step1></para0>
+</section><pgbrk>
+<section xid="chp5sctii">
+<title>Inspection Requirements</title>
+<para0 xid="par5-6">
+<title>GENERAL.</title>
+<brk>
+<step1><para>Quality Inspectors (QIs) are required to witness all tests and
+those inspections which are marked "QI" or otherwise designated by the PA/CM.
+</para></step1>
+<step1><para>The Maintenance Technicians shall inspect, check, and determine
+the conditions of all other areas to insure compliance with the DMWR.</para>
+</step1></para0>
+<para0 xid="par5-7">
+<title>PRODUCT VERIFICATION AUDIT.</title>
+<brk><para>A product verification audit may be performed in accordance with <xref
+xref="descom-r702-1"> on one of the first five items produced to verify compliance
+with the DMWR and contractual terms.</para>
+</para0>
+<para0 xid="par5-8">
+<title>IN-PROCESS AND ACCEPTANCE INSPECTIONS.</title>
+<brk>
+<step1><para>Used components and refinished parts recovered as products of
+disassembly shall be examined 100% by the contractor/depot to determine serviceability.
+A copy of this log shall be submitted to the PA/CM as part of the overhaul
+contract. The log shall contain the Maintenance Technician's comments for
+all parts removed, such as parts inspected, replaced, inspected by QI, tested
+by NDI, modified by MWO, or other notes or actions.</para></step1>
+<step1><para>Diagnostic and nondestructive tests such as magnetic particle,
+penetrant, radiographic, and ultrasonic inspections as required by this DMWR
+shall be in accordance with referenced military specifications and <change
+level="2"><extref tmref="amcomaa-std-1"> and <extref tmref="amcomaa-std-2"></change> where
+not otherwise specified. A qualified QI shall either perform or witness these
+tests.</para></step1>
+<step1><para>A list of Inspection definitions, Table <xref xref="tbl5-1">,
+are included at the end of this chapter. Accept and reject criteria for these
+inspections and unique repair methods are found in applicable areas of this
+DMWR.</para></step1></para0>
+<para0 xid="par5-9">
+<title>TEST CHECKLIST.</title>
+<brk><para>A checklist indicating each required test shall be included as
+part of this DMWR. The list shall show name of test and test set-up (per figure,
+if applicable). List the input readings, such as positions of valves, switches,
+etc. List the required readings, such as time, meter readings, etc. List the
+accept/reject criteria for each test as applicable.</para>
+<table frame="all" pgwide="1" xid="tbl5-1">
+<title>Inspection Definitions</title>
+<tgroup cols="3"><colspec colnum="1" colname="c1" colwidth="0.993in"><colspec
+colnum="2" colname="c2" colwidth="3.25in"><colspec colnum="3" colname="c3"
+colwidth="2.75in">
+<thead><row><entry colsep="1" rowsep="1" valign="bottom" align="center">TERM
+</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">DEFINITION
+</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">PROBABLE
+CAUSE</entry></row></thead>
+<tbody><row><entry colsep="1" rowsep="0" valign="top" align="left">Abrasion
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">Roughened surface,
+varying from light to severe</entry><entry colsep="1" rowsep="0" valign="top"
+align="left">Foreign material present between moving parts</entry></row><row>
+<entry colsep="1" rowsep="0" valign="top" align="left">Bend</entry><entry
+colsep="1" rowsep="0" valign="top" align="left">Any change in the intended
+configuration</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+Application of severe or excessive force</entry></row><row><entry colsep="1"
+rowsep="0" valign="top" align="left">Break</entry><entry colsep="1" rowsep="0"
+valign="top" align="left">Separation of part</entry><entry colsep="1" rowsep="0"
+valign="top" align="left">Severe force, pressure, or overload</entry></row>
+<row><entry colsep="1" rowsep="0" valign="top" align="left">Burn</entry><entry
+colsep="1" rowsep="0" valign="top" align="left">Loss of metal</entry><entry
+colsep="1" rowsep="0" valign="top" align="left">Excessive heat</entry></row>
+<row><entry colsep="1" rowsep="0" valign="top" align="left">Burnishing</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">The smoothing of a
+metal surface by mechanical action, but without loss of material. Generally
+found on plain bearing surfaces. Surface discoloration is sometimes present
+around outer edges of burnished area</entry><entry colsep="1" rowsep="0" valign="top"
+align="left">Excessive heat</entry></row><pgbrk><row>
+<?PubTbl row breakpenalty="-10000">
+<entry colsep="1" rowsep="0" valign="top" align="left"><!--pgbrk-->Burnishing
+(Cont'd)</entry><entry colsep="1" rowsep="0" valign="top" align="center"><note>
+<para>Normal burnishing from operational surface is not detrimental if coverage
+approximates the carrying load and if there is no evidence of burns.</para>
+</note></entry><entry colsep="1" rowsep="0" valign="top" align="left"></entry>
+</row><row><entry colsep="1" rowsep="0" valign="top" align="left">Burr</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">A rough edge or sharp
+projection</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+Impact from foreign object or poor machining</entry></row><row><entry colsep="1"
+rowsep="0" valign="top" align="left">Chipping</entry><entry colsep="1" rowsep="0"
+valign="top" align="left">Breaking away of small metallic particles</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">Heavy impact of foreign
+object</entry></row><row><entry colsep="1" rowsep="0" valign="top" align="left">
+Corrosion</entry><entry colsep="1" rowsep="0" valign="top" align="left">Surface
+chemical action that results in surface discoloration, a layer of oxide, rust,
+and removal of surface metal</entry><entry colsep="1" rowsep="0" valign="top"
+align="left">Improper corrosion preventative procedure and excessive moisture
+</entry></row><row><entry colsep="1" rowsep="0" valign="top" align="left">
+Crack</entry><entry colsep="1" rowsep="0" valign="top" align="left">A break
+In material</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+Severe stress from overloading or shock; possible extension of a scratch</entry>
+</row><row><entry colsep="1" rowsep="0" valign="top" align="left">Dent</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">A small, smoothly rounded
+depression</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+A sharp blow or excessive pressure</entry></row><row><entry colsep="1" rowsep="0"
+valign="top" align="left">Distortion</entry><entry colsep="1" rowsep="0" valign="top"
+align="left">A change from original shape</entry><entry colsep="1" rowsep="0"
+valign="top" align="left">Application of severe heat or irregular forces</entry>
+</row><row><entry colsep="1" rowsep="0" valign="top" align="left">Erosion
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">Wearing away
+of metal</entry><entry colsep="1" rowsep="0" valign="top" align="left">Hot
+gases, corrosive liquids, or grit</entry></row><row><entry colsep="1" rowsep="0"
+valign="top" align="left">Fatigue Failure</entry><entry colsep="1" rowsep="0"
+valign="top" align="left">Sharp indentations, cracks, tool marks, and inclusions
+that result in progressive yielding of one or more local areas</entry><entry
+colsep="1" rowsep="0" valign="top" align="left">Cyclic stress. A stress is
+repeated, cracks develop, then spread, usually from surfaces (or near surface)
+of the particular section. Finally, so little sound material remains that
+normal stress on part exceeds strength of the remaining material. This type
+of failure is not caused by metal crystallization. This condition can easily
+be determined by visual inspection of part. Striations will be evidenced by
+several lines, more or less concentric. The center (or focus) of lines Indicates
+origin of the failure.</entry></row><row><entry colsep="1" rowsep="0" valign="top"
+align="left">Flaking</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+Loose particles of metal or evidence of surface covering removal</entry><entry
+colsep="1" rowsep="0" valign="top" align="left">Imperfect bond or severe load
+</entry></row><row><entry colsep="1" rowsep="0" valign="top" align="left">
+Fracture</entry><entry colsep="1" rowsep="0" valign="top" align="left">See
+Break</entry><entry colsep="1" rowsep="0" valign="top" align="left"></entry>
+</row><row><entry colsep="1" rowsep="0" valign="top" align="left">Gouging
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">Removal of
+surface metal Typified by rough and deep depressions</entry><entry colsep="1"
+rowsep="0" valign="top" align="left"></entry></row><row><entry colsep="1"
+rowsep="0" valign="top" align="left">Heat Oxidizing</entry><entry colsep="1"
+rowsep="0" valign="top" align="left">Characterized by a discoloring film.
+Color varies from yellow to brown and purple to blue</entry><entry colsep="1"
+rowsep="0" valign="top" align="left">High temperature operation</entry></row>
+<row><entry colsep="1" rowsep="0" valign="top" align="left">Indenting</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">Cavities with smooth
+bottoms and sides. Occurs on rolling contact surfaces of bearing components.
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">Loose or rolling
+particles rolling between rotating elements of a bearing</entry></row><pgbrk>
+<row>
+<?PubTbl row breakpenalty="-10000">
+<entry colsep="1" rowsep="0" valign="top" align="left"><!--pgbrk-->Nick</entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">A sharp-bottomed depression
+that may have rough outer edges</entry><entry colsep="0" rowsep="0" valign="top"
+align="left">Dropping, banging</entry></row><row><entry colsep="1" rowsep="0"
+valign="top" align="left">Off-Square or Misalignment of Anti-Friction Bearing
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">Indicated by
+retainer deterioration, retainer bore erosion, and gouged retainer rolling
+element pockets of the inner and outer race. Two distinct rolling element
+paths may be seen on the race where off-square condition exists.</entry><entry
+colsep="1" rowsep="0" valign="top" align="left">Caused by rolling element
+speed variation which jams rolling elements into separation pockets</entry>
+</row><row><entry colsep="1" rowsep="0" valign="top" align="left">Pitting
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">Small indentations
+in a surface</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+Chemical pitting: Oxidation of surface or electrolytic action. Mechanical
+pitting: Chipping of loaded surfaces caused by improper clearances and overloading
+and by pressure of foreign material</entry></row><row><entry colsep="1" rowsep="0"
+valign="top" align="left">Scoring</entry><entry colsep="1" rowsep="0" valign="top"
+align="left">Deep scratch following path of part travel</entry><entry colsep="1"
+rowsep="0" valign="top" align="left">Result of localized lubrication breakdown
+between sliding surfaces</entry></row><row><entry colsep="1" rowsep="0" valign="top"
+align="left">Scraping</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+A furrow</entry><entry colsep="1" rowsep="0" valign="top" align="left">Rubbing
+with any hard or rough, pointed object</entry></row><row><entry colsep="1"
+rowsep="0" valign="top" align="left">Scratch</entry><entry colsep="1" rowsep="0"
+valign="top" align="left">A very shallow furrow or irregularity, usually longer
+than wide</entry><entry colsep="1" rowsep="0" valign="top" align="left">Movement
+of a sharp object across the surface</entry></row><row><entry colsep="1" rowsep="0"
+valign="top" align="left">Seizure</entry><entry colsep="1" rowsep="0" valign="top"
+align="left">Fusion or binding of two adjacent surfaces preventing continued
+movement</entry><entry colsep="1" rowsep="0" valign="top" align="left">Improper
+lubrication or wear</entry></row><row><entry colsep="1" rowsep="0" valign="top"
+align="left">Stripped Thread</entry><entry colsep="1" rowsep="0" valign="top"
+align="left">Thread of a nut, stud, bolt, or screw damaged by tearing away
+part of thread</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+Improper installation or thread pitch or size</entry></row><row><entry colsep="1"
+rowsep="0" valign="top" align="left">Tear</entry><entry colsep="1" rowsep="0"
+valign="top" align="left">Parting of parent material</entry><entry colsep="1"
+rowsep="0" valign="top" align="left">Excess tension caused by an external
+force</entry></row><row><entry colsep="1" rowsep="1" valign="top" align="left">
+Wear</entry><entry colsep="1" rowsep="1" valign="top" align="left">Slow removal
+of parent material. Frequently, wear is not visible to the naked eye.</entry>
+<entry colsep="1" rowsep="1" valign="top" align="left">Result of abrasive
+substances contacting rolling surfaces and acting as a lapping compound</entry>
+</row></tbody>
+</tgroup>
+</table>
+</para0>
+</section></chapter>
+<chapter xid="chp6"><?Pub Dtl>
+<title>PACKAGING</title>
+<para0 xid="par6-1" tocitem="1">
+<title>PRESERVATION, PACKING AND MARKING.</title>
+<brk>
+<subpara1 xid="sub6-1.1">
+<title></title><para>Output components will be preserved, packed, and marked
+in accordance with the Delivery Order/Contract, Depot Maintenance Interservice
+Support Agreement (DMISA), Statement of Work (SOW), Memorandum of Agreement
+or other authorization document. <change level="1">Overhaul will not be considered
+complete until the output component is properly packaged.</change></para>
+</subpara1>
+<subpara1 xid="sub6-1.2">
+<title></title><para>Output components from organic depot maintenance and
+overhaul (M &amp; O) programs will be packaged <changest level="1">in accordance
+with the FEDLOG Packaging File and marked in accordance with MIL-STD-129.
+Components for which a special or multi-application container is specified
+will be packed in the assigned container. All other components will be packaged
+Military Preservation and level B Pack, unless weight and dimension requirements
+of <extref tmref="mil-std-2073-1"> specify a wooden container. The level of
+packaging shall be level A when a wood container is specified. When component
+are received at the overhaul maintenance facility, the container will be inspected
+for serviceability in accordance with Chapter <xref xref="chp2">, <extref
+tmref="tb55-8100-200-24">. Containers will be requisitioned as required to
+replace missing, improper, or unserviceable containers to insure availability
+of container when component is returned from the overhaul maintenance facility.
+Waivers, deviations, and/or container substitution must be approved by the
+AMCOM Packaging and Transportability Branch <change level="2">(AMSAM-MMC-MM-DP)
+</change>.</para>
+</subpara1>
+<subpara1 xid="sub6-1.3">
+<title></title><para>Questions concerning contractual matters shall be submitted
+through the assigned Contracting Officer (KO), Technical communications, requests
+for waivers, etc. should be submitted to Commander, U.S. Army Aviation and
+Missile Command, ATTN: <change level="2">AMSAM-MMC-MM-DP</change>, Redstone
+Arsenal, AL 35898-5000. Telephone inquiries may be made to Commercial (256)
+876-5972/2526, DSN 746-5972/2526. <changeend level="1"></para>
+</subpara1></para0>
+</chapter>
+<chapter xid="chp7">
+<title>QUALITY ASSURANCE REQUIREMENTS</title>
+<para0 label="nonum">
+<title></title></para0>
+</chapter></body>
+<rear>
+<appendix xid="appa">
+<title>REFERENCES</title>
+<lrp>
+<para0 xid="para-1">
+<title>REFERENCES.</title></para0>
+<para0 label="nonum">
+<title>TECHNICAL MANUALS/BULLETINS</title></para0>
+<lrpentry tmid="tb-ord-1030"><tmidno>TB-ORD-1030</tmidno><title>Army Vehicles,
+Installation and Use of Overhaul and Overhaul/MWO Data Plates</title>
+</lrpentry>
+<lrpentry tmid="tb1-1500-307-24"><tmidno>TB 55-1500-307-24</tmidno><title><change
+level="2">Aircraft Components Requiring Maintenance Management and Historical
+Data</change></title>
+</lrpentry>
+<lrpentry tmid="tb55-8100-200-24"><tmidno>TB 55-8100-200-24</tmidno><title>
+Maintenance of Specialized Reusable Container for Aircraft Equipment</title>
+</lrpentry>
+<lrpentry tmid="tm1-1500-344-23"><tmidno>TM 1-1500-344-23</tmidno><title>
+Aircraft Weapon System Cleaning and Corrosion Control</title>
+</lrpentry>
+<lrpentry tmid="tm1-1500-204-23"><tmidno>TM 1-1500-204-23 (Vol 1-10)</tmidno>
+<title>General Aircraft Maintenance Manual</title>
+</lrpentry>
+<lrpentry tmid="tm55-1500-322-24"><tmidno>TM 55-1500-322-24</tmidno><title>
+Maintenance of Aeronautical Antifriction Bearings for Organizational, Intermediate,
+and Depot Levels</title>
+</lrpentry>
+<lrpentry tmid="tm1-1520-238-23"><tmidno>TM 1-1520-238-23P</tmidno><title>
+Aviation Unit and Intermediate Maintenance Repair Parts and Special Tools
+List for Helicopter, Attack, AH-64A</title>
+</lrpentry>
+<lrpentry tmid="tm55-1500-345-23"><tmidno>TM 55-1500-345-23</tmidno><title>
+Painting and Marking of Army Aircraft</title>
+</lrpentry>
+<para0 label="nonum">
+<title>SPECIFICATIONS/STANDARDS</title></para0>
+<lrpentry tmid="ams2300"><tmidno>AMS 2300</tmidno><title>Premium Aircraft
+Quality Steel Cleanliness, Magnetic Particles, Wet Method, Oil Vehicle</title>
+</lrpentry>
+<lrpentry tmid="ams3043"><tmidno>AMS 3043</tmidno><title>Magnetic Particles,
+Wet Method, Oil Vehicle Aerosol Canned</title>
+</lrpentry>
+<lrpentry tmid="as478"><tmidno>AS478</tmidno><title>Identification Marking
+of U.S. Military Property</title>
+</lrpentry>
+<lrpentry tmid="astmb766"><tmidno>ASTM B766</tmidno><title>Plating, Cadmium
+</title>
+</lrpentry>
+<lrpentry tmid="astmd3951"><tmidno>ASTM D3951</tmidno><title>Markings for
+Shipment and Storage</title>
+</lrpentry>
+<lrpentry tmid="astmd5118"><tmidno>ASTM D5118</tmidno><title>Boxes, Shipping,
+Fiberboard</title>
+</lrpentry>
+<lrpentry tmid="astmd3951-82"><tmidno>ASTM D3951-82</tmidno><title>Commercial
+Packaging, Practice for</title>
+</lrpentry>
+<lrpentry tmid="astme1417"><tmidno>ASTM E1417</tmidno><title>Standard Practice
+for Liquid Penetrant Examination</title>
+</lrpentry>
+<lrpentry tmid="astme1444"><tmidno>ASTM E1444</tmidno><title>Inspection, Magnetic
+Particle</title>
+</lrpentry>
+<lrpentry tmid="astms5118"><tmidno>ASTM S5118</tmidno><title>Boxes, Wood,
+Cleated Plywood</title>
+</lrpentry>
+<lrpentry tmid="dod-std-480"><tmidno>DOD-STD-480</tmidno><title>Configuration
+Control - Engineering Changes, Deviations, and Waivers</title>
+</lrpentry>
+<lrpentry tmid="mil-c-5541"><tmidno>MIL-C-5541</tmidno><title>Class II Chemical
+Conversion Coatings on Aluminum and Aluminum Alloys</title>
+</lrpentry>
+<lrpentry tmid="mil-c-26047"><tmidno>MIL-C-26047</tmidno><title>Coatings,
+Electorless Nickel, Requirements for</title>
+</lrpentry>
+<lrpentry tmid="mil-m-3171"><tmidno>MIL-M-3171</tmidno><title>Magnesium Aloy,
+Process for Pre-Treatment and Prevention of Corrosion on</title>
+</lrpentry>
+<lrpentry tmid="mil-m-6867"><tmidno>MIL-M-6867</tmidno><title>Magnetic Inspection
+Units</title>
+</lrpentry>
+<lrpentry tmid="mil-p-514"><tmidno>MIL-P-514</tmidno><title>Plates, Identification,
+Instructions and Marking, Blank</title>
+</lrpentry>
+<lrpentry tmid="mil-p-23377"><tmidno>MIL-P-23377</tmidno><title>Primer Coating,
+Epoxy Polyamide, Chemical and Solvent Resistant</title>
+</lrpentry>
+<lrpentry tmid="mil-p-6906"><tmidno>MIL-P-6906B</tmidno><title>Aircraft Identification
+Plates</title>
+</lrpentry>
+<lrpentry tmid="mil-std-2073-1"><tmidno>MIL-STD-2073-1</tmidno><title>Parts
+and Equipment, Procedures for Packaging of</title>
+</lrpentry>
+<lrpentry tmid="mil-std-6866"><tmidno>MIL-STD-6866</tmidno><title>Inspection,
+Liquid Penetrant</title>
+</lrpentry>
+<lrpentry tmid="ppb-b-601"><tmidno>PPB-B-601</tmidno><title>Boxes, Wood, Cleated
+Plywood</title>
+</lrpentry>
+<para0 label="nonum">
+<title>QUALITY CONTROL/QUALITY ASSURANCE DOCUMENTS</title></para0>
+<lrpentry tmid="ansia8402"><tmidno>ANSI A8402</tmidno><title>Quality Assurance
+Terms and Definitions</title>
+</lrpentry>
+<lrpentry tmid="ansi-z540-10002"><tmidno>ANSI-Z540-10002</tmidno><title>Calibration
+Systems Requirements</title>
+</lrpentry>
+<lrpentry tmid="ar702-10"><tmidno>AR 702-10</tmidno><title>Post Production
+Testing of Army Material</title>
+</lrpentry>
+<lrpentry tmid="astmd34"><tmidno>ASTM D34</tmidno><title>Gauge Inspection
+</title>
+</lrpentry>
+<lrpentry tmid="amcomaa-std-1"><tmidno>AMCOM AA-STD-1</tmidno><title><change
+level="2">Quality Assurance Criteria for Magnetic Particle Inspection</change></title>
+</lrpentry>
+<lrpentry tmid="amcomaa-std-2"><tmidno>AMCOM AA STD-2</tmidno><title><change
+level="2">Quality Assurance Criteria for Penetrant Inspection</change></title>
+</lrpentry>
+<lrpentry tmid="descom-r702-1"><tmidno>DESCOM-R 702-1</tmidno><title>Depot
+Quality System</title>
+</lrpentry>
+<lrpentry tmid="iso9001"><tmidno>ISO 9001</tmidno><title>Inspection System
+Requirements</title>
+</lrpentry>
+<lrpentry tmid="mil-i-45607"><tmidno>MIL-I-45607B</tmidno><title>Inspection
+Equipment, Acquisition, Maintenance, and Disposition of</title>
+</lrpentry>
+<lrpentry tmid="mil-q-9858"><tmidno>MIL-Q-9858</tmidno><title>Quality Program
+Requirements</title>
+</lrpentry>
+<lrpentry tmid="mil-w-63150"><tmidno>MIL-W-63150</tmidno><title>Weapons and
+Support Material, Standard Quality Assurance Provisions for</title>
+</lrpentry>
+<lrpentry tmid="snt-tc-1"><tmidno>SNT-TC-1A</tmidno><title>Personnel Qualifications
+and Certifications for Nondestructive Testing</title>
+</lrpentry>
+<para0 label="nonum">
+<title>OTHER PUBLICATIONS</title></para0>
+<lrpentry tmid="ar725-50"><tmidno>AR 725-50</tmidno><title>Requisitioning,
+Receipt, and Issue System</title>
+</lrpentry>
+<lrpentry tmid="ar750-43"><tmidno>AR 750-43</tmidno><title>Test, Measurement,
+and Diagnostic Equipment, including Prognostic Equipment and Calibration Test/Measurement
+Equipment</title>
+</lrpentry>
+<lrpentry tmid="cta50-970"><tmidno>CTA 50-970</tmidno><title>Expendable Items
+(Except Medical, Class V, Repair Parts, and Heraldic Items)</title>
+</lrpentry>
+<lrpentry tmid="dapam25-30"><tmidno>DA PAM 25-30</tmidno><title>Consolidation
+Index of Army Publications and Blank Forms</title>
+</lrpentry>
+<lrpentry tmid="da-pam738-750"><tmidno>DA-PAM 738-750</tmidno><title>The Army
+Maintenance Management System (TAMMS)</title>
+</lrpentry>
+<lrpentry tmid="dapam738-751"><tmidno>DA PAM 738-751</tmidno><title>The Army
+Maintenance Management System - Aviation (TAMMS-A)</title>
+</lrpentry>
+<lrpentry tmid="dapam750-10"><tmidno>DA PAM 750-10</tmidno><title>U.S. Army
+Equipment Index of MWOs</title>
+</lrpentry>
+<lrpentry tmid="ams2644"><tmidno>AMS 2655</tmidno><title><change level="2">
+Inspection Materials, Penetrant</change></title>
+</lrpentry>
+</lrp>
+</appendix>
+<appendix xid="appb">
+<title>REPAIR PARTS AND SPECIAL TOOLS LIST </title>
+<para0 label="nonum">
+<title><?Pub _touchup QuaddingQuad="center" SpanSpan="1">(NOT APPLICABLE)<?Pub /_touchup>
+</title></para0>
+<para0>
+<title></title><para>This is a reference to <xref xref="chp2">. and should
+not have a space after it.</para>
+</para0>
+</appendix>
+<appendix xid="appc" numcols="2">
+<title>EXPENDABLE SUPPLIES AND MATERIALS LIST</title>
+<para0 xid="parc-1">
+<title>SCOPE.</title>
+<brk><para>This appendix lists expendable supplies and materials you will
+need to overhaul the pump. These items are authorized to you by <extref tmref="cta50-970">,
+Expendable Items (except Medical, Class V, Repair Parts and Heraldic Items).
+</para>
+</para0>
+<para0 xid="parc-2">
+<title>EXPLANATION OF COLUMNS.</title>
+<brk>
+<subpara1 xid="subc-2.1">
+<title>Column (1) - Item Number.</title>
+<brk><para>This number is assigned to the entry in the listing <xref xref="fo-1">and
+is referenced in the <xref xref="fo-2">narrative instructions <xref xref="fo-3">to
+identify the material [i.e., use solvent (item 17, Appendix <xref xref="appc">).
+</para>
+</subpara1>
+<subpara1 xid="subc-2.2">
+<title>Column (2) - National Stock Number.</title>
+<brk><para>This is the National Stock Number assigned to the item; use it
+to request or requisition the item.</para>
+</subpara1>
+<subpara1 xid="subc-2.3">
+<title>Column (3) - Description.</title>
+<brk><para>Indicates the Federal item name and, if required, a description
+to identify the item. The last line for each item indicates the Commercial
+And Government Entity (CAGE) in parentheses followed by the part number.</para>
+</subpara1>
+<subpara1 xid="subc-2.4">
+<title>Column (4) - Unit of Measure (U/M).</title>
+<brk><para>Indicates the measure used in performing the actual maintenance
+function. This measure is expressed by a two-character alphabetical abbreviation
+(eg, ea, in., pr). If the unit of measure differs from the unit of issue,
+requisition the lowest unit of issue that will satisfy your requirements.
+</para>
+<table frame="all" pgwide="1" xid="tblc-1">
+<title>Expendable Supplies and Materials</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1" colwidth="0.865in"><colspec
+colnum="2" colname="c2" colwidth="1.966in"><colspec colnum="3" colname="c3"
+colwidth="3.20in"><colspec colnum="4" colname="c4" colwidth="0.97in">
+<thead><row><entry colsep="1" rowsep="1" valign="bottom" align="center">(1)<brk>Item
+no.</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">(2)<brk>National
+Stock Number</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">
+(3)<brk>Description</entry><entry colsep="1" rowsep="1" valign="bottom" align="center">
+(4)<brk>U/M</entry></row></thead>
+<tbody><row><entry xid="itm1appc" colname="c1" colsep="1" rowsep="0" valign="top"
+align="center">1</entry><entry colsep="1" rowsep="0" valign="top" align="center">
+5350-00-224-7201</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+Paper, Abrasive, P-P-1 400 gr. (81348)</entry><entry colsep="1" rowsep="0"
+valign="top" align="center">pg</entry></row><row><entry xid="itm2appc" colname="c1"
+colsep="1" rowsep="0" valign="top" align="center">2</entry><entry colsep="1"
+rowsep="0" valign="top" align="center">5350-00-224-7215</entry><entry colsep="1"
+rowsep="0" valign="top" align="left">Paper, Abrasive, A-A-1047 (56536)</entry>
+<entry colsep="1" rowsep="0" valign="top" align="center">pg</entry></row>
+<row><entry xid="itm3appc" colname="c1" colsep="1" rowsep="0" valign="top"
+align="center">3</entry><entry colsep="1" rowsep="0" valign="top" align="center">
+8135-00-224-8885</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+Barrier Material, MIL-B-121 (81349)</entry><entry colsep="1" rowsep="0" valign="top"
+align="center">ro</entry></row><row><entry xid="itm4appc" colname="c1" colsep="1"
+rowsep="0" valign="top" align="center">4</entry><entry colsep="1" rowsep="0"
+valign="top" align="center"><change level="2">8030-00-244-1299</change></entry>
+<entry colsep="1" rowsep="0" valign="top" align="left">Corrosive Preventative,
+MIL-C-16173D, Grade 2 (81349)</entry><entry colsep="1" rowsep="0" valign="top"
+align="center">ga</entry></row><row><entry xid="itm5appc" colname="c1" colsep="1"
+rowsep="0" valign="top" align="center">5</entry><entry colsep="1" rowsep="0"
+valign="top" align="center">8030-01-143-2702</entry><entry colsep="1" rowsep="0"
+valign="top" align="left"><change level="2">Sealing Compound</change></entry>
+<entry colsep="1" rowsep="0" valign="top" align="center">tu</entry></row>
+<row><entry xid="itm6appc" colname="c1" colsep="1" rowsep="0" valign="top"
+align="center">6</entry><entry colsep="1" rowsep="0" valign="top" align="center">
+5345-00-161-9695</entry><entry colsep="1" rowsep="0" valign="top" align="left">
+Stone, Sharpening, JB8 (06565)</entry><entry colsep="1" rowsep="0" valign="top"
+align="center">ea</entry></row><row><entry xid="itm7appc" colname="c1" colsep="1"
+rowsep="0" valign="top" align="center">7</entry><entry colsep="1" rowsep="0"
+valign="top" align="center">9150-00-159-5012</entry><entry colsep="1" rowsep="0"
+valign="top" align="left">Assembly Fluid AFS Turbo 10 (0A611)</entry><entry
+colsep="1" rowsep="0" valign="top" align="center">bx</entry></row><row><entry
+xid="itm8appc" colname="c1" colsep="1" rowsep="0" valign="top" align="center">
+8</entry><entry colsep="1" rowsep="0" valign="top" align="center">9150-00-985-7099
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">Oil, Lubricating,
+MIL-L-23699 (81349)</entry><entry colsep="1" rowsep="0" valign="top" align="center">
+qt</entry></row><row><entry xid="itm9appc" colname="c1" colsep="1" rowsep="0"
+valign="top" align="center">9</entry><entry colsep="1" rowsep="0" valign="top"
+align="center"></entry><entry colsep="1" rowsep="0" valign="top" align="left">
+Plate, Identification</entry><entry colsep="1" rowsep="0" valign="top" align="center">
+ea</entry></row><row><entry colsep="1" rowsep="0" valign="top" align="center">
+10</entry><entry xid="itm10appc" colname="c2" colsep="1" rowsep="0" valign="top"
+align="center">8030-00-148-9833</entry><entry colsep="1" rowsep="0" valign="top"
+align="left">Sealing Compound, 271-21 (05972)</entry><entry colsep="1" rowsep="0"
+valign="top" align="center">cc</entry></row><row><entry xid="itm11appc" colname="c1"
+colsep="1" rowsep="0" valign="top" align="center">11</entry><entry colsep="1"
+rowsep="0" valign="top" align="center">6810-00-983-8551</entry><entry colsep="1"
+rowsep="0" valign="top" align="left">Isopropyl Alcohol</entry><entry colsep="1"
+rowsep="0" valign="top" align="center">ga</entry></row><row><entry xid="itm12appc"
+colname="c1" colsep="1" rowsep="0" valign="top" align="center">12</entry>
+<entry colsep="1" rowsep="0" valign="top" align="center">6850-00-285-8011
+</entry><entry colsep="1" rowsep="0" valign="top" align="left">Solvent, P-D-680
+Type II (81348)</entry><entry colsep="1" rowsep="0" valign="top" align="center">
+dr</entry></row><row><entry xid="itm13appc" colname="c1" colsep="1" rowsep="0"
+valign="top" align="center">13</entry><entry colsep="1" rowsep="0" valign="top"
+align="center">8030-01-166-0675</entry><entry colsep="1" rowsep="0" valign="top"
+align="left">Loctite PST Pipe Sealant, 567</entry><entry colsep="1" rowsep="0"
+valign="top" align="center">tu</entry></row><row><entry xid="itm14appc" colname="c1"
+colsep="1" rowsep="0" valign="top" align="center">14</entry><entry colsep="1"
+rowsep="0" valign="top" align="center">9905-01-193-1999</entry><entry colsep="1"
+rowsep="0" valign="top" align="left">SCOTCHCAL, Aluminum Label, Photosensitive,
+White, 3M, MIL-P-19834, Type I or MIL-M-43719</entry><entry colsep="1" rowsep="0"
+valign="top" align="center">sh</entry></row><row><entry xid="itm15appc" rowsep="0"
+align="center">15</entry><entry rowsep="0" align="center"><changest level="2">6850-00-264-5771
+</entry><entry rowsep="0">Aircraft Fuel Calibrating Fluid, MIL-PRF-7027, Type
+II</entry><entry rowsep="0" align="center">dr</entry></row><row><entry xid="itm16appc"
+rowsep="0" align="center">16</entry><entry rowsep="0" align="center">6850-01-450-6162
+</entry><entry rowsep="0">n-Propyl Bromide</entry><entry rowsep="0" align="center">
+gl</entry></row><row><entry xid="itm17appc" rowsep="0" align="center">17</entry>
+<entry rowsep="0" align="center">7930-01-367-0995</entry><entry rowsep="0">
+DS-108</entry><entry rowsep="0" align="center">gl</entry></row><row><entry
+xid="itm18appc" rowsep="0" align="center">18</entry><entry rowsep="0" align="center">
+6850-01-375-5553</entry><entry rowsep="0">Electron</entry><entry rowsep="0"
+align="center">gl</entry></row><row><entry xid="itm19appc" rowsep="0" align="center">
+19</entry><entry rowsep="0" align="center">6850-01-412-0026</entry><entry
+rowsep="0">Positron</entry><entry rowsep="0" align="center">gl</entry></row>
+<row><entry xid="itm20appc" align="center">20</entry><entry align="center">
+6810-00-184-4796</entry><entry>Acetone, ASTM D239</entry><entry align="center">
+gl<changeend level="2"></entry></row></tbody>
+</tgroup>
+</table>
+</subpara1></para0>
+</appendix>
+<appendix xid="appd">
+<title></title>
+<para0>
+<title></title></para0>
+</appendix>
+<appendix xid="appe"><?Pub Dtl>
+<title>DEPOT MOBILIZATION REQUIREMENTS</title>
+<para0 label="nonum">
+<title></title><para>Under a state of mobilization, the procuring activity
+may elect to:</para>
+<subpara1 label="a">
+<title></title><para>Require all items to be overhauled, maximizing the longevity
+of such items but requiring full turnaround time during depot maintenance.
+This section "zeros" the "time since overhaul" of an item.</para>
+</subpara1>
+<subpara1 label="b">
+<title></title><para>Require a quick turnaround on all items during maintenance
+by electing to minor repair items.</para>
+<brk><para>Minor repair Is defined as follows:</para>
+<brk><para>Maintenance performed to address the cause for an item and to restore
+the item to serviceable condition. This is done through correction of specific
+failure or unserviceable conditions. An item&rsquo;s inherent weakness is
+addressed by carrying out convenience maintenance, inspections, repairs, and
+other preventative maintenance that are determined to be cost effective. Minor
+repair changes the requirement, but it does not, in general increase the item's
+potential longevity, the determination to minor repair at overhaul is made
+after the item is inducted into the depot and undergoes preshop analysis (PSA.)
+For items with TBOs, the only alternative to minor repair is overhaul. Minor
+repair does not "zero" the time "since new" or time "since overhaul" of the
+item.</para>
+</subpara1></para0>
+</appendix>
+<glossary>
+<deflist>
+<term>ADAPTER</term><def>Any device that makes it possible to use parts or
+pieces of equipment that are not designed to be used together.</def>
+<term>ASSEMBLY</term><def>A unit normally removed and reassembled as a single
+item, consisting of accessories and components that operate together for a
+specific purpose.</def>
+<term>AXIAL</term><def>Relating to the axis of a part.</def>
+<term>BACKLASH</term><def>A term used to describe the distance that a working
+part has to move before it moves its mating part. The motion lost between
+two connected parts when the direction of motion is changed is also considered
+backlash. This loss of motion or looseness is caused by design tolerances
+or by the wearing of working parts.</def>
+<term>CALIBRATE</term><def>The work done in testing and adjusting an instrument
+or accessory to known standards.</def>
+<term>CHAFING</term><def>A worn or rubbed area caused by friction.</def>
+<term>CHIPPING</term><def>Breaking away of metallic particles.</def>
+<term>COMPONENT</term><def>A unit somewhat similar to an accessory in that
+it is designed to control operations.</def>
+<term>CONCAVE</term><def>A hollow surface curved like the inside of a bowl
+</def>
+<term>CONVEX</term><def>A surface shaped like the outside of a sphere or a
+ball</def>
+<term>DEFECT</term><def>A general term describing any flaw affecting the usefulness
+or serviceability of a part.</def>
+<term>DEFORMATION</term><def>An undesirable change in shape of the part, usually
+of a permanent nature.</def>
+<term>DISCOLORATION</term><def>The change in color of a surface, which usually
+becomes darker. Usually caused by heat or build-up of varnish film.</def>
+<term>ELECTROMECHANICAL ETCH</term><def>Method of marking parts in which the
+characters are produced by removing material by an electrolytic process.</def>
+<term>ELONGATED</term><def>Made longer.</def>
+<term>EXPENDABLE</term><def>Can be discarded after use.</def>
+<term>FRICTION</term><def>What is caused when two objects or surfaces rub
+together.</def>
+<term>GALLING</term><def>A defect caused by the movement of two surfaces in
+contact with each other. In most cases an accumulation of foreign material
+is deposited on the parent metal.</def>
+<term>GAP</term><def>An opening or space.</def>
+<term>GLAZING</term><def>A hard glossy surface.</def>
+<term>GROOVE</term><def>A long, narrow, continuous cavity or impression caused
+by pressure of a moving surface in contact with the parent material.</def>
+<term>HARDWARE</term><def>Miscellaneous nuts, bolts, studs, washers, etc.
+used as fasteners.</def>
+<term>HORIZONTAL</term><def>Parallel to the horizon or a baseline.</def>
+<term>HOUSING</term><def>An enclosure in which mechanisms function.</def>
+<term>INTERCHANGEABLE</term><def>Can be used in place of another similar item
+to do the same job.</def></deflist>
+</glossary>
+<index></rear>
+</doc>
+<?Pub *0000181532 0>

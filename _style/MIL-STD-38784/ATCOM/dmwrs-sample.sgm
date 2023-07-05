@@ -1,0 +1,310 @@
+<?xml-stylesheet href="test-paranumber.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="test-paranumber.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2012, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN" "atcom.dtd" [
+<!NOTATION gif SYSTEM "gif">
+<!NOTATION bmp SYSTEM "bmp">
+<!NOTATION jpg SYSTEM "jpg">
+]>
+<?Pub EntList alpha bull copy rArr sect trade aelig deg percnt amp plusmn delta ast mdash nbsp emsp14 emsp13 sdotb>
+<?Pub Inc>
+<doc service="army" docid="55-1680-341"><front><idinfo>
+<tmidno service="army"></tmidno>
+<doctype pubtype="dmwr"></doctype>
+<prtitle>
+<nomen>MAGNETIC BRAKE ASSEMBLY</nomen>
+<modelno>Model Number 121</modelno>
+<partno>1st Partno</partno><nsn>1stnsn</nsn><eic> 1st</eic>
+</prtitle>
+<suppl>This is the supplemental notice.</suppl>
+<effdatenot>This is the effective date notice.</effdatenot>
+<volnot>This is the vol notice.</volnot>
+<distrib type="d">Distribution authorized to Department of Defense and DoD Contractors only to protect critical technical data on systems or hardware. This determination was made Nov 1986. Other requests shall be referred to Commander, U.S. Army Missile Command, ATTN: SFAE-MSLS-CWS-L, Redstone Arsenal, AL, 35898-5000.</distrib>
+<avail></avail>
+<supersed>This is a supersede statement.</supersed>
+<authnot>U.S. ARMY AVIATION AND<brk>MISSILE COMMAND</authnot>
+<pubdate>30 April 1986</pubdate></idinfo><warnpage><warning>
+<para>This is a warning, this means that what you see is dangerous or life-threatening to your health. It should not be indented on either side on the warning page. It also should be full justified. this should show up full justified to both margins.</para>
+</warning>
+<caution>
+<para>This is a caution, it isn't as dangerous as a warning and isn't life-threatening. It means something can be broken or busted if not done correctly. It isn't supposed to be indented. it should be full justified and is not acting as such. This should be full justified to both margins.</para>
+</caution>
+<note>
+<para>This is a note, it should not be indented on the warning page. It is too full justified on the page and should print out that way. This should be full justified to both margins.</para>
+</note>
+<wpgentry>
+<title>GENERAL WARNING</title>
+<para wcnid="wcn001b">Observe all cautions and warnings on containers when using consumables. When applicable, wear necessary protective gear during handling and use. If a consumable is flammable or explosive, MAKE CERTAIN consumable and its vapors are kept away from heat, spark, and flame. MAKE CERTAIN firefighting equipment is readily available prior to use. For additional information on toxicity, flashpoint, and flammability of chemicals, refer to <extref tmref="tm1-2345-678">. </para>
+</wpgentry>
+<wpgentry>
+<title>THIS IS A TITLE</title>
+<para wcnid="wcn003">Do not direct compressed air near or directly against skin. Do not use air under high pressure, or from a source not having a moisture trap when drying parts. Do not spin bearings with compressed air. Compressed air shall not be used for cleaning purposes except where reduced to less than 30 psi and only then with an effective chip guarding and personnel protection equipment.</para>
+</wpgentry>
+<wpgentry>
+<title>GENERAL WARNING</title>
+<para>Observe all cautions and warnings on containers when using consumables. When applicable, wear necessary protective gear during handling and use. If a consumable is flammable or explosive, MAKE CERTAIN consumable and its vapors are kept away from heat, spark, and flame. MAKE CERTAIN firefighting equipment is readily available prior to use. For additional information on toxicity, flashpoint, and flammability of chemicals, refer to <extref tmref="tm1-2345-678">. </para>
+</wpgentry>
+<wpgcaution><para>It isn't a good idea to use air under high pressure, or from a source not having a moisture trap when drying parts.</para>
+</wpgcaution>
+<wpgcaution><para>Do not direct compressed air near or directly against skin. Do not use air under high pressure, or from a source not having a moisture trap when drying parts. Do not spin bearings with compressed air. Compressed air shall not be used for cleaning purposes except where reduced to less than 30 psi and only then with an effective chip guarding and personnel protection equipment.</para>
+</wpgcaution>
+</warnpage><safesum>
+<para0>
+<title>THIS IS THE TITLE</title>
+<brk><para>This is the paragraph.</para>
+</para0>
+</safesum>
+<lep><chghistdate>1 June 1987</chghistdate><chghistdate>2 February 1988</chghistdate><totalpgs>Enter #</totalpgs></lep>
+<reportoferrors>
+<para>You can help improve this manual. If you find mistakes or know of a way to improve procedures, please let us know. Mail your letter, DA Form 2028 (Recommended Changes to Publications and Blank Forms) located at the back of this manual, directly to: US.</para>
+</reportoferrors>
+<odcstmt>
+<para>This is the ODC statement.</para>
+</odcstmt>
+<hazardmaterialstatement>
+<title>Hazardous materials statement</title>
+<para>This is the hazardous materials statement.</para>
+</hazardmaterialstatement>
+<contents levels="1">
+<illuslist>
+<tablelist></front>
+<body>
+<chapter xid="chap1">
+<title>INTRODUCTION</title>
+<para0>
+<title></title><para></para>
+<step1>
+<para></para></step1>
+<step1>
+<para></para></step1>
+<step1>
+<para></para></step1></para0>
+<para0 tocitem="1">
+<title><change level="1">General</change> Information.</title><para>gfdgfdgfd</para>
+<subpara1>
+<title>ljl;jkljkl.</title><para>These instructions are for use by depot/contractor personnel. They apply to Magnetic Brake Assembly, part numbers R460M39-3 and R460M39-4 and, in case of conflict, take precedence over all other documents pertinent to its overhaul and inspection.</para>
+<para>These instructions are for use by depot/contractor personnel. They apply to Magnetic Brake Assembly, part numbers R460M39-3 and R460M39-4 and, in case of conflict, take precedence over all other documents pertinent to its overhaul and inspection. These instructions are for use by depot/contractor personnel. They apply to Magnetic Brake Assembly, part numbers R460M39-3 and R460M39-4 and, in case of conflict, take precedence over all other documents pertinent to its overhaul and inspection.</para>
+<para>These instructions are for use by depot/contractor personnel. They apply to Magnetic Brake Assembly, part numbers R460M39-3 and R460M39-4 and, in case of conflict, take precedence over all other documents pertinent to its overhaul and inspection. These instructions are for use by depot/contractor personnel. They apply to Magnetic Brake Assembly, part numbers R460M39-3 and R460M39-4 and, in case of conflict, take precedence over all other documents pertinent to its overhaul and inspection.</para>
+</subpara1>
+<subpara1>
+<title>Title goes here.</title><para>These instructions are for use by depot/contractor personnel. They apply to Magnetic Brake Assembly, part numbers R460M39-3 and R460M39-4 and, in case of conflict, take precedence over all other documents pertinent to its overhaul and inspection.</para>
+</subpara1>
+<subpara1 label="nonum">
+<title>dsfadsfdf</title><para>These instructions are for use by depot/contractor personnel. They apply to Magnetic Brake Assembly, part numbers R460M39-3 and R460M39-4 and, in case of conflict, take precedence over all other documents pertinent to its overhaul and inspection.</para>
+<subpara2>
+<title>title here</title><para>afdsfdsf</para>
+</subpara2>
+<subpara2 label="nonum">
+<title>sdfsdfds</title><para>paragraph goes here</para>
+<subpara3>
+<title>title here</title><para>paragraph goes here</para>
+</subpara3>
+<subpara3>
+<title></title>
+<caution wcnref="wcn003"></caution>
+<para>paragraph goes here</para>
+</subpara3>
+<subpara3 label="nonum">
+<title></title><para>paragraph goes here</para>
+<subpara4 label="nonum">
+<title>title here</title><para>paragraph goes here</para>
+</subpara4>
+<subpara4>
+<title>title here</title><para>paragraph goes here</para>
+<subpara5 label="nonum">
+<title>title here</title><para>paragraph goes here</para>
+</subpara5>
+<subpara5>
+<title>title here</title><para>paragraph goes here</para>
+<subpara6 label="nonum">
+<title>title here</title><para>paragraph goes here</para>
+</subpara6>
+<subpara6 label="nonum">
+<title></title><para>paragraph goes here</para>
+</subpara6>
+<subpara6>
+<title></title><para>paragraph goes here</para>
+</subpara6>
+<subpara6>
+<title>title here</title><para>paragraph goes here</para>
+<subpara7>
+<title></title><para>paragraph goes here</para>
+</subpara7>
+<subpara7 label="nonum">
+<title>fdfgfg</title><para>paragraph goes here</para>
+</subpara7>
+<subpara7>
+<title>title goes here</title><para>paragraph goes here</para>
+</subpara7>
+<subpara7>
+<title></title><para></para>
+</subpara7>
+</subpara6>
+</subpara5>
+</subpara4>
+</subpara3>
+</subpara2>
+</subpara1></para0>
+</chapter>
+<chapter>
+<title></title>
+<para0>
+<title>Next Chapter 2 first paragrpah</title></para0>
+<para0>
+<title>Next Chapter 2 paratitle</title></para0>
+</chapter></body>
+<rear>
+<appendix xid="appa">
+<title>REFERENCES</title>
+<lrp>
+<lrpentry tmid="aianas-nas410"><tmidno><change level="3">AIA/NAS NAS 410</change></tmidno><title><change level="3">NAS Certification and Qualification of Non Destructive Test Personnel</change></title>
+</lrpentry>
+<lrpentry tmid="amcom-r702-1"><tmidno><change level="3">AMCOM-R 702-1</change></tmidno><title><change level="3">Depot Quality System</change></title>
+</lrpentry>
+<lrpentry tmid="ams-qq-p-416"><tmidno><change level="3">AMS-QQ-P-416</change></tmidno><title><change level="3">Electrodeposited Cadmium Plating</change></title>
+</lrpentry>
+<lrpentry tmid="amsatimform1379"><tmidno>AMSAT-I-M Form 1379&ndash;R-E</tmidno><title><change level="3">Request for Action Form</change></title>
+</lrpentry>
+<lrpentry tmid="ar750-43"><tmidno>AR 750-43</tmidno><title>Test Measurement and Diagnostic Equipment, Including Prognostic Equipment and Calibration Test/Measurement Equipment.</title>
+</lrpentry>
+<lrpentry tmid="amcsupp1ar75043"><tmidno><change level="3">AR 750-43 AMC Supplement 1</change></tmidno><title><change level="3">Test Measurement and Diagnostic Equipment, Including Prognostic Equipment and Calibration Test/Measurement Equipment</change></title>
+</lrpentry>
+<lrpentry tmid="astm-e1417"><tmidno><change level="3">ASTM E1417</change></tmidno><title><change level="3">Standard Practice for Liquid Penetrant Examination</change></title>
+</lrpentry>
+<lrpentry tmid="astm-e1444"><tmidno><change level="3">ASTM E1444</change></tmidno><title><change level="3">Standard Practice for Magnetic Particle Examination</change></title>
+</lrpentry>
+<lrpentry tmid="daform2028"><tmidno><change level="3">DA Form 2028</change></tmidno><title><change level="3">Recommended Change to Publications and Blank Forms</change></title>
+</lrpentry>
+<lrpentry tmid="dapam738-751"><tmidno><change level="3">DA PAM 738-751</change></tmidno><title><change level="3">Functional User's Manual for the Army Maintenance Management System - Aviation (TAMMS-A)</change></title>
+</lrpentry>
+<lrpentry tmid="iso8402"><tmidno><change level="3">ISO 8402</change></tmidno><title><change level="3">Quality Management and Quality Assurance Vocabulary</change></title>
+</lrpentry>
+<lrpentry tmid="iso10012-1"><tmidno><change level="3">ISO 10012-1</change></tmidno><title><change level="3">Quality Assurance Requirements for Measuring Equipment</change></title>
+</lrpentry>
+<lrpentry tmid="tm1-2345-678"><tmidno>TM 1-2345-678</tmidno><title>Sample Publication Number</title>
+</lrpentry>
+</lrp>
+</appendix>
+<appendix xid="appc">
+<title></title>
+<table label="nonum" frame="all" orient="port" pgwide="1">
+<title>EXPENDABLE SUPPLIES AND MATERIALS LIST</title>
+<tgroup cols="4" colsep="1" rowsep="0"><colspec colname="1" align="right" colwidth="1.00in"><colspec colname="2" align="center" colwidth="1.50in"><colspec colname="3" align="left" colwidth="3.75in"><colspec colname="4" align="center" colwidth="0.75in">
+<thead>
+<row rowsep="1"><entry valign="bottom" align="center">ITEM<brk>NO.</entry><entry valign="bottom" align="center">NATIONAL<brk>STOCK NUMBER</entry><entry valign="bottom" align="center"><emphasis type="bold">DESCRIPTION</emphasis></entry><entry valign="bottom" align="center"><emphasis type="bold">U/M</emphasis></entry></row></thead>
+<tbody>
+<row><entry label="1" xid="itm1appc" valign="top" align="center">1</entry><entry valign="top" align="center">9150-00-985-7245</entry><entry valign="top" align="left">Grease, MIL-G-23827</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="2" xid="itm2appc" valign="top" align="center">2</entry><entry valign="top" align="center">6850-00-285-8011</entry><entry valign="top" align="left">Dry-cleaning Solvent, P-D-680, Type II</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="3" xid="itm3appc" valign="top" align="center">3</entry><entry valign="top" align="center"></entry><entry valign="top" align="left">Brush, Paint, Flat, Metal-Bound, H-B-420, Type I</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="4" xid="itm4appc" valign="top" align="center">4</entry><entry valign="top" align="center">7920-00-292-9204</entry><entry valign="top" align="left">Cloth, Cleaning, Non-woven Fabric, CCC-C-46</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="5" xid="itm5appc" valign="top" align="center">5</entry><entry valign="top" align="center">9150-00-223-4129 </entry><entry valign="top" align="left">Lubricating Oil, MIL-L-6085</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="6" xid="itm6appc" valign="top" align="center">6</entry><entry valign="top" align="center">5350-00-967-5089</entry><entry valign="top" align="left">Abrasive Mats, Non-woven, Non-metallic, (Aluminum Oxide), MIL-A-9962</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="7" xid="itm7appc" valign="top" align="center">7</entry><entry valign="top" align="center">5350-00-221-0872</entry><entry valign="top" align="left">Cloth, Abrasive Crocus, P-C-458</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="8" xid="itm8appc" valign="top" align="center">8</entry><entry valign="top" align="center">8030-00-264-6517</entry><entry valign="top" align="left">Chemical Film, MIL-C-5541</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="9" xid="itm9appc" valign="top" align="center">9</entry><entry valign="top" align="center">8040-00-181-7118</entry><entry valign="top" align="left">Glyptal</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="10" xid="itm10appc" valign="top" align="center">10</entry><entry valign="top" align="center">5330-01-024-9290</entry><entry valign="top" align="left">Plastic Gasket</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="11" xid="itm11appc" valign="top" align="center">11</entry><entry valign="top" align="center">8040-00-664-0439</entry><entry valign="top" align="left">Clear Sealant XL-8 (G.S. &amp; Plastic Co., Cleveland, O) (MMM-A-122 or equivalent)</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="12" xid="itm12appc" valign="top" align="center">12</entry><entry valign="top" align="center"></entry><entry valign="top" align="left">Insulating Sleeving Vinylflex 4000, No. 12 (81851)</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="13" xid="itm13appc" valign="top" align="center">13</entry><entry valign="top" align="center"></entry><entry valign="top" align="left">Heat-shrinkable Tubing RNF-100, 0.093 inch id<brk>(08795)</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="14" xid="itm14appc" valign="top" align="center">14</entry><entry valign="top" align="center">3439-00-224-3567</entry><entry valign="top" align="left">Solder, QQ-S-571</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="15" xid="itm15appc" valign="top" align="center">15</entry><entry valign="top" align="center"></entry><entry valign="top" align="left">Naphtha</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="16" xid="itm16appc" valign="top" align="center">16</entry><entry valign="top" align="center">DELETED</entry><entry valign="top" align="left"></entry><entry valign="top" align="center"></entry></row>
+<row><entry label="17" xid="itm17appc" valign="top" align="center">17</entry><entry valign="top" align="center"></entry><entry valign="top" align="left">Brush, camel-hair</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="18" xid="itm18appc" valign="top" align="center">18</entry><entry valign="top" align="center"></entry><entry valign="top" align="left">Felt</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="19" xid="itm19appc" valign="top" align="center">19</entry><entry valign="top" align="center">7510-00-283-0612</entry><entry valign="top" align="left">Tape, Masking</entry><entry valign="top" align="center"></entry></row>
+<row><entry label="20" xid="itm20appc" valign="top" align="center">20</entry><entry valign="top" align="center"></entry><entry valign="top" align="left">Primer, Zinc Chromate, TT-P-1757,<brk>MIL-P-8585, Color T</entry><entry valign="top" align="center"></entry></row></tbody>
+</tgroup>
+</table>
+<para0 label="nonum">
+<title></title></para0>
+</appendix>
+<appendix>
+<title>PART NUMBER LISTING</title>
+<para0 label="E-1">
+<title></title><para>This appendix provides an alpha-numerical listing of the parts contained in the magnetic brake assembly. Table <xref xref="tble-1"> provides the part number, Figure 2&ndash;1 index number and nomenclature of all components of the magnetic brake assembly.</para>
+</para0>
+<table frame="topbot" colsep="0" orient="port" pgwide="1" xid="tble-1">
+<title>Alpha-Numerical Parts Listing</title>
+<tgroup cols="3" colsep="0" rowsep="0"><colspec colname="1" align="left" colwidth="1.63in"><colspec colname="2" align="left" colwidth="2.12in"><colspec colname="3" align="left" colwidth="3.25in">
+<thead>
+<row rowsep="1"><entry valign="bottom" align="center">PART NUMBER</entry><entry valign="bottom" align="center">INDEX NUMBER</entry><entry valign="bottom" align="center">NOMENCLATURE</entry></row></thead>
+<tbody>
+<row><entry valign="top" align="left">AN500A2-3</entry><entry valign="top" align="center">20</entry><entry valign="top" align="left">SCREW</entry></row>
+<row><entry valign="top" align="left">AN500A4-3</entry><entry valign="top" align="center">14</entry><entry valign="top" align="left">SCREW</entry></row>
+<row><entry valign="top" align="left">AN500A4-4</entry><entry valign="top" align="center">19</entry><entry valign="top" align="left">SCREW</entry></row>
+<row><entry valign="top" align="left">AN505-4-5</entry><entry valign="top" align="center">17</entry><entry valign="top" align="left">SCREW</entry></row>
+<row><entry valign="top" align="left">AN505-8R18</entry><entry valign="top" align="center">24</entry><entry valign="top" align="left">SCREW</entry></row>
+<row><entry valign="top" align="left">AN505-8R20</entry><entry valign="top" align="center">25</entry><entry valign="top" align="left">SCREW</entry></row>
+<row><entry valign="top" align="left">AN525-10R20</entry><entry valign="top" align="center">4</entry><entry valign="top" align="left">SCREW</entry></row>
+<row><entry valign="top" align="left">AN960-10L</entry><entry valign="top" align="center">5</entry><entry valign="top" align="left">WASHER</entry></row>
+<row><entry valign="top" align="left">E1024</entry><entry valign="top" align="center">28,44</entry><entry valign="top" align="left">SHIM SET</entry></row>
+<row><entry valign="top" align="left">E1356</entry><entry valign="top" align="center">21</entry><entry valign="top" align="left">SPACER, MOUNTING</entry></row>
+<row><entry valign="top" align="left">E1356M1</entry><entry valign="top" align="center">21</entry><entry valign="top" align="left">SPACER, MOUNTING</entry></row>
+<row><entry valign="top" align="left">E1356M3</entry><entry valign="top" align="center">18</entry><entry valign="top" align="left">SPACER, MOUNTING</entry></row>
+<row><entry valign="top" align="left">E1356M7</entry><entry valign="top" align="center">21</entry><entry valign="top" align="left">SPACER, MOUNTING</entry></row>
+<row><entry valign="top" align="left">E1356M8</entry><entry valign="top" align="center">21</entry><entry valign="top" align="left">SPACER, MOUNTING</entry></row>
+<row><entry valign="top" align="left">E1471M1</entry><entry valign="top" align="center">55</entry><entry valign="top" align="left">WASHER, SHIM</entry></row>
+<row><entry valign="top" align="left">E1641</entry><entry valign="top" align="center">49</entry><entry valign="top" align="left">RING, RETAINING</entry></row>
+<row><entry valign="top" align="left">E194M3</entry><entry valign="top" align="center">23</entry><entry valign="top" align="left">SPRING, COMPRESSION</entry></row>
+<row><entry valign="top" align="left">E201M7</entry><entry valign="top" align="center">27</entry><entry valign="top" align="left">DISK ASSEMBLY, BRAKE</entry></row>
+<row><entry valign="top" align="left">E2175M1</entry><entry valign="top" align="center">51</entry><entry valign="top" align="left">BEARING, BALL</entry></row>
+<row><entry valign="top" align="left">E2300M10</entry><entry valign="top" align="center">36</entry><entry valign="top" align="left">SHAFT ASSEMBLY, BRAKE</entry></row>
+<row><entry valign="top" align="left">E2301M2</entry><entry valign="top" align="center">38</entry><entry valign="top" align="left">BRAKE, DISK</entry></row>
+<row><entry valign="top" align="left">E2460</entry><entry valign="top" align="center">50</entry><entry valign="top" align="left">RING, RETAINING</entry></row>
+<row><entry valign="top" align="left">E2740M48</entry><entry valign="top" align="center">60</entry><entry valign="top" align="left">HOUSING, GEAR</entry></row>
+<row><entry valign="top" align="left">E3188M2</entry><entry valign="top" align="center">41</entry><entry valign="top" align="left">WASHER, SHIM</entry></row>
+<row><entry valign="top" align="left">E3270M1</entry><entry valign="top" align="center">22</entry><entry valign="top" align="left">COIL AND CORE ASSEMBLY</entry></row>
+<row><entry valign="top" align="left">E3276</entry><entry valign="top" align="center">30</entry><entry valign="top" align="left">WEIGHT</entry></row>
+<row><entry valign="top" align="left">E382M1-4</entry><entry valign="top" align="center">40</entry><entry valign="top" align="left">SHIM</entry></row>
+<row><entry valign="top" align="left">E3924</entry><entry valign="top" align="center">29</entry><entry valign="top" align="left">BRAKE DRUM ASSEMBLY</entry></row>
+<row><entry valign="top" align="left">E4594M2</entry><entry valign="top" align="center">48</entry><entry valign="top" align="left">GEAR, HELICAL AND PINION</entry></row>
+<row><entry valign="top" align="left">E4595M5</entry><entry valign="top" align="center">42</entry><entry valign="top" align="left">PINION, SHAFT TYPE </entry></row>
+<row><entry valign="top" align="left">E4624M10</entry><entry valign="top" align="center">56</entry><entry valign="top" align="left">GEAR, INTERNAL, SPLINED</entry></row>
+<row><entry valign="top" align="left">E4627 </entry><entry valign="top" align="center">43</entry><entry valign="top" align="left">LINER, BEARING</entry></row>
+<row><entry valign="top" align="left">E4684</entry><entry valign="top" align="center">33</entry><entry valign="top" align="left">COLLAR</entry></row>
+<row><entry valign="top" align="left">E489</entry><entry valign="top" align="center">35</entry><entry valign="top" align="left">SHIM, BEARING</entry></row>
+<row><entry valign="top" align="left">E4965</entry><entry valign="top" align="center">54</entry><entry valign="top" align="left">BUSHING, PLAIN</entry></row>
+<row><entry valign="top" align="left">E779</entry><entry valign="top" align="center">53</entry><entry valign="top" align="left">BUSHING, BEARING, FLANGED</entry></row>
+<row><entry valign="top" align="left">E878</entry><entry valign="top" align="center">7, 9, 45, 52</entry><entry valign="top" align="left">SHIM SET</entry></row>
+<row><entry valign="top" align="left">E9091M2</entry><entry valign="top" align="center">8</entry><entry valign="top" align="left">STOP</entry></row>
+<row><entry valign="top" align="left">E9176</entry><entry valign="top" align="center">10</entry><entry valign="top" align="left">BUSHING, ECCENTRIC</entry></row>
+<row><entry valign="top" align="left">E9177</entry><entry valign="top" align="center">12</entry><entry valign="top" align="left">RING, RETAINER</entry></row>
+<row><entry valign="top" align="left">E9500M1-8-12</entry><entry valign="top" align="center">26</entry><entry valign="top" align="left">SCREW, RECESSED FILISTER HEAD</entry></row>
+<row><entry valign="top" align="left">E9526DD632-3</entry><entry valign="top" align="center">59</entry><entry valign="top" align="left">SCREW, MACHINE</entry></row>
+<row><entry valign="top" align="left">MS171436</entry><entry valign="top" align="center">32</entry><entry valign="top" align="left">PIN, SPRING</entry></row>
+<row><entry valign="top" align="left">MS20364-1032</entry><entry valign="top" align="center">6</entry><entry valign="top" align="left">NUT, SELF-LOCKING</entry></row>
+<row><entry valign="top" align="left">MS9048-004</entry><entry valign="top" align="center">37</entry><entry valign="top" align="left">PIN, SPRING</entry></row>
+<row><entry valign="top" align="left">M83723/88H0803N</entry><entry valign="top" align="center">13</entry><entry valign="top" align="left">CONNECTOR, RECEPTACLE </entry></row></tbody>
+</tgroup>
+</table>
+</appendix>
+<glossary>
+<deflist>
+<term>ASSEMBLY</term><def>The process of manufacturing an object by connecting two or more parts. Also the item formed in the manufacturing process.</def>
+<term>AXIAL</term><def>An axis, as used herein, describes the circular or linear movement of a shaft.</def>
+<term>BORE</term><def>Inside measurement of the interior diameter of a hole. Also used to describe the hole itself.</def>
+<term>CIRCUIT</term><def>The complete system through which the electric current flows from the power source to the point where work is performed.</def>
+<term>CLOCKWISE</term><def>To the right. In the direction in which the hands of clock rotate when viewed from the front.</def>
+<term>COATING, PROTECTIVE</term><def>An external surface treatment, such as paint, anodize, electroplate, or chemical film, used to delay the effects of corrosive or atmospheric elements on metals.</def>
+<term>COUNTERCLOCKWISE</term><def>In the direction opposite to which the hands of a clock move when viewed from the front. To the left.</def>
+<term>DISASSEMBLED</term><def>The state in which all parts of an object are present but do not form a whole.</def>
+<term>DISASSEMBLY</term><def>The process of disconnecting and removing parts of a whole object.</def>
+<term>END PLAY</term><def>The prescribed distance a shaft moves within its supporting bearings.</def>
+<term>FINISH</term><def>(See protective coating).</def>
+<term>GEAR</term><def>A toothed wheel which, used alone or in series with others, performs a specific function of a complete machine.</def>
+<term>HOUSING</term><def>A frame support or cover, used to hold parts of machinery in place. Also used for protective purposes.</def>
+<term>INSPECTION</term><def>A critical examination by an individual or by mechanical means to determine the usefulness of parts.</def>
+<term>LIMIT</term><def>An established point or boundary beyond which a thing may not go, or is not permitted to go.</def>
+<term>OVERHAUL</term><def>To restore an item to a completely serviceable condition as prescribed by serviceability standards developed and published by USAAVSC0M. </def>
+<term>PROCESS</term><def>The steps or combination of procedures used to perform a task. Also used to identify a specific task.</def>
+<term>REPAIR</term><def>To make a non-productive mechanism or part usable (removing and replacing defective parts, mending broken parts, or any combination of processes that results in useful service).</def>
+<term>SHIM</term><def>A thin piece of metal used to fill up a space.</def>
+<term>TEST</term><def>Any and all means used to determine the ability of a part, subassembly, or assembly to perform its prescribed function.</def></deflist>
+</glossary>
+<index></index>
+<foldsect>
+<foldout pgstyle="25" pgwide="2"><graphic boardno="need-a-graphic" reprowid="23in" reprodep="11in" hplace="right" vplace="middle"><figtitle>
+<title>This is the title.</title>
+</figtitle></foldout>
+</foldsect></rear><?Pub Caret -1>
+</doc>
