@@ -1,0 +1,496 @@
+<?xml-stylesheet href="ATCOM-paranumber.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="test-paranumber.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2008, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN" "atcom.dtd" [
+<!ENTITY amp SDATA "[amp   ]">
+<!ENTITY poisenousvapor SYSTEM "Graphics\_Standard symbols\Warning icons\poisenousvapor.tif" NDATA tif>
+<!ENTITY flyingparticles_faceshield SYSTEM "Graphics\_Standard symbols\Warning icons\flyingparticles_faceshield.tif" NDATA tif>
+]>
+<?Pub Inc>
+<doc service="army" docid="1-2915-351" columns="one"><front><idinfo>
+<tmidno></tmidno>
+<doctype pubtype="dmwr" fntsize="14"></doctype>
+<prtitle fntsize="10">
+<nomen>FUEL TRANSFER PUMP</nomen>
+<modelno>model no</modelno>
+<partno>2284-9</partno><cage>12345</cage><nsn>2915-01-159-8522</nsn><eic>N/A</eic>
+<partno>2284-9</partno><nsn>2915-01-159-8522</nsn><eic>N/A</eic>
+<partno>2284-9</partno><nsn>2915-01-159-8522</nsn><eic>N/A</eic>
+</prtitle>
+<repro>repro statement</repro>
+<changest level="2" mark="0">
+<distrib type="f">This is distribution D and is a rather long explanation of why no one can view this book unless they give up their first born and cut off their own left arm.</distrib>
+<changeend level="2" mark="0"><expcont></expcont>
+<destr></destr>
+<avail>This publication is not available through U.S. Army Publication Distribution Centers. It must be obtained from U.S. Army Aviation and Missile Command, ATTN: AMSAM-MMC-MA-NP, Redstone Arsenal, AL 35898-5000.</avail>
+<supersed>supersede statement</supersed>
+<copyright>copyright</copyright>
+<authnot>U.S. ARMY AVIATION AND <brk>MISSILE COMMAND</authnot>
+<pubdate>30 June 1996</pubdate></idinfo><warnpage>
+<para><deflist>
+<term></term><def>Face Shield Required, stuff flies everywhere and can get in your eyes if you aren't careful. That would be a shame, because it can take your eye out.</def></deflist></para>
+<warning><icon></icon>
+<para>This is a warning for the warning page and is not a wpgentry. This publication is not available through U.S. Army Publication Distribution Centers. It must be obtained from U.S. Army Aviation and Missile Command, ATTN: AMSAM-MMC-MA-NP, Redstone Arsenal, AL 35898-5000.</para>
+</warning>
+<caution>
+<para>This is a warning for the warning page and is not a wpgentry. This publication is not available through U.S. Army Publication Distribution Centers. It must be obtained from U.S. Army Aviation and Missile Command, ATTN: AMSAM-MMC-MA-NP, Redstone Arsenal, AL 35898-5000.</para>
+</caution>
+<note centered-para="1">
+<para>This is a warning for the warning page and is not a wpgentry.</para>
+</note>
+<wpgentry>
+<title></title>
+</wpgentry>
+<changeend level="2"></warnpage>
+<chginssht><chgnum>5</chgnum><address>Washington, D.C.,</address><date>tbd</date>
+<prtitle fntsize="10">
+<nomen>FUEL TRANSFER PUMP</nomen>
+<modelno>model no</modelno>
+<partno>2284-9</partno><cage>12345</cage><nsn>2915-01-159-8522</nsn><eic>N/A</eic>
+<partno>2284-9</partno><nsn>2915-01-159-8522</nsn><eic>N/A</eic>
+<partno>2284-9</partno><nsn>2915-01-159-8522</nsn><eic>N/A</eic>
+</prtitle>
+<distrib type="a"></distrib>
+<para>TM 1&ndash;1500&ndash;250&ndash;23, 24 August 1990, is changed as follows:</para>
+<para><seqlist>
+<item>The following pages are to be removed and inserted as noted:</item></seqlist></para>
+<chglist>
+<removepg>1&ndash;1 thru 1&ndash;3</removepg><insertpg>1&ndash;1 thru 1&ndash;3</insertpg></chglist>
+<para><seqlist>
+<item label="2.">Retain this sheet in front of manual for reverence purposes.</item></seqlist></para>
+<para>Distribution: Approved by US ARMY and Marine Corps.</para>
+</chginssht>
+<lep><totalpgs>115</totalpgs></lep>
+<reportoferrors>
+<para>You can improve this manual. If you find any mistakes, or if you know of a way to improve the procedures, please let us know. Mail your letter or DA Form 2028 (Recommended Changes to Publications and Blank Forms) located in the back of this manual, directly to: Commander, U.S. Army Aviation and Missile Command, ATTN: AMSAM-MMC-MA-NP, Redstone Arsenal, AL 35898-5000. A reply will be furnished to you. You may also provide DA Form 2028 information to AMCOM via e-mail, fax, or the World Wide Web. Our fax number is: DSN 788-6546 or Commercial 256-842-6546. Our e-mail address is: 2028@redstone.army.mil. Instructions for sending an electronic 2028 may be found at the back of this manual immediately preceding the hard copy 2028. For the World Wide web use: https\\amcom2028.redstone.army.mil.</para>
+</reportoferrors>
+<changest level="2">
+<distrib type="f"></distrib>
+<changeend level="2">
+<contents>
+<illuslist>
+<oiplist>
+<tablelist></front>
+<body>
+<chapter xid="chp1">
+<title>INTRODUCTION </title>
+<section xid="chp1scti">
+<title>General</title>
+<para0>
+<title>This is a para0 title.</title><para><seqlist numstyle="romanuc">
+<item></item>
+<item></item>
+<item></item></seqlist></para>
+<step1>
+<para>Step 1 in a para0 with a long paragraph to see how it wraps around <xref xref="stp1-1-2"> to the next line. It should stay indented under the text of the step.</para></step1>
+<step1>
+<para>Step 1 in a para0 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step1>
+<step1 qacheck="qa">
+<para>Step 1 in a para0 </para>
+<step2>
+<para>Step2 in para0 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step2>
+<step2 xid="stp1-1-2">
+<para>Step2 in para0</para>
+<step3>
+<warning>
+<para>THIS IS THE WARNING</para>
+</warning>
+<para>step3 in para0 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step3>
+<step3 qacheck="qa">
+<para>step3 in para0</para>
+<step4>
+<para>step4 in para0 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step4>
+<step4>
+<para>step4 in para0 </para>
+<step5>
+<para>step5 in para0 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step5>
+<step5>
+<note>
+<para>THIS IS THE NOTE</para>
+</note>
+<para>step5 in para0</para></step5></step4></step3></step2></step1>
+<subpara1>
+<title>This is subpara1 title.</title><para>subpara1 with a long paragraph to see how it wraps around to the next line. It should wrap backt ot he left margin under the title of the subpara1 text of the step.</para>
+<step1 qacheck="qa">
+<para>Step 1 in a subpara1</para></step1>
+<step1>
+<warning>
+<para>THIS IS THE WARNING</para>
+</warning>
+<para><changest level="15">Step 1 in a subpara1 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para>
+<step2>
+<para>Step2 in subpara1 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step2>
+<step2>
+<para>Step2 in subpara1</para>
+<step3>
+<para>step3 in subpara1 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step3>
+<step3>
+<warning>
+<para>THIS IS THE WARNING</para>
+</warning>
+<para>step3 in subpara1<changeend level="15"></para>
+<step4 qacheck="qa">
+<para>step4 in subpara1 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step4>
+<step4>
+<para>step4 in subpara1</para>
+<step5>
+<para>step5 in subpara1 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step5>
+<step5>
+<para>step5 in subpara1</para></step5></step4></step3></step2><?Pub Caret></step1>
+<subpara2>
+<title>Subpara2 Title.</title>
+<step1>
+<para>Step 1 in a subpara2 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step1>
+<step1>
+<para>Step 1 in a subpara2</para>
+<step2>
+<para>Step2 in subpara2 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step2>
+<step2>
+<para>Step2 in subpara2</para>
+<step3>
+<para>step3 in subpara2 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step3>
+<step3>
+<para>step3 in subpara2</para>
+<step4>
+<para>step4 in subpara2 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step4>
+<step4>
+<para>step4 in subpara2</para>
+<step5>
+<para>step5 in subpara2 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step5>
+<step5>
+<warning>
+<para>THIS IS THE WARNING</para>
+</warning>
+<para>step5 in para0</para></step5></step4></step3></step2></step1>
+<subpara3>
+<title>Subpara3 Title.</title>
+<step1>
+<para>This is a step1 in subpara3 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step1>
+<step1>
+<warning>
+<para>THIS IS THE WARNING</para>
+</warning>
+<para>This is a step1 in subpara1</para>
+<step2>
+<para>This is a step2 in subpara3 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step2>
+<step2>
+<para>This is a step2 in subpara1</para>
+<step3>
+<para>This is a step3 in subpara3 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step3>
+<step3>
+<para>This is a step3 in subpara1</para>
+<step4>
+<para>This is step4 in subpara3 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step4>
+<step4>
+<para>this is step4 in subpara1</para>
+<step5>
+<para>this is step5 in subpara3 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step5>
+<step5>
+<para>this is step5 in subpara1</para></step5></step4></step3></step2></step1>
+<subpara4>
+<title>Subpara4 Title.</title>
+<step1>
+<para>This is a step1 in subpara4 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step1>
+<step1>
+<para>This is a step1 in subpara1</para>
+<step2>
+<para>This is a step2 in subpara4 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step2>
+<step2>
+<para>This is a step2 in subpara1</para>
+<step3>
+<para>This is a step3 in subpara4 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step3>
+<step3>
+<para>This is a step3 in subpara1</para>
+<step4>
+<para>This is step4 in subpara4 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step4>
+<step4>
+<para>this is step4 in subpara1</para>
+<step5>
+<para>this is step5 in subpara4 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step5>
+<step5>
+<para>this is step5 in subpara1</para></step5></step4></step3></step2></step1>
+<subpara5>
+<title>Subpara5 Title.</title>
+<step1>
+<para>This is a step1 in subpara5 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step1>
+<step1>
+<para>This is a step1 in subpara1</para>
+<step2>
+<para>This is a step2 in subpara5 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step2>
+<step2>
+<para>This is a step2 in subpara1</para>
+<step3>
+<para>This is a step3 in subpara5 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step3>
+<step3>
+<para>This is a step3 in subpara1</para>
+<step4>
+<para>This is step4 in subpara5 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step4>
+<step4>
+<para>this is step4 in subpara1</para>
+<step5>
+<para>this is step5 in subpara5 with a long paragraph to see how it wraps around to the next line. It should stay indented under the text of the step.</para></step5>
+<step5>
+<para>this is step5 in subpara1</para></step5></step4></step3></step2></step1>
+<subpara6>
+<title>Subpara6 Title</title>
+<subpara7>
+<title>Subpara7 Title.</title>
+<step1>
+<para><change level="5">This is a step1 in subpara1</change></para></step1>
+<step1>
+<para><change level="5">This is a step1 in subpara1</change></para>
+<step2>
+<para><change level="5">This is a step2 in subpara1</change></para></step2>
+<step2>
+<para>This is a step2 in subpara1</para>
+<step3>
+<para>This is a step3 in subpara1</para></step3>
+<step3>
+<para>This is a step3 in subpara1</para>
+<step4>
+<para>This is step4 in subpara1</para></step4>
+<step4>
+<para>this is step4 in subpara1</para>
+<step5>
+<para>this is step5 in subpara1</para></step5>
+<step5>
+<para>this is step5 in subpara1</para></step5></step4></step3></step2></step1></subpara7>
+</subpara6>
+</subpara5>
+</subpara4>
+</subpara3>
+</subpara2>
+</subpara1></para0>
+<para0 xid="par1-2">
+<title></title></para0>
+<para0 xid="par1-3">
+<title>REPORTING EQUIPMENT IMPROVEMENT RECOMMENDATIONS (EIR).</title><para><change level="2">EIR will be prepared using SF 368, Quality Deficiency Report (QDR). Instructions for preparing QDRs are provided in <extref tmref="dapam738-751">,</change> The Army Maintenance Management System (TAMMS) -Aircraft. Mail them to U.S. Army Aviation and Missile Command, ATTN: AMSAM-MMC-RE-FD, Redstone Arsenal, AL 35898-<change level="2">5000</change>. A reply will be furnished directly to you.</para>
+<para><table label="nonum-cont" frame="none" pgwide="0"><?Pub Dtl>
+<title></title>
+<tgroup cols="3"><colspec colnum="1" colname="c1" colwidth="0.40in"><colspec colnum="2" colname="c2" colwidth="1.00in"><colspec colnum="3" colname="c3" colwidth="1.98in"><spanspec namest="c1" nameend="c3" spanname="s1-3">
+<thead>
+<row><entry colsep="0" rowsep="0" valign="bottom" align="center">Item<brk><emphasis type="undl">No.</emphasis></entry><entry colsep="0" rowsep="0" valign="bottom" align="center">Reference<brk><emphasis type="undl">designation</emphasis></entry><entry colsep="0" rowsep="0" valign="bottom" align="center"><emphasis type="undl">Nomenclature</emphasis></entry></row>
+<row><entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry></row></thead>
+<tbody>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">1</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Switch, plate mounting</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">2</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Circuit card assembly</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">3</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Nut, plain-hexagon</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">4</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Washer, lock-spring</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">5</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Washer, flat-metal, round</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">6</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Screw, machine, flat-countersunk</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">7</entry><entry colsep="0" rowsep="0" valign="top" align="center">J3, J4</entry><entry colsep="0" rowsep="0" valign="top" align="left">Plug, connector</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">8</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Nut, plain-hexagon</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">9</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Washer, lock-spring</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">10</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Washer, flat-reduced</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">11</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Washer, flat-plastic</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">12</entry><entry colsep="0" rowsep="0" valign="top" align="center">J1, J2</entry><entry colsep="0" rowsep="0" valign="top" align="left">Plug, connector</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">13</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Post, electrical-mechanical</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">14</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Spacer, sleeve</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">15</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Spacer, sleeve, internally threaded</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">16</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Washer, flat-metal</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">17</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Washer, lock-spring</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">18</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Screw, machine, pan-head</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">19</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Spacer, sleeve, internally threaded</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">20</entry><entry colsep="0" rowsep="0" valign="top" align="center">J5</entry><entry colsep="0" rowsep="0" valign="top" align="left">Connector, electric,</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">21</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Nut, plain-hexagon</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">22</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Washer, flat-metal</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">23</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Screw, machine, pan-head</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">24</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Nut, self-locking, clinch</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">25</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Bracket, mounting</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">26</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Stud, self-clinching, flush head</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">27</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Stud, self-clinching, flush head</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">28</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Switch, push, key</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">29</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, 1 1/2 position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">30</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">31</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">32</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">33</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">34</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">35</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">36</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">37</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">38</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">39</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">40</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">41</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">42</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">43</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">44</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">45</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">46</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">47</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">48</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">49</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">50</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">51</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">52</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">53</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">54</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">55</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">56</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">57</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">58</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row>
+<?PubTbl row breakpenalty="-10000">
+<entry colsep="0" rowsep="0" valign="top" align="right">59</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">60</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">61</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">62</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">63</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">64</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">65</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">66</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">67</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">68</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">69</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">70</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">71</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">72</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">73</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">74</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">75</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">76</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">77</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">78</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">79</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">80</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">81</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">82</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">83</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">84</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">85</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">86</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">87</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">88</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">89</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">90</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single contact</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">91</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single contact</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">92</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single contact</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">93</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single contact</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">94</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single contact</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">95</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single contact</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">96</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, single contact</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">97</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, 1 1/2 position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">98</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Pushbutton, eight position</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">99</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Switch, push, key</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">100</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Retainer, stabilizing rod</entry></row>
+<row><entry colsep="0" rowsep="0" valign="top" align="right">101</entry><entry colsep="0" rowsep="0" valign="top" align="center">-</entry><entry colsep="0" rowsep="0" valign="top" align="left">Rod stabilization, space bar</entry></row></tbody>
+</tgroup>
+</table></para>
+</para0>
+<para0 xid="par1-5">
+<title></title><para><change level="2">EIR will be prepared using SF 368, Quality Deficiency Report (QDR). Instructions for preparing QDRs are provided in <extref tmref="dapam738-751">,</change> The Army Maintenance Management System (TAMMS) -Aircraft. Mail them to U.S. Army Aviation and Missile Command, ATTN: AMSAM-MMC-RE-FD, Redstone Arsenal, AL 35898-<change level="2">5000</change>. A reply will be furnished directly to you.</para>
+</para0>
+<para0 xid="par1-4">
+<title>ENGINEERING CHANGE PROPOSALS (ECPS).</title><para>ECPs will be prepared using DD Form 1693, Engineering Change Proposal. Instructions for preparing ECPs are provided in contract requirements. ECPs should be mailed direct to Commander, U.S. Army Aviation and Missile Command, ATTN: AMSAM-RD-SE-TD-CM, Redstone Arsenal, AL 35898-<change level="2">5000</change>. A reply will be furnished directly to you.</para>
+</para0>
+<para0 xid="par1-7">
+<title>DEVIATIONS AND EXCEPTIONS.</title>
+<subpara1>
+<title>Contractors</title><para></para>
+<seqlist prefix="(" numstyle="alphalc">
+<item><change level="5">seqlist item 1</change></item>
+<item><change level="5">seqlist item 2</change></item>
+<item><change level="5">seqlist item 3</change></item>
+<item><change level="5">seqlist item 4</change></item></seqlist>
+<subpara2 label="(1)">
+<title></title><para>These instructions are for use by contractor personnel. They apply to requests for work deviations and exceptions and take precedence over similar procedures specified in application Depot Maintenance Work Requirement (DMWR). Care must be taken to assure that all active <change level="2">AMCOM</change>Engineering Directives (AEDs) relevant to DMWR have been considered.</para>
+</subpara2>
+<pgbrk>
+<subpara2 label="(2)">
+<title></title><para>When any work segment as set forth in this DMWR cannot be accomplished or can be accomplished only in a manner other than specified, the contractor shall submit a Request for Depot Engineering Support (AM-SAT-I-M Form 1379-R-E), located in the back of this manual, through the Contracting Officer to <change level="2">AMSAM-MMC-AV-CC with a copy to AMSAM-MMC-AV-U</change>. This request shall state the problems, the reason for urgency, and give the specifics listed below.</para>
+<seqlist prefix="(" numstyle="alphalc">
+<item>Serial Number (SN), if applicable, Part Number (PN), and National Stock Number (NSN) of the affected equipment.</item>
+<item>Work elements which will not be completed or which will not be accomplished as specified here in.</item>
+<item>Reason for non-accomplishment or deviation.</item>
+<item>Action taken to correct the condition causing non-accomplishment or need for deviation.</item>
+<item>Data relative to non-availability of parts required, if applicable.</item>
+<item>Estimated man-hours.</item>
+<item>Instructions and inspection required to maintain the integrity of the end item because of such omission or deviation.</item></seqlist>
+</subpara2>
+</subpara1>
+<subpara1 xid="sub1-5.2">
+<title>Here is a title.</title><para>Depots. Defects shall be processed in accordance with <extref tmref="descom-r702-1">.</para>
+<para>This is a second para in a subpara1.</para>
+<para>This is a third para in a subpara1.</para>
+<subpara2>
+<title></title><para>This is a subpara2 paragraph.</para>
+<subpara3>
+<title></title><para>subpara3</para>
+<randlist>
+<item>Randlist with no prefix.</item></randlist>
+<subpara4>
+<title></title><para></para>
+</subpara4>
+</subpara3>
+</subpara2>
+</subpara1></para0>
+</section>
+<section xid="chp1sctii">
+<title>Descriptions, Data Plates, and Data</title>
+<warning>
+<para>warning para</para>
+</warning>
+<warning>
+<para>warning second warning</para>
+<para>warning second warning</para>
+</warning>
+<para0 xid="par1-6">
+<title>DESCRIPTION.</title>
+<brk><para>The pump (Figure <xref xref="fig1-1">) consists of two main elements; the motor assembly, and the pump assembly. The pump assembly housing contains a gerotor assembly positioned on a central shaft splined to the motor assembly shaft. The pump provides the capability of drawing fuel from either of two fuel tanks, one situated forward in the aircraft, and the other situated aft.</para>
+</para0>
+<para0 xid="par1-9">
+<title>DATA PLATES.</title>
+<caution>
+<para>Impression stamping directly on the surface of an installed data plate, or on the item itself, is prohibited. <xref xref="sub1-10.a"></para>
+</caution>
+<subpara1 xid="sub1-10.a">
+<title>Data Plates.</title><para> Data plates will contain the manufacturer's name and address, model number, rating, part number, serial number, contract number, NSN, vendor part number, vendor code number, and date, if applicable. See Figure <xref xref="fig1-1">, Pump Data Plate Locations. When sufficient space is not available on the existing data plate to add information, the plate shall be replaced and all pertinent data transferred to the new plate. Data shall not be stamped directly on any part, assembly, or item of equipment, except when approved by the government.</para>
+</subpara1>
+<subpara1>
+<title>Overhaul Data Plate.</title><para> Overhaul data plate is attached to pump by use of a SCOTCHCAL, photosensitive aluminum label (item <xref xref="itm14appc">, Appendix <xref xref="appc">), Figure <xref xref="fig1-1">. Stamp data on plate prior to installation on <xref xref="stpa">component.</para>
+</subpara1>
+<subpara1>
+<title>Stamping and/or Replacement of Data Plates.</title>
+<step1 label="(a)." xid="stpa">
+<para>If required, locally manufacture replacement equipment data plate in accordance with specification <extref tmref="mil-p-6906"> Aircraft Identification Plates, and marked in accordance with <extref tmref="as478">. The data plate shall be fabricated from SCOTCHCAL photosensitive, aluminum label, 0.005 inch thick (item <xref xref="itm14appc">, Appendix <xref xref="appc">), 0.75 inch wide by 2 inches long. Letters and <xref xref="stpa">numbers shall be 3/16 or 1/8 inch high Gothic style. Attach regular replacement identification plate (Figure <xref xref="fig1-1">) to the top of pump.</para>
+<note>
+<para>Area to which the data plate is applied must be free from dirt, moisture, oil, and grease.</para>
+</note>
+<step2>
+<para>This is a step2</para></step2>
+<step2>
+<para>This is a step 2, but it's longer so it wraps around and around and around and around and around and around and around and around and around and around and.</para>
+<step3>
+<para>This is a step3.</para></step3>
+<step3>
+<para>This is a step 3, but it's longer so it wraps around and around and around and around and around and around and around and around and around and around and.</para>
+<step4>
+<para>This is a step4.</para></step4>
+<step4>
+<para>This is a step 4, but it's longer so it wraps around and around and around and around and around and around and around and around and around and around and.</para>
+<step5>
+<para>This is a step 5.</para></step5>
+<step5>
+<para>This is a step 5, but it's longer so it wraps around and around and around and around and around and around and around and around and around and around and.</para></step5></step4></step3></step2></step1>
+<step1 label="(b)">
+<para>The overhaul data plate, Figure <xref xref="fig1-1">, is installed at the first overhaul and replaced at subsequent overhauls. The overhaul data plate is marked or printed as follows: Overhaul agency, symbol, name, Q.C. stamp or initials, the word "OVERHAULED," and the date item was overhauled. The letters shall be Gothic style. The overhaul data plate can be fabricated from SCOTCHCAL photosensitive, aluminum label, 0.005 inch thick (item <xref xref="itm14appc">, Appendix <xref xref="appc">). The overhaul data plate shall be 0.45 inch wide by 0.75 inch long.</para></step1>
+<step1 label="(c)">
+<para>Peel paper backing and immediately apply data plate to cleaned area by pressing into position</para></step1>
+<subpara2 label="nonum">
+<title></title><para>The pump identification plate (Figure <xref xref="fig1-1">) provides the technician &deg;with original manufacturer's or modification data.</para>
+</subpara2>
+</subpara1></para0>
+</section>
+<section xid="chp1sctiii">
+<title>Mobilization Requirements</title>
+<para0 xid="par1-11">
+<title>GENERAL.</title>
+<brk><para>In the event of mobilization, all depot maintenance overhaul/repair procedure &lt; requirements, except those necessary to return the end item, assembly, subassembly, or component to a serviceable condition, are to be exempt or revised. The exemptions/revisions are identified in Appendix <xref xref="appd">.</para>
+</para0>
+</section></chapter></body>
+<rear>
+<index numcols="2"><auto></index>
+</rear>
+</doc>
+<?Pub *0000047049 0>

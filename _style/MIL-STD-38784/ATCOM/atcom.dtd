@@ -1,0 +1,1371 @@
+<!-- atcom.dtd                                                          -->
+<!--    DTD started life as MIL-M-38784D when it was in draft form.         -->
+<!--        created by Larry Howard                                         -->
+<!--                   Senior Technical Consultant                          -->
+<!--                   Interleaf, Inc.                                      -->
+<!--                   Virtual St. Louis, Mo                                -->
+<!--                                                                        -->
+<!--************************************************************************-->
+<!-- Name:     atcom DTD                                                    -->
+<!-- Version:  1.5                                                          -->
+<!-- Version History:                                                       -->
+<!--   1.5     24MAR97   Larry Howard                                       -->
+<!--                       Added +(pgbrk | brk | subjinfo) as inclusion to  -->
+<!--                       the volume element to support volumne level      -->
+<!--                       parsing and importing...                         -->
+<!--   pre-1.5 ???????   Various                                            -->
+<!--                       Life began as MIL-M-38784D. Modified by Larry    -->
+<!--                       Howard to be the DTD for ATCOM's legacy ODC      -->
+<!--                       project.                                         -->
+<!--                                                                        -->
+<!--************************************************************************-->
+<!--                                                                        -->
+<!-- Fixed order of def and term in acronym Leach 3–17–2011
+
+Fixed WPGENTRY 2–17–2011 Junkin and Leach
+
+Updated dtd to allow spacingatt for caution, note, para, and warning due to legacy matching requirements. 01 dec 2008  KKJ -->
+<!--  Updated dtd to remove % list from exclusion on warning and caution  27 oct 2006 allissa leach
+
+       Updated by Karen Junkin to add an attribute for point numbering or
+                   para numbering  DATE: April 27 2004                      -->
+<!--  Updated by Karen Junkin and Allissa Leach                             -->
+<!--  DATE: October 17, 2003
+
+		 1.  ADDED Attribute to doctype for different type publications
+	 
+											                                                 -->
+<!-- Updated 9 September 1998 by Garien Storm -->
+
+<!-- Right now, I have a public definition defined as:
+           <!ENTITY % atcom PUBLIC
+            "-//atcom//DTD atcom-dmwrs//EN" > -->
+
+<!-- The following set of declarations may be referred to by
+     using a public entity as follows:
+
+<!ENTITY % m38784d PUBLIC
+ "-//USA-DOD//DTD MIL-M-38784D//EN" >
+
+%m38784d; -->
+
+<!-- NOTE: In order to parse the following DTD subset alone,
+ append the following statement to the beginning of the file:
+
+     <!DOCTYPE doc [ and the associated "]>" to the end of the file. -->
+
+<!-- ENTITY DECLARATIONS -->
+
+<!ENTITY % yesorno "NUMBER" >
+
+<!ENTITY % secur "security (u | c | s) 'u'" >
+
+<!-- Removed verified entity for clean up purposes KKJ 082905 
+<!ENTITY % verified
+"verdate CDATA #IMPLIED
+verrem CDATA #IMPLIED" > -->
+
+<!-- Removed itemid entity for cleanup purposes.  KKJ 082905
+<!ENTITY % itemid
+"unit CDATA #IMPLIED
+module CDATA #IMPLIED
+lru CDATA #IMPLIED
+compon CDATA #IMPLIED
+partno CDATA #IMPLIED
+refdes CDATA #IMPLIED" > -->
+
+<!-- Removed "skilltrk NMTOKENS #IMPLIED, assocfig IDREFS #IMPLIED and assoctab IDREFS #IMPLIED" for cleanup purposes.  KKJ 082905 -->
+<!ENTITY % content
+"contype (desc | proc | part) #IMPLIED" >
+
+<!-- Removed reference to itemid for cleanup purposes.  KKJ 082905 -->
+<!ENTITY % db "%content;" >
+
+<!ENTITY % docatt
+"docid CDATA #IMPLIED
+docstat (revision | change | prelim | draft | formal | routine | urgent | emergency) 'prelim'
+verstatpg (all | unverified) 'all'
+columns (one|two) 'two'
+cover %yesorno; '0'
+%secur; " >
+
+<!-- Removed %change entity for cleanup purposes.  KKJ 082905
+<!ENTITY % change
+"inschlvl NMTOKEN #IMPLIED
+delchlvl NMTOKEN #IMPLIED
+revchg %yesorno; '0'" > -->
+
+<!-- Reinstated the change Entity to allow for legacy data matching (chgbars in TOC) KKJ 030106 -->
+<!ENTITY % change
+"chglvl %yesorno; '0'
+inschlvl NMTOKEN #IMPLIED
+delchlvl NMTOKEN #IMPLIED
+revchg %yesorno; '0'">
+
+<!-- Removed "sssn CDATA #IMPLIED inschlvl NMTOKEN #IMPLIED
+delchlvl NMTOKEN #IMPLIED" attribute for cleanup purposes.  KKJ 082905 -->
+<!ENTITY % bodyatt
+"label CDATA #IMPLIED
+%db;" >
+
+<!ENTITY % chapatt
+"%bodyatt;
+xid ID #IMPLIED " >
+
+<!ENTITY % sectatt "%chapatt; " >
+
+<!--  Added spacing attribute to allow for variable prespacing before a para and all the subparas A. Leach 2 Feb 2005 -->
+
+<!-- Removed %verified;, hcp %yesorno; '0', esds %yesorno; '0' and revchg %yesorno; '0' attributes for cleanup purposes. KKJ 082905 -->
+<!ENTITY % para0att
+"%bodyatt;
+
+emergency (0|1) '0'
+xid ID #IMPLIED
+applicref IDREFS #IMPLIED ">
+
+<!-- Created spacing att to create spacing (squishing) to be allowed in legacy data.  Karen Junkin 082405 -->
+
+<!ENTITY % spacingatt
+ "spacing (Default | 2pt | 4pt | 6pt | 8pt | 10pt) 'Default' " >
+
+<!-- New element dpar0 to have para0 attributes, 122994, Bill Bernickus
+     New elements subpara4, subpara5, subpara6, and subpara7
+     added 22 November 1996 by Beatrice Falkler
+
+     Removed dpara0 throughout the dtd - software handles the requirement without
+     dpar0 by using nonum, 082105 Karen Junkin -->
+
+
+<!-- ENTITY % dpar0att "%para0att;" -->
+
+<!ENTITY % sub1att "%para0att; %spacingatt;" >
+
+<!ENTITY % sub2att "%para0att; %spacingatt;" >
+
+<!ENTITY % sub3att "%para0att; %spacingatt;" >
+
+<!ENTITY % sub4att "%para0att; %spacingatt;" >
+
+<!ENTITY % sub5att "%para0att; %spacingatt;" >
+
+<!ENTITY % sub6att "%para0att; %spacingatt;" >
+
+<!ENTITY % sub7att "%para0att; %spacingatt;" >
+
+
+<!-- Graphic reprowid and reprodep attributes made mandatory, 011195, Bill Bernickus -->
+
+<!ENTITY % graphatt
+"boardno ENTITY #REQUIRED
+graphsty NMTOKEN #IMPLIED
+llcordra CDATA #IMPLIED
+rucordra CDATA #IMPLIED
+reprowid NUTOKEN #REQUIRED
+reprodep NUTOKEN #REQUIRED
+hscale NUMBER #IMPLIED
+vscale NUMBER #IMPLIED
+scalefit %yesorno; #IMPLIED
+hplace (left | right | center) 'center'
+vplace (top | middle | bottom) #IMPLIED
+coordst CDATA #IMPLIED
+coordend CDATA #IMPLIED" >
+
+<!-- Removed "sssn CDATA #IMPLIED, hcp %yesorno; '0', esds %yesorno; '0', inschlvl NMTOKEN #IMPLIED, delchlvl NMTOKEN #IMPLIED, revchg %yesorno; '0'" for cleanup purposes. KKJ 082905 -->
+
+<!ENTITY % stepatt
+"label CDATA #IMPLIED
+xid ID #IMPLIED
+applicref IDREFS #IMPLIED
+qacheck (IP | QA )#IMPLIED
+%db;
+%spacingatt; " >
+
+<!-- Added xid attribute to table entry element list of attributes, Bill Bernickus,  110394 -->
+<!-- Added label attribute to table entry element list of attributes, Bill Bernickus,  011895 -->
+
+<!ENTITY % entryatt
+"label CDATA #IMPLIED
+xid ID #IMPLIED
+colname NMTOKEN #IMPLIED   -- was colref --
+spanname NMTOKEN #IMPLIED  -- was spanref --
+morerows NUMBER '0'
+colsep %yesorno; #IMPLIED
+rowsep %yesorno; #IMPLIED
+rotate %yesorno; '0'
+valign (top | middle | bottom ) #IMPLIED
+align (left | right | center | justify | char) #IMPLIED
+charoff NUTOKEN #IMPLIED
+char CDATA #IMPLIED" >
+
+<!-- Removed %verified;, %secur; and revchg %yesorno; '0' attributes for clean up purposes.  KKJ 082905 -->
+
+<!ENTITY % tabatts
+"%bodyatt;
+tabstyle (oip | rpstl | rpstl7 | partno-list | pm | pmd | pms | toc) #IMPLIED
+frame (top | bottom | topbot | all | sides | none ) #IMPLIED -- was 'all' --
+colsep %yesorno; #IMPLIED -- was '1' --
+rowsep %yesorno; #IMPLIED -- was '0' --
+orient (port | land1 | land2) port -- was '#IMPLIED' --
+pgwide %yesorno; #IMPLIED -- was '1' --
+cellcont (Continued | Cont) 'Continued'
+rpstl-indenture ( 0 |1 | 2 | 3 | 4 | 5 | 6 | 7 ) '0'
+xid ID #IMPLIED
+" >
+
+<!-- Removed %verified; and %secur attributes for cleanup purposes.  KKJ 082905 -->
+<!ENTITY % figatts
+"%bodyatt;
+pgwide %yesorno; '1'
+orient (port | land1 | land2) 'port'
+xid ID #IMPLIED
+" >
+
+<!ENTITY % lrpatts 
+"tmidwidth NUTOKEN '1.63in'
+%para0att;" >
+
+<!-- seqlist added to support ATCOM legacy data 062594 by Larry Howard
+ 
+<!ENTITY % list "randlist | deflist" >  -->
+<!ENTITY % list "seqlist | randlist | deflist" >
+
+<!-- added rev-video as a reverse video capability within text. 032405 Karen Junkin -->
+<!-- removed applicabil from list of choices removed from book per KKJ 9-30-2005edited by a lech 12-13-2005 -->
+<!ENTITY % text "(#PCDATA | change | ftnref | xref | indxflag |
+verbatim | emphasis | graphic | extref | dataiden |
+hcp | esds | acronym | rev-video)+" >
+
+<!-- The following modified (again) 080194 by Larry Howard to allow <chginssth>
+     to be repeated any number of times:
+  The following modified 071394 by Larry Howard to make <lep> optional ...
+  <!ENTITY % frnt "idinfo, warnpage?, chginssht?, lep, verstat?,
+   tpdr?, chgrec?, contents, illuslist?, tablelist?, (foreword |
+   preface | intro), safesum?" >
+
+      <!ENTITY % frnt "idinfo, warnpage?, chginssht?, lep?, verstat?,
+                       tpdr?, chgrec?, contents, illuslist?, tablelist?, (foreword |
+                         preface | intro), safesum?" > 080194 -->
+
+<!-- Changed the (foreword | preface | intro) entry to be 0 or optional to accomodate the various books to be published.  012204 KKJ and ASL  -->
+
+<!-- Added graphic prior to contents to insert reporting errors block -->
+<!-- Added safesum after warnpage to be optional Allissa Leach 10 Mar 2005  
+		 Added distrib after hazardmaterialstatement for ease of tagging Karen Junkin 081005 
+		Added oiplist to match legacy data requirements. Karen Junkin 082505  
+		Added table capability following the lep, illuslist, oiplist, and tablelist for legacy pubs.  KKJ 091709 -->
+
+<!ENTITY % frnt "idinfo, warnpage?, safesum?, chginssht*, lep?, verstat?,
+                         tpdr?, chgrec?, reportoferrors?, odcstmt?,
+											hazardmaterialstatement*, distrib?, contents, table*, (illuslist, table*)?,
+											(oiplist, table*)?, (tablelist, table*)?, para?, howtouse?, (foreword | preface | intro)?, safesum?" >
+
+<!-- Added safesum after warnpage to be optional Allissa Leach 10 Mar 2005  -->
+
+<!ENTITY % auxfrnt "idinfo, warnpage?, safesum?, chginssht*, lep, verstat?,
+tpdr?, chgrec?, contents, illuslist?, tablelist?, (foreword |
+preface | intro)?, safesum?" >
+
+<!-- Changes to cover, added new AVAIL element and moved SUPERSED to follow DISTRIB, 
+  122994,  Bill Bernickus -->
+<!-- Opened up prtitle to allow for more than one occurrence in some legacy data, 012195, 
+  Bill Bernickus -->
+<!-- Added new REPRO element, 013195, Bill Bernickus.  Changed seal (NAVY only) element 
+  to new coverart element 022895 -->
+<!-- Removed mfr and contractno from options available per THarrison and Editors on 30 June 04  KKJ
+
+<!ENTITY % idinf "tmidno+, pretmidno*, (volnum, docpartn?)?,
+revnum?, doctype, maintlvl?, prtitle+, subtitle?, (mfr,
+contractno+)?, coverart?, suppl*, effdatenot?, volnot?,
+discl?, repro?, avail?, distrib, supersed?, expcont?, destr?, copyright*, authnot, 
+downgrd?, pubdate, (chgnum, chgdate)?" > -->
+
+<!-- Added hazardmaterialstatement with title as optional before distrib statement  Will appear on TOC page ASL 8 Dec 2004 -->
+<!-- Added reportoferrors as optional before distrib statement  Will appear on TOC page ASL 4 Jan 2005. -->
+<!-- Removed reportoferrors and hazardmaterialstatement here and inserted them in front right before contents for ease of tagging  KKJ 10 Jan 2005 -->
+<!-- Rearranged idinf to be DISTRIB, EXPCONT, DESTR and then AVAIL to for ease of tagging and fosi support.
+           KKJ April 19 2005 -->
+
+<!ENTITY % idinf "tmidno+, pretmidno*, (volnum, docpartn?)?,
+revnum?, doctype, maintlvl?, prtitle+, subtitle?, coverart?, suppl*, effdatenot?, volnot?, repro?,
+distrib, expcont?, destr?, avail?, discl?, supersed?, copyright*, authnot, 
+downgrd?, pubdate, (chgnum, chgdate)?, (para | table | prtitle)*" >
+
+<!-- fpi modified by Larry Howard 071394 to remove lpr from foreword (and moved to rear)  
+
+<!ENTITY % fpi "para0, (para0 | applicdef | symsect | abbrsect |
+internatlstd | lrp | tctolist | ratd)*, tmimprep?" > -->
+
+<!-- removed applicdef from list of selections er change made on 09-30-2005 by kkj  Aleach 12-12-2005 -->		
+
+<!ENTITY % fpi "para0, (para0 | symsect | abbrsect |
+				internatlstd | tctolist | ratd)*, tmimprep?" >
+
+
+<!-- Removed ddchap as a clean-up process.  Karen Junkin 082405  ENTITY % ddchap "dddesc, (ddindex, ddsheet+)?" -->
+
+<!ENTITY % rr "appendix*, glossary?, index?, foldsect?" >
+
+<!ENTITY % titles "title" >
+
+<!ENTITY % safesum "para0+" >
+
+<!-- The following modified 102594 by Larry Howard and Bill Bernickus to allow sections 
+   and lrp in the appendix -->
+<!-- Modified again 020195 by Bill Bernickus to allow either para0 or dpar0 
+   (many unnumbered paras at top of appendices) -->
+
+<!-- <!ENTITY % append "%titles;, para0+" >   -->
+<!-- Removed dpar0 from selection listing for cleanup  KKJ 042005 --> 
+<!ENTITY % append "%titles;, (section+ | para0+ | lrp?)" >
+
+
+<!ENTITY % glossry "deflist" >
+
+<!-- Changed definitions of figure, subfigure, and macrograph to make figtitle required
+  and to move the location of the figtitle to the bottom of each of the three elements,
+  011195, Bill Bernickus -->
+
+
+<!ENTITY % fig "change?, ((subfig, subfig+) | (graphic, figtitle) | macrograph)" >
+
+<!ENTITY % tabl "(%titles;, tgroup+)" >
+
+<!-- The following modified 062894 by Larry Howard to allow a more flexible placement of 
+  warnings (and cautions).
+Modified 051095 by Bill Bernickus to allow more than one warning after a step 
+  like para0 and subparas.
+Modified 061296 by Beatrice Falkler to allow for multiple cautions and notes.
+<!ENTITY % stepcon "warning*, caution?, note?, para, note?" > -->
+
+	<!ENTITY % stepcon "warning*, caution*, note*, para,
+                            warning*, caution*, note*" >
+
+<!ENTITY % bodyele "chapter, chapter+ " >
+
+<!ENTITY % service "(AF | NAVAIR | NAVSEA | NAVY | SPAWARS | ARMY | MC | DLA | CG)" >
+
+<!ENTITY % paracon "(%text; | %list;)+" >
+
+<!-- The following modified 062894 by Larry Howard to allow a more flexible placement of 
+  warnings (and cautions).
+Modified 111894 by Bill Bernickus to move %titles to front of element sequencing in 
+  nparcon and nparcon1, to match parazero. 
+Modified 122994 to add new element dparzero and to make para optional in nparcon and 
+  nparcon1.
+ 
+Modified 051095 to make title optional in subpara1.
+Modified 061296 by Beatrice Falkler to allow for multiple cautions and notes and to 
+  allow for randlists.
+Modified 080596 to make ALL subpara titles optional by Beatrice Falkler.
+Modified 090998 by Garien Storm to allow seqlists.
+
+	Note:  nparcon corresponds to subpara1 and nparcon1 corresponds to subpara2.
+
+<!ENTITY % nparcon "warning*, caution?, note?, %titles;, para,
+note?, (step1, step1+)?" >
+
+<!ENTITY % nparcon1 "warning*, caution?, note?, (%titles;)?,
+para, note?, (step1, step1+)?" >
+
+<!ENTITY % parazero "%titles;, warning*, caution*, note*, (para,
+note?)?, (step1, step1+)?" >
+
+Made (para, warning*, caution*, note*)* | (step1, step1+)?)+ so that paras and steps can be used together. KKJ 070208
+-->
+	<!ENTITY % nparcon "((%titles;)? & (warning*, caution*, note*))+,
+	 ((para, warning*, caution*, note*)*, step1* , seqlist*, randlist*)+ " >
+
+	<!ENTITY % nparcon1 "((%titles;)? & (warning*, caution*, note*))+,
+	 ((para, warning*, caution*, note*)*, step1* , seqlist*, randlist*)+ " >
+
+	<!-- modified parazero to allow paras to follow steps or seqlist/randlists. KKJ 070208 -->
+	<!ENTITY % parazero 
+		   "%titles;, warning*, caution*, note*,
+	 	   ((para, warning*, caution*, note*)*, step1* , seqlist*, randlist*)+" >
+
+        
+
+<!-- Removed all d- items for clean-up purposes.  Karen Junkin 082405.
+	<!ENTITY % dparzero "((%titles;)? & (warning*, caution*, note*))+,
+	 (para, warning*, caution?, note?)?, (step1, step1+)?, seqlist*, randlist*" > -->
+
+<!-- Modified 021695 by Bill Bernickus to enable single dpar0 to meet minimum 
+  requirements for chapter -->
+<!-- Removed dpar0 for cleanup purposes, Karen Junkin 082105 
+
+<!ENTITY % chap "%titles;, ((section, section+) | ((dpar0 | para0), (dpar0* | para0*)+))"  -->
+<!ENTITY % chap "%titles;, ((section, section+) |  para0+)">
+
+<!-- Modified 062994 by Larry Howard for Freewheeling Shaft Assembly document. 
+     Modified 021695 by Bill Bernickus to enable single dpar0 to meet minimum 
+      requirements for section.
+     Modified 061296 by Beatrice Falkler to allow for multiple cautions and notes.
+<!ENTITY % sect "%titles;, para0+" > 
+Removed references to dpar0 for cleanup purposes, Karen Junkin  082105 
+<!ENTITY % sect "%titles;, (warning*, caution*, note*, para?)?, ((dpar0 | para0),
+                           (dpar0* | para0*)+)?" -->
+
+<!ENTITY % sect "%titles;, (warning*, caution*, note*, para?)?, para0+">
+
+
+<!-- Modified 080194 by Larry Howard for A1064S05 instance (from INET). More legacy 
+  data changes!!
+<!ENTITY % chgsht "chgnum, address, date, prtitle, para?, chglist, distrib, expcont?" >
+ -->
+
+<!-- Modified order of chgsht to meet legacy and new requirements for placement of odcstmt, hazardous materials statement and distribution. KKJ  060905 
+Added distrib after the hazmaterialstatement to allow for manual tagging.  KKJ 101205 -->
+<!-- Added expcont and destr after <distrib> to allow for manual tagging of page. KKJ 030506 -->
+
+     <!ENTITY % chgsht "tmno*, chgnum, address, date, prtitle, odcstmt*, hazardmaterialstatement*, distrib, expcont?, destr?, para*, chglist, (para | table)*" >
+
+<!ENTITY % entry "(%text; | %list; | warning | caution | note)+" >
+
+<!-- Modified 121994 by Bill Bernickus to allow for zero, one, or more para0s within the LRP -->
+<!-- modified the LRP from <!ENTITY % lrp "para0*, lrpentry*" > to acocmodate para0 or lrpentry ASl 26 July 2005 -->
+
+<!ENTITY % lrp "(para0* | lrpentry*)*" >
+
+<!ENTITY % symsect "(%parazero;, subpara1*), (title?, (term, def)+)" >
+
+<!ENTITY % exclus "figure | table | foldout" >
+
+<!ENTITY % inclus "figure | table | foldout" >
+
+<!-- Begin declaration of public entities -->
+
+<!ENTITY % ISOlat1 PUBLIC
+ "ISO 8879:1986//ENTITIES Added Latin 1//EN" >
+
+<!ENTITY % ISOgrk3 PUBLIC
+ "ISO 8879:1986//ENTITIES Greek Symbols//EN" >
+
+<!ENTITY % ISOnum PUBLIC
+ "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN" >
+
+<!ENTITY % ISOpub PUBLIC
+ "ISO 8879:1986//ENTITIES Publishing//EN" >
+
+<!ENTITY % ISOtech PUBLIC
+ "ISO 8879:1986//ENTITIES General Technical//EN" >
+
+<!-- ISO character entity sets amsa (Arrow Relations) and amsb (Binary Operators) 
+  added 021795 by Bill Bernickus -->
+
+<!ENTITY % ISOamsa PUBLIC
+ "ISO 8879:1986//ENTITIES Added Math Symbols: Arrow Relations//EN" >
+
+<!ENTITY % ISOamsb PUBLIC
+ "ISO 8879:1986//ENTITIES Added Math Symbols: Binary Operators//EN" >
+
+<!-- <!ENTITY % wcn PUBLIC "-//ATCOM//ENTITIESWarningCautionNote//EN"> -->
+
+<!ENTITY #default "(!!!! At this point in the tagged instance an
+entity was referenced which was not previously defined. Please
+correct your work!!!!)" >
+
+<!ENTITY suppnotice "A suitable reference to this supplement will
+be made on the title page of the basic publication." >
+
+%ISOgrk3; %ISOlat1; %ISOnum; %ISOpub; %ISOtech; %ISOamsa; %ISOamsb;
+
+<!-- NOTATION DECLARATIONS -->
+
+<!NOTATION cgmbin PUBLIC
+ "ISO 8632/3//NOTATION CGM Binary text encoding//EN" >
+
+<!NOTATION fax PUBLIC
+ "-//USA-DOD//NOTATION CCITT Group 4 Facsimile Type1 Untiled Raster//EN" >
+
+<!NOTATION faxtile PUBLIC
+ "-//USA-DOD//NOTATION CCITT Group 4 Facsimile Type 2 Tiled Raster//EN" >
+
+<!NOTATION iges PUBLIC
+ "-//USA-DOD//NOTATION (ASME/ANSI Y14.26M-1987) Initial Graphics Exchange 
+  Specification//EN" >
+
+<!-- Added tif and tiff as graphic notations. Karen Junkin/Allissa Leach 11/03 -->
+<!-- Added cgm as graphic notation. Karen Junkin 4/13 -->
+
+<!NOTATION tif SYSTEM "tif" >
+<!NOTATION tiff SYSTEM "tiff" >
+<!NOTATION cgm SYSTEM "cgm" >
+<!NOTATION G4  SYSTEM "G4" >
+
+<!-- ELEMENT and ATTRIBUTE LIST DECLARATIONS -->
+
+<!ELEMENT abbrsect     - o  ((%parazero;, subpara1*), (title?,
+                              acronymlist)) >
+<!ATTLIST abbrsect     %para0att; >
+
+
+<!ELEMENT acronym     - -  (def, term)+   -(acronym | %exclus;) >
+
+<!ELEMENT acronymlist     - o  EMPTY >
+<!ATTLIST acronymlist     acrwidth NUTOKEN "0.75in" >
+
+
+<!ELEMENT activity     - o  (#PCDATA) >
+
+<!ELEMENT address     - o  (%text;) >
+
+<!-- added orient to allow landscape appendices  A. Leach 6 Oct 2004 -->
+
+<!ELEMENT appendix     - -  (%append;)   +(ftnote | %inclus;) >
+<!ATTLIST appendix     %chapatt; 
+                     orient (port | land1 ) 'port' 
+                     numcols (1|2) #IMPLIED>
+
+<!-- Removed references to applicabils entirely, being removed from books. KKJ 093005
+<!ELEMENT applic     - o  (term, def) >
+<!ATTLIST applic     applicid ID #REQUIRED >
+
+
+<!ELEMENT applicabil     - -  (%text;)   -(applicabil |
+                                           %exclus;) >
+<!ATTLIST applicabil     applicref IDREFS #REQUIRED
+                         %secur; >
+
+
+<!ELEMENT applicdef     - -  ((%parazero;, subpara1*), (title?,
+                               applichd?, applic+)) >
+<!ATTLIST applicdef     termwidth NUTOKEN "1.5in"
+                        boxterm %yesorno; "1"
+                        %para0att; >
+
+
+<!ELEMENT applichd     - o  (term, def) -->
+
+<!-- Added auto to allow automatic generation of the index. 11 July 2008 Allissa Leach -->
+<!ELEMENT auto			- o EMPTY>
+
+<!ELEMENT authnot     - o  (#PCDATA) >
+
+<!ELEMENT auxfront     - -  (%auxfrnt;)   +(ftnote) >
+
+<!-- Added new AVAIL element for cover, 122994, Bill Bernickus -->
+<!ELEMENT avail     - o  (#PCDATA) >
+
+<!ELEMENT body     - -  (%bodyele;)   +(ftnote) >
+
+<!ELEMENT brk     - o  EMPTY >
+<!ATTLIST brk     type (col | line | epg | opg | npg ) "line" >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT cage     - o  (%text;)   -(%exclus;) >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT callout     - o  (%text;) >
+<!ATTLIST callout     assocfig IDREF #IMPLIED
+                      label CDATA #IMPLIED
+		      						     xid ID #IMPLIED >
+
+<!-- Removed "%change;" attribute for cleanup purposes.  KKJ 082905 -->
+<!ELEMENT caution     - -  (para*)   -( %exclus; |
+                                       warning | caution |
+                                       precaut) >
+<!ATTLIST caution     wcnref IDREFS #IMPLIED
+                      centered-para %yesorno; #IMPLIED 
+														%spacingatt; >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT change     - -  (%text;)   -(change | %exclus;) >
+<!ATTLIST change     level NMTOKEN #REQUIRED
+                     change (add | delete) "add"
+                     mark %yesorno; "1" >
+
+<!-- Removed %secur for attribute on changest and changeend for cleanup process. KKJ 093005 -->
+<!ELEMENT changest   - o EMPTY >
+<!ATTLIST changest   level NMTOKEN #REQUIRED
+                     change (add | delete) "add"
+                     mark %yesorno; "1" >
+
+<!ELEMENT changeend  - o EMPTY >
+<!ATTLIST changeend  level NMTOKEN #REQUIRED
+                     change (add | delete) "add"
+                     mark %yesorno; "1" >
+
+<!ELEMENT chapter     - -  (%chap;)   +(%inclus;) >
+<!ATTLIST chapter     %chapatt; 
+										emergency %yesorno; "0" >
+
+
+<!ELEMENT chgdate     - o  (#PCDATA) >
+
+<!ELEMENT chghistdate     - o  (#PCDATA) >
+
+<!ELEMENT chginssht     - o  (%chgsht;) >
+<!ATTLIST chginssht	    chgstat (none | revision | change | prelim | draft | formal
+| routine | urgent | emergency) "none"
+                        chgtopbot %yesorno; "0" >
+
+<!ELEMENT chglist     - o  (removepg, insertpg)+ >
+
+<!ELEMENT chgnum     - o  (#PCDATA) >
+
+<!ELEMENT chgrec     - o  EMPTY >
+
+<!ELEMENT colspec     - o  EMPTY >
+<!ATTLIST colspec     colnum NUMBER #IMPLIED
+                      colname NMTOKEN #IMPLIED  -- used to be colid --
+                      align (left | right | center | justify |
+                             char) #IMPLIED
+                      charoff NUTOKEN #IMPLIED
+                      char CDATA #IMPLIED
+                      colwidth CDATA #IMPLIED
+                      colsep %yesorno; #IMPLIED
+                      rowsep %yesorno; #IMPLIED >
+
+
+<!-- Removed %verified; attribute for cleanup purposes. KKJ 082905 -->
+<!ELEMENT contents     - o  EMPTY >
+<!ATTLIST contents     address CDATA #IMPLIED
+                       levels (0 | 1 | 2 | 3 ) "2"
+										 manualtag (yes | no) "no" >
+
+<!-- Removed %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT contractno     - o  (#PCDATA) >
+
+<!ELEMENT copyright     - o  (#PCDATA) >
+
+<!-- Added new coverart element, replaced seal element within idinfo (cover), 
+   022895, Bill Bernickus -->
+
+<!ELEMENT coverart     - -  (graphic)   -(%exclus;) >
+<!ATTLIST coverart     %figatts; >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT dataiden     - -  (%text;)   -(dataiden | %exclus;) >
+<!ATTLIST dataiden     type CDATA #REQUIRED >
+
+
+<!ELEMENT date     - o  (%text;)   -(%exclus;) >
+
+<!ELEMENT dateinc     - o  (%text;)   -(%exclus;) >
+
+<!-- Removed dd elements at clean-up process.  Karen Junkin 082405
+<!ELEMENT ddchapter     - -  (%ddchap;)   +(%inclus;) >
+<!ATTLIST ddchapter     %chapatt; > 
+<!ELEMENT dddesc     - o  (%parazero;, subpara1*) >
+<!ATTLIST dddesc     %para0att; >
+<!ELEMENT ddindex     - o  (%parazero;, subpara1*, ddlist) >
+<!ATTLIST ddindex     %para0att; >
+<!ELEMENT ddlist     - o  EMPTY >
+<!ELEMENT ddsheet     - -  ((nomen, (partno+ | modelno+ |
+                             typedes+), serno*), para0+) > -->
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT def     - o  (%text;)   -(%exclus;) >
+
+<!-- change defhd to #PCDATA  asl 17 aug 2006 -->
+
+<!ELEMENT defhd     - o  (#PCDATA) >
+
+<!-- change put defhd? inside parens with term and def - defhd will be used in the glossary for output of the alphabetic character and will be centered like the index output   asl 17 aug 2006 
+change: inserted para? as optional item following title? for explanatory paragraph -->
+
+<!ELEMENT deflist     - -  (title?, para?, (defhd?, term, def)+) >
+<!ATTLIST deflist     termwidth NUTOKEN "1.5in" >
+
+
+<!ELEMENT destr     - o  (%text;) >
+
+<!-- changed the disclos1 attribute to be optional - kkj 1-20-05 -->
+
+<!ELEMENT discl     - o  (#PCDATA) >
+<!ATTLIST discl     disclos1 CDATA #IMPLIED>
+
+
+<!ELEMENT distrib     - o  (#PCDATA) >
+<!ATTLIST distrib   type (A | B | C | D | E | F | X | Legacy) #REQUIRED >
+
+
+<!ELEMENT doc     - -  ((volume, volume+) | (front, body, rear?))
+                        +(pgbrk | brk | subjinfo | changest | changeend) >
+<!ATTLIST doc     service %service; #REQUIRED
+                  %docatt; 
+								center-pgnum (0 | 1) "0" >
+
+
+<!ELEMENT docpart     - -  ((front | auxfront), body, rear?) >
+<!ATTLIST docpart     %bodyatt; >
+
+
+<!ELEMENT docpartn     - o  (#PCDATA) >
+
+<!-- Added HR as a doctype to handle Hand Receipt specific requirements. 05-14-08 KKJ -->
+<!ELEMENT doctype     - o  (#PCDATA) >
+<!ATTLIST doctype			pubtype (AVSCOM-DMWR | DMRL | DMWR | HR | BD | MWO | NMWR-DMWR | PM | SB | TB | TM | OTHER) #REQUIRED      
+                       fntsize  (12 | 14) "14"  >
+
+<!ELEMENT downgrd     - o  (phrase | oadr) >
+
+<!-- Added element dpar0, 122994, Bill Bernickus -->
+<!-- Removed dpar0 for cleanup purposes, Karen Junkin 082105
+
+<!ELEMENT dpar0     - o  (%dparzero;, subpara1*) >
+<!ATTLIST dpar0     %para0att; -->
+
+<!ELEMENT ecpno     - o  (%text;)   -(%exclus;) >
+
+<!ELEMENT effdatenot     - o  (#PCDATA) >
+
+<!-- added eic as optional element for cover page per THarrison 01 July 04 KKJ -->
+
+<!ELEMENT eic     - o  (%text;) >
+
+<!-- added subscrpt and supscrpt attributes KKJ 12/12 -->
+<!-- changed all references of underline to undl  KKJ 1/5 -->
+<!-- for legacy matching (TEMOD) added overline and boldoverline (meaning NOT) KKJ 01–27–10 -->
+<!ELEMENT emphasis     - -  (%text;)   -(emphasis | %exclus;) >
+<!ATTLIST emphasis     type (undl|bold|boldundl|italic|bolditalic|quote|undlitalic|subscrpt|supscrpt|dotfill|overline|boldoverline) #REQUIRED
+                       fontsize NUTOKEN #IMPLIED >
+
+<!-- Removed "%change;" and %secure attributes for cleanup purposes.  KKJ 082905 -->
+<!ELEMENT entry     - -  (%entry;) >
+<!ATTLIST entry     %entryatt; >
+
+<!-- split DTD here when sending as an attachment to two separate Email messages -->
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+
+<!ELEMENT entrytbl     - -  (colspec*, spanspec*, thead?, tbody)
+                            -(entrytbl) >
+<!ATTLIST entrytbl     cols NUMBER #REQUIRED
+                       tgroupstyle NMTOKEN #IMPLIED
+                       colname NMTOKEN #IMPLIED  -- used to be colname --
+                       spanname NMTOKEN #IMPLIED -- used to be spanref --
+                       colsep %yesorno; #IMPLIED
+                       rowsep %yesorno; #IMPLIED
+                       align (left | right | center | justify |
+                              char) #IMPLIED
+                       charoff NUTOKEN #IMPLIED
+                       char CDATA #IMPLIED >
+
+
+<!ELEMENT esds     - o  EMPTY >
+
+<!ELEMENT expcont     - o  (#PCDATA)   +(emphasis) >
+
+<!ELEMENT extref     - o  EMPTY >
+<!ATTLIST extref     tmref IDREF #REQUIRED >
+
+
+
+<!-- Added table footnote elements as inclusions for figtable, 061495, Bill Bernickus -->
+<!-- Added orient attribute to figtable, 012705 Karen Junkin -->
+<!-- Removed "%change;" attribute for cleanup purposes.  KKJ 082905 -->
+
+<!ELEMENT figtable     - -  (title?, tgroup+)  +(tfnid | tfnref | tfndisplay) >
+<!ATTLIST figtable     frame (top | bottom | topbot | all |
+                              sides | none) "all"
+                       colsep %yesorno; "1"
+                       rowsep %yesorno; "0"
+                       tbwidth NUTOKEN #IMPLIED
+                       tbdepth NUTOKEN #IMPLIED
+                       tabstyle (10pt | 8pt | 7pt) #IMPLIED
+		       									orient (port | land1 | land2) port
+                       horrefpt (left | right) "left"
+                       verrefpt (vtop | vbottom) "vtop"
+                       coordst CDATA "0,10000"
+                       assocfig IDREF #IMPLIED
+                       %secur; >
+
+
+<!ELEMENT figtitle     - -  (%titles;) >
+
+<!ELEMENT figure     - -  (%fig;)   -(%exclus;) >
+<!ATTLIST figure     %figatts; >
+
+
+<!ELEMENT foldout    - -  (%fig;)   -(%exclus;) >
+<!ATTLIST foldout     pgstyle ( 17 | 25 | 35 | 45 ) "17"
+                      %figatts; >
+
+
+<!ELEMENT foldsect     - -  (foldout+) >
+
+<!-- Removed "<!ATTLIST foreword %verified; >" for cleanup purposes. KKJ 082905 -->
+
+<!ELEMENT foreword     - -  (%fpi;)   +(figure | table) >
+
+<!ELEMENT front     - -  (%frnt;)   +(ftnote) >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+
+<!ELEMENT ftnote     - -  (%text; | %list;)+   -(ftnote | ftnref |%exclus;) >
+<!ATTLIST ftnote     ftnid ID #REQUIRED >
+
+
+<!ELEMENT ftnref     - o  EMPTY >
+<!ATTLIST ftnref     ftnref IDREF #REQUIRED
+                     mark (num | sym | alpha) "num" >
+
+<!-- Bill Bernickus added table footnote elements 052395 -->
+
+<!ELEMENT tfnid     - o  EMPTY >
+<!ATTLIST tfnid      id ID #REQUIRED 
+		     tfntype (num | alpha) "num" 
+		     tfnval CDATA #REQUIRED >
+
+<!ELEMENT tfnref     - o  EMPTY >
+<!ATTLIST tfnref      xrefid IDREF #REQUIRED >
+
+<!ELEMENT tfndisplay  - o EMPTY >
+
+<!-- Removed <!ATTLIST glossary %verified; > attribute for cleanup purposes. KKJ 082905 -->
+
+<!ELEMENT glossary     - -  (%glossry;) >
+<!ATTLIST glossary     numcols (1|2) #IMPLIED>
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT graphic     - o  EMPTY >
+<!ATTLIST graphic     %graphatt; >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT hazmat     - o  (#PCDATA) >
+
+<!-- added 08-Dec-2004 for hazmat statement ASL -->
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT hazardmaterialstatement     - o  (title?, para)* >
+<!ATTLIST hazardmaterialstatement     %para0att; >
+
+<!ELEMENT hcp     - o  EMPTY >
+
+<!ELEMENT howtouse     - -  (title?, %fpi;)   +(figure | table) >
+<!ATTLIST howtouse		columns (one | two) "one" >
+
+<!ELEMENT icon     - o  ((macrograph | graphic*), hazmat, seqno?)
+                        -(figtable | legend) >
+<!ATTLIST icon     wcnid ID #IMPLIED >
+
+<!-- Removed <!ATTLIST illuslist %verified;> attribute for cleanup purposes. KKJ 082905 -->
+<!ELEMENT idinfo     - -  (%idinf;) >
+<!ATTLIST idinfo     tmidnolen NUTOKEN "10em" >
+
+<!-- Removed %verified; attribute for cleanup purposes. KKJ 082905 -->
+<!ELEMENT illuslist     - o  EMPTY >
+<!ATTLIST illuslist		manualtag (yes | no) "no" > 
+
+<!-- Removed %verified; attribute for cleanup purposes. KKJ 082905 -->
+
+<!-- Added aindx and indexentry to allow manual entry of an index Allissa Leach 11 July 2008 -->
+
+<!ELEMENT index     - o  ((auto) | (indexhd?, indexentry)*) >
+<!ATTLIST index     numcols (1|2) #IMPLIED>
+
+<!ELEMENT indexentry - o (topic, pageno*, sub-entry1*)>
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT indxflag     - o  EMPTY >
+<!ATTLIST indxflag     ref1 CDATA #REQUIRED
+                       ref2 CDATA #IMPLIED
+                       ref3 CDATA #IMPLIED
+                       ref4 CDATA #IMPLIED >
+
+
+<!-- Added indexhd to allow manual entry of an index in TMs.  11 July 2008 Allissa Leach -->
+<!ELEMENT indexhd		- o (#PCDATA) >
+
+<!ELEMENT insertpg     - o  (#PCDATA) >
+
+<!-- Removed %verified; and %change;" attributes for cleanup purposes. KKJ 082905 -->
+<!ELEMENT internatlstd     - o  EMPTY >
+<!ATTLIST internatlstd     intlstd1 CDATA #REQUIRED
+                           intlstd2 CDATA #REQUIRED >
+
+<!-- Removed <!ATTLIST intro %verified;>  for cleanup purposes. KKJ 082905 -->
+<!ELEMENT intro     - -  (%fpi;)   +(figure | table) >
+     
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT item     - -  (%text;)   -(%exclus;) >
+<!ATTLIST item     label CDATA #IMPLIED >
+
+
+<!ELEMENT legend     - -  (callout, def)+ >
+<!ATTLIST legend     assocfig IDREF #IMPLIED
+                     numcols (1 | 2) "2"
+                     colwidth NUTOKEN "3.5in"
+                     cowidth NUTOKEN "0.25in"
+                     horrefpt (left | right) "left"
+                     verrefpt (top | bottom) "top"
+                     coordst CDATA "0,10000" >
+
+<!-- Removed <!ATTLIST lep %verified;> attribute for cleanup purposes. KKJ 082905 
+Added (para | notepara)* to allow manual entry of that data.  KKJ  011107 
+Added attribute and inserted table for manual tagging ability to match legacy.  KKJ 091709 -->
+<!ELEMENT lep     - -  (title?, (para | notepara)*, ((originaldate?, chghistdate*, totalpgs)|table*)) >
+<!ATTLIST lep			manualtag (yes | no ) "no" >
+
+<!ELEMENT location     - o  (#PCDATA) >
+
+<!ELEMENT lrp     - -  (%lrp;) >
+<!ATTLIST lrp     %lrpatts; >
+
+<!-- modified lrpentry to include spacing attribute A. Leach 4 march 2005  -->
+
+<!ELEMENT lrpentry     - -  (tmidno, title) >
+<!ATTLIST lrpentry     tmid ID #REQUIRED 
+                       %spacingatt; >
+
+<!-- Changed definitions of figure, subfigure, and macrograph to make figtitle required
+  and to move the location of the figtile to the bottom of each of the three elements, 
+  011195, Bill Bernickus
+Loosened definition further to allow multiple legends in any appearance order, 
+  041195, Bill Bernickus -->
+
+<!ELEMENT macrograph     - -  (change?,((graphic | figtable | legend)+, figtitle?)) >
+<!ATTLIST macrograph     reprowid NUTOKEN #IMPLIED
+                         reprodep NUTOKEN #IMPLIED >
+
+
+<!ELEMENT maintlvl     - o  (#PCDATA) >
+
+<!ELEMENT mfr     - o  (#PCDATA) >
+
+<!-- Removed  and %secur in modelno and nomen for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT modelno     - o  (%text;)   -(%exclus;) >
+
+<!ELEMENT nomen     - o  (%text;)   -(%exclus;) >
+
+
+<!-- Removed %change; attribute for cleanup purposes. KKJ 082905 
+     Removed &list from the exclude listing for legacy data matching.  KKJ 111405 -->
+<!ELEMENT note     - -  (para*)   -( %exclus; | precaut | warning | caution) >
+<!ATTLIST note     wcnref IDREFS #IMPLIED
+                   centered-para %yesorno; #IMPLIED
+												 %spacingatt; >
+
+<!-- Added notepara for LEP entry   KKJ 011107 -->
+<!ELEMENT notepara     - -  (%paracon;) >
+<!ATTLIST notepara     wcnid ID #IMPLIED >
+
+<!ELEMENT nsn     - o  (%text;) >
+
+<!ELEMENT oadr     - o  (#PCDATA) >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT odcstmt     - o  (title?, para)* >
+<!ATTLIST odcstmt     %para0att; >
+
+<!-- Added optional oiplist element for legacy data matching requirements. Karen Junkin 082505 -->
+<!-- Removed <!ATTLIST oiplist %verified; attribute for cleanup purposes. KKJ 082905 -->
+<!ELEMENT oiplist     - o  EMPTY >
+<!ATTLIST oiplist		manualtag (yes | no) "no" > 
+
+
+<!-- Added originaldate to accommodate legacy data for original date.  KKJ 081009 -->
+<!ELEMENT originaldate     - o  (#PCDATA) >
+
+<!-- Added pageno to allow entering in the manual index Allissa Leach 11 July 2008 -->
+
+<!ELEMENT pageno - o (#PCDATA)>
+
+<!-- End tags for para and para0 changed to required 22 November 1996 by Beatrice Falkler-->
+<!-- Removed %change; and %secur attributes for cleanup purposes. KKJ 082905 -->
+<!ELEMENT para     - -  (%paracon;) >
+<!ATTLIST para     wcnid ID #IMPLIED
+								 %spacingatt; >
+
+
+<!ELEMENT para0     - -  ((warning*, caution*, note*)*, %parazero;, subpara1*) >
+<!ATTLIST para0   %para0att; 
+		              %spacingatt;
+		              tocitem %yesorno; "0"		              
+ >
+
+<!-- Removed %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT partno     - o  (%text;)   -(%exclus;) >
+
+<!-- Added  new page types apgbrk—body—landscape Change pages ALeach 5–18–2015 -->
+
+<!ELEMENT pgbrk     - o  EMPTY >
+<!ATTLIST pgbrk     pgnumber CDATA #IMPLIED
+                    chglevel NMTOKEN #IMPLIED
+                    chgmark (off | on) "off"
+                    pageblank CDATA #IMPLIED
+		               prevpgblank CDATA #IMPLIED
+		               blankchglvl CDATA #IMPLIED 
+                    pagetype (body | body-landscape | apgbrk | apgbrk-body-landscape | page-landscape | emergency | foldout17 | foldout25 | foldout35 | foldout45 | rear | PMDTablepg | PMSTablepg ) #IMPLIED >
+
+
+<!ELEMENT phrase     - o  (#PCDATA) >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT precaut     - o  (%text;)   -(%exclus; | warning | caution | precaut) >
+
+<!-- Removed <!ATTLIST preface %verified;> attribute for cleanup purposes. KKJ 082905 -->
+<!ELEMENT preface     - -  (%fpi;)   +(figure | table) >
+    
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT pretmidno     - o  (#PCDATA) >
+<!ATTLIST pretmidno     service %service; #IMPLIED >
+
+
+<!-- PRTITLE modified 062394 by Larry Howard. Needed to accommodate legacy data.  
+  Modified again 120294 by Bill Bernickus
+  to allow for more than one type end item within a publication; many legacy publications 
+  have this situation.
+Further changed PRTITLE to force data elements covering same model be tied 
+  together 030395 by Bill Bernickus
+Put things back before elements were tied together AND add eic as optional entry  070104 by Karen Junkin
+
+<!ELEMENT prtitle    - -  ((nomen, (modelno+ | partno+ | typedes+ | pslist | nsn+), serno*) |
+                             subject) -->
+<!ELEMENT prtitle     - -  ((nomen, (modelno?, partno?, cage?, typedes?, pslist?, nsn?, eic?)*, serno*)+ |
+                             subject) > 
+<!ATTLIST prtitle     fntsize  ( 10 | 12 | 2col ) "12" >
+
+<!ELEMENT pslist     - o  (partno, serno+)+ >
+
+<!ELEMENT pubdate     - o  (#PCDATA) >
+
+
+<!-- randlist modified to allow for nesting of rndlist2 in a randlist. 
+  061296 by Beatrice Falkler 
+     randlist modified to allow for warnings, cautions, and notes
+  071696 by Beatrice Falkler
+     randlist modified to allow for a single item element rather than forcing multiple item elements
+  090498 by Garien Storm -->
+
+<!ELEMENT randlist     - -  (title?, item, (item | (rndlist2? | (warning*, caution*, note*))+)*) >
+<!ATTLIST randlist     prefix CDATA #IMPLIED >
+
+<!ELEMENT rndlist2     - -  (item+) >
+<!ATTLIST rndlist2     prefix CDATA #IMPLIED >
+
+
+<!ELEMENT ratd     - -  ((%parazero;, subpara1*), (typeno, date?,
+                          title, ecpno?, dateinc?, remarks?)*) >
+<!ATTLIST ratd     %para0att; >
+
+
+<!ELEMENT rear     - -  (%rr;) >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT remarks     - o  (%text;)   -(%exclus;) >
+
+
+<!ELEMENT removepg     - o  (#PCDATA) >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT reportoferrors     - o  (para) >
+<!ATTLIST reportoferrors     %para0att; >
+
+<!-- Added new REPRO element, 013195, Bill Bernickus -->
+
+<!ELEMENT repro     - o  (#PCDATA) >
+
+<!ELEMENT revnum     - o  (#PCDATA) >
+
+<!ELEMENT rev-video		- - (#PCDATA) >
+
+
+<!-- Applicref added 022595 by Bill Bernickus.  Changelevel added 102594 by 
+  Bill Bernickus and Larry Howard 
+  Row end tag changed to required - 112296 by Beatrcie Falkler--> 
+
+<!ELEMENT row     - -  (entry | entrytbl)+ >
+<!ATTLIST row     rowsep %yesorno; #IMPLIED
+                  valign (top | bottom | middle) #IMPLIED
+		  chglevel NMTOKEN #IMPLIED
+		  applicref IDREFS #IMPLIED >
+
+
+<!ELEMENT safesum     - -  (%safesum;)   +(figure | table |
+                                           warning | caution |
+                                           precaut) >
+<!ATTLIST safesum     %para0att; >
+
+
+<!-- seal element (NAVY only) replaced by new coverart element -->
+<!-- Added tocentry attribute to section to turn on and off toc usage.  KKJ 051206 -->
+
+<!ELEMENT section     - -  (%sect;) >
+<!ATTLIST section     %sectatt;
+									 	  tocitem (0 | 1) '1' >
+
+
+<!-- seqlist added to support ATCOM legacy data 062594 by Larry Howard.  Changed to 
+  allow for multiple warnings 013095 by Bill Bernickus.  Changed again to allow for 
+  nesting of new seqlist2 element or randlist in a seqlist  021695 by Bill Bernickus 
+  Someday if time, may want to experiment with how occurrence requirements for ITEM element in 
+  seqlist and seqlist2; Onimark parsing
+  of the DTD at MICOM uncovered possible ambiguities.  Weird legacy data probably driving
+ the train on this, 070795, Bill Bernickus.
+ rndlist2 element added to allow for legacy data situations; also attempting to fix 
+  Omnimark problems discussed above 
+072195 by Bill Bernickus -->
+
+<!--seqlist and seqlist2 modified to allow for multiple cautions or notes by 
+  Beatrice Falkler 061296
+    seqlist modified to allow figure in a seqlist by Beatrice Falkler 071796.
+    seqlist and seqlist2 modified to allow for a single item element rather than
+  forcing multiple item elements 090998 by Garien Storm -->
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT seqlist     - - (title?, item, (item | (seqlist2? | randlist? | warning* | caution* | 
+                          figure | note*)+)*) > 
+<!ATTLIST seqlist     prefix CDATA #IMPLIED 
+                      numstyle (arabic | romanuc | romanlc | 
+                      alphauc | alphalc) #IMPLIED
+                      %bodyatt; >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT seqlist2     - - (title?, item, (item | (rndlist2? | warning* | caution* | note*)+)*) > 
+<!ATTLIST seqlist2     prefix CDATA #IMPLIED 
+                      numstyle (arabic | romanuc | romanlc | 
+                      alphauc | alphalc) #IMPLIED
+                      %bodyatt; >
+
+<!-- End of add -->
+
+<!ELEMENT seqno     - o  (#PCDATA) >
+
+<!-- Removed %change; and %secur; attribute for cleanup purposes. KKJ 082905 -->
+<!ELEMENT serno     - o  (%text;)   -(%exclus;) >
+
+
+<!ELEMENT spanspec     - o  EMPTY >
+<!ATTLIST spanspec     namest NMTOKEN #REQUIRED  -- used to be colst --
+                       nameend NMTOKEN #REQUIRED -- used to be colend --
+                       spanname NMTOKEN #IMPLIED -- used to be spanid --
+                       align (left | right | center | justify |
+                              char) "center"
+                       charoff NUTOKEN #IMPLIED
+                       char CDATA #IMPLIED
+                       colsep %yesorno; #IMPLIED
+                       rowsep %yesorno; #IMPLIED >
+
+
+<!-- Modified 061396 by Beatrice Falkler to allow randlist in steps.
+     Modified 112296 by Beatrice Falkler to make end tags for steps required.
+     Modified 090998 by Garien Storm to allow seqlist in steps -->
+<!ELEMENT step1     - -  (%stepcon;, (step2, step2+)?, seqlist*, randlist*) >
+<!ATTLIST step1     %stepatt; >
+
+<!ELEMENT step2     - -  (%stepcon;, (step3, step3+)?, seqlist*, randlist*) >
+<!ATTLIST step2     %stepatt; >
+
+<!ELEMENT step3     - -  (%stepcon;, (step4, step4+)?, seqlist*, randlist*) >
+<!ATTLIST step3     %stepatt; >
+
+<!ELEMENT step4     - -  (%stepcon;, (step5, step5+)?, seqlist*, randlist*) >
+<!ATTLIST step4     %stepatt; >
+
+<!-- Added step5 element, Bill Bernickus, 103194 -->
+<!ELEMENT step5     - -  (%stepcon;) >
+<!ATTLIST step5     %stepatt; >
+
+<!-- Added sub-entry1, sub-entry2, subentry3, sub-entry4 to allow indenture in the index Allissa Leach 11 July 2008 -->
+
+<!ELEMENT sub-entry1 - o (topic, pageno*,sub-entry2*)>
+<!ELEMENT sub-entry2 - o (topic, pageno*,sub-entry3*)>
+<!ELEMENT sub-entry3 - o (topic, pageno*,sub-entry4*)>
+<!ELEMENT sub-entry4 - o (topic, pageno*)>
+
+<!-- Changed definitions of figure, subfigure, and macrograph to make figtitle required and to move the location of the figtile to the bottom of each of the three elements, 011195, Bill Bernickus -->
+<!-- Removed inschlvl NMTOKEN #IMPLIED and delchlvl NMTOKEN #IMPLIED and %secur; for cleanup purposes. KKJ 082905 -->
+                     
+<!ELEMENT subfig     - -  ((graphic, figtitle?) | macrograph) >
+<!ATTLIST subfig     orient (port | land1 ) 'port' >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT subject     - o  (#PCDATA) >
+
+
+<!ELEMENT subjinfo     - o  EMPTY >
+<!ATTLIST subjinfo     subjup CDATA #REQUIRED
+                       subjlwr CDATA #REQUIRED
+                       infoup CDATA #REQUIRED
+                       infolwr CDATA #REQUIRED >
+
+<!-- End tags for all subpara levels changed from optional to required
+     22 November 1996 by Beatrice Falkler --> 
+<!-- Created new attribute "idxentry" for correct styling of index when no data is entered in the <title> field.  04/24/07 KKJ -->
+
+<!ELEMENT subpara1     - -  (%nparcon;, subpara2*) >
+<!ATTLIST subpara1     %sub1att;
+													idxentry %yesorno; "1" >
+
+
+<!ELEMENT subpara2     - -  (%nparcon1;, subpara3*) >
+<!ATTLIST subpara2     %sub2att; >
+
+<!-- New elements subpara4, subpara5, subpara6, and subpara7 added
+     22 November 1996 by Beatrice Falkler --> 
+
+<!ELEMENT subpara3     - -  (%nparcon1;, subpara4*) >
+<!ATTLIST subpara3     %sub3att; >
+
+
+<!ELEMENT subpara4     - -  (%nparcon1;, subpara5*) >
+<!ATTLIST subpara4     %sub4att; >
+
+
+<!ELEMENT subpara5     - -  (%nparcon1;, subpara6*) >
+<!ATTLIST subpara5     %sub5att; >
+
+
+<!ELEMENT subpara6     - -  (%nparcon1;, subpara7*) >
+<!ATTLIST subpara6     %sub6att; >
+
+<!ELEMENT subpara7     - -  (%nparcon1;) >
+<!ATTLIST subpara7     %sub7att; >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT subtitle     - -  (#PCDATA) >
+
+
+<!ELEMENT supersed     - o  (#PCDATA) >
+<!ATTLIST supersed     location	(bottom | top) "bottom" >
+
+<!ELEMENT suppl     - o  (#PCDATA) >
+
+<!ELEMENT symsect     - o  (%symsect;) >
+<!ATTLIST symsect     termwidth NUTOKEN "0.75in"
+                      %para0att; >
+
+<!-- Added table footnote elements as inclusions for table, 061495, Bill Bernickus -->
+
+<!ELEMENT table     - -  (%tabl;)   -(%exclus;)  +(tfnid | tfnref | tfndisplay) >
+<!ATTLIST table     %tabatts; >
+
+<!-- Removed <!ATTLIST tablelist %verified;> attribute for cleanup purposes. KKJ 082905 -->
+<!ELEMENT tablelist     - o  EMPTY >
+<!ATTLIST tablelist		manualtag (yes | no) "no" > 
+
+  
+<!ELEMENT tbody     - o  (row+) >
+<!ATTLIST tbody     valign (top | middle | bottom) "top" >
+
+
+<!ELEMENT tctolist     - -  (%parazero;, subpara1*, tctotbl?) >
+<!ATTLIST tctolist     %para0att; >
+
+<!-- Removed %change; attribute for cleanup purposes. KKJ 082905 -->
+<!ELEMENT tctono     - o  (#PCDATA)   -(%exclus;) >
+
+<!-- Removed %change; attribute for cleanup purposes. KKJ 082905 -->
+<!ELEMENT tctorow     - o  (tctono, title, date) >
+
+<!-- Removed %verified; %secur; and revchg %yesorno; "0" attributes for cleanup purposes. KKJ 082905 -->
+<!ELEMENT tctotbl     - -  (tctorow+) >
+<!ATTLIST tctotbl     frame (top | bottom | topbot | all |
+                             sides | none) "all"
+                      colsep %yesorno; "1"
+                      rowsep %yesorno; "0"
+                      cellcont (Continued | Cont) "Continued"
+                      xid ID #IMPLIED
+                      col1width CDATA "1in"
+                      col2width CDATA #FIXED "*"
+                      col3width CDATA #FIXED "8em"
+                      %bodyatt; >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT term     - o  (%text;)   -(%exclus;) >
+
+
+<!ELEMENT tgroup     - o  (colspec*, spanspec*, thead?, tbody) >
+<!ATTLIST tgroup     cols NUMBER #REQUIRED
+                     tgroupstyle NMTOKEN #IMPLIED
+                     colsep %yesorno; #IMPLIED
+                     rowsep %yesorno; #IMPLIED
+                     align (left | right | center | justify |
+                            char) "left"
+                     charoff NUTOKEN #IMPLIED
+                     char CDATA #IMPLIED >
+
+
+<!ELEMENT thead     - -  (colspec*, row+)   -(entrytbl) >
+<!ATTLIST thead     valign (top | middle | bottom) "bottom" >
+
+
+<!-- Edited title tag to add wcnid and wcnref attributes for referencing 
+									warning, caution and note titles. KKJ 071404 -->
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT title     - -  (%text;)   -(%exclus;) >
+<!ATTLIST title wcnid ID #IMPLIED 
+								wcnref IDREFS #IMPLIED
+								%spacingatt;
+								%change; >
+
+<!-- Added tmno for use in chginssht so ever-changing tm numbers may be displayed to match legacy data. KKJ 032310 -->
+<!ELEMENT tmno     - -  (%text;)   -(%exclus;) >
+
+<!-- Removed %change; and %secur; attributes for cleanup purposes. KKJ 082905 -->
+<!ELEMENT tmidno     - -  (%text;)   -(%exclus;) >
+<!ATTLIST tmidno     service %service; #IMPLIED >
+
+
+<!ELEMENT tmimprep     - -  (%parazero;, subpara1*) >
+<!ATTLIST tmimprep     %para0att; >
+
+<!-- Added topic as part of the index Allissa Leach 11 July 2008--> 
+<!-- Changed #PCDATA to %text so rev-video, change, emphasis, etc. are available within it.  Karen Junkin 20 Oct 2008 -->
+
+<!ELEMENT topic - o (%text) >
+
+<!ELEMENT totalpgs	- - (#PCDATA) >
+
+<!ELEMENT tpdr     - -  (activity, tpdrno, location)+ >
+
+<!-- Removed  and %secur for attribute on tpdrno, typedes, typeno and verbatim for cleanup process. KKJ 093005 -->
+<!ELEMENT tpdrno     - o  (#PCDATA) >
+
+<!-- Removed  and %secur for attribute cleanup process. KKJ 093005 -->
+<!ELEMENT typedes     - o  (%text;)   -(%exclus;) >
+
+<!ELEMENT typeno     - o  (%text;)   -(%exclus;) >
+
+<!ELEMENT verbatim     - -  CDATA >
+<!ATTLIST verbatim     allowbrk %yesorno; "1" >
+
+
+<!ELEMENT verstat     - o  EMPTY >
+
+<!ELEMENT volnot     - o  (#PCDATA) >
+
+<!ELEMENT volnum     - o  (#PCDATA) >
+
+<!ELEMENT volume     - -  ((docpart, docpart+) | ((front |
+                            auxfront), body, rear?)) +(pgbrk | brk | subjinfo) >
+<!ATTLIST volume     %bodyatt; >
+
+
+<!-- Added attribute to turn off warning header for legacy purposes  KKJ 041405 -->
+<!-- Removed %change; attribute for cleanup purposes. KKJ 082905 -->
+<!ELEMENT warning      - -  (icon?, title?, para*)   -( %exclus; |
+                             warning | caution | precaut) >
+<!ATTLIST warning     wcnref IDREFS #IMPLIED
+                      show-header (0 | 1) "1"
+                      centered-para %yesorno; #IMPLIED
+														%spacingatt; >
+
+<!-- Optional warning, caution, note added to definition of warnpage to allow for 
+DMWRs which have boilerplate definitions of each of these icons on the warning page.  
+This is being handled as a declared public entity. -->
+<!-- Added wpgcaution to allow older books to list caution notices following the
+wpgentry listing.  KKJ 06-07-04 -->
+
+<!-- Removed %verified;, inschlvl NMTOKEN #IMPLIED and delchlvl NMTOKEN #IMPLIED attributes for cleanup purposes. KKJ 082905 
+Added title and para for intro information. KKJ 052206 -->
+<!-- Changed para? to be para* to match legacy data during conversions. 08 feb 2008 KKJ -->
+<!ELEMENT warnpage     - o  (title?, (table | para)*, warning?, caution?, note?, wpgentry+, wpgcaution*) >
+
+<!-- Removed %change; attribute for cleanup purposes. KKJ 082905 -->
+<!ELEMENT wpgcaution	 - o (title?, para*)   -(%list; | %exclus; | warning | caution | precaut) >
+<!ATTLIST wpgcaution   wcnref IDREFS #IMPLIED 
+												 centered-para %yesorno; #IMPLIED>
+
+<!-- Added warning exclusions for wpgentry element, Bill Bernickus, 020195 --> 
+
+<!ELEMENT wpgentry     - o  (icon?, title?, (para | randlist | table)+)  -(seqlist | figure |
+                                              foldout | precaut | warning | caution )>
+<!ATTLIST wpgentry     warnbox %yesorno; "1"
+                       centered-para %yesorno; #IMPLIED >
+
+
+<!ELEMENT xref     - o  EMPTY >
+<!ATTLIST xref     xref IDREF #REQUIRED >

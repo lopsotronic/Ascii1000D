@@ -1,0 +1,63 @@
+Log filename: "\\redsaupa0ptcpe\custom\doctypes\atcom\atcom7.log"
+Document type compile date: Mon Oct 31 08:44:29 2016
+Version "PTC Arbortext Architect 7.0 M030 June 17, 2016"   R70M030-1169
+Platform: Windows Server 2008 R2 Enterprise Service Pack 1
+
+Host: REDSAUPA0PE60   Login: allissa.leach
+
+Catalog path: "\\redsaupa0ptcpe\custom\doctypes\atcom;D:\AMCOM-Pubs\Users\allissa.leach\mycustom\doctypes;C:\Program Files\PTC\Arbortext Editor\doctypes;C:\Program Files\PTC\Arbortext Editor\application\com.arbortext.dita\doctypes;C:\Program Files\PTC\Arbortext Editor\doctypes;"
+
+
+Update (.ptd file written) or Validate (.ptd file not written): Update
+XML or SGML Application: SGML
+Force Compile: Yes
+Top level element: doc
+Public ID: (not specified)
+DTD Path: "\\redsaupa0ptcpe\custom\doctypes\atcom\atcom.dtd"
+PTD Path: "\\redsaupa0ptcpe\custom\doctypes\atcom\atcom.ptd"
+ATI Tag Path: "C:\Program Files\PTC\Arbortext Editor\lib\dtgen\atitag.cf"
+Message File Path: (not specified)
+SGML Declaration Path: (specified) using "\\redsaupa0ptcpe\custom\doctypes\atcom\Default.txt"
+
+Entity Name: %ISOgrk3
+Public Identifier: "ISO 8879:1986//ENTITIES Greek Symbols//EN"
+System Identifier: (none)
+Resolved Path: "\\redsaupa0ptcpe\custom\entities\iso-grk3.gml"
+Catalog File: "\\redsaupa0ptcpe\custom\doctypes\atcom\catalog"
+
+Entity Name: %ISOlat1
+Public Identifier: "ISO 8879:1986//ENTITIES Added Latin 1//EN"
+System Identifier: (none)
+Resolved Path: "\\redsaupa0ptcpe\custom\entities\iso-lat1.gml"
+Catalog File: "\\redsaupa0ptcpe\custom\doctypes\atcom\catalog"
+
+Entity Name: %ISOnum
+Public Identifier: "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN"
+System Identifier: (none)
+Resolved Path: "\\redsaupa0ptcpe\custom\entities\iso-num.gml"
+Catalog File: "\\redsaupa0ptcpe\custom\doctypes\atcom\catalog"
+
+Entity Name: %ISOpub
+Public Identifier: "ISO 8879:1986//ENTITIES Publishing//EN"
+System Identifier: (none)
+Resolved Path: "\\redsaupa0ptcpe\custom\entities\iso-pub.gml"
+Catalog File: "\\redsaupa0ptcpe\custom\doctypes\atcom\catalog"
+
+Entity Name: %ISOtech
+Public Identifier: "ISO 8879:1986//ENTITIES General Technical//EN"
+System Identifier: (none)
+Resolved Path: "\\redsaupa0ptcpe\custom\entities\iso-tech.gml"
+Catalog File: "\\redsaupa0ptcpe\custom\doctypes\atcom\catalog"
+
+Entity Name: %ISOamsa
+Public Identifier: "ISO 8879:1986//ENTITIES Added Math Symbols: Arrow Relations//EN"
+System Identifier: (none)
+Resolved Path: "\\redsaupa0ptcpe\custom\entities\iso-amsa.gml"
+Catalog File: "\\redsaupa0ptcpe\custom\doctypes\atcom\catalog"
+
+Entity Name: %ISOamsb
+Public Identifier: "ISO 8879:1986//ENTITIES Added Math Symbols: Binary Operators//EN"
+System Identifier: (none)
+Resolved Path: "\\redsaupa0ptcpe\custom\entities\iso-amsb.gml"
+Catalog File: "\\redsaupa0ptcpe\custom\doctypes\atcom\catalog"
+

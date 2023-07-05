@@ -1,0 +1,1388 @@
+<?xml-stylesheet href="test-TM.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="test-TM.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN"
+ "atcom.dtd" [
+<!ENTITY bannersignaturespacer SYSTEM "P:\Graphics\_Standard symbols\banner signature spacer.tif" NDATA tif>
+<!ENTITY ms030867 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030867.tif" NDATA tif>
+<!ENTITY ms030866 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030866.tif" NDATA tif>
+<!ENTITY ms030865 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030865.tif" NDATA tif>
+<!ENTITY ms030864 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030864.tif" NDATA tif>
+<!ENTITY ms030863 SYSTEM "P:\TM1-1500-250-23\graphics\ms030863.tif" NDATA tif>
+<!ENTITY ms030862 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030862.tif" NDATA tif>
+<!ENTITY ms030861 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030861.tif" NDATA tif>
+<!ENTITY ms030860 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030860.tif" NDATA tif>
+<!ENTITY ms030859 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030859.tif" NDATA tif>
+<!ENTITY ms030858 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030858.tif" NDATA tif>
+<!ENTITY ms030857 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030857.tif" NDATA tif>
+<!ENTITY ms030856 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030856.tif" NDATA tif>
+<!ENTITY ms030855 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030855.tif" NDATA tif>
+<!ENTITY graphic4-9deleted SYSTEM "P:\Graphics\TM1-1500-250-23\4-9 deleted.tif" NDATA tif>
+<!ENTITY ms030854 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030854.tif" NDATA tif>
+<!ENTITY ms030853 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030853.tif" NDATA tif>
+<!ENTITY ms030852 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030852.tif" NDATA tif>
+<!ENTITY ms030851 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030851.tif" NDATA tif>
+<!ENTITY ms030850 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030850.tif" NDATA tif>
+<!ENTITY ms030849 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030849.tif" NDATA tif>
+<!ENTITY ms030848 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030848.tif" NDATA tif>
+<!ENTITY ms030847 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030847.tif" NDATA tif>
+<!ENTITY ms030846 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030846.tif" NDATA tif>
+<!ENTITY ms030845 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030845.tif" NDATA tif>
+<!ENTITY ms030844 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030844.tif" NDATA tif>
+<!ENTITY ms030868 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030868.tif" NDATA tif>
+<!ENTITY ms030843 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030843.tif" NDATA tif>
+<!ENTITY ms030842 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030842.tif" NDATA tif>
+<!ENTITY ms030841 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030841.tif" NDATA tif>
+<!ENTITY graphic3-5deleted SYSTEM "P:\Graphics\TM1-1500-250-23\3-5 deleted.tif" NDATA tif>
+<!ENTITY graphic3-3adeleted SYSTEM "P:\Graphics\TM1-1500-250-23\3-3a deleted.tif" NDATA tif>
+<!ENTITY ms030840 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030840.tif" NDATA tif>
+<!ENTITY ignore SYSTEM "P:\Graphics\TM1-1500-250-23\ignore.tif" NDATA tif>
+<!ENTITY ms030839 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030839.tif" NDATA tif>
+<!ENTITY ms030838 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030838.tif" NDATA tif>
+<!ENTITY ms030837 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030837.tif" NDATA tif>
+<!ENTITY ms030836 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030836.tif" NDATA tif>
+<!ENTITY ms030835 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030835.tif" NDATA tif>
+<!ENTITY ms030834 SYSTEM "P:\Graphics\TM1-1500-250-23\ms030834.tif" NDATA tif>
+<!ENTITY availability SYSTEM "\\epic-pubs\amcom-pubs\Common\Boilerplates\Availability.txt">
+<!ENTITY warningicon_fire2 SYSTEM "P:\Graphics\_Standard symbols\Warning icons\warningicon_fire2.tif" NDATA tif>
+<!ENTITY warningicon_earprotection SYSTEM "P:\Graphics\_Standard symbols\Warning icons\warningicon_earprotection.tif" NDATA tif>
+<!ENTITY warningicon_cryogenic SYSTEM "\\pubs\amcom-pubs\Graphics\_Standard symbols\Warning icons\warningicon_cryogenic.tif" NDATA tif>
+<!ENTITY empty_square SYSTEM "\\epic-pubs\amcom-pubs\Graphics\_Standard symbols\empty_square.tif" NDATA tif>
+<!ENTITY need_a_graphic SYSTEM "\\epic-pubs\amcom-pubs\Graphics\_Standard symbols\need_a_graphic.tif" NDATA tif>
+<!ENTITY need-a-graphic1 SYSTEM "\\epic-pubs\amcom-pubs\Graphics\_Standard symbols\need-a-graphic.eps" NDATA eps>
+<!NOTATION eps SYSTEM "eps">
+<!ENTITY ms023285 SYSTEM "P:\Graphics\TM55-1520-210-23-3\ms023285.tif" NDATA tif>
+<!ENTITY b0200801 SYSTEM "P:\Graphics\TM55-1520-210-23P-1\ms025481.tif" NDATA tif>
+<!ENTITY b0301001 SYSTEM "graphics\tif\b0301001.tif" NDATA fax>
+<!ENTITY b0301101 SYSTEM "graphics\tif\b0301101.tif" NDATA fax>
+<!ENTITY b0301201 SYSTEM "graphics\tif\b0301201.tif" NDATA fax>
+<!ENTITY b0301301 SYSTEM "graphics\tif\b0301301.tif" NDATA fax>
+<!ENTITY b0301501 SYSTEM "graphics\tif\b0301501.tif" NDATA fax>
+<!ENTITY b0400101 SYSTEM "graphics\tif\b0400101.tif" NDATA fax>
+<!ENTITY triang1 SYSTEM "graphics\tif\triang1.tif" NDATA fax>
+<!ENTITY b0400201 SYSTEM "graphics\tif\b0400201.tif" NDATA fax>
+<!ENTITY triang2 SYSTEM "graphics\tif\triang2.tif" NDATA fax>
+<!ENTITY b0400301 SYSTEM "graphics\tif\b0400301.tif" NDATA fax>
+<!ENTITY b0400401 SYSTEM "graphics\tif\b0400401.tif" NDATA fax>
+<!ENTITY b0400501 SYSTEM "graphics\tif\b0400501.tif" NDATA fax>
+<!ENTITY b0400601 SYSTEM "graphics\tif\b0400601.tif" NDATA fax>
+<!ENTITY b0400701 SYSTEM "graphics\tif\b0400701.tif" NDATA fax>
+<!ENTITY b0400801 SYSTEM "graphics\tif\b0400801.tif" NDATA fax>
+<!ENTITY b0400901 SYSTEM "graphics\tif\b0400901.tif" NDATA fax>
+<!ENTITY b0401001 SYSTEM "graphics\tif\b0401001.tif" NDATA fax>
+<!ENTITY b0401101 SYSTEM "graphics\tif\b0401101.tif" NDATA fax>
+<!ENTITY b0401201 SYSTEM "graphics\tif\b0401201.tif" NDATA fax>
+<!ENTITY triang3 SYSTEM "graphics\tif\triang3.tif" NDATA fax>
+<!ENTITY empty SYSTEM "graphics\tif\empty.tif" NDATA fax>
+<!ENTITY b0401501 SYSTEM "graphics\tif\b0401501.tif" NDATA fax>
+<!ENTITY b0401601 SYSTEM "graphics\tif\b0401601.tif" NDATA fax>
+<!ENTITY b0401701 SYSTEM "graphics\tif\b0401701.tif" NDATA fax>
+<!ENTITY triang4 SYSTEM "graphics\tif\triang4.tif" NDATA fax>
+<!ENTITY triang5 SYSTEM "graphics\tif\triang5.tif" NDATA fax>
+<!ENTITY b0401901 SYSTEM "graphics\tif\b0401901.tif" NDATA fax>
+<!ENTITY b0402001 SYSTEM "graphics\tif\b0402001.tif" NDATA fax>
+<!ENTITY b0402101 SYSTEM "graphics\tif\b0402101.tif" NDATA fax>
+<!ENTITY b0402201 SYSTEM "graphics\tif\b0402201.tif" NDATA fax>
+<!ENTITY b0402301 SYSTEM "graphics\tif\b0402301.tif" NDATA fax>
+<!ENTITY b0402401 SYSTEM "graphics\tif\b0402401.tif" NDATA fax>
+<!ENTITY b0402501 SYSTEM "graphics\tif\b0402501.tif" NDATA fax>
+<!ENTITY b0402701 SYSTEM "graphics\tif\b0402701.tif" NDATA fax>
+<!ENTITY b0402801 SYSTEM "graphics\tif\b0402801.tif" NDATA fax>
+<!ENTITY b0402901 SYSTEM "graphics\tif\b0402901.tif" NDATA fax>
+<!ENTITY b0403001 SYSTEM "graphics\tif\b0403001.tif" NDATA fax>
+<!ENTITY b0403101 SYSTEM "graphics\tif\b0403101.tif" NDATA fax>
+<!ENTITY b0403201 SYSTEM "graphics\tif\b0403201.tif" NDATA fax>
+<!ENTITY b0403301 SYSTEM "graphics\tif\b0403301.tif" NDATA fax>
+<!ENTITY b0403501 SYSTEM "graphics\tif\b0403501.tif" NDATA fax>
+<!ENTITY b0403601 SYSTEM "graphics\tif\b0403601.tif" NDATA fax>
+<!ENTITY b0403701 SYSTEM "graphics\tif\b0403701.tif" NDATA fax>
+<!ENTITY b0403801 SYSTEM "graphics\tif\b0403801.tif" NDATA fax>
+<!ENTITY b0404001 SYSTEM "graphics\tif\b0404001.tif" NDATA fax>
+<!ENTITY b0404101 SYSTEM "graphics\tif\b0404101.tif" NDATA fax>
+<!ENTITY b0404201 SYSTEM "graphics\tif\b0404201.tif" NDATA fax>
+<!ENTITY b0404301 SYSTEM "graphics\tif\b0404301.tif" NDATA fax>
+<!ENTITY b0404401 SYSTEM "graphics\tif\b0404401.tif" NDATA fax>
+<!ENTITY b0500101 SYSTEM "graphics\tif\b0500101.tif" NDATA fax>
+<!ENTITY b0500201 SYSTEM "graphics\tif\b0500201.tif" NDATA fax>
+<!ENTITY b0500301 SYSTEM "graphics\tif\b0500301.tif" NDATA fax>
+<!ENTITY b0500401 SYSTEM "graphics\tif\b0500401.tif" NDATA fax>
+<!ENTITY b0500501 SYSTEM "graphics\tif\b0500501.tif" NDATA fax>
+<!ENTITY b0500701 SYSTEM "graphics\tif\b0500701.tif" NDATA fax>
+<!ENTITY b0500901 SYSTEM "graphics\tif\b0500901.tif" NDATA fax>
+<!ENTITY b0501001 SYSTEM "graphics\tif\b0501001.tif" NDATA fax>
+<!ENTITY b0501101 SYSTEM "graphics\tif\b0501101.tif" NDATA fax>
+<!ENTITY b0501201 SYSTEM "graphics\tif\b0501201.tif" NDATA fax>
+<!ENTITY b0501301 SYSTEM "graphics\tif\b0501301.tif" NDATA fax>
+<!ENTITY b0501401 SYSTEM "graphics\tif\b0501401.tif" NDATA fax>
+<!ENTITY b0501501 SYSTEM "graphics\tif\b0501501.tif" NDATA fax>
+<!ENTITY b0501601 SYSTEM "graphics\tif\b0501601.tif" NDATA fax>
+<!ENTITY b0501701 SYSTEM "graphics\tif\b0501701.tif" NDATA fax>
+<!ENTITY b0501801 SYSTEM "graphics\tif\b0501801.tif" NDATA fax>
+<!ENTITY b0501901 SYSTEM "graphics\tif\b0501901.tif" NDATA fax>
+<!ENTITY b0502001 SYSTEM "graphics\tif\b0502001.tif" NDATA fax>
+<!ENTITY b0502101 SYSTEM "graphics\tif\b0502101.tif" NDATA fax>
+<!ENTITY b0502201 SYSTEM "graphics\tif\b0502201.tif" NDATA fax>
+<!ENTITY b0502301 SYSTEM "graphics\tif\b0502301.tif" NDATA fax>
+<!ENTITY spring SYSTEM "graphics\tif\spring.tif" NDATA fax>
+<!ENTITY b0502401 SYSTEM "graphics\tif\b0502401.tif" NDATA fax>
+<!ENTITY b0502501 SYSTEM "graphics\tif\b0502501.tif" NDATA fax>
+<!ENTITY b0503001 SYSTEM "graphics\tif\b0503001.tif" NDATA fax>
+<!ENTITY b0503101 SYSTEM "graphics\tif\b0503101.tif" NDATA fax>
+<!ENTITY b0503201 SYSTEM "graphics\tif\b0503201.tif" NDATA fax>
+<!ENTITY b0503301 SYSTEM "graphics\tif\b0503301.tif" NDATA fax>
+<!ENTITY b0101201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0101201.tif" NDATA tif>
+<!ENTITY b0103201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0103201.tif" NDATA tif>
+<!ENTITY b0200008 SYSTEM "\\pubs\amcom-pubs\Graphics\DMWR1-1650-358\b0200008.tif" NDATA tif>
+<!ENTITY b0101401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0101401.tif" NDATA tif>
+<!ENTITY b0101301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0101301.tif" NDATA tif>
+<!ENTITY b0103001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0103001.tif" NDATA tif>
+<!ENTITY b0102001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0102001.tif" NDATA tif>
+<!ENTITY boatdraw SYSTEM "\\pubs\amcom-pubs\Graphics\boatdraw.tif" NDATA tif>
+<!ENTITY atilogo SYSTEM "\\pubs\amcom-pubs\Graphics\atilogo.gif" NDATA gif>
+<!ENTITY arches2 SYSTEM "\\pubs\amcom-pubs\graphics\arches.bmp" NDATA bmp>
+<!ENTITY arches1 SYSTEM "\\pubs\amcom-pubs\Graphics\arches.gif" NDATA gif>
+<!ENTITY arches SYSTEM "\\pubs\amcom-pubs\Graphics\arches.bmp" NDATA bmp>
+<!ENTITY triangleb SYSTEM "P:\Graphics\_Standard symbols\Triangles with letters\triangle_B.tif" NDATA tif>
+<!ENTITY nothing SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\nothing.jpg" NDATA jpg>
+<!ENTITY box SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\box.jpg" NDATA jpg>
+<!ENTITY ms022467 SYSTEM "P:\Graphics\DMWR 1-1520-240\ms022467.cgm" NDATA cgm>
+<!ENTITY distrd-foreigngov SYSTEM "P:\Common\Distribution Stmts\distrD-foreigngov.txt">
+<!ENTITY distrc-software SYSTEM "P:\Common\Distribution Stmts\distrC-software.txt">
+<!ENTITY face SYSTEM "P:\Graphics\face.gif" NDATA gif>
+<!ENTITY moonrove SYSTEM "P:\Graphics\saw.tif" NDATA tif>
+<!ENTITY home SYSTEM "P:\Graphics\home.gif" NDATA gif>
+<!ENTITY dtduck3 SYSTEM "P:\Graphics\dtduck3.gif" NDATA gif>
+<!ENTITY bull1 SYSTEM "P:\Graphics\bull.gif" NDATA gif>
+<!ENTITY bulldoze SYSTEM "P:\Graphics\bulldoze.tif" NDATA tif>
+<!ENTITY need-a-graphic SYSTEM "\\pubs\amcom-pubs\Graphics\need_a_graphic.cgm" NDATA fax>
+<!ENTITY reperrors1 PUBLIC "reperrors1" NDATA cgm>
+<!NOTATION gif SYSTEM "gif">
+<!NOTATION bmp SYSTEM "bmp">
+<!ENTITY DSCN6688 SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\40bday\DSCN6688.JPG" NDATA jpg>
+<!ENTITY DSCN6684 SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\40bday\DSCN6684.jpg" NDATA jpg>
+<!NOTATION jpg SYSTEM "jpg">
+<!ENTITY b0100301 SYSTEM "\\pubs\AMCOM-Pubs\Graphics\dmwr 55-1680-341\b0100301.tif" NDATA tif>
+<!ENTITY b0203301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0203301.tif" NDATA tif>
+<!ENTITY b0202201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0202201.tif" NDATA tif>
+<!ENTITY b0202001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0202001.tif" NDATA tif>
+<!ENTITY b0201301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0201301.tif" NDATA tif>
+<!ENTITY b0201101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0201101.tif" NDATA tif>
+<!ENTITY b0201001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0201001.tif" NDATA tif>
+<!ENTITY b0200901 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200901.tif" NDATA tif>
+<!ENTITY b0200701 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200701.tif" NDATA tif>
+<!ENTITY b0200601 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200601.tif" NDATA tif>
+<!ENTITY b0200501 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200501.tif" NDATA tif>
+<!ENTITY b0200401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200401.tif" NDATA tif>
+<!ENTITY b0200301 SYSTEM "\\pubs\amcom-pubs\graphics\dmwr 55-1680-341\b0200301.tif" NDATA tif>
+<!ENTITY b0200201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200201.tif" NDATA tif>
+<!ENTITY b0200101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200101.tif" NDATA tif>
+<!ENTITY b0103301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0103301.tif" NDATA tif>
+<!ENTITY b0103101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0103101.tif" NDATA tif>
+<!ENTITY b0102901 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102901.tif" NDATA tif>
+<!ENTITY b0102801 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102801.tif" NDATA tif>
+<!ENTITY b0102701 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102701.tif" NDATA tif>
+<!ENTITY b0102601 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102601.tif" NDATA tif>
+<!ENTITY b0102501 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102501.tif" NDATA tif>
+<!ENTITY b0102401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102401.tif" NDATA tif>
+<!ENTITY b0102301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102301.tif" NDATA tif>
+<!ENTITY b0102201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102201.tif" NDATA tif>
+<!ENTITY b0102101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102101.tif" NDATA tif>
+<!ENTITY b0101901 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101901.tif" NDATA tif>
+<!ENTITY b0101801 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101801.tif" NDATA tif>
+<!ENTITY b0101701 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101701.tif" NDATA tif>
+<!ENTITY b0101601 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101601.tif" NDATA tif>
+<!ENTITY b0101501 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101501.tif" NDATA tif>
+<!ENTITY b0100401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0100401.tif" NDATA tif>
+<!ENTITY maintl "DEPOT MAINTENANCE WORK REQUIREMENT">
+<!ENTITY pubdate "30 APRIL 1986">
+]>
+<doc service="army" docid="1-1500-250-23" docstat="routine" columns="two"
+cover="1"><front><idinfo>
+<tmidno service="army"></tmidno>
+<doctype pubtype="tm">AVIATION UNIT AND AVIATION<brk> INTERMEDIATE
+MAINTENANCE<brk>FOR</doctype>
+<prtitle>
+<!--Deleted AH-1 and added /MH per email Ginda Roadruck dtd 12/28/06 12:37 PM.  LWP-->
+<nomen>GENERAL TIE-DOWN <brk>AND MOORING ON ALL SERIES<brk>ARMY MODELS<brk>AH-64<brk>UH-60<brk>CH/MH-47<brk>UH-1<brk>OH-58<brk>HELICOPTERS
+</nomen><?Pub Caret 20>
+</prtitle>
+<distrib type="a"> </distrib>
+<authnot>HEADQUARTERS, DEPARTMENT OF THE ARMY</authnot>
+<pubdate>24 August 1990</pubdate></idinfo>
+<chginssht><chgnum>5</chgnum><address>HEADQUARTERS<brk>DEPARTMENT
+OF THE ARMY<brk>WASHINGTON, D.C., </address><date>5 February 2008</date>
+<prtitle>
+<nomen>AVIATION UNIT AND AVIATION<brk>INTERMEDIATE MAINTENANCE<brk>for<brk> GENERAL
+TIE-DOWN<brk>AND MOORING ON ALL SERIES<brk>ARMY MODELS<brk>AH-64,
+UH-60, CH<change level="5">/MH</change>-47, UH-1, <!--Deleted AH-1 and added /MH per email Ginda Roadruck dtd 12/28/06 12:37 PM.  LWP-->AND
+OH-58 hELICOPTERS</nomen>
+<modelno></modelno>
+</prtitle>
+<distrib type="a"></distrib>
+<para> TM 1-1500-250-23, 24 August 1990, is changed as follows:</para>
+<brk>
+<para>1. The following pages are to be removed and inserted as noted:</para>
+<chglist>
+<removepg>1-1 thru 1-3</removepg><insertpg>1-1 thru 1-3</insertpg>
+</chglist>
+<para>2. Retain this sheet in front of manual for reference purposes.<graphic
+boardno="bannersignaturespacer" reprowid="1" reprodep="1"></para>
+<para>DISTRIBUTION: To be distributed in accordance with Initial Distribution
+(IDN) 312300, requirements for TM 1-1500-250-23.</para>
+</chginssht>
+<lep><para>Insert the latest changed pages in accordance with the
+instructions on the transmittal sheet. </para>
+<notepara>On a changed page, the portion of the text affected by the
+latest change is indicated by a vertical line in the outer margin
+of the page.  Changes to illustrations are indicated by a letter suffix
+adjacent to the identification number.  Added or completely revised
+chapters, sections, paragraphs, tables, etc., are indicated by a vertical
+line by the title.</notepara><changest level="5" mark="0"><chghistdate>30
+September 1992</chghistdate><chghistdate>31 August 1993</chghistdate>
+<chghistdate>31 August 1995</chghistdate><chghistdate>31 May 1999</chghistdate>
+<chghistdate>TBD</chghistdate><changeend level="5" mark="0"><totalpgs>1,234,567
+</totalpgs></lep>
+<reportoferrors>
+<para>You can improve this manual. If you find mistakes or if you
+know of a way to improve procedures, please let us know. Mail you
+letter or DA Form 2028 (Recommended Changes to Publications and Blank
+Forms) located in the back of this manual, directly to: Commander,
+U.S. Army Aviation and Missile Command, ATTN: AMSAM-MMC-MA-NP, Redstone
+Arsenal, AL 35898-5000. A reply will be furnished to you. You may
+also provide DA Form 2028 information to AMCOM via email, fax, or
+the World Wide Web. Our fax number is: DSN 788-6546 or Commercial
+256 842-6546. Our email address is: 2028@redstone.army.mil. Instructions
+for sending an electronic 2028 may be found at the back of this manual
+immediately preceding the hard copy 2028. For the World Wide Web use:
+https://amcom2028.redstone.army.mil. </para>
+</reportoferrors>
+<contents><changest level="5" mark="0">
+<illuslist><changeend level="5" mark="0"></front>
+<body>
+<chapter>
+<title>INTRODUCTION</title>
+<section>
+<title>GENERAL</title>
+<para0 xid="scope" tocitem="1">
+<title>Scope.</title>
+<brk><para>This manual supplements, clarifies, standardizes the tie-down
+and mooring procedures in the -23 Technical Manuals for all series
+AH-64, UH-60, CH<change level="5">/MH</change>-47, UH-1, <!--Deleted AH-1 per email Ginda Roadruck dtd 12/28/06 12:37 PM.  LWP-->and
+OH-58 helicopters to the maximum extent practical.</para>
+</para0>
+<para0 xid="maint_forms_records" tocitem="1">
+<title>Maintenance Forms and Records.</title>
+<brk><para>The maintenance forms and records which are required by
+personnel who perform the maintenance functions prescribed in this
+manual are listed in DAPAM 738-751.</para>
+</para0>
+<para0 xid="report_errors" tocitem="1">
+<title>Reporting Errors and Recommending Improvements.</title>
+<brk><para>You can improve this manual. If you find mistakes or if
+you know of a way to improve procedures, please let us know. Mail
+you letter or DA Form 2028 (Recommended Changes to Publications and
+Blank Forms)<change level="5">located in the back of this manual,
+directly to: Commander, U.S. Army Aviation and Missile Command, ATTN:
+AMSAM-MMC-MA-NP, Redstone Arsenal, AL 35898-5000. A reply will be
+furnished to you. You may also provide DA Form 2028 information to
+AMCOM via e-mail, fax, or the World Wide Web. Our fax number is: DSN
+788-6546 or Commercial 256 842-6546. Our e-mail address is: 2028@redstone.army.mil.
+Instructions for sending an electronic 2028 may be found at the back
+of this manual immediately preceding the hard copy 2028. For the World
+Wide Web use: https://amcom2028.redstone.army.mil.</change> </para>
+</para0>
+<para0 xid="conflicts_between_tms" tocitem="1">
+<title>Conflicts Between TMs.</title>
+<brk><para>When a conflict exists between this General TM and the
+aircraft specific -23 TMs, the Tie-Down and Mooring procedures described
+in this General TM shall be followed. The following TMs will be affected
+by this General TM:<table label="nonum" frame="none" pgwide="0">
+<title></title>
+<tgroup cols="2">
+<?PubTbl tgroup dispwid="3.00in">
+<colspec colname="col1" colwidth="1.30in"><colspec colname="col2"
+colwidth="1.68in">
+<tbody><row><entry colsep="0" rowsep="0">OH-58D</entry><entry colsep="0"
+rowsep="0">TM <change level="5">1</change>-1520-248-23</entry></row>
+<row><entry colsep="0" rowsep="0">OH-58A/C</entry><entry colsep="0"
+rowsep="0">TM 55-1520-228-23</entry></row><row><entry colsep="0"
+rowsep="0">AH-64</entry><entry colsep="0" rowsep="0">TM <change level="5">
+1</change>-1520-238-23</entry></row><row><entry colsep="0" rowsep="0"><changest
+level="5"><change level="5">Deleted</change></entry><entry colsep="0"
+rowsep="0"></entry></row><row><entry colsep="0" rowsep="0"><change
+level="5">Deleted</change><changeend level="5"></entry><entry colsep="0"
+rowsep="0"></entry></row><row><entry colsep="0" rowsep="0">UH-60</entry>
+<entry colsep="0" rowsep="0">TM <change level="5">1</change>-1520-237-23</entry>
+</row><row><entry colsep="0" rowsep="0">UH-1</entry><entry colsep="0"
+rowsep="0">TM 55-1520-210-23</entry></row><row><entry colsep="0"
+rowsep="0">CH/MH-47</entry><entry colsep="0" rowsep="0">TM <change
+level="5">1</change>-1520-240-23</entry></row></tbody>
+</tgroup>
+<!--Deleted AH-1 and added /MH per email Ginda Roadruck dtd 12/28/06 12:37 PM.  LWP-->
+</table></para>
+</para0>
+</section>
+<section>
+<title>DESCRIPTION <change level="5" mark="0">AND APPLICATION</change> </title>
+<para0 xid="necessity_of_tm" tocitem="1">
+<title>Necessity of TM.</title>
+<brk><para>This General TM became necessary because of the apparent
+ineffectiveness of past tiedown and mooring procedures. In the spring
+of 1989 Army aircraft at Ft. Hood and Ft. Polk experienced extensive
+and costly damage as a result of very high winds. In each instance,
+severe storm warnings had been issued and current procedures were
+followed within available time and capabilities. Despite these measures
+serious damage to aircraft and losses to the Army in combat readiness
+and resources occurred.</para>
+</para0>
+<para0 xid="army_policy" tocitem="1">
+<title>Army Policy.</title><para>The following Department of the Army
+policy has been established: when notified of the potential for severe
+windstorms in excess of 50 knots all Army aviation units will take
+the actions prescribed in this General TM.</para>
+<step1><para>If unable to evacuate to a safe haven, aircraft will
+be placed in hangars in the following priority; OH-58D/C/A, AH-64A,
+UH-60A, UH-I V/H, and CH-47 D/C. The priority for special operations
+aircraft is: MH/AH-6, MH-60, MH-47, and OH-6. For helicopter with
+more than two main rotor blades, if feasible, the blades will be removed
+or folded to maximize available hangar space.<!--Deleted AH-1 per email Ginda Roadruck dtd 12/28/06 12:37 PM.  LWP-->
+</para></step1>
+<step1><para>All aircraft remaining outside will be tied down and
+moored in accordance with appropriate procedures described in this
+General TM. When feasible, units will face the aircraft into the forecasted
+wind before mooring.</para></step1>
+<step1><para>Aviation units will also take additional protection measures
+to include use of all available shelters and/or artificial barriers
+such as revetments, berms, igloos, trucks, buses, tanks, armored carriers,
+etc.</para></step1>
+<step1><para>Army aircraft located in areas that experience severe
+windstorms will tie down blades after each flight and moor aircraft
+after the last flight of the day regardless of the weather forecast.
+If aircraft are not to be flown they shall be left tied down and moored</para>
+</step1>
+<step1><para>Every installation with Army aviation units will have
+secure mooring points for all assigned aircraft. Where points are
+not sufficient, installation engineers will take immediate action
+to install required mooring points.</para></step1>
+<step1><para>All units with assigned aircraft will ensure tie-down/mooring
+hardware, particular to each aircraft, is in good repair.</para></step1>
+<step1><para>The horizontal stabilator of the UH-60 and AH-64 aircraft
+are to be set in the neutral position (zero degrees).</para></step1>
+</para0>
+<para0 label="nonum">
+<note>
+<para><change level="4">If unable to conform to the configurations
+shown, contact AMCOM Engineering (DSN 897-4905) or comm. 256-313-4905
+for guidance.</change></para>
+</note>
+<title></title></para0>
+</section></chapter>
+<chapter xid="chap1">
+<title>HARDWARE AND AIRCRAFT REQUIREMENTS</title>
+<para0 xid="grid_pattern_layout" tocitem="1">
+<title>Grid Pattern Layout and Mooring Point Strength.</title><para>The
+grid pattern layout illustrating the 17 to 20 foot on center mooring
+points is depicted in figure <xref xref="mooring_pad_hrdpnt_spacing">. </para>
+<step1><para>This pattern readily accommodates all the helicopters
+in the army fleet and should be used as the standard for new mooring
+installations.</para></step1>
+<step1><para>The strength of each mooring point should be capable
+of reacting to the design loads depicted in figure <xref
+xref="mooring_pad_max_load_cond">.</para></step1></para0>
+<para0 xid="mooring_pad_marking" tocitem="1">
+<title>Mooring Pad Marking.</title><para>Marking the mooring pad to
+properly position the aircraft is recommended if the pad is to be
+used exclusively for one type of aircraft.</para>
+</para0>
+<para0 xid="gen_tools_equip" tocitem="1">
+<title>General Tools and Equipment.</title>
+<step1><para>All aircraft will use polyester rope for rotor blade
+tie-down. Refer to table <xref xref="mooring_hardware_consumables">.</para>
+<step2><para>Tie-down OH-58D as specified in the appropriate aircraft
+Technical Manual.</para></step2>
+<step2><para>Tie-down OH-58A/C as specified in the appropriate Technical
+Manual, except that two main rotor blade tie-down boots are required.</para>
+</step2>
+<step2><para>Tie-down AH-64 as specified in the appropriate Technical
+Manual. Ensure that the ropes are strong enough to allow the main
+rotor blades to be secured at the required locations.</para></step2>
+<step2><para>Tie-down UH-60 as specified in the appropriate Technical
+Manual.</para></step2>
+<step2><para><change level="5">Deleted.</change><!--Deleted old step 5 (AH-1) per email Ginda Roadruck dtd 12/28/06 12:37 PM.  LWP-->
+</para></step2>
+<step2><para>Tie-down UH-1 as specified in the appropriate Technical
+Manual, except that a forward main rotor blade tie-down strap is required.<!--Changed the word "specifiated" to "specified". LWP-->
+</para></step2>
+<step2><para>Tie-down CH<change level="5">/MH</change>-47 as specified
+in the appropriate Technical Manual.<!--Changed the word "specifed" to "specified". LWP--><!--Added /MH per email Ginda Roadruck dtd 12/28/06 12:37 PM.  LWP--
+></para></step2></step1>
+<step1><para>Tie-down and Mooring Equipment. Refer to table <xref
+xref="mooring_hardware_consumables">.</para><changest level="3">
+<step2><para><change level="3">Acquisition and maintenance of all
+required tie-down and mooring equipment is the responsibility of the
+aviation units.</change></para></step2>
+<step2><para><change level="3">The identified chain and chain adjuster
+shall be used as the primary mooring equipment for all helicopters
+when parked at their home installation and Army policy (per paragraph
+1-6) requires mooring. Exceptions to the use of mooring chains is
+only approved under special circumstances where chain has proven to
+be undesirable such as the crossover mooring on the CH/MH-47D.</change></para>
+</step2>
+<step2><para><change level="3">Mooring chains and chain adjusters
+are not considered flyaway equipment. The 10,000 pound capacity polyester
+mooring strap with ratchet buckle, NSN 5340-01-233-3063, is the identified
+flyaway which may be used when aircraft deployed away from their home
+station require mooring and chains are not available. The CGU-lB,
+5000 pound capacity nylon tie-down strap, NSN 1670-00-725-1437, is
+only authorized when hard stand mooring points available and the field
+mooring kit is used.</change></para></step2><changeend level="3">
+</step1></para0>
+<table frame="none" orient="land1" pgwide="1"
+xid="mooring_hardware_consumables">
+<title>Mooring Hardware and Consumables.</title>
+<!--Deleted AH-1 and added /MH after CH per email Ginda Roadruck dtd 12/28/06 12:37 PM.  LWP-->
+<tgroup cols="9">
+<?PubTbl tgroup dispwid="8.43in">
+<colspec colname="col1" colwidth="0.67in"><colspec colname="col2"
+colwidth="1.65in"><colspec colname="col3" colwidth="0.96in"><colspec
+colname="col4" colwidth="1.40in"><colspec colname="col5"
+colwidth="0.57in"><colspec colname="col7" colwidth="0.75in"><colspec
+colname="col8" colwidth="0.65in"><colspec colname="col9"
+colwidth="0.67in"><colspec colname="col10" colwidth="0.58in"><spanspec
+namest="col5" nameend="col10" spanname="span2"><spanspec namest="col2"
+nameend="col10" spanname="span1">
+<thead><row><entry colsep="0" rowsep="0" valign="top">ITEM</entry>
+<entry colsep="0" rowsep="0" valign="top" align="center">DESCRIPTION</entry>
+<entry colsep="0" rowsep="0" valign="top" align="center">P/N</entry>
+<entry colsep="0" rowsep="0" valign="top" align="center">NSN</entry>
+<entry spanname="span2" colsep="0" rowsep="0" valign="top" align="center">
+QUANTITY PER AIRCRAFT</entry></row><row><entry colsep="0" rowsep="0"
+valign="top"></entry><entry colsep="0" rowsep="0" valign="top"
+align="center"></entry><entry colsep="0" rowsep="0" valign="top"
+align="center"></entry><entry colsep="0" rowsep="0" valign="top"
+align="center"></entry><entry colsep="0" rowsep="0" valign="top"
+align="center">AH-64</entry><entry colsep="0" rowsep="0" valign="top"
+align="center">CH<change level="5">/MH</change>-47</entry><entry
+colsep="0" rowsep="0" valign="top" align="center">UH-60</entry><entry
+colsep="0" rowsep="0" valign="top" align="center">UH-1</entry><entry
+colsep="0" rowsep="0" valign="top" align="center">OH-58</entry></row>
+</thead>
+<tbody><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">1</entry><entry colsep="0" rowsep="0">CHAIN
+ADJUSTER<brk>(See figure <xref xref="mb1_chain_adj_assy">)</entry>
+<entry colsep="0" rowsep="0">MB-1<brk>MIL-T-25959</entry><entry
+colsep="0" rowsep="0">1670-00-212-1149</entry><entry colsep="0"
+rowsep="0" align="center">6</entry><entry colsep="0" rowsep="0"
+align="center">6</entry><entry colsep="0" rowsep="0" align="center">6</entry>
+<entry colsep="0" rowsep="0" align="center">6</entry><entry colsep="0"
+rowsep="0" align="center">6</entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">2</entry><entry colsep="0" rowsep="0">CHAIN
+W/HOOK<brk>(See figure <xref xref="mb1_chain_adj_assy">)</entry><entry
+colsep="0" rowsep="0">FOR MB-1<brk>627728A</entry><entry colsep="0"
+rowsep="0"><change level="5">1670</change>-00-516-8405</entry><entry
+colsep="0" rowsep="0" align="center">12</entry><entry colsep="0"
+rowsep="0" align="center">16</entry><entry colsep="0" rowsep="0"
+align="center">12</entry><entry colsep="0" rowsep="0" align="center">12</entry>
+<entry colsep="0" rowsep="0" align="center">12</entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">3</entry><entry colsep="0" rowsep="0">LINK,
+CHAIN<brk>(See figures <xref xref="mooring_hardware_details_in_config1"> and <xref
+xref="link_chain_detachable">)</entry><entry colsep="0" rowsep="0">9/32
+INCH<brk>664228</entry><entry colsep="0" rowsep="0">4010-01-231-3388</entry>
+<entry colsep="0" rowsep="0" align="center">6</entry><entry colsep="0"
+rowsep="0" align="center">4</entry><entry colsep="0" rowsep="0"
+align="center">4</entry><entry colsep="0" rowsep="0" align="center">4</entry>
+<entry colsep="0" rowsep="0" align="center">4</entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">4*</entry><entry colsep="0" rowsep="0">LINK,
+CHAIN<brk>(See figures <xref xref="mooring_hardware_details_in_config1"> and <xref
+xref="link_chain_detachable">)</entry><entry colsep="0" rowsep="0">3/8
+INCH<brk>577-0165</entry><entry colsep="0" rowsep="0">4010-01-193-9331</entry>
+<entry colsep="0" rowsep="0" align="center">6</entry><entry colsep="0"
+rowsep="0" align="center">8</entry><entry colsep="0" rowsep="0"
+align="center">6</entry><entry colsep="0" rowsep="0" align="center">6</entry>
+<entry colsep="0" rowsep="0" align="center">6</entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">5**</entry><entry colsep="0" rowsep="0">CHAIN,
+ALLOY<brk>(See figure <xref xref="mooring_hardware_details_in_config1">)</entry>
+<entry colsep="0" rowsep="0">1/4 INCH<brk>RRC271</entry><entry colsep="0"
+rowsep="0">4010-00-988-3181<brk>(100 FT DRUM)</entry><entry colsep="0"
+rowsep="0" align="center">6 EA<brk>1 FT</entry><entry colsep="0"
+rowsep="0" align="center">4 EA<brk>1 FT</entry><entry colsep="0"
+rowsep="0" align="center">4 EA<brk>1 FT</entry><entry colsep="0"
+rowsep="0" align="center">4 EA<brk>1 FT</entry><entry colsep="0"
+rowsep="0" align="center">4 EA<brk>1 FT</entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">6</entry><entry colsep="0" rowsep="0">SHACKLE<brk>(See
+figure <xref xref="mooring_hardware_oh58_acd">)</entry><entry colsep="0"
+rowsep="0">204-031-393-1</entry><entry colsep="0" rowsep="0">4030-00-977-6940
+</entry><entry colsep="0" rowsep="0" align="center"></entry><entry
+colsep="0" rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center">4</entry>
+<entry colsep="0" rowsep="0" align="center">3</entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">7</entry><entry colsep="0" rowsep="0">SHACKLE,
+ANCHOR<brk>(See figure <xref xref="mooring_hardware_details_in_config1">)
+</entry><entry colsep="0" rowsep="0">RRC271</entry><entry colsep="0"
+rowsep="0">4030-00-185-0489</entry><entry colsep="0" rowsep="0"
+align="center">6</entry><entry colsep="0" rowsep="0" align="center">4</entry>
+<entry colsep="0" rowsep="0" align="center">4</entry><entry colsep="0"
+rowsep="0" align="center">4</entry><entry colsep="0" rowsep="0"
+align="center">4</entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">8</entry><entry colsep="0" rowsep="0">SHACKLE,
+ANCHOR<brk>(See figure <xref xref="mooring_hardware_details_in_config1">)
+</entry><entry colsep="0" rowsep="0">NAS1042-8</entry><entry colsep="0"
+rowsep="0">4030-00-542-3180</entry><entry colsep="0" rowsep="0"
+align="center">6</entry><entry colsep="0" rowsep="0" align="center">4</entry>
+<entry colsep="0" rowsep="0" align="center">4</entry><entry colsep="0"
+rowsep="0" align="center">4</entry><entry colsep="0" rowsep="0"
+align="center">4</entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">9</entry><entry colsep="0" rowsep="0">BOLT<brk>(See
+figure <xref xref="mooring_hardware_oh58_acd">)</entry><entry colsep="0"
+rowsep="0">AN5-22A<brk>AN5H22A</entry><entry colsep="0" rowsep="0">5306-00-151-2621<brk>5306-00-180-2672
+</entry><entry colsep="0" rowsep="0" align="center"></entry><entry
+colsep="0" rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry>
+<entry colsep="0" rowsep="0" align="center">3<brk>3</entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">10</entry><entry colsep="0" rowsep="0">BOLT,
+fig <xref xref="mooring_hardware_oh58_acd"></entry><entry colsep="0"
+rowsep="0">AN5-23A<brk>AN5H23A</entry><entry colsep="0" rowsep="0">5306-00-151-2620<brk>5306-00-180-2673
+</entry><entry colsep="0" rowsep="0" align="center"></entry><entry
+colsep="0" rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry>
+<entry colsep="0" rowsep="0" align="center">3<brk>3</entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">11</entry><entry colsep="0" rowsep="0">WASHER,
+fig <xref xref="mooring_hardware_oh58_acd"></entry><entry colsep="0"
+rowsep="0">AN960PD516</entry><entry colsep="0" rowsep="0">5310-00-187-2399
+</entry><entry colsep="0" rowsep="0" align="center"></entry><entry
+colsep="0" rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry>
+<entry colsep="0" rowsep="0" align="center">6</entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">12</entry><entry colsep="0" rowsep="0">NUT,
+fig <xref xref="mooring_hardware_oh58_acd"></entry><entry colsep="0"
+rowsep="0">MS21042L5</entry><entry colsep="0" rowsep="0">5310-00-807-1476
+</entry><entry colsep="0" rowsep="0" align="center"></entry><entry
+colsep="0" rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry>
+<entry colsep="0" rowsep="0" align="center">3</entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">13***</entry><entry colsep="0" rowsep="0">BUSHING,
+fig <change level="5"><xref xref="bushing_detail_oh58_acd"></change></entry>
+<entry colsep="0" rowsep="0"><changest level="5"><!--Removed NAS72-5E100 chg5-->
+</entry><entry colsep="0" rowsep="0"><!--removed 3120-01-245-2631 chg5--><changeend
+level="5"></entry><entry colsep="0" rowsep="0" align="center"></entry>
+<entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0"
+rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center">3</entry>
+</row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">14</entry><entry colsep="0" rowsep="0">PIN,
+QUICK<brk> RELEASE, fig <xref xref="pin_quick_release_oh58_acd"></entry>
+<entry colsep="0" rowsep="0">MS17985-520</entry><entry colsep="0"
+rowsep="0">53<changest level="5"><change level="5">15</change>-00-702-<change
+level="5">3102</change><changeend level="5"></entry><entry colsep="0"
+rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry>
+<entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0"
+rowsep="0" align="center">3</entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">15</entry><entry colsep="0" rowsep="0">ROPE,
+1/2 INCH POLYESTER</entry><entry colsep="0" rowsep="0">MIL-R-24537</entry>
+<entry colsep="0" rowsep="0">4020-01-028-3843<brk>(200 FT ROLL)</entry>
+<entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0"
+rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry>
+<entry colsep="0" rowsep="0" align="center"></entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">16</entry><entry colsep="0" rowsep="0">ROPE,
+1/2 INCH POLYESTER</entry><entry colsep="0" rowsep="0">MIL-R-24335</entry>
+<entry colsep="0" rowsep="0">4020-00-765-3928<brk>(1000 FT ROLL)</entry>
+<entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0"
+rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry>
+<entry colsep="0" rowsep="0" align="center"></entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">17</entry><entry colsep="0" rowsep="0">ROPE,
+1/2 INCH POLYESTER</entry><entry colsep="0" rowsep="0">MIL-R-30500</entry>
+<entry colsep="0" rowsep="0">4020-00-630-4873<brk>(1200 FT ROLL)</entry>
+<entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0"
+rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry>
+<entry colsep="0" rowsep="0" align="center"></entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">18</entry><entry colsep="0" rowsep="0">ROPE,
+3/8 INCH POLYESTER</entry><entry colsep="0" rowsep="0">700324R</entry>
+<entry colsep="0" rowsep="0">4020-01-318-5428<brk>(600 FT ROLL)</entry>
+<entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0"
+rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry>
+<entry colsep="0" rowsep="0" align="center"></entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">19</entry><entry colsep="0" rowsep="0">PIN,
+RETAINING</entry><entry colsep="0" rowsep="0">AN416-2</entry><entry
+colsep="0" rowsep="0">5315-00-223-6112</entry><entry colsep="0"
+rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry>
+<entry colsep="0" rowsep="0" align="center">2</entry><entry colsep="0"
+rowsep="0" align="center"></entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">20****</entry><entry colsep="0" rowsep="0">CHAIN,
+WELDLESS</entry><entry colsep="0" rowsep="0">NAS1455B30<brk>6P</entry>
+<entry colsep="0" rowsep="0">4010-0<changest level="5"><change level="5">
+1</change><changeend level="5">-331-7273</entry><entry colsep="0"
+rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry>
+<entry colsep="0" rowsep="0" align="center">2</entry><entry colsep="0"
+rowsep="0" align="center"></entry></row><row>
+<?PubTbl row rht="0.40in">
+<entry colsep="0" rowsep="0">21*****</entry><entry colsep="0" rowsep="0">
+STRAP, WEBBING</entry><entry colsep="0" rowsep="0"><changest level="5"><change
+level="5">B-D-10000R/O-234HH-24</change><changeend level="5"></entry>
+<entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry>
+<entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0"
+rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry></row><row>
+<?PubTbl row rht="0.50in">
+<entry colsep="0" rowsep="0"><changest level="5"><change level="5">22******
+</change><!--Added 22. LWP--></entry><entry colsep="0" rowsep="0"><change
+level="5">TIE DOWN</change></entry><entry colsep="0" rowsep="0"><change
+level="5"></change></entry><entry colsep="0" rowsep="0"><change level="5">
+1730-00-075-1055</change></entry><entry colsep="0" rowsep="0"
+align="center"><change level="5"></change></entry><entry colsep="0"
+rowsep="0" align="center"><change level="5">6</change></entry><entry
+colsep="0" rowsep="0" align="center"><change level="5"></change></entry>
+<entry colsep="0" rowsep="0" align="center"><change level="5"></change></entry>
+<entry colsep="0" rowsep="0" align="center"><change level="5"></change><changeend
+level="5"></entry></row><row>
+<?PubTbl row rht="0.25in">
+<entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0"
+rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"
+align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry>
+<entry colsep="0" rowsep="0" align="center"></entry></row><row>
+<?PubTbl row rht="0.15in">
+<entry colsep="0" rowsep="0">*</entry><entry spanname="span1" colsep="1"
+rowsep="0" align="left">Optional, replaces items 3 and 5 if unavailable.</entry>
+</row><row>
+<?PubTbl row rht="0.15in">
+<entry colsep="0" rowsep="0">**</entry><entry spanname="span1" colsep="1"
+rowsep="0" align="left">Cut 1/4 inch chain to 1 ft sections (14 links).</entry>
+</row><row>
+<?PubTbl row rht="0.15in">
+<entry colsep="0" rowsep="0">***</entry><entry spanname="span1"
+colsep="1" rowsep="0" align="left">If item 13 is unavailable, see
+figure <xref xref="mooring_hardware_oh58_acd"> to make a replacement.</entry>
+</row><row>
+<?PubTbl row rht="0.15in">
+<entry colsep="0" rowsep="0">****</entry><entry spanname="span1"
+colsep="1" rowsep="0" align="left">Cut chain to 6 inch sections.</entry>
+</row><row>
+<?PubTbl row rht="0.30in">
+<entry colsep="0" rowsep="0"><changest level="5">*****</entry><entry
+spanname="span1" colsep="1" rowsep="0" align="left">Contact <change
+level="5">AMCOM engineering (DSN 897-4905) or comm. 256-313-4905,</change> for
+approval to use webbing strap for mooring.<!--Changed ATCOM to AMCOM and updated the phone numbers per Ginda Roadruck. LWP-->
+</entry></row><row>
+<?PubTbl row rht="0.15in">
+<entry colsep="0" rowsep="0"><change level="5">******</change></entry>
+<entry spanname="span1" rowsep="0" align="left"><change level="5">To
+be used on CH/MH-47 aircraft with main rotor blade P/N 114E5060-1.</change><changeend
+level="5"></entry></row></tbody>
+</tgroup>
+</table>
+<figure xid="mooring_pad_hrdpnt_spacing">
+<graphic boardno="ms030834" reprowid="0" reprodep="0"><figtitle><title>Mooring
+Pad Hardpoint Spacing</title></figtitle></figure>
+<figure xid="mooring_pad_max_load_cond">
+<graphic boardno="ms030835" reprowid="0" reprodep="0"><figtitle><title>Mooring
+Pad Maximum Load Conditions</title></figtitle></figure>
+<figure xid="mb1_chain_adj_assy">
+<graphic boardno="ms030836" reprowid="0" reprodep="0"><figtitle><title>MB-1
+Chain Adjuster Assembly</title></figtitle></figure>
+</chapter>
+<chapter>
+<title>TIE-DOWN PROCEDURES</title>
+<para0 xid="gen_tiedwn_proc" tocitem="1">
+<title>General Tie-Down Procedures.</title><para>Line tension tie-down
+lines from all main rotor blades shall be taut, but care must be taken
+to ensure excessive deflection of blades below the static jacking,
+droop position, as stated in the specific aircraft -23 TMs, is not
+exceeded. </para>
+</para0>
+<para0 xid="specific_acft_tiedwn" tocitem="1">
+<title>Specific Aircraft Tie-Down.</title>
+<step1><para>OH-58D tie-down blades as specified in the -23 Technical
+Manual and as shown in figure <xref xref="oh58d_tiedwn_config"> of
+this general TM. Use the polyester rope referenced in this manual.</para>
+</step1>
+<step1><para>OH-58A/C tie-down blades as specified in the -23 Technical
+Manual and as shown in figure <xref xref="oh58a_c_tiedwn_config"> of
+this general TM. Securely tie the straps of the boot to the polyester
+rope near the boot. Ensure the ropes are long enough to cross and
+tie in the position illustrated. The forward blade shall be tied down
+using the same boot strap/rope arrangement device. The ropes shall
+be tied to the forward eyebolts of the landing skid. The ropes, as
+an option, can be secured to the forward eyebolts of the landing skid
+by either tying or using a self closing hook that is the same strength
+or as strong as the polyester rope, to anchor tie-down rope to the
+skid rings.</para>
+<note>
+<para>Optional tie-down procedure for the OH-58A/C is applicable also
+to the UH-1 aircraft.<!--Deleted AH-1 and per email Ginda Roadruck dtd 12/28/06 12:37 PM.  LWP-->
+</para>
+</note>
+</step1>
+<step1><changest level="4"><para><change level="4">AH-64 tie-down
+blades as specified in the -23 Technical Manual and as shown in figure <xref
+xref="ah64_tiedwn_config"> of this general TM. Ensure that the main
+rotor blade tie-down boot is in good repair and that the two nylon
+end straps are securely attached (refer to figure <xref
+xref="ah64_tiedwn_config">, blow-up). Replace the 3/8 inch nylon rope
+with polyester rope. 3/8 inch diameter standard polyester rope can
+be substituted directly. 1/2 inch diameter standard polyester rope
+can be secured to the boot by forming a small loop with the existing
+nylon rope and tying the polyester rope to the loop. Ensure that the
+rope is long enough to reach the proper aircraft hard points. The
+right aft boot must have an additional length of rope to secure to
+the aft outboard wing pylons way brace or to secure to the aft wing
+store suspension lug. The other rope attaches to the aft jacking fitting
+at FS450. This configuration will prevent the boot from slipping off.</change><changeend
+level="4"></para></step1>
+<step1><para>UH-60 tie-down blades as specified in the -23 Technical
+Manual and as shown in figure <xref xref="uh60_tiedwn_config"> of
+this general TM. To prevent damage from the lock release cable in
+strong winds, wrap the cable several times around the tie-down rope
+and slip the end loop through one of the cable wraps.</para></step1>
+<step1><para><change level="5">Deleted.</change></para></step1>
+<!--Deleted AH-1 per email Ginda Roadruck dtd 12/28/06 12:37 PM.  LWP-->
+<step1><para>UH-1 tie-down aft blades as specified in the -23 Technical
+Manual and as shown in figure <xref xref="uh1_tiedwn_config"> of this
+general TM. Engage hook of main rotor tie-down in hole of fitting
+on each rotor blade and position blade above tailboom. Pull on tie-down
+to remove spanwise slack from the rotor system and secure rotor blade
+by wrapping the tie-down rope firmly around tailboom as shown in figure <xref
+xref="uh1_tiedwn_config">. Tie forward rope tie-down rope to tow rings,
+as shown in figure <xref xref="uh1_tiedwn_config">, on landing gear
+skid. Additional security of main rotor can be accomplished by inserting
+an AN416-2 safety retaining pin through a 0.060 inch hole drilled
+through the hook of the main rotor tie-down. The hole is drilled perpendicular
+to the plane of the handle, 0.25 inch from the insertion end of the
+hook. Secure the safety retaining pin to the hook handle with a 6-inch
+piece of NAS1455B30-6P chain and safety wire. Insert the safety retaining
+pin through the hook after inserting the hook through the rotor blade
+fitting. In the final tie-down position, the blades must not exceed
+6 inches of additional droop from having been pulled down. This applies
+to both metal and composite blades.</para></step1>
+<step1><para>CH/MH-47 tie-down blades as specified in -23 Technical
+Manual and figures <xref xref="ch_mh47_tiedwn_config"> or <change
+level="5"><xref xref="ch_mh47_tiedwn_config_optional"></change> of
+this general TM. Use figure <xref xref="ch_mh47_tiedwn_config"> for
+normal aircraft tie-down. As an option, the CH/MH-47 blades may be
+secured to the mooring pad hard points, as shown in figure <change
+level="5"><xref xref="ch_mh47_tiedwn_config_optional"></change>, provided
+the aircraft is secured using the mooring procedures in this TM.</para>
+</step1></para0>
+<figure xid="oh58d_tiedwn_config">
+<graphic boardno="ms030837" reprowid="0" reprodep="0"><figtitle><title>OH-58D
+Tie-Down Configuration</title></figtitle></figure>
+<figure xid="oh58a_c_tiedwn_config">
+<graphic boardno="ms030838" reprowid="0" reprodep="0"><figtitle><title>OH-58A/C
+Tie-Down Configuration</title></figtitle></figure>
+<figure xid="ah64_tiedwn_config"><changest level="5"><change level="5"></change>
+<graphic boardno="ms030839" reprowid="0" reprodep="0"><changeend
+level="5"><figtitle><title>AH-64 Tie-Down Configuration</title>
+</figtitle></figure>
+<figure label="3-3a">
+<graphic boardno="graphic3-3adeleted" reprowid="0" reprodep="0"
+hscale="78" vscale="78"><figtitle><title><change level="4">Deleted</change></title>
+</figtitle></figure>
+<figure xid="uh60_tiedwn_config">
+<graphic boardno="ms030840" reprowid="0" reprodep="0"><figtitle><title>UH-60
+Tie-Down Configuration</title></figtitle></figure>
+<figure>
+<graphic boardno="graphic3-5deleted" reprowid="0" reprodep="0">
+<figtitle><title><change level="5">Deleted</change></title></figtitle>
+</figure>
+<figure xid="uh1_tiedwn_config">
+<graphic boardno="ms030841" reprowid="0" reprodep="0" hscale="90"
+vscale="90"><figtitle><title>UH-1 Tie-Down Configuration</title>
+</figtitle></figure>
+<figure xid="ch_mh47_tiedwn_config">
+<graphic boardno="ms030842" reprowid="0" reprodep="0"><figtitle><title>CH<change
+level="5" mark="0">/MH</change>-47 Tie-Down Configuration</title>
+</figtitle></figure>
+<figure xid="ch_mh47_tiedwn_config_optional">
+<graphic boardno="ms030843" reprowid="0" reprodep="0" hscale="90"
+vscale="90"><figtitle><title><change level="5">CH/MH-47 Tie-Down Configuration
+(Optional)</change></title></figtitle></figure>
+</chapter>
+<chapter>
+<title>MOORING PROCEDURES</title>
+<para0 xid="gen_mooring" tocitem="1">
+<title>General Mooring.</title>
+<step1><para>Aircraft Placement. Position the aircraft on the mooring
+pad as shown in figures <xref xref="ah64_mooring_config"> thru <xref
+xref="oh58d_mooring_config">. Essentially, parallel to the centerline
+of the pad and located fore and aft per the dimension in the figure
+for that aircraft.</para></step1>
+<step1><para>Adjusters. Ensure that adjusters are fully extended.</para>
+</step1>
+<step1><para>Securing Aircraft, secure aircraft to the pad using the
+chains and adjusting device provided at each of the pad mooring points.
+The chains are to be attached to the aircraft as illustrated in that
+aircraft figure and are to be adjusted to remove slack in the chain.
+During installation manually make the chains as taut as possible prior
+to using adjuster. The adjuster has a limited travel capacity.</para>
+</step1>
+<step1><para>Position Variance. The position of the aircraft with
+respect to the pad and the pad dimension may vary up to 12 inches.</para>
+<caution>
+<para>Ensure chain links are inserted into the MBI chain adjuster
+as shown in figure <xref xref="mooring_hdware_config2">. Incorrect
+insertion may cause the MBI adjuster to fail and compromise the mooring
+system.</para>
+</caution>
+<note>
+<para>All deviations from the nominal position degrade the wind resistance
+of the mooring scheme. The tolerance suggested will degrade the scheme
+by an acceptably small amount.</para>
+</note>
+</step1>
+<step1><para>Mooring Hardware. The hardware to be furnished with the
+mooring pad is defined in <xref xref="mooring_hardware_consumables"> and
+figures <xref xref="mooring_hdware_config1"> thru <xref
+xref="link_chain_detachable_installation">. Use configuration 1 (fig. <xref
+xref="mooring_hdware_config1">) and a l/2-inch anchor shackle or configuration
+2 (fig. <xref xref="mooring_hdware_config2">) to meet requirements
+which do not allow the mooring pad hardware shown in figure <xref
+xref="mooring_hardware_details_in_config1"> to be permanently installed.
+A ball peen hammer is required to install the link, chain detachable.
+Cut the chain link to the correct length (See figures <xref
+xref="link_chain_detachable"> and <xref
+xref="link_chain_detachable_installation">).</para></step1></para0>
+<para0 xid="specific_acft_moor_proc" tocitem="1">
+<title>Specific Aircraft Mooring Procedures.</title>
+<step1><para>AH-64 Helicopter Mooring Procedures.</para><changest
+level="5">
+<warning>
+<para><change level="5">The aircraft's tail rotor is in very close
+proximity to the aft tie-down point. The aft fuselage mooring point
+should not be used or approached any time the rotor is turning. For
+initial shipboard mooring configuration (four chains), attach two
+chains to each forward tie-down fitting, or the mooring lug on each
+main landing gear trailing arm if the forward fuselage tie-down fittings
+are not installed</change></para>
+</warning>
+<changeend level="5">
+<step2><para>Position the aircraft on the mooring pad with the longitudinal
+centerline of the aircraft directly above and parallel to the longitude
+line of the pad as shown in figure <xref xref="ah64_mooring_config">.
+Position the forward mooring rings located on main landing gear struts,
+6-feet aft of the forward mooring points on the pad as shown in figure <xref
+xref="ah64_mooring_config"> of this general TM.</para>
+<note>
+<para>It will be necessary to open the fairings which shield the forward
+mooring rings, before final aircraft positioning. A Frearson screwdriver
+will be required.</para>
+</note>
+</step2>
+<step2><para>Connect two chain assemblies from the aircraft mooring
+rings to the forward mooring pad points.</para></step2>
+<step2><para>Connect two chain assemblies from the center mooring
+pad points to the mooring ring located on the lower surface of the
+tailboom at F.S. 450.</para></step2>
+<step2><para>Connect two chain assemblies from the rear mooring pad
+points to the mooring ring located on the lower surface of the tailboom
+at F.S. 450.</para></step2>
+<step2><para>Tighten the MB-1 chain adjusters to remove the slack
+from all mooring chains. No tools are required.</para></step2></step1>
+<step1><para>CH<change level="5">/MH</change>-47 Helicopter Mooring
+Procedures.</para>
+<step2><para>Position the aircraft on the mooring pad with longitudinal
+centerline of the aircraft directly above and parallel to the longitudinal
+axis of the pad as shown in figure <xref xref="ch_mh47_mooring_config">.
+Position the aircraft forward landing gear mooring rings 8-feet-9
+inches aft of the forward mooring points on the pad as shown in figure <xref
+xref="ch_mh47_mooring_config"> of this general TM.</para>
+<caution>
+<para></para>
+</caution>
+</step2>
+<step2><para>Connect two crossing chain assemblies from the forward
+landing gear mooring rings diagonally to the forward mooring pad points.</para>
+</step2>
+<step2><para>Connect two side chain assemblies from the forward landing
+gear mooring rings to the forward mooring pad points.</para></step2>
+<step2><para>Connect two crossing chain assemblies diagonally from
+the aft aircraft landing gear mooring rings to the rear mooring pad
+points.</para></step2>
+<step2><para>Connect two side chain assemblies from the aft aircraft
+landing gear mooring rings to the rear mooring pad points.</para>
+</step2>
+<step2><para>Tighten the MB-1 adjusters to remove the slack from all
+mooring chains. Not tools are required.</para></step2></step1>
+<step1><para>UH-60 Helicopter Morning Procedures.</para>
+<step2><para><change level="3" mark="0">Position the aircraft on the
+mooring pad with the longitudinal centerline of the aircraft directly
+above and parallel to the longitudinal axis of the pad as shown in
+figures <xref xref="uh_60_mooring_config">, <xref
+xref="uh_60_mooring_with_ext_tanks">, <xref xref="eh_60_mooring_config">, <xref
+xref="uh_60_mooring_cofig_alt1"> and <xref
+xref="uh_60_mooring_cofig_alt2">. Figures <xref
+xref="uh_60_mooring_config">, <xref xref="uh_60_mooring_cofig_alt1"> and <xref
+xref="uh_60_mooring_cofig_alt2"> are to be used for aircraft that
+do not have external tanks installed Figure <xref
+xref="uh_60_mooring_with_ext_tanks"> is to be used when aircraft have
+external tanks installed. Figure <xref xref="eh_60_mooring_config"> is
+to be used for the EH-60 aircraft.</change></para></step2>
+<step2><para>For mooring of the UH-60 per figure <xref
+xref="uh_60_mooring_config">:</para>
+<step3><para>Position the aircraft front rooming rings directly in-line
+with the front mooring pad points.</para></step3>
+<step3><para>Connect two chain assemblies from the forward aircraft
+mooring rings at F.S. 308 to the front rooming pad points.</para>
+</step3>
+<step3><para>Connect two chain assemblies from the front mooring pad
+points to the aft aircraft mooring rings at F.S.485.</para></step3>
+<step3><para>Connect two chain assemblies from the aft aircraft mooring
+rings to the center rooming pad points.</para></step3>
+<step3><para>Tighten the MB-1 chain adjusters to remove the slack
+from all mooring chains. No tools are required.</para></step3></step2>
+<step2><para>For mooring the UH-60 per figure <xref
+xref="uh_60_mooring_with_ext_tanks">:</para>
+<step3><para>Position the aircraft cargo hook directly in-line with
+the center mooring pad points.</para></step3>
+<step3><para>Connect two lateral chain assemblies from the aircraft
+cargo hook to the center mooring pad points (Ref. figure <change
+level="5"><xref xref="uh_60_mooring_with_ext_tanks"></change>, view
+A-A).<!--There is no detail AA on fig 4-8. There is one on 4-8a. Change to Fig 4-8a. per conversation with Ginda Roadruck 5 Jan 07. LWP-->
+</para></step3>
+<step3><para>Connect two chain assemblies from the center mooring
+pad points to the aft aircraft mooring rings at F.S.485.</para></step3>
+<step3><para>Connect two chain assemblies from the aft aircraft mooring
+rings to the rear mooring pad points.</para></step3>
+<step3><para>Tighten the MB-1 chain adjusters to remove the slack
+from all mooring chains. No tools are required.</para></step3></step2>
+<step2><para>For mooring the EH-60 per figure <xref
+xref="eh_60_mooring_config">:</para>
+<step3><para>Position the aircraft front rooming rings directly in-line
+with the front mooring pad points.</para></step3>
+<step3><para>Connect two chain assemblies from the forward aircraft
+mooring rings at F.S. 308 to the front mooring pad points.</para>
+</step3>
+<step3><para>Connect two chain assemblies from the center mooring
+pad points to the forward aircraft rooming rings at F.S. 308.</para>
+</step3>
+<step3><para>Connect two chain assemblies from the aft aircraft mooring
+rings at F.S. 485 to the center mooring pad points.</para></step3>
+<step3><para>Tighten the MB-1 chain adjusters to remove the slack
+from all mooring chains. No tools are required.</para></step3></step2>
+<changest level="3" change="add" mark="0">
+<step2><para><change level="3" change="add" mark="0">For alternate
+mooring of UH-60 per figure <xref xref="uh_60_mooring_cofig_alt1">:</change></para>
+<step3><para><change level="3" change="add" mark="0">Position the
+aircraft front mooring rings directly in-line with the center mooting
+pad points as shown in figure <xref xref="uh_60_mooring_cofig_alt1">.</change></para>
+</step3>
+<step3><para><change level="3" change="add" mark="0">Connect two chain
+assemblies from the forward aircraft mooring rings at F.S. 308 to
+center mooring pad points as shown in figure <xref
+xref="uh_60_mooring_cofig_alt1">.</change></para></step3>
+<step3><para><change level="3" change="add" mark="0">Connect two chain
+assemblies from the center mooring pad points to the aft aircraft
+mooring rings at F.S.485 as shown in figure <xref
+xref="uh_60_mooring_cofig_alt1">.</change></para></step3>
+<step3><para><change level="3" change="add" mark="0">Connect two chain
+assemblies from the aft aircraft mooing rings at F.S. 485 to the rear
+mooring pad points as shown in figure <xref
+xref="uh_60_mooring_cofig_alt1">.</change></para></step3>
+<step3><para><change level="3" change="add" mark="0">Tighten the MB-l
+chain adjusters to remove the slack from all mooring chains. No tools
+are required.</change></para></step3></step2>
+<step2><para><change level="3" change="add" mark="0">For alternate
+mooring UH-60 per figure <xref xref="uh_60_mooring_cofig_alt2">.</change></para>
+<step3><para><change level="3" change="add" mark="0">Position the
+aircraft on the mooring pad with longitudinal centerline of the aircraft
+directly above and parallel to the longitudinal axis of the pad as
+shown in figure <xref xref="uh_60_mooring_cofig_alt2">. Position the
+aircraft front mooring rings, at F.S. 308.10 feet aft of the forward
+mooring pad points as shown in figure <xref
+xref="uh_60_mooring_cofig_alt2">.</change></para></step3>
+<step3><para><change level="3" change="add" mark="0">Connect two chain
+assemblies from the front mooring rings at F.S. 308 to the forward
+mooring pad points as shown in figure <xref
+xref="uh_60_mooring_cofig_alt2">.</change></para></step3>
+<step3><para><change level="3" change="add" mark="0">Connect two chain
+assemblies from the front mooring rings at F.S. 308 to the center
+mooring pad points as shown in figure <xref
+xref="uh_60_mooring_cofig_alt2">.</change></para></step3>
+<step3><para><change level="3" change="add" mark="0">Connect two chain
+assemblies from the aft aircraft mooring rings at F.S. 308 to the
+center mooring pad points as shown in figure <xref
+xref="uh_60_mooring_cofig_alt2">.</change></para></step3>
+<step3><para><change level="3" change="add" mark="0">Connect two chain
+assemblies from the aircraft mooring rings at F.S. 485 to the rear
+mooring pad points.</change></para></step3>
+<step3><para><change level="3" change="add" mark="0">Tighten the MB-1
+chain adjusters to remove the slack from all mooring chains. No tools
+are required.</change></para></step3></step2><changeend level="3"
+change="add" mark="0"></step1><changest level="5">
+<step1><para><change level="5">Deleted.</change></para>
+<step2><para><change level="5">Deleted.</change></para></step2>
+<step2><para><change level="5">Deleted.</change></para></step2>
+<step2><para><change level="5">Deleted.</change></para></step2>
+<step2><para><change level="5">Deleted.</change></para></step2>
+<step2><para><change level="5">Deleted.</change></para></step2>
+<step2><para><change level="5">Deleted.</change></para>
+<note>
+<para><change level="5">Deleted.</change></para>
+</note>
+</step2>
+<!--Deleted AH-1 per email Ginda Roadruck dtd 12/28/06 12:37 PM.  LWP-->
+</step1><changeend level="5">
+<step1><para>UH-1 Helicopter Mooring Procedures.</para>
+<step2><para>Position the aircraft on the mooring pad with the longitudinal
+centerline of the aircraft directly above and parallel to the longitudinal
+axis of the pad as shown in figure <xref xref="uh1_mooring_config">.
+The forward jack-points, located at F.S. 61.96, should be located
+approximately 2 feet aft of the forward mooring points as dimensioned
+in figure <xref xref="uh1_mooring_config">. The aft mooring points
+are located at F.S. 211.58.</para></step2>
+<step2><para>Before mooring the aircraft will be necessary to install
+a mooring clevis at each of the four jacking points. A mechanics tool
+kit will be required.</para>
+<note>
+<para>Older UH-1 aircraft have jack points with a nominal bolt hole
+size of .25 inches compared with .312 inches on newer UH-1 aircraft.
+On the older UH-1 aircraft the existing .25 inch hole will need to
+be enlarged to .312 inches to accommodate the current bolt and shackle
+configuration.</para>
+</note>
+</step2>
+<step2><para>Connect two chain assemblies from the forward jack-points
+to the forward mooring pad points.</para></step2>
+<step2><para>Connect two chain assemblies from the forward mooring
+pad points to the rear jack-points.</para></step2>
+<step2><para>Connect two chain assemblies from the rear jack-points
+to the center mooring pad points.</para>
+<note>
+<para>It is highly recommended that UH-1 helicopters be flown with
+the mooring hardware installed at all times to permit a rapid response
+to weather emergencies.</para>
+</note>
+</step2></step1>
+<step1><para>OH-58 Helicopter Mooring Procedures.</para>
+<caution>
+<para>The mooring hardware is to be carried in the flyaway kit. Flying
+the OH-58 with the mooring hardware installed may result in damage
+to the aircrafts&rsquo; honeycomb surface. Retain all hardware together
+for each specific installation: due to wear, the bushings may not
+be interchangeable.</para>
+</caution>
+<step2><para>Position the aircraft on the mooring pad with the longitudinal
+centerline of the aircraft directly above and parallel to the longitudinal
+axis of the pad as shown in figures <xref xref="oh58a_c_mooring_config"> and <xref
+xref="oh58d_mooring_config">. The forward jack-points are to be located
+4 feet aft of the forward mooring pad points as dimensioned in figure <xref
+xref="oh58a_c_mooring_config"> and <xref xref="oh58d_mooring_config">.</para>
+</step2>
+<step2><para>Before mooring the aircraft it will be necessary to attach
+a mooring clevis to each of the three jackpoints. The clevis provided
+will not be large enough to accept the hooks on the mooring chains
+provided with mooring pad. Mooring rings are to be installed on the
+aircraft as shown in figure <xref xref="mooring_hardware_oh58_acd">.</para>
+<note>
+<para>For local fabrication of Bushing, P/N NAS72-5E100, see figure <xref
+xref="bushing_detail_oh58_acd">. Aircraft with oversize holes may
+adjust outside diameter to fit.</para>
+</note>
+<note>
+<para>Bolt, nut and washer may be eliminated by using a Quick Release
+Pin as shown in figure <xref xref="pin_quick_release_oh58_acd">.</para>
+</note>
+</step2>
+<step2><para>Connect two chain assemblies from the forward jack-points
+to forward mooring pad points.</para></step2>
+<step2><para>Connect two chain assemblies from the forward mooring
+pad points to the rear jack-point.</para></step2>
+<step2><para>Connect two chain assemblies from the rear jack-point
+to the center mooring pad points.</para></step2>
+<step2><para>Tighten the MB-1 chain adjusters to remove the slack
+for all mooring chains.<change level="5" mark="0"></change><!--Added the change tag to get Change 5 to appear at the bottom of page 4-4.  LWP-->
+</para></step2></step1></para0>
+<pgbrk>
+<figure xid="mooring_hdware_config1">
+<graphic boardno="ms030868" reprowid="0" reprodep="0" hscale="90"
+vscale="90"><figtitle><title>Mooring Hardware Installation Assembly
+Details - Configuration 1</title></figtitle></figure>
+<figure xid="mooring_hdware_config2">
+<graphic boardno="ms030844" reprowid="0" reprodep="0" hscale="90"
+vscale="90"><figtitle><title>Mooring Hardware Installation Assembly
+Details - Configuration 2</title></figtitle></figure>
+<figure xid="mooring_hardware_details_in_config1">
+<graphic boardno="ms030845" reprowid="0" reprodep="0"><figtitle><title>Mooring
+Hardware Details in Configuration 1 (Figure <xref
+xref="mooring_hdware_config1">)</title></figtitle></figure>
+<figure xid="link_chain_detachable">
+<graphic boardno="ms030846" reprowid="0" reprodep="0"><figtitle><title>Link.
+Chain Detachable</title></figtitle></figure>
+<figure xid="link_chain_detachable_installation">
+<graphic boardno="ms030847" reprowid="0" reprodep="0"><figtitle><title>Link.
+Chain, Detachable Installation</title></figtitle></figure>
+<figure xid="ah64_mooring_config">
+<graphic boardno="ms030848" reprowid="0" reprodep="0"><figtitle><title>AH-64
+Mooring Configuration</title></figtitle></figure>
+<figure xid="ch_mh47_mooring_config">
+<graphic boardno="ms030849" reprowid="0" reprodep="0"><figtitle><title>CH<change
+level="5">/MH</change>47 Mooring Configuration</title></figtitle>
+</figure>
+<figure xid="uh_60_mooring_config">
+<graphic boardno="ms030850" reprowid="0" reprodep="0"><figtitle><title>UH-60
+Mooring Configuration</title></figtitle></figure>
+<figure label="4-8a" xid="uh_60_mooring_with_ext_tanks">
+<graphic boardno="ms030851" reprowid="0" reprodep="0"><figtitle><title>UH-60
+Mooring Configuration (When external fuel tanks are installed)</title>
+</figtitle></figure>
+<pgbrk pgnumber="4-12.1">
+<figure label="4-8b" xid="eh_60_mooring_config">
+<graphic boardno="ms030852" reprowid="0" reprodep="0"><figtitle><title><change
+level="3" mark="0">EH-60 Mooring Configuration</change><!--Added the change tag to get Change 3 to appear at the bottom of page 4-12.1.  LWP-->
+</title></figtitle></figure>
+<pgbrk pgnumber="4-12.2">
+<figure label="4-8c" xid="uh_60_mooring_cofig_alt1">
+<graphic boardno="ms030853" reprowid="0" reprodep="0"><figtitle><title><change
+level="3" mark="0">UH-60 Mooring Configuration Alternate # 1.</change><!--Added the change tag to get Change 3 to appear at the bottom of page 4-12.2.  LWP--
+></title></figtitle></figure>
+<pgbrk pgnumber="4-12.3" pageblank="4-12.4">
+<figure label="4-8d" xid="uh_60_mooring_cofig_alt2">
+<graphic boardno="ms030854" reprowid="0" reprodep="0"><figtitle><title><change
+level="3" mark="0">UH-60 Mooring Configuration Alternate # 2.</change><!--Added the change tag to get Change 3 to appear at the bottom of page 4-12.3.  LWP--
+></title></figtitle></figure>
+<brk type="opg"><pgbrk pgnumber="4-13">
+<figure label="4-9">
+<graphic boardno="graphic4-9deleted" reprowid="0" reprodep="0"
+hscale="78" vscale="78"><figtitle><title><change level="5">Deleted.</change></title>
+</figtitle></figure>
+<pgbrk pgnumber="4-14">
+<figure label="4-10" xid="uh1_mooring_config">
+<graphic boardno="ms030855" reprowid="0" reprodep="0"><figtitle><title>UH-1
+Mooring Configuration</title></figtitle></figure>
+<pgbrk pgnumber="4-15">
+<figure label="4-11" xid="oh58a_c_mooring_config">
+<graphic boardno="ms030856" reprowid="0" reprodep="0"><figtitle><title>OH-58A&amp;C
+Mooring Configuration</title></figtitle></figure>
+<figure label="4-12" xid="oh58d_mooring_config">
+<graphic boardno="ms030857" reprowid="0" reprodep="0"><figtitle><title>OH-58D
+Mooring Configuration</title></figtitle></figure>
+<pgbrk pgnumber="4-16">
+<figure label="4-13" xid="mooring_hardware_oh58_acd">
+<graphic boardno="ms030858" reprowid="0" reprodep="0"><figtitle><title><change
+level="5" mark="0"></change>Mooring Hardware For OH-58A/C&amp;D</title>
+</figtitle></figure>
+<pgbrk pgnumber="4-17">
+<figure label="4-14" xid="bushing_detail_oh58_acd">
+<graphic boardno="ms030859" reprowid="0" reprodep="0"><figtitle><title><change
+level="5" mark="0">Bushing Detail for OH-58A/C and D</change></title>
+</figtitle></figure>
+<figure label="4-15" xid="pin_quick_release_oh58_acd">
+<graphic boardno="ms030860" reprowid="0" reprodep="0"><figtitle><title>Pin,
+Quick Release For OH-58A/C and D</title></figtitle></figure>
+<pgbrk pgnumber="4-18">
+<para0 xid="mooring_nonpaved_surfaces" tocitem="1">
+<title>Mooring on Non-paved Surfaces.</title>
+<step1><para>Ground Anchor Kit (NSN 8340-00-951-6423). Refer to table <xref
+xref="ground_anchor_kit_table"> for kit contents and figures <xref
+xref="gnd_anchor_assy"> through <xref xref="poly_rope_webbing_binder"> for
+component breakout.</para>
+<note>
+<para>The Ground Anchor Kit for mooring on non-paved surfaces is recommended
+for all tactical environments (non-paved surfaces).</para>
+</note>
+</step1>
+<step1><para>Function and Description of each kit component.</para>
+<step2><para><emphasis type="boldundl">Ground Anchor.</emphasis> The
+assembly is composed of a metal arrowhead with approximately three
+feet of wire rope attached at the center (figure <xref
+xref="gnd_anchor_with_wire_rope">). The anchor is driven into the
+ground and provides the mooring base.</para></step2>
+<step2><para><emphasis type="boldundl">Steel Driving Rod.</emphasis> The
+rod&rsquo;s outside diameter is 3/4 inch x 3 feet long (figure <xref
+xref="driving_rod">). It holds the ground anchor and is used to drive
+the anchor into the ground.</para></step2>
+<step2><para><emphasis type="boldundl">Driving Head. </emphasis>Size
+is 2 1/4 inches outside diameter x 2 3/4 inches long. The steel driving
+head fits over the top of the driving rod and provides the contact
+surface on which to hammer the assembly (figure <xref xref="drive_head">).
+</para></step2>
+<step2><para><emphasis type="boldundl">Holding Tool Handle. (Figure <xref
+xref="holding_handle">).</emphasis> Size is 24 inches long. It is
+made from 1/4 inch diameter steel rod and slips over the steel driving
+rod to hold the unit while driving the ground anchor arrowhead into
+the ground. It allows the assembly to be held safely while driving.</para>
+</step2></step1>
+<step1><para>Connecting the ground anchors to the aircraft. The kit
+does not contain rope to connect the ground anchors to the aircraft.
+The following items are recommended for securing the aircraft:<table
+label="nonum" frame="none" pgwide="0">
+<title></title>
+<tgroup cols="2"><colspec colname="col1" colwidth="1.60in"><colspec
+colname="col2" colwidth="1.39in">
+<tbody><row><entry colsep="0" rowsep="0">Tiedown, Cargo, Aircraft
+(Webbing Binder)</entry><entry colsep="0" rowsep="0">1670-00-725-1437</entry>
+</row><row><entry colsep="0" rowsep="0">Tiedown, Cargo, Aircraft (Webbing
+Binder)</entry><entry colsep="0" rowsep="0">5340-01-233-3063</entry>
+</row><row><entry colsep="0" rowsep="0">Polyester Rope <brk>(1/2 inch
+diameter)</entry><entry colsep="0" rowsep="0">40<change level="5">2</change>0-01-028-3843
+</entry></row><row><entry colsep="0" rowsep="0"></entry><entry colsep="0"
+rowsep="0">4020-00-765-3928</entry></row><row><entry colsep="0"
+rowsep="0"></entry><entry colsep="0" rowsep="0">4020-00-630-4873</entry>
+</row></tbody>
+</tgroup>
+</table></para></step1>
+<step1><para>Installation.</para>
+<note>
+<para>Refer to the applicable -23 Technical Manual, under Mooring,
+to determine the number of anchors required per aircraft. One anchor
+is required per mooring line.</para>
+</note>
+<step2><para>Refer to figures <xref xref="gnd_anchor_assy"> and <xref
+xref="gnd_anchor_with_wire_rope"> and insert the ground anchor (arrowhead)
+stem into the bottom of the driving rod.</para></step2>
+<step2><para>Refer to figures <xref xref="gnd_anchor_assy"> and <xref
+xref="holding_handle"> and slip the holding handle over the driving
+rod while driving into the ground.</para></step2>
+<step2><para>Refer to figures <xref xref="gnd_anchor_assy">, <xref
+xref="driving_rod"> and <xref xref="drive_head"> and insert the driving
+head onto the top of the driving rod.</para></step2>
+<step2><para>Refer to figure <xref xref="gnd_anchor_assy"> and drive
+the anchor head/driving rod assembly into the ground, hammering on
+the drive head, and holding the assembly with the holding handle. </para>
+</step2>
+<table frame="none" pgwide="1" xid="ground_anchor_kit_table">
+<title>Ground Anchor Kit.</title>
+<tgroup cols="4">
+<?PubTbl tgroup dispwid="6.93in">
+<colspec colname="col1" colwidth="1.70in"><colspec colname="col2"
+colwidth="1.56in"><colspec colname="col3" colwidth="1.31in"><colspec
+colname="col4" colwidth="2.34in">
+<thead><row><entry colsep="0" rowsep="0" valign="top" align="center"><emphasis
+type="undl">ITEM</emphasis></entry><entry colsep="0" rowsep="0"
+valign="top" align="center"><emphasis type="undl">QUANTITY</emphasis></entry>
+<entry colsep="0" rowsep="0" valign="top" align="center"><emphasis
+type="undl">FIG</emphasis></entry><entry colsep="0" rowsep="0"
+valign="top" align="center"><emphasis type="undl">NSN</emphasis></entry>
+</row></thead>
+<tbody><row>
+<?PubTbl row rht="0.65in">
+<entry colsep="0" rowsep="0">Anchor, Ground <brk>(4 inch arrowhead
+with anchoring wire)</entry><entry colsep="0" rowsep="0" align="center">50
+</entry><entry colsep="0" rowsep="0" align="center"><xref
+xref="gnd_anchor_with_wire_rope"></entry><entry colsep="0" rowsep="0"
+align="center">4030-00-972-2670</entry></row><row><entry colsep="0"
+rowsep="0">Head, Driving</entry><entry colsep="0" rowsep="0"
+align="center">2</entry><entry colsep="0" rowsep="0" align="center"><xref
+xref="drive_head"></entry><entry colsep="0" rowsep="0" align="center"><changest
+level="5"><change level="5">4030</change>-00-051-8641</entry></row><row>
+<entry colsep="0" rowsep="0">Handle, Holding Tool</entry><entry
+colsep="0" rowsep="0" align="center">2</entry><entry colsep="0"
+rowsep="0" align="center"><xref xref="holding_handle"></entry><entry
+colsep="0" rowsep="0" align="center"><change level="5">4030</change>-00-134-4725
+</entry></row><row><entry colsep="0" rowsep="0">Rod, Steel, Driving</entry>
+<entry colsep="0" rowsep="0" align="center">2</entry><entry colsep="0"
+rowsep="0" align="center"><xref xref="driving_rod"></entry><entry
+colsep="0" rowsep="0" align="center"><change level="5">4030</change><changeend
+level="5">-00-970-6412</entry></row></tbody>
+</tgroup>
+</table>
+<pgbrk pgnumber="4-19">
+<step2><para>Refer to figure <xref xref="install_gnd_anchor_assy">,
+View A, and drive the assembly approximately 3 to 3 1/2 feet until
+only the thimble of the wire rope portion of the ground anchor is
+above ground.</para></step2>
+<step2><para>Refer to figure <xref xref="install_gnd_anchor_assy">,
+View B, and pull out the drive rod.</para></step2>
+<step2><para>Refer to figure <xref xref="install_gnd_anchor_assy">,
+View C, and pull up vertically on the wire rope assembly to seat the
+anchor. This will rotate the arrowhead into a horizontal position
+and provide a rigid anchor.</para></step2>
+<step2><para>Refer to figure <xref xref="poly_rope_webbing_binder"> and
+attach the polyester rope or the CGU-1B webbing binder to the ground
+anchor and connect it to the aircraft mooring fitting (remove ail
+slack).</para></step2>
+<step2><para>Ground anchors will be left in the ground when the aircraft
+is moved.</para></step2>
+<step2><para>Replacement ground anchors are available.</para></step2>
+</step1>
+<step1><para>Larger Ground Anchor for Extreme Sand Conditions. In
+extreme sand conditions, a larger ground anchor may be required. An
+8-inch ground anchor is available for increased holding power. It
+uses components similar to the 4-inch ground anchor kit, but larger
+in size. The 8-inch ground anchor and its drive components are as
+follows:<table label="nonum" frame="none" pgwide="0">
+<title></title>
+<tgroup cols="2"><colspec colname="col1" colwidth="1.60in"><colspec
+colname="col2" colwidth="1.39in"><spanspec namest="col1" nameend="col2"
+spanname="span1">
+<thead><row><entry colsep="0" rowsep="0" valign="top" align="center"><emphasis
+type="undl">ITEM</emphasis></entry><entry colsep="0" rowsep="0"
+valign="top" align="center"><emphasis type="undl">NSN</emphasis></entry>
+</row></thead>
+<tbody><row><entry colsep="0" rowsep="0">Ground Anchor<brk> (8 inch
+aluminum)</entry><entry colsep="0" rowsep="0">4030-00-580-8287</entry>
+</row><row><entry colsep="0" rowsep="0">Ground Anchor<brk>(8 inch
+iron)</entry><entry colsep="0" rowsep="0">4030-01-150-4896</entry></row>
+<row><entry colsep="0" rowsep="0">Ground Anchor<brk>(8 inch iron)</entry>
+<entry colsep="0" rowsep="0">4030-00-580-8307</entry></row><row><entry
+spanname="span1" colsep="0" rowsep="0" align="left">NOTE: All these
+items are one anchor with wire rope assembled.</entry></row><row><entry
+colsep="0" rowsep="0">Rod, Driving<brk>(48 inches long)</entry><entry
+colsep="0" rowsep="0">4030-00-541-4081</entry></row><row><entry
+colsep="0" rowsep="0">Head, Driving<brk>(2 inches outside diameter
+x 2 1/4 inches long)</entry><entry colsep="0" rowsep="0">4030-01-008-8053
+</entry></row></tbody>
+</tgroup>
+</table></para></step1></para0>
+<pgbrk pgnumber="4-20">
+<figure label="4-16" xid="gnd_anchor_assy">
+<graphic boardno="ms030861" reprowid="0" reprodep="0"><figtitle><title>Ground
+Anchor Assembly (For Mooring on Nonpaved Surfaces)</title></figtitle>
+</figure>
+<pgbrk pgnumber="4-21">
+<figure label="4-17" xid="gnd_anchor_with_wire_rope">
+<graphic boardno="ms030862" reprowid="0" reprodep="0"><figtitle><title>Ground
+Anchor with Wire Rope</title></figtitle></figure>
+<figure label="4-18" xid="driving_rod">
+<graphic boardno="ms030863" reprowid="0" reprodep="0"><figtitle><title><change
+level="5" mark="0">Driving Rod</change><!--5120 changed to 4030 in the graphic (Change 5) LWP-->
+</title></figtitle></figure>
+<figure label="4-19" xid="drive_head">
+<graphic boardno="ms030864" reprowid="0" reprodep="0"><figtitle><title><change
+level="5" mark="0">Drive Head</change><!--5120 changed to 4030 in the graphic (Change 5) LWP-->
+</title></figtitle></figure>
+<figure label="4-20" xid="holding_handle">
+<graphic boardno="ms030865" reprowid="0" reprodep="0"><figtitle><title><change
+level="5" mark="0">Holding Handle</change><!--5120 changed to 4030 in the graphic (Change 5) LWP-->
+</title></figtitle></figure>
+<pgbrk pgnumber="4-22">
+<figure label="4-21" xid="install_gnd_anchor_assy">
+<graphic boardno="ms030866" reprowid="0" reprodep="0"><figtitle><title>Installation
+of the Ground Anchor Assembly</title></figtitle></figure>
+<pgbrk pgnumber="4-23" pageblank="4-24">
+<figure label="4-22" xid="poly_rope_webbing_binder">
+<graphic boardno="ms030867" reprowid="0" reprodep="0"><figtitle><title><change
+level="5" mark="0">Polyester Rope and Webbing Binder</change></title>
+</figtitle>
+<!--In change 3 there was a change mark beside NSN 1670-00-725-1437 on the graphic.  LWP-->
+<!--4030 changed to 4020 in the graphic (Change 5) LWP-->
+</figure>
+</chapter></body></doc>
+<?Pub *0000083157 0>

@@ -4,3 +4,7 @@
 // tag::HighVoltage[]
 WARNING: High voltage kills! ZAP
 // end::HighVoltage[]
+
+// tag::Flammable[]
+WARNING: Material may cause burning to death
+// end::Flammable[]

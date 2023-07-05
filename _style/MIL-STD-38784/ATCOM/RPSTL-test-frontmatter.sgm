@@ -1,0 +1,818 @@
+<?xml-stylesheet href="RPSTL.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="RPSTL.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2004, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN" [
+<!ENTITY ms029704 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029704.tif" NDATA tif>
+<!ENTITY ms029714 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029714.tif" NDATA tif>
+<!ENTITY ms029713 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029713.tif" NDATA tif>
+<!ENTITY ms029712 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029712.tif" NDATA tif>
+<!ENTITY ms029711 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029711.tif" NDATA tif>
+<!ENTITY ms029710 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029710.tif" NDATA tif>
+<!ENTITY ms029709 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029709.tif" NDATA tif>
+<!ENTITY ms029708 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029708.tif" NDATA tif>
+<!ENTITY ms029707 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029707.tif" NDATA tif>
+<!ENTITY ms029706 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029706.tif" NDATA tif>
+<!ENTITY ms029705 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029705.tif" NDATA tif>
+<!ENTITY ms029703 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029703.tif" NDATA tif>
+<!ENTITY ms029702 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029702.tif" NDATA tif>
+<!ENTITY ms029701 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029701.tif" NDATA tif>
+<!ENTITY ms029700 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029700.tif" NDATA tif>
+<!ENTITY ms029699 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029699.tif" NDATA tif>
+<!ENTITY ms029698 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029698.tif" NDATA tif>
+<!ENTITY ms029697 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029697.tif" NDATA tif>
+<!ENTITY ms029696 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029696.tif" NDATA tif>
+<!ENTITY ms029695 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029695.tif" NDATA tif>
+<!ENTITY ms029694 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029694.tif" NDATA tif>
+<!ENTITY ms029693 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029693.tif" NDATA tif>
+<!ENTITY ms029692 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029692.tif" NDATA tif>
+<!ENTITY ms029691 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029691.tif" NDATA tif>
+<!ENTITY ms029690 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029690.tif" NDATA tif>
+<!ENTITY ms029689 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029689.tif" NDATA tif>
+<!ENTITY ms029688 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029688.tif" NDATA tif>
+<!ENTITY ms029687 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029687.tif" NDATA tif>
+<!ENTITY ms029686 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029686.tif" NDATA tif>
+<!ENTITY ms029685 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029685.tif" NDATA tif>
+<!ENTITY ms029684 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029684.tif" NDATA tif>
+<!ENTITY ms029683 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029683.tif" NDATA tif>
+<!ENTITY ms029682 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029682.tif" NDATA tif>
+<!ENTITY ms029681 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029681.tif" NDATA tif>
+<!ENTITY ms029680 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029680.tif" NDATA tif>
+<!ENTITY ms029679 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029679.tif" NDATA tif>
+<!ENTITY ms029590 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029590.tif" NDATA tif>
+<!ENTITY ms029589 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029589.tif" NDATA tif>
+<!ENTITY ms029588 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029588.tif" NDATA tif>
+<!ENTITY ms029587 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029587.tif" NDATA tif>
+<!ENTITY ms029586 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029586.tif" NDATA tif>
+<!ENTITY ms029585 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029585.tif" NDATA tif>
+<!ENTITY ms029584 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029584.tif" NDATA tif>
+<!ENTITY ms029583 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029583.tif" NDATA tif>
+<!ENTITY ms029582 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029582.tif" NDATA tif>
+<!ENTITY ms029581 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029581.tif" NDATA tif>
+<!ENTITY ms029580 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029580.tif" NDATA tif>
+<!ENTITY ms029579 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029579.tif" NDATA tif>
+<!ENTITY ms029578 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029578.tif" NDATA tif>
+<!ENTITY ms029577 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029577.tif" NDATA tif>
+<!ENTITY ms029576 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029576.tif" NDATA tif>
+<!ENTITY ms029575 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029575.tif" NDATA tif>
+<!ENTITY ms029574 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029574.tif" NDATA tif>
+<!ENTITY ms029573 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029573.tif" NDATA tif>
+<!ENTITY ms029572 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029572.tif" NDATA tif>
+<!ENTITY ms029571 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029571.tif" NDATA tif>
+<!ENTITY ms029570 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029570.tif" NDATA tif>
+<!ENTITY ms029569 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029569.tif" NDATA tif>
+<!ENTITY ms029568 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029568.tif" NDATA tif>
+<!ENTITY need_a_graphic1 SYSTEM "P:\Graphics\_Standard symbols\need_a_graphic.tif" NDATA tif>
+<!ENTITY ms029567 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029567.tif" NDATA tif>
+<!ENTITY ms029566 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029566.tif" NDATA tif>
+<!ENTITY ms029565 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029565.tif" NDATA tif>
+<!ENTITY ms029564 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029564.tif" NDATA tif>
+<!ENTITY ms029563 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029563.tif" NDATA tif>
+<!ENTITY ms029562 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029562.tif" NDATA tif>
+<!ENTITY ms029561 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029561.tif" NDATA tif>
+<!ENTITY ms029560 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029560.tif" NDATA tif>
+<!ENTITY ms029559 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029559.tif" NDATA tif>
+<!ENTITY availability SYSTEM "\\pubs\amcom-pubs\Common\Boilerplates\Availability.txt">
+<!ENTITY warningicon_fire2 SYSTEM "P:\Graphics\_Standard symbols\Warning icons\warningicon_fire2.tif" NDATA tif>
+<!ENTITY warningicon_earprotection SYSTEM "P:\Graphics\_Standard symbols\Warning icons\warningicon_earprotection.tif" NDATA tif>
+<!ENTITY warningicon_cryogenic SYSTEM "\\pubs\amcom-pubs\Graphics\_Standard symbols\Warning icons\warningicon_cryogenic.tif" NDATA tif>
+<!ENTITY empty_square SYSTEM "\\pubs\amcom-pubs\Graphics\_Standard symbols\empty_square.tif" NDATA tif>
+<!ENTITY need_a_graphic SYSTEM "\\pubs\amcom-pubs\Graphics\_Standard symbols\need_a_graphic.tif" NDATA tif>
+<!ENTITY need-a-graphic1 SYSTEM "\\pubs\amcom-pubs\Graphics\_Standard symbols\need-a-graphic.eps" NDATA eps>
+<!NOTATION eps SYSTEM "eps">
+<!ENTITY ms023285 SYSTEM "P:\Graphics\TM55-1520-210-23-3\ms023285.tif" NDATA tif>
+<!ENTITY reportoferrors 'You can help improve this bulletin. If you find mistakes
+or know of a way to improve procedures, pleas let us know. Mail you letter,
+DA Form 2028 (Recommended Changes to Publications and Blank Forms) located
+at the back of this bulletin, directly to: Commander, U.S. Army Aviation and
+Missile Command, ATTN: AMSAM-MMC-MA-NP, Redstone Arsenal, AL 35898-5000. 
+A reply will be furnished to you.  You may also provide DA Form 2028 information
+to AMCOM via e-mail, fax or the World Wide Web.  Our fax number is DSN 788-6546
+or Commercial (256) 842-6546. Our e-mail address i 2028@redstone.army.mil.
+Instruction for sending an electronic 2028 may be found at the back of this
+bulletin immediately preceding the hard copy 2028.  For the World Wide We
+use: <?Pub _font Underline="yes">htpps://amcom2028.redstone.army.mil'>
+<!ENTITY b0200801 SYSTEM "P:\Graphics\TM55-1520-210-23P-1\ms025481.tif" NDATA tif>
+<!ENTITY b0301001 SYSTEM "graphics\tif\b0301001.tif" NDATA fax>
+<!ENTITY b0301101 SYSTEM "graphics\tif\b0301101.tif" NDATA fax>
+<!ENTITY b0301201 SYSTEM "graphics\tif\b0301201.tif" NDATA fax>
+<!ENTITY b0301301 SYSTEM "graphics\tif\b0301301.tif" NDATA fax>
+<!ENTITY b0301501 SYSTEM "graphics\tif\b0301501.tif" NDATA fax>
+<!ENTITY b0400101 SYSTEM "graphics\tif\b0400101.tif" NDATA fax>
+<!ENTITY triang1 SYSTEM "graphics\tif\triang1.tif" NDATA fax>
+<!ENTITY b0400201 SYSTEM "graphics\tif\b0400201.tif" NDATA fax>
+<!ENTITY triang2 SYSTEM "graphics\tif\triang2.tif" NDATA fax>
+<!ENTITY b0400301 SYSTEM "graphics\tif\b0400301.tif" NDATA fax>
+<!ENTITY b0400401 SYSTEM "graphics\tif\b0400401.tif" NDATA fax>
+<!ENTITY b0400501 SYSTEM "graphics\tif\b0400501.tif" NDATA fax>
+<!ENTITY b0400601 SYSTEM "graphics\tif\b0400601.tif" NDATA fax>
+<!ENTITY b0400701 SYSTEM "graphics\tif\b0400701.tif" NDATA fax>
+<!ENTITY b0400801 SYSTEM "graphics\tif\b0400801.tif" NDATA fax>
+<!ENTITY b0400901 SYSTEM "graphics\tif\b0400901.tif" NDATA fax>
+<!ENTITY b0401001 SYSTEM "graphics\tif\b0401001.tif" NDATA fax>
+<!ENTITY b0401101 SYSTEM "graphics\tif\b0401101.tif" NDATA fax>
+<!ENTITY b0401201 SYSTEM "graphics\tif\b0401201.tif" NDATA fax>
+<!ENTITY triang3 SYSTEM "graphics\tif\triang3.tif" NDATA fax>
+<!ENTITY empty SYSTEM "graphics\tif\empty.tif" NDATA fax>
+<!ENTITY b0401501 SYSTEM "graphics\tif\b0401501.tif" NDATA fax>
+<!ENTITY b0401601 SYSTEM "graphics\tif\b0401601.tif" NDATA fax>
+<!ENTITY b0401701 SYSTEM "graphics\tif\b0401701.tif" NDATA fax>
+<!ENTITY triang4 SYSTEM "graphics\tif\triang4.tif" NDATA fax>
+<!ENTITY triang5 SYSTEM "graphics\tif\triang5.tif" NDATA fax>
+<!ENTITY b0401901 SYSTEM "graphics\tif\b0401901.tif" NDATA fax>
+<!ENTITY b0402001 SYSTEM "graphics\tif\b0402001.tif" NDATA fax>
+<!ENTITY b0402101 SYSTEM "graphics\tif\b0402101.tif" NDATA fax>
+<!ENTITY b0402201 SYSTEM "graphics\tif\b0402201.tif" NDATA fax>
+<!ENTITY b0402301 SYSTEM "graphics\tif\b0402301.tif" NDATA fax>
+<!ENTITY b0402401 SYSTEM "graphics\tif\b0402401.tif" NDATA fax>
+<!ENTITY b0402501 SYSTEM "graphics\tif\b0402501.tif" NDATA fax>
+<!ENTITY b0402701 SYSTEM "graphics\tif\b0402701.tif" NDATA fax>
+<!ENTITY b0402801 SYSTEM "graphics\tif\b0402801.tif" NDATA fax>
+<!ENTITY b0402901 SYSTEM "graphics\tif\b0402901.tif" NDATA fax>
+<!ENTITY b0403001 SYSTEM "graphics\tif\b0403001.tif" NDATA fax>
+<!ENTITY b0403101 SYSTEM "graphics\tif\b0403101.tif" NDATA fax>
+<!ENTITY b0403201 SYSTEM "graphics\tif\b0403201.tif" NDATA fax>
+<!ENTITY b0403301 SYSTEM "graphics\tif\b0403301.tif" NDATA fax>
+<!ENTITY b0403501 SYSTEM "graphics\tif\b0403501.tif" NDATA fax>
+<!ENTITY b0403601 SYSTEM "graphics\tif\b0403601.tif" NDATA fax>
+<!ENTITY b0403701 SYSTEM "graphics\tif\b0403701.tif" NDATA fax>
+<!ENTITY b0403801 SYSTEM "graphics\tif\b0403801.tif" NDATA fax>
+<!ENTITY b0404001 SYSTEM "graphics\tif\b0404001.tif" NDATA fax>
+<!ENTITY b0404101 SYSTEM "graphics\tif\b0404101.tif" NDATA fax>
+<!ENTITY b0404201 SYSTEM "graphics\tif\b0404201.tif" NDATA fax>
+<!ENTITY b0404301 SYSTEM "graphics\tif\b0404301.tif" NDATA fax>
+<!ENTITY b0404401 SYSTEM "graphics\tif\b0404401.tif" NDATA fax>
+<!ENTITY b0500101 SYSTEM "graphics\tif\b0500101.tif" NDATA fax>
+<!ENTITY b0500201 SYSTEM "graphics\tif\b0500201.tif" NDATA fax>
+<!ENTITY b0500301 SYSTEM "graphics\tif\b0500301.tif" NDATA fax>
+<!ENTITY b0500401 SYSTEM "graphics\tif\b0500401.tif" NDATA fax>
+<!ENTITY b0500501 SYSTEM "graphics\tif\b0500501.tif" NDATA fax>
+<!ENTITY b0500701 SYSTEM "graphics\tif\b0500701.tif" NDATA fax>
+<!ENTITY b0500901 SYSTEM "graphics\tif\b0500901.tif" NDATA fax>
+<!ENTITY b0501001 SYSTEM "graphics\tif\b0501001.tif" NDATA fax>
+<!ENTITY b0501101 SYSTEM "graphics\tif\b0501101.tif" NDATA fax>
+<!ENTITY b0501201 SYSTEM "graphics\tif\b0501201.tif" NDATA fax>
+<!ENTITY b0501301 SYSTEM "graphics\tif\b0501301.tif" NDATA fax>
+<!ENTITY b0501401 SYSTEM "graphics\tif\b0501401.tif" NDATA fax>
+<!ENTITY b0501501 SYSTEM "graphics\tif\b0501501.tif" NDATA fax>
+<!ENTITY b0501601 SYSTEM "graphics\tif\b0501601.tif" NDATA fax>
+<!ENTITY b0501701 SYSTEM "graphics\tif\b0501701.tif" NDATA fax>
+<!ENTITY b0501801 SYSTEM "graphics\tif\b0501801.tif" NDATA fax>
+<!ENTITY b0501901 SYSTEM "graphics\tif\b0501901.tif" NDATA fax>
+<!ENTITY b0502001 SYSTEM "graphics\tif\b0502001.tif" NDATA fax>
+<!ENTITY b0502101 SYSTEM "graphics\tif\b0502101.tif" NDATA fax>
+<!ENTITY b0502201 SYSTEM "graphics\tif\b0502201.tif" NDATA fax>
+<!ENTITY b0502301 SYSTEM "graphics\tif\b0502301.tif" NDATA fax>
+<!ENTITY spring SYSTEM "graphics\tif\spring.tif" NDATA fax>
+<!ENTITY b0502401 SYSTEM "graphics\tif\b0502401.tif" NDATA fax>
+<!ENTITY b0502501 SYSTEM "graphics\tif\b0502501.tif" NDATA fax>
+<!ENTITY b0503001 SYSTEM "graphics\tif\b0503001.tif" NDATA fax>
+<!ENTITY b0503101 SYSTEM "graphics\tif\b0503101.tif" NDATA fax>
+<!ENTITY b0503201 SYSTEM "graphics\tif\b0503201.tif" NDATA fax>
+<!ENTITY b0503301 SYSTEM "graphics\tif\b0503301.tif" NDATA fax>
+<!ENTITY b0101201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0101201.tif" NDATA tif>
+<!ENTITY b0103201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0103201.tif" NDATA tif>
+<!ENTITY b0200008 SYSTEM "\\pubs\amcom-pubs\Graphics\DMWR1-1650-358\b0200008.tif" NDATA tif>
+<!ENTITY b0101401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0101401.tif" NDATA tif>
+<!ENTITY b0101301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0101301.tif" NDATA tif>
+<!ENTITY b0103001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0103001.tif" NDATA tif>
+<!ENTITY b0102001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0102001.tif" NDATA tif>
+<!ENTITY boatdraw SYSTEM "\\pubs\amcom-pubs\Graphics\boatdraw.tif" NDATA tif>
+<!ENTITY atilogo SYSTEM "\\pubs\amcom-pubs\Graphics\atilogo.gif" NDATA gif>
+<!ENTITY arches2 SYSTEM "\\pubs\amcom-pubs\graphics\arches.bmp" NDATA bmp>
+<!ENTITY arches1 SYSTEM "\\pubs\amcom-pubs\Graphics\arches.gif" NDATA gif>
+<!ENTITY arches SYSTEM "\\pubs\amcom-pubs\Graphics\arches.bmp" NDATA bmp>
+<!ENTITY triangleb SYSTEM "P:\Graphics\_Standard symbols\Triangles with letters\triangle_B.tif" NDATA tif>
+<!ENTITY nothing SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\nothing.jpg" NDATA jpg>
+<!ENTITY box SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\box.jpg" NDATA jpg>
+<!ENTITY ms022467 SYSTEM "P:\Graphics\DMWR 1-1520-240\ms022467.cgm" NDATA cgm>
+<!ENTITY distrd-foreigngov SYSTEM "P:\Common\Distribution Stmts\distrD-foreigngov.txt">
+<!ENTITY distrc-software SYSTEM "P:\Common\Distribution Stmts\distrC-software.txt">
+<!ENTITY face SYSTEM "P:\Graphics\face.gif" NDATA gif>
+<!ENTITY moonrove SYSTEM "P:\Graphics\saw.tif" NDATA tif>
+<!ENTITY home SYSTEM "P:\Graphics\home.gif" NDATA gif>
+<!ENTITY dtduck3 SYSTEM "P:\Graphics\dtduck3.gif" NDATA gif>
+<!ENTITY bull1 SYSTEM "P:\Graphics\bull.gif" NDATA gif>
+<!ENTITY bulldoze SYSTEM "P:\Graphics\bulldoze.tif" NDATA tif>
+<!ENTITY need-a-graphic SYSTEM "\\pubs\amcom-pubs\Graphics\need_a_graphic.cgm" NDATA fax>
+<!ENTITY reperrors1 PUBLIC "reperrors1" NDATA cgm>
+<!NOTATION gif SYSTEM "gif">
+<!NOTATION bmp SYSTEM "bmp">
+<!ENTITY DSCN6688 SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\40bday\DSCN6688.JPG" NDATA jpg>
+<!ENTITY DSCN6684 SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\40bday\DSCN6684.jpg" NDATA jpg>
+<!NOTATION jpg SYSTEM "jpg">
+<!ENTITY b0100301 SYSTEM "\\pubs\AMCOM-Pubs\Graphics\dmwr 55-1680-341\b0100301.tif" NDATA tif>
+<!ENTITY b0203301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0203301.tif" NDATA tif>
+<!ENTITY b0202201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0202201.tif" NDATA tif>
+<!ENTITY b0202001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0202001.tif" NDATA tif>
+<!ENTITY b0201301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0201301.tif" NDATA tif>
+<!ENTITY b0201101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0201101.tif" NDATA tif>
+<!ENTITY b0201001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0201001.tif" NDATA tif>
+<!ENTITY b0200901 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200901.tif" NDATA tif>
+<!ENTITY b0200701 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200701.tif" NDATA tif>
+<!ENTITY b0200601 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200601.tif" NDATA tif>
+<!ENTITY b0200501 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200501.tif" NDATA tif>
+<!ENTITY b0200401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200401.tif" NDATA tif>
+<!ENTITY b0200301 SYSTEM "\\pubs\amcom-pubs\graphics\dmwr 55-1680-341\b0200301.tif" NDATA tif>
+<!ENTITY b0200201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200201.tif" NDATA tif>
+<!ENTITY b0200101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200101.tif" NDATA tif>
+<!ENTITY b0103301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0103301.tif" NDATA tif>
+<!ENTITY b0103101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0103101.tif" NDATA tif>
+<!ENTITY b0102901 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102901.tif" NDATA tif>
+<!ENTITY b0102801 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102801.tif" NDATA tif>
+<!ENTITY b0102701 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102701.tif" NDATA tif>
+<!ENTITY b0102601 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102601.tif" NDATA tif>
+<!ENTITY b0102501 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102501.tif" NDATA tif>
+<!ENTITY b0102401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102401.tif" NDATA tif>
+<!ENTITY b0102301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102301.tif" NDATA tif>
+<!ENTITY b0102201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102201.tif" NDATA tif>
+<!ENTITY b0102101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102101.tif" NDATA tif>
+<!ENTITY b0101901 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101901.tif" NDATA tif>
+<!ENTITY b0101801 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101801.tif" NDATA tif>
+<!ENTITY b0101701 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101701.tif" NDATA tif>
+<!ENTITY b0101601 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101601.tif" NDATA tif>
+<!ENTITY b0101501 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101501.tif" NDATA tif>
+<!ENTITY b0100401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0100401.tif" NDATA tif>
+<!ENTITY maintl "DEPOT MAINTENANCE WORK REQUIREMENT">
+<!ENTITY pubdate "30 APRIL 1986">
+]>
+<?Pub EntList alpha bull copy rArr sect trade aelig deg percnt amp plusmn
+ delta ast mdash nbsp emsp14 emsp13 sdotb>
+<?Pub Inc>
+<doc service="army" docid="9-5855-450-24P" docstat="revision" columns="one">
+<?Pub Tag atict:info tracking="off" ref="0"><?Pub Tag atict:user user="overstreet-ro"
+fullname="overstreet-ro"><front><idinfo>
+<tmidno service="army"></tmidno>
+<doctype pubtype="tm"> ORGANIZATIONAL, DIRECT SUPPORT, AND GENERAL SUPPORT
+MAINTENANCE REPAIR PARTS AND SPECIAL TOOLS LIST <brk>(INCLUDING DEPOT MAINTENANCE
+REPAIR PARTS AND SPECIAL TOOLS)<brk> FOR</doctype>
+<prtitle>
+<nomen>EQUIPMENT SET, NIGHT VISION SIGHT INFRARED</nomen>
+<modelno>AN/UAS-12A </modelno>
+<partno></partno><nsn>5855-01-152-8781</nsn><eic> N/A</eic><nsn>5855-01-245-8689
+</nsn><eic> N/A</eic></prtitle>
+<prtitle>
+<subject>(TOW 2 HEAVY ANTITANK/ASSAULT WEAPON SYSTEM)</subject>
+</prtitle>
+<effdatenot><?Pub Caret>7 August 2005</effdatenot>
+<distrib type="d">Distribution authorized to Department of Defense and DoD
+contractors only to protect critical technical data on systems or hardware.
+This determination was made Nov 1986. Other requests shall be referred to
+Project Manager,Close Combat Weapons Systems, ATTN: SFAE-MSLS-CWS-L, Redstone
+Arsenal, AL 35898-5750.</distrib>
+<supersed>Supersedes TM 9-5855-450-24P dated 11 January 1996</supersed>
+<authnot>HEADQUARTERS, DEPARTMENT OF THE ARMY</authnot>
+<pubdate>13 January 2006</pubdate>
+</idinfo>
+<lep></lep>
+<reportoferrors>
+<para>You can improve this manual. If you find mistakes or if you know of
+a way to improve procedures, please let us know. Mail you letter or DA Form
+2028 (Recommended Changes to Publications and Blank Forms) located at the
+back of this manual, directly to: Commander, U.S. Army Aviation and Missile
+Command, ATTN: AMSAM-MMC-MA-NP, Redstone Arsenal, AL 35898-5000. A reply will
+be furnished to you. You may also provide DA Form 2028 information to AMCOM
+via e-mail, fax or the World Wide Web. Our fax number is: DSN 788-6546 or
+Commercial (256) 842-6546. Our e-mail address is <emphasis type="boldundl">
+2028@redstone.army.mil</emphasis>. Instructions for sending an electronic
+2028 may be found at the back of this bulletin immediately preceding the hard
+copy 2028. For the World Wide Web use: <emphasis type="boldundl">https://amcom2028.redstone.army.mil
+</emphasis>.</para>
+</reportoferrors>
+<distrib type="d">Distribution authorized to Department of Defense and DOD
+contractors only to protect critical technical data on systems or hardware.
+This determination was made Nov 1986. Other requests shall be referred to
+Project Manager, .Close Combat Weapons Systems, ATTN: SFAE-MSLS-CWS-L, Redstone
+Arsenal, AL 35898-5750.</distrib>
+<contents></front><body>
+<chapter xid="chap1">
+<title>INTRODUCTION</title>
+<para0 label="1" xid="par1">
+<title>SCOPE.</title>
+<brk><para>This Repair Parts and Special Tools List (RPSTL) lists and authorizes
+spares and repair parts; special tools; special test, measurement, and diagnostic
+equipment (TMDE); and other special support equipment required for performance
+of organizational, direct support, general support, and depot maintenance
+of Equipment Set, Night Vision Sight, Infrared AN/UAS-12A. It authorizes the
+requisition, issue, and disposition of spares, repair parts, and special tools
+as indicated by the Source, Maintenance, and Recoverability (SMR) codes.</para>
+</para0>
+<para0 label="2" xid="par2">
+<title>GENERAL.</title>
+<brk><para>In addition to Section I, Introduction, this RPSTL is divided into
+the following sections:</para>
+<subpara1 xid="sub2a">
+<title>Section II, Repair Parts List.</title><para>A list of spares and repair
+parts authorized by this RPSTL for use in the performance of maintenance.
+The list also includes parts which must be removed for replacement of the
+authorized parts. Parts lists are composed of functional groups in ascending
+alphanumeric sequence, with the parts in each group listed in ascending figure
+and item number sequence. Bulk materials are listed alphabetically by item
+name in FIG. BULK at the end of the section. Items listed are shown on the
+associated illustrations/figures.</para>
+</subpara1>
+<subpara1 xid="sub2b">
+<title>Section III, Special Tools List.</title><para>Not applicable.</para>
+</subpara1>
+<subpara1 xid="sub2c">
+<title>Section IV, Cross-Reference Indexes.</title><para>There are two cross-reference
+indexes in this RPSTL: the National Stock Number (NSN) Index and the Part
+Number Index. The NSN Index refers to the figure and item number. The Part
+Number Index refers to the NSN and figure and item number.</para>
+</subpara1></para0>
+<para0 label="3" xid="par3">
+<title>EXPLANATION OF COLUMNS (SECTIONS II and III).</title>
+<subpara1 xid="sub3a">
+<title>ILLUSTRATION (Column (1)).</title><para>This column is divided as follows:
+</para>
+<subpara2 xid="sub3a1">
+<title>((a) FIG NO.) Figure Number.</title><para>Indicates the figure number
+illustrating an exploded view of a functional group.</para>
+</subpara2>
+<subpara2 xid="sub3a2">
+<title>((b) ITEM NO.) Item Number.</title><para>Indicates the number used
+to identify items called out in the illustration.</para>
+</subpara2>
+</subpara1>
+<subpara1 xid="sub3b">
+<title>SMR CODE (Column (2)).</title><para>The Source, Maintenance, and Recoverability
+(SMR) code is a 5-position code containing supply/requisitioning information,
+maintenance level authorization criteria, and disposition instruction, as
+shown in the following breakout:</para>
+<table label="nonum-cont" frame="topbot">
+<title></title>
+<tgroup cols="3"><colspec colname="col1" colwidth="2.35in"><colspec colname="col2"
+colwidth="2.37in"><colspec colname="col3" colwidth="2.26in">
+<tbody><row>
+<?PubTbl row rht="0.25in">
+<entry align="center"><emphasis type="italic">Source Code</emphasis></entry>
+<entry align="center"><emphasis type="italic">Maintenance Code</emphasis></entry>
+<entry align="center"><emphasis type="italic">Recoverability Code</emphasis></entry>
+</row></tbody>
+</tgroup>
+<tgroup cols="5">
+<?PubTbl tgroup rth="1.00pt">
+<colspec colname="col1" colwidth="1.18in"><colspec colname="colspec2" colwidth="1.18in">
+<colspec colname="colspec1" colwidth="1.18in"><colspec colname="col2" colwidth="1.20in">
+<colspec colname="col3" colwidth="2.25in"><spanspec namest="col1" nameend="col3"
+spanname="span2"><spanspec namest="col1" nameend="colspec2" spanname="span1">
+<tbody><row><entry align="center"><emphasis type="italic">1st position</emphasis></entry>
+<entry align="center"><emphasis type="italic">2d position</emphasis></entry>
+<entry align="center"><emphasis type="italic">3d position</emphasis></entry>
+<entry align="center"><emphasis type="italic">4th position</emphasis></entry>
+<entry align="center"><emphasis type="italic">5th position</emphasis></entry>
+</row><row><entry spanname="span1">How you get an item</entry><entry>Who can
+install, replace, or use the item </entry><entry>Who can complete repair*
+on the item </entry><entry>Indicates special handling requirements or who
+determines disposition action on an unserviceable item</entry></row></tbody>
+</tgroup>
+</table><para>*Complete Repair: Maintenance capacity, capability, and authority
+to perform all the corrective maintenance tasks of the "Repair" function in
+a use/user environment in order to restore serviceability to a failed item.
+</para>
+<pgbrk>
+<subpara2 xid="sub3b1">
+<title>Source Code.</title><para> The source code tells you how to get an
+item needed for maintenance, repair, or overhaul of an end item/equipment.
+Explanations of source codes follow:</para>
+<table label="nonum-cont" frame="topbot">
+<title></title>
+<tgroup cols="2">
+<?PubTbl tgroup ctmarg="3.00pt" cbmarg="3.00pt">
+<colspec colname="col1" colwidth="1.64in"><colspec colname="col2" colwidth="5.34in">
+<spanspec namest="col1" nameend="col2" spanname="span1">
+<thead><row><entry valign="top" align="center"><emphasis type="italic">Code
+</emphasis></entry><entry valign="top" align="center"><emphasis type="italic">
+Application/Explanation</emphasis></entry></row></thead>
+<tbody><row>
+<?PubTbl row rht="1.02in">
+<entry rowsep="0">PA<brk>PB<brk>PC**</entry><entry rowsep="0">Stocked items;
+use the applicable NSN to request/requisition items with these source codes.
+They are authorized to the level indicated by the code entered in the 3d position
+of the SMR code.</entry></row><row><entry rowsep="1">PD<brk>PE<brk>PF<brk>PG
+</entry><entry rowsep="1" valign="middle" align="center"><emphasis type="bold">
+**NOTE</emphasis><brk>Items coded PC are subject to deterioration.</entry>
+</row><row><entry rowsep="1">KD<brk>KF<brk>KB</entry><entry rowsep="1">Items
+with these codes are not to be requested/requisitioned individually. They
+are part of a kit which is authorized to the maintenance level indicated in
+the 3d position of the SMR code. The complete kit must be requisitioned and
+applied.</entry></row><row><entry rowsep="0">MO-(Made at org/AVUM level)</entry>
+<entry morerows="3" rowsep="0">Items with these codes are not to be requested/requisitioned
+individually. They must be made from bulk material which is identified by
+the part number in the DESCRIPTION AND USABLE ON CODE (UOC) column and listed
+in the Bulk Material group of the repair parts list in the RPSTL. If the item
+is authorized to you by the 3d position of the SMR code, but the source code
+indicates it is made at a higher level, order the item from the higher level
+of maintenance.</entry></row><row><entry rowsep="0">MF-(Made at DS/AVUM level)
+</entry></row><row><entry rowsep="0">MH-(Made at GS level)</entry></row><row>
+<entry rowsep="0">ML-(Made at Specialized Repair Activity (SRA))</entry></row>
+<row><entry>MD-(Made at Depot)</entry><entry></entry></row><row><entry rowsep="0">
+AO-(Assembled by org/AVUM level)</entry><entry morerows="3" rowsep="0">Items
+with these codes are not to be requested/requisitioned individually. The parts
+that make up the assembled item must be requisitioned or fabricated and assembled
+at the level of maintenance indicated by the source code. If the 3d position
+of the SMR code authorizes you to replace the item, but the source code indicates
+the item is assembled at a higher level, order the item from the higher level
+of maintenance.</entry></row><row><entry rowsep="0">AF-(Assembled by DS/AVUM
+level)</entry></row><row><entry rowsep="0">AH-(Assembled by GS level)</entry>
+</row><row><entry rowsep="0">AL-(Assembled by SRA)</entry></row><row><entry>
+AD-(Assembled by Depot)</entry><entry></entry></row><row><entry>XA</entry>
+<entry>Do not requisition an &ldquo;XA&rsquo;&rsquo;-coded item. Order its
+next higher assembly. (Also refer to the NOTE below).</entry></row><row><entry>
+XB</entry><entry>If an &ldquo;XB&rdquo; item is not available from salvage,
+order it using the Commercial and Government Entity Code (CAGEC) and part
+number given.</entry></row><row><entry>XC</entry><entry>Installation drawing,
+diagram, instruction sheet, field service drawing, that is identified by manufacturers
+part number.</entry></row><row><entry>XD</entry><entry>Item is not stocked.
+Order an &ldquo;XD&rsquo;&rsquo;-coded item through normal supply channels
+using the CAGEC and part number given, if no NSN is available.</entry></row>
+</tbody>
+</tgroup>
+</table><note>
+<para>Cannibalization or controlled exchange, when authorized, may be used
+as a source of supply for items with the above source codes, except for those
+source coded &ldquo;XA&rdquo; or those aircraft support items restricted by
+requirements of AR 750-1.</para>
+</note></subpara2>
+<pgbrk>
+<subpara2 xid="sub3b2">
+<title>Maintenance Code.</title><para>Maintenance codes tell you the level(s)
+of maintenance authorized to USE and REPAIR support items. The maintenance
+codes are entered in the third and fourth positions of the SMR code as follows:
+</para>
+<subpara3 xid="sub3b2a">
+<title></title><para>The maintenance code entered in the third position tells
+you the lowest maintenance level authorized to remove, replace, and use an
+item. The maintenance code entered in the third position will indicate authorization
+to one of the following levels of maintenance.</para>
+<table label="nonum-cont" frame="topbot">
+<title></title>
+<tgroup cols="2"><colspec colname="col1" colwidth="1.43in"><colspec colname="col2"
+colwidth="5.55in">
+<thead><row><entry valign="top" align="center"><emphasis type="italic">Code
+</emphasis></entry><entry valign="top" align="center"><emphasis type="italic">
+Application/Explanation</emphasis></entry></row></thead>
+<tbody><row><entry rowsep="0" align="center">C</entry><entry rowsep="0">Crew
+or operator maintenance done within organizational or aviation unit maintenance.
+</entry></row><row><entry rowsep="0" align="center">O</entry><entry rowsep="0">
+Organizational or aviation unit level can remove, replace, and use the item.
+</entry></row><row><entry rowsep="0" align="center">F</entry><entry rowsep="0">
+Direct support or aviation intermediate level can remove, replace, and use
+the item.</entry></row><row><entry rowsep="0" align="center">H</entry><entry
+rowsep="0">General support level can remove, replace, and use the item.</entry>
+</row><row><entry rowsep="0" align="center">L</entry><entry rowsep="0">Specialized
+repair activity can remove, replace, and use the item.</entry></row><row>
+<entry align="center">D</entry><entry>Depot level can remove, replace, and
+use the item.</entry></row></tbody>
+</tgroup>
+</table></subpara3>
+<subpara3 xid="sub3b2b">
+<title></title><para>The maintenance code entered in the fourth position tells
+you whether or not the item is to be repaired and identifies the lowest maintenance
+level with the capability to do complete repair (i.e., perform all authorized
+repair functions). This position will contain one of the following maintenance
+codes.</para>
+<note>
+<para>Some limited repair may be done on the item at a lower level of maintenance,
+if authorized by the Maintenance Allocation Chart (MAC) and SMR codes.</para>
+</note>
+<table label="nonum-cont" frame="topbot">
+<title></title>
+<tgroup cols="2"><colspec colname="col1" colwidth="1.43in"><colspec colname="col2"
+colwidth="5.55in">
+<thead><row><entry valign="top" align="center"><emphasis type="italic">Code
+</emphasis></entry><entry valign="top" align="center"><emphasis type="italic">
+Application/Explanation</emphasis></entry></row></thead>
+<tbody><row><entry rowsep="0" align="center">O</entry><entry rowsep="0">Organizational
+or aviation unit is the lowest level that can do complete repair of the item.
+</entry></row><row><entry rowsep="0" align="center">F</entry><entry rowsep="0">
+Direct support or aviation intermediate is the lowest level that can do complete
+repair of the item.</entry></row><row><entry rowsep="0" align="center">H</entry>
+<entry rowsep="0">General support is the lowest level that can do complete
+repair of the item.</entry></row><row><entry rowsep="0" align="center">L</entry>
+<entry rowsep="0">Specialized repair activity is the lowest level that can
+do complete repair of the item.</entry></row><row><entry rowsep="0" align="center">
+D</entry><entry rowsep="0">Depot is the lowest level that can do complete
+repair of the item.</entry></row><row><entry rowsep="0" align="center">Z</entry>
+<entry rowsep="0">Nonreparable. No repair is authorized.</entry></row><row>
+<entry align="center">B</entry><entry>No repair is authorized. No parts or
+special tools are authorized for the maintenance of a &ldquo;B&rdquo;-coded
+item. However, the item may be reconditioned by adjusting, lubricating, etc.,
+at the user level.</entry></row></tbody>
+</tgroup>
+</table></subpara3>
+</subpara2>
+<pgbrk>
+<subpara2 xid="sub3b3">
+<title>Recoverability Code.</title><para>Recoverability codes are assigned
+to items to indicate the disposition action on unserviceable items. The recoverability
+code is entered in the fifth position of the SMR code as follows:</para>
+<table label="nonum-cont" frame="topbot">
+<title></title>
+<tgroup cols="2"><colspec colname="col1" colwidth="1.43in"><colspec colname="col2"
+colwidth="5.55in">
+<tbody><row><entry align="center"><emphasis type="italic">Code</emphasis></entry>
+<entry align="center"><emphasis type="italic">Application/Explanation</emphasis></entry>
+</row><row><entry rowsep="0" align="center">Z</entry><entry rowsep="0">Nonreparable
+item. When unserviceable, condemn and dispose of the item at the level of
+maintenance shown in 3d position of SMR code.</entry></row><row><entry rowsep="0"
+align="center">O</entry><entry rowsep="0">Reparable item. When uneconomically
+reparable, condemn and dispose of the item at organization or aviation unit
+level.</entry></row><row><entry rowsep="0" align="center">F</entry><entry
+rowsep="0">Reparable item. When uneconomically reparable, condemn and dispose
+of the item at the direct support or aviation intermediate unit level.</entry>
+</row><row><entry rowsep="0" align="center">H</entry><entry rowsep="0">Reparable
+item. When uneconomically reparable, condemn and dispose of the item at the
+general support level.</entry></row><row><entry rowsep="0" align="center">
+D</entry><entry rowsep="0">Reparable item. When beyond lower level repair
+capability, return to depot. Condemnation and disposal of item not authorized
+below depot level.</entry></row><row><entry rowsep="0" align="center">L</entry>
+<entry rowsep="0">Reparable item. Condemnation and disposal not authorized
+below specialized repair activity (SRA).</entry></row><row><entry align="center">
+A</entry><entry>Item requires special handling or condemnation procedures
+because of specific reasons (e.g., precious metal content, high dollar value,
+critical material, or hazardous material). Refer to appropriate manuals/directives
+for specific instructions.</entry></row></tbody>
+</tgroup>
+</table><note centered-para="1">
+<para>See SPECIAL INFORMATION, paragraph 5a for additional explanation of
+Recoverability Code A.</para>
+</note></subpara2>
+</subpara1>
+<subpara1 xid="sub3c">
+<title>NATIONAL STOCK NUMBER (Column (3)).</title><para>This column lists
+the NSN assigned to the item. Use the NSN for requests/requisitions.</para>
+</subpara1>
+<subpara1 xid="sub3d">
+<title>CAGEC (Column (4)).</title><para>The CAGEC is a 5-digit code which
+is used to identify the manufacturer, distributor, or government agency/activity,
+etc., that supplies the item.</para>
+</subpara1>
+<subpara1 xid="sub3e">
+<title>PART NUMBER (Column (5)).</title><para>Indicates the primary number
+used by the manufacturer (individual, company, firm, corporation, or government
+agency/activity), which controls the design and characteristics of the item
+by means of its engineering drawings, specifications, standards, and inspection
+requirements to identify an item or range of items.</para>
+<note></note><para>When you use an NSN to requisition an item, the item you
+receive may have a different part number from the part ordered.</para>
+</subpara1>
+<subpara1 xid="sub3f">
+<title>DESCRIPTION AND USABLE ON CODE (UOC) (Column (6)).</title><para>This
+column includes the following information:</para>
+<subpara2 xid="sub3f1">
+<title></title><para>The Federal item name and, when required, a minimum description
+to identify the item.</para>
+</subpara2>
+<subpara2 xid="sub3f2">
+<title></title><para>The physical security classification of an item, when
+applicable, is indicated by a parenthetical entry following the Controlled
+Item Inventory Code (CIIC), e.g., CIIC(C) means the item is classified Confidential.
+</para>
+</subpara2>
+<subpara2 xid="sub3f3">
+<title></title><para>Items that are included in kits and sets are listed below
+the name of the kit or set.</para>
+</subpara2>
+<subpara2 xid="sub3f4">
+<title></title><para>Spare/repair parts that make up an assembled item are
+listed immediately following the assembled item line entry or reference is
+made to the applicable figure/functional group.</para>
+</subpara2>
+<subpara2 xid="sub3f5">
+<title></title><para>Part numbers for bulk materials are referenced in this
+column in the line entry for the item to be manufactured/fabricated.</para>
+</subpara2>
+<pgbrk>
+<subpara2 xid="sub3f6">
+<title></title><para>When the item is not used with all serial numbers of
+the same model, the effective serial numbers are shown as the last line(s)
+of the description (before UOC).</para>
+</subpara2>
+<subpara2 xid="sub3f7">
+<title></title><para>In the Special Tools List section, the basis of issue
+(BOI) appears as the last line(s) in the entry for each special tool, special
+TMDE, and other special support equipment. When density of equipment supported
+exceeds density spread indicated in the basis of issue, the total authorization
+is increased proportionately.</para>
+</subpara2>
+<subpara2 xid="sub3f8">
+<title></title><para>The Usable on Code (UOC), when applicable (see paragraph <xref
+xref="par5">, Special Information).</para>
+</subpara2>
+</subpara1>
+<subpara1 xid="sub3g">
+<title>QTY (Column (7)).</title><para>The quantity (QTY) (quantity per figure
+column) indicates the quantity of the item used in the breakout shown on the
+illustration/figure, which is prepared for a functional group, sub-functional
+group, or an assembly. A &ldquo;V&rdquo; appearing in this column in lieu
+of a quantity indicates that the quantity is variable and may vary from application
+to application.</para>
+</subpara1></para0>
+<para0 label="4" xid="par4">
+<title>EXPLANATION OF COLUMNS (SECTION IV).</title>
+<subpara1 xid="sub4a">
+<title>NATIONAL STOCK NUMBER INDEX.</title>
+<subpara2 xid="sub4a1">
+<title>STOCK NUMBER Column.</title><para>This column lists the NSN by National
+item identification number (NIIN) sequence. The NIIN consists of the last
+nine digits of the NSN (e.g.,</para>
+<table label="nonum" frame="none" colsep="0" rowsep="0">
+<title></title>
+<tgroup cols="1">
+<?PubTbl tgroup clmarg="1.00pt" crmarg="1.00pt" ctmarg="1.00pt" cbmarg="1.00pt" dispwid="1.40in">
+<colspec colname="col1" colwidth="1.30in">
+<tbody><row rowsep="1" valign="bottom"><entry align="center">NSN</entry></row>
+<row valign="middle"><entry align="center">5305-<emphasis type="undl">01-574-1467).
+</emphasis></entry></row><row><entry align="center">NIIN</entry></row></tbody>
+</tgroup>
+</table><para>When using this column to locate an item, ignore the first 4
+digits of the NSN. However, the complete NSN should be used when ordering
+items by stock number.</para>
+</subpara2>
+<subpara2 xid="sub4a2">
+<title>FIG. Column.</title><para>This column lists the number of the figure
+where the item is identified/located. The figures are in numerical order in
+Sections II or III.</para>
+</subpara2>
+<subpara2 xid="sub4a3">
+<title>ITEM Column.</title><para>The item number identifies the item associated
+with the figure listed in the adjacent FIG. column. This item is also identified
+by the NSN listed on the same line.</para>
+</subpara2>
+</subpara1>
+<subpara1 xid="sub4b">
+<title>PART NUMBER INDEX.</title><para>Part numbers in this index are listed
+by part number in ascending alphanumeric sequence.</para>
+<subpara2 xid="sub4b1">
+<title>PART NUMBER Column.</title><para>Indicates the primary number used
+by the manufacturer (individual, firm, corporation, or government agency/activity),
+which controls the design and characteristics of the item by means of its
+engineering drawings, specification standards, and inspection requirements
+to identify  an item or range of items.</para>
+</subpara2>
+<subpara2 xid="sub4b2">
+<title>FIG. Column.</title><para>This column lists the number of the figure
+where the item is identified/located in Sections II or III.</para>
+</subpara2>
+<subpara2 xid="sub4b3">
+<title>ITEM column.</title><para>The item number is that number assigned to
+the item as it appears in the figure referenced in the adjacent figure number
+column.</para>
+</subpara2>
+</subpara1></para0>
+<para0 label="5" xid="par5">
+<title>SPECIAL INFORMATION.</title>
+<subpara1 xid="sub5a">
+<title>RECOVERABILITY CODE A.</title><para>Items assigned recoverability code
+&ldquo;A&rdquo; require research to determine the appropriate special handling
+or condemnation procedures. The &ldquo;A&rdquo; recoverability code is utilized
+to identify items containing precious metal and/or hazardous material and
+items requiring special disposal instructions, such as, centralized recovery,
+due to unique management interests. If the item with a recoverability code
+of &ldquo;A&rdquo; cannot be identified as being an item under one of the
+above conditions, the item may require special cannibalization actions prior
+to disposal of the item. The &ldquo;A&rdquo; code is also utilized to denote
+selected reparable items which require lower generation spares/repair parts
+to be removed prior to the disposal of the reparable item. When these &ldquo;A&rsquo;&rsquo;-coded
+items are determined to be uneconomically reparable at the authorized 4th
+position level, the recoverability code of all lower generation items must
+be reviewed. Any lower generation items which have a higher recoverability
+code level than the SMR 4th position level of the uneconomically reparable
+item must be removed and forwarded to the appropriate level authorized for
+individual disposition prior to disposal of the uneconomically reparable item.
+The uneconomically reparable item is then authorized to be disposed of, with
+the higher level recoverability item missing, at the level denoted by the
+SMR 4th position.</para>
+</subpara1>
+<subpara1 xid="sub5b">
+<title>INDEX NUMBERS.</title><para>Items which have the word BULK in the figure
+column will have an index number shown in the item number column. This index
+number is a cross-reference between the National Stock Number/Part Number
+Index and the bulk material list in Section II.</para>
+</subpara1>
+<subpara1 xid="sub5c">
+<title></title><para>National stock numbers (NSN) that are missing for &ldquo;P&rdquo;
+source coded items have been applied for and will be added to this manual
+by a change/revision when they are entered in the Army Master Data File (AMDF).
+ Until the NSNs are established and published, submit exception requisitions
+to: Commander, U.S. Army Missile Command, ATTN: AMSMI-MMC-MM-DDT, Redstone
+Arsenal, AL 35898-5239.</para>
+</subpara1>
+<subpara1 xid="sub5d">
+<title></title><para>For requisitioning miscellaneous consumable maintenance
+supplies or expendable supplies, use CTA 50-970.</para>
+</subpara1>
+<subpara1 xid="sub5e">
+<title></title><para>To report quality deficiencies due to design, manufacturing,
+and maintenance, or recommendations for improvements to equipment, submit
+SF 368, Quality Deficiency Report (QDR), to: Commander, U.S. Army Missile
+Command, ATTN: AMSMI-QA-QM-QD, Redstone Arsenal, AL 35898-5290.</para>
+</subpara1>
+<subpara1 xid="sub5f">
+<title>USABLE ON CODE.</title><para>The UOC is a three-position, alphanumeric
+code that represents each model in which an item is used. The UOC appears
+on the last line of an item&rsquo;s description following the letters "UOC."
+Uncoded items are used in all models. The UOCs in this RPSTL are identified
+as follows:</para>
+</subpara1>
+<table label="nonum" frame="none">
+<title></title>
+<tgroup cols="2">
+<?PubTbl tgroup ctmarg="3.00pt" cbmarg="3.00pt" clmarg="1.00in">
+<colspec colname="col1" colwidth="3.49in"><colspec colname="col2" colwidth="3.49in">
+<spanspec namest="col1" nameend="col2" spanname="span1">
+<thead><row><entry colsep="0" rowsep="0" valign="top"><emphasis type="undlitalic">
+UOC</emphasis></entry><entry colsep="0" rowsep="0" valign="top"><emphasis
+type="undlitalic">Used On</emphasis></entry></row></thead>
+<tbody><row><entry colsep="0" rowsep="0">YAG</entry><entry colsep="0" rowsep="0">
+13220196 AN/UAS-12A (TI)</entry></row><row><entry colsep="0" rowsep="0">YAL
+</entry><entry colsep="0" rowsep="0">13251667 AN/UAS-12A (KIC)</entry></row>
+<row><entry spanname="span1" colsep="0" rowsep="0"></entry></row></tbody>
+</tgroup>
+</table>
+<subpara1 xid="sub5h">
+<title>ILLUSTRATIONS.</title><para>Certain assemblies in this RPSTL have fully
+exploded illustrations depicting all parts. Illustrations for other assemblies
+reflect only those spares and repair parts that are authorized for use in
+performance of maintenance plus those parts which must be removed for replacement
+of the authorized items. Regardless of which type illustration is shown in
+this RPSTL, only those spares and repair parts listed in the parts list are
+authorized for requisitioning, issue, and disposition as indicated by the
+Source, Maintenance, and Recoverability (SMR) code.</para>
+</subpara1>
+<subpara1 xid="sub5i">
+<title>ASSOCIATED PUBLICATIONS.</title><para>The publications listed below
+pertain to the AN/UAS-12C, and their components.</para>
+</subpara1>
+<table label="nonum" frame="none">
+<title></title>
+<tgroup cols="2">
+<?PubTbl tgroup ctmarg="3.00pt" cbmarg="3.00pt" clmarg="1.00in">
+<colspec colname="col1" align="left" charoff="50" char="." colwidth="2.79in">
+<colspec colname="col2" align="left" colwidth="4.19in">
+<thead><row>
+<?PubTbl row rht="0.52in">
+<entry colsep="0" rowsep="0" valign="top"><emphasis type="italic">Publication
+</emphasis></entry><entry colsep="0" rowsep="0" valign="top"><emphasis type="italic">
+Short Title</emphasis></entry></row></thead>
+<tbody><row><entry xid="m9-5855-450-24" colsep="0" rowsep="0">TM 9-5855-450-24
+</entry><entry colsep="0" rowsep="0">Org, DS/GS, and Depot Maint Manual for
+Night Vision Sight, Infrared AN/TAS-4A</entry></row></tbody>
+</tgroup>
+</table>
+<subpara1 xid="sub5j">
+<title>ASSEMBLY INSTRUCTIONS.</title><para>Detailed assembly instructions
+for items source coded to be assembled from component spare/repair parts are
+found in TM 9-5855-450-24. Items that make up the assembly are listed immediately
+following the assembly item entry or reference is made to an applicable figure/functional
+group.</para>
+</subpara1></para0>
+<para0 label="6" xid="par6">
+<title>HOW TO LOCATE REPAIR PARTS.</title>
+<subpara1 xid="sub6a">
+<title></title><para>When National Stock Number, Part Number is not known:
+</para>
+<subpara2 xid="sub6a1">
+<title>First.</title><para>Using the Table of Contents, determine the assembly
+group or subassembly group to which the item belongs. This is necessary since
+figures are prepared for assembly groups and subassembly groups and listings
+are divided into the same groups.</para>
+</subpara2>
+<subpara2 xid="sub6a2">
+<title>Second.</title><para>Find the figure covering the assembly group or
+subassembly group to which the item belongs.</para>
+</subpara2>
+<subpara2 xid="sub6a3">
+<title>Third.</title><para>Identify the item on the illustration and note
+the illustration figure and item number of the item.</para>
+</subpara2>
+<subpara2 xid="sub6a4">
+<title>Fourth.</title><para>Using the Repair Parts Listing, find the figure
+and item number noted on the illustration.</para>
+</subpara2>
+</subpara1>
+<subpara1 xid="sub6b">
+<title></title><para>When National Stock Number, Part Number known:</para>
+<subpara2 xid="sub6b1">
+<title>First.</title><para>If you have the NSN, look in the STOCK NUMBER Column
+of the National Stock Number Index. The NSN Index is arranged in National
+item identification number (NIIN) sequence (see paragraph <xref xref="par4">a).
+Note the figure and item number next to the NSN.</para>
+</subpara2>
+<subpara2 xid="sub6b2">
+<title>Second.</title><para>Turn to the figure and locate the item number.
+Verify that the item is the one you are looking for.</para>
+<note></note><para>If you have the part number or reference designator, look
+in the PART NUMBER column of the Part Number Index. Identify the figure and
+item number, look up the item in the applicable figure in Section II or III.
+</para>
+</subpara2>
+</subpara1></para0>
+<para0 label="7" xid="par7">
+<title>ABBREVIATIONS.</title><para>(Not applicable)</para>
+</para0>
+</chapter>
+</body>
+<rear></rear>
+</doc>
+<?Pub *0000049704 0>

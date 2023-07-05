@@ -1,0 +1,298 @@
+<?xml-stylesheet href="TB.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="TB.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN" [
+<!NOTATION eps SYSTEM "EPS">
+]>
+<?Pub Inc>
+<doc service="army" docid="1-2345-678-9" docstat="urgent" columns="one"><front>
+<idinfo>
+<tmidno service="army"></tmidno>
+<doctype pubtype="tb"> </doctype>
+<prtitle>
+<nomen>Title of Book</nomen>
+<brk></prtitle>
+<distrib type="c">This is distribution C. </distrib><?Pub Caret 0>
+<expcont></expcont>
+<destr></destr>
+<avail>AVAILABLTY STATEMENT GOES HERE.</avail>
+<authnot>Headquarters, Department of the Army, Washington D.C.</authnot>
+<pubdate>PUB DATE</pubdate></idinfo>
+<reportoferrors>
+<para>You can improve this manual.  If you find any mistakes or if you know of a way to improve these procedures, please let us know.  Mail your letter or DA Form 2028 (Recommended Changes to Publications and Blank Forms), directly to:  Commander, U.S. Army Aviation and Missile Command, ATTN:  AMSAM-MMC-MA-NP, Redstone Arsenal, AL  35898-5000.  A reply will be furnished to you.  You may also send in your comments electronically to our E-mail address:  2028@redstone.army.mil or by fax 256-842-6546/DSN 788-6546.  For the World Wide Web use:  https://amcom2028.redstone.army.mil.  Instructions for sending an electronic 2028 can be found at the back of this manual.</para>
+</reportoferrors>
+<hazardmaterialstatement>
+<title>Hazardous materials</title>
+<para>This is the hazardous materials statement. It should be in a box.</para></hazardmaterialstatement>
+<contents levels="1"></front>
+<body>
+<chapter label="nonum">
+<title></title>
+<section>
+<title>Indentification and Descriptions</title>
+<note>
+<para> </para>
+</note>
+<para0>
+<title> SUMMARY. </title><para></para>
+</para0>
+<para0>
+<title>END ITEMS AFFECTED.</title><para></para>
+</para0>
+<para0>
+<title>ASSEMBLIES/COMPONENTS/PARTS AFFECTED.</title></para0>
+<para0>
+<note>
+<para></para>
+</note>
+<title>INITIAL TAMMS (THE ARMY MAINTENANCE SYSTEM) COMPLIANCE REQUIREMENTS.</title><para></para>
+</para0>
+<para0>
+<title>TASK/INSPECTION COMPLIANCE REPORTING REQUIREMENTS.</title><para></para>
+</para0>
+<para0>
+<title>SPECIAL PROVISIONS TO MESSAGE REQUIREMENTS (AIRCRAFT).</title><para></para>
+</para0>
+<para0>
+<title>TECHNICAL PROCEDURES/INSTRUCTIONS.</title><para></para>
+</para0>
+<para0>
+<title>PROCEDURES/INSTRUCTIONS FOR ASSEMBLIES/COMPONENTS/PARTS IN WORK OR IN STOCK (AT ALL LEVELS INCLUDING WAR RESERVES).</title><para></para>
+</para0>
+<para0>
+<title>SPECIAL TOOLS AND FIXTURES REQUIRED.</title><para></para>
+</para0>
+<para0>
+<title>SUPPLY/PARTS (REQUISITION/DISPOSITION).</title>
+<subpara1>
+<title></title><para></para>
+<table label="nonum" frame="none">
+<title></title>
+<tgroup cols="5"><colspec colname="col1" colwidth="2.00in"><colspec colname="col2" colwidth="1.60in"><colspec colname="col3" colwidth="0.65in"><colspec colname="col4" colwidth="1.15in"><colspec colname="col5" align="center" colwidth="1.25in"><spanspec namest="col2" nameend="col4" spanname="span1">
+<tbody>
+<row><entry colsep="0" rowsep="1" align="center">NOMENCLATURE </entry><entry colsep="0" rowsep="1" align="center">PN/NSN</entry><entry colsep="0" rowsep="1" align="center">QTY</entry><entry colsep="0" rowsep="1" align="center">COST EA.</entry><entry colsep="0" rowsep="1">TOTAL $ </entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry spanname="span1" colsep="0" rowsep="0" align="right">TOTAL COST PER AIRCRAFT =</entry><entry colsep="0" rowsep="0"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</subpara1>
+<subpara1>
+<title></title></subpara1>
+<table label="nonum" frame="none">
+<title></title>
+<tgroup cols="3"><colspec colname="col1" colwidth="2.00in"><colspec colname="col2" colwidth="1.25in"><colspec colname="col3" colwidth="1.50in">
+<tbody>
+<row><entry colsep="0" rowsep="1" align="center">NOMENCLATURE</entry><entry colsep="0" rowsep="1" align="center">PN</entry><entry colsep="0" rowsep="1" align="center">NSN</entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+<para0>
+<title>MAINTENANCE APPLICATION.</title><para></para>
+</para0>
+<para0>
+<title>PUBLICATION REQUIREMENTS.</title><para></para>
+</para0>
+<para0>
+<title>POINTS OF CONTACT.</title>
+<subpara1>
+<title>Technical POCs are:</title>
+<subpara2>
+<title>Primary.</title><para></para>
+</subpara2>
+<subpara2>
+<title>Alternate.</title><para> </para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Logistical POCs are:</title>
+<subpara2>
+<title>Primary.</title><para> </para>
+</subpara2>
+<subpara2>
+<title>Alternate.</title><para> </para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Forms and records POCs are:</title>
+<subpara2>
+<title>Primary.</title><para></para>
+</subpara2>
+<subpara2>
+<title>Alternate.</title><para></para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Safety POCs are:</title>
+<subpara2>
+<title>Primary.</title><para></para>
+</subpara2>
+<subpara2>
+<title>Alternate.</title><para></para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Foreign military sales POC.</title><para></para>
+</subpara1>
+<subpara1>
+<title>After hours.</title><para></para>
+</subpara1></para0>
+<para0 label="nonum">
+<title></title></para0>
+</section>
+<section>
+<title>Test Section</title>
+<note>
+<para> </para>
+</note>
+<para0 label="5-1">
+<title> SUMMARY. </title><para></para>
+</para0>
+<para0 label="5-2">
+<title>END ITEMS AFFECTED.</title><para></para>
+</para0>
+<para0>
+<title>ASSEMBLIES/COMPONENTS/PARTS AFFECTED.</title></para0>
+<para0 label="5-3">
+<note>
+<para>This is a test note.</para>
+</note>
+<title>INITIAL TAMMS (THE ARMY MAINTENANCE SYSTEM) COMPLIANCE REQUIREMENTS.</title><para></para>
+</para0>
+<para0>
+<caution>
+<para>This is a test caution.</para>
+</caution>
+<title>TASK/INSPECTION COMPLIANCE REPORTING REQUIREMENTS.</title><para></para>
+</para0>
+<para0>
+<warning>
+<para>This is a test warning.</para>
+</warning>
+<title>SPECIAL PROVISIONS TO MESSAGE REQUIREMENTS (AIRCRAFT).</title><para></para>
+</para0>
+<para0>
+<title>TECHNICAL PROCEDURES/INSTRUCTIONS.</title><para></para>
+</para0>
+<para0>
+<title>PROCEDURES/INSTRUCTIONS FOR ASSEMBLIES/COMPONENTS/PARTS IN WORK OR IN STOCK (AT ALL LEVELS INCLUDING WAR RESERVES).</title><para></para>
+</para0>
+<para0>
+<title>SPECIAL TOOLS AND FIXTURES REQUIRED.</title><para></para>
+</para0>
+<para0>
+<title>SUPPLY/PARTS (REQUISITION/DISPOSITION).</title>
+<subpara1>
+<title></title><para></para>
+<table label="nonum" frame="none">
+<title></title>
+<tgroup cols="5"><colspec colname="col1" colwidth="2.00in"><colspec colname="col2" colwidth="1.60in"><colspec colname="col3" colwidth="0.65in"><colspec colname="col4" colwidth="1.15in"><colspec colname="col5" align="center" colwidth="1.25in"><spanspec namest="col2" nameend="col4" spanname="span1">
+<tbody>
+<row><entry colsep="0" rowsep="1" align="center">NOMENCLATURE </entry><entry colsep="0" rowsep="1" align="center">PN/NSN</entry><entry colsep="0" rowsep="1" align="center">QTY</entry><entry colsep="0" rowsep="1" align="center">COST EA.</entry><entry colsep="0" rowsep="1">TOTAL $ </entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0" rowsep="0" align="center"></entry><entry colsep="0" rowsep="0"></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry spanname="span1" colsep="0" rowsep="0" align="right">TOTAL COST PER AIRCRAFT =</entry><entry colsep="0" rowsep="0"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</subpara1>
+<subpara1>
+<title></title></subpara1>
+<table label="nonum" frame="none">
+<title></title>
+<tgroup cols="3"><colspec colname="col1" colwidth="2.00in"><colspec colname="col2" colwidth="1.25in"><colspec colname="col3" colwidth="1.50in">
+<tbody>
+<row><entry colsep="0" rowsep="1" align="center">NOMENCLATURE</entry><entry colsep="0" rowsep="1" align="center">PN</entry><entry colsep="0" rowsep="1" align="center">NSN</entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+<para0>
+<title>MAINTENANCE APPLICATION.</title><para></para>
+</para0>
+<para0>
+<title>PUBLICATION REQUIREMENTS.</title><para></para>
+</para0>
+<para0>
+<title>POINTS OF CONTACT.</title>
+<subpara1>
+<title>Technical POCs are:</title>
+<subpara2>
+<title>Primary.</title><para></para>
+</subpara2>
+<subpara2>
+<title>Alternate.</title><para> </para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Logistical POCs are:</title>
+<subpara2>
+<title>Primary.</title><para> </para>
+</subpara2>
+<subpara2>
+<title>Alternate.</title><para> </para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Forms and records POCs are:</title>
+<subpara2>
+<title>Primary.</title><para></para>
+</subpara2>
+<subpara2>
+<title>Alternate.</title><para></para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Safety POCs are:</title>
+<subpara2>
+<title>Primary.</title><para></para>
+</subpara2>
+<subpara2>
+<title>Alternate.</title><para></para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Foreign military sales POC.</title><para></para>
+</subpara1>
+<subpara1>
+<title>After hours.</title><para></para>
+</subpara1></para0>
+<para0 label="nonum">
+<title></title>
+<table label="nonum" frame="none">
+<title></title>
+<tgroup cols="4"><colspec colname="colspec1" colwidth="0.19*"><colspec colname="col1" colwidth="1.00*"><colspec colname="colspec0" colwidth="1.09*"><colspec colname="col2" colwidth="1.20*"><spanspec namest="col1" nameend="colspec0" spanname="span1">
+<tbody>
+<row><entry colsep="0" rowsep="0"></entry><entry spanname="span1" colsep="0" rowsep="0" align="left"><emphasis type="bold">By Order of the Secretary of the Army:</emphasis></entry><entry colsep="0" rowsep="0"></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"><emphasis type="bold">NAME</emphasis></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"><emphasis type="bolditalic">General, United States Army</emphasis></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"><emphasis type="bolditalic">Acting Chief of Staff</emphasis></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"><emphasis type="bold">OFFICIAL:</emphasis></entry><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry spanname="span1" colsep="0" rowsep="0" align="left"><graphic boardno="need_a_graphic" reprowid="0.25in" reprodep="0.25in"></entry><entry colsep="0" rowsep="0"></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry spanname="span1" colsep="0" rowsep="0" align="left"><emphasis type="bold">NAME</emphasis></entry><entry colsep="0" rowsep="0"></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry spanname="span1" colsep="0" rowsep="0" align="left"><emphasis type="bolditalic">Administrative Assistant to the </emphasis></entry><entry colsep="0" rowsep="0"></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry spanname="span1" colsep="0" rowsep="0" align="left"><emphasis type="bolditalic">Secretary of the Army</emphasis></entry><entry colsep="0" rowsep="0"></entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0" valign="bottom"><emphasis type="supscrpt">#######</emphasis></entry><entry colsep="0" rowsep="0"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+</section>
+<section>
+<title></title>
+<para0>
+<title>Section 2 Para0</title></para0>
+</section></chapter>
+<chapter label="nonum">
+<title> </title>
+<para0 label="nonum">
+<title></title><para> </para>
+</para0>
+</chapter></body></doc>
+<?Pub *0000012820 0>

@@ -1,0 +1,215 @@
+<?xml-stylesheet href="mwo.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="mwo.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN" "atcom.dtd" [
+<!NOTATION gif SYSTEM "gif">
+<!NOTATION bmp SYSTEM "bmp">
+<!NOTATION jpg SYSTEM "jpg">
+]>
+<?Pub EntList alpha bull copy rArr sect trade aelig deg percnt amp plusmn delta ast mdash nbsp emsp14 emsp13 sdotb>
+<?Pub Inc>
+<doc service="army" docid="xx-xxxx-xxx" docstat="emergency" columns="one"><front>
+<idinfo>
+<tmidno service="army"></tmidno>
+<doctype pubtype="mwo"></doctype>
+<prtitle>
+<nomen>nomenclature</nomen>
+<partno>1st Partno</partno><nsn>1stnsn</nsn><eic> 1st</eic>
+</prtitle>
+<effdatenot>MWO effective date DD MONTH YYYY and completion date  DD MONTH YYYY .</effdatenot>
+<distrib type="a">distrib statement text goes here.</distrib>
+<expcont></expcont>
+<destr></destr>
+<avail>This publication is not available through U. S. Army Publication Distribution Centers. It must be obtained from U.S. Army Aviation and Missile Command, ATTN: AMSAM-MSS-LP, Redstone Arsenal, AL. 35898&ndash;5230.</avail>
+<discl>disclosure statment</discl>
+<supersed>This is a supersede statement.</supersed>
+<authnot>U.S. ARMY AVIATION ANDMISSILE COMMAND</authnot>
+<pubdate>dd month yyyy</pubdate></idinfo><?Pub Caret 327>
+<reportoferrors>
+<para>You can help improve this manual. If you find mistakes or know of a way to improve procedures, please let us know. Mail your letter, DA Form 2028 (Recommended Changes to Publications and Blank Forms) located at the back of this manual, directly to: US.</para>
+</reportoferrors>
+<contents></front>
+<body>
+<chapter><title></title>
+<para0>
+<title>PURPOSE.</title><para>The purpose of this modification is to refer to XXXX dated DD Month YEAR</para>
+</para0>
+<para0>
+<title>PRIORITY.</title><para>This modification is classified &ldquo;ROUTINE&rdquo;.</para>
+</para0>
+<para0>
+<title>END ITEM OR SYSTEM TO BE MODIFIED.</title><para>The following end items shall be modified in accordance with the instructions contained in Paragraph XX.</para>
+<table label="nonum" frame="topbot">
+<title></title>
+<tgroup cols="4"><colspec colname="col1" colwidth="1.75in"><colspec colname="col2" colwidth="1.75in"><colspec colname="col3" colwidth="1.75in"><colspec colname="col4" colwidth="1.75in">
+<thead>
+<row><entry colsep="1" rowsep="1" valign="top">Nomenclature</entry><entry colsep="1" rowsep="1" valign="top">National Stock Number</entry><entry colsep="1" rowsep="1" valign="top">Type and Model</entry><entry colsep="1" rowsep="1" valign="top">Serial Number</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1"></entry><entry colsep="1"></entry><entry colsep="1"></entry><entry colsep="1"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+<para0>
+<title>MODULES (components, assemblies, subassemblies, boards, and cards) TO BE MODIFIED.</title><para>Refer to XXXX dated dd month year.</para>
+<table label="nonum" frame="topbot">
+<title></title>
+<tgroup cols="3"><colspec colname="col1" colwidth="2.33in"><colspec colname="col2" colwidth="2.33in"><colspec colname="col4" colwidth="2.33in">
+<thead>
+<row><entry colsep="1" rowsep="1" valign="top" align="center">Nomenclature</entry><entry colsep="1" rowsep="1" valign="top" align="center">National Stock Number</entry><entry colsep="1" rowsep="1" valign="top" align="center">Serial Number</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1"></entry><entry colsep="1"></entry><entry colsep="1"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+<para0>
+<title>PART(S) TO BE MODIFIED.</title><para>Refer to XXXX dated dd month year.</para>
+<table label="nonum" frame="topbot">
+<title></title>
+<tgroup cols="3"><colspec colname="col1" colwidth="2.33in"><colspec colname="col2" colwidth="2.33in"><colspec colname="col4" colwidth="2.33in">
+<thead>
+<row><entry colsep="1" rowsep="1" valign="top" align="center">Nomenclature</entry><entry colsep="1" rowsep="1" valign="top" align="center">National Stock Number</entry><entry colsep="1" rowsep="1" valign="top" align="center">Part Number</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1"></entry><entry colsep="1"></entry><entry colsep="1"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+<para0>
+<title>APPLICATION.</title>
+<subpara1><para></para>
+<table label="nonum" frame="all">
+<title></title>
+<tgroup cols="2" align="center">
+<?PubTbl tgroup dispwid="441.00px">
+<colspec colname="col1" colwidth="2.67in"><colspec colname="col2" colwidth="1.25in">
+<thead>
+<row><entry colsep="1" rowsep="1" valign="top">Work Force/Skills</entry><entry colsep="1" rowsep="1" valign="top">Man-Hours</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1" align="left">## - job skill type</entry><entry colsep="1"></entry></row>
+<row><entry align="left"></entry><entry align="left"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</subpara1></para0>
+<para0>
+<title>TECHNICAL PUBLICATIONS AFFECTED/CHANGED.</title><para></para>
+<table label="nonum" frame="none">
+<title></title>
+<tgroup cols="2">
+<?PubTbl tgroup dispwid="355.00px">
+<colspec colname="col1" colwidth="1.50in"><colspec colname="col2" colwidth="1.65in">
+<tbody>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0">Current Version</entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+<para0>
+<title>MWO KIT(S)/PART(S) AND THEIR DISPOSITION.</title>
+<note>
+<para>It is permissible to increase or decrease hardware size by up to two sizes to facilitate installation.</para>
+</note>
+<subpara1><para>Kits\Parts required to accomplish MWO.</para>
+<subpara2><para>Kits required to accomplish this MWO are:</para>
+<table label="nonum" frame="all">
+<title></title>
+<tgroup cols="5">
+<?PubTbl tgroup dispwid="625.00px">
+<colspec colname="col1" colwidth="1.87in"><colspec colname="col2" colwidth="1.34in"><colspec colname="col3" colwidth="0.61in"><colspec colname="col4" colwidth="1.36in"><colspec colname="colspec0" colwidth="0.38in">
+<thead>
+<row><entry colsep="1" rowsep="1" valign="top" align="center">Nomenclature</entry><entry colsep="1" rowsep="1" valign="top" align="center">National Stock Number</entry><entry colsep="1" rowsep="1" valign="top" align="center">Cage</entry><entry colsep="1" rowsep="1" valign="top" align="center">Part Number</entry><entry valign="top" align="center">Qty</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1"></entry><entry colsep="1"></entry><entry colsep="1" align="center"></entry><entry colsep="1" align="center"></entry><entry align="center"></entry></row>
+<row><entry></entry><entry></entry><entry align="center"></entry><entry align="center"></entry><entry align="center"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</subpara2>
+</subpara1>
+<subpara1><para>Bulk and Consumable Material.</para>
+<table label="nonum" frame="all">
+<title></title>
+<tgroup cols="5">
+<?PubTbl tgroup dispwid="625.00px">
+<colspec colname="col1" colwidth="1.87in"><colspec colname="col2" colwidth="1.34in"><colspec colname="col3" colwidth="0.61in"><colspec colname="col4" colwidth="1.36in"><colspec colname="colspec0" colwidth="0.38in">
+<thead>
+<row><entry colsep="1" rowsep="1" valign="top" align="center">Nomenclature</entry><entry colsep="1" rowsep="1" valign="top" align="center">National Stock Number</entry><entry colsep="1" rowsep="1" valign="top" align="center">Cage</entry><entry colsep="1" rowsep="1" valign="top" align="center">Part Number</entry><entry valign="top" align="center">Qty</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1"></entry><entry colsep="1"></entry><entry colsep="1" align="center"></entry><entry colsep="1" align="center"></entry><entry align="center"></entry></row>
+<row><entry></entry><entry></entry><entry align="center"></entry><entry align="center"></entry><entry align="center"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</subpara1></para0>
+<para0>
+<title>SPECIAL TOOLS; TOOL KITS; JIGS; TEST, MEASUREMENT, AND DIAGNOSTIC EQUIPMENT (TMDE); AND FIXTURES REQUIRED.</title><para></para>
+</para0>
+<para0>
+<title>MODIFICATION PROCEDURES.</title><para></para>
+</para0>
+<para0>
+<title>CALIBRATION REQUIREMENTS.</title><para></para>
+</para0>
+<para0>
+<title>WEIGHT AND BALANCE DATA.</title><para></para>
+</para0>
+<para0>
+<title>QUALITY ASSURANCE REQUIREMENTS.</title><para></para>
+</para0>
+<para0>
+<title>RECORDING AND REPORTING OF THE MODIFICATION.</title><para></para>
+<subpara1><para></para>
+</subpara1>
+<subpara1><para></para>
+</subpara1>
+<subpara1><para>Identification Data.</para>
+<table label="nonum" frame="all">
+<title></title>
+<tgroup cols="3">
+<?PubTbl tgroup dispwid="625.00px">
+<colspec colname="col1" colwidth="1.64in"><colspec colname="col2" colwidth="1.79in"><colspec colname="col3" colwidth="2.13in">
+<thead>
+<row><entry colsep="1" rowsep="1" valign="top" align="center"><emphasis type="bold"></emphasis></entry><entry colsep="1" rowsep="1" valign="top" align="center">Before Modification</entry><entry colsep="1" rowsep="1" valign="top" align="center">If Modification is Applied</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1"><emphasis type="bold">Nomenclature</emphasis></entry><entry colsep="1"></entry><entry colsep="1" align="center"></entry></row>
+<row><entry><emphasis type="bold">Cage/Part Number</emphasis></entry><entry></entry><entry align="center"></entry></row>
+<row><entry><emphasis type="bold">NSN</emphasis></entry><entry></entry><entry align="center"></entry></row>
+<row><entry><emphasis type="bold">Nomenclature</emphasis></entry><entry></entry><entry align="center"></entry></row>
+<row><entry><emphasis type="bold">Cage/Part Number</emphasis></entry><entry></entry><entry align="center"></entry></row>
+<row><entry><emphasis type="bold">NSN</emphasis></entry><entry></entry><entry align="center"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</subpara1></para0>
+<para0>
+<title>MATERIAL CHANGE (MC) NUMBER.</title><para></para>
+</para0>
+<para0>
+<title>MODIFICATION IDENTIFICATION.</title><para></para>
+</para0>
+<para0>
+<title>NARRATIVE AND GRAPHIC DESCRIPTION OF MWO.</title><para></para>
+</para0>
+</chapter>
+<chapter><title></title>
+<para0 label="nonum">
+<title></title></para0>
+</chapter>
+<chapter><title></title></chapter></body><rear><appendix>
+<title></title></appendix>
+<glossary>
+<deflist>
+<term></term><def></def></deflist>
+</glossary>
+</rear></doc>
+<?Pub *0000010401 0>
