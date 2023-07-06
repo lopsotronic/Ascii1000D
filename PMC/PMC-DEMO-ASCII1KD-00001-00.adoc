@@ -7,6 +7,7 @@ v0.0.1, October 7, 2020: Initial revision
 :toc: left
 :toclevels: 4
 :numbered:
+:sectnums:
 :CONFIG1: 000000100
 
 include::../DMC/DMC-DEMO-000-10-00-01A-040B-A.adoc[leveloffset=+1]

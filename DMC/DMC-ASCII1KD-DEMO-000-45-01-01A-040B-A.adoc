@@ -1,0 +1,55 @@
+[[DMC-ASCII1KD-DEMO-000-45-01-01A-040B-A]]
+= Asciidoctor Web PDF for Visual Studio Code - Description
+:experimental:
+:!part-title:
+:part-title: DMC-ASCII1KD-DEMO-000-45-01-01A-040B-A
+
+== History
+
+Asciidoctor has a number of PDF pipelines for print production. The vanilla PDF tool is asciidoctor-pdf, which is built on the Ruby PDF toolkit known as Prawn. Since this shares Asciidoctor's Ruby lineage, it's considered the standard for Asciidoctor PDF production. The older PDF tool is FOPUB, which uses DocBook-XSL to transform Asciidoc to DocBook and then to PDF. FOPUB is packaged with the standalone editor AsciidocFX. A tool of similar vintage is DBLTX toolchain, which transforms Asciidoc -> DocBook -> LaTeX, then uses the powerful LaTeX typesetting system to produce PDF. The DBLTX toolchain was the official PDF pipeline for the Python implementation of Asciidoc; the Python ecosystem has since moved on to focus on ReStructuredText/Sphinx with the Jupyter Notebook tool. The most interesting of these Asciidoc PDF tools is asciidoctor-web-pdf, which takes Asciidoc's HTML output then uses CSS PMM (Paged Media Module) and the Paged.js library to produce PDFs from a headless Chromium instance using Puppeteer. Web PDF allows the designer to centralize much of the CSS work, and the flexibility of JS as a template language is hard to overstate.
+
+== Install
+
+. Obtain `asciidoctor-web-pdf-win-v1.0.0-alpha.16.zip` from the https://github.com/ggrossetie/asciidoctor-web-pdf/releases[asciidoctor-web-pdf releases site]
+
+. Unzip this file to a local directory, note this directory location[[DIRNOTE]]
+
+. In 
+include::../CIR/DMC-DEMO-000-00-00-01A-0A6A-A.adoc[tag=VSC]
+go to the Extensions group by pressing kbd:[CTRL+SHIFT+X]
+
+. Search for the Asciidoc extension under *Installed* in the list of VSC extensions.
+
+. Click on the Asciidoc extension.
+
+. Click on the Manage Extensions button
++
+image::../GFX/DMC-ASCII1KD-DEMO-000-45-01-01A-040B-001.png[]
+
+. In the Asciidoctor extensions, under *Asciidoc: Asciidoctorpdf_command* enter the local directory used in <<DIRNOTE, Step 2>> followed by the executable name, which is `asciidoctor-web-pdf.exe`. An example would look like the following:
++
+[source]
+----
+C:\Users\lopso\Documents\asciidoctor-web-pdf\asciidoctor-web-pdf.exe
+----
+
+. To test this installation, go to an Asciidoc deocument in VSC and press kbd:[CTRL+SHIFT+P] to invoke the Command Menu. Search for PDF, and select the option `Asciidoc: Export document as PDF`. Press kbd:[Enter]. This will invoke the PDF command using the setting we have just made.
+
+== More information
+
+For more information on customization and architecture of asciidoctor-web-pdf, see the following links:
+
+https://www.w3.org/TR/css-gcpm-3/
+
+https://github.com/ggrossetie/asciidoctor-web-pdf
+
+https://pagedjs.org/
+
+https://github.com/RelaxedJS/ReLaXed
+
+
+
+
+
+
+

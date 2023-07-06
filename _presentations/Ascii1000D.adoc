@@ -195,7 +195,10 @@ digraph g {
   edge [arrowsize=".5"]
   node [shape=record]
   node [fontname="Arial" fontsize=18]
-  rankdir="TD";
+  rankdir="LR";
+  "PDF (paged.js)" [color=orange]
+  "PDF (DocBook-XSL)" [color=red]
+  "PDF (Prawn)" [color=blue]
     "Content" -> "Asciidoc"
     "Asciidoc" -> "Presentation"
     "Presentation" -> CSS
@@ -211,15 +214,15 @@ digraph g {
     CSS -> "Paged.js"
     CSS -> "MOBI"
     CSS -> "HTML"
-    "Paged.js" -> "PDF (paged.js)"
+    "Paged.js" -> "PDF (paged.js)" [color=orange]
     "React.js template" -> "Paged.js"
     HTML -> "Prince ($$$)"
     "Prince ($$$)" -> "PDF (Prince)"
     "DocBook" -> "PDF (DocBook-XSL)"
-    "DocBook-XSL templates" -> "PDF (DocBook-XSL)"
+    "DocBook-XSL templates" -> "PDF (DocBook-XSL)" [color=red]
     "DocBook" -> "Prince ($$$)"
     "Asciidoc" -> "theme.yml"
-    "theme.yml" -> "PDF (Prawn)"
+    "theme.yml" -> "PDF (Prawn)" [color=blue]
     "Asciidoc" -> "DocBook"
     "Asciidoc" -> "DBLaTeX (Python)"
     "TeX CTAN templates" -> "DBLaTeX (Python)"
@@ -235,6 +238,14 @@ digraph g {
     "Pandoc" -> "TexInfo"
     "Pandoc" -> "MediaWiki"
     "Pandoc" -> "OrgMode"
+     "PDF (paged.js)" -> "Web-based PDF generator, 
+    also built into the Antora build system" [color=orange]
+    "PDF (DocBook-XSL)" -> "DocBook-XSL PDF generator, 
+    available in FOPUB and the 
+    easy-to-use unified solution AsciidocFX" [color=red]
+    "PDF (Prawn)" -> "PDF pipeline available in the Ruby
+    environment, using Prawn" [color=blue]
+
 }
 ----
 
@@ -299,9 +310,38 @@ Each variant may have its own PM, re-using the Data Modules as applicable
 
 Writer branch is merged with Master
 
-=== GitFlow
+=== GitFlow: Collaboration
 
-.Ascii1000D Sample Gitflow
+.Ascii1000D Sample Gitflow: SME Collaboration
+[[gitflow]]
+[mermaid]
+----
+gitGraph
+   commit
+   branch Approval
+   checkout Approval
+   checkout main
+   branch "SuperProp Feature"
+   checkout "SuperProp Feature"
+   commit type: HIGHLIGHT tag: "Writer works issue feature"
+   commit
+   branch SME
+   checkout SME
+   commit type: HIGHLIGHT tag: "SME comments"
+   commit 
+   checkout "SuperProp Feature"
+   merge SME type: HIGHLIGHT tag: "PR SME inclusion"
+   commit
+   commit type: HIGHLIGHT tag: "Final edits"
+   checkout Approval
+   merge "SuperProp Feature" type: HIGHLIGHT tag: "PR Approval of Change Package"
+   checkout main
+   merge Approval type: HIGHLIGHT tag: "PR Publication"
+----
+
+=== GitFlow: Review as Approval
+
+.Ascii1000D Sample Gitflow: SME Collaboration
 [[gitflow]]
 [mermaid]
 ----
@@ -312,14 +352,14 @@ gitGraph
    checkout main
    branch "SuperProp Feature" 
    checkout "SuperProp Feature"
-   commit type: HIGHLIGHT tag: "Writer works issue feature"
+   commit type: HIGHLIGHT tag: "Superprop Feature"
    commit
-   branch SME
-   checkout SME
-   commit type: HIGHLIGHT tag: "SME comments"
+   branch WRITER
+   checkout WRITER
+   commit type: HIGHLIGHT tag: "Writer content"
    commit 
    checkout "SuperProp Feature"
-   merge SME type: HIGHLIGHT tag: "PR SME inclusion"
+   merge WRITER type: HIGHLIGHT tag: "PR SME Approvals"
    commit
    commit type: HIGHLIGHT tag: "Final edits"
    checkout Approval
