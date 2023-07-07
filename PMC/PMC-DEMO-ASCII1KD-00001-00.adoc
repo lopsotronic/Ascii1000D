@@ -6,10 +6,11 @@ v0.0.1, October 7, 2020: Initial revision
 :lang: en
 :toc: left
 :toclevels: 4
-:numbered:
 :experimental:
 :stylesheet: ../css/document.css
 :CONFIG1: 000000100
+
+include::../CIR/DMC-DEMO-000-00-00-01A-999Z-A.adoc[]
 
 include::../DMC/DMC-DEMO-000-10-00-01A-040B-A.adoc[leveloffset=+1]
 

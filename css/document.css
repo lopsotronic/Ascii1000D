@@ -1,5 +1,5 @@
 @page {
-  margin: 0.5in 0.67in 0.67in 0.67in;
+  margin: 0.5in 0.5in 0.5in 0.5in;
   size: A4;
 }
 
@@ -69,6 +69,9 @@ nested elements once that breaks across two pages.
 .admonitionblock td.icon.icon-important svg > path {
   fill: #ab2424;
 }
+
+/*Stacked numbering for nested olists*/
+
 
 /* fix callout text alignment */
 .conum[data-value]:after {
@@ -161,6 +164,7 @@ p, blockquote, dt, td.content, span.alt {
 
 .admonitionblock > table td.icon .title {
   font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
 }
 
 .subheader, .admonitionblock td.content > .title, .audioblock > .title, .exampleblock > .title, .imageblock > .title, .listingblock > .title, .literalblock > .title, .stemblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, table.tableblock > .title, .verseblock > .title, .videoblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title {

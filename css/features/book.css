@@ -10,6 +10,10 @@
   break-before: page;
 }
 
+.sect2 {
+  break-before: page;
+}
+
 #cover {
   break-after: unset;
 }

@@ -7,9 +7,13 @@
 
 === System definitions
 
-*Bold*, _underline_, other text styles available.
+*Bold*, _underline_, #highlight#, ~subscript~, ^superscript^, other text styles available.
+
+Special characters invoked by character substitution such as (C), (R), ->, and more. 
 
 Keyboard sequences are supported by the `kbd` macro, for example kbd:[CTRL+ALT+DEL]
+
+NOTE: The KBD macro is only active when the EXPERIMENTAL document attribute is declared. Otherwise, it appears as monospaced verbatim text.
 
 .Unordered List
 * Item
