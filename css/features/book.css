@@ -1,0 +1,45 @@
+#toc {
+  page: tableofcontents;
+}
+
+#preamble {
+  page: preamble;
+}
+
+.sect1 {
+  break-before: page;
+}
+
+#cover {
+  break-after: unset;
+}
+
+@page tableofcontents {
+  @bottom-right {
+    margin: 0;
+    padding: 0;
+    border: none;
+    content: normal;
+  }
+  @bottom-left {
+    margin: 0;
+    padding: 0;
+    border: none;
+    content: normal;
+  }
+}
+
+@page preamble {
+  @bottom-right {
+    margin: 0;
+    padding: 0;
+    border: none;
+    content: normal;
+  }
+  @bottom-left {
+    margin: 0;
+    padding: 0;
+    border: none;
+    content: normal;
+  }
+}

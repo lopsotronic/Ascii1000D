@@ -1,0 +1,298 @@
+@page {
+  margin: 0.5in 0.67in 0.67in 0.67in;
+  size: A4;
+}
+
+html {
+  font: 10.5pt/1.15 'Noto Sans', sans-serif;
+}
+
+/*
+Justify the content of the following block elements unless it is specifically aligned using text-*
+Be most specific (that is on dd/li) as pagedjs will add a text-align-last to the whole element including
+nested elements once that breaks across two pages.
+ */
+.dlist:not(.text-left):not(.text-right):not(.text-center) dd p,
+.ulist:not(.text-left):not(.text-right):not(.text-center) li p,
+.olist:not(.text-left):not(.text-right):not(.text-center) li p,
+.paragraph:not(.text-left):not(.text-right):not(.text-center) p,
+.admonitionblock:not(.text-left):not(.text-right):not(.text-center) .content {
+  text-align: justify;
+}
+
+/* fix admonition icon size with Font Awesome 5*/
+.admonitionblock > table td.icon svg {
+  height: 2.5em;
+  width: 100%;
+  cursor: default;
+}
+
+.admonitionblock > table td.icon .fa-layers {
+  height: 100%;
+  width: 100%;
+}
+
+.admonitionblock td.icon.icon-tip svg.fa-circle path {
+  fill: #338a37;
+}
+
+.admonitionblock td.icon.icon-caution svg.fa-circle path {
+  fill: #7c3479;
+}
+
+.admonitionblock td.icon.icon-note svg > path {
+  fill: #1565c0;
+}
+
+.admonitionblock td.icon.icon-warning svg > path {
+  fill: #b26610;
+}
+
+.admonitionblock td.icon.icon-important svg > path {
+  fill: #ab2424;
+}
+
+/* fix callout text alignment */
+.conum[data-value]:after {
+  display: flex;
+  margin: auto;
+}
+
+pre .conum[data-value] {
+  display: inline-flex;
+}
+
+.colist > table tr > td:first-of-type {
+  padding: .5625em .625em;
+}
+
+h1 {
+  font-size: 2.6em;
+  break-after: avoid;
+}
+
+h2 {
+  font-size: 2em;
+  break-after: avoid;
+}
+
+h3, #toctitle, .sidebarblock > .content > .title {
+  font-size: 1.4em;
+  break-after: avoid;
+}
+
+h4 {
+  font-size: 1.3em;
+  break-after: avoid;
+}
+
+h5 {
+  font-size: 1.2em;
+  break-after: avoid;
+}
+
+h6 {
+  font-size: 1.1em;
+  break-after: avoid;
+}
+
+#cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  break-after: page;
+  align-items: flex-end;
+}
+
+/* Workaround: https://gitlab.pagedmedia.org/tools/pagedjs/issues/162 */
+.pagedjs_page_content > div {
+  height: 100%;
+}
+
+#cover h1 {
+  color: #999;
+  font-weight: 200;
+  font-size: 2.6rem;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+#cover h2 {
+  font-size: 1.1rem;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 {
+  color: #333;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+}
+
+a {
+  color: #2986e7;
+  text-decoration: none;
+  line-height: inherit;
+}
+
+p, blockquote, dt, td.content, span.alt {
+  font-size: 0.95rem;
+}
+
+.admonitionblock > table td.icon .title {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.subheader, .admonitionblock td.content > .title, .audioblock > .title, .exampleblock > .title, .imageblock > .title, .listingblock > .title, .literalblock > .title, .stemblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, table.tableblock > .title, .verseblock > .title, .videoblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title {
+  color: #333;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+table.frame-all {
+  border-width: 0;
+  border-collapse: collapse;
+}
+
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td {
+  line-height: 1.25rem;
+  font-size: 0.9rem;
+}
+
+table.grid-all > thead > tr > .tableblock, table.grid-all > tbody > tr > .tableblock {
+  border-width: 1px 1px 1px 1px;
+  border-collapse: collapse;
+}
+
+.table.tableblock {
+  border-collapse: collapse;
+}
+
+table.grid-all > * > tr > .tableblock:last-child, table.grid-cols > * > tr > .tableblock:last-child {
+  border-right-width: 1px;
+}
+
+table.grid-all > tbody > tr:last-child > .tableblock, table.grid-all > thead:last-child > tr > .tableblock, table.grid-rows > tbody > tr:last-child > .tableblock, table.grid-rows > thead:last-child > tr > .tableblock {
+  border-bottom-width: 1px;
+}
+
+table {
+  break-inside: avoid;
+}
+
+tr {
+  break-inside: avoid;
+}
+
+.listingblock {
+  break-inside: avoid;
+}
+
+.title-document {
+  padding-right: 1.25em;
+  padding-left: 1.25em;
+  text-align: center;
+}
+
+.title-document h1 {
+  margin-top: 0;
+  font-size: 2.6rem;
+}
+
+.page-break {
+  break-after: page;
+}
+
+/*
+TOC page numbering and leaders, adapted from https://www.pagedjs.org/posts/2020-02-19-toc/
+The page numbering is straightforward and generally works.
+The leader works by filling the li with dots, and arranging for the <a> and a::after to cover them, using the same background color as the TOC div.
+*/
+#toc.toc, #toc.toc2 {
+  background-color: white;
+}
+
+#toc.toc ul > li:first-child,
+#toc.toc2 ul > li:first-child {
+  margin-top: 0;
+}
+
+#toc.toc a::after,
+#toc.toc2 a::after {
+  content: target-counter(attr(href url), page);
+  float: right;
+  /* for leader: */
+  position: relative;
+  right: 0;
+  background-color: inherit;
+  padding-left: 6px;
+}
+
+/* fake leading */
+#toc.toc li.toc-entry::after,
+#toc.toc2 li.toc-entry::after {
+  content:
+    ".............................................."
+    ".............................................."
+    ".............................................."
+    "........";
+  float: left;
+  width: 0;
+  letter-spacing: 2px;
+  color: #999;
+}
+
+#toc.toc ul,
+#toc.toc2 ul {
+  background-color: inherit;
+}
+
+#toc.toc li,
+#toc.toc2 li {
+  overflow-x: hidden;
+  background-color: inherit;
+}
+
+#toc.toc a,
+#toc.toc2 a {
+  background-color: inherit;
+  right: 0;
+  padding-right: 0.25rem;
+}
+
+.front-matter {
+  page: front;
+}
+
+#content {
+  counter-reset: page 1;
+}
+
+/* footnotes */
+@page {
+  @footnote {
+    float: bottom;
+    /*border-top: solid black thin;
+    padding-top: 8pt;*/
+  }
+}
+
+span.footnote {
+  float: footnote;
+}
+
+[data-footnote-call]::after {
+  content: "[" counter(footnote) "]";
+}
+
+.pagedjs_area a[data-footnote-call] {
+  cursor: pointer;
+}
+
+[data-footnote-call]::after {
+  content: "[" counter(footnote) "]";
+}
