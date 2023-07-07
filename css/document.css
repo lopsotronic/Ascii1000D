@@ -32,6 +32,24 @@ nested elements once that breaks across two pages.
   width: 100%;
 }
 
+.admonitionblock.warning {
+  border-style: double;
+  border-width: 5px;
+  border-color: red;
+}
+
+.admonitionblock.caution {
+  border-style: solid;
+  border-width: 5px;
+  border-color: orange;
+}
+
+.admonitionblock.note {
+  border-style: dashed;
+  border-width: 5px;
+  border-color: blue;
+}
+
 .admonitionblock td.icon.icon-tip svg.fa-circle path {
   fill: #338a37;
 }
@@ -191,6 +209,8 @@ tr {
 .listingblock {
   break-inside: avoid;
 }
+
+
 
 .title-document {
   padding-right: 1.25em;

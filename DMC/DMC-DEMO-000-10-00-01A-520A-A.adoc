@@ -21,9 +21,19 @@ NA
 == Procedure
 
 [.procedure]
-. Remove the part
+. {empty}
 +
 WARNING: Do not remove the wrong part
++
+Remove the part.
+
+.. {empty}
++
+include::../CIR/DMC-DEMO-000-00-00-01A-0A5A-A.adoc[tag=Skydrol]
++
+Drain fluids from part.
+
+.. Perform other cleaning operations.
 
 . Reserve the removed part for bench testing according to
 include::../CIR/DMC-DEMO-000-00-00-01A-0A6A-A.adoc[tag=OEM]

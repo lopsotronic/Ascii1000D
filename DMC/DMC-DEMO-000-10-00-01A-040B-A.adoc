@@ -7,6 +7,10 @@
 
 === System definitions
 
+*Bold*, _underline_, other text styles available.
+
+Keyboard sequences are supported by the `kbd` macro, for example kbd:[CTRL+ALT+DEL]
+
 .Unordered List
 * Item
 * Item
