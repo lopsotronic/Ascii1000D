@@ -1,0 +1,17 @@
+== Preliminary requirements
+
+S1000DBIKE-AAA-DA2-10-00-00AA-520A-A
+
+S1000DBIKE-AAA-DA2-30-00-00AA-520A-A
+
+== Procedure
+
+[arabic]
+. Remove the stem, refer to:
+link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-520A-A[S1000DBIKE-AAA-DA2-10-00-00AA-520A-A]
+. Remove the headset, refer to:
+link:#ID_S1000DBIKE-AAA-DA2-30-00-00AA-520A-A[S1000DBIKE-AAA-DA2-30-00-00AA-520A-A]
+. Push the fork downwards to remove it from the frame
+. Put the frame on the floor
+
+== Requirements after job completion

@@ -1,0 +1,24 @@
+java -jar saxon9he.jar -s:testmx.xml -o:testmxs1kd4.xml S1000D23toS1000D4.xsl
+java -jar saxon9he.jar -s:testmxs1kd4.xml -o:testmxDB5.xml S1000D4toDocBook.xsl
+java -jar saxon9he.jar -s:testmxDB5.xml -o:testmxDB4.xml db5to4.xsl 
+java -jar saxon9he.jar -s testmxDB4.xml -o testmx.adoc d2a_docbook.xsl 
+
+//start batch pipeline
+java -jar saxon9he.jar -s:Step1_S1000D3 -o:Step2_S1000D4 -xsl:S1000D23toS1000D4.xsl 
+java -jar saxon9he.jar -s:Step2_S1000D4 -o:Step3_DocBook5 -xsl:S1000D4toDocBook.xsl
+java -jar saxon9he.jar -s:Step3_DocBook5 -o:Step4_DocBook4 -xsl:db5to4.xsl 
+java -jar saxon9he.jar -s:Step4_DocBook4 -o:Step5_Adoc -xsl:d2a_docbook.xsl  
+//end batch pipeline
+
+java -jar saxon9he.jar -s:Step3_DocBook5 -o:Step5_Adoc -xsl:d2a_docbook.xsl 
+java -jar saxon9he.jar -s:Step4_DocBook4 -o:Step5_Adoc -xsl:d2a_docbook_old.xsl
+
+//Pandoc batch pipeline
+for %F in (*.xml) do pandoc -f docbook -t asciidoc %F > %F.adoc
+for %F in (*.docx) do pandoc -s -t asciidoc %F > %F.adoc
+
+//Remove spaces
+cmd /e:on /v:on /c "for %f in ("* *.docx") do (set "n=%~nxf" & set "n=!n: =_!" & ren "%~ff" "!n!" )"
+
+DocBookRX
+for %F in (*.xml) do bundle exec docbookrx %F

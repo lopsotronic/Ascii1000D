@@ -1,0 +1,45 @@
+The content of this data model describes the steps for removing the
+bicycle front wheel.
+
+image:file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0370-001-01.SWF[image]
+
+[[ID_S1000DBIKE-AAA-DA0-10-20-00AA-520A-T_para-000]]
+== 
+
+[[ID_S1000DBIKE-AAA-DA0-10-20-00AA-520A-T_para-001]]
+=== 
+
+To remove your bike's front wheel, place the bike on a stand. If you do
+not have a stand, you can still remove the tire. It will just take a
+little coordination on your part.
+
+Begin by either deflating the front tire slightly or disconnecting the
+front brakes. This is done so the wheel can come out easily and not get
+stuck at the brake pads.
+
+image:file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0371-001-01.JPG[image]
+
+[[ID_S1000DBIKE-AAA-DA0-10-20-00AA-520A-T_para-002]]
+=== 
+
+If your bike has a quick-release lever, push the lever outward and turn
+it in a counterclockwise motion for several revolutions.
+
+image:file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0372-001-01.JPG[image]
+
+[[ID_S1000DBIKE-AAA-DA0-10-20-00AA-520A-T_para-003]]
+=== 
+
+If your bike does not have a quick-release lever, you will need a wrench
+to loosen the nuts on either side of the hub.
+
+image:file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0373-001-01.JPG[image]
+
+[[ID_S1000DBIKE-AAA-DA0-10-20-00AA-520A-T_para-004]]
+=== 
+
+Remove the wheel.
+
+image:file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0374-001-01.JPG[image]
+
+_Use the arrows to view the slide show._

@@ -1,0 +1,2 @@
+Bicycle KZ555 Bicycle-001 1 1 1 Brake pads KT444 BR-PADS-001 4 1 Chain
+KZ555 Ch-001 1 Hub bearings KZ555 HB-001 2 6

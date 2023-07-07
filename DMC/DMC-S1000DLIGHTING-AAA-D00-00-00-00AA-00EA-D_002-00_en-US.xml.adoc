@@ -1,0 +1,4 @@
+Front light 55 lights Rear light 30 lights Battery 21 Electronic Box 01
+45 Electronic Unit Generator Relay 95 Distribution module 25 Switch 30
+Connector Receptacle 60 Diode Diode Speed sensor 2 Tachometer 6
+GT-002-WD 10 GT-004-WD 10 GT-004-WD 10

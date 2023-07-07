@@ -1,0 +1,13 @@
+== Preliminary requirements
+
+Operator 0,3
+
+== Procedure
+
+[arabic]
+. Put the bicycle in a vertical position.
+. Hold the handle bars and push the bicycle forwards.
+. Apply the brakes.
+. Make sure that the wheels lock and the bicycle stops.
+
+== Requirements after job completion

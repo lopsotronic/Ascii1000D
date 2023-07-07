@@ -1,0 +1,125 @@
+To do the pre-ride checks
+
+== Preliminary requirements
+
+Operator 0,3
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Tire pressure gauge |BSK-TLST-001-01 |KZ666 |1 |
+|Specialist toolset |BSK-TLST-001 |KZ666 |1 |
+|===
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|General lubricant | |KZ222 |As required |
+|===
+
+Bicycle KZ555 Bicycle-001 1 To do the post-ride maintenance
+
+== Preliminary requirements
+
+Operator 0,3
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Specialist toolset |BSK-TLST-001 |KZ666 |1 |
+|===
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|General lubricant | |KZ222 |As required |
+|===
+
+Bicycle KZ555 Bicycle-001 1 Clean brake pads
+
+== Preliminary requirements
+
+Operator 0,3
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Rubbing alcohol | |KZ222 |As required |
+|===
+
+Brake pads KT444 BR-PADS-001 1 1 Clean the chain
+
+== Preliminary requirements
+
+Operator 0,3
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Stiff bristle brush |BSK-TLST-001-02 |KZ666 |1 |
+|Chain cleaning fluid |LL-003 |KZ222 |As required |
+|Chain cleaning tool |BSK-TLST-001-03 |KZ666 |1 |
+|===
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Floor covering | | |As required |
+|General lubricant | |KZ222 |As required |
+|===
+
+Chain KZ555 Ch-001 1 Clean the hub bearings My Publication
+
+== Preliminary requirements
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|Rear wheel removed
+|link:#ID_S1000DBIKE-AAA-DA0-20-00-00AA-520A-A[S1000DBIKE-AAA-DA0-20-00-00AA-520A-A]
+|===
+
+Bicycle mechanic 0,8 Operator 0,3
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Specialist toolset |BSK-TLST-001 |KZ666 |1 |
+|===
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Degreasing agent | |KZ222 |As required |
+|General grease | |KZ222 |As required |
+|===
+
+Hubs KZ555 HB-002 6 6

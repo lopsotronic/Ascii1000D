@@ -1,0 +1,15 @@
+== Preliminary requirements
+
+Operator 0,1
+
+== Procedure
+
+[arabic]
+. Climb on the bicycle.
+. Turn right and left several times.
+. Ride forward the bicycle.
+. Make sure that the wheels are stable.
+. Push in the fork.
+. Make sure that no oil or air is leaking out the fork.
+
+== Requirements after job completion

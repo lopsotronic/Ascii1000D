@@ -1,0 +1,121 @@
+== Common information
+
+The Bike BREX data module has primarily been developed to
+
+* serve as an example of how a BREX data module is meant to be used
+* to control and guide the continuous development of the Bike data set
+
+The Bike BREX will be subject of continuous enhancements to ensure that
+each new specification issue is appropriately represented in the BREX
+module.
+
+//dmAddress/dmIdent/dmCode/@modelIdentCode Bike model identification
+S1000D Bike platform S1000D Bike light system S1000D Brake system
+//dmAddress/dmIdent/dmCode/@systemCode Systems (Bike specific SNS)
+//dmAddress/dmIdent/dmCode/@subSystemCode Subsystems (Bike specific SNS)
+//dmAddress/dmIdent/dmCode/@subSubystemCode Subsubsystems
+//dmAddress/dmIdent/dmCode/@assyCode Units or assembly
+//dmAddress/dmIdent/dmCode/@infoCode Bike information codes Function,
+data for plans and description Title page List of pages or data modules
+See also code 00R and code 00S Table of contents Functional item numbers
+common information repository Parts common information repository Zones
+common information repository Support equipment common information
+repository Product Cross-reference Table (PCT) Conditions
+Cross-reference Table (CCT) Applicability Cross-reference Table (ACT)
+Controls and indicators common information repository Functional and/or
+physical areas repository Applicability repository Applicability cross
+reference catalog General warnings and cautions and related safety data
+Introduction Business rules Business rules document General Data
+structure Description Description of how it is made Description of
+function Description of function attributed to crew (functional
+breakdown) Equipment list Wire list Harness list Operation Pre-operation
+procedure Normal operation Normal operation procedure Post-operation
+procedure Servicing Fill with air Oil Clean with chemical agent Other
+procedure to clean Visual examination Test preparation Manual test
+Pressure check Fault reports and isolation procedures Isolated fault
+Detected fault Observed fault Correlated fault Remove procedure Standard
+repair procedure Assemble, install and connect procedures Install
+procedure General maintenance procedure Maintenance allocation Change =
+Remove and install Change = Remove and install a new item Service
+Bulletin Accomplishment instruction Modification procedures Illustrated
+parts data Generic learning content
+//descendant-or-self::orderedList[not(ancestor-or-self::description)]
+Sequential (numbered) lists not allowed unless in descriptive data
+modules //note[ancestor-or-self::warning] Notes are not allowed in
+Warnings //warning/orderedList Ordered lists are not allowed in Warnings
+//warning/definitionList Definition lists are not allowed in Warnings
+//warning/randomList/listItem/randomList Random lists must not be nested
+within Warnings //warning/randomList/title Random list titles are not
+allowed in Warnings //note[ancestor-or-self::caution] Notes are not
+allowed in Cautions //caution/orderedList Ordered lists are not allowed
+in Cautions //caution/definitionList Definition lists are not allowed in
+Cautions //caution/randomList/listItem/randomList Random lists must not
+be nested within Cautions //caution/randomList/title Random list titles
+are not allowed in Cautions //@accessPointTypeValue Type of access point
+Access is a door Access is a panel Access is an electrical panel
+//acronym/@acronymtype Type of acronym or abbreviation Acronym
+(Candidate for list of abbreviations) - Default value Term (Candidate
+for list of terms) Symbol (Candidate for list of symbols) Spec
+(Candidate for list of applicable specs) //dialog/@cancelCaption Caption
+for dialog cancel function Sets the caption to "CANCEL" Sets the caption
+to "ABORT" Sets the caption to "NO" Sets the caption to "END" Sets the
+caption to "QUIT" //security/@securityClassification Security
+classification 1 (lowest level of security classification, eg
+Unclassified) //security/@commercialClassification Commercial security
+classification Open //caption/@color Caption color None Green Amber
+Yellow Red White Grey Clear - Default value Blue (used on Bike Computer
+Display) //commentPriority[not(attribute::commentPriorityCode)] Priority
+level of a comment required //@commentPriorityCode Priority level of a
+comment Routine Emergency Safety critical
+//crewMember[not(attribute::crewMemberType)] Type of crew member
+required for drill or procedural step //@crewMembertype Type of crew
+member All Bike rider Bike technician //crewDrill/@drillType Types of
+aircrew drills do not apply to the Bike DMs //emphasis/@emphasisType
+Type of emphasis Bold - Default value Italic (only for legacy data, see
+Chap 3.9.1) Underline (only for legacy data, see Chap 3.9.1) Overline
+(only for marking vectors) Strikethrough (not to be used to mark deleted
+text) //installationLocation/@installationLocationType Type of install
+location Section Station Water line Buttock line Frame
+//maintLevel/@maintLevelCode Maintenance level Level 1 (home) Level 2
+(authorized workshop) //@itemOriginator Origin of equipment/harness/wire
+Manufacturer Vendor Partner //randomList/@listItemPrefix Prefix of
+'randomList' items, limited to three variants Simple (No prefix, only
+indent) Unorder (Depending on list level, prefix with short dash for
+first level, bullet for second, and short dash for third level - ISOpub:
+bull, dash) - Default value Dash (short dash - ISOpub: dash)
+//inlineSignificantData/@significantParaDataType Paragraph significant
+data type Ammunition Instruction disposition Lubricant Maintenance level
+Manufacturer code Manufacturers recommendation Modification code
+Qualification code Training level Control or Indicator value
+//quantity/@quantityType Quantity data type Length Price Temperature
+Time Torque value Voltage Volume Mass //dialog/@resetCaption Caption for
+dialog reset caption Sets the caption to "RESET" Sets the caption to
+"CLEAR" //commentResponse/@responseType Type of response to a comment
+Accepted Pending Partially accepted Rejected //@skillLevelCode Personnel
+skill level Basic Intermediate Advanced //@submitCaption Caption for
+dialog submit function Sets the caption to "OK" Sets the caption to
+"SUBMIT" Sets the caption to "YES" Sets the caption to "CONTINUE" Sets
+the caption to "EXIT" //supervisorLevel/@supervisorLevelCode Supervisor
+level Low Low intermediate High intermediate High //@taskCode Task code
+Detailed inspection (DET) Discard (DIS) Functional Check (FNC) General
+visual inspection (GVI) Lubrication (LUB) Operational check (OPC)
+Restoration (RST) Servicing (SVC) Visual check (VCK)
+//limitType/@limitUnitType Limit type Time between overhaul Hard time
+Since last maintenance Out time limit On condition Check maintenance
+Functional check //threshold/@thresholdUnitOfMeasure Unit of measurement
+for the threshold interval Months Weeks Years Days Shop visits Auxiliary
+power unit change Wheel change kilometer //sourceType/@sourceTypeCode
+indicates the type of source fec sample //sourceType/@sourceCriticality
+indicates the impact of not complying with the requirement Evident,
+Safety Evident, operational Evident, Economic Hidden, Safety Hidden,
+Non-Safety //verbatimText/@verbatimStyle Verbatim style Generic verbatim
+Filename XML/SGML markup XML/SGML element name XML/SGML attribute name
+XML/SGML attribute value XML/SGML entity name XML/SGML processing
+instruction Program prompt User input Computer output Program listing
+Program variable name Program variable value Constant Class name
+Parameter name //@quantityUnitOfMeasure Quantity data unit of measure -
+for further information refer to Chap 3.9.6.2 and the corresponding xml
+table Bike data modules must be reviewed and approved by EPWG before
+publishing. The Bike data set must contain examples of how to apply
+constructs and principles representing various levels of concept
+sophistication.

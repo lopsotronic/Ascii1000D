@@ -1,0 +1,103 @@
+S1000DLIGHTING-AAA-D00-00-00-01AA-012A-A
+
+S1000DLIGHTING-AAA-D00-00-00-02AA-012A-A
+
+S1000DLIGHTING-AAA-D00-00-00-02AA-012A-A
+
+== Preliminary requirements
+
+Half front on the handlebars Half rear under the saddle
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|Light set to off |
+|Light removed from bicycle |
+|===
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Special Toolset | | |1 |
+|===
+
+*Spares*
+
+.Spares
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Bulb |LIRUS-L1-11 |KZ777 |2 |
+|Kit | | |1 |
+|Glass |LIRUS-G1-10 |KZ777 |1 |
+|Glass |LIRUS-G1-10H |KZ777 |1 |
+|===
+
+== Procedure
+
+[arabic]
+. From location
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_wla-0001[ on the
+handlebars on the handlebars ], remove the glass
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0005[Glass].
+. Remove the used front yellow bulb
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0001[Bulb].
+. Discard the used bulb
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0001[Bulb].
+. Remove the new white bulb
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0003[ Bulb KZ777
+LIRUS-B1-12F 1 Bulb KZ777 LIRUS-B1-12F 1 ] from the kit
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0002[Kit].
+. Install the new white bulb
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0003[ Bulb KZ777
+LIRUS-B1-12F 1 Bulb KZ777 LIRUS-B1-12F 1 ].
+. Install the glass
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0005[Glass] on the
+light.
+. Attach the light fitting on the handlebar.
+. Apply the protective strip around the handlebar.
+. Install the washer on the screw.
+. Use the special screwdriver
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_seq-0002[ Screwdriver
+1 Screwdriver 1 ] from the toolset
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_seq-0001[Special
+Toolset] and tighten the screw into the hole at the bottom of the clamp.
+This safeties the clamp to the handlebar.
+. From location
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_wla-0002[ under the
+saddle under the saddle ] Remove the glass
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0005[Glass].
+. Remove the used yellow rear bulb
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0001[Bulb].
+. Discard the used bulb
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0001[Bulb].
+. Remove the new white bulb
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0004[ Bulb KZ777
+LIRUS-B1-12R 1 Bulb KZ777 LIRUS-B1-12R 1 ] from the kit
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0002[Kit].
+. Install the new white
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0004[ Bulb KZ777
+LIRUS-B1-12R 1 Bulb KZ777 LIRUS-B1-12R 1 ].
+. Drill a 4mm hole in the middle of the glass
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0008[ Glass KZ777
+LIRUS-G1-10 1 Glass KZ777 LIRUS-G1-10 1 ] in order to allow venting and
+heat evacuation when the light is switched on.
++
+The glass with the hole may be ordered independently with the reference
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0007[Glass].
+. Install the glass with the hole
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_spa-0007[Glass] on the
+light.
+
+== Requirements after job completion
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|Switch the lights on if necessary. |
+|===

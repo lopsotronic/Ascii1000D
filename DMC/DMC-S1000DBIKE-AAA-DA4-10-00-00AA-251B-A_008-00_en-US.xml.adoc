@@ -1,0 +1,71 @@
+== Preliminary requirements
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Stiff bristle brush |BSK-TLST-001-02 |KZ666 |1 |
+|Chain cleaning fluid |LL-003 |KZ222 |As required |
+|Chain cleaning tool |BSK-TLST-001-03 |KZ666 |1 |
+|===
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Floor covering | |KK999 |1 |
+|General lubricant | |KZ222 |As required |
+|===
+
+== Procedure
+
+[arabic]
+. Inspect the chain.
++
+Do the inspection of the chain as given in the pre-ride checks (refer to
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-121A-A[S1000DBIKE-AAA-D00-00-00-00AA-121A-A]).
+. Prepare the cleaning area.
+[arabic]
+.. Put the link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-251B-A_sup-0001[Floor
+covering] on a satisfactory floor area.
+.. Put the bicycle on the floor covering.
+. Clean debris from the chain.
+[arabic]
+.. Use the link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-251B-A_seq-0001[Stiff
+bristle brush] and loosen as much unwanted material as possible.
+.. Make sure that you remove all the unwanted material from the chain.
+. Clean the chain.
+[arabic]
+.. Open the link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-251B-A_seq-0003[Chain
+cleaning tool] and fill with the
+link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-251B-A_seq-0002[Chain cleaning
+fluid].
+.. Move the chain to the middle chainring and the middle sprocket at the
+rear.
+.. Put the chain in the chain guides of the chain cleaning tool and lock
+the tool on the chain.
+.. Hold the tool with the left hand and slowly turn the rearwards with
+the right hand.
+.. Press the button on the cleaning tool to make sure that cleaning
+fluid flows until the tool is empty.
+.. If necessary, remove the unwanted chain cleaning fluid.
+. Lubricate the chain.
+[arabic]
+.. Use the
+link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-251B-A_sup-0002[General
+lubricant] and lubricate the chain.
+.. Unlock and remove the cleaning tool.
+.. If necessary, remove the unwanted lubricant.
+
+== Requirements after job completion
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|Move the bicycle to its storage area and remove the floor covering. |
+|===

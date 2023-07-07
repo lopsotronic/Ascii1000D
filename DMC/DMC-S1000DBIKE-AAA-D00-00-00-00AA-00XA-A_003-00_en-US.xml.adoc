@@ -1,0 +1,18 @@
+== Common information
+
+*Introduction*
+
+The following table(s) and illustration(s) provide the description and
+use of the controls and indicators pertaining to the mountain
+bicycle(s). Some controls and indicators may differ depending on the
+model.
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-07GB6-BIKECI0001-001-01.CGM[Bicycle
+Controls and Indicators]
+
+Bicycle Controls and Indicators
+
+1 LED Taillight Lights illuminate automatically when brakes are engaged.
+2 Chrome Bell Press to sound bell. Normally used to signal a need for
+attention. 3 LED Headlight Push button to turn light on or off. 4
+Platform Pedals Control the acceleration of the bicycle.

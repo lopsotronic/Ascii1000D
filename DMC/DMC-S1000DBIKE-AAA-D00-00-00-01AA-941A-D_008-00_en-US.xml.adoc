@@ -1,0 +1,8 @@
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0361-001-01.CGM[Bicycle]
+
+REF Bicycle UKA XB 2 SP Bicycle KZ999:LNS10276051 8145144345
+F2408:1-4UD:02 1 Frame assembly EA 0 UKA PAODD 1 Seat, assembly EA 0 UKA
+PGOOF 1 Cruiser Seat, assembly EA 0 UKX PGOOF 1 Steering system EA 0 UKA
+PAFFD 1 Drive train system EA 0 UKA PAFFD 1 Brake sub-system EA 0 UKA
+PAFFD 1 Light system J EA 1 UKA PAFFD 1 Wheel, assembly rear EA 0 UKA
+PAFFD 1 Wheel, assembly front EA 0 UKA PAODD 1 Computer EA 0 UKA PAOZZ

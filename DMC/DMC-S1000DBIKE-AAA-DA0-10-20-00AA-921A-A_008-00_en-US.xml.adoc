@@ -1,0 +1,63 @@
+== Preliminary requirements
+
+Operator 0,3
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Specialist toolset |BSK-TLST-001 |KZ666 |1 |
+|Tire lever |BSK-TLST-001-04 |KZ666 |1 |
+|Tire pressure guage |BSK-TLST-001-01 |KZ666 |1 |
+|===
+
+*Spares*
+
+.Spares
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Tire |TIRES-010101 |KT666 |1 |
+|===
+
+== Procedure
+
+[arabic]
+. Lift and turn the bicycle and make sure the bicycle is held safely in
+this position.
+. Use a standard wrench from the
+link:#ID_S1000DBIKE-AAA-DA0-10-20-00AA-921A-A_seq-0001[Specialist
+toolset] and loosen the brake caliper.
+. Remove the axle bolt.
+. Remove the wheel.
+. Deflate the tire.
+. Use the link:#ID_S1000DBIKE-AAA-DA0-10-20-00AA-921A-A_seq-0002[Tire
+lever] from the
+link:#ID_S1000DBIKE-AAA-DA0-10-20-00AA-921A-A_seq-0001[Specialist
+toolset] and remove the old tire from the wheel.
+. Use the link:#ID_S1000DBIKE-AAA-DA0-10-20-00AA-921A-A_seq-0002[Tire
+lever] from the
+link:#ID_S1000DBIKE-AAA-DA0-10-20-00AA-921A-A_seq-0001[Specialist
+toolset] and attach the new
+link:#ID_S1000DBIKE-AAA-DA0-10-20-00AA-921A-A_spa-0001[Tire] to the
+wheel. Refer to
+link:#ID_S1000DBIKE-AAA-DA0-00-00-00AA-041A-A[S1000DBIKE-AAA-DA0-00-00-00AA-041A-A]
+. Inflate the tire (refer to
+link:#ID_S1000DBIKE-AAA-DA0-10-20-00AA-215A-A[S1000DBIKE-AAA-DA0-10-20-00AA-215A-A]).
+. Install the wheel.
+. Tighten the axle bolt.
+. Tighten the brake caliper.
+
+== Requirements after job completion
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|Lift and turn the bicycle to the correct position. |
+
+|Do a test of the brakes as given in the brake test procedure.
+|link:#ID_S1000DBIKE-AAA-DA1-00-00-00AA-341A-A[S1000DBIKE-AAA-DA1-00-00-00AA-341A-A]
+|===

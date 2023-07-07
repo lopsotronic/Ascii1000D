@@ -1,0 +1,37 @@
+== The bicycle frame
+
+The frame is the skeleton, the primary part of your bicycle. Its
+structure makes the bicycle resistant to large forces.
+
+The initial frames (refer to
+link:#ID_S1000DBIKE-AAA-DA3-00-00-00AA-041A-A_fig-0001[Welded frame
+joints]) were tubes of aluminum or steel welded together.
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0394-001-01.CGM[Welded
+frame joints]
+
+Subsequent frames (refer to
+link:#ID_S1000DBIKE-AAA-DA3-00-00-00AA-041A-A_fig-0002[Frame]) can be
+made out of a wide variety of materials, including aluminium, titanium,
+or chrome moly.
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0393-001-01.CGM[Frame]
+
+Other Frames are different and can also be of different materials (for
+example, titanium or chrome moly). Some bicycle frames are of carbon
+fiber. To get this material, it is necessary to put sheets of carbon
+fiber cloth on foam forms and epoxy them in position. This procedure
+gives a very light, strong structure that can have different shapes.
+
+The frame includes the parts that follow:
+
+* the top tube (the higher bar of the bicycle frame)
+* the down tube (the section of the frame that extends from the stem to
+the bottom bracket)
+* the head tube (the part of the frame that the fork steerer tube goes
+through)
+* the seat tube (the vertical part of the frame that is the rear of the
+front triangle and that is between the bottom bracket and the top tube)
+* the seat stay (the tube that includes the distance between the seat
+tube and the rear dropouts)
+* the chain stay (the tube that is the bottom part of the rear triangle)

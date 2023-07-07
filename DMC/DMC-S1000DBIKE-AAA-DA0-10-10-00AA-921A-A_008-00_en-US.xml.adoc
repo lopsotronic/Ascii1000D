@@ -1,0 +1,48 @@
+== Preliminary requirements
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|The tire is removed.
+|link:#ID_S1000DBIKE-AAA-DA0-10-20-00AA-215A-A[S1000DBIKE-AAA-DA0-10-20-00AA-215A-A]
+|===
+
+Operator 0,3
+
+*Spares*
+
+.Spares
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Inner tube |IT-001 |KT222 |1 |
+|===
+
+[CAUTION]
+====
+Be careful with sharp or hard tools. They can cause damage to the inner
+tube.
+====
+
+== Procedure
+
+[arabic]
+. Remove the old inner-tube.
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0369-001-01.CGM[Removing
+the inner tube]
+. Install the new
+link:#ID_S1000DBIKE-AAA-DA0-10-10-00AA-921A-A_spa-0001[Inner tube].
+
+== Requirements after job completion
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|Replace the tire. |
+
+|Inflate the tire with air.
+|link:#ID_S1000DBIKE-AAA-DA0-10-20-00AA-215A-A[S1000DBIKE-AAA-DA0-10-20-00AA-215A-A]
+|===

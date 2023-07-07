@@ -1,0 +1,83 @@
+== Preliminary requirements
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|Rear wheel removed
+|link:#ID_S1000DBIKE-AAA-DA0-20-00-00AA-520A-A[S1000DBIKE-AAA-DA0-20-00-00AA-520A-A]
+|===
+
+Bicycle mechanic 0,8 Operator 0,3
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Specialist toolset |BSK-TLST-001 |KZ666 |1 |
+|===
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Degreasing agent | |KZ222 |As required |
+|General grease | |KZ222 |As required |
+|===
+
+== Procedure
+
+[arabic]
+. Remove the axle.
+[arabic]
+.. Use the cone-wrench from the
+link:#ID_S1000DBIKE-AAA-DA5-20-00-00AA-251C-A_seq-0001[Specialist
+toolset] and remove the locknut from one side of the axle.
+.. Remove the washer and the cone from the axle.
+.. {blank}
++
+[CAUTION]
+====
+Make sure you do not lose the bearings from the hub. Be prepared to
+catch the bearings if they fall out. Missing bearings can cause damage
+to the hub.
+====
++
+Pull the axle out from the other side as shown in
+link:#ID_S1000DBIKE-AAA-DA5-20-00-00AA-251C-A_fig-0001[Removing the
+axle] .
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0401-001-01.CGM[Removing
+the axle]
+. Remove the bearings.
+[arabic]
+.. Use a small screwdriver from the
+link:#ID_S1000DBIKE-AAA-DA5-20-00-00AA-251C-A_seq-0001[Specialist
+toolset] and remove the bearings from their races.
+.. Make sure that each side of the hub has the same number of bearings.
+.. Use the
+link:#ID_S1000DBIKE-AAA-DA5-20-00-00AA-251C-A_sup-0001[Degreasing agent]
+and clean all the parts of the hub.
+.. Do a check of the axle to make sure that it is straight.
+.. Examine the bearing contact area on the cones and the races in the
+hub for pitting and other signs of damage.
+.. Do a check of the ball bearings for signs of damage.
+.. Apply a large quantity of
+link:#ID_S1000DBIKE-AAA-DA5-20-00-00AA-251C-A_sup-0002[General grease]
+on each hub race.
+. Assemble the hub.
+[arabic]
+.. Install the ball bearings into the races and push them into the
+grease.
+.. Apply more grease on the tops of the bearings.
+.. Install the axle through the hub.
+.. Install the cone, the washer and the locknut on the other side of the
+axle.
+.. Use the cone-wrench from the specialist toolset and carefully tighten
+the locknut.
+
+== Requirements after job completion

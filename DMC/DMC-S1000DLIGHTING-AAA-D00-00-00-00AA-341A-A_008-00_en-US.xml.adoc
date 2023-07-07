@@ -1,0 +1,11 @@
+== Preliminary requirements
+
+Operator 0,3
+
+== Procedure
+
+[arabic]
+. Set the lights to on.
+. Make sure that all the lights operate correctly.
+
+== Requirements after job completion

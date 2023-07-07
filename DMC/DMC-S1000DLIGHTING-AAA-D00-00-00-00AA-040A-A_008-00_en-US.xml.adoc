@@ -1,0 +1,14 @@
+== Lighting system
+
+The illustration that follows (see
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-040A-A_fig-0001[Lighting
+system]) shows the lighting system of the bicycle.
+
+The lighting system is equipped with special high beam lighting. Do not
+use special high beam lighting when bicycling on roads during winter
+months.
+
+The lighting system is faulty and will be replaced by 2013-03-15.
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0392-001-01.CGM[Lighting
+system]

@@ -1,0 +1,96 @@
+== Preliminary requirements
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|The bicycle is held safely on work stand. Refer to
+(link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_seq-0003[Work stand]) |
+|===
+
+Operator 1,5
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Set of Allen wrenches |BSK-TLST-001-13 |KZ666 |1 |
+|Extra firm hold hairspray |HSP-D001 |HS111 |1 |
+|Work stand |Stand-001 |KZ555 |1 |
+|===
+
+*Spares*
+
+.Spares
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Handlebar |Hd-001 |KZ555 |1 |
+|Brake lever |BR-LVRS-001 |KT444 |1 |
+|Shifter lever |Sl-001 |KZ555 |1 |
+|Brake lever mount |BR-LVRS-001-01 |KT444 |1 |
+|Handlebar grips |Hd-001-01 |KZ555 |1 |
+|Handlebar plug |Hd-001-02 |KZ555 |1 |
+|===
+
+[WARNING]
+====
+Do not ride the bicycle until the grips have become dry and are firmly
+held in position. If the grips are wet, your hands can move off the
+grips when you ride the bicycle.
+====
+
+[WARNING]
+====
+Do not ride a bicycle with no grips on the handlebar.
+====
+
+[CAUTION]
+====
+Make sure the handlebar is correctly aligned in the center of the stem.
+====
+
+== Procedure
+
+[arabic]
+. Put the
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_spa-0001[Handlebar] in the
+stem and tighten the clamp bolt with a
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_seq-0001[Set of Allen
+wrenches]. Make sure the handlebar is correctly aligned in the center of
+the stem. Tighten the clamp bolt.
+. Put the link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_spa-0002[Brake
+lever] and
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_spa-0003[Shifter lever] on
+the handlebar.
+[arabic]
+.. Move the
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_spa-0003[Shifter lever] on
+the link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_spa-0001[Handlebar]
+again and make sure you do not catch the cables.
+.. Tighten the clamp bolt.
+.. Move the link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_spa-0004[Brake
+lever mount] and the brake lever on the
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_spa-0001[Handlebar] again.
+.. Tighten the clamp screw.
+. Replace the
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_spa-0005[Handlebar grips].
+[arabic]
+.. Apply with the
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_seq-0002[Extra firm hold
+hairspray] to the
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_spa-0005[Handlebar grips]
+area of the link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_spa-0004[Brake
+lever mount].
+.. Before the
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_seq-0002[Extra firm hold
+hairspray] becomes dry, move the
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_spa-0005[Handlebar grips]
+into the correct position. Make sure the grip protects the end of the
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_spa-0001[Handlebar] or
+install a
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_spa-0006[Handlebar plug].
+
+== Requirements after job completion

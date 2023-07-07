@@ -1,0 +1,37 @@
+== Headset
+
+The headset (refer to
+link:#ID_S1000DBIKE-AAA-DA2-30-00-00AA-041A-A_fig-0001[Headset]) is a
+pair of bearings on the two ends of the head tube of the frame. These
+bearings permit the fork to turn rearward and forward (for example, to
+let the rider turn the handlebars for the steering).
+
+The headset (refer to
+link:#ID_S1000DBIKE-AAA-DA2-30-00-00AA-041A-A_fig-0001[Headset])
+includes the parts that follow:
+
+* The bearing races that push into the head tube
+* a bearing race that pushes on the fork steerer tube
+* an adjustable upper race
+* two sets of ball bearings
+
+A headset has cups that are pushed into the head tube and a ring on the
+fork. All three must be fully parallel. It is usually necessary to
+remove rough paint to get all three fully parallel.
+
+The upper race installs onto the steerer tube with a thread. A locknut
+is used to safety the upper race.
+
+A clamp bolt holds the stem to the steerer tube.
+
+The fourth remaining bearing race is part of a nut that installs on the
+threaded top end of the fork. This is done after you install it in the
+head tube. It is sometimes necessary for some headsets to have more
+thread at the top of the head tube. If the fork is too long, the spacer
+rings can be installed. If it is too short, there is a limit to the
+number of headsets you can use.
+
+For an illustration of the parts of the headset (refer to
+link:#ID_S1000DBIKE-AAA-DA2-30-00-00AA-041A-A_fig-0001[Headset]).
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0391-001-01.CGM[Headset]

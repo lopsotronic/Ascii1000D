@@ -1,0 +1,29 @@
+== Preliminary requirements
+
+Operator 0,3
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Tire pressure gauge |BSK-TLST-001-01 |KZ666 |1 |
+|===
+
+== Procedure
+
+[arabic]
+. Locate the valve stem of tire.
+. Use the tire pressure gauge
+(link:#ID_S1000DBIKE-AAA-DA0-10-20-00AA-362B-A_seq-0003[Tire pressure
+gauge]) to check the tire pressure.
+. Tire pressure should between 2000 hPa to 2700 hPa.
+[arabic]
+.. If tire pressure is less than 2000 hPa inflate tire. Refer to
+link:#ID_S1000DBIKE-AAA-DA0-10-20-00AA-215A-A[S1000DBIKE-AAA-DA0-10-20-00AA-215A-A]
+.. If the tire cannot maintain pressure or the tire pressure is greater
+than 2700 hPa replace the inner tube. Refer to
+link:#ID_S1000DBIKE-AAA-DA0-10-10-00AA-921A-A[S1000DBIKE-AAA-DA0-10-10-00AA-921A-A]
+
+== Requirements after job completion

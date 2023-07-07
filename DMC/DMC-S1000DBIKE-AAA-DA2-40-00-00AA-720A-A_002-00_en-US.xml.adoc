@@ -1,0 +1,25 @@
+== Preliminary requirements
+
+*Spares*
+
+.Spares
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Fork set |SPA-1000-1 |KZ666 |1 |
+|===
+
+== Procedure
+
+[arabic]
+. {blank}
++
+[NOTE]
+====
+It is necessary to install the headset before installing any spacer
+====
+. Install the spacer
+(link:#ID_S1000DBIKE-AAA-DA2-40-00-00AA-720A-A_spa-0002[ Spacer KZ666
+SPC-200-12 1 Spacer KZ666 SPC-200-12 1 ])
+
+== Requirements after job completion

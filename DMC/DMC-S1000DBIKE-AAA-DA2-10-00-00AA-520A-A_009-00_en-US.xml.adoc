@@ -1,0 +1,47 @@
+== Preliminary requirements
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|Safety the bicycle in a bicycle stand and hold the front wheel off the
+ground |
+|===
+
+Operator 1,5
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Set of Allen wrenches |BSK-TLST-001-13 |KZ666 |1 |
+|Work stand |Stand-001 |KZ555 |1 |
+|===
+
+[NOTE]
+====
+It is not necessary to remove the handlebar when you remove the stem to
+get access to the headset.
+====
+
+== Procedure
+
+[arabic]
+. Remove the handlebar
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-520A-A[S1000DBIKE-AAA-DA2-20-00-00AA-520A-A]
+. Remove the stem.
+[arabic]
+.. Remove the bolt in the center of the stem cap.
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0387-001-01.CGM[Remove
+the bolt]
+.. Loosen the stem clam bolt with a
+link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-520A-A_seq-0001[Set of Allen
+wrenches].
+.. Remove the stem from the steerer tube.
+.. Note: It is not necessary to remove the handlebar if you remove the
+stem to get access to the headset.
+
+== Requirements after job completion

@@ -1,0 +1,31 @@
+== Preliminary requirements
+
+Operator 0,3
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Rubbing alcohol | |KZ222 |As required |
+|===
+
+== Procedure
+
+[arabic]
+. Do a visual inspection of the brakes as given in the pre-ride checks
+(refer to
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-121A-A[S1000DBIKE-AAA-D00-00-00-00AA-121A-A]).
+. Clean the brake pads.
+[arabic]
+.. Find each of the brake pads.
+.. Apply a thin layer of the
+link:#ID_BRAKE-AAA-DA1-10-00-00AA-251A-A_sup-0001[Rubbing alcohol] on
+each of the brake pads.
+.. Rub the surface until you have applied the
+link:#ID_BRAKE-AAA-DA1-10-00-00AA-251A-A_sup-0001[Rubbing alcohol] to
+the complete surface of the pad.
+.. Remove the unwanted alcohol.
+
+== Requirements after job completion

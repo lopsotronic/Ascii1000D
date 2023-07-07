@@ -1,0 +1,98 @@
+== Physical description of a bicycle
+
+A bicycle (refer to
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-041A-A_fig-0001[Complete
+bicycle]) is a frame and a number of movable components with mechanical
+parts that are completely open. There are no covers or sheet metal
+panels that prevent access to the mechanical parts. Thus, you can
+disassemble the different components of a bicycle (refer to
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-041A-A_fig-0001-gra-0001-hot-0000[
+]) to do:
+
+* an inspection
+* a maintenance task
+* a repair task
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0360-001-01.CGM[Complete
+bicycle]
+
+The parts that you can immediately identify on a bicycle are given in
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-041A-A_tab-0001[Bicycle parts].
+
+.Bicycle parts
+[cols=",,",options="header",]
+|===
+|Item |Refer to |Definition
+|Frame
+|link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-041A-A_fig-0001-gra-0001-hot-0009[
+] |A bicycle frame is made of metal tubes that are welded together.
+
+|Wheels | a|
+The wheels include these parts:
+
+* Hub
+* Spokes
+* Metal rim
+* Rubber tire
+
+a|
+* Rear wheel
+
+|link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-041A-A_fig-0001-gra-0001-hot-0007[
+] |
+
+a|
+* Front wheel
+
+|link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-041A-A_fig-0001-gra-0001-hot-0003[
+] |
+
+|Seat and seat post
+|link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-041A-A_fig-0001-gra-0001-hot-0008[
+] |These install into the seat tube with a mechanism you can use to
+change the height.
+
+|Handle bars
+|link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-041A-A_fig-0001-gra-0001-hot-0011[
+] |A horizontal bar that attaches to the stem with grips at the ends
+that attach to the brake levers and the shifters.
+
+|Handle bar stem
+|link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-041A-A_fig-0001-gra-0001-hot-0010[
+] |This attaches the handle bar to the steering tube (head set).
+
+|Cranks
+|link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-041A-A_fig-0001-gra-0001-hot-0005[
+] |A lever that extends from the bottom of the bracket to the pedal.
+
+|Pedals
+|link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-041A-A_fig-0001-gra-0001-hot-0004[
+] |The two platforms for the feet that attach to the crank.
+
+|Chain
+|link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-041A-A_fig-0001-gra-0001-hot-0006[
+] |A circular set of links that connect the chain ring to the cogs on
+the freewheel.
+
+|Gears
+|link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-041A-A_fig-0001-gra-0001-hot-0002[
+] a|
+The gears include:
+
+* Front chain ring
+* Rear freewheel
+* Front and the rear derailleur
+* Shift lever on the handle bars
+* Cables
+
+|Brakes
+|link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-041A-A_fig-0001-gra-0001-hot-0001[
+] a|
+The brakes include:
+
+* Actuators on the handlebars
+* Brake cable
+* Brake callipers
+* Brake pads
+
+|===

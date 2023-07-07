@@ -1,0 +1,28 @@
+== Preliminary requirements
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Specialist toolset |BSK-TLST-001 |KZ666 |1 |
+|===
+
+== Procedure
+
+[arabic]
+. {blank}
++
+[NOTE]
+====
+It is necessary to install the fork and the brakes before installing the
+wheel
+====
+. Hold the front of the bicycle.
+. Install the wheel with
+(link:#ID_S1000DBIKE-AAA-DA0-30-00-00AA-720A-A_seq-0001[Specialist
+toolset]) and be careful to not damage the chainring.
+. Put the bike on the floor.
+
+== Requirements after job completion

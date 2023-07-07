@@ -1,0 +1,101 @@
+== Preliminary requirements
+
+Operator 0,3
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Tire pressure gauge |BSK-TLST-001-01 |KZ666 |1 |
+|Specialist toolset |BSK-TLST-001 |KZ666 |1 |
+|===
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|General lubricant | |KZ222 |As required |
+|===
+
+== Procedure
+
+[arabic]
+. Examine the condition of the brakes.
+[arabic]
+.. Open the brake quick release.
+.. Examine the condition and the thickness of the brake pads.
+[arabic]
+... Make sure that there is a large quantity of rubber left.
+... Make sure that the pad is not too hard.
+.. Clean all the unwanted material.
+. Do an inspection of the installation of the brakes.
+[arabic]
+.. Check the hydraulic brake system function.
+.. Make sure that there is sufficient clearance between the pad and the
+inner diameter of the brake surface.
+.. {blank}
++
+[CAUTION]
+====
+If the position of the pads is too low on the rim, as shown in
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-121A-A_fig-0001[Brake pad
+seating] , the pads can move. This could cause the separation of the
+spokes from their mountings., they could slip off causing the spokes to
+be torn out of their mountings.
+====
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0382-001-01.CGM[Brake
+pad seating]
++
+Make sure that the pads are correctly installed in the center of the
+inner diameter of the brake surface.
+. Do a check of the tire pressure.
+[arabic]
+.. Do a check of the tire pressure with the
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-121A-A_seq-0001[Tire pressure
+gauge] .
+.. Compare the value you read with the recommended pressure that is
+shown into the sidewall of the tire.
+.. Add the necessary air.
+. Examine the condition of the wheels.
+[arabic]
+.. Examine the rims for bulges and dents.
+.. Examine for splits at the seam where an extruded rim is bonded.
+. Do a check of the headset bearings.
+[arabic]
+.. Straddle the bicycle.
++
+Apply the front brakes and push the handle bars forward.
+.. Make sure that the headset bearings are tight.
+. Do the checks on the chain.
+[arabic]
+.. Visually examine the chain.
++
+If the chain is too dirty, clean it as specified in the clean chain task
+(refer to
+link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-251B-A[S1000DBIKE-AAA-DA4-10-00-00AA-251B-A]
+).
+[arabic]
+... Visually examine the chain for links that are frozen or that do not
+move easily.
+... Apply the necessary
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-121A-A_sup-0001[General
+lubricant] .
+.. Do a check of the chain to make sure that it is tight.
+[arabic]
+... Make sure that the play of the chain is not too much.
+[arabic]
+.... Move the chain on the largest chain ring.
+.... Try to pull the chain away from the front of the chain ring.
++
+Make sure that the chain is not loose. Tighten the chain if, when you
+pull it away from the chain ring, you can see a full tooth.
+... Tighten the chain with the Allen wrench from the
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-121A-A_seq-0002[Specialist
+toolset].
+
+== Requirements after job completion

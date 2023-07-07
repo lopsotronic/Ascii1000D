@@ -1,0 +1,40 @@
+== Steering
+
+The steering on the bike is what enables the bike to manoeuvre in a
+given direction during travel. The steering system on the bike is made
+of three parts, they are:
+
+* link:#ID_S1000DBIKE-AAA-DA2-00-00-00AA-041A-A_par-0001[Handlebar] The
+handlebar
+* link:#ID_S1000DBIKE-AAA-DA2-00-00-00AA-041A-A_par-0002[Headset] The
+headset
+* link:#ID_S1000DBIKE-AAA-DA2-00-00-00AA-041A-A_par-0003[Stem] The stem
+
+[[ID_S1000DBIKE-AAA-DA2-00-00-00AA-041A-A_par-0001]]
+=== Handlebar
+
+This consists of a horizontal bar attached to the stem with handgrips at
+the end. Brake levers and shifters are also attached to this bar
+although they do not have any part in the steering mechanism. The
+handlebars manoeuvrability is a sideways swivelling action. The
+handlebars themselves do not provide this swivelling, the headset (also
+known as the steering tube) is the mechanism that enables the handlebars
+to swivel.
+
+[[ID_S1000DBIKE-AAA-DA2-00-00-00AA-041A-A_par-0002]]
+=== Headset
+
+This mechanism is situated in front of the frame and connects the front
+fork to the stem and handlebars. The headset allows the handlebars to
+swivel left and right for steering purposes.
+
+For a full description of the headset, refer to
+link:#ID_S1000DBIKE-AAA-DA2-30-00-00AA-041A-A[S1000DBIKE-AAA-DA2-30-00-00AA-041A-A]
+.
+
+[[ID_S1000DBIKE-AAA-DA2-00-00-00AA-041A-A_par-0003]]
+=== Stem
+
+The stem is a piece that attaches the handlebar to the steering tube.
+Basically the stem is just a threaded stem bolt situated inside the
+steerer tube and is what attaches the handlebars to the headset.

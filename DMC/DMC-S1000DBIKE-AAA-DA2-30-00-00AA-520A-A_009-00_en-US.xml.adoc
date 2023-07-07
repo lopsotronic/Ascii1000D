@@ -1,0 +1,43 @@
+== Preliminary requirements
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|The bicycle is safely held on a work stand |
+|===
+
+Operator 0,5
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Work stand |Stand-001 |Bikey |1 |
+|===
+
+[NOTE]
+====
+It is not necessary to remove the handlebar for this procedure.
+====
+
+== Procedure
+
+[arabic]
+. Remove the stem (refer to
+link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-520A-A[S1000DBIKE-AAA-DA2-10-00-00AA-520A-A]).
+. Remove:
+* the spacers
+* the brake cable hangar
+* the dust seals
+* the conical expansion washer(s) from the steerer tube
+. Lift the upper bearing cup off (refer to
+link:#ID_S1000DBIKE-AAA-DA2-30-00-00AA-520A-A_fig-0001[Lift the upper
+bearing cup]) and then remove the fork from the frame.
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0390-001-01.CGM[Lift
+the upper bearing cup]
+
+== Requirements after job completion

@@ -1,0 +1,236 @@
+00 Frame 0.1 0101 Front Wheel 0.1
+
+0.1
+
+0.2
+
+0.2
+
+0.3
+
+0.3
+
+0.5
+
+0102 Tire 0.1
+
+0.1
+
+0.1
+
+0.1
+
+0.5
+
+0.5
+
+1.0
+
+0201 Rear Wheel 0.1
+
+0.1
+
+0.2
+
+0.2
+
+0.3
+
+0.3
+
+0.5
+
+0202 Tire 0.1
+
+0.1
+
+0.1
+
+0.1
+
+0.5
+
+0.5
+
+1.0
+
+03 Seat and Seat Post 0.1 0.2
+
+0.4
+
+0.5
+
+04 Handlebars 0.1
+
+0.1
+
+0.1
+
+0.5
+
+0.5
+
+05 Handle Bar Stem 0.5
+
+2.0
+
+2.0
+
+06 Cranks 0.2 0.2
+
+1.0
+
+1.0
+
+07 Pedals 0.2 0.2
+
+0.3
+
+0.3
+
+1.0
+
+1.0
+
+1.0
+
+08 Chain 0.2 0.2
+
+0.3
+
+0.4
+
+0.8
+
+0.8
+
+1.0
+
+0901 Gears-Front chain ring 0.2 0.3
+
+0.3
+
+0.3
+
+0.3
+
+0.8
+
+1.0
+
+1.0
+
+0.8
+
+2.5
+
+2.5
+
+0902 Gears-Rear freewheel 0.3 0.3
+
+0.5
+
+0.5
+
+0.5
+
+0.8
+
+2.0
+
+2.0
+
+2.5
+
+3.0
+
+4.0
+
+0903 Gears-Derailleurs 0.5 0.5
+
+0.5
+
+0.5
+
+0.5
+
+1.0
+
+2.0
+
+2.0
+
+2.0
+
+3.0
+
+4.0
+
+0904 Gears-Shift levers 0.2 0.3
+
+0.3
+
+0.3
+
+1.0
+
+1.5
+
+1.5
+
+1.5
+
+0905 Gears-Cables 0.3 0.3 0.3
+
+0.5
+
+2.0
+
+2.0
+
+1001 Brakes-Handlebar actuators 0.3 0.3 0.4
+
+0.4
+
+0.4
+
+1.0
+
+1.0
+
+1.5
+
+1002 Brakes-Cables 0.2 0.2 0.4
+
+0.4
+
+0.5
+
+1.0
+
+1.0
+
+1003 Brakes-Calipers 0.2 0.2 0.5
+
+0.5
+
+0.5
+
+1.0
+
+1.0
+
+1005 Brakes-Pads 0.2 0.2 0.3
+
+0.3
+
+0.3
+
+0.8
+
+0.8
+
+TL01 Specialist Toolset TL02 Foot Pump TL03 Patch Kit TL04 Allen wrench
+set TL05 Tire Lever TL06 Tire Pressure Gauge TL07 Test Stand
+
+Headlight not installed

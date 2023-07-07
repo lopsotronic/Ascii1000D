@@ -1,0 +1,92 @@
+== Preliminary requirements
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|Make sure the bicycle is held safely on a work stand with the front
+wheel free of the ground |
+|===
+
+Operator 1,0
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Clean dry cloth |BSK-TLST-001-12 |KZ666 |1 |
+|Work stand |Stand-001 |KZ555 |1 |
+|===
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Rubbing alcohol | |KZ222 |1 |
+|General lubricant | |KZ222 |1 |
+|===
+
+*Spares*
+
+.Spares
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Stem |St-001 |KZ555 |1 |
+|Stem bolt |St-001-01 |KZ555 |1 |
+|===
+
+[CAUTION]
+====
+Do not tighten the stem bolt too much. You can cause damage to the
+headset bearings if you tighten the stem too much.
+====
+
+[CAUTION]
+====
+The stem bolt does not safety the stem.
+====
+
+[NOTE]
+====
+The stem must point forward in alignment with the wheel.
+====
+
+== Procedure
+
+[arabic]
+. Remove all the rust and the corrosion with a
+link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-720A-A_seq-0001[Clean dry cloth]
+and link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-720A-A_sup-0001[Rubbing
+alcohol].
+. Install the stem.
+[arabic]
+.. Use a link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-720A-A_sup-0002[General
+lubricant] and lubricate:
+* the threads of the
+link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-720A-A_spa-0002[Stem] and
+link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-720A-A_spa-0001[Stem bolt]
+* the sides
+* the top of the wedge
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0385-001-01.CGM[Lubricate
+the thread]
+.. Install the
+link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-720A-A_spa-0002[Stem] in the
+steerer tube.
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0386-001-01.CGM[Tighten
+the bolt]
+.. Adjust to align the
+link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-720A-A_spa-0002[Stem] with the
+wheel and tighten the
+link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-720A-A_spa-0001[Stem bolt]
+firmly.
+. Install the handlebars (refer to
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A[S1000DBIKE-AAA-DA2-20-00-00AA-720A-A]).
+
+== Requirements after job completion

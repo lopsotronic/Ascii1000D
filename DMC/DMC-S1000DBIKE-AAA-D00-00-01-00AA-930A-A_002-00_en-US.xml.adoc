@@ -1,0 +1,260 @@
+Installation of telescopic fork with 140mm clearance Installation of
+telescopic fork with 100mm clearance +0.8 kg +1.76 lbm +0.5 kg +1.1 lbm
+At customer convenience Not Applicable 1.5 h 1.5 h 1 h 1 h 2016-08-31
+
+This document is the first issue of the Service Bulletin
+
+Original Issue date
+link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0016[ ]
+
+A lot of customers asked for the improvement of the front hanging in
+order to use the bike in more severe conditions.
+
+Replacement of the fork
+
+link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0001[ ]
+
+This Service Bulletin is applicable to bikes manufactured between
+01/05/2001 and 30/09/2009
+
+Configuration no. 1 covers mountain bicycle Mountain storm version Mk1
+
+Configuration no. 2 covers mountain bicycle Brook trekker version Mk9
+
+[cols=",",options="header",]
+|===
+|link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-933A-A[S1000DBIKE-AAA-D00-00-01-00AA-933A-A]
+|
+|Total workload |link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0008[
+1.5 1.5 ]
+
+|Estimated time |link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0009[
+1.5 1.5 ]
+|===
+
+[cols=",",options="header",]
+|===
+|link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-933A-A[S1000DBIKE-AAA-D00-00-01-00AA-933A-A]
+|
+|Total workload |link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0011[
+1 1 ]
+
+|Estimated time |link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0012[
+1 1 ]
+|===
+
+For any issue with the fork assembly, please contact your local
+retailer.
+
+The UK MoD Company only provides assistance via its network of
+retailers.
+
+[cols=",",options="header",]
+|===
+|EVALUATION TABLE |
+|Passenger comfort affected
+|link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0003[ ]
+
+|Structural life extended
+|link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0004[ ]
+
+|Bike operation affected
+|link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0005[ ]
+|===
+
+This Service Bulletin is applicable to bikes manufactured between
+01/05/2001 and 30/09/2009
+
+The S/N of the impacted bikes are : U8025
+
+The S/N of the impacted bikes are : U8025 U8025
+
+Configuration no. 1 covers mountain bicycle Mountain storm version Mk1
+
+Configuration no. 2 covers mountain bicycle Brook trekker version Mk9
+
+== 
+
+Objective :
+
+=== 
+
+Improvement of the bike's front hanging.
+
+== 
+
+Problem and effect :
+
+=== 
+
+A lot of customers would like to use the bike in more severe conditions.
+
+== 
+
+Solution :
+
+=== 
+
+Replacement of the fork.
+
+== 
+
+Replacement of the original fork
+
+=== 
+
+by telescopic fork with a 140 mm clearance
+
+=== 
+
+by telescopic fork with a 100 mm clearance
+
+== Compliance
+
+link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0001[ ]
+
+== 
+
+The modification should be made in accordance with the customer's
+availability, but within the following limits (before marked wear of the
+frame)
+
+.Accomplishment time scale
+[cols=",",options="header",]
+|===
+|Limit |Grace period
+|link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0017[ At customer
+convenience At customer convenience ]
+|link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0018[ Not Applicable
+Not Applicable ]
+|===
+
+This modification has been approved and certified in conformity with the
+requirements of the S1000D community.
+
+Approval No. link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0015[ ].
+
+[cols=",",options="header",]
+|===
+|link:#ID_S1000DBIKE-AAA-D00-00-01-001A-933A-A[S1000DBIKE-AAA-D00-00-01-001A-933A-A]
+|
+|Job Set-up |5 min
+
+|Removal |20 min
+
+|Install |60 min
+
+|Testing |5 min
+
+|Total workload |link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0008[
+1.5 1.5 ]
+
+|Estimated time |link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0009[
+1.5 1.5 ]
+|===
+
+[cols=",",options="header",]
+|===
+|link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-933A-A[S1000DBIKE-AAA-D00-00-01-00AA-933A-A]
+|
+|Job Set-up |5 min
+
+|Removal |20 min
+
+|Install |30 min
+
+|Testing |5 min
+
+|Total workload |link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0011[
+1 1 ]
+
+|Estimated time |link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0012[
+1 1 ]
+|===
+
+[cols=",",]
+|===
+|Effect on weight
+|link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0013[ +0.8 +1.76 +0.8
++1.76 ]
+
+|Effect on weight
+|link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-930A-A_id-0014[ +0.5 +1.1 +0.5
++1.1 ]
+|===
+
+Removal of the headset
+link:#ID_S1000DBIKE-AAA-DA2-30-00-00AA-520A-A[S1000DBIKE-AAA-DA2-30-00-00AA-520A-A]
+
+Install of the headset
+link:#ID_S1000DBIKE-AAA-DA2-30-00-00AA-720A-A[S1000DBIKE-AAA-DA2-30-00-00AA-720A-A]
+
+Removal of the stem
+link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-520A-A[S1000DBIKE-AAA-DA2-10-00-00AA-520A-A]
+
+Install of the stem
+link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-720A-A[S1000DBIKE-AAA-DA2-10-00-00AA-720A-A]
+
+Testing of the brakes
+link:#ID_BRAKE-AAA-DA1-00-00-00AA-341A-A[BRAKE-AAA-DA1-00-00-00AA-341A-A]
+
+IPD
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-941A-D[S1000DBIKE-AAA-D00-00-00-00AA-941A-D]
+
+For any issue with the fork assembly, please contact your local
+retailer.
+
+The UK MoD Company only provides assistance via its network of
+retailers.
+
+Saw tool set Saw tool KZ666 BSK-TW-100 1 Threading tool KZ666
+BSK-THR-3001 1 Saw tool set Saw tool KZ666 BSK-TW-100 1 Threading tool
+KZ666 BSK-THR-3001 1
+
+1
+
+General grease KZ222 LL-005 As required General grease KZ222 LL-005 As
+required
+
+Fork set 150 3 after purchase order reception World-Bike Customer
+Support 100, Bike Street London UK Fork KZ666 FK-TEL1001 1 Spacer KZ666
+SPC-200-12 2 Fork set 150 3 after purchase order reception World-Bike
+Customer Support 100, Bike Street London UK Fork KZ666 FK-TEL1001 1
+Spacer KZ666 SPC-200-12 2
+
+1
+
+Removed spare set Fork KZ666 FK-1000 Conical expansion washer Removed
+spare set Fork KZ666 FK-1000 Conical expansion washer
+
+Wheel axis Wheel axis
+
+Saw tool set Saw tool KZ666 BSK-TW-100 1 Threading tool KZ666
+BSK-THR-3001 1 Saw tool set Saw tool KZ666 BSK-TW-100 1 Threading tool
+KZ666 BSK-THR-3001 1
+
+1
+
+General grease KZ222 LL-005 As required General grease KZ222 LL-005 As
+required
+
+Fork KZ666 FK-TEL1002 1 100 3 after purchase order reception World-Bike
+Customer Support 100, Bike Street London UK Fork KZ666 FK-TEL1002 1 100
+3 after purchase order reception World-Bike Customer Support 100, Bike
+Street London UK
+
+1
+
+Removed spare set Fork KZ666 FK-1000 Conical expansion washer Removed
+spare set Fork KZ666 FK-1000 Conical expansion washer
+
+Wheel axis Wheel axis
+
+Saw tool set Saw tool KZ666 BSK-TW-100 1 Threading tool KZ666
+BSK-THR-3001 1 General grease KZ222 LL-005 As required Fork set 150 3 d
+after purchase order reception World-Bike Customer Support 100, Bike
+Street London UK Fork KZ666 FK-TEL1001 1 Spacer KZ666 SPC-200-12 2 Fork
+KZ666 FK-TEL1002 1 100 3 d after purchase order reception World-Bike
+Customer Support 100, Bike Street London UK Removed spare set Fork KZ666
+FK-1000 Conical expansion washer Removed spare set Fork KZ666 FK-1000
+Conical expansion washer Wheel axis

@@ -1,0 +1,43 @@
+Select your answer, and then click CHECK.
+
+The stem attaches the _________________________ to the
+________________________.
+
+headset / fork
+
+fork / handlebar
+
+handlebar / headset
+
+frame / handlebar
+
+The answer _"headset / fork"_ is incorrect. Try again!
+
+headset / fork headset / fork
+
+The answer _"fork / handlebar"_ is incorrect. Try again!
+
+fork / handlebar fork / handlebar
+
+Correct!
+
+handlebar / headset handlebar / headset
+
+The answer _"frame / handlebar"_ is incorrect. Try again!
+
+frame / handlebar frame / handlebar
+
+The answer _"headset / fork"_ is incorrect. The correct answer is
+handlebar / headset.
+
+headset / fork headset / fork
+
+The answer _"fork / handlebar"_ is incorrect. The correct answer is
+handlebar / headset.
+
+fork / handlebar fork / handlebar
+
+The answer _"frame / handlebar"_ is incorrect. The correct answer is
+handlebar / headset.
+
+frame / handlebar frame / handlebar

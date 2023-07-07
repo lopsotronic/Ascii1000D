@@ -1,0 +1,31 @@
+== Preliminary requirements
+
+Operator
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Specialist toolset |BSK-TLST-001 |KZ666 |1 |
+|Foot pump |BSK-TLST-001-05 |KZ666 |1 |
+|Tire pressure gauge |BSK-TLST-001-01 |KZ666 |1 |
+|===
+
+== Procedure
+
+[arabic]
+. Ensure bicycle is on the repair stand.
+. Locate the deflated tire.
+. Attach the outlet valve of the
+link:#ID_S1000DBIKE-AAA-DA0-10-20-00AA-215A-A_seq-0002[Foot pump], from
+the link:#ID_S1000DBIKE-AAA-DA0-10-20-00AA-215A-A_seq-0001[Specialist
+toolset], to the valve of the deflated tire.
+. Inflate the tire.
+[arabic]
+.. Operate the foot pump to pump air into the tire.
+.. Check tire pressure. Refer to
+link:#ID_S1000DBIKE-AAA-DA0-10-20-00AA-362B-A[S1000DBIKE-AAA-DA0-10-20-00AA-362B-A]
+
+== Requirements after job completion
