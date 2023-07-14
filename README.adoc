@@ -15,7 +15,7 @@ Demonstration of an https://s1000d.org/[S1000D] publication architecture using t
 * S1000D-style filenaming conventions
 * CIRs/TIRs (Common Information Repositories) / (Technical Information Repositories) via `+include+` directive to tagged regions
 * Conditional Content aka Applicability via Asciidoc Conditional Directives
-* PM (Publication Module) and DMRL (Data Module Requirement List) via Asciidoc `+include+` directives, and DMRLs for project planning.
+* Content re-use PM (Publication Module) and DMRL (Data Module Requirement List) via Asciidoc `+include+` directives, and DMRLs for project planning.
 * Line art parts identification via SVG+CSS or inclusion of X3D or applicable HTML5 web 3d format.
 
 See xref:Ascii1000D_Flow.adoc#Example Data Flow[Data Flow] for details on data flow.
