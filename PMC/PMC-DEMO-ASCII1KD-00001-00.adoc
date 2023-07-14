@@ -10,13 +10,14 @@ v0.0.1, October 7, 2020: Initial revision
 :numbering:
 :sectnums:
 :sectnumlevels: 5
-:stylesheet: ../css/document.css,../css/cover.css,../css/features/title-document-numbering.css,../css/features/title-page.css
+:stylesheet: ../css/document.css,../css/cover.css,../css/features/title-document-numbering.css
+//../css/features/title-page.css
 :CONFIG1: 000000100
 :docpnr: 999-999999-999
 :docinfo: shared
 :title-logo-image: ../GFX/_TeledyneFLIR.png[]
 
-include::../CIR/DMC-DEMO-000-00-00-01A-998Z-A.adoc[tag=!*]
+include::../CIR/DMC-DEMO-000-00-00-01A-998Z-A.adoc[]
 
 include::../CIR/DMC-DEMO-000-00-00-01A-999Z-A.adoc[]
 

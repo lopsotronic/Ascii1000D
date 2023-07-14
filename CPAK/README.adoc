@@ -1,0 +1,36 @@
+This directory reserves the location for all CPAK (change package) documents
+
+.CPAK sample process
+[graphviz]
+----
+digraph g {
+  edge [arrowsize=".5"]
+  node [shape=record]
+  node [fontname="Arial" fontsize=18]
+  rankdir="LR";
+  "ECO/ECN/Engineering
+  Change System" [color=red]
+  "Document
+  Impact Analysis" [color=red]
+  CPAK [color=orange]
+  APPLIC [color=orange]
+  CIR [color=orange]
+  DMC [color=orange]
+  "Service Bulletin" [color=green]
+  PMC [color=green]
+  "Deliverable" [color=blue]
+  "ECO/ECN/Engineering
+  Change System" -> "Document
+  Impact Analysis" -> CPAK -> "Service Bulletin" -> "Deliverable"
+  CPAK -> PMC -> "Deliverable"
+  CPAK -> DMC
+  CPAK -> APPLIC -> DMC
+  CPAK -> CIR -> DMC
+  DMC -> PMC
+  "CPAK: Change Package
+  PMC: Publication Module Code
+  DMC: Data Module Code
+  CIR: Common Information Repository
+  APPLIC: Conditional attributes"
+}
+----
