@@ -1,4 +1,4 @@
-= Ascii1000D Test : PNR 999-999999-999
+= Ascii1000D Test
 John Mogilewsky <mogilews@gmail.com>
 v0.0.1, October 7, 2020: Initial revision
 :doctype: book
@@ -8,8 +8,15 @@ v0.0.1, October 7, 2020: Initial revision
 :toclevels: 4
 :experimental:
 :numbering:
-:stylesheet: ../css/document.css
+:sectnums:
+:sectnumlevels: 5
+:stylesheet: ../css/document.css,../css/cover.css,../css/features/title-document-numbering.css,../css/features/title-page.css
 :CONFIG1: 000000100
+:docpnr: 999-999999-999
+:docinfo: shared
+:title-logo-image: ../GFX/_TeledyneFLIR.png[]
+
+include::../CIR/DMC-DEMO-000-00-00-01A-998Z-A.adoc[tag=!*]
 
 include::../CIR/DMC-DEMO-000-00-00-01A-999Z-A.adoc[]
 

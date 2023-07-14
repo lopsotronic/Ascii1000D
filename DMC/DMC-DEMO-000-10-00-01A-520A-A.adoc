@@ -3,7 +3,6 @@
 :!part-title:
 :part-title: DMC-ASCII1KD-DEMO-000-10-00-01A-520A-A
 
-
 == Prerequisites
 
 === Support equipment

@@ -1,0 +1,21 @@
+.proprietary {
+  position: running(proprietary);
+}
+
+.export {
+  position: running(export);
+}
+
+.contact {
+  position: running(contact);
+}
+
+@page :first {
+  background-size: contain;
+  content: "Test";
+}
+
+/* move the book title to the correct location */
+#cover > h1 {
+  margin-top: 8cm;
+}

@@ -3,6 +3,48 @@
   size: A4;
 }
 
+/*Running content*/
+
+.proprietary_short {
+  position: running(proprietary_short);
+}
+
+.export_short {
+  position: running(export_short);
+}
+
+.revnumber {
+  position: running(revnumber);
+}
+
+@page {
+  @bottom-left {
+    content: element(export_short);
+    text-align:left;
+  }
+}
+
+@page {
+  @bottom-right {
+    content: element(proprietary_short);
+    text-align:right;
+  }
+}
+
+@page {
+  @top-right {
+    content: element(revnumber);
+    text-align:right;
+  }
+}
+
+@page {
+  @top-center {
+    content: element(section-or-chapter-title);
+    text-align:center;
+  }
+}
+
 html {
   font: 10.5pt/1.15 'Noto Sans', sans-serif;
 }
@@ -24,12 +66,16 @@ nested elements once that breaks across two pages.
 .admonitionblock > table td.icon svg {
   height: 2.5em;
   width: 100%;
+  padding-right: 20em;
   cursor: default;
+  text-transform:uppercase;
 }
 
 .admonitionblock > table td.icon .fa-layers {
   height: 100%;
   width: 100%;
+  padding-right: 20em;
+  text-transform:uppercase;
 }
 
 .admonitionblock.warning {
@@ -73,6 +119,7 @@ nested elements once that breaks across two pages.
 /*Stacked numbering for nested olists*/
 
 
+
 /* fix callout text alignment */
 .conum[data-value]:after {
   display: flex;
@@ -88,31 +135,45 @@ pre .conum[data-value] {
 }
 
 h1 {
+  color: #0019fd;
   font-size: 2.6em;
   break-after: avoid;
 }
 
 h2 {
+  color: #0019fd;
   font-size: 2em;
   break-after: avoid;
 }
 
+h2:after { /* this is the border */
+  content:"";
+  display:block;
+  width: 100%;
+  max-width:100%;
+  border-bottom: 0.1em solid rgb(0, 0, 0);
+}
+
 h3, #toctitle, .sidebarblock > .content > .title {
+  color: #0019fd;
   font-size: 1.4em;
   break-after: avoid;
 }
 
 h4 {
+  color: #0019fd;
   font-size: 1.3em;
   break-after: avoid;
 }
 
 h5 {
+  color: #0019fd;
   font-size: 1.2em;
   break-after: avoid;
 }
 
 h6 {
+  color: #0019fd;
   font-size: 1.1em;
   break-after: avoid;
 }
@@ -147,7 +208,6 @@ h6 {
 }
 
 h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 {
-  color: #333;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 600;
 }
@@ -162,9 +222,16 @@ p, blockquote, dt, td.content, span.alt {
   font-size: 0.95rem;
 }
 
-.admonitionblock > table td.icon .title {
+.admonitionblock > table td.icon i:before{
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
+  text-transform:uppercase;
+}
+
+.admonitionblock > table td.icon .title i:before{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  text-transform:uppercase;
 }
 
 .subheader, .admonitionblock td.content > .title, .audioblock > .title, .exampleblock > .title, .imageblock > .title, .listingblock > .title, .literalblock > .title, .stemblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, table.tableblock > .title, .verseblock > .title, .videoblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title {
@@ -214,17 +281,10 @@ tr {
   break-inside: avoid;
 }
 
-
-
-.title-document {
-  padding-right: 1.25em;
-  padding-left: 1.25em;
-  text-align: center;
-}
-
-.title-document h1 {
+.title-page h1 {
   margin-top: 0;
-  font-size: 2.6rem;
+  color: #0019fd;
+  font-size: 2.6em;
 }
 
 .page-break {

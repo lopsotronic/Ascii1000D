@@ -11,7 +11,9 @@
 
 Special characters invoked by character substitution such as (C), (R), ->, and more. 
 
-Keyboard sequences are supported by the `kbd` macro, for example kbd:[CTRL+ALT+DEL]
+Keyboard sequences are supported by the `kbd` macro, for example kbd:[CTRL+ALT+DEL].
+
+The footnote macro produces notes in the bottom of the pagefootnote:[Text of the footnote]
 
 NOTE: The KBD macro is only active when the EXPERIMENTAL document attribute is declared. Otherwise, it appears as monospaced verbatim text.
 

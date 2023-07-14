@@ -1,23 +1,23 @@
 @page :right {
-  @bottom-right {
+  @bottom-right-corner {
     content: counter(page);
     font-size: 0.8rem;
     padding: 10pt 0 0 0;
     margin: 10pt 10pt 30pt 10pt;
     border-top: .1pt solid #d2d2d2;
   }
-  @bottom-left {
+  @bottom-left-corner {
     margin: 10pt 0 30pt 0;
     border-top: .1pt solid #d2d2d2;
   }
 }
 
 @page :left {
-  @bottom-right {
+  @bottom-right-corner {
     margin: 10pt 0 30pt 0;
     border-top: .1pt solid #d2d2d2;
   }
-  @bottom-left {
+  @bottom-left-corner {
     content: counter(page);
     font-size: 0.8rem;
     padding: 10pt 0 0 0;

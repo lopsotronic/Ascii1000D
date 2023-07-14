@@ -1,0 +1,48 @@
+[[DMC-DEMO-000-00-00-01A-998Z-A]]
+// tag::revnumber[]
+[.revnumber]
+{revnumber}
+// end::revnumber[]
+
+// tag::cover_all[]
+
+// tag::contact[]
+[.contact]
+TELEDYNE FLIR LLC
+27700 SW Parkway Avenue
+Wilsonville, OR 97070 USA
+Phone: 800.868.0639
+// end::contact[]
+
+// tag::export[]
+[.export]
+*WARNING* - This document contains technical data subject to the International Traffic in Arms Regulations
+(ITAR) (22 C.F.R. Sections 120-130). Export or diversion contrary to law is prohibited.
+// end::export[]
+
+// tag::proprietary[]
+[.proprietary]
+*PROPRIETARY* - This document contains proprietary information to Teledyne FLIR LLC. This information must be
+maintained in confidence and used only in a manner consistent with the documentation and any executed
+Non Disclosure Agreement, and may not be disclosed to any third parties without Teledyne FLIR's written
+consent.
+// end::proprietary[]
+
+// end::cover_all[]
+
+// tag::uspatent[]
+[.uspatent]
+*U.S. PATENTS* - The Star SAFIRE(C) 380-HD Series Systems are protected by the following patents: U.S. Patent No. 7,264,220;
+U.S. Patent No. 7,471,451; U.S. Patent No. 7,561,784; and U.S. Patent No. 7,671,311. Other U.S. and International Patents Pending.
+// end::uspatent[]
+
+// tag::proprietary_short[]
+[.proprietary_short]
+(C) PROPRIETARY by Teledyne FLIR LLC
+// end::proprietary_short[]
+
+
+// tag::export_short[]
+[.export_short]
+*WARNING* - ITAR Controlled Technical Data
+// end::export_short[]
