@@ -1,6 +1,6 @@
 = Ascii1000D Demonstration
 Lopsotronic Publications
-v0.0.1, {docdate} 
+v0.0.7, {docdate} 
 
 [abstract]
 DMC-ASDEMO-AAAA-000-00-00-01A-000B-A
@@ -8,14 +8,28 @@ DMC-ASDEMO-AAAA-000-00-00-01A-000B-A
 image::Ascii1000D.svg[]
 
 
-== General
+== Premise
 
-Demonstration of an https://s1000d.org/[S1000D] publication architecture using the https://docs.asciidoctor.org/[Asciidoc LML] (lightweight markup language)
+The S1000D specification combines three separate specifications:
+
+. *Business Architecture Specification* includes elements like DMC components (MODELIC, SDC, MICC, SNS, etc), Applicability, CIRs and other constructs supporting defense and aerospace technical data.
+. *Semantic Specification* relates elements to semantic elements, like `//step` as procedural element, //challrsp as challenge / response element.
+. *Markup Specification* the actual XSD that defines the XML markup.
+
+Full S1000D systems have combined costs ranging from $12k per user per year to $50k per user per year, not counting migration and maintenance costs. Smaller organizations are unable to support these costs while remaining competitive. 
+
+However the *Business Architecture* is often the singular critical aspect for supporting aerospace and defense projects. Ascii1000D uses the S1000D business architecture as applied in the Asciidoc LML (lightweight markup language). 
+
+Using an LML provides a CCMS framework with standard technology on established tooling, rather than bespoke CCMS (component content management system), bespoke editor, and likely a separate bespoke build engine for PDFs and IETMs. 
+
+== Ascii1000D
+
+Demonstration of an https://s1000d.org/[S1000D] publication architecture using the https://docs.asciidoctor.org/[Asciidoc LML] (lightweight markup language). 
 
 * S1000D-style filenaming conventions
-* CIRs/TIRs (Common Information Repositories) / (Technical Information Repositories) via `+include+` directive to tagged regions
-* Conditional Content aka Applicability via Asciidoc Conditional Directives
-* Content re-use PM (Publication Module) and DMRL (Data Module Requirement List) via Asciidoc `+include+` directives, and DMRLs for project planning.
+* CIRs/TIRs (Common Information Repositories) / (Technical Information Repositories) via https://docs.asciidoctor.org/asciidoc/latest/directives/include-tagged-regions/[Include Directive to tagged regions]
+* Conditional Content aka Applicability via https://docs.asciidoctor.org/asciidoc/latest/directives/conditionals/[Asciidoc Conditional Directives]
+* Content re-use PM (Publication Module) and DMRL (Data Module Requirement List) via https://docs.asciidoctor.org/asciidoc/latest/directives/include/[Asciidoc Include Directives], and DMRLs for project planning.
 * Line art parts identification via SVG+CSS or inclusion of X3D or applicable HTML5 web 3d format.
 
 See xref:Ascii1000D_Flow.adoc#Example Data Flow[Data Flow] for details on data flow.
