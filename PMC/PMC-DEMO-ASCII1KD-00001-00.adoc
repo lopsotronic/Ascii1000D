@@ -1,4 +1,4 @@
-= Ascii1000D Test
+= Ascii1000D Test : 999-999999-999
 John Mogilewsky <mogilews@gmail.com>
 v0.0.1, October 7, 2020: Initial revision
 :doctype: book
@@ -7,10 +7,12 @@ v0.0.1, October 7, 2020: Initial revision
 :toc: left
 :toclevels: 4
 :experimental:
+:title-page-background-image: image:../GFX/_TeledyneFLIR.png[]
 :numbering:
 :sectnums:
 :sectnumlevels: 5
-:stylesheet: ../css/document.css,../css/cover.css,../css/features/title-document-numbering.css
+:stylesheet: ../css/document.css,../css/cover.css
+//../css/features/title-document-numbering.css
 //../css/features/title-page.css
 :CONFIG1: 000000100
 :docpnr: 999-999999-999
@@ -30,3 +32,9 @@ include::../DMC/DMC-DEMO-000-10-00-01A-520A-A.adoc[leveloffset=+1]
 include::../DMC/DMC-DEMO-000-10-00-01A-720A-A.adoc[leveloffset=+1]
 
 include::../DMC/DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A.adoc[leveloffset=+1]
+
+include::../DMC/DMC-TDFLIR-900-42-00-01A-040A-A.adoc[leveloffset=+1]
+
+include::../DMC/DMC-TDFLIR-900-42-00-01A-013A-A.adoc[leveloffset=+1]
+
+include::../DMC/DMC-TDFLIR-900-42-00-01A-010B-A.adoc[leveloffset=+1]

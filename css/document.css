@@ -187,6 +187,16 @@ h6 {
   align-items: flex-end;
 }
 
+.cover-page { page: cover-page; }
+@page cover-page {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  @top-right { content: none; }
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+  @bottom-right-corner { content: none; }
+}
+
 /* Workaround: https://gitlab.pagedmedia.org/tools/pagedjs/issues/162 */
 .pagedjs_page_content > div {
   height: 100%;
