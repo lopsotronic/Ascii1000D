@@ -33,8 +33,6 @@ include::../DMC/DMC-DEMO-000-10-00-01A-720A-A.adoc[leveloffset=+1]
 
 include::../DMC/DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A.adoc[leveloffset=+1]
 
-include::../DMC/DMC-TDFLIR-900-42-00-01A-040A-A.adoc[leveloffset=+1]
-
 include::../DMC/DMC-TDFLIR-900-42-00-01A-013A-A.adoc[leveloffset=+1]
 
 include::../DMC/DMC-TDFLIR-900-42-00-01A-010B-A.adoc[leveloffset=+1]
