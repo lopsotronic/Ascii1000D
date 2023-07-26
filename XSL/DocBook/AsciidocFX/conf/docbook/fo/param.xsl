@@ -477,7 +477,8 @@ set       toc,title
 </xsl:attribute-set>
 <xsl:attribute-set name="orderedlist.label.properties">
 </xsl:attribute-set>
-<xsl:param name="orderedlist.label.width">1.2em</xsl:param>
+<xsl:param name="orderedlist.label.width">3em</xsl:param>
+<xsl:param name="orderedlist.numeration">arabic</xsl:param>
 <xsl:param name="prefer.internal.olink" select="0"/>
 <xsl:param name="insert.olink.page.number">no</xsl:param>
 <xsl:param name="insert.olink.pdf.frag" select="0"/>
@@ -1045,4 +1046,3 @@ set       toc,title
 <xsl:attribute-set name="dialogue.properties" use-attribute-sets="publishers.properties"/>
 
 </xsl:stylesheet>
-

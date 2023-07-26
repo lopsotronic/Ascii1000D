@@ -1394,15 +1394,16 @@ pointed to by the link is one of the elements listed in
   </xsl:choose>
 </xsl:template>
 
+
 <xsl:template name="next.numeration">
   <xsl:param name="numeration" select="'default'"/>
   <xsl:choose>
     <!-- Change this list if you want to change the order of numerations -->
-    <xsl:when test="$numeration = 'arabic'">loweralpha</xsl:when>
-    <xsl:when test="$numeration = 'loweralpha'">lowerroman</xsl:when>
-    <xsl:when test="$numeration = 'lowerroman'">upperalpha</xsl:when>
-    <xsl:when test="$numeration = 'upperalpha'">upperroman</xsl:when>
-    <xsl:when test="$numeration = 'upperroman'">arabic</xsl:when>
+    <xsl:when test="$numeration = 'arabic'">arabic</xsl:when>
+    <xsl:when test="$numeration = 'arabic'">arabic</xsl:when>
+    <xsl:when test="$numeration = 'arabic'">arabic</xsl:when>
+    <xsl:when test="$numeration = 'arabic'">arabic</xsl:when>
+    <xsl:when test="$numeration = 'arabic'">arabic</xsl:when>
     <xsl:otherwise>arabic</xsl:otherwise>
   </xsl:choose>
 </xsl:template>
@@ -1443,10 +1444,10 @@ pointed to by the link is one of the elements listed in
   <xsl:variable name="type">
     <xsl:choose>
       <xsl:when test="$numeration='arabic'">1.</xsl:when>
-      <xsl:when test="$numeration='loweralpha'">a.</xsl:when>
-      <xsl:when test="$numeration='lowerroman'">i.</xsl:when>
-      <xsl:when test="$numeration='upperalpha'">A.</xsl:when>
-      <xsl:when test="$numeration='upperroman'">I.</xsl:when>
+      <xsl:when test="$numeration='loweralpha'">1.</xsl:when>
+      <xsl:when test="$numeration='lowerroman'">1.</xsl:when>
+      <xsl:when test="$numeration='upperalpha'">1.</xsl:when>
+      <xsl:when test="$numeration='upperroman'">1.</xsl:when>
       <!-- What!? This should never happen -->
       <xsl:otherwise>
         <xsl:message>
@@ -1462,8 +1463,7 @@ pointed to by the link is one of the elements listed in
     <xsl:call-template name="orderedlist-item-number"/>
   </xsl:variable>
 
-  <xsl:if test="parent::orderedlist/@inheritnum='inherit'
-                and ancestor::listitem[parent::orderedlist]">
+  <xsl:if test="ancestor::listitem[parent::orderedlist]">
     <xsl:apply-templates select="ancestor::listitem[parent::orderedlist][1]"
                          mode="item-number"/>
   </xsl:if>

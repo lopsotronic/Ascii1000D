@@ -353,8 +353,8 @@
       Page layout
     -->
 
-    <xsl:param name="page.height.portrait">24cm</xsl:param>
-    <xsl:param name="page.width.portrait">16.5cm</xsl:param>
+    <xsl:param name="page.height.portrait">11in</xsl:param>
+    <xsl:param name="page.width.portrait">8.5in</xsl:param>
 
     <xsl:param name="page.margin.top">1.25cm</xsl:param>
     <xsl:param name="body.margin.top">1cm</xsl:param>
@@ -380,7 +380,7 @@
         appendix toc,title
         article/appendix nop
         article title
-        book toc,title
+        book toc,title,figure,table
         chapter nop
         part toc,title
         preface toc,title
@@ -489,10 +489,39 @@
         <xsl:text>36pt</xsl:text>
     </xsl:template>
 
+    <xsl:param name="admon.textlabel" select="1"></xsl:param>
+
+    <xsl:attribute-set name="admonition.title.properties">
+        <xsl:attribute name="color">
+            <xsl:choose>
+                <xsl:when test="ancestor-or-self::note"     >blue</xsl:when>
+                <xsl:when test="ancestor-or-self::warning"  >red</xsl:when>
+                <xsl:when test="ancestor-or-self::caution"  >yellow</xsl:when>
+                <xsl:otherwise>1pt solid black</xsl:otherwise>
+            </xsl:choose>
+        </xsl:attribute>
+      <xsl:attribute name="font-size">14pt</xsl:attribute>
+      <xsl:attribute name="text-align">center</xsl:attribute>
+      <xsl:attribute name="font-weight">bold</xsl:attribute>
+      <xsl:attribute name="hyphenate">false</xsl:attribute>
+      <xsl:attribute name="keep-with-next.within-column">always</xsl:attribute>
+    </xsl:attribute-set>
+
+    <xsl:param name="admon.graphics" select="0"></xsl:param>
+
     <xsl:attribute-set name="admonition.properties">
+        <xsl:attribute name="border">
+            <xsl:choose>
+                <xsl:when test="ancestor-or-self::note"     >1pt solid blue</xsl:when>
+                <xsl:when test="ancestor-or-self::warning"  >1pt solid red</xsl:when>
+                <xsl:when test="ancestor-or-self::caution"  >1pt solid yellow</xsl:when>
+                <xsl:otherwise>1pt solid black</xsl:otherwise>
+            </xsl:choose>
+        </xsl:attribute>
         <xsl:attribute name="color">#6F6F6F</xsl:attribute>
         <xsl:attribute name="padding-left">18pt</xsl:attribute>
-        <xsl:attribute name="border-left-width">.75pt</xsl:attribute>
+        <xsl:attribute name="border-right-width">.0pt</xsl:attribute>
+        <xsl:attribute name="border-left-width">.0pt</xsl:attribute>
         <xsl:attribute name="border-left-style">solid</xsl:attribute>
         <xsl:attribute name="border-left-color">
             <xsl:value-of select="$border.color"/>
@@ -1160,54 +1189,127 @@
 
     <!-- override to force use of title, author and one revision on titlepage -->
     <xsl:template name="book.titlepage.recto">
-        <xsl:choose>
-            <xsl:when test="db:bookinfo/db:title | bookinfo/title">
-                <xsl:apply-templates mode="book.titlepage.recto.auto.mode"
-                                     select="db:bookinfo/db:title | bookinfo/title"/>
-            </xsl:when>
-            <xsl:when test="db:info/db:title | info/title">
-                <xsl:apply-templates mode="book.titlepage.recto.auto.mode" select="db:info/db:title | info/title"/>
-            </xsl:when>
-            <xsl:when test="db:title | title">
-                <xsl:apply-templates mode="book.titlepage.recto.auto.mode" select="db:title | title"/>
-            </xsl:when>
-        </xsl:choose>
-
-        <xsl:choose>
-            <xsl:when test="db:bookinfo/db:subtitle | bookinfo/subtitle">
-                <xsl:apply-templates mode="book.titlepage.recto.auto.mode"
-                                     select="db:bookinfo/db:subtitle | bookinfo/subtitle"/>
-            </xsl:when>
-            <xsl:when test="db:info/db:subtitle | info/subtitle">
-                <xsl:apply-templates mode="book.titlepage.recto.auto.mode"
-                                     select="db:info/db:subtitle | info/subtitle"/>
-            </xsl:when>
-            <xsl:when test="db:subtitle | subtitle">
-                <xsl:apply-templates mode="book.titlepage.recto.auto.mode" select="db:subtitle | subtitle"/>
-            </xsl:when>
-        </xsl:choose>
-
-        <xsl:choose>
-            <xsl:when test="db:bookinfo//db:author | bookinfo//author">
-                <xsl:apply-templates mode="book.titlepage.recto.auto.mode"
-                                     select="db:bookinfo//db:author | bookinfo//author"/>
-            </xsl:when>
-            <xsl:when test="db:info//db:author | info//author">
-                <xsl:apply-templates mode="book.titlepage.recto.auto.mode" select="db:info//db:author | info//author"/>
-            </xsl:when>
-        </xsl:choose>
-
-        <xsl:choose>
-            <xsl:when test="db:bookinfo/db:revhistory/db:revision[1] | bookinfo/revhistory/revision[1]">
-                <xsl:apply-templates mode="book.titlepage.recto.auto.mode"
-                                     select="db:bookinfo/db:revhistory/db:revision[1] | bookinfo/revhistory/revision[1]"/>
-            </xsl:when>
-            <xsl:when test="db:info/db:revhistory/db:revision[1] | info/revhistory/revision[1]">
-                <xsl:apply-templates mode="book.titlepage.recto.auto.mode"
-                                     select="db:info/db:revhistory/db:revision[1] | info/revhistory/revision[1]"/>
-            </xsl:when>
-        </xsl:choose>
-    </xsl:template>
+        <fo:block text-align="center">
+            <fo:external-graphic src="InsituLogo.png" content-width="4.5cm" content-height="2.2cm" />
+        </fo:block>
+          <fo:block>
+            <fo:table inline-progression-dimension="100%" table-layout="fixed">
+              <fo:table-column column-width="50%"/>
+              <fo:table-column column-width="50%"/>
+              <fo:table-body>
+                <fo:table-row height="80mm">
+                  <fo:table-cell number-columns-spanned="2">
+                    <fo:block text-align="center">
+                    </fo:block>
+                  </fo:table-cell>
+                </fo:table-row>
+                <fo:table-row height="20mm">
+                  <fo:table-cell number-columns-spanned="2">
+                    <fo:block text-align="center">
+                      <xsl:choose>
+                        <xsl:when test="bookinfo/title">
+                          <xsl:apply-templates 
+                                 mode="book.titlepage.recto.auto.mode" 
+                                 select="bookinfo/title"/>
+                        </xsl:when>
+                        <xsl:when test="title">
+                          <xsl:apply-templates 
+                                 mode="book.titlepage.recto.auto.mode" 
+                                 select="title"/>
+                        </xsl:when>
+                      </xsl:choose>
+                    </fo:block>
+                  </fo:table-cell>
+                </fo:table-row>
+                <fo:table-row height="80mm">
+                  <fo:table-cell number-columns-spanned="2">
+                    <fo:block text-align="center">
+                      <xsl:choose>
+                        <xsl:when test="bookinfo/title">
+                          <xsl:apply-templates 
+                                 mode="book.titlepage.recto.auto.mode" 
+                                 select="bookinfo/subtitle"/>
+                        </xsl:when>
+                        <xsl:when test="title">
+                          <xsl:apply-templates 
+                                 mode="book.titlepage.recto.auto.mode" 
+                                 select="subtitle"/>
+                        </xsl:when>
+                      </xsl:choose>
+                    </fo:block>
+                  </fo:table-cell>
+                </fo:table-row>
+                <fo:table-row height="10mm">
+                  <fo:table-cell number-columns-spanned="2">
+                    <fo:block text-align="right">
+                      <xsl:choose>
+                        <xsl:when test="bookinfo/title">
+                          <xsl:apply-templates 
+                                 mode="book.titlepage.recto.auto.mode" 
+                                 select="bookinfo/date"/>
+                        </xsl:when>
+                        <xsl:when test="title">
+                          <xsl:apply-templates 
+                                 mode="book.titlepage.recto.auto.mode" 
+                                 select="date"/>
+                        </xsl:when>
+                      </xsl:choose>
+                    </fo:block>
+                  </fo:table-cell>
+                </fo:table-row>
+                <fo:table-row height="10mm">
+                  <fo:table-cell number-columns-spanned="2">
+                    <fo:block text-align="right">
+                      <xsl:choose>
+                        <xsl:when test="bookinfo/title">
+                          <xsl:apply-templates 
+                                 mode="book.titlepage.recto.auto.mode" 
+                                 select="bookinfo/revhistory/revision/revnumber"/>
+                        </xsl:when>
+                        <xsl:when test="title">
+                          <xsl:apply-templates 
+                                 mode="book.titlepage.recto.auto.mode" 
+                                 select="revhistory/revision/revnumber"/>
+                        </xsl:when>
+                      </xsl:choose>
+                    </fo:block>
+                  </fo:table-cell>
+                </fo:table-row >
+                <fo:table-row height="10mm">
+                  <fo:table-cell number-columns-spanned="2">
+                    <fo:block text-align="right">
+                      <xsl:choose>
+                        <xsl:when test="bookinfo/title">
+                          <xsl:apply-templates 
+                                 mode="book.titlepage.recto.auto.mode" 
+                                 select="bookinfo/revhistory/revision/revremark"/>
+                        </xsl:when>
+                        <xsl:when test="title">
+                          <xsl:apply-templates 
+                                 mode="book.titlepage.recto.auto.mode" 
+                                 select="revhistory/revision/revremark"/>
+                        </xsl:when>
+                      </xsl:choose>
+                    </fo:block>
+                  </fo:table-cell>
+                </fo:table-row >
+                <fo:table-row height="10mm">
+                  <fo:table-cell number-columns-spanned="2">
+                    <fo:block text-align="right">
+                      <xsl:choose>
+                        <xsl:when test="preface">
+                          <xsl:apply-templates 
+                                 mode="book.titlepage.recto.auto.mode" 
+                                 select="preface/abstract"/>
+                        </xsl:when>
+                      </xsl:choose>
+                    </fo:block>
+                  </fo:table-cell>
+                </fo:table-row > 
+              </fo:table-body> 
+            </fo:table>
+          </fo:block>
+        </xsl:template>
 
     <!-- cut out these pages -->
     <xsl:template name="book.titlepage.before.verso"/>
