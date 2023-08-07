@@ -1,1 +1,5 @@
 = List of Cautions- Common information repository
+
+// tag::Skydrol[]
+CAUTION: Skydrol is a surface irritant and inhalation hazard
+// end::Skydrol[]

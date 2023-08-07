@@ -1,0 +1,2257 @@
+<?xml-stylesheet href="test-SB.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="test-SB.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2006, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN" [
+<!NOTATION txt SYSTEM "txt">
+<!NOTATION gif SYSTEM "gif">
+<!NOTATION bmp SYSTEM "bmp">
+<!NOTATION jpg SYSTEM "jpg">
+]>
+<doc service="army" docid="742-1410-92-009" docstat="formal" columns="two"
+cover="0"><?Pub Tag atict:info tracking="off" ref="0"><?Pub Tag atict:user
+user="overstreet-ro" fullname="overstreet-ro"><front>
+<idinfo>
+<tmidno service="army"></tmidno>
+<doctype pubtype="sb"><brk>AMMUNITION SURVEILLANCE PROCEDURE FOR GUIDED MISSILE
+INTERCEPT &mdash; AERIAL MIM-104, MIM-104A, MIM-104B, MIM-104C, AND MIM-104D
+AND GUIDED MISSILE INTERCEPT-AERIAL TRAINER, M37 PATRIOT AIR DEFENSE GUIDED
+MISSILE SYSTEM</doctype>
+<prtitle>
+<nomen></nomen>
+<partno></partno><nsn></nsn></prtitle>
+<distrib type="d">Distribution authorized to Department of Defense and DoD
+contractors only to protect critical technical data on systems or hardware.
+This determination was made Oct 1986. Other requests shall be referred to
+Commander, U.S. Army Aviation and Missile Command, ATTN: AMSAM-SA-AP, Redstone
+Arsenal, 35898&ndash;0000.</distrib>
+<supersed>This bulletin supersedes SB 742&ndash;1410&ndash;92&ndash;009, dated
+28 August 2002, including all changes.</supersed>
+<authnot>Headquarters Department of the Army, Washington, D.C.</authnot>
+<pubdate>29 March 2004</pubdate>
+</idinfo>
+<reportoferrors>
+<para>Report of errors text.</para>
+</reportoferrors>
+<hazardmaterialstatement><title>Hazard title</title><para>Hazard statement.
+</para>
+</hazardmaterialstatement>
+<contents></front>
+<body>
+<chapter label="nonum"><title></title>
+<section>
+<title>IDENTIFICATION AND DESCRIPTION</title>
+<para0>
+<title>Purpose.</title><para>This bulletin provides the criteria required
+by AR 740-1, AR 702-6, and SB 742-1 in determining the serviceability of the
+complete certified round MIM-104, MIM-104A, MIM-104B, MIM-104C, and MIM 104-D
+PATRIOT Air Defense Guided Missile, to include the M37 Trainer. </para>
+</para0>
+<para0>
+<title>Scope.</title><para>The information contained herein applies to all
+Department of the Army activities, CONUS or OCONUS, with a receipt, storage,
+and issue mission for the PATRIOT Guided Missile, MIM-104 series. URGENT.
+</para>
+</para0>
+<para0>
+<title>Item Description.</title><para>Operations in EF/IF may have caused
+serious deterioration to the subject AGSE equipment, which will make necessary
+cleaning, replacement or repair of component parts.</para>
+<subpara1>
+<title>Guided Missile, Intercept-Aerial MIM-104 Series.</title><para>The PATRIOT
+Guided Missile is a certified round concept, consisting of a guided missile
+within a canister. The missile consists of a solid propellant rocket motor,
+high explosive warhead, and guidance and control sections.</para>
+</subpara1>
+<subpara1>
+<title>Canister.</title><para>The canister is a reinforced square aluminum
+tube of welded flat sheet stock and welded external frame. The canister provides
+environmental protection and serves as a launch tube and as a shipping and
+storage container.</para>
+</subpara1>
+<subpara1>
+<title></title><para>The five configurations of the missile are MIM-104 (PEA)
+analog, MIM-104A (PAK) digital, MIM-104B (PAL) SOJC, MIM-104C (PAM) ATM, and
+MIM-104D (PAN) GEM. The differences between PATRIOT models can be found in <xref
+xref="tab1">.</para>
+</subpara1></para0>
+<table frame="topbot" orient="land1" pgwide="1" xid="tab1">
+<title>Difference Among Models</title>
+<tgroup cols="11"><colspec colname="col1" colwidth="1.68in"><colspec colname="colspec0"
+colwidth="0.95in"><colspec colname="col2" colwidth="0.81in"><colspec colname="col3"
+align="center" colwidth="0.37in"><colspec colname="col4" align="center" colwidth="0.44in">
+<colspec colname="col5" align="center" colwidth="0.45in"><colspec colname="col6"
+align="center" colwidth="0.46in"><colspec colname="col7" align="center" colwidth="0.48in">
+<colspec colname="col8" colwidth="1.10in"><colspec colname="col9" colwidth="0.48in">
+<colspec colname="col10" colwidth="0.74in">
+<thead>
+<row valign="middle"><entry colsep="1" rowsep="1" align="center">Missile Subsystem
+</entry><entry colsep="1" rowsep="1" align="center"></entry><entry colsep="1"
+rowsep="1" align="center">Model</entry><entry colsep="1" rowsep="1">104</entry>
+<entry colsep="1" rowsep="1">104A</entry><entry colsep="1" rowsep="1">104B
+</entry><entry colsep="1" rowsep="1">104C</entry><entry colsep="1" rowsep="1">
+104D</entry><entry colsep="1" rowsep="1" align="center">PCC</entry><entry
+colsep="1" rowsep="1" align="center">Field</entry><entry colsep="1" rowsep="1"
+align="center">Sustainment</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1" rowsep="0">a. Guidance Section</entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0"><randlist>
+<item>11459536</item>
+</randlist></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">X</entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PEA</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0"><randlist>
+<item>11463421</item>
+</randlist></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry><entry
+colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PAK</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0"><randlist>
+<item>11461577</item>
+</randlist></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry><entry
+colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PAL, PAM</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0"><randlist>
+<item>11465392</item>
+</randlist></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry><entry
+colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PAK</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0"><randlist>
+<item>11462577</item>
+</randlist></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry><entry
+colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+Inert</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0"><randlist>
+<item>11466530</item>
+</randlist></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry><entry
+colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0">
+PAN</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">b. Forebody</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0"><randlist>
+<item>11453883</item>
+</randlist></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">X</entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PEA</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0"><randlist>
+<item>11463049</item>
+</randlist></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry><entry
+colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PAK</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0"><randlist>
+<item>11461816</item>
+</randlist></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry><entry
+colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PAL</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0"><randlist>
+<item>11465795</item>
+</randlist></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry><entry
+colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle">X</entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PAM</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0"><randlist>
+<item>11462580</item>
+</randlist></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry><entry
+colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+Inert</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0"><randlist>
+<item>11466722</item>
+</randlist></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry><entry
+colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0">
+PAN</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">c. Battery. High Vo;tage (TGS) Squib Operated
+</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0"><randlist>
+<item>11448211</item>
+</randlist></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">X</entry>
+<entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0"
+valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PEA, PAK, PAL, PAM</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0"><pgbrk>d. Battery, High Voltage (TGS) Thermal
+</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0"><randlist>
+<item>11465993</item>
+</randlist></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry><entry
+colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">e. Modular Midcourse Package</entry><entry
+colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry><entry
+colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">11457981</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1"
+rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PEA</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">11463051</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PEA, PAK</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">11461605</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PAL</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">11465798</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle">X</entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PAM</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">11466723</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0">
+PAN</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">f. Battery, Low Voltage (MMP) Squib Operated
+</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">11448214-2</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0">PEA, PAK, PAL, PAM</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">g. Battery, Low Voltage (MMP) Thermal</entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">11465992</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0">PEA, PAK, PAL, PAM, PAN</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">h. Warhead, Guided Missile</entry><entry
+colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry><entry
+colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">9312583</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0">M 248</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PEA, PAK, PAL</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">11466207</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0">M 248E1</entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle">X</entry>
+<entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0">
+OAM, PAN</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">11451032&ndash;39</entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0">PEA</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">i. Electronic Assembly (Fuse)</entry><entry
+colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry><entry
+colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">11712629</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0">M 818</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PEA, PAK, PAL</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">11739532</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0">M 818E1</entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle">X</entry>
+<entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0">
+PAM, PAN</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">11748000&ndash;1</entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0">M 818E2</entry><entry colsep="1"
+rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0">PEA</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">13458210</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1"
+rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PEA</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">j. Safety and Arming Device</entry><entry
+colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry><entry
+colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">9311100</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0">M 143</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PEA, PAK, PAL</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">12630800</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0">M 143E1</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0">PEA, PAK, PAL, PAM, PAN</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">9311070</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0">M 143</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+Inert</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">9352404</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0">M 143E1</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0">Inert</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">Rocket Motor</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">10230238&ndash;504</entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1"
+rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0">PEA, PAK</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">10230238&ndash;507</entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0">PEA, PAK, PAL, PAM, PAN</entry><entry
+colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">10230243&ndash;502</entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0">Inert</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">60214503&ndash;009</entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0">Inert</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">l. Propulsion Section with Igniter Assembly
+</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">11451042-9</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PEA, PAK, PAL</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">11451080-9</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle">X</entry>
+<entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0">
+PAM, PAN</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">60214504-9</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+Inert</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">m. Propulsion Section without Igniter Assembly
+</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">11451042-19</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PEAK, PAK, PAL</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">60214504-19</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle">X</entry>
+<entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0">
+Inert</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">n. Control Section</entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">11451051-9</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PEA, PAK, PAL</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">11451060-9</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle">X</entry>
+<entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0">
+PAM, PAN</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">Battery, Control Actuator System (CAS) Squib
+Operated</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">10251721-3</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PEA, PAK, PAL</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">Battery, Control Actuator System (CAS) Thermal
+</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">10253420-1</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0">PEA, PAK, PAL, PAM, PAN</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">Battery, Control Actuator System (CAS) Thermal
+</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">10253420-2</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0">PEA, PAK, PAL, PAM, PA</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">Igniter, Rocket Motor</entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">10230252-501</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+PEA, PAK</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">11467000-501</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0">PEA, PAK, PAL, PAM, PAN</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">Electro-Explosive Cartridge (EEC)</entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">10250376-39</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0">PEA, PAK, PAL, PAM, PAN</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">11451002-1</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0">
+Inert</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">Propulsion Arming and Firing Unit (PAFU)
+</entry><entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0" valign="middle"></entry>
+<entry colsep="1" rowsep="0" valign="middle"></entry><entry colsep="1" rowsep="0"
+valign="middle"></entry><entry colsep="1" rowsep="0"></entry><entry colsep="1"
+rowsep="0"></entry><entry colsep="1" rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">102529355</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0" valign="middle">X</entry><entry colsep="1" rowsep="0" valign="middle">
+X</entry><entry colsep="1" rowsep="0" valign="middle">X</entry><entry colsep="1"
+rowsep="0">PEA, PAK, PAL, PAM, PAN</entry><entry colsep="1" rowsep="0"></entry>
+<entry colsep="1" rowsep="0"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section>
+<title>STORAGE AND SURVEILLANCE</title>
+<para0 xid="par4">
+<title>Storage.</title><para>The following information is applicable to the
+storage and transportation of the PATRIOT Guided Missile. MIM-104 series:
+</para>
+<subpara1 xid="par4a">
+<title>Inspection.</title><para>In compliance with appropriate provisions
+outlined in SB 742-1, TM 9-1410-600-14, and DA PAM 385-64 or AMCR 385-100,
+field service and industrial stocks of PATRIOT missiles must be inspected
+to ensure that they are adequately identified, preserved/packaged, and otherwise
+suitable for safe handling and storage.</para>
+</subpara1>
+<subpara1>
+<title>Types of Storage.</title><para>The recommended types of storage for
+the PATRIOT missile, in order of preference, are as follows:</para>
+<subpara2>
+<title></title><para>Earth covered type magazines.</para>
+</subpara2>
+<subpara2>
+<title></title><para>Above ground magazines.</para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Descriptive Data.</title><para>Descriptive data and hazard classification
+for the packaged round are:</para>
+<subpara2>
+<title></title><para>Quantity Distance:</para>
+<subpara3>
+<title></title><para>Out of container - Class (08) 1.1.</para>
+</subpara3>
+<subpara3>
+<title></title><para>In container</para>
+<subpara4>
+<title></title><para>Standard - Class (08) 1.2, UN 0182.</para>
+</subpara4>
+<subpara4>
+<title></title><para>ATM and GEM - Class (08) 1.1, UN 0181.</para>
+</subpara4>
+</subpara3>
+</subpara2>
+<subpara2>
+<title></title><para>Storage compatibility group E.</para>
+</subpara2>
+<subpara2>
+<title></title><para>Net explosive weight (for use in computing quantity distance).
+</para>
+<subpara3>
+<title></title><para>Standard - 70 lb (31.75 kg).</para>
+</subpara3>
+<subpara3>
+<title></title><para>ATM and GEM - 145 lb (65.772 kg).</para>
+</subpara3>
+</subpara2>
+<subpara2>
+<title></title><para>Shipping Name - &ldquo;<emphasis type="bold">ROCKET AMMUNITION
+WITH BURSTING CHARGE.</emphasis>&rdquo;</para>
+</subpara2>
+<subpara2>
+<title></title><para>Hazard Classification - Standard 1.2E, ATM and GEM 1.1E.
+</para>
+</subpara2>
+<subpara2>
+<title></title><para>Weight - 3,750 lb (1696 kg).</para>
+</subpara2>
+<subpara2>
+<title></title><para>Length - 19 ft 6 in (6.1 m).</para>
+</subpara2>
+<subpara2>
+<title></title><para>Width - 3.58 ft (1.1 m).</para>
+</subpara2>
+<subpara2>
+<title></title><para>Height - 3.25 ft (0.99 m).</para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Storage Temperature Limits.</title><para>&ndash; 50 to + 160 +F (-45
+to + 71 C).</para>
+</subpara1>
+<subpara1>
+<title>Class V Missile Component Hazard Classification.</title>
+<subpara2>
+<title></title><para>Warhead, GM (HE), M 248 and M248E1.</para>
+<subpara3>
+<title>Quantity Distance.</title>
+<subpara4>
+<title></title><para>Standard - Class 1.1.</para>
+</subpara4>
+<subpara4>
+<title></title><para>ATM and GEM - Class (08) 1.1.</para>
+</subpara4>
+</subpara3>
+<subpara3>
+<title></title><para>Storage Compatibility Group D.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Shipping Name &ldquo;<emphasis type="bold">ROCKET WARHEAD.
+</emphasis>&rdquo;</para>
+</subpara3>
+<subpara3>
+<title></title><para>Hazard Classification - 1.1D, UN 0286.</para>
+</subpara3>
+</subpara2>
+<subpara2>
+<title></title><para>Safety and Arming Device (S&amp;A), GM, M 143, M 143E1.
+</para>
+<subpara3>
+<title></title><para>Quantity Distance Class 1.4.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Storage Compatibility Group D.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Shipping Name &ldquo;<emphasis type="bold">DETONATING
+FUSE</emphasis>.&rdquo;</para>
+</subpara3>
+<subpara3>
+<title>Hazard Classification</title><para>&ndash; 1.4D, UN 0410.</para>
+</subpara3>
+</subpara2>
+<subpara2>
+<title></title><para>Rocket Motor with or without Propulsion Arming and Firing
+(PAFU) and Pyrotechnic Igniter.</para>
+<subpara3>
+<title></title><para>Quantity Distance Class 1.3.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Storage Compatibility Group C.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Shipping Name &ldquo;<emphasis type="bold">ROCKET MOTOR.&rdquo;
+</emphasis></para>
+</subpara3>
+<subpara3>
+<title></title><para>Hazard Classification - 1.3C, UN 0186.</para>
+<note></note>
+<para>Motor shipped in propulsive state.</para>
+</subpara3>
+</subpara2>
+<subpara2>
+<title></title><para>Pyrotechnic Igniter Assembly (Propulsion Arming and Firing
+Unit (PAFC) with Pyrotechnic Igniter.</para>
+<subpara3>
+<title></title><para>Quantity Distance Class 1.3.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Storage Compatibility Group G.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Shipping Name &ldquo;<emphasis type="bold">IGNITERS ROCKET
+MOTOR.</emphasis>&rdquo;</para>
+</subpara3>
+<subpara3>
+<title></title><para>Hazard Classification - 1.3G, UN 0315.</para>
+</subpara3>
+</subpara2>
+<subpara2>
+<title></title><para>Propulsion Arming and Firing Unit (PAFU).</para>
+<subpara3>
+<title></title><para>Quantity Distance Class 1.4.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Storage Compatibility Group G.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Shipping Name &ldquo;<emphasis type="bold">IGNITERS ROCKET
+MOTOR.</emphasis>&rdquo;</para>
+</subpara3>
+<subpara3>
+<title></title><para>Hazard Classification - 1.3G, UN 0315.</para>
+</subpara3>
+</subpara2>
+<subpara2>
+<title></title><para>Pyrotechnic Igniter.</para>
+<subpara3>
+<title></title><para>Quantity Distance Class 1.3.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Storage Compatibility Group G.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Shipping Name &ldquo;<emphasis type="bold">IGNITERS ROCKET
+MOTOR.</emphasis>&rdquo;</para>
+</subpara3>
+<subpara3>
+<title></title><para>Shipping Name &ldquo;<emphasis type="bold">IGNITERS ROCKET
+MOTOR.</emphasis>&rdquo;</para>
+</subpara3>
+</subpara2>
+<subpara2>
+<title></title><para>Standard Squib (Electric, GM).</para>
+<subpara3>
+<title></title><para>Quantity Distance Class 1.4.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Storage Compatibility Group S.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Shipping Name &ldquo;<emphasis type="bold">ELECTRIC SQUIBS.
+</emphasis>&rdquo;</para>
+</subpara3>
+<subpara3>
+<title></title><para>Hazard Classification - 1.4S, UN 0206.</para>
+</subpara3>
+</subpara2>
+<subpara2>
+<title></title><para>CAS Battery with Gas Generator.</para>
+<subpara3>
+<title></title><para>Quantity Distance Class 1.4.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Storage Compatibility Group S.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Shipping Name &ldquo;CARTRIDGE POWER DEVICE.&rdquo;</para>
+</subpara3>
+<subpara3>
+<title></title><para>Hazard Classification - 1.4S, UN 0323.</para>
+</subpara3>
+</subpara2>
+<subpara2>
+<title></title><para>Cas Battery, Thermal (Interim).</para>
+<subpara3>
+<title></title><para>Quantity Distance Class 1.4.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Storage Compatibility Group S.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Shipping Name &ldquo;<emphasis type="bold">CARTRIDGE
+POWER DEVICE.</emphasis>&rdquo;</para>
+</subpara3>
+<subpara3>
+<title></title><para>Hazard Classification - 1.4S, UN 0323.</para>
+</subpara3>
+</subpara2>
+<subpara2>
+<title></title><para>Pressure Vessel Valve Cartridge.</para>
+<subpara3>
+<title></title><para>Quantity Distance Class 1.4.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Storage Compatibility Group S.</para>
+</subpara3>
+<subpara3>
+<title></title><para>DOT marking &ldquo;<emphasis type="bold">ACTUATING CARTRIDGE
+EXPLOSIVE VALVE.</emphasis>&rdquo;</para>
+</subpara3>
+<subpara3>
+<title></title><para>Hazard Classification - 1.4S, UN 0323.</para>
+</subpara3>
+</subpara2>
+<subpara2>
+<title></title><para>Modular Midcourse Package (MMP) Battery with Gas Generator.
+</para>
+<subpara3>
+<title></title><para>Quantity Distance Class 1.4.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Storage Compatibility Group S.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Shipping Name &ldquo;CARTRIDGE POWER DEVICE.&rdquo;</para>
+</subpara3>
+<subpara3>
+<title></title><para>Hazard Classification - 1.4S, UN 0323.</para>
+</subpara3>
+</subpara2>
+<subpara2>
+<title></title><para>Terminal Guidance Section (TGS) battery with Gas Generator.
+</para>
+<subpara3>
+<title></title><para>Quantity Distance Class 1.4.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Storage Compatibility Group S.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Shipping Name &ldquo;CARTRIDGE POWER DEVICE.&rdquo;</para>
+</subpara3>
+<subpara3>
+<title></title><para>Hazard Classification - 1.4S, UN 0323. </para>
+</subpara3>
+</subpara2>
+</subpara1>
+<subpara1>
+<title></title><para> Issue Control.</para>
+<subpara2>
+<title>Issue to units.</title><para>Missiles will be issued to tactical units
+by serial number/dash number. The dash number is a serial number suffix consisting
+of two zeros and a number ranging from one to eight, example - 560007-002.
+Missiles will be issued to obtain as equal as possible distribution of the
+dash number missiles within a fire unit.</para>
+</subpara2>
+<subpara2>
+<title>Annual service practice.</title><para>The missile will be issued for
+training firing in accordance with U.S. Army Aviation and Missile Command
+(USAAMCOM) directions.</para>
+</subpara2>
+<subpara2>
+<title>Serviceability testing.</title><para>The missile will be issued to
+the PATRIOT missile facility (PMF) by specific serial number and/or lot number
+in accordance with USAAMCOM directions.</para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Shelf Life.</title><para>The PATRIOT missile has a certified shelf
+life of 15 years based on date of manufacture and service life of the controlling
+limited life components. Records are maintained in CONUS to keep track of
+the expiration date of missiles. Personnel at storage facilities will be notified
+when missiles should be removed from service. The tentative shelf life for
+missile components is contained in table<xref xref="tab2">.</para>
+<table frame="topbot" pgwide="1" xid="tab2">
+<title>PATRIOT Limited Life Components</title>
+<tgroup cols="5" align="center"><colspec colname="col1" align="left" colwidth="1.40in">
+<colspec colname="col2" align="left" colwidth="1.40in"><colspec colname="col3"
+colwidth="1.40in"><colspec colname="col4" colwidth="1.66in"><colspec colname="col5"
+colwidth="1.13in"><spanspec namest="col1" nameend="col5" spanname="span1">
+<thead>
+<row valign="middle"><entry rowsep="1" align="center">Limited Life Component
+(LLC)</entry><entry rowsep="1" align="center">Model Type</entry><entry rowsep="1">
+Part Number</entry><entry rowsep="1">Minimum LLC Life</entry><entry rowsep="1">
+Note(s)</entry></row>
+</thead>
+<tbody>
+<row><entry morerows="2" rowsep="0">CAS Battery</entry><entry rowsep="0">
+Ag-Zn (EPI/DEPI) </entry><entry rowsep="0">10251721/11451067-1</entry><entry
+rowsep="0">12 </entry><entry rowsep="0"> --</entry></row>
+<row><entry rowsep="0">Ag-Zn  (Yardney) </entry><entry rowsep="0">10251721
+</entry><entry rowsep="0"> 15 </entry><entry rowsep="0">-- </entry></row>
+<row><entry rowsep="0">Thermal </entry><entry rowsep="0">10253420 </entry>
+<entry rowsep="0">20 </entry><entry rowsep="0">2 </entry></row>
+<row><entry rowsep="0">Control Section </entry><entry rowsep="0"></entry>
+<entry rowsep="0">11451051/11451060</entry><entry rowsep="0">15</entry><entry
+rowsep="0"> 1 </entry></row>
+<row><entry morerows="2" rowsep="0">Downlink</entry><entry rowsep="0"></entry>
+<entry rowsep="0"> 11448205 (Type 1)</entry><entry rowsep="0"> -- </entry>
+<entry rowsep="0">6, 8 </entry></row>
+<row><entry rowsep="0"></entry><entry rowsep="0">11465185 (Type 2A) </entry>
+<entry rowsep="0">-- </entry><entry rowsep="0">6, 8</entry></row>
+<row><entry rowsep="0"></entry><entry rowsep="0">11465185 (Type 2B)</entry>
+<entry rowsep="0"> -- </entry><entry rowsep="0">6, 8 </entry></row>
+<row><entry rowsep="0">Electro-Explosive Cartridge (EEC)</entry><entry rowsep="0"></entry>
+<entry rowsep="0">10250376-39 </entry><entry rowsep="0">17 </entry><entry
+rowsep="0">2 </entry></row>
+<row><entry morerows="3" rowsep="0">Fuze Subassembly </entry><entry rowsep="0">
+M818 (Analog) </entry><entry rowsep="0">11737819 </entry><entry rowsep="0">
+20</entry><entry rowsep="0"> 1 </entry></row>
+<row><entry rowsep="0">M818E1 (Digital) </entry><entry rowsep="0">117 39532
+</entry><entry rowsep="0"> 20 </entry><entry rowsep="0">1</entry></row>
+<row><entry rowsep="0">M818E2 (ATM)</entry><entry rowsep="0">11748000-1 </entry>
+<entry rowsep="0">20 </entry><entry rowsep="0">1</entry></row>
+<row><entry rowsep="0">M818E3 (GEM) </entry><entry rowsep="0">13458120  </entry>
+<entry rowsep="0">20 </entry><entry rowsep="0">1</entry></row>
+<row><entry morerows="1" rowsep="0"> High Voltage (TGS) Battery </entry><entry
+rowsep="0">Ag-Zn </entry><entry rowsep="0">11448211 </entry><entry rowsep="0">
+17</entry><entry rowsep="0">-- </entry></row>
+<row><entry rowsep="0">Thermal</entry><entry rowsep="0">11465993 </entry>
+<entry rowsep="0">20</entry><entry rowsep="0">2</entry></row>
+<row><entry morerows="1" rowsep="0">Low Voltage (MMP) Battery</entry><entry
+rowsep="0"> Ag-Zn</entry><entry rowsep="0">11448214 </entry><entry rowsep="0">
+12 </entry><entry rowsep="0">9 </entry></row>
+<row><entry rowsep="0"> Thermal </entry><entry rowsep="0">11465992</entry>
+<entry rowsep="0">20</entry><entry rowsep="0">2</entry></row>
+<row><entry morerows="1" rowsep="0">Pressure Vessel </entry><entry rowsep="0">
+ Natorq/C-Seal </entry><entry rowsep="0">10250727 </entry><entry rowsep="0">
+15 </entry><entry rowsep="0">-- </entry></row>
+<row><entry rowsep="0">Asymmetric V-Seal </entry><entry rowsep="0">10250727 
+</entry><entry rowsep="0">30</entry><entry rowsep="0"> 2, 8 </entry></row>
+<row><entry morerows="1" rowsep="0">Propulsion Section with Igniter Assy</entry>
+<entry rowsep="0"> Pre-ATM </entry><entry rowsep="0">11451042-9 </entry><entry
+rowsep="0">30 </entry><entry rowsep="0">2, 8 </entry></row>
+<row><entry rowsep="0">ATM </entry><entry rowsep="0">11451080-9 </entry><entry
+rowsep="0"></entry><entry rowsep="0"></entry></row>
+<row><entry morerows="1" rowsep="0">Radome </entry><entry rowsep="0">Pre-1986
+bond date </entry><entry rowsep="0">11455405</entry><entry rowsep="0"> -- 
+</entry><entry rowsep="0">7 </entry></row>
+<row><entry rowsep="0">Post-1986 bond date </entry><entry rowsep="0">11455405 
+</entry><entry rowsep="0">15 </entry><entry rowsep="0">8 </entry></row>
+<row><entry rowsep="0">Resilient (Shock) Mount </entry><entry rowsep="0"></entry>
+<entry rowsep="0">10253058 </entry><entry rowsep="0">15</entry><entry rowsep="0">
+ 4</entry></row>
+<row><entry rowsep="0"> Safety &amp; Arming Device </entry><entry rowsep="0">
+M143 (KDI Lots 26-44) </entry><entry rowsep="0">9311100 </entry><entry rowsep="0">
+ 17 </entry><entry rowsep="0">5, 10</entry></row>
+<row><entry rowsep="0"></entry><entry rowsep="0">M143E1 </entry><entry rowsep="0">
+12630800</entry><entry rowsep="0">17 </entry><entry rowsep="0"> 5, 10 </entry>
+</row>
+<row><entry rowsep="0">Series (Electron) Tube (Part of Transmitter)</entry>
+<entry rowsep="0"> </entry><entry rowsep="0">11455926 </entry><entry rowsep="0">
+20 </entry><entry rowsep="0">--</entry></row>
+<row><entry rowsep="0">Traveling Wave Tube (TWT) (</entry><entry rowsep="0">
+Part of Transmitter) </entry><entry rowsep="0">11448369 (Date Codes earlier
+than 9451) </entry><entry rowsep="0">10</entry><entry rowsep="0"> 3 </entry>
+</row>
+<row><entry rowsep="0"></entry><entry rowsep="0">(Part of Transmitter) </entry>
+<entry rowsep="0">11448369 (Date Code 9451+) </entry><entry rowsep="0">15 
+</entry><entry rowsep="0">-- </entry></row>
+<row><entry rowsep="0">Warhead</entry><entry rowsep="0">M248 (ABT) </entry>
+<entry rowsep="0">9312583 </entry><entry rowsep="0">20</entry><entry rowsep="0">
+ 2 </entry></row>
+<row><entry rowsep="1"> </entry><entry rowsep="1">M248E1 (ATM) </entry><entry
+rowsep="1">11466207</entry><entry rowsep="1"> 10 </entry><entry rowsep="1">
+2</entry></row>
+<row><entry colsep="0" rowsep="0"></entry><entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0" align="left"></entry><entry colsep="0" rowsep="0"
+align="left"></entry><entry colsep="0" rowsep="0" align="left"></entry></row>
+<row><entry spanname="span1" rowsep="0" align="left">Notes:</entry></row>
+<row><entry spanname="span1" rowsep="0"><seqlist label="">
+<item>Time since last tested/serviced at factory or PATRIOT Missile Facility
+(PMF).</item>
+<item>Life is limited by lack of data - not considered a replacement item
+at this time.</item>
+<item>Current risk decision is to use a shelf life of 15 years. </item>
+<item>Mandatory Replacement Item - 100% replacement at time of missile recertification. 
+</item>
+<item>Time since last recertified at factory (including replacement of associated
+limited life items and implementation of essential upgrades/modifications. 
+</item>
+<item> Under review for potential addition to shelf life test. May be set
+at 15 years, or change out at first opportunity. </item>
+<item>Change out at first opportunity.</item>
+<item>Change from 6 June 1997 list. </item>
+<item>For all countries except Netherlands, the minimum LLC life used by CDRM
+will be 15 years from Date of Manufacture (DoM). For the Netherlands, a minimum
+LLC life of 12 years will be used in CDRM.</item>
+<item>Safety and Arming (S&amp;A) Device minimum shelf life applies to both
+new production and Repair and Return (R&amp;R) units and is based upon the
+later of the date of manufacture or the rework date.</item></seqlist></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</subpara1></para0>
+<para0 xid="par5">
+<title>Surveillance</title><para></para>
+<subpara1 xid="par5a">
+<title>Inspection. </title><para>Prior to storage, periodically while in storage,
+and prior to issue, the missile will be inspected using the general provisions
+in SB 742-1, DA PAM 385-64, AMCR 385-100, TM 9-1410-600-14, TM 9-1425-601-12,
+AR 380-5, and this bulletin. Grant Aid and Foreign Military Sales must conform
+to the provisions of SB 742-1.</para>
+</subpara1>
+<subpara1>
+<title>Special Instructions.</title>
+<warning centered-para="1">
+<para>THis is a centered para.</para>
+<para>This should be a cetnered para.</para>
+<para>this too.</para>
+</warning>
+<para></para>
+<subpara2>
+<title></title><para>No electrical /operational tests are authorized to be
+performed at the storage site without special authorization from AMCOM.</para>
+</subpara2>
+<subpara2>
+<title></title><para>A missile with less than 12 months remaining shelf life
+will not be issued to a tactical unit nor transferred from one depot to another
+without special authorization from AMCOM. Missiles with less than 12 months
+remaining shelf life require Limited Life Component (LLC) change out and recertification.
+Recertification will be programmed by AMCOM.</para>
+</subpara2>
+<subpara2>
+<title></title><para>Special attention should be given to canisters that exhibit
+large and/or deep dents, punctures, severe scrapes, or distortions. These
+defects are evidence that a missile may have been involved in an incident
+or subjected to mishandling. Unserviceable and/or damaged canisters that are
+suspect will be reported to AMCOM in accordance with DA PAM 738-750.</para>
+</subpara2>
+<subpara2>
+<title></title><para>Forms, records and reports will be maintained and processed
+in accordance with DA PAM 738-750 and references listed in paragraph a above.
+</para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Frequency and Types of Inspections. </title><para>The following inspections,
+as appropriate, are performed to determine the serviceability of the PATRIOT
+missile:</para>
+<subpara2>
+<title>Initial receipt inspection (IRI). </title><para>This inspection is
+performed on weapons or component parts received directly from the manufacturer/vendor.
+Upon receipt at the depot all (100%) canisters will be inspected in accordance
+with table <xref xref="tab3"> and references listed in paragraph <xref xref="par4a">.
+Ammunition condition codes can be found in appendix H of SB 742-1.</para>
+</subpara2>
+<subpara2>
+<title>Receipt inspection (RI).</title><para> Inspection, on receipt, will
+consist of the following:</para>
+<subpara3>
+<title>Depot transfer.</title><para> All (100%) canisters will be inspected
+in accordance with table 3 and references listed in paragraph a.</para>
+</subpara3>
+<subpara3>
+<title>Field returns.</title><para> All (100%) canisters will be inspected.
+</para>
+<subpara4>
+<title>Expired shelf life.</title><para> If shelf life has expired, or meets
+the requirements of paragraph b(2) above, verify that the torque tube is in
+the lock position and the canister is serviceable for shipment. Reclassify
+the missile as requiring test/recertification and report missile to AMCOM
+in accordance with DA PAM 738-750. No other inspection is required.</para>
+</subpara4>
+<subpara4>
+<title>Unexpired shelf life. </title><para>If the shelf life has not expired,
+perform a receipt inspection in accordance with table <xref xref="tab3"> or
+table <xref xref="tab4">and paragraph <xref xref="par5a">.</para>
+</subpara4>
+</subpara3>
+</subpara2>
+<subpara2>
+<title>Storage monitoring inspection (SMI). </title><para>PATRIOT missiles
+stored in igloo, Stradley, or standard aboveground magazines will be monitored
+quarterly for evidence of deterioration and non-standard conditions (outer
+packing container only) to include inspection of the humidity indicators.
+Rounds stored in structures that afford less protection than igloo, Stradley,
+or standard aboveground magazines, should be inspected on a monthly basis
+or more often dependent on local conditions. SMI should be conducted no later
+than 30-45 days after deficiency has been identified and corrective action
+taken. If deficiency still exists, a detailed inspection should be performed
+to determine the cause of deficiency. If cause cannot be determined, report
+suspect missile to AMCOM in accordance with DA PAM 738-750.</para>
+</subpara2>
+<subpara2>
+<title>Pre-issue inspection (PII).</title><para> All (100%) canisters will
+be inspected in accordance with table 3 and references listed in paragraph
+a.</para>
+</subpara2>
+<subpara2>
+<title>Basic load inspection (BLI).</title><para>BLI will be accomplished
+in accordance with table 3 and references listed in paragraph a. Fire unit/battalion
+BLI will be conducted annually.</para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Defect Classification.</title><para>Defect classifications appropriate
+to the missile are defined as follows:</para>
+<subpara2>
+<title>Critical.</title><para> A defect that is likely to result in hazardous
+or unsafe conditions for individuals using, maintaining or depending on the
+item, or a defect that is likely to cause the destruction of/or serious damage
+to the weapon or launcher under normal training or combat conditions.</para>
+</subpara2>
+<subpara2>
+<title>Critical defective.</title><para> A critical defective is a unit of
+product containing one or more critical defects.</para>
+</subpara2>
+<subpara2>
+<title>Major.</title><para> A major defect is one other than critical that
+may result in failure, or reduce materially the useability of the weapon.
+</para>
+</subpara2>
+<subpara2>
+<title>Major defective.</title><para> A major defective is a unit of product
+containing one or more major defects.</para>
+</subpara2>
+<subpara2>
+<title>Minor. </title><para>A minor defect is one that is not likely to reduce
+materially, the useability of the weapon for its intended purpose or is a
+departure from established standards having little bearing on the effective
+use or operation of the item in question. Minor defects in many instances
+may well indicate poor workmanship during manufacture or maintenance.</para>
+</subpara2>
+<subpara2>
+<title>Minor Defective.</title><para> A unit of product having one or more
+minor defects.</para>
+</subpara2>
+<subpara2>
+<title></title><para>Incidental. Damage defects not of critical, major, or
+minor types. These defects will be corrected if and when maintenance is performed
+on the item.</para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title></title><para>Separate components will be inspected in accordance with
+table <xref xref="tab4">. Inspection will be on a sampling basis, by lot.
+The sampling plan illustrated in table <xref xref="tab5"> of this bulletin
+will be used.</para>
+</subpara1>
+<table frame="topbot" pgwide="1" xid="tab3">
+<title>Inspection Procedure and Defect Classification for PATRIOT Guided Missile,
+Intercept-Aerial MIM-104 Series and Trainer M37</title>
+<tgroup cols="5"><colspec colname="col1" align="center" colwidth="0.48in">
+<colspec colname="col2" align="center" colwidth="0.52in"><colspec colname="col3"
+colwidth="4.44in"><colspec colname="col4" align="center" colwidth="0.65in">
+<colspec colname="col5" align="center" colwidth="0.74in">
+<thead>
+<row><entry rowsep="0" valign="middle">Seq. No.</entry><entry rowsep="0" valign="middle">
+Type Insp.</entry><entry rowsep="0" valign="middle" align="center">Inspection
+Characteristics</entry><entry rowsep="0" valign="middle">Defect Class</entry>
+<entry rowsep="0" valign="middle">Method of Inspection</entry></row>
+</thead>
+<tbody>
+<row><entry rowsep="0" valign="middle">1</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Determine shelf life in accordance with paragraphs
+4 and 5 of this bulletin; expired shelf life </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle"> Visual </entry></row>
+<row><entry rowsep="0" valign="middle">2</entry><entry rowsep="0" valign="middle"><ftnote
+ftnid="asteric">Pertains to Trainer M37 and GM MIM-104 Series</ftnote>All
+</entry><entry rowsep="0">Inspect canister:</entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0">a. For presence, completeness, and accuracy of
+missile and trainer records. </entry><entry rowsep="0" valign="middle">Minor 
+</entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0">b. For presence, completeness, and accuracy of
+identification markings. </entry><entry rowsep="0" valign="middle">Minor</entry>
+<entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0">c. For presence, completeness, and accuracy of
+ammunition and trainer color code markings. </entry><entry rowsep="0" valign="middle">
+Minor</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0">d. For misidentification that would indicate a
+tactical missile as a training missile. </entry><entry rowsep="0" valign="middle">
+Critical </entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0">e. For correct and complete painting. </entry>
+<entry rowsep="0" valign="middle">Minor</entry><entry rowsep="0" valign="middle">
+Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0">f. For presence, completeness, and serviceability
+of common hardware. Minor Visual </entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0">g. For fungus or other foreign matter. </entry>
+<entry rowsep="0" valign="middle">Minor</entry><entry rowsep="0" valign="middle">
+Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0">h. For holes or open seams.</entry><entry rowsep="0"
+valign="middle"> Major</entry><entry rowsep="0" valign="middle">Visual</entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">i. For rust or corrosion:</entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> (1) Stage I or II (surface) </entry><entry rowsep="0" valign="middle">
+Minor</entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> (2) Stage III or IV (pitting) Major Visual</entry><entry
+rowsep="0" valign="middle">Minor</entry><entry rowsep="0" valign="middle">
+Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0"> j. For dent and/or damage: </entry><entry rowsep="0"
+valign="middle"></entry><entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(1) When not affecting the missile. </entry><entry rowsep="0"
+valign="middle">Minor</entry><entry rowsep="0" valign="middle">Visual</entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(2) If sufficient to cause suspect of missile damage. </entry>
+<entry rowsep="0" valign="middle">Major</entry><entry rowsep="0" valign="middle">
+Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0">k. For presence and serviceability of forward and
+rear end covers: missing, cracked, or punctured. </entry><entry rowsep="0"
+valign="middle">Major </entry><entry rowsep="0" valign="middle">Visual</entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> l. For presence and serviceability of resilient shock-mounts.
+</entry><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> (1) Missing/loose.</entry><entry rowsep="0" valign="middle">
+ Major</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(2) Rubber weather cracked, gouged. </entry><entry rowsep="0"
+valign="middle">Minor</entry><entry rowsep="0" valign="middle">Visual</entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(3) Evidence of rubber separating from metal plates (no
+more than 1 inch). </entry><entry rowsep="0" valign="middle">Incidental</entry>
+<entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(4)Evidence of rubber separating from metal plates (more
+than 1 inch but not totally separated) on no more that one resilient shock
+mount per isolation frame.</entry><entry rowsep="0" valign="middle">Minor
+</entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(5) Evidence of rubber separating from metal plates (more
+than 1 inch but not totally separated) on two or more resilient shock mounts
+per isolation frame. </entry><entry rowsep="0" valign="middle">Major</entry>
+<entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(6) Rubber completely separated from metal plates on one
+or more resilient shock mounts. </entry><entry rowsep="0" valign="middle">
+Critical</entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0"> m. For presence and serviceability of tiedown
+bolts; missing or unserviceable bolts or hardware. </entry><entry rowsep="0"
+valign="middle">Major</entry><entry rowsep="0" valign="middle">Visual </entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"><ftnote
+ftnid="asteric">Pertains to Trainer M37 and GM MIM-104 Series</ftnote></entry>
+<entry rowsep="0"> n. For presence and serviceability of shaft interlock;
+missing. </entry><entry rowsep="0" valign="middle">Major</entry><entry rowsep="0"
+valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0"> o. For presence and serviceability of wooden runners.
+(1) Missing or cracked beyond use. </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(2) Weather cracked, corners broken, paint peeling, but
+runners still useable. </entry><entry rowsep="0" valign="middle">Minor</entry>
+<entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0">p. For presence and serviceability of the quick-release
+pin, chain, and attaching hardware. </entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(1) Broken or missing quick-release pin. </entry><entry
+rowsep="0" valign="middle">Major</entry><entry rowsep="0" valign="middle">
+Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(2) Broken or missing chain or attaching hardware. </entry>
+<entry rowsep="0" valign="middle">Minor</entry><entry rowsep="0" valign="middle">
+Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0">q. For presence and serviceability of the quick-release
+plunger; broken, missing, or damage threads. </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0"> r. For presence and serviceability of the torque
+tube handle; missing, broken, or bent beyond use. </entry><entry rowsep="0"
+valign="middle">Major</entry><entry rowsep="0" valign="middle">Visual </entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0"> s. To assure that the torque tube handle is in
+the lock position or that it can be moved to the lock position. Torque tube
+handle cannot be locked. </entry><entry rowsep="0" valign="middle">Critical
+</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0"> t. For presence and serviceability of towing shackles;
+missing, or unserviceable.</entry><entry rowsep="0" valign="middle"> Minor
+</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0">u. For presence and serviceability of eye-bolt
+rings and attaching hardware. </entry><entry rowsep="0" valign="middle">Major
+</entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0">v. For presence and serviceability of alignment
+pins; missing or bent beyond use. </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*</entry><entry rowsep="0">w. For presence and serviceability of connectors,
+connector covers and attaching hardware. </entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(1) Damaged connectors/bent pins. </entry><entry rowsep="0"
+valign="middle">Major</entry><entry rowsep="0" valign="middle">Visual </entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> (2) Missing connector covers and hardware.</entry><entry
+rowsep="0" valign="middle"> Minor</entry><entry rowsep="0" valign="middle">
+Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(3) Corrosion </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle">
+*<ftnref ftnref="asteric" mark="sym"></entry><entry rowsep="0">x. For presence
+and serviceability of humidity indicator.</entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(1) Missing or broken. </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(2) For humidity indicators with sectors 20, 30, 40, and
+50. </entry><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(a) Humidity indicator 20% sector pink or white.</entry>
+<entry rowsep="0" valign="middle"> Incidental </entry><entry rowsep="0" valign="middle">
+Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(b) Humidity indicator 30% sector pink or white.</entry>
+<entry rowsep="0" valign="middle"> Major</entry><entry rowsep="0" valign="middle">
+Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(c) Humidity indicator 40% or 50% sector pink or white.
+</entry><entry rowsep="0" valign="middle"> Major</entry><entry rowsep="0"
+valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"><ftnote
+ftnid="asteric">Pertains to Trainer M37 and GM MIM-104 Series</ftnote></entry>
+<entry rowsep="0">y. For presence and serviceability of forklift channels. 
+</entry><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(1) Missing bottom plate. </entry><entry rowsep="0" valign="middle">
+No Defect</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">(2) Broken, or damaged bottom plate </entry><entry rowsep="0"
+valign="middle">No Defect </entry><entry rowsep="0" valign="middle">Visual
+</entry></row>
+</tbody>
+</tgroup>
+</table>
+<table frame="topbot" pgwide="1" xid="tab4">
+<title>Inspection Procedure and Defect Classification for PATRIOT Guided Missile,
+Intercept- Aerial MIM-104 Series Components (Items received separate from
+missile round)</title>
+<tgroup cols="5"><colspec colname="col1" align="center" colwidth="0.49in">
+<colspec colname="col2" align="center" colwidth="0.58in"><colspec colname="col3"
+colwidth="4.40in"><colspec colname="col4" align="center" colwidth="0.62in">
+<colspec colname="col5" align="center" colwidth="0.73in">
+<thead>
+<row><entry rowsep="1" valign="middle">Seq. No.</entry><entry rowsep="1" valign="middle">
+Type Insp.</entry><entry rowsep="1" valign="middle" align="center">Inspection
+Characteristics</entry><entry rowsep="1" valign="middle">Defect Class</entry>
+<entry rowsep="1" valign="middle">Method of Inspection</entry></row>
+</thead>
+<tbody>
+<row><entry rowsep="0" valign="middle">1</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Determine shelf life in accordance with paragraphs <xref
+xref="par4">and <xref xref="par5"> of this bulletin; expired shelf life </entry>
+<entry rowsep="0" valign="middle">Major</entry><entry rowsep="0" valign="middle">
+ Visual </entry></row>
+<row><entry rowsep="0" valign="middle">2</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Inspect Randome:</entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">a. For presence and serviceability of outer cover; cracked,
+holes, or punctured. </entry><entry rowsep="0" valign="middle">Major</entry>
+<entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">b. For presence and serviceability of inner and outer cover;
+dirt, rust, corrosion, and other foreign matter. </entry><entry rowsep="0"
+valign="middle">Minor</entry><entry rowsep="0" valign="middle">Visual </entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">c. For presence and serviceability of thread area; abrasions,
+burrs, nicks, dents, or other damage. Major Visual </entry><entry rowsep="0"
+valign="middle"></entry><entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle">3</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Inspect Guided Missile Exterior Skin:</entry>
+<entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">a. For presence and serviceability of outer cover; scratches
+and nicks exceeding 0.015 inch deep (minor scratches that do not penetrate
+external finish are permitted).</entry><entry rowsep="0" valign="middle">
+ Major</entry><entry rowsep="0" valign="middle">Depth Gage</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">b. For presence and serviceability of outer cover; dents,
+exceeding 0.015 inch deep and 0.375 inch in diameter. </entry><entry rowsep="0"
+valign="middle">Major</entry><entry rowsep="0" valign="middle">Depth Gage 
+</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">c. For presence and serviceability of outer cover; gouges
+exceeding 0.025 inch deep and 0.500 inch in diameter. </entry><entry rowsep="0"
+valign="middle">Major</entry><entry rowsep="0" valign="middle">Depth Gage
+</entry></row>
+<row><entry rowsep="0" valign="middle">4</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Inspect Terminal Guidance Section: </entry><entry
+rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">a. For presence completeness and accuracy of identification
+markings. </entry><entry rowsep="0" valign="middle">Critical</entry><entry
+rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> b. For presence and serviceability of interconnecting cables
+and/or plugs, pins, and harnesses; torn, broken, or cracked. </entry><entry
+rowsep="0" valign="middle">Major</entry><entry rowsep="0" valign="middle">
+Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">c. For presence and serviceability of seeker antenna; scratches,
+dirt, or other foreign matter. </entry><entry rowsep="0" valign="middle">
+Minor</entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">d. For presence and serviceability of seeker antenna; torn,
+cracked, or ruptured. </entry><entry rowsep="0" valign="middle">Critical</entry>
+<entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">e. For presence and serviceability of thread area; abrasions,
+burrs, nicks, or dents.</entry><entry rowsep="0" valign="middle">Major</entry>
+<entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">f. For presence and serviceability of high voltage battery;
+leakage, cracked, or punctured.</entry><entry rowsep="0" valign="middle">
+Critical</entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle">5</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Inspect Modular Midcourse Package: </entry><entry
+rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">a. For presence and serviceability of mounting hardware;
+missing or bent. </entry><entry rowsep="0" valign="middle">Major</entry><entry
+rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">b. For presence and serviceability of weather seals around
+brackets; punctured or torn. </entry><entry rowsep="0" valign="middle">Major
+</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">c. For presence and serviceability of low voltage battery;
+leakage, cracked, or punctured. </entry><entry rowsep="0" valign="middle">
+Critical</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">d. For presence and serviceability of interconnecting cables
+and/or plugs, pins, and harnesses; torn, broken, or cracked. </entry><entry
+rowsep="0" valign="middle">Major</entry><entry rowsep="0" valign="middle">
+Visual</entry></row>
+<row><entry rowsep="0" valign="middle">6</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Inspect Warhead: </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"> </entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">a. For presence, completeness and accuracy of identification
+markings. </entry><entry rowsep="0" valign="middle">Critical</entry><entry
+rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">b. For presence and serviceability of exterior skin; rust,
+fungus, or corrosion stage I or II. </entry><entry rowsep="0" valign="middle">
+Minor</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">c. For presence and serviceability of exterior skin; scratches
+in excess of 0.006 inch deep, rust, or corrosion stage III or IV (pitted). 
+</entry><entry rowsep="0" valign="middle">Major</entry><entry rowsep="0" valign="middle">
+Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">d. For presence and serviceability of thread area; abrasions,
+burrs, nicks, or dents. </entry><entry rowsep="0" valign="middle">Major</entry>
+<entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">e. For presence and serviceability of mounting hardware;
+missing or bent. </entry><entry rowsep="0" valign="middle">Major</entry><entry
+rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> f. For presence and serviceability of lift points; broken
+or bent.</entry><entry rowsep="0" valign="middle"> Minor</entry><entry rowsep="0"
+valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">g. For presences and serviceability of interconnecting cables
+and/or plugs, pins, and harnesses; torn, broken, or cracked. </entry><entry
+rowsep="0" valign="middle">Major</entry><entry rowsep="0" valign="middle">
+Visual</entry></row>
+<row><entry rowsep="0" valign="middle">7</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Inspect Safety and Arming Device: </entry><entry
+rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">a. For presence, completeness and accuracy of identification
+markings. </entry><entry rowsep="0" valign="middle">Critical</entry><entry
+rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> b. For presence and serviceability of indicator and/or
+indicator windows; check for armed condition by observing if any red area
+is visible in the windows. </entry><entry rowsep="0" valign="middle">Critical
+</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">c. For presence and serviceability of electrical connector,
+pins, and engagement pins; wet, dirty, bent or missing </entry><entry rowsep="0"
+valign="middle">Major</entry><entry rowsep="0" valign="middle">Visual </entry>
+</row>
+<row><entry rowsep="0" valign="middle">8</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Inspect Propulsion Section: </entry><entry rowsep="0"
+valign="middle"></entry><entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">a. For presence, completeness and accuracy of identification
+markings. </entry><entry rowsep="0" valign="middle">Critical</entry><entry
+rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">b. For presence and serviceability of umbilical connectors,
+interconnecting cables, and/or plugs, pins, and harnesses; torn, broken, or
+cracked. </entry><entry rowsep="0" valign="middle">Major</entry><entry rowsep="0"
+valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">c. For presence and serviceability of interior; rust fungus,
+or corrosion stage I or II. </entry><entry rowsep="0" valign="middle">Minor
+</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">d. For presence and serviceability of interior; rust, fungus,
+or corrosion stage III or IV (pitted). </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">e. For presence and serviceability of thread area; abrasions,
+burrs, nicks, or dents. </entry><entry rowsep="0" valign="middle">Major</entry>
+<entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle">9</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Inspect Propulsion Arming and Firing Unit (PAFU): 
+</entry><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">a. For presence, completeness and accuracy of identification
+markings. </entry><entry rowsep="0" valign="middle">Critical</entry><entry
+rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">b. For presence and serviceability of thread area; abrasion,
+burrs, nicks, or dents. </entry><entry rowsep="0" valign="middle">Major</entry>
+<entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">c. For presence and serviceability of exterior: rust or
+corrosion stage I or II.</entry><entry rowsep="0" valign="middle"> Minor</entry>
+<entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> d. For presence and serviceability of exterior; rust or
+corrosion stage III or IV (pitted). </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">e. For presence and serviceability interconnecting cables
+and/or plugs, and harnesses; torn or broken. </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"><warning>
+<para>Rocket motors that have been dropped or are suspected of having been
+dropped will be placed in Condition Code F and will be returned to depot when
+radiographic inspection is not available.</para>
+</warning></entry><entry rowsep="0" valign="middle">Major</entry><entry rowsep="0"
+valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle">10</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Inspect Rocket Motor:</entry><entry rowsep="0"
+valign="middle"></entry><entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> a. For presence and serviceability of interior and exterior
+skin: dents, pits, holes, and similar damage to skin </entry><entry rowsep="0"
+valign="middle">Major</entry><entry rowsep="0" valign="middle">Visual</entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">b. For presence and serviceability of interior and exterior
+skin: scratches in excess of 0.006 inch deep. </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Depth Gage</entry></row>
+<row><entry rowsep="0" valign="middle">11</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Inspect Rocket Motor Igniter:</entry><entry rowsep="0"
+valign="middle"></entry><entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">a. For presence, completeness and accuracy of identification
+markings. </entry><entry rowsep="0" valign="middle">Critical</entry><entry
+rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">b. For presence and serviceability of exterior; rust or
+corrosion stage I or II.</entry><entry rowsep="0" valign="middle">Minor</entry>
+<entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">c. For presence and serviceability of exterior; rust or
+corrosion stage III or IV (pitted).</entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> d. For presence and serviceability of interconnecting cables
+and/or plugs; and harnesses; torn or broken. </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">e. For presence and serviceability of thread area; abrasions,
+burrs, nicks, or dents. </entry><entry rowsep="0" valign="middle">Major</entry>
+<entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle">12</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Inspect Exit Nozzle:</entry><entry rowsep="0"
+valign="middle"></entry><entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> a. For presence and serviceability of interior and exterior;
+scratches, nicks grooves, or gouges. </entry><entry rowsep="0" valign="middle">
+Minor</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">b. For presence and serviceability of aluminum foil on aft
+end; missing or torn. </entry><entry rowsep="0" valign="middle">Minor</entry>
+<entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> c. For presence and serviceability of thread area; abrasions,
+burrs, nicks, or dents. </entry><entry rowsep="0" valign="middle">Major</entry>
+<entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> d. For presence and serviceability of O-ring seating surface;
+scratches, nicks, grooves, or gouges. </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle">13</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Inspect Control Section:</entry><entry rowsep="0"
+valign="middle"></entry><entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> a. For presence, completeness and accuracy of identification
+markings. </entry><entry rowsep="0" valign="middle">Critical</entry><entry
+rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> b. For presence and serviceability of mounting hardware;
+missing or bent. </entry><entry rowsep="0" valign="middle">Major</entry><entry
+rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">c. For presence and serviceability of weather seals around
+brackets; punctured or torn. </entry><entry rowsep="0" valign="middle">Major
+</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">d. For presence and serviceability of CAS battery: leakage,
+cracked, or punctured. </entry><entry rowsep="0" valign="middle">Critical
+</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">e. For presence and serviceability of interconnecting cables
+and/or plugs, and harnesses; torn or broken, or cracked.</entry><entry rowsep="0"
+valign="middle"> Major</entry><entry rowsep="0" valign="middle">Visual</entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> f. For presence and serviceability of pressure vessel and/or
+accumulator; leakage or punctured. </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Visual </entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">g. For presence and serviceability of motor pump; leakage
+or broken. </entry><entry rowsep="0" valign="middle">Major</entry><entry rowsep="0"
+valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle">14</entry><entry rowsep="0" valign="middle">
+All</entry><entry rowsep="0">Inspect Control Section Fin: </entry><entry rowsep="0"
+valign="middle"></entry><entry rowsep="0" valign="middle"></entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">a. For presence and serviceability of exterior skin: gouges,
+holes, or pits in skin or leading edges. </entry><entry rowsep="0" valign="middle">
+Major</entry><entry rowsep="0" valign="middle">Visual</entry></row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0"> b. For presence and serviceability of outer cover; missing
+anodized finish in excess of 0.25 inch in diameter </entry><entry rowsep="0"
+valign="middle">Major</entry><entry rowsep="0" valign="middle">Ruler </entry>
+</row>
+<row><entry rowsep="0" valign="middle"></entry><entry rowsep="0" valign="middle"></entry>
+<entry rowsep="0">c. For presence and serviceability of the fin; warped or
+misaligned fin. </entry><entry rowsep="0" valign="middle">Major</entry><entry
+rowsep="0" valign="middle">Visual</entry></row>
+</tbody>
+</tgroup>
+</table>
+<table frame="top" pgwide="1" xid="tab5">
+<title>Sampling and Acceptance Criteria</title>
+<tgroup cols="8"><colspec colname="col1" colwidth="0.87in"><colspec colname="col2"
+colwidth="0.87in"><colspec colname="col3" colwidth="0.87in"><colspec colname="col4"
+colwidth="0.87in"><colspec colname="col5" colwidth="0.87in"><colspec colname="col6"
+colwidth="0.87in"><colspec colname="col7" colwidth="0.87in"><colspec colname="col8"
+colwidth="0.87in"><spanspec namest="col7" nameend="col8" spanname="span4">
+<spanspec namest="col5" nameend="col6" spanname="span3"><spanspec namest="col3"
+nameend="col4" spanname="span2"><spanspec namest="col3" nameend="col8" spanname="span1">
+<thead>
+<row valign="middle"><entry morerows="2" align="center">Lot Size</entry><entry
+morerows="2" align="center">Sample Size Critical/major/Minor</entry><entry
+spanname="span1">Acceptance Quality Level</entry></row>
+<row valign="middle"><entry spanname="span2">Critical</entry><entry spanname="span3">
+Major</entry><entry spanname="span4">Minor</entry></row>
+<row valign="middle"><entry align="center">Accept</entry><entry align="center">
+Reject</entry><entry align="center">Accept</entry><entry align="center">Reject
+</entry><entry align="center">Accept</entry><entry align="center">Reject</entry>
+</row>
+</thead>
+<tbody>
+<row><entry rowsep="0" align="center">0-25</entry><entry rowsep="0" align="center">
+5</entry><entry rowsep="0" align="center">0</entry><entry rowsep="0" align="center">
+1</entry><entry rowsep="0" align="center">0</entry><entry rowsep="0" align="center">
+1</entry><entry rowsep="0" align="center">1</entry><entry rowsep="0" align="center">
+2</entry></row>
+<row><entry rowsep="0" align="center">26&ndash;50</entry><entry rowsep="0"
+align="center">8</entry><entry rowsep="0" align="center">0</entry><entry rowsep="0"
+align="center">1</entry><entry rowsep="0" align="center">0</entry><entry rowsep="0"
+align="center">1</entry><entry rowsep="0" align="center">2</entry><entry rowsep="0"
+align="center">3</entry></row>
+<row><entry rowsep="0" align="center">51&ndash;90</entry><entry rowsep="0"
+align="center">13</entry><entry rowsep="0" align="center">0</entry><entry
+rowsep="0" align="center">1</entry><entry rowsep="0" align="center">1</entry>
+<entry rowsep="0" align="center">2</entry><entry rowsep="0" align="center">
+3</entry><entry rowsep="0" align="center">4</entry></row>
+<row><entry rowsep="0" align="center">91&ndash;150</entry><entry rowsep="0"
+align="center">20</entry><entry rowsep="0" align="center">0</entry><entry
+rowsep="0" align="center">1</entry><entry rowsep="0" align="center">1</entry>
+<entry rowsep="0" align="center">2</entry><entry rowsep="0" align="center">
+5</entry><entry rowsep="0" align="center">6</entry></row>
+<row><entry rowsep="0" align="center">151&ndash;280</entry><entry rowsep="0"
+align="center">32</entry><entry rowsep="0" align="center">0</entry><entry
+rowsep="0" align="center">1</entry><entry rowsep="0" align="center">2</entry>
+<entry rowsep="0" align="center">3</entry><entry rowsep="0" align="center">
+7</entry><entry rowsep="0" align="center">8</entry></row>
+<row><entry rowsep="0" align="center">281&ndash;500</entry><entry rowsep="0"
+align="center">50</entry><entry rowsep="0" align="center">0</entry><entry
+rowsep="0" align="center">1</entry><entry rowsep="0" align="center">3</entry>
+<entry rowsep="0" align="center">4</entry><entry rowsep="0" align="center">
+10</entry><entry rowsep="0" align="center">11</entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+<para0>
+<title>Disposition of Defective Items.</title>
+<subpara1><para>Critical defects, as identified in this bulletin, pose an
+immediate danger to personnel. </para>
+</subpara1>
+<subpara1>
+<title></title><para>Items that contain defects that can be repaired in accordance
+with TM 9-1410-600-14 and TM 9-1425-601-12 will be repaired and returned to
+storage. </para>
+</subpara1>
+<subpara1>
+<title></title><para>Items that cannot be repaired in accordance with TM 9-1410-600-14
+or TM 9-1425-601-12 will be reported to AMCOM in accordance with DA PAM 738-750. 
+</para>
+</subpara1>
+<subpara1>
+<title></title><para>Preventive maintenance service items, e.g., desiccant
+change out will be performed in accordance with TM 9-1410-600-14 by Operator,
+Organizational, Intermediate Maintenance and Storage personnel.</para>
+</subpara1>
+<subpara1>
+<title></title><para></para>
+</subpara1></para0>
+<para0>
+<title>Evaluation of Local Inspection/Test Results.</title>
+<subpara1><para>Results of local inspections conducted in accordance with
+this bulletin will be locally evaluated by a qualified Quality Assurance (AMMO)
+Surveillance Specialist and appropriate condition code(s) will be assigned
+in compliance with AR 725-50.</para>
+</subpara1>
+<subpara1>
+<title></title><para>The cumulative results of local inspections and the lot
+recertification inspection and test results will be evaluated by the U.S.
+Army Aviation and Missile Command. This evaluation will determine the final
+serviceability and suitability for issue of each lot of missiles in the worldwide
+inventory. All appropriate activities will be provided a quarterly report
+and the suitability for issue of each production lot.</para>
+</subpara1></para0>
+<para0>
+<title>Records and Reports.</title>
+<subpara1>
+<title></title><para>Local surveillance, storage and stock control records
+should be retained to reflect the current condition (serviceability) and location
+of all missiles in storage.</para>
+</subpara1>
+<subpara1>
+<title></title><para>Appropriate reports will be prepared and submitted as
+required by appendix <xref xref="appc"> of this bulletin.</para>
+</subpara1></para0>
+</section>
+<section>
+<title>OPERATIONAL/PERSONNEL SAFETY</title>
+<para0>
+<title>Hazardous Conditions</title><para>This paragraph lists hazardous conditions
+involving a damaged missile round that will require Explosive Ordnance Disposal
+(EOD) support, and hazardous conditions not requiring EOD support.</para>
+<warning>
+<para>DAMAGED LIVE MISSILE ROUND CAN CAUSE DEATH OR SERIOUS INJURY. LEAVE
+AREA AT ONCE. </para>
+<para>MINIMUM SAFE DISTANCE FROM DAMAGED CANISTER WITH LIVE MISSILE ROUND
+IS 1250 FT (381 M).</para>
+</warning>
+<subpara1>
+<title></title><para>Hazardous conditions requiring EOD support:</para>
+<warning></warning>
+<para>EXPLOSION OR FIRE CAN CAUSE DEATH OR SERIOUS INJURY. IF ANY OF THE CONDITIONS
+EXIST, LEAVE THE AREA AT ONCE.</para>
+<subpara2>
+<title></title><para>Smoke or flames are observed coming from inside canister,
+or canister exhibits fire damage.</para>
+</subpara2>
+<subpara2>
+<title></title><para>LS or GMT is on fire or exhibits fire damage.</para>
+</subpara2>
+<subpara2>
+<title></title><para>Canister is dropped or damaged to such an extent that
+GM is damaged or partially off of canister.</para>
+<note>
+<para>Conditions (4) and (5) will result in safety and arming (S&A;) unlatch,
+S&A; charge power, propulsion arming and firing unit (PAFU) squib power, and
+battery activate charge applied.</para>
+</note>
+</subpara2>
+<subpara2>
+<title></title><para>During launch attempt, GM partially exits but does not
+completely leave the canister.</para>
+</subpara2>
+<subpara2>
+<title></title><para>During a launch, GM exits canister completely and falls
+to earth. Warhead does not detonate and rocket motor has ceased to burn.</para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title></title><para>Hazardous conditions not requiring EOD support:</para>
+<warning>
+<para>HAZARDOUS CONDITIONS EXIST BUT WILL RETURN TO A SAFE CONDITION AFTER
+1 HOUR. LEAVE AREA AT ONCE AND WAIT A MINIMUM OF 1 HOUR BEFORE RETURNING.
+</para>
+</warning>
+<subpara2>
+<title></title><para>Any status monitor or BITE indication shows a HAZARD
+or MISFIRE indication.</para>
+</subpara2>
+<subpara2>
+<title></title><para>During a launch attempt, GM misfires (rocket motor does
+not ignite).</para>
+</subpara2>
+</subpara1></para0>
+<para0>
+<title>Emergency Procedures For Missile Accident Or Indicent</title><para>
+This paragraph provides guidance relative to an accident or incident involving
+real or suspected damage to the PATRIOT GM. These instructions address the
+safety and technical aspects of the GM, but do not address any political or
+host nation requirements.</para>
+<note>
+<para>Safety of both military and civilian personnel must be the first priority
+in all cases.</para>
+</note>
+<subpara1>
+<title>General.</title><para>Emergency procedures for a missile accident or
+incident are listed in the following table. Conditions, hazard levels, and
+action required are listed from the most hazardous to the least hazardous.
+</para>
+<subpara2>
+<title>Conditions.</title><para>The conditions listed in the table are possible,
+but all possible situations have not been addressed. When transporting more
+than one missile, it is possible that a combination of the listed conditions
+may exist.</para>
+</subpara2>
+<subpara2>
+<title>Hazard Levels.</title><para>Hazard levels &ldquo;High,&rdquo;Low,&rdquo;
+and &ldquo;Very Low&rdquo;: for potential safety hazards, have been assigned
+to each condition to assist the senior officer (site commander) at the accident
+site.</para>
+</subpara2>
+<subpara2>
+<title>Action Required.</title><para>Required actions reflect necessary steps,
+but not necessarily in order. Some actions must be performed simultaneously
+to decrease the time required to reduce the hazard and bring the situation
+under control.</para>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Hazard Levels.</title><para>Hazard levels &ldquo;High,&rdquo;Low,&rdquo;
+and &ldquo;Very Low&rdquo;: for potential safety hazards, have been assigned
+to each condition to assist the senior officer (site commander) at the accident
+site.</para>
+</subpara1>
+<subpara1>
+<title>Specific Points.</title><para>Clarification is necessary for specific
+points concerning missile accidents or incidents.</para>
+<subpara2>
+<title>Evacuation Distance. </title><para>accepted evacuation distance, action
+is in progress to bring all applicable references to an agreement which will
+reflect 1250 ft (381 m) minimum as a safe perimeter for nonessential personnel.
+</para>
+</subpara2>
+<subpara2>
+<title>Shorting Plugs or Jumper Wires.</title><para>Shorting plugs or jumper
+wires are not required for missiles involved in an accident. The missile arming
+devices are designed so that the firing circuits (squibs) are electrically
+disconnected when the arming device is in the safe position. Physical conditions,
+such as momentum for a sustained duration required to arm the arming devices,
+cannot be achieved in a vehicle accident.</para>
+</subpara2>
+<subpara2>
+<title>Visual Inspection of a Dropped Canister with Missile Remaining in Canister.
+</title><para>If the missile remains in the canister, it shall be considered
+UNARMED. The crew shall log the time for a 1 hour wait and inform the unit
+commander. The unit commander shall acknowledge the crew report, log the time,
+and, after a 1 hour wait, direct removal and replacement of the GM canister.
+</para>
+</subpara2>
+<subpara2>
+<title>Visual Inspection of a Dropped Canister with Missile Partly or Completely
+Out of Canister.</title><para>If the missile is partly or completely out of
+the canister, it shall be considered HAZARDOUS. The crew shall log the time
+for a 1 hour wait, inform the unit commander, leave the area at once, and
+report when they have evacuated the area. The unit commander shall acknowledge
+the crew report(s), close the launching station area to incoming troops and
+traffic, and call EOD for assistance.</para>
+</subpara2>
+<subpara2>
+<title>Drop Distance.</title><para>The exact distance a missile may have been
+dropped is difficult to verify. Drop tests conducted with the missile indicate
+that safety constraints would not be violated when dropped a short distance.
+The 12-inch drop criteria does not include a margin for error in determining
+true drop distance.</para>
+<note>
+<para>GM refers to missile in its canister.</para>
+</note>
+<table frame="bottom">
+<title></title>
+<tgroup cols="3"><colspec colname="col1" colwidth="3.00in"><colspec colname="col2"
+colwidth="1.05in"><colspec colname="col3" colwidth="2.93in"><spanspec namest="col1"
+nameend="col3" spanname="span1">
+<thead>
+<row valign="middle"><entry colsep="1" rowsep="1" align="center">CONDITIONS
+</entry><entry colsep="1" rowsep="1" align="center">HAZARD LEVEL</entry><entry
+rowsep="1" align="center">ACTION REQUIRED</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1" rowsep="0">Condition 1 - Involving Fire</entry><entry
+colsep="1" rowsep="0" align="center">High</entry><entry rowsep="0"></entry>
+</row>
+<row><entry spanname="span1" colsep="1" rowsep="0"><warning>
+<para>WARNING DO NOT ATTEMPT TO FIGHT FIRE.</para>
+</warning></entry></row>
+<row><entry morerows="3" colsep="1" rowsep="0">GM and/or missile components
+burning; GM is burning or enveloped in flames. </entry><entry morerows="3"
+colsep="1" rowsep="0"></entry><entry colsep="0" rowsep="0">Sound alarm IAW
+Explosive Safety standard operating procedures (SOP). </entry></row>
+<row><entry colsep="0" rowsep="0">Evacuate all nonessential personnel to a
+safe distance (minimum 1250 ft (381 m)). </entry></row>
+<row><entry colsep="0" rowsep="0">Secure area.</entry></row>
+<row><entry colsep="0" rowsep="0">Notify fire department, Commanders, EOD,
+Quality Assurance Ammunition Specialist (QASAS), and Safety.</entry></row>
+<row><entry morerows="2" colsep="1" rowsep="0">GM is not burning or enveloped
+in flames, but endangered by incipient fire.</entry><entry morerows="2" colsep="1"
+rowsep="0"></entry><entry colsep="0" rowsep="0">Fight fire IAW unit Explosive
+Safety SOP.</entry></row>
+<row><entry colsep="0" rowsep="0">If possible, move hazardous material or
+endangered equipment such as other GMs, ammunition, petroleum, oil, lubricants,
+or vehicles to a safe distance from involved GMs. </entry></row>
+<row><entry colsep="0" rowsep="0">If GMs are loaded on a launcher or other
+vehicle which is on fire, move burning vehicle to a safe distance from GMs
+if possible. Uncouple tractor or pull missiles from vehicle, trailer, or launcher
+by any means available without extending landing gear or outriggers.</entry>
+</row>
+<row><entry morerows="1" colsep="1" rowsep="1">Fire fully extinguished, no
+visible fire or smoke for 1 hour, and site is considered safe to approach.
+</entry><entry morerows="1" colsep="1" rowsep="1"></entry><entry colsep="0"
+rowsep="1"> Inspect for additional safety hazards such as molten explosives
+or propellant outside GM.</entry></row>
+<row><entry colsep="0" rowsep="0">Refer to EOD and QASAS personnel for disposition
+of equipment at the site.</entry></row>
+<row><entry colsep="1" rowsep="0">Condition 2 -Visible damage to explosive
+components. No fire. </entry><entry colsep="1" rowsep="0" align="center">
+High</entry><entry colsep="0" rowsep="0"></entry></row>
+<row><entry morerows="4" colsep="1" rowsep="1">GM is struck or dropped more
+than 12 inches; missile is partially or completely out of canister; missile
+skin is punctured or broken; damage to warhead, rocket motor, S&amp;A device,
+or PAFU explosive components or propellant is visible.</entry><entry colsep="1"
+rowsep="1"></entry><entry colsep="0" rowsep="1">Secure area. </entry></row>
+<row><entry colsep="1" rowsep="0"></entry><entry colsep="0" rowsep="0">Notify
+fire department, Commanders, EOD, QASAS, and Safety </entry></row>
+<row><entry colsep="1" rowsep="0"></entry><entry colsep="0" rowsep="0">Do
+not approach site for 1 hour. </entry></row>
+<row><entry colsep="1" rowsep="0"></entry><entry colsep="0" rowsep="0">Remove
+all unaffected GMs and equipment from endangered area.</entry></row>
+<row><entry colsep="1" rowsep="0"></entry><entry colsep="0" rowsep="0">If
+cleared by EOD/QASAS, owning unit will recover and dispose of GMs in coordination
+with the servicing Ordnance Company. If not cleared by EOD/QASAS as safe to
+move, refer to EOD and QASAS personnel for disposition of equipment at the
+site.</entry></row>
+<row><entry colsep="1" rowsep="0">Condition 3 - No visible damage to explosive
+components. </entry><entry morerows="5" colsep="1" rowsep="0" align="center">
+Low</entry><entry colsep="0" rowsep="0"></entry></row>
+<row><entry morerows="4" colsep="1" rowsep="1">Low GM is struck or dropped
+more than 12 inches; missile is partially or completely out of canister; no
+visible damage or puncture to missile skin, warhead, rocket motor, S&amp;A
+device, or PAFU; damage to radome may or may not be sustained.</entry><entry
+colsep="0" rowsep="1">Evacuate all nonessential personnel to a safe distance
+(minimum 1250 ft (381 m)). </entry></row>
+<row><entry colsep="0" rowsep="0">Secure area. </entry></row>
+<row><entry colsep="0" rowsep="0">Do not approach site for 1 hour. </entry>
+</row>
+<row><entry colsep="0" rowsep="0">Owning unit will recover and dispose of
+GMs in coordination with the servicing Ordnance Company. </entry></row>
+<row><entry colsep="0" rowsep="0">Refer to QASAS personnel to load and secure
+damaged GMs.</entry></row>
+<row><entry colsep="1" rowsep="0">Condition 4 - No visible damage. </entry>
+<entry morerows="5" colsep="1" rowsep="0" align="center">Low</entry><entry
+colsep="0" rowsep="0"></entry></row>
+<row><entry morerows="4" colsep="1" rowsep="1">Low GM is dropped more than
+12 inches; missile remains in canister; canister does not sustain damage which
+exceeds criteria in para 4-8.</entry><entry rowsep="1">Evacuate all nonessential
+personnel to a safe distance (minimum 1250 ft (381 m)). </entry></row>
+<row><entry rowsep="0">Secure area. </entry></row>
+<row><entry rowsep="0">Do not approach site for 1 hour. </entry></row>
+<row><entry rowsep="0">Owning unit will recover and dispose of GMs in coordination
+with the servicing Ordnance Company and report incident to MICOM IAW para
+2-5d(2) (c). </entry></row>
+<row><entry rowsep="0">On receipt of incident report, MICOM will provide instructions
+on disposition based on the circumstances of each incident.</entry></row>
+<row><entry colsep="1" rowsep="0">Condition 5 - Visible damage to canister. 
+</entry><entry colsep="1" rowsep="0"></entry><entry rowsep="0"></entry></row>
+<row><entry colsep="1" rowsep="0">Very Low GM is dropped 12 inches or less;
+missile remains in canister; canister does not sustain damage which exceeds
+criteria in para 4-8.</entry><entry colsep="1" rowsep="0" align="center">
+Very Low</entry><entry rowsep="0">Owning unit will recover and dispose of
+the GMs in coordination with the servicing Ordnance Company. </entry></row>
+<row><entry colsep="1" rowsep="1"></entry><entry colsep="1" rowsep="1"></entry>
+<entry rowsep="1">Refer to QASAS personnel to load and secure damage GMs.
+</entry></row>
+<row><entry colsep="1" rowsep="0">Condition 6 - No visible damage.</entry>
+<entry colsep="1" rowsep="0" align="center">Very Low</entry><entry rowsep="0"></entry>
+</row>
+<row><entry spanname="span1" colsep="1" rowsep="0"><note>
+<para>If GM has rolled 90&deg; or more, refer to QASAS for classification.
+</para>
+</note></entry></row>
+<row><entry colsep="1" rowsep="1">GM is dropped 12 inches or less; missile
+remains in canister; does not roll over; canister does not sustain damage
+which exceeds criteria in para 4-8.</entry><entry colsep="1" rowsep="1" align="center"></entry>
+<entry rowsep="1">Organization transporting or moving missiles will recover
+missiles and continue mission.</entry></row>
+<row><entry colsep="1" rowsep="0">Condition 7 - Vehicle accident.</entry>
+<entry colsep="1" rowsep="0" align="center">Very Low</entry><entry rowsep="0"></entry>
+</row>
+<row><entry colsep="1" rowsep="0">Vehicle carrying GMs is involved in a vehicle
+accident; no fire; GMs undamaged.</entry><entry colsep="1" rowsep="1" align="center"></entry>
+<entry rowsep="0">Organization transporting or moving missiles will transfer
+missiles to operational vehicle and continue mission.</entry></row>
+</tbody>
+</tgroup>
+</table>
+</subpara2>
+</subpara1>
+<subpara1>
+<title>Responsibilities for Assisting Organizations</title>
+<subpara2>
+<title></title><para>EOD will be responsibility for the following:</para>
+<subpara3>
+<title></title><para>Advise the Site Commander as to potential explosive hazards
+associated with the accident or incident when requested</para>
+</subpara3>
+<subpara3>
+<title></title><para>Perform the render safe procedures when required IAW
+applicable EOD technical manuals for PATRIOT, and advise and assist in the
+removal or disposal of hazardous explosive materials and components.</para>
+</subpara3>
+</subpara2>
+<subpara2>
+<title></title><para>QASAS will be responsible for the following:</para>
+<subpara3>
+<title></title><para>Advise the Site Commander on matters pertaining to rigging,
+lifting, handling, securing, and transporting explosive items which have been
+rendered safe, or have been determined to be safe and require transportation
+to another site</para>
+</subpara3>
+<subpara3>
+<title></title><para>Assess the serviceability and safety condition of the
+missiles and advise the Site Commander in writing of determination.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Notify the U.S. Army Missile Command, Intergrated Material
+Management Center as soon as possible (commercial telephone, AC 256, 876-3211)
+and PATRIOT Project Office (commercial telephone, AC 256, 895-3150) through
+QASAS channels.</para>
+</subpara3>
+<subpara3>
+<title></title><para>Submit Ammunition Condition Report DA Form 2415, IAW
+DA PAM 738-750.</para>
+</subpara3>
+</subpara2>
+</subpara1></para0>
+</section></chapter></body>
+<rear>
+<appendix xid="appa"><title>References</title>
+<para0 label="nonum">
+<title></title><para><deflist>
+<term>AR 380&ndash;5</term><def>Department of the Army Information Security
+Program</def>
+<term>AR 385-40</term><def>Accident Reporting and Records</def>
+<term>AR 702-6</term><def>Ammunition Stockpile Reliability Program (ASRP)
+and Army Nuclear Weapons Stockpile Reliability Program (ANWSRP)</def>
+<term>AR 700-19 </term><def>U.S. Army Munitions Reporting Systems</def>
+<term>AR 725-50</term><def>Requisitioning, Receipt and Issue System</def>
+<term>AR 740-1</term><def>Storage and Supply Activity Operations</def>
+<term>DA PAM 738-750</term><def>Functional Users Manual for The Army Maintenance
+Management System</def>
+<term>SB 742-1</term><def> Inspection of Supplies and Equipment, Ammunition
+Surveillance Procedures</def>
+<term>DA PAM 385-64 <brk>or <brk>AMCR 385-100 </term><def>Ammunition and Explosives
+Safety Standards Safety Manual </def>
+<term>TM 9-1410-600-14</term><def>Guided Missile, Intercept-Aerial: MIM-104
+and Trainer M37 (PATRIOT)</def>
+<term>TM 9-1425-601-12 </term><def>Color, Marking, and Camouflage Pattern
+Painting (PATRIOT)</def></deflist></para>
+</para0>
+</appendix>
+<appendix xid="appb"><title>Identification</title>
+<para0 label="nonum">
+<title></title>
+<table label="nonum" frame="none" pgwide="1">
+<title></title>
+<tgroup cols="3"><colspec colname="col1" colwidth="2.73in"><colspec colname="col2"
+colwidth="1.84in"><colspec colname="col3" colwidth="1.63in">
+<thead>
+<row valign="middle"><entry colsep="0" rowsep="0" align="center">Nomenclature
+</entry><entry colsep="0" rowsep="0" align="center">NSN</entry><entry colsep="0"
+rowsep="0" align="center">Marking</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="0" rowsep="0">Guided Missile Intercept-Aerial MIM-104
+</entry><entry colsep="0" rowsep="0" valign="middle" align="center">1410-01-087-6343
+</entry><entry colsep="0" rowsep="0" valign="middle" align="center">TM 9-1425-601-12
+</entry></row>
+<row><entry colsep="0" rowsep="0">Guided Missile Intercept-Aerial MIM-104A
+</entry><entry colsep="0" rowsep="0" valign="middle" align="center">1410-01-205-7066
+</entry><entry colsep="0" rowsep="0" valign="middle" align="center">TM 9-1425-601-12
+</entry></row>
+<row><entry colsep="0" rowsep="0">Guided Missile Intercept-Aerial MIM-104B
+</entry><entry colsep="0" rowsep="0" valign="middle" align="center">1410-01-267-6685
+</entry><entry colsep="0" rowsep="0" valign="middle" align="center">TM 9-1425-601-12
+</entry></row>
+<row><entry colsep="0" rowsep="0">Guided Missile Intercept-Aerial MIM-104C
+</entry><entry colsep="0" rowsep="0" valign="middle" align="center">1410-01-286-9689
+</entry><entry colsep="0" rowsep="0" valign="middle" align="center">TM 9-1425-601-12
+</entry></row>
+<row><entry colsep="0" rowsep="0">Guided Missile Intercept-Aerial MIM-104D
+</entry><entry colsep="0" rowsep="0" valign="middle" align="center">1410-01-387-8436
+</entry><entry colsep="0" rowsep="0" valign="middle" align="center">TM 9-1425-601-12
+</entry></row>
+<row><entry colsep="0" rowsep="0">Guided Missile, Trainer M37</entry><entry
+colsep="0" rowsep="0" valign="middle" align="center">6920-01-161-9034</entry>
+<entry colsep="0" rowsep="0" valign="middle" align="center">TM 9-1425-601-12
+</entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+</appendix>
+<appendix xid="appc"><title>report forms and reference</title>
+<para0 label="nonum">
+<title></title>
+<table label="nonum" frame="none" pgwide="1">
+<title></title>
+<tgroup cols="3"><colspec colname="col1" colwidth="2.33in"><colspec colname="col2"
+colwidth="2.96in"><colspec colname="col3" colwidth="1.70in">
+<thead>
+<row valign="middle"><entry colsep="0" rowsep="0" align="center">Form Number
+</entry><entry colsep="0" rowsep="0" align="center">Nomenclature</entry><entry
+colsep="0" rowsep="0" align="center">Reference</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="0" rowsep="0">DA Form 285</entry><entry colsep="0" rowsep="0"
+valign="middle">U.S. Army Accident Report</entry><entry colsep="0" rowsep="0"
+valign="middle" align="justify">AR385-40</entry></row>
+<row><entry colsep="0" rowsep="0">DA Form 2028</entry><entry colsep="0" rowsep="0"
+valign="middle">Recommended Changes to Publications and Blank Forms</entry>
+<entry colsep="0" rowsep="0" valign="middle" align="justify">AR 25-30</entry>
+</row>
+<row><entry colsep="0" rowsep="0">DA Form 2407</entry><entry colsep="0" rowsep="0"
+valign="middle">Maintenance Request</entry><entry colsep="0" rowsep="0" valign="middle"
+align="justify">DA PAM 738-750 <brk>DA PAM 738-751</entry></row>
+<row><entry colsep="0" rowsep="0">DA Form 241</entry><entry colsep="0" rowsep="0"
+valign="middle">Ammunition Condition Report</entry><entry colsep="0" rowsep="0"
+valign="middle" align="justify">DA PAM 738-750</entry></row>
+<row><entry colsep="0" rowsep="0">DA Form 5392</entry><entry colsep="0" rowsep="0"
+valign="middle">PATRIOT Locations/Status Condition Report</entry><entry colsep="0"
+rowsep="0" valign="middle" align="justify">TM 9-1410-600-14</entry></row>
+<row><entry colsep="0" rowsep="0">DA Form 5392-R</entry><entry colsep="0"
+rowsep="0" valign="middle">PATRIOT Multiple Location/Status/ Condition Report
+</entry><entry colsep="0" rowsep="0" valign="middle" align="justify">TM 9-1410-600-14
+</entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+</appendix>
+</rear>
+</doc>

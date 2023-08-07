@@ -1,0 +1,52 @@
+[[DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A]]
+= Frame fork - Install
+
+== Preliminary requirements
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|The bicycle is safely held on a work stand |
+|===
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Work stand |Stand-001 |Stand |1 |
+|===
+
+*Spares*
+
+.Spares
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Frame fork |St-001-02 |KZ555 |1 |
+|Upper bearing cup |St-001-03 |KZ555 |1 |
+|Brake cable hangar |BR-LVRS-002 |KT444 |1 |
+|Dust seal |St-001-04 |KZ555 |1 |
+|Conical expansion washer |St-001-05 |KZ555 |1 |
+|===
+
+== Procedure
+
+.Test SVG image
+image::../GFX/DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A.svg[]
+
+[arabic]
+. Install the Frame Fork on the frame.
+. Install the Upper bearing cup.
+. Install the components that follow on the steering tube:
+* Brake cable
+hangar
+* Dust seal
+* Conical expansion washer
+. Install the stem 
+
+== Requirements after job completion
+
+NA

@@ -1,0 +1,35 @@
+= Meeting 202300803
+
+.Migration
+[graphviz, adocpipeline8, svg]
+----
+digraph g {
+  edge [arrowsize=".5"]
+  node [shape=record]
+  node [fontname="Arial" fontsize=18]
+  rankdir="TD";
+    "Is it DITA" -> "Is it same DITA version" -> "Old DITAMAPs work" -> "Styler works with old .style files?" -> "DITA-OT for SCORM" -> "Process graphics library" -> "Testing"
+    "Is it DITA" -> "Process source into DITA" [label="no"]
+    "Is it same DITA version" -> "Process into unified DITA" [label="no"]
+    "Old DITAMAPs work" -> "Process old DITAMAPs" [label="no"]
+    "Styler works with old .style files?" -> "Port old .style files to new" [label="no"]
+    "Styler works with old .style files?" -> "Port to DITA-OT XSL" [label="no"]
+    "DITA-OT for SCORM" -> "DITA-SCORM on DITA-OT" [label="yes"]
+    "Process graphics library" -> "SVG sanity checking"
+    "Process graphics library" -> "Normalize raster graphics"
+}
+----
+
+.Comparing Asciidoc PDF pipelines
+[options=header]
+|===
+||Asciidoctor-PDF|Asciidoctor-fopub|Asciidoctor-web-pdf
+|Environment|Ruby/Prawn|Java/Saxon/DocBook-XSL|Web (JS+CSS)footnote:[The fact that the templating language is JS means that there's nothing *technically* out of reach, but it requires dev time. It might still take less time to do it in JS than it would to customize DBXSL.]
+|Template language|YML|XSL (DocBook)|Paged.js, CSS PMM3footnote:[CSS Paged Media Module Level 3 https://www.w3.org/TR/css-page-3/]
+|Auto LoT/LoFfootnote:[List of Table, List of Figures autogen]|By extension|Yes|No
+|Auto Index|Yes|Yes|No
+|Dynamic glossary|Yes|Yes|No
+|Cover templatefootnote:[Arbitrary placement of cover elements, each driven from elements/attributes in the deliverable]|No|Yes|Yes
+|Arbitrary header/footerfootnote:[Insert any document attribute into running content and have it update through the deliverable as the attribute changes]|No|No|Yes
+|Foldoutfootnote:[Switch landscape/portrait on the fly in the same deliverable.]|Yes|No|No
+|===

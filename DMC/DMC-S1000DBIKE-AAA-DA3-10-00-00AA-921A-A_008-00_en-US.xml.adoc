@@ -1,0 +1,48 @@
+== Preliminary requirements
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Specialist toolset |BSK-TLST-001 |KZ666 |1 |
+|8mm Allen wrench |BSK-TLST-001-08 |KZ666 |1 |
+|===
+
+*Spares*
+
+.Spares
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Horn |Horn-001 |KZ444 |1 |
+|===
+
+== Procedure
+
+[arabic]
+. Safely hold the bicycle.
+. Remove the horn.
+[arabic]
+.. Use the 8mm Allen wrench from the
+link:#ID_S1000DBIKE-AAA-DA3-10-00-00AA-921A-A_seq-0001[Specialist
+toolset] and remove the two Allen screws.
+.. Remove the horn.
+. Install the new
+link:#ID_S1000DBIKE-AAA-DA3-10-00-00AA-921A-A_spa-0001[Horn].
+[arabic]
+.. Install the new
+link:#ID_S1000DBIKE-AAA-DA3-10-00-00AA-921A-A_spa-0001[Horn] on the
+handlebars.
+.. Use the link:#ID_S1000DBIKE-AAA-DA3-10-00-00AA-921A-A_seq-0002[8mm
+Allen wrench] from the
+link:#ID_S1000DBIKE-AAA-DA3-10-00-00AA-921A-A_seq-0001[Specialist
+toolset] and tighten the two Allen screws.
+
+== Requirements after job completion
+
+.Required conditions
+[cols="",]
+|===
+|===

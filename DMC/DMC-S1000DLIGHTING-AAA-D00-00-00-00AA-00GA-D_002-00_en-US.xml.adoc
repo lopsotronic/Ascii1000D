@@ -1,0 +1,5 @@
+Light system 1 Light, sub-assembly front 1 Light, main body 0 Light,
+base 0 Seal 0 Battery 1 Lens, assembly 0 Lens sub-assembly 0 Reflector 0
+Bulb 1 Bulb 1 Loom wiring 0 Bracket, light mounting 0 Clip 0 Seal 0
+Screw,special 0 Washer,flat 0 Grip,strip 0 Light, sub assembly rear
+Lens, assembly rear Front Bulb Rear Bulb Glass Glass with hole

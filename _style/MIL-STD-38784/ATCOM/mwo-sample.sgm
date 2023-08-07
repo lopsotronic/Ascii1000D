@@ -1,0 +1,283 @@
+<?xml-stylesheet href="mwo.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="mwo.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2006, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN"
+ "atcom.dtd" [
+<!NOTATION gif SYSTEM "gif">
+<!NOTATION bmp SYSTEM "bmp">
+<!NOTATION jpg SYSTEM "jpg">
+]>
+<?Pub EntList alpha bull copy rArr sect trade aelig deg percnt amp plusmn
+ delta ast mdash nbsp emsp14 emsp13 sdotb>
+<doc service="army" docid="55-1680-341" docstat="emergency" columns="one"><?Pub Caret>
+<idinfo>
+<tmidno service="army"></tmidno>
+<brk>
+<doctype pubtype="mwo"></doctype>
+<prtitle>
+<nomen>nomenclature</nomen>
+<partno>1st Partno</partno>
+<nsn>1stnsn</nsn><eic> 1st</eic>
+</prtitle>
+<effdatenot>MWO effective date 12 December 2003 and completion date 12 December
+2007..</effdatenot>
+<distrib type="a">distrib statement c goes here.</distrib><avail>This publication
+is not available through U. S. Army Publication Distribution Centers. It must
+be obtained from U.S. Army Aviation and Missile Command, ATTN: AMSAM-MMC-MA-NP,
+Redstone Arsenal, AL. 35898&ndash;5230.</avail><supersed>This is a supersede
+statement.</supersed>
+<authnot>U.S. ARMY AVIATION ANDMISSILE COMMAND</authnot>
+<pubdate>30 April 1986</pubdate></idinfo>
+<reportoferrors>
+<para>You can help improve this manual. If you find mistakes or know of a
+way to improve procedures, please let us know. Mail your letter, DA Form 2028
+(Recommended Changes to Publications and Blank Forms) located at the back
+of this manual, directly to: US.</para>
+</reportoferrors>
+<hazardmaterialstatement>
+<title>THIS IS THE HAZARDOUS MATERIAL TITLE</title>
+<para>This is the hazard material paragraph and it could be short or long.
+The longer the paragraph the less space is required to center the text. This
+is loads of fun putting the hazard material statement in the publication.
+</para>
+</hazardmaterialstatement>
+<contents></front>
+<body>
+<chapter><title></title>
+<para0>
+<title>PURPOSE.</title><para>The purpose of this modification is to refer
+to XXXX dated DD Month YEAR</para>
+</para0>
+<para0>
+<title>PRIORITY.</title><para>This modification is classified &ldquo;ROUTINE&rdquo;.
+</para>
+</para0>
+<para0>
+<title>END ITEM OR SYSTEM TO BE MODIFIED.</title><para>The following end items
+shall be modified in accordance with the instructions contained in Paragraph
+XX.</para>
+<table label="nonum" frame="topbot">
+<title></title>
+<tgroup cols="4"><colspec colname="col1" colwidth="1.75in"><colspec colname="col2"
+colwidth="1.75in"><colspec colname="col3" colwidth="1.75in"><colspec colname="col4"
+colwidth="1.75in">
+<thead>
+<row><entry colsep="1" rowsep="1" valign="top">Nomenclature</entry><entry
+colsep="1" rowsep="1" valign="top">National Stock Number</entry><entry colsep="1"
+rowsep="1" valign="top">Type and Model</entry><entry colsep="1" rowsep="1"
+valign="top">Serial Number</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1">Helicopter, Longbow Apache</entry><entry colsep="1">
+1520&ndash;01&ndash;355&ndash;8250</entry><entry colsep="1">AH-64D</entry>
+<entry colsep="1">Refer to xxx dated dd month year</entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+<para0>
+<title>MODULES (Components, Assemblies, Subassemblies, Boards, and Cards)
+TO BE MODIFIED.</title><para>Refer to XXXX dated dd month year.</para>
+<table label="nonum" frame="all">
+<title></title>
+<tgroup cols="3"><colspec colname="col1" colwidth="2.33in"><colspec colname="col2"
+colwidth="2.33in"><colspec colname="col4" colwidth="2.33in">
+<thead>
+<row><entry colsep="1" rowsep="1" valign="top" align="center">Nomenclature
+</entry><entry colsep="1" rowsep="1" valign="top" align="center">National
+Stock Number</entry><entry colsep="1" rowsep="1" valign="top" align="center">
+Serial Number</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1">Helicopter, Longbow Apache</entry><entry colsep="1">
+1520&ndash;01&ndash;355&ndash;8250</entry><entry colsep="1">Refer to xxx dated
+dd month year</entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+<para0>
+<title>PART(s) TO BE MODIFIED.</title><para>Refer to XXXX dated dd month year.
+</para>
+<table label="nonum" frame="topbot">
+<title></title>
+<tgroup cols="3"><colspec colname="col1" colwidth="2.33in"><colspec colname="col2"
+colwidth="2.33in"><colspec colname="col4" colwidth="2.33in">
+<thead>
+<row><entry colsep="1" rowsep="1" valign="top" align="center">Nomenclature
+</entry><entry colsep="1" rowsep="1" valign="top" align="center">National
+Stock Number</entry><entry colsep="1" rowsep="1" valign="top" align="center">
+Part Number</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1">Helicopter, Longbow Apache</entry><entry colsep="1">
+1520&ndash;01&ndash;355&ndash;8250</entry><entry colsep="1">yyy-hhhhh</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+<para0>
+<title>APPLICATION.</title>
+<subpara1><para></para>
+<table label="nonum" frame="all">
+<title></title>
+<tgroup cols="2" align="center">
+<?PubTbl tgroup dispwid="441.00px">
+<colspec colname="col1" colwidth="2.67in"><colspec colname="col2" colwidth="1.25in">
+<thead>
+<row><entry colsep="1" rowsep="1" valign="top">Work Force/Skills</entry><entry
+colsep="1" rowsep="1" valign="top">Man-Hours</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1" align="left">2 Helicopter Mechanics</entry><entry colsep="1">
+.5</entry></row>
+<row><entry align="left">1 Inspector</entry><entry>.5</entry></row>
+</tbody>
+</tgroup>
+</table>
+</subpara1></para0>
+<para0>
+<title>TECHNICAL PUBLICATIONS.</title><para>Affected/changed technical publicaiitons:
+</para>
+<table label="nonum" frame="none">
+<title></title>
+<tgroup cols="2">
+<?PubTbl tgroup dispwid="355.00px">
+<colspec colname="col1" colwidth="1.50in"><colspec colname="col2" colwidth="1.65in">
+<tbody>
+<row><entry colsep="0" rowsep="0">TM 1&ndash;1520&ndash;237&ndash;23</entry>
+<entry colsep="0" rowsep="0">Current Version</entry></row>
+<row><entry colsep="0" rowsep="0">TM 1&ndash;1520&ndash;237&ndash;23P</entry>
+<entry colsep="0" rowsep="0">Current Version</entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+<para0>
+<title>SUPPLY KITS/PARTS AND DISPOSITION.</title>
+<note>
+<para>It is permissible to increase or decrease hardware size by up to two
+sizes to facilitate installation.</para>
+</note>
+<subpara1><para>Kits\Parts required to accomplish MWO.</para>
+<subpara2><para>Kits required to accomplish this MWO are:</para>
+<table label="nonum" frame="all">
+<title></title>
+<tgroup cols="5">
+<?PubTbl tgroup dispwid="625.00px">
+<colspec colname="col1" colwidth="1.87in"><colspec colname="col2" colwidth="1.34in">
+<colspec colname="col3" colwidth="0.61in"><colspec colname="col4" colwidth="1.36in">
+<colspec colname="colspec0" colwidth="0.38in">
+<thead>
+<row><entry colsep="1" rowsep="1" valign="top" align="center">Nomenclature
+</entry><entry colsep="1" rowsep="1" valign="top" align="center">National
+Stock Number</entry><entry colsep="1" rowsep="1" valign="top" align="center">
+Cage</entry><entry colsep="1" rowsep="1" valign="top" align="center">Part
+Number</entry><entry valign="top" align="center">Qty</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1">Inertia Reel Kit Pilot/Copilot Seat Assembly Consisting
+of:</entry><entry colsep="1">1520&ndash;01&ndash;355&ndash;8250</entry><entry
+colsep="1" align="center">99499</entry><entry colsep="1" align="center">97005&ndash;1
+</entry><entry align="center">1</entry></row>
+<row><entry></entry><entry></entry><entry align="center"></entry><entry align="center"></entry>
+<entry align="center"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</subpara2>
+</subpara1>
+<subpara1><para>Bulk and Consumable Material.</para>
+<table label="nonum" frame="all">
+<title></title>
+<tgroup cols="5">
+<?PubTbl tgroup dispwid="625.00px">
+<colspec colname="col1" colwidth="1.87in"><colspec colname="col2" colwidth="1.34in">
+<colspec colname="col3" colwidth="0.61in"><colspec colname="col4" colwidth="1.36in">
+<colspec colname="colspec0" colwidth="0.38in">
+<thead>
+<row><entry colsep="1" rowsep="1" valign="top" align="center">Nomenclature
+</entry><entry colsep="1" rowsep="1" valign="top" align="center">National
+Stock Number</entry><entry colsep="1" rowsep="1" valign="top" align="center">
+Cage</entry><entry colsep="1" rowsep="1" valign="top" align="center">Part
+Number</entry><entry valign="top" align="center">Qty</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1">Inertia Reel Kit Pilot/Copilot Seat Assembly Consisting
+of:</entry><entry colsep="1">1520&ndash;01&ndash;355&ndash;8250</entry><entry
+colsep="1" align="center">99499</entry><entry colsep="1" align="center">97005&ndash;1
+</entry><entry align="center">1</entry></row>
+<row><entry></entry><entry></entry><entry align="center"></entry><entry align="center"></entry>
+<entry align="center"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</subpara1></para0>
+<para0>
+<title>SPECIAL TOOLS, JIGS, TEST, MEASURE AND DIAGNOSTIC EQUIPMENT (TMDE),
+AND FIXTURES REQUIRED.</title><para></para>
+</para0>
+<para0>
+<title>MODIFICATION PROCEDURES.</title><para></para>
+</para0>
+<para0>
+<title>CALIBRATION REQUIRED.</title><para></para>
+</para0>
+<para0>
+<title>WEIGHT AND BALANCE DATA.</title><para></para>
+</para0>
+<para0>
+<title>QUALITY ASSURANCE REQUIREMENTS.</title><para></para>
+</para0>
+<para0>
+<title>RECORDING AND REPORTING OF THE MODIFICATION.</title><para></para>
+<subpara1><para></para>
+</subpara1>
+<subpara1><para></para>
+</subpara1>
+<subpara1><para>Identification Data.</para>
+<table label="nonum" frame="all">
+<title></title>
+<tgroup cols="3">
+<?PubTbl tgroup dispwid="625.00px">
+<colspec colname="col1" colwidth="1.64in"><colspec colname="col2" colwidth="1.79in">
+<colspec colname="col3" colwidth="2.13in">
+<thead>
+<row><entry colsep="1" rowsep="1" valign="top" align="center"></entry><entry
+colsep="1" rowsep="1" valign="top" align="center">Before Modification</entry>
+<entry colsep="1" rowsep="1" valign="top" align="center">If Modification is
+Applied</entry></row>
+</thead>
+<tbody>
+<row><entry colsep="1">Nomenclature</entry><entry colsep="1">Seat, Aircraft
+</entry><entry colsep="1" align="center">No CHange</entry></row>
+<row><entry>Cage/Part Number</entry><entry>Norton, 44197/RA30525&ndash;1</entry>
+<entry align="center">______________/</entry></row>
+<row><entry>NSN</entry><entry>1680&ndash;01&ndash;087&ndash;2370</entry><entry
+align="center">______-_____-_____-</entry></row>
+<row><entry>Nomenclature</entry><entry>Seat, Aircraft</entry><entry align="center">
+No Change</entry></row>
+<row><entry>Cage/Part Number</entry><entry>Simula, 5478611/100900&ndash;11
+</entry><entry align="center">5478611/100900&ndash;11</entry></row>
+<row><entry>NSN</entry><entry>1680&ndash;01&ndash;230&ndash;1450</entry><entry
+align="center">______-_____-_____-</entry></row>
+</tbody>
+</tgroup>
+</table>
+</subpara1></para0>
+<para0>
+<title>MATERIAL CHANGE (mc) NUMBER.</title><para></para>
+</para0>
+<para0>
+<title>MODIFICATION IDENTIFICATION.</title><para></para>
+</para0>
+<para0>
+<title>NARRATIVE AND GRAPHIC DESCRIPTION OF MWO.</title><para></para>
+</para0>
+</chapter>
+<chapter><title></title>
+<para0 label="nonum">
+<title></title></para0>
+</chapter></body></doc>
+<?Pub *0000011242 0>

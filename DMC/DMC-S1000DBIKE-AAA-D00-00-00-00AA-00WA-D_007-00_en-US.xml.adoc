@@ -1,0 +1,9 @@
+Serial number SN Serial number (etched on the frame) Serial Number
+(locate under the bottom bracket where the two pedal cranks meet Type
+Type of bike Model Model of the bike Version Version of the bike Version
+rank series Version rank Brake Serial number BSN Serial number on the
+brake Brake model - The model of the brake in a bike
+
+S1000DBIKE-AAA-D00-00-00-00AA-00QA-D
+
+S1000DBIKE-AAA-D00-00-00-00AA-00PA-D

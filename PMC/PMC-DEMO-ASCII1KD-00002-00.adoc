@@ -8,6 +8,9 @@ v0.0.1, October 7, 2020: Initial revision
 :toclevels: 4
 :numbered:
 :CONFIG2: 000000101
+:stylesheet: ../css/document.css
+
+include::../CIR/DMC-DEMO-000-00-00-01A-999Z-A.adoc[]
 
 include::../DMC/DMC-DEMO-000-10-00-01A-040B-A.adoc[leveloffset=+1]
 

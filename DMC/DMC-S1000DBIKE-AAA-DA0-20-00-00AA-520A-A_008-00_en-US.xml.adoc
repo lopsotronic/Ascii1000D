@@ -1,0 +1,12 @@
+== Preliminary requirements
+
+== Procedure
+
+[arabic]
+. Hold the rear of the bicycle.
+. Push the wheel forwards and down to disengage the chain from the
+sprocket.
+. Turn the wheel to the side and lift it away from the frame.
+. Put the frame on the floor.
+
+== Requirements after job completion

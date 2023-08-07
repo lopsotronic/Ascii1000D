@@ -1,0 +1,101 @@
+== Procedure
+
+[arabic]
+
+== Procedure
+
+[arabic]
+. {blank}
++
+[cols=",",]
+|===
+|Pressure a|
+=== 
+
+.Correlation of tire pressure and terrain
+[cols=",,",options="header",]
+!===
+!Tire Pressures !Min !Max
+!Off Road !35lbs !40lbs
+!On Road !55lbs !60lbs
+!===
+
+|===
+. {blank}
++
+[cols=",",]
+|===
+|Tires |No cracks or splits
+|===
+
+== Procedure
+
+[arabic]
+. {blank}
++
+[cols=",",]
+|===
+|Wheels |No loose bearings
+|===
+. {blank}
++
+[cols=",",]
+|===
+|Wheels |True
+|===
+. {blank}
++
+[cols=",",]
+|===
+|Spokes |Not broken
+|===
+. {blank}
++
+[cols=",",]
+|===
+|Spokes |Tight
+|===
+. {blank}
++
+[cols=",",]
+|===
+|Axel Nuts |Tight
+|===
+
+== Procedure
+
+[arabic]
+. {blank}
++
+[cols=",",]
+|===
+|Headset bearings |Tight
+|===
+
+== Procedure
+
+[arabic]
+. {blank}
++
+[cols=",",]
+|===
+|Links |Easy movement of links
+|===
+
+== Procedure
+
+[arabic]
+. Replace stem
+. Tighten stem
+. Tighten clamp bolt
+
+== Procedure
+
+[arabic]
+. {blank}
++
+[cols=",",]
+|===
+|Computer Display |ALTITUDE 0 miles SPEED 0 mph DISTANCE 0 miles SPEED 0
+mph DISTANCE 0 miles
+|===

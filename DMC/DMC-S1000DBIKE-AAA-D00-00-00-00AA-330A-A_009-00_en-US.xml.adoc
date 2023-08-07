@@ -1,0 +1,22 @@
+== Preliminary requirements
+
+Operator 0,3
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Test stand |BSK-TLST-999-01 |KZ666 |1 |
+|===
+
+== Procedure
+
+[arabic]
+. Ensure link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-330A-A_seq-0001[Test
+stand] is level.
+. Place bicycle on the test stand.
+. Tight clamps until bicycle is securely attach to the test stand.
+
+== Requirements after job completion

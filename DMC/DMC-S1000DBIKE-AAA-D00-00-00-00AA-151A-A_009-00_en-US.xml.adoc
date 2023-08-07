@@ -1,0 +1,46 @@
+== Preliminary requirements
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Specialist toolset |BSK-TLST-001 |KZ666 |1 |
+|===
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|General lubricant | |KZ222 |As required |
+|===
+
+== Procedure
+
+[arabic]
+. Clean the bicycle.
+[arabic]
+.. Clean the bicycle with water.
+.. Use the brush from the
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-151A-A_seq-0001[Specialist
+toolset] to clean the brakes, the shift levers, the sprockets and the
+tires.
+.. Let the bicycle dry.
+. Lubricate the bicycle
+[arabic]
+.. Spray the
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-151A-A_sup-0001[General
+lubricant], to these moving parts:
+* the brake pivots
+* the derailleur pivots
+* the derailleur tension guides
+* the brake lever pivots
+* the control cables
+* the gear sprockets
+* the chain
+.. Remove the lubricant which is more than the necessary.
+
+== Requirements after job completion

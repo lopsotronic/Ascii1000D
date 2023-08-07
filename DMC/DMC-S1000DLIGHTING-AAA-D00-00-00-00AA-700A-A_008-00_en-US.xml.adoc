@@ -1,0 +1,57 @@
+== Preliminary requirements
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|Bike is stationary |
+|===
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+| | | |1 |
+|===
+
+== Procedure
+
+[arabic]
+. Impacted
+zones:link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-700A-A_zon-200[ ] and
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-700A-A_zon-300[ ]
+. {blank}
+. {blank}
+. Remove the lighting system from the packaging.
+. Make sure that the components in the package are the same as those on
+the
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-941A-D[S1000DLIGHTING-AAA-D00-00-00-00AA-941A-D]
+. Install the light bulb to the front and rear lights (refer to
+link:#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A[S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A]).
+. Attach the front light fitting on the top of the handlebar.
+[arabic]
+.. Apply the protective strip around the handlebar.
+.. Pull the clamp open and put it around the protective strip with the
+light connector at the top.
+.. Install the washer on the screw.
+.. Use the correct screwdriver from the
+#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-700A-A_seq-0001 and tighten the
+screw into the hole at the bottom of the clamp. This safeties the clamp
+to the handlebar.
+. Attach the rear light fitting to the rear triangle of the bike frame.
+[arabic]
+.. Apply the protective strip around one of the two rear triangle
+up-tubes.
+.. Pull the clamp open and put it around the protective strip. Make sure
+the light connector points rearwards.
+.. Install the washer on the screw.
+.. Use the correct screwdriver from the
+#ID_S1000DLIGHTING-AAA-D00-00-00-00AA-700A-A_seq-0001 and tighten the
+screw into the hole at the bottom of the clamp. This safeties the clamp
+to the tube.
+. Attach the light with the white glass to the front connector.
+. Attach the light with the red glass to the rear connector.
+
+== Requirements after job completion

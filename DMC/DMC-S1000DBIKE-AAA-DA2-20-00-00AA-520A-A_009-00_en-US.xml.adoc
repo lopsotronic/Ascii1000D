@@ -1,0 +1,56 @@
+== Preliminary requirements
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|The bicycle is held safely on a work stand. |
+|===
+
+Operator 1,5
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Set of Allen wrenches |BSK-TLST-001-13 |KZ666 |1 |
+|Work stand |Stand-001 |KZ555 |1 |
+|===
+
+[WARNING]
+====
+Do not ride a bicycle with no grips on the handlebar. This can cause the
+hands of the rider to slip.
+====
+
+== Procedure
+
+[arabic]
+. {blank}
+[arabic]
+.. Put a long thin screwdriver below the grip and apply water between
+the grip and the handle bar.
+.. Turn the grip forwards and rearwards to loosen it and then pull it
+off the end of the handlebar.
+. {blank}
+[arabic]
+.. Loosen the clamp screw (refer to
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-520A-A_fig-0001[Loosen the clamp
+screw with the Allen wrench] ) which is behind or below the brake lever
+(as shown).
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0389-001-01.CGM[Loosen
+the clamp screw with the Allen wrench]
+.. Remove the lever and the mount from the handlebar.
+.. Loosen the clamp bolt and remove the shifter from the handlebar.
+. Use a link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-520A-A_seq-0001[Set of
+Allen wrenches] and loosen the clamp bolt (refer to
+link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-520A-A_fig-0002[Loosen the clamp
+bolt] ). To remove, move the handlebar out of the stem.
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0388-001-01.CGM[Loosen
+the clamp bolt]
+
+== Requirements after job completion

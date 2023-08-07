@@ -1,0 +1,967 @@
+<?xml-stylesheet href="PM11x85Series.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="PM11x85Series.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2004, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN" [
+<!ENTITY availability SYSTEM "\\pubs\amcom-pubs\Common\Boilerplates\Availability.txt">
+<!ENTITY warningicon_fire2 SYSTEM "P:\Graphics\_Standard symbols\Warning icons\warningicon_fire2.tif" NDATA tif>
+<!ENTITY warningicon_earprotection SYSTEM "P:\Graphics\_Standard symbols\Warning icons\warningicon_earprotection.tif" NDATA tif>
+<!ENTITY warningicon_cryogenic SYSTEM "\\pubs\amcom-pubs\Graphics\_Standard symbols\Warning icons\warningicon_cryogenic.tif" NDATA tif>
+<!ENTITY empty_square SYSTEM "\\pubs\amcom-pubs\Graphics\_Standard symbols\empty_square.tif" NDATA tif>
+<!ENTITY need_a_graphic SYSTEM "\\pubs\amcom-pubs\Graphics\_Standard symbols\need_a_graphic.tif" NDATA tif>
+<!ENTITY need-a-graphic1 SYSTEM "\\pubs\amcom-pubs\Graphics\_Standard symbols\need-a-graphic.eps" NDATA eps>
+<!NOTATION eps SYSTEM "eps">
+<!ENTITY ms023285 SYSTEM "P:\Graphics\TM55-1520-210-23-3\ms023285.tif" NDATA tif>
+<!ENTITY reportoferrors 'You can help improve this bulletin. If you find mistakes
+or know of a way to improve procedures, pleas let us know. Mail you letter,
+DA Form 2028 (Recommended Changes to Publications and Blank Forms) located
+at the back of this bulletin, directly to: Commander, U.S. Army Aviation and
+Missile Command, ATTN: AMSAM-MMC-MA-NP, Redstone Arsenal, AL 35898-5000. 
+A reply will be furnished to you.  You may also provide DA Form 2028 information
+to AMCOM via e-mail, fax or the World Wide Web.  Our fax number is DSN 788-6546
+or Commercial (256) 842-6546. Our e-mail address i 2028@redstone.army.mil.
+Instruction for sending an electronic 2028 may be found at the back of this
+bulletin immediately preceding the hard copy 2028.  For the World Wide We
+use: <?Pub _font Underline="yes">htpps://amcom2028.redstone.army.mil'>
+<!ENTITY b0200801 SYSTEM "P:\Graphics\TM55-1520-210-23P-1\ms025481.tif" NDATA tif>
+<!ENTITY b0301001 SYSTEM "graphics\tif\b0301001.tif" NDATA fax>
+<!ENTITY b0301101 SYSTEM "graphics\tif\b0301101.tif" NDATA fax>
+<!ENTITY b0301201 SYSTEM "graphics\tif\b0301201.tif" NDATA fax>
+<!ENTITY b0301301 SYSTEM "graphics\tif\b0301301.tif" NDATA fax>
+<!ENTITY b0301501 SYSTEM "graphics\tif\b0301501.tif" NDATA fax>
+<!ENTITY b0400101 SYSTEM "graphics\tif\b0400101.tif" NDATA fax>
+<!ENTITY triang1 SYSTEM "graphics\tif\triang1.tif" NDATA fax>
+<!ENTITY b0400201 SYSTEM "graphics\tif\b0400201.tif" NDATA fax>
+<!ENTITY triang2 SYSTEM "graphics\tif\triang2.tif" NDATA fax>
+<!ENTITY b0400301 SYSTEM "graphics\tif\b0400301.tif" NDATA fax>
+<!ENTITY b0400401 SYSTEM "graphics\tif\b0400401.tif" NDATA fax>
+<!ENTITY b0400501 SYSTEM "graphics\tif\b0400501.tif" NDATA fax>
+<!ENTITY b0400601 SYSTEM "graphics\tif\b0400601.tif" NDATA fax>
+<!ENTITY b0400701 SYSTEM "graphics\tif\b0400701.tif" NDATA fax>
+<!ENTITY b0400801 SYSTEM "graphics\tif\b0400801.tif" NDATA fax>
+<!ENTITY b0400901 SYSTEM "graphics\tif\b0400901.tif" NDATA fax>
+<!ENTITY b0401001 SYSTEM "graphics\tif\b0401001.tif" NDATA fax>
+<!ENTITY b0401101 SYSTEM "graphics\tif\b0401101.tif" NDATA fax>
+<!ENTITY b0401201 SYSTEM "graphics\tif\b0401201.tif" NDATA fax>
+<!ENTITY triang3 SYSTEM "graphics\tif\triang3.tif" NDATA fax>
+<!ENTITY empty SYSTEM "graphics\tif\empty.tif" NDATA fax>
+<!ENTITY b0401501 SYSTEM "graphics\tif\b0401501.tif" NDATA fax>
+<!ENTITY b0401601 SYSTEM "graphics\tif\b0401601.tif" NDATA fax>
+<!ENTITY b0401701 SYSTEM "graphics\tif\b0401701.tif" NDATA fax>
+<!ENTITY triang4 SYSTEM "graphics\tif\triang4.tif" NDATA fax>
+<!ENTITY triang5 SYSTEM "graphics\tif\triang5.tif" NDATA fax>
+<!ENTITY b0401901 SYSTEM "graphics\tif\b0401901.tif" NDATA fax>
+<!ENTITY b0402001 SYSTEM "graphics\tif\b0402001.tif" NDATA fax>
+<!ENTITY b0402101 SYSTEM "graphics\tif\b0402101.tif" NDATA fax>
+<!ENTITY b0402201 SYSTEM "graphics\tif\b0402201.tif" NDATA fax>
+<!ENTITY b0402301 SYSTEM "graphics\tif\b0402301.tif" NDATA fax>
+<!ENTITY b0402401 SYSTEM "graphics\tif\b0402401.tif" NDATA fax>
+<!ENTITY b0402501 SYSTEM "graphics\tif\b0402501.tif" NDATA fax>
+<!ENTITY b0402701 SYSTEM "graphics\tif\b0402701.tif" NDATA fax>
+<!ENTITY b0402801 SYSTEM "graphics\tif\b0402801.tif" NDATA fax>
+<!ENTITY b0402901 SYSTEM "graphics\tif\b0402901.tif" NDATA fax>
+<!ENTITY b0403001 SYSTEM "graphics\tif\b0403001.tif" NDATA fax>
+<!ENTITY b0403101 SYSTEM "graphics\tif\b0403101.tif" NDATA fax>
+<!ENTITY b0403201 SYSTEM "graphics\tif\b0403201.tif" NDATA fax>
+<!ENTITY b0403301 SYSTEM "graphics\tif\b0403301.tif" NDATA fax>
+<!ENTITY b0403501 SYSTEM "graphics\tif\b0403501.tif" NDATA fax>
+<!ENTITY b0403601 SYSTEM "graphics\tif\b0403601.tif" NDATA fax>
+<!ENTITY b0403701 SYSTEM "graphics\tif\b0403701.tif" NDATA fax>
+<!ENTITY b0403801 SYSTEM "graphics\tif\b0403801.tif" NDATA fax>
+<!ENTITY b0404001 SYSTEM "graphics\tif\b0404001.tif" NDATA fax>
+<!ENTITY b0404101 SYSTEM "graphics\tif\b0404101.tif" NDATA fax>
+<!ENTITY b0404201 SYSTEM "graphics\tif\b0404201.tif" NDATA fax>
+<!ENTITY b0404301 SYSTEM "graphics\tif\b0404301.tif" NDATA fax>
+<!ENTITY b0404401 SYSTEM "graphics\tif\b0404401.tif" NDATA fax>
+<!ENTITY b0500101 SYSTEM "graphics\tif\b0500101.tif" NDATA fax>
+<!ENTITY b0500201 SYSTEM "graphics\tif\b0500201.tif" NDATA fax>
+<!ENTITY b0500301 SYSTEM "graphics\tif\b0500301.tif" NDATA fax>
+<!ENTITY b0500401 SYSTEM "graphics\tif\b0500401.tif" NDATA fax>
+<!ENTITY b0500501 SYSTEM "graphics\tif\b0500501.tif" NDATA fax>
+<!ENTITY b0500701 SYSTEM "graphics\tif\b0500701.tif" NDATA fax>
+<!ENTITY b0500901 SYSTEM "graphics\tif\b0500901.tif" NDATA fax>
+<!ENTITY b0501001 SYSTEM "graphics\tif\b0501001.tif" NDATA fax>
+<!ENTITY b0501101 SYSTEM "graphics\tif\b0501101.tif" NDATA fax>
+<!ENTITY b0501201 SYSTEM "graphics\tif\b0501201.tif" NDATA fax>
+<!ENTITY b0501301 SYSTEM "graphics\tif\b0501301.tif" NDATA fax>
+<!ENTITY b0501401 SYSTEM "graphics\tif\b0501401.tif" NDATA fax>
+<!ENTITY b0501501 SYSTEM "graphics\tif\b0501501.tif" NDATA fax>
+<!ENTITY b0501601 SYSTEM "graphics\tif\b0501601.tif" NDATA fax>
+<!ENTITY b0501701 SYSTEM "graphics\tif\b0501701.tif" NDATA fax>
+<!ENTITY b0501801 SYSTEM "graphics\tif\b0501801.tif" NDATA fax>
+<!ENTITY b0501901 SYSTEM "graphics\tif\b0501901.tif" NDATA fax>
+<!ENTITY b0502001 SYSTEM "graphics\tif\b0502001.tif" NDATA fax>
+<!ENTITY b0502101 SYSTEM "graphics\tif\b0502101.tif" NDATA fax>
+<!ENTITY b0502201 SYSTEM "graphics\tif\b0502201.tif" NDATA fax>
+<!ENTITY b0502301 SYSTEM "graphics\tif\b0502301.tif" NDATA fax>
+<!ENTITY spring SYSTEM "graphics\tif\spring.tif" NDATA fax>
+<!ENTITY b0502401 SYSTEM "graphics\tif\b0502401.tif" NDATA fax>
+<!ENTITY b0502501 SYSTEM "graphics\tif\b0502501.tif" NDATA fax>
+<!ENTITY b0503001 SYSTEM "graphics\tif\b0503001.tif" NDATA fax>
+<!ENTITY b0503101 SYSTEM "graphics\tif\b0503101.tif" NDATA fax>
+<!ENTITY b0503201 SYSTEM "graphics\tif\b0503201.tif" NDATA fax>
+<!ENTITY b0503301 SYSTEM "graphics\tif\b0503301.tif" NDATA fax>
+<!ENTITY b0101201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0101201.tif" NDATA tif>
+<!ENTITY b0103201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0103201.tif" NDATA tif>
+<!ENTITY b0200008 SYSTEM "\\pubs\amcom-pubs\Graphics\DMWR1-1650-358\b0200008.tif" NDATA tif>
+<!ENTITY b0101401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0101401.tif" NDATA tif>
+<!ENTITY b0101301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0101301.tif" NDATA tif>
+<!ENTITY b0103001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0103001.tif" NDATA tif>
+<!ENTITY b0102001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0102001.tif" NDATA tif>
+<!ENTITY boatdraw SYSTEM "\\pubs\amcom-pubs\Graphics\boatdraw.tif" NDATA tif>
+<!ENTITY atilogo SYSTEM "\\pubs\amcom-pubs\Graphics\atilogo.gif" NDATA gif>
+<!ENTITY arches2 SYSTEM "\\pubs\amcom-pubs\graphics\arches.bmp" NDATA bmp>
+<!ENTITY arches1 SYSTEM "\\pubs\amcom-pubs\Graphics\arches.gif" NDATA gif>
+<!ENTITY arches SYSTEM "\\pubs\amcom-pubs\Graphics\arches.bmp" NDATA bmp>
+<!ENTITY triangleb SYSTEM "P:\Graphics\_Standard symbols\Triangles with letters\triangle_B.tif" NDATA tif>
+<!ENTITY nothing SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\nothing.jpg" NDATA jpg>
+<!ENTITY box SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\box.jpg" NDATA jpg>
+<!ENTITY ms022467 SYSTEM "P:\Graphics\DMWR 1-1520-240\ms022467.cgm" NDATA cgm>
+<!ENTITY distrd-foreigngov SYSTEM "P:\Common\Distribution Stmts\distrD-foreigngov.txt">
+<!ENTITY distrc-software SYSTEM "P:\Common\Distribution Stmts\distrC-software.txt">
+<!ENTITY face SYSTEM "P:\Graphics\face.gif" NDATA gif>
+<!ENTITY moonrove SYSTEM "P:\Graphics\saw.tif" NDATA tif>
+<!ENTITY home SYSTEM "P:\Graphics\home.gif" NDATA gif>
+<!ENTITY dtduck3 SYSTEM "P:\Graphics\dtduck3.gif" NDATA gif>
+<!ENTITY bull1 SYSTEM "P:\Graphics\bull.gif" NDATA gif>
+<!ENTITY bulldoze SYSTEM "P:\Graphics\bulldoze.tif" NDATA tif>
+<!ENTITY need-a-graphic SYSTEM "\\pubs\amcom-pubs\Graphics\need_a_graphic.cgm" NDATA fax>
+<!ENTITY reperrors1 PUBLIC "reperrors1" NDATA cgm>
+<!NOTATION gif SYSTEM "gif">
+<!NOTATION bmp SYSTEM "bmp">
+<!ENTITY DSCN6688 SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\40bday\DSCN6688.JPG" NDATA jpg>
+<!ENTITY DSCN6684 SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\40bday\DSCN6684.jpg" NDATA jpg>
+<!NOTATION jpg SYSTEM "jpg">
+<!ENTITY b0100301 SYSTEM "\\pubs\AMCOM-Pubs\Graphics\dmwr 55-1680-341\b0100301.tif" NDATA tif>
+<!ENTITY b0203301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0203301.tif" NDATA tif>
+<!ENTITY b0202201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0202201.tif" NDATA tif>
+<!ENTITY b0202001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0202001.tif" NDATA tif>
+<!ENTITY b0201301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0201301.tif" NDATA tif>
+<!ENTITY b0201101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0201101.tif" NDATA tif>
+<!ENTITY b0201001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0201001.tif" NDATA tif>
+<!ENTITY b0200901 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200901.tif" NDATA tif>
+<!ENTITY b0200701 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200701.tif" NDATA tif>
+<!ENTITY b0200601 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200601.tif" NDATA tif>
+<!ENTITY b0200501 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200501.tif" NDATA tif>
+<!ENTITY b0200401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200401.tif" NDATA tif>
+<!ENTITY b0200301 SYSTEM "\\pubs\amcom-pubs\graphics\dmwr 55-1680-341\b0200301.tif" NDATA tif>
+<!ENTITY b0200201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200201.tif" NDATA tif>
+<!ENTITY b0200101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200101.tif" NDATA tif>
+<!ENTITY b0103301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0103301.tif" NDATA tif>
+<!ENTITY b0103101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0103101.tif" NDATA tif>
+<!ENTITY b0102901 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102901.tif" NDATA tif>
+<!ENTITY b0102801 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102801.tif" NDATA tif>
+<!ENTITY b0102701 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102701.tif" NDATA tif>
+<!ENTITY b0102601 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102601.tif" NDATA tif>
+<!ENTITY b0102501 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102501.tif" NDATA tif>
+<!ENTITY b0102401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102401.tif" NDATA tif>
+<!ENTITY b0102301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102301.tif" NDATA tif>
+<!ENTITY b0102201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102201.tif" NDATA tif>
+<!ENTITY b0102101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102101.tif" NDATA tif>
+<!ENTITY b0101901 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101901.tif" NDATA tif>
+<!ENTITY b0101801 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101801.tif" NDATA tif>
+<!ENTITY b0101701 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101701.tif" NDATA tif>
+<!ENTITY b0101601 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101601.tif" NDATA tif>
+<!ENTITY b0101501 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101501.tif" NDATA tif>
+<!ENTITY b0100401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0100401.tif" NDATA tif>
+<!ENTITY maintl "DEPOT MAINTENANCE WORK REQUIREMENT">
+<!ENTITY pubdate "30 APRIL 1986">
+]>
+<?Pub EntList alpha bull copy rArr sect trade aelig deg percnt amp plusmn
+ delta ast mdash nbsp emsp14 emsp13 sdotb>
+<doc service="army" docid="xxx-PMD" docstat="routine"><?Pub Tag atict:info
+tracking="off" ref="0"><?Pub Tag atict:user user="overstreet-ro" fullname="overstreet-ro">
+<front><idinfo>
+<tmidno service="army"></tmidno>
+<doctype pubtype="tm"></doctype>
+<prtitle>
+<nomen>Preventative maintenance Daily Inspection Checklist</nomen>
+<modelno>Weapon System Name</modelno>
+</prtitle>
+<repro>This is the reproduction </repro>
+<distrib type="a"></distrib>
+<supersed>Superseded statement</supersed>
+<authnot>U.S. ARMY AVIATION AND<brk>MISSILE COMMAND</authnot>
+<pubdate>30 April 1986</pubdate></idinfo><warnpage><warning centered-para="1">
+<para>This is a warning, this means that what you see is dangerous or life-threatening
+to your health.</para>
+</warning>
+<caution>
+<para>This is a caution, it isn't as dangerous as a warning and isn't life-threatening.
+It means something can be broken or busted if not done correctly. It isn't
+supposed to be indented. it should be full justified and is not acting as
+such. This should be full justified to both margins.</para>
+</caution>
+<note>
+<para>This is a note, it should not be indented on the warning page. It is
+too full justified on the page and should print out that way. This should
+be full justified to both margins.</para>
+</note>
+<wpgentry>
+<title>GENERAL WARNING</title>
+<para wcnid="wcn001b">Observe all cautions and warnings on containers when
+using consumables. When applicable, wear necessary protective gear during
+handling and use. If a consumable is flammable or explosive, MAKE CERTAIN
+consumable and its vapors are kept away from heat, spark, and flame. MAKE
+CERTAIN firefighting equipment is readily available prior to use. For additional
+information on toxicity, flashpoint, and flammability of chemicals, refer
+to . </para>
+</wpgentry>
+<wpgentry>
+<title>THIS IS A TITLE</title>
+<para wcnid="wcn003">Do not direct compressed air near or directly against
+skin. Do not use air under high pressure, or from a source not having a moisture
+trap when drying parts. Do not spin bearings with compressed air. Compressed
+air shall not be used for cleaning purposes except where reduced to less than
+30 psi and only then with an effective chip guarding and personnel protection
+equipment.</para>
+</wpgentry>
+<wpgentry>
+<title>GENERAL WARNING</title>
+<para>Observe all cautions and warnings on containers when using consumables.
+When applicable, wear necessary protective gear during handling and use. If
+a consumable is flammable or explosive, MAKE CERTAIN consumable and its vapors
+are kept away from heat, spark, and flame. MAKE CERTAIN firefighting equipment
+is readily available prior to use. For additional information on toxicity,
+flashpoint, and flammability of chemicals, refer to . </para>
+</wpgentry>
+<wpgcaution><para>It isn't a good idea to use air under high pressure, or
+from a source not having a moisture trap when drying parts.</para>
+</wpgcaution>
+<wpgcaution><para>Do not direct compressed air near or directly against skin.
+Do not use air under high pressure, or from a source not having a moisture
+trap when drying parts. Do not spin bearings with compressed air. Compressed
+air shall not be used for cleaning purposes except where reduced to less than
+30 psi and only then with an effective chip guarding and personnel protection
+equipment.</para>
+</wpgcaution>
+</warnpage>
+<chginssht><chgnum>5</chgnum><address></address>
+<date>12 September 2000</date>
+<prtitle>
+<nomen></nomen></prtitle>
+<distrib type="a"></distrib>
+<chglist>
+<removepg></removepg><insertpg></insertpg></chglist>
+</chginssht>
+<lep><chghistdate>1 June 1987</chghistdate><chghistdate>2 February 1988</chghistdate>
+<chghistdate>3 June 1990</chghistdate><chghistdate>4 September 1993</chghistdate>
+<chghistdate>5 May 1995</chghistdate><chghistdate>6 June 1997</chghistdate>
+</lep>
+<reportoferrors>
+<para>You can help improve this manual. If you find mistakes or know of a
+way to improve procedures, please let us know. Mail your letter, DA Form 2028
+(Recommended Changes to Publications and Blank Forms) located at the back
+of this manual, directly to: US.</para>
+</reportoferrors>
+<contents><howtouse>
+<para0>
+<title></title>
+<table label="nonum">
+<title></title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+</para0></howtouse></front>
+<body>
+<chapter label="nonum" xid="chap1"><table label="nonum-cont" frame="none">
+<title></title>
+<tgroup cols="2">
+<?PubTbl tgroup cbmarg="7.00pt" ctmarg="7.00pt">
+<colspec colname="colspec0" colwidth="0.44in">
+<?PubTbl tgroup cbmarg="7.00pt" ctmarg="7.00pt">
+<?PubTbl tgroup dispwid="6.52in" ctmarg="7.00pt" cbmarg="7.00pt">
+<colspec colname="col1" colwidth="2.00*"><spanspec namest="colspec0" nameend="col1"
+spanname="span1">
+<tbody><row valign="top">
+<?PubTbl row breakpenalty="10000">
+<entry spanname="span1" colsep="0" rowsep="0" align="right"><emphasis type="bold"><?Pub _font
+TypeSize="14pt">*TM Number-PMD<?Pub /_font></emphasis></entry></row><row valign="top">
+<?PubTbl row breakpenalty="10000">
+<entry spanname="span1" colsep="0" rowsep="0" align="right"><emphasis type="bold"><?Pub _font
+TypeSize="12pt">HEADQUARTERS<brk>DEPARTMENT OF THE ARMY<brk>Washington, D.C.,<?Pub /_font>
+</emphasis> 8 August 1980</entry></row><row rowsep="0" valign="top">
+<?PubTbl row breakpenalty="10000">
+<entry spanname="span1" colsep="0" align="center"><?Pub _cellfont TypeSize="14pt">
+ <emphasis type="bold"><?Pub _font TypeSize="12pt">WeaponSystemName<brk>PREVENTIVE
+MAINTENANCE<brk>DAILY INSPECTION CHECKLIST<?Pub /_font></emphasis></entry>
+</row><row>
+<?PubTbl row breakpenalty="10000">
+<entry spanname="span1" colsep="0"></entry>
+<?PubTbl row rht="0.02in">
+</row><row rowsep="0" valign="top">
+<?PubTbl row breakpenalty="10000">
+<entry spanname="span1" colsep="0" align="center"><emphasis type="bold"><?Pub _font
+TypeSize="12pt">GENERAL INFORMATION AND SCOPE<?Pub /_font></emphasis></entry>
+<?PubTbl row rht="0.02in">
+</row><row rowsep="0" valign="top">
+<?PubTbl row breakpenalty="10000">
+<entry spanname="span1" colsep="0" align="justify">WARNING: CERTAIN INSPECTIONS
+ARE MANDATORY SAFETY-OF-FLIGHT REQUIREMENTS, AND THE INSPECTION INTERVALS
+CANNOT BE EXCEEDED. IN THE EVENT THESE INSPECTIONS CANNOT BE ACCOMPLISHED
+AT DAILY INTERVAL, THE AIRCRAFT CONDITION STATUS SYMBOL WILL BE IMMEDIATELY
+CHANGED TO A RED X. THESE TYPE INSPECTION ITEMS ARE PRECEDED BY &ldquo;MANDATORY
+SAFETY-OF-FLIGHT INSPECTION ITEM.&rdquo;<brk> <brk>NOTE: INDIVIDUAL INSPECTION
+ITEMS CONTAINED IN THIS MANUAL ARE CONSIDERED THE MINIMUM REQUIREMENTS FOR
+PERFORMING A DAILY INSPECTION AND MUST BE PERFORMED. THE CUMULATIVE EFFECTS
+OF INSPECTION DEFERRALS ARE UNKNOWN AND COULD RESULT IN CATASTROPHIC FAILURE
+OR INCREASED MAINTENANCE AT A LATER DATE. THEREFORE, THE USE OF SPECIAL LETTERING
+TO EMPHASIZE CRITICAL INSPECTION IS NOT TO BE CONSTRUED AS AUTHORITY FOR DEFERRAL
+OF OTHER INSPECTIONS.</entry>
+<?PubTbl row rht="0.02in">
+</row><row>
+<?PubTbl row rht="0.42in" breakpenalty="10000">
+<entry colsep="0" rowsep="1" align="justify"></entry><entry colsep="0" rowsep="0"></entry>
+</row><row>
+<?PubTbl row rht="0.02in" breakpenalty="10000">
+<entry spanname="span1" colsep="0" align="justify">*This manual together with
+TM NUmber, Pub Date8, supersedes TM NUMBER dated Pubdate, including all changes.
+</entry></row></tbody>
+</tgroup>
+</table>
+<title></title>
+<para0>
+<title>Inspection Requirements.</title><para>This manual contains complete
+requirements for daily inspection for OH-58 helicopters. It does not contain
+instructions for repair, adjustment, or other means of rectifying conditions,
+nor does it contain instructions for troubleshooting to find causes for malfunctioning.
+Specific tolerances, limits, ect., can be found in the applicable maintenance
+manuals. Use of the alphabetical index in the applicable manuals will facilitate
+locating the required information.</para>
+</para0>
+<para0>
+<title>Maintenance Activities.</title><para>The inspections prescribed by
+this manual will be performed at specified periods by Aviation Unit Maintenance
+IAVUK) activities with assistance of Aviation Intermediate Maintenance (AVIM)
+and Depot activities when required.</para>
+</para0>
+<para0>
+<title>General Information.</title>
+<subpara1>
+<title></title><para>The inspection requirements contained herein are stated
+in such a manner as to establish what and when certain equipment is to be
+inspected and what conditions are desired/undesired. Compliance with the provisions
+outlined herein is required in order to assure that proper servicing has been
+accomplished and latent defects are discovered and corrected before malfunctioning
+or serious trouble results. Inspection requirements are arranged, as nearly
+as possible, according to the manner in which they will be performed. The
+requirements are divided into groups under area headings (figure 1).</para>
+</subpara1>
+<subpara1>
+<title></title><para>The inspection intervals designated herein will not be
+exceeded except in actual operational emergencies as explained herein. It
+is the commander's responsibility to determine (on an individual aircraft
+basis) when inspection intervals may be exceeded. For this purpose, operational
+emergencies are conditions of combat, or conditions of disaster which necessitate
+flight to evacuate aircraft or personnel. When aircraft are operated beyond
+the normal inspection due-time because of such emergency situations, a circled
+red X status symbol and an appropriate statement (to include authority) must
+be entered in blocks 16 and 17 of DA Form 2408&ndash;13 (Aircraft Inspection
+and Maintenance Record) until such time as the inspection is complete. Since
+safety may be jeopardized when inspections are delayed to meet emergency requirements,
+commander will ensure that the aircraft status symbol reverts to a red &ldquo;X&rdquo;
+and that delayed inspections are accomplished immediately upon termination
+of the actual emergency. When unusual local conditions of environment, utilization,
+mission, experience of flight crew and maintenance personnel, periods of inactivity,
+ect., are encountered, the maintenance <ftnote ftnid="kk"><?Pub Caret></ftnote>officer
+will, at his discretion, increase the scope and/or frequency of maintenance
+or inspections as necessary to ensure safe flight.</para>
+<subpara2>
+<title></title>
+<subpara3>
+<title></title><para></para>
+<subpara4>
+<title></title><para></para>
+<subpara5>
+<title></title><para></para>
+<subpara6>
+<title></title><para></para>
+<subpara7>
+<title></title><para></para>
+</subpara7>
+</subpara6>
+</subpara5>
+</subpara4>
+</subpara3>
+</subpara2>
+</subpara1></para0>
+<para0 xid="par1-3">
+<title>DEVIATIONS AND EXCEPTIONS.</title><para>These instructions are for
+use by depot/contractor personnel. They apply to Magnetic Brake Assembly,
+part numbers R460M39-3 and R460M39-4 and, in case of conflict, take precedence
+over all other documents pertinent to its overhaul and inspection.</para>
+<warning>
+<title>WCN009 HERE</title>
+<para>This is wcn009a to be a para under the WCN009 HERE title.</para>
+</warning>
+<para>This is actually a paragraph all alone. These instructions are for use
+by depot/contractor personnel. They apply to Magnetic Brake Assembly, part
+numbers R460M39-3 and R460M39-4 and, in case of conflict, take precedence
+over all other documents pertinent to its overhaul and inspection.</para>
+<para>This is actually a paragraph all alone. These instructions are for use
+by depot/contractor personnel. They apply to Magnetic Brake Assembly, part
+numbers R460M39-3 and R460M39-4 and, in case of conflict, take precedence
+over all other documents pertinent to its overhaul and inspection.</para>
+<para>This is actually a paragraph all alone. These instructions are for use
+by depot/contractor personnel. They apply to Magnetic Brake Assembly, part
+numbers R460M39-3 and R460M39-4 and, in case of conflict, take precedence
+over all other documents pertinent to its overhaul and inspection.</para>
+<caution>
+<para>This is a caution paragraph. It should be here. This caution can go
+on for a long time or be a one-line caution. Check it out some time!</para>
+</caution>
+<note>
+<para>THIS IS A PARA FOR A NOTE. IT SHOULD BE HERE.</para>
+</note>
+<para>This is actually a paragraph all alone. These instructions are for use
+by depot/contractor personnel. They apply to Magnetic Brake Assembly, part
+numbers R460M39-3 and R460M39-4 and, in case of conflict, take precedence
+over all other documents pertinent to its overhaul and inspection.</para>
+<subpara1>
+<title></title>
+<caution wcnref="wcn003"></caution>
+<note>
+<para>THIS IS A PARA FOR A NOTE. IT SHOULD BE HERE.</para>
+</note>
+<para>This is a subpara1 without a title.</para>
+<subpara2>
+<title></title></subpara2>
+</subpara1>
+<subpara1>
+<title></title><para>This is actually a paragraph all alone. These instructions
+are for use by depot/contractor personnel. They apply to Magnetic Brake Assembly,
+part numbers R460M39-3 and R460M39-4 and, in case of conflict, take precedence
+over all other documents pertinent to its overhaul and inspection.</para>
+</subpara1></para0>
+</chapter><chapter label="pmd"><pgbrk pgnumber="7">
+<title></title>
+<para0 label="nonum">
+<title></title><table label="nonum-cont" frame="none">
+<title></title>
+<tgroup cols="2">
+<?PubTbl tgroup dispwid="5.33in">
+<colspec colname="col1" colwidth="1.30*"><colspec colname="col2" colwidth="0.70*">
+<spanspec namest="col1" nameend="col2" spanname="span1">
+<tbody><row><entry spanname="span1" rowsep="0"><emphasis type="bold">PREVENTATIVE
+MAINTENANCE DAILY CHECKLIST</emphasis><brk> <brk></entry></row><row><entry
+spanname="span1" align="justify">The Preventive Maintenance Daily Checklist
+will be accomplished following the last flight of the day or prior to the
+first flight on the next day on which the aircraft is flown. The inspection
+consists of visual examination and operational checks to determine that the
+aircraft can safely and efficiently perform its assigned mission.<brk> <brk><emphasis
+type="bold">DAILY INSPECTION TOTAL WORK TIME: 2.3 Work Hours</emphasis></entry>
+</row></tbody>
+</tgroup>
+</table><table label="nonum-cont" tabstyle="pmd" frame="all" pgwide="2">
+<title></title>
+<tgroup cols="2">
+<?PubTbl tgroup clmarg="3.00pt" crmarg="3.00pt" ctmarg="3.00pt" cbmarg="3.00pt">
+<colspec colname="col1" align="center" colwidth="0.25*"><colspec colname="col2"
+align="justify" colwidth="1.75*">
+<thead><row><entry valign="top">Seq No.</entry><entry valign="middle" align="center">
+Item and Procedure</entry></row></thead>
+<tbody><row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">NOSE AREA No. 1</emphasis></entry></row><row><entry rowsep="0">
+1.1</entry><entry rowsep="0">Inspect aircraft forms and records for recorded
+discrepancies (DA PAM 738-751).</entry></row><row><entry rowsep="0">1.2</entry>
+<entry rowsep="0">Nose section exterior for visible damage.</entry></row>
+<row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry>
+</row><row><entry rowsep="0">1.3</entry><entry rowsep="0">Pitot tube and static
+ports for obstructions and cleanliness.</entry></row><row><entry rowsep="0">
+1.4</entry><entry rowsep="0">Forward proximity warning system antenna for
+condition and security. </entry></row><row><entry rowsep="0">1.5</entry><entry
+rowsep="0">Radar warning antennas for damage and security</entry></row><row>
+<entry rowsep="0">1.6</entry><entry rowsep="0">Landing lights, brackets, terminals
+and wiring for condition.</entry></row><row><entry rowsep="0">1.7</entry>
+<entry rowsep="0">Landing/search light for damage and security.</entry></row>
+<row><entry rowsep="0">1.8</entry><entry rowsep="0">UHF antenna for condition
+and security.</entry></row><row><entry rowsep="0">1.9</entry><entry rowsep="0">
+Vent system drain for obstructions, condition.</entry></row><row><entry rowsep="0">
+1.10</entry><entry rowsep="0">Chin bubbles for damage and cleanliness.</entry>
+</row><row><entry rowsep="0">1.11</entry><entry rowsep="0">Windshields and
+windows for damage and cleanliness.</entry></row><row>
+<?PubTbl row breakpenalty="-10000">
+<entry rowsep="0">1.12</entry><entry rowsep="0">WSPS Windshield Deflector
+for damage and security.</entry></row><row><entry rowsep="0">1.13</entry>
+<entry rowsep="0">WSPS Lower Cutter Assembly for damage and security.</entry>
+</row><row><entry rowsep="0">1.14</entry><entry rowsep="0">Breakaway Tip for
+looseness of play</entry></row><row><entry rowsep="0"></entry><entry rowsep="0"
+align="center"><emphasis type="bold">CABIN AND LANDING<brk>GEAR AREA No.2<brk>(RIGHT
+SIDE)</emphasis></entry></row><row><entry rowsep="0">2.1</entry><entry rowsep="0">
+Cabin exterior for damage.</entry></row><row><entry rowsep="0">2.2</entry>
+<entry rowsep="0">Check fuel for water and other contamination. Drain fuel
+sump (use sample jar) through the sump drain.</entry></row><row><entry rowsep="0">
+2.3</entry><entry rowsep="0">Landing gear for condition of skid tubes, cross
+tubes, attachment fittings and skid shoes for evidence of hard landing damage
+and security.</entry></row><row><entry rowsep="0">2.4</entry><entry rowsep="0">
+Radar altimeter antennas for damage and security.</entry></row><row><entry
+rowsep="0">2.5</entry><entry rowsep="0">Transponder antenna for damage and
+security.</entry></row><row><entry rowsep="0">2.6</entry><entry rowsep="0">
+Radar warning antenna for damage and security (blade).</entry></row><row>
+<entry rowsep="0">2.7</entry><entry rowsep="0">Marker beacon antenna for damage
+and security.</entry></row>
+<?Pub _newcolumn>
+<brk type="col"><row><entry rowsep="0">2.8</entry><entry rowsep="0">Crew and
+passenger doors for positive latching and proper operation, windows and vents
+for cleanliness and damage. Check hinges and condition of weather stripping.
+Door posts for cracks.</entry></row><row><entry rowsep="0">2.9</entry><entry
+rowsep="0">Crew and passenger door jettison handles for proper installation
+and breakaway safetywire.</entry></row><row><entry rowsep="0">2.10</entry>
+<entry rowsep="0">Cabin interior for cleanliness, proper stowage of equipment
+and visible damage.</entry></row><row><entry rowsep="0">2.11</entry><entry
+rowsep="0">Nose section interior for cleanliness; equipment for visible damage
+and loose connections.</entry></row><row><entry rowsep="0"></entry><entry
+rowsep="0" align="center"><emphasis type="bold">MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION
+ITEM</emphasis></entry></row><row><entry rowsep="0">2.12</entry><entry rowsep="0">
+Anti-torque pedals for freedom of operation and security.</entry></row><row>
+<entry rowsep="0">2.13</entry><entry rowsep="0">Current compass correction
+card for availability and legibility.</entry></row><row>
+<?PubTbl row breakpenalty="-10000">
+<entry rowsep="0">2.14</entry><entry rowsep="0">Instrument panel and instruments
+for security, condition and range markings.</entry></row><row><entry rowsep="0">
+2.15</entry><entry rowsep="0">FAT gauge for condition and security.</entry>
+</row><row><entry rowsep="0">2.16</entry><entry rowsep="0">Check fuel valve
+handle-on (FWD) and off (AFT) then on (FWD) for binding, proper operation,
+condition, and security.</entry></row><row><entry rowsep="0">2.17</entry>
+<entry rowsep="0">Overhead console for condition and security.</entry></row>
+<row><entry rowsep="0">2.18</entry><entry rowsep="0">Utility light and wire
+for condition security, and proper mounting.</entry></row><row><entry rowsep="0">
+2.19</entry><entry rowsep="0">Heater control for condition and security.</entry>
+</row><row><entry rowsep="0"></entry><entry rowsep="0" align="center"></entry>
+</row><row><entry rowsep="0"></entry><entry rowsep="0" align="center"></entry>
+</row><row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry>
+</row><row><entry rowsep="0">2.20</entry><entry rowsep="0">Collective and
+power controls for freedom of operation.</entry></row><row><entry rowsep="0">
+2.21</entry><entry rowsep="0">Collective boots for condition, security and
+throttle set screw.</entry></row><row><entry rowsep="0"></entry><entry rowsep="0"
+align="center"><brk type="col"><emphasis type="bold">MANDATORY SAFETY<brk>OF
+FLIGHT<brk>INSPECTION ITEM</emphasis></entry></row><row><entry rowsep="0">
+2.22 </entry><entry rowsep="0">Cyclic control fro freedom of operation.</entry>
+</row><row><entry rowsep="0">2.23</entry><entry rowsep="0">Cyclic, boots and
+grips for condition, security.</entry></row><row><entry rowsep="0">2.24</entry>
+<entry rowsep="0">Copilot cyclic control for security of electrical connectors.
+</entry></row><row><entry rowsep="0">2.25</entry><entry rowsep="0">Seat bottom
+for security, damage, and condition of webbing and date of installation. Seat
+back cushions for cleanliness and condition.</entry></row><row><entry rowsep="0">
+2.26</entry><entry rowsep="0">Safety belts and shoulder harness for damage,
+corrosion, cuts, fraying, and security. Inertia reels for damage, security,
+and positive locking and unlocking. Safety belt mounting hinges and brackets
+for cracks (visual). Check retarder springs for proper operation.</entry>
+</row><row><entry rowsep="0">2.27</entry><entry rowsep="0">Armor panels for
+condition and security.</entry></row><row><entry rowsep="0"></entry><entry
+rowsep="0"></entry></row><row><entry rowsep="0"></entry><entry rowsep="0"></entry>
+</row><row><entry rowsep="0"></entry><entry rowsep="0"></entry></row><pgbrk>
+<row>
+<?PubTbl row breakpenalty="-10000">
+<entry rowsep="0">2.28</entry><entry rowsep="0">Fire extinguisher for designated
+location, presence of inspection date tag, broken or missing seal, pressure
+indicator in green, extinguisher and brackets secure.</entry></row><row><entry
+rowsep="0">2.29</entry><entry rowsep="0">First aid kits for designated location,
+presence of inspection date tag, broken or missing seal, completeness of side
+pocket contents, legible identification markings, and security (refer to TM
+55-1500-204-25/1).</entry></row><row><entry rowsep="0">2.30</entry><entry
+rowsep="0">Passenger seat and back cushions, retainer loops and tabs for damage,
+condition and security.</entry></row><row><entry rowsep="0">2.31</entry><entry
+rowsep="0">Sound-proofing for condition, security, and cleanliness.</entry>
+</row><row><entry rowsep="0">2.32</entry><entry rowsep="0">Aft electrical
+equipment shelf for unauthorized or foreign objects, cleanliness, and security
+of components.</entry></row><row><entry rowsep="0"></entry><entry rowsep="0"></entry>
+</row><row>
+<?Pub _newcolumn>
+<entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis type="bold">
+ENGINE AREA No. 3<brk>(RIGHT SIDE)<brk> <brk>MANDATORY SAFETY OF FLIGHT<brk>INSPECTION
+ITEM</emphasis></entry></row><row><entry rowsep="0">3.1</entry><entry rowsep="0">
+Engine air inlet bellmouth assembly through engine inlet fairing window for
+separation, cracking, deformation, security and obstructions and plenum area
+for loose or foreign objects.</entry></row><row><entry rowsep="0">3.2</entry>
+<entry rowsep="0">Particle separator for damage and particle ejection opening
+for freedom of obstructions, and loose vortex tubes (generators).</entry>
+</row><row><entry rowsep="0">3.2.1</entry><entry rowsep="0">Inspection particle
+separator to induction fairing for fit and sealing. Firewall to induction
+fairing for fit and sealing.</entry></row><row><entry rowsep="0">3.3</entry>
+<entry rowsep="0">Engine cowling and fairing for damage, security; and condition
+of fasteners and hinges.</entry></row><row><entry rowsep="0">3.4</entry><entry
+rowsep="0">Anti-collision light for condition and security; loose connections.
+</entry></row><row><entry rowsep="0">3.5</entry><entry rowsep="0">Engine mounts
+and engine mount fittings, for cracks, damage and security.</entry></row>
+<row>
+<?PubTbl row rht="0.75in">
+<entry rowsep="0">3.5.1</entry><entry rowsep="0">Remove chip detector on freewheeling
+assembly and check for metal particles and reinstall.</entry></row><row>
+<?PubTbl row rht="0.59in">
+<entry rowsep="0">3.6</entry><entry rowsep="0">Fuel control linkage for damage
+and security.</entry></row><pgbrk><row>
+<?PubTbl row breakpenalty="-10000">
+<entry rowsep="0">3.7</entry><entry rowsep="0">Compressor armor for condition
+and security.</entry></row><row><entry rowsep="0"></entry><entry rowsep="0"
+align="center"><emphasis type="bold">MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION
+ITEM</emphasis></entry></row><row><entry rowsep="0">3.8</entry><entry rowsep="0">
+Compressor, bleed valve for damage and obstruction.</entry></row><row><entry
+rowsep="0"></entry><entry rowsep="0" align="center"><emphasis type="bold">
+MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry></row>
+<row><entry rowsep="0">3.9</entry><entry rowsep="0">Bleed air elbows (2) for
+damage.</entry></row><row><entry rowsep="0">3.10</entry><entry rowsep="0">
+Engine, accessories, and connections for damage and security.</entry></row>
+<row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry>
+</row><row><entry rowsep="0">3.11</entry><entry rowsep="0">Exhaust stacks
+for damage, corrosion, obstructions, and security. Exhaust stack clamp for
+cracks, corrosion, and security.</entry></row>
+<brk type="col"><row><entry rowsep="0">3.12</entry><entry rowsep="0">Starter
+generator for condition, security. Exhaust duct for condition, obstruction,
+and security.</entry></row><row><entry rowsep="0">3.13</entry><entry rowsep="0">
+Main input driveshaft coupling for evidence of overheating. Exterior plating
+for heat discoloration or blistering. Paint strips (if used) for discoloration.
+</entry></row><row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry>
+</row><row><entry rowsep="0"></entry><entry rowsep="0">Inspect main rotor
+driveshaft 206-040-371 for damage and fastener security.</entry></row><row>
+<entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis type="bold">
+AFT<brk>FUSELAGE AREA No. 4<brk>(RIGHT SIDE)</emphasis></entry></row><row>
+<entry rowsep="0">4.1</entry><entry rowsep="0">Fuel filler cap for proper
+locking and condition of seal, security of lanyard.</entry></row><row><entry
+rowsep="0">4.1.1</entry><entry rowsep="0">If installed, inspect rubber pad
+below fuel receiver for debonding.</entry></row><pgbrk><row>
+<?PubTbl row breakpenalty="-10000">
+<entry rowsep="0">4.2</entry><entry rowsep="0">FM homing antenna for condition
+and security.</entry></row><row><entry rowsep="0">4.3</entry><entry rowsep="0">
+Battery and fuel vents for condition, obstruction, proper positioning and
+security.</entry></row><row><entry rowsep="0">4.4</entry><entry rowsep="0">
+Air ducts for condition and security.</entry></row><row><entry rowsep="0">
+4.5</entry><entry rowsep="0">External power access door for condition and
+security.</entry></row><row><entry rowsep="0">4.6</entry><entry rowsep="0">
+Radar warning antennas for damage and security.</entry></row><row><entry rowsep="0"></entry>
+<entry rowsep="0"></entry></row><row><entry rowsep="0"></entry><entry rowsep="0"></entry>
+</row><row><entry rowsep="0"></entry><entry rowsep="0"></entry></row><row>
+<entry rowsep="0"></entry><entry rowsep="0"></entry></row><row><entry rowsep="0"></entry>
+<entry rowsep="0"></entry></row><row><entry rowsep="0"></entry><entry rowsep="0"></entry>
+</row><row><entry rowsep="0"></entry><entry rowsep="0"></entry></row><row>
+<?Pub _newcolumn>
+<entry rowsep="0"></entry><entry rowsep="0"></entry></row><row><entry rowsep="0"></entry>
+<entry rowsep="0"></entry></row><row><entry rowsep="0"></entry><entry rowsep="0"></entry>
+</row><row><entry rowsep="0"></entry><entry rowsep="0"></entry></row><row>
+<entry rowsep="0"></entry><entry rowsep="0"></entry></row><row><entry rowsep="0"></entry>
+<entry rowsep="0"></entry></row>
+<?PubTbl row breakpenalty="-10000">
+<pgbrk pgnumber="12.1/(12.2 blank)" chglevel="12" chgmark="on" pageblank="1">
+<row><entry rowsep="0"></entry><entry rowsep="0"></entry></row><row><entry
+rowsep="0"></entry><entry rowsep="0"></entry></row><row><entry rowsep="0"></entry>
+<entry rowsep="0" align="center"><emphasis type="bold">AFT FAIRING AND OIL<brk>COOLER
+AREA No. 5<brk>(RIGHT SIDE)</emphasis></entry></row><row><entry rowsep="0"></entry>
+<entry rowsep="0" align="center"><emphasis type="bold"> MANDATORY SAFETY<brk>OF
+FLIGHT<brk>INSPECTION ITEM</emphasis></entry></row><row><entry rowsep="0">
+5.1</entry><entry rowsep="0">Engine oil tank for damage, security and servicing
+lines for leaks and damage. Loose or missing identification tape on oil lines.
+</entry></row><row><entry rowsep="0">5.2</entry><entry rowsep="0">Oil filler
+access door for condition and security.</entry></row><row><entry rowsep="0">
+5.3</entry><entry rowsep="0"><change level="12">Engine external scavenge oil
+filter for damage, security, lines for leaks and damage, and bypass indicator
+(red button) in. Loose or missing identification tape on oil lines. After
+compliance with MWO 55-1520-228-50-44.</change></entry></row><row><entry rowsep="0"></entry>
+<entry rowsep="0" align="center"><emphasis type="bold">TAIL BOOM AREA No.
+6</emphasis></entry></row><row><entry rowsep="0"></entry><entry rowsep="0"
+align="center"><emphasis type="bold">MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION
+ITEM</emphasis></entry></row><row><entry rowsep="0">6.1</entry><entry rowsep="0">
+Tail boom exterior for visible damage.</entry></row><row><entry rowsep="0">
+6.2</entry><entry rowsep="0">Driveshaft cover for damage, security, and condition
+of fasteners.</entry></row><row><entry rowsep="0">6.3</entry><entry rowsep="0">
+Long tail rotor drive shaft and bearings for evidence of overheat; inspect
+slippage marks, excessive grease leakage, bonded fittings for security, splined
+adapters for freedom of movement. Do not wipe grease from seal area. Inspection
+not required after compliance with MWO 55-1520-228-50-25.</entry></row><row>
+<entry rowsep="0">6.3.1 </entry><entry rowsep="0">Check segmented driveshaft
+for condition, shaft coupling disc for distortion, cracks and security, splined
+adapter from freedom of movement, and bearing and driveshaft for evidence
+of over heating. Do not wipe grease from seal area. Required after compliance
+with MWO 55-1520-228-50-25.</entry></row><row><entry rowsep="0">6.4</entry>
+<entry rowsep="0">Horizontal stabilizer for visible damage.</entry></row>
+<row><entry rowsep="0">6.5</entry><entry rowsep="0">Navigation lights for
+condition and security.</entry></row><row><entry rowsep="0">6.6</entry><entry
+rowsep="0">VOR antennas for damage and security.</entry></row><row><entry
+rowsep="0">6.7</entry><entry rowsep="0">Tail light and support for damage
+and security.</entry></row><row><entry rowsep="0">6.8</entry><entry rowsep="0">
+Vertical stabilizer, tail skid, and antenna leads for security and damage.
+</entry></row><row><entry rowsep="0">6.8.1</entry><entry rowsep="0">Inspect
+the inboard skin of the vertical fin for cracks</entry></row><row><entry rowsep="0">
+6.9</entry><entry rowsep="0">Ballast installation for security and condition.
+</entry></row><row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry>
+</row><row><entry rowsep="0">6.10</entry><entry rowsep="0">Tail rotor controls
+for damage and security of attachment bolts.</entry></row><row>
+<?PubTbl row breakpenalty="-10000">
+<entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis type="bold">
+MANDATORY SAFETY OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry></row><row>
+<entry rowsep="0">6.10.1</entry><entry rowsep="0">Tail rotor pitch links for
+cracks using ten-power magnification. Pay particular attention to area around
+ball bearing at each end of pitch link. Suspected cracks shall be confirmed
+by penetrant inspection.</entry></row><row><entry rowsep="0"></entry><entry
+rowsep="0" align="center"><emphasis type="bold">MANDATORY SAFETY OF FLIGHT<brk>INSPECTION
+ITEM</emphasis></entry></row><row><entry rowsep="0">6.11</entry><entry rowsep="0">
+Tail rotor gear box for security, oil level, condition, and vent for obstruction.
+Check slight glass for cracks, damage, and stains that might give a false
+indication of the oil level.</entry></row><row><entry rowsep="0"></entry>
+<entry rowsep="0" align="center"><emphasis type="bold">MANDATORY SAFETY OF
+FLIGHT<brk>INSPECTION ITEM</emphasis></entry></row><row><entry rowsep="0">
+6.12</entry><entry rowsep="0">Tail rotor hub and blade assembly for security
+and damage.</entry></row><row><entry rowsep="0">6.12.1</entry><entry rowsep="0">
+Tail rotor blades for cleanliness and clean as required.</entry></row><row>
+<entry rowsep="0">6.12.2</entry><entry rowsep="0">Inspect all self-locking
+nuts on the tail rotor blade and hub assembly for cracks, damage and security.
+</entry></row><row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">MANDATORY SAFETY OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry>
+</row><row><entry rowsep="0">6.13</entry><entry rowsep="0">Inspect both tail
+rotor blades for cracks on both sides in the area approximately 7 inches outboard
+from the butt end and 1.5 inches aft of the leading edge. If inspection reveals
+a crack, blade must be removed for evaluation prior to next flight. Tail rotor
+blades with serial number TLL-8000 and below require ten-power magnification
+for the inspection </entry></row><row><entry rowsep="0"></entry><entry rowsep="0">
+and careful inspection for corrosion and deterioration of clear coating on
+areas left clear for inspection. Not required after compliance with MWO 55-1520-228-50-25.
+</entry></row><row><entry rowsep="0">6.13.1</entry><entry rowsep="0">Inspect
+both T/R blades for cracks using ten power magnification.the sking surfface
+</entry></row><row><entry rowsep="0">6.14</entry><entry rowsep="0">Vulnerability
+reduction control system access panel for damage and security.</entry></row>
+<row><entry rowsep="0">6.15</entry><entry rowsep="0">VOR antenna for damage
+and security.</entry></row><row><entry rowsep="0">6.16</entry><entry rowsep="0">
+Horizontal stabilizer for visible damage</entry></row><row><entry rowsep="0">
+6.17</entry><entry rowsep="0">Navigation lights for condition and security.
+</entry></row><row><entry rowsep="0"></entry><entry rowsep="0" align="center"></entry>
+</row><row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">MANDATORY SAFETY OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry>
+</row><row><entry rowsep="0">6.18</entry><entry rowsep="0">Inspect tail rotor
+blade tip blocks for cracks, debonding, loose, missing or corroded rivets.
+</entry></row><row><entry rowsep="0"></entry><entry rowsep="0"></entry></row>
+<row>
+<?PubTbl row breakpenalty="-10000">
+<entry rowsep="0"></entry><entry rowsep="0"><emphasis type="bold">AFT FAIRING
+AND<brk>OIL COOLER AREA No. 7<brk>(LEFT SIDE) </emphasis></entry></row><row>
+<entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis type="bold">
+ MANDATORY SAFETY OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry></row><row>
+<entry rowsep="0">7.1</entry><entry rowsep="0">Engine oil tank for damage,
+security and servicing lines for leaks and damage.</entry></row><row><entry
+rowsep="0">7.2</entry><entry rowsep="0">Oil cooler blower and drive shaft
+for damage, cracks, and security. Blower air intake for foreign material and
+clogging.</entry></row><row>
+<?PubTbl row rht="0.54in">
+<entry rowsep="0">7.3</entry><entry rowsep="0">Aft fairing assembly for damage
+and condition of fasteners.</entry></row><row><entry rowsep="0"></entry><entry
+rowsep="0" align="center"><emphasis type="bold">AVIONICS AND AFT No. 8<brk>FUSELAGE
+AREA<brk>(LEFT SIDE)</emphasis></entry></row><row><entry rowsep="0">8.1</entry>
+<entry rowsep="0">Aft proximity warning system antenna for damage and security.
+</entry></row>
+<brk type="col"><row><entry rowsep="0">8.2</entry><entry rowsep="0">ADF sense
+antenna for damage and security.</entry></row><row><entry rowsep="0">8.3</entry>
+<entry rowsep="0">ADF loop antenna for damage and security.</entry></row>
+<row><entry rowsep="0">8.4</entry><entry rowsep="0">Avionics compartment door
+for condition, security, proper operation.</entry></row><row><entry rowsep="0">
+8.5</entry><entry rowsep="0">Avionics compartment for loose or unauthorized
+equipment.</entry></row><row><entry rowsep="0">8.6</entry><entry rowsep="0">
+Foam pad for condition, cleanliness, and security.</entry></row><row><entry
+rowsep="0">8.7</entry><entry rowsep="0">Battery for security and leakage.
+</entry></row><row><entry rowsep="0">8.8</entry><entry rowsep="0">External
+power receptacle for condition and security.</entry></row><row><entry rowsep="0">
+8.9</entry><entry rowsep="0">FM homing antennas for damage and security.</entry>
+</row><row><entry rowsep="0"></entry><entry rowsep="0"></entry></row><row>
+<entry rowsep="0"></entry><entry rowsep="0"></entry></row><row>
+<?PubTbl row breakpenalty="-10000">
+<entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis type="bold">
+ENGINE AREA No. 9<brk>(LEFT SIDE)<brk> <brk>MANDATORY SAFETY OF FLIGHT<brk>INSPECTION
+ITEM</emphasis></entry></row><row><entry rowsep="0">9.1</entry><entry rowsep="0">
+Engine air inlet bellmouth assembly through engine inlet fairing window for
+separation, cracking, deformation, security and obstructions and plenum area
+for loose or foreign objects.</entry></row><row><entry rowsep="0">9.2</entry>
+<entry rowsep="0">Particle separator for damage and particle ejection opening
+for freedom of obstructions.</entry></row><row><entry rowsep="0">9.3</entry>
+<entry rowsep="0">Engine cowling and fairing for damage, security, and condition
+of fasteners and hinges.</entry></row><row><entry rowsep="0">9.4</entry><entry
+rowsep="0">Engine mounts and engine mount fittings, for cracks, damage and
+security.</entry></row><row><entry rowsep="0">9.5</entry><entry rowsep="0">
+Compressor armor for condition and security.</entry></row><row><entry rowsep="0">
+9.6</entry><entry rowsep="0">Ariframe mounted fuel filter for condition, leaks
+and security. After compliance with MWO 1-1520-228-50-48.</entry></row><row>
+<entry rowsep="0">9.7</entry><entry rowsep="0">Engine, accessories, and connections
+for damage and security.</entry></row>
+<brk type="col"><row><entry rowsep="0">9.8</entry><entry rowsep="0">Linear
+actuator, linkage, and electrical lead for condition and security.</entry>
+</row><row><entry rowsep="0">9.9</entry><entry rowsep="0">Engine automatic
+relight for condition and security.</entry></row><row><entry rowsep="0">9.10
+</entry><entry rowsep="0">Exhaust stacks for damage, corrosion, obstructions,
+and security. Exhaust stack clamp for cracks, corrosion, and security.</entry>
+</row><row><entry rowsep="0">9.11</entry><entry rowsep="0">Engine combustion
+chamber housing, turbine support assembly and exhaust ducts for cracks, dents,
+burned, or buckled areas.</entry></row><row><entry rowsep="0">9.12</entry>
+<entry rowsep="0">Drain valve for leakage, security and contact with drive
+shaft.</entry></row><row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">MANDATORY SAFETY OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry>
+</row><row><entry rowsep="0">9.13</entry><entry rowsep="0">Fuel nozzle and
+lines for security and leaks.</entry></row><row><entry rowsep="0">9.14</entry>
+<entry rowsep="0">Forward tail rotor driveshaft for cleanliness, corrosion,
+and freedom of movement on the splined adapters.</entry></row><row>
+<?PubTbl row breakpenalty="-10000">
+<entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis type="bold">
+TRANSMISSION AND<brk>PYLON AREA No. 10<brk>(LEFT SIDE)<brk> <brk>MANDATORY
+SAFETY<brk>OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry></row><row><entry
+rowsep="0">10.1</entry><entry rowsep="0">Main rotor hub assembly for leakage,
+damage, security, and reservoirs for proper servicing.</entry></row><row>
+<entry rowsep="0">10.2</entry><entry rowsep="0">Sight glass for damage and
+stains which might give false oil level indication.</entry></row><row><entry
+rowsep="0"></entry><entry rowsep="0" align="center"><emphasis type="bold">
+MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry></row>
+<row><entry rowsep="0">10.3</entry><entry rowsep="0">Check pillow blocks for
+mounting condition, security of mounting bolts and slippage marks. If slippage
+has occurred, replace hardware.</entry></row><row><entry rowsep="0">10.4</entry>
+<entry rowsep="0">Static stops for damage and security.</entry></row><row>
+<entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis type="bold">
+MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry></row>
+<row><entry rowsep="0">10.5</entry><entry rowsep="0">Main rotor yoke assembly
+for cracks (visual) between the pillow block bores and lower flange on inboard
+surfaces. Wipe clean yoke web section inner and outer surfaces. If inspection
+by flashlight reveals a crack indication, validate the crack indication using
+fluorescent penetrant. If crack is confirmed, remove yoke assembly from service.
+</entry></row>
+<brk type="col"><row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry>
+</row><row><entry rowsep="0">10.6</entry><entry rowsep="0">Main rotor blades
+for condition, damage, and security.</entry></row><row><entry rowsep="0">
+10.6.1</entry><entry rowsep="0">Main rotor blades for cleanliness and clean
+as required.</entry></row><row><entry rowsep="0">10.7</entry><entry rowsep="0">
+Main rotor blades for corrosion, specifically in the area of the inertia weight
+retention screw holes. Tip cap firing for condition and security. </entry>
+</row><row><entry rowsep="0">10.8</entry><entry rowsep="0">Check main rotor
+blades for protective coating, clean blades and re-wax as required.</entry>
+</row><row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry>
+</row><row><entry rowsep="0">10.9</entry><entry rowsep="0">Visible areas of
+mast for damage.</entry></row><pgbrk><row>
+<?PubTbl row breakpenalty="-10000">
+<entry rowsep="0">10.10</entry><entry rowsep="0">Boot for damage and security.
+</entry></row><row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">MANDATORY SAFETY OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry>
+</row><row><entry rowsep="0">10.11</entry><entry rowsep="0">Swashplate, lever
+and sleeve, and connecting linkage for security and visible damage. Swashplate
+support base drain holes open and free of foreign matter.</entry></row><row>
+<entry rowsep="0"></entry><entry rowsep="0"><note>
+<para>Ensure swashplate is level for inspection of outer-ring self-aligning
+bearings for main rotor push-pull tubes.</para>
+</note></entry></row><row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">MANDATORY SAFETY OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry>
+</row><row><entry rowsep="0">10.12</entry><entry rowsep="0">Cyclic and collective
+control linkage for security and condition. Check for security of attachment
+bolts by attempting to torque nuts with fingers (DO NOT REMOVE COTTER PIN).
+</entry></row><row><entry rowsep="0"></entry><entry rowsep="0"></entry></row>
+<brk><row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">MANDATORY SAFETY OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry>
+</row><row><entry rowsep="0">10.12.1</entry><entry rowsep="0">Main rotor pitch
+links for damage and security of attachment, tubes for corrosion and cracks;
+pay particular attention to swagged ends at jam nut.</entry></row><row><entry
+rowsep="0">10.13</entry><entry rowsep="0">Hydraulic servo actuator support
+assembly for cracks, corrosion, security and damage.</entry></row><row><entry
+rowsep="0">10.14</entry><entry rowsep="0">Hydraulic system components and
+lines for security, chafing, damage, leaks and reservoir for servicing. Collective
+actuator bellcrank cover for missing rubber flipper or flipper bond failure.
+Proper security of hydraulic reservoir cap and pin assembly (Refer to TM 55-1520-228-23-1).
+</entry></row><row><entry rowsep="0">10.15</entry><entry rowsep="0">Hydraulic
+filter element indicator for filter clogged indication.</entry></row><row>
+<entry rowsep="0">10.16</entry><entry rowsep="0">Edges of main drive shaft
+cover assembly for evidence of grease leakage. Security of attaching hardware.
+</entry></row><row>
+<?PubTbl row breakpenalty="-10000">
+<entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis type="bold">
+MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry></row>
+<row><entry rowsep="0">10.17</entry><entry rowsep="0">Power turbine governor
+(N2) linkage for freedom of operation, security, and condition.</entry></row>
+<row>
+<?PubTbl row rht="0.50in">
+<entry rowsep="0">10.18</entry><entry rowsep="0">Sight glass for damage or
+stains which might give false oil level indication.</entry></row><row><entry
+rowsep="0">10.19</entry><entry rowsep="0">Rotor tachometer generator, hydraulic
+pump, for condition and security.</entry></row><row><entry rowsep="0">10.20
+</entry><entry rowsep="0">Transmission oil cooler and duct for condition and
+security and obstruction.</entry></row><row><entry rowsep="0">10.21</entry>
+<entry rowsep="0">Transmission oil filter and filter head for condition, security,
+and leaks.</entry></row><row><entry rowsep="0">10.21.1</entry><entry rowsep="0">
+Roof mounted transmission oil filter for damage, security, lines for leaks
+and damage, and bypass indicator (red button) in. After compliance with MWO
+1-1520-228-50-51.</entry></row>
+<brk type="col"><row><entry rowsep="0">10.22</entry><entry rowsep="0">Pylon
+isolation mount cover for condition, drag pin assembly to static stop or cabin
+roof for foreign objects and damage.</entry></row><row><entry rowsep="0">
+10.22.1</entry><entry rowsep="0">Wipe up oil spillage and clean area using
+cloth dampened with dry cleaning solvent. Wipe dry with clean cloth. Visually
+examine clevis area and mount for cracks, nicks, scratches, and loose or missing
+screws, bolts, and cotter pins.</entry></row><row><entry rowsep="0">10.23
+</entry><entry rowsep="0">Inspect area under drag pin bearing for oil and
+water.</entry></row><row><entry rowsep="0">10.24</entry><entry rowsep="0">
+Inspect transmission deck area for dents, cracks, holes, and overall condition.
+</entry></row><row><entry rowsep="0">10.25</entry><entry rowsep="0">Pylon
+support links for cracks, condition (visual) and security of hardware.</entry>
+</row><row><entry rowsep="0">10.26</entry><entry rowsep="0">Inspect electrical
+wiring for damage, security, and corrosion.</entry></row><row>
+<?PubTbl row breakpenalty="-10000">
+<entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis type="bold">
+MANDATORY SAFETY<brk>OF FLIGHT<brk>INSPECTION ITEM</emphasis></entry></row>
+<row><entry rowsep="0">10.27</entry><entry rowsep="0">Transmission and connections
+for damage and security. Transmission for servicing (Filler cap for security).
+</entry></row><row><entry rowsep="0">10.28</entry><entry rowsep="0">Particle
+separator for damage and particle swirls for condition and security.</entry>
+</row><row><entry rowsep="0">10.29</entry><entry rowsep="0">Check security
+of engine cleaning provision tube and cap assembly.</entry></row><row><entry
+rowsep="0">10.30</entry><entry rowsep="0">Transmission fairing for damage
+and condition of fasteners.</entry></row><row><entry rowsep="0">10.31</entry>
+<entry rowsep="0">IFF antenna for damage and security.</entry></row><row>
+<entry rowsep="0">10.32</entry><entry rowsep="0">Glide slope antenna for damage
+and security.</entry></row>
+<brk type="col"><row><entry rowsep="0">10.33</entry><entry rowsep="0">FM No.
+2 antenna for damage and security.</entry></row><row><entry rowsep="0">10.34
+</entry><entry rowsep="0">WSPS Upper Cutter Assembly for damage and security.
+</entry></row><row>
+<?PubTbl row breakpenalty="-10000">
+<entry rowsep="0">10.35</entry><entry rowsep="0">GPS antenna mounted on WSPS
+upper cutter assembly for damage and security. After compliance with MWO 1-1520-228-50-53.
+</entry></row><row>
+<?PubTbl breakpenalty="-10000">
+<entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis type="bold">
+CABIN AND LANDING<brk>GEAR AREA No. 11<brk>(LEFT SIDE)</emphasis></entry>
+</row><row><entry rowsep="0">11.1</entry><entry rowsep="0">Landing gear for
+condition of skid tubes, cross tubes, attachment fittings and skid shoes for
+evidence of hard landing damage and security.</entry></row><row><entry rowsep="0">
+11.2</entry><entry rowsep="0">Crew and passenger doors for positive latching
+and proper operation, windows and vents for cleanliness and damage. Check
+hinges and condition of weather stripping.</entry></row><row><entry rowsep="0">
+11.3</entry><entry rowsep="0">Seats for security, damage, and condition of
+webbing. Cushions for cleanliness and condition and installation date.</entry>
+</row><row><entry rowsep="0">11.4</entry><entry rowsep="0">Armor plating for
+condition and security.</entry></row><row><entry rowsep="0">11.5</entry><entry
+rowsep="0">Crew and passenger door jettison handles for proper installation
+and breakaway safety wire.</entry></row><row><entry rowsep="0"></entry><entry
+rowsep="0" align="center"><emphasis type="bold">LUBRICATION</emphasis></entry>
+</row><row><entry rowsep="0">All Areas</entry><entry rowsep="0">Service in
+accordance with TM 55-1520-228-23, applicable to the daily requirements.</entry>
+</row>
+<brk><row><entry rowsep="0"></entry><entry rowsep="0" align="center"><emphasis
+type="bold">POWER ON</emphasis></entry></row><row><entry rowsep="0">1.15</entry>
+<entry rowsep="0">Pitot heater for operation.</entry></row><row><entry rowsep="0">
+1.16</entry><entry rowsep="0">Warning and caution panel lights for illumination
+on test.</entry></row><row><entry rowsep="0">2.33</entry><entry rowsep="0">
+Interior and instrument panel lights for proper operation.</entry></row><row>
+<entry rowsep="0"></entry><entry rowsep="0"><warning>
+<para>Assure defogging blower motors and free of foreign debris prior to energizing
+motors.</para>
+</warning></entry></row><row><entry rowsep="0">2.34</entry><entry rowsep="0">
+Operate the defogging blower motors for a minimum of 15 seconds to insure
+proper functioning.</entry></row><row><entry rowsep="0">All Areas</entry>
+<entry rowsep="0">Exterior lights for proper operation.</entry></row><pgbrk>
+<row><entry rowsep="0"></entry><entry rowsep="0"></entry></row><row><entry
+rowsep="0"></entry><entry rowsep="0"></entry></row><row><entry rowsep="0"></entry>
+<entry rowsep="0"></entry></row><row><entry rowsep="0"></entry><entry rowsep="0"></entry>
+</row><row><entry rowsep="0"></entry><entry rowsep="0"></entry></row><row>
+<entry rowsep="0"></entry><entry rowsep="0"></entry></row><row><entry rowsep="0"></entry>
+<entry rowsep="0"></entry></row><row><entry rowsep="0"></entry><entry rowsep="0"></entry>
+</row><row><entry rowsep="0"></entry><entry rowsep="0"></entry></row></tbody>
+</tgroup>
+</table></para0>
+</chapter></body></doc>
+<?Pub *0000064116 0>

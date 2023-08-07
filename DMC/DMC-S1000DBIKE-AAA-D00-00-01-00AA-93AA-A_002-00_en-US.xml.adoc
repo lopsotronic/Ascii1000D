@@ -1,0 +1,34 @@
+== Preliminary requirements
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Saw tool set | | |1 |
+|===
+
+*Spares*
+
+.Spares
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Wheel axis |BSK-AXS-2001 |KZ666 |1 |
+|===
+
+== Procedure
+
+[arabic]
+. Use the (link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-93AA-A_seq-0001[ Saw
+tool KZ666 BSK-TW-100 1 Saw tool KZ666 BSK-TW-100 1 ] ) to saw the
+(link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-93AA-A_spa-0002[ Wheel axis
+KZ666 BSK-AXS-2000 1 Wheel axis KZ666 BSK-AXS-2000 1 ])
++
+Use the (link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-93AA-A_seq-0002[
+Threading tool KZ666 BSK-THR-3001 1 Threading tool KZ666 BSK-THR-3001 1
+] ) when the saw is unbended
+. Put the frame on the floor
+
+== Requirements after job completion

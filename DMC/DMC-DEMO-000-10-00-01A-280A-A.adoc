@@ -19,15 +19,19 @@ NA
 
 == Procedure
 
+include::../CIR/DMC-DEMO-000-00-00-01A-0A4A-A.adoc[tag=Flammable]
+
 [.procedure]
 . {empty}
 +
 include::../CIR/DMC-DEMO-000-00-00-01A-0A4A-A.adoc[tag=HighVoltage]
 +
-Turn on the system
+Turn on the system if the temperature is under 80{deg}
 . Use the `source` switch to ensure that the electrical system is not
 include::../CIR/DMC-DEMO-000-00-00-01A-0A6A-A.adoc[tag=AC]
 during maintenance.
+
+. Ensure electrical safety procedures are followed.
 
 ifdef::CONFIG1[]
 . If the system is CONFIG1, check yellow warning light

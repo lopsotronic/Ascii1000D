@@ -1,0 +1,83 @@
+== Preliminary requirements
+
+Bike rider 0,5
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Tire lever |BSK-TLST-001-04 |KZ666 |1 |
+|Foot pump |BSK-TLST-001-05 |KZ666 |1 |
+|Marker pen |BSK-TLST-001-07 |KZ666 |1 |
+|Tube patch kit |BSK-TLST-001-07 |KZ666 |1 |
+|===
+
+*Spares*
+
+.Spares
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Inner-tube |IT-001 |KT222 |1 |
+|===
+
+[CAUTION]
+====
+When you remove the rear wheel to repair a puncture, disconnect the
+brake arm from the chain stay.
+====
+
+== Procedure
+
+[arabic]
+. Remove the rear wheel. (Refer to
+link:#ID_S1000DBIKE-AAA-DA0-20-00-00AA-520A-A[S1000DBIKE-AAA-DA0-20-00-00AA-520A-A])
+. Make sure that there is no air in the tube.
+[arabic]
+.. Loosen the cap on the valve stem.
+.. Push the valve stem core down to bleed all the air.
+. Use a link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-663A-A_seq-0001[Tire
+lever] to move the tire bead out of its seat. Lift the tire bead above
+the lip of the rim.
+. Remove the tube.
+. Inflate (not fully) the tube with the
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-663A-A_seq-0002[Foot pump].
+Examine the tube for leaks.
+. If you find a leak, identify it with a circle made with a
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-663A-A_seq-0003[Marker pen].
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0375-001-01.CGM[Circle
+leak]
+. Release most of the air.
+. Use a piece of sandpaper from the
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-663A-A_seq-0004[Tube patch kit]
+and make the area on and around the hole rough. This will help the patch
+bond correctly.
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0376-001-01.CGM[Sanding
+the application area]
+. Apply a thin layer of glue from the patch kit on and around the hole.
+Make sure that the area with the glue is larger than the patch.
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0377-001-01.CGM[Apply
+glue to application area]
+. Let the glue dry for five minutes until it becomes tacky and dim.
+. Remove the rear foil from the patch (that is a part of the patch kit)
+and push the patch in its position.
+. Push with your thumbs from the center of the patch to the outer part
+of the applied area.
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0378-001-01.CGM[Apply
+pressure to tube]
+. Remove the thin cover from the patch.
+. Put a very thin layer of talcum powder on and around the patch.
+. Inflate (not fully) the repaired tube with the foot pump.
+. Start at the valve stem and install the tube again between the tire
+and the rim.
+. Push the valve stem through the hole in the rim.
+. Make sure that the valve stem is straight.
+. Install the remaining of the tire.
+
+== Requirements after job completion

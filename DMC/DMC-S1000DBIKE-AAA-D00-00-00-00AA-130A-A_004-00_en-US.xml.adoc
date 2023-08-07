@@ -1,0 +1,36 @@
+amateur 13
+
+Please make sure you are familiar with the functional description of a
+bicycle: link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-042A-A[Bicycle -
+Description of function]
+
+Enter your name Enter your age 4 100 Did you ever ride a bicycle? Yes
+experienced No Age must be within 4 to 100 All fields are mandatory
+experienced 0
+
+Dear , because you are an unexperienced user, you will be presented a
+brief introduction on how to operate a bicycle.
+
+Click _next_.
+
+Bicycle - Description attributed to crew
+
+Before you can proceed to the practical section of this manual, you will
+be given a simple question to test whether you read the instructions
+carefully.
+
+The rear brake is operated by Left brake lever 1 Right brake lever
+
+You will be given the introduction once again.
+
+Number of mistakes:
+
+You can now continue with the practical part of this manual.
+
+Take the bicycle from the garage.
+
+Clean the bicycle from the dust.
+
+Sit on the bike.
+
+...and RIDE!

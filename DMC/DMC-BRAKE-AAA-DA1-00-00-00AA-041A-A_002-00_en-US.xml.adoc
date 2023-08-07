@@ -1,0 +1,63 @@
+== Brake system
+
+The most important part of the bicycle is the brake system. Only a
+minimum maintenance of the brake system is necessary. But, when a
+problem does occur, make sure you to do the necessary maintenance as
+quickly as possible. If you do not do this the bicycle will be dangerous
+to use.
+
+There are nine different types of brake systems. The one found on most
+bicycles is the cantilever brake (refer to
+link:#ID_BRAKE-AAA-DA1-00-00-00AA-041A-A_par-0001[Cantilever brake]).
+
+[[ID_BRAKE-AAA-DA1-00-00-00AA-041A-A_par-0001]]
+=== Cantilever brake
+
+The brake system (refer to
+link:#ID_BRAKE-AAA-DA1-00-00-00AA-041A-A_fig-0001[Cantilever brake with
+straddle cable]) has these primary components:
+
+* the brake lever (refer to
+link:#ID_BRAKE-AAA-DA1-00-00-00AA-041A-A_par-0003[Brake lever])
+* the brake cable
+* the brake arm
+* the brake clamp (also known as callipers)
+* the brake pads (refer to
+link:#ID_BRAKE-AAA-DA1-00-00-00AA-041A-A_par-0002[Brake pads])
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0379-001-01.CGM[Cantilever
+brake with straddle cable]
+
+A cable that goes from the brake levers on the handlebars pulls the two
+levers on the brakes together. This presses the brake pads against the
+outer rim of the wheel, which decreases the speed of the bicycle.
+
+[[ID_BRAKE-AAA-DA1-00-00-00AA-041A-A_par-0002]]
+=== Brake pads
+
+There are four brake pads (refer to
+link:#ID_BRAKE-AAA-DA1-00-00-00AA-041A-A_fig-0002[Exploded diagram of a
+brake]) on the bicycle. Two are found on the front wheel and two on the
+rear wheel. The brake pads are made out of hard wearing rubber. The pads
+press against the rim of the wheel to cause friction when the you
+operate the brake levers.
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0380-001-01.CGM[Exploded
+diagram of a brake]
+
+[[ID_BRAKE-AAA-DA1-00-00-00AA-041A-A_par-0003]]
+=== Brake lever
+
+The brake levers (refer to
+link:#ID_BRAKE-AAA-DA1-00-00-00AA-041A-A_fig-0003[Typical components of
+a mountain bicycle lever]) are easily damaged. The lever is installed in
+the mount. A clamp bolt holds the mount. This bolt is not visible
+because it is found in the mount. The lever turns on a lever pivot bolt.
+The adjuster lock nut holds the brake cable. This lock nut adjusts the
+tension of the cable.
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0381-001-01.CGM[Typical
+components of a mountain bicycle lever]
+
+The left brake lever holds the brake pads on the front wheel and the
+right brake pads hold the brakes on the rear wheel.

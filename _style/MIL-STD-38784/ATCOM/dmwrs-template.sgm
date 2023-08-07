@@ -1,0 +1,87 @@
+<?xml-stylesheet href="file:////epic-pubs/Arbortext/E3/custom/doctypes/atcom/atcom-paranumber.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="atcom-paranumber.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2006, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN"
+ "atcom.dtd" [
+<!NOTATION eps SYSTEM "eps">
+<!NOTATION gif SYSTEM "gif">
+<!NOTATION bmp SYSTEM "bmp">
+<!NOTATION jpg SYSTEM "jpg">
+]>
+<?Pub EntList alpha bull copy rArr sect trade aelig deg percnt amp plusmn
+ delta ast mdash nbsp emsp14 emsp13 sdotb>
+<doc service="army" docid="#-####-###">
+<front><idinfo>
+<tmidno service="army"></tmidno>
+<doctype pubtype="dmwr"></doctype>
+<prtitle>
+<nomen> </nomen>
+<modelno> </modelno>
+<partno> </partno><nsn> </nsn><eic> </eic>
+</prtitle>
+<distrib type="a"> </distrib>
+<authnot>U.S. ARMY AVIATION AND<brk>MISSILE COMMAND</authnot>
+<pubdate>30 April 1986</pubdate></idinfo><warnpage><warning>
+<para> General explanation of what a warning means.</para>
+</warning>
+<caution>
+<para>General explanation of what a caution means.</para>
+</caution>
+<note>
+<para>General explanation of what a note means.</para>
+</note>
+<wpgentry>
+<title></title>
+<para></para>
+</wpgentry>
+</warnpage>
+<chginssht><chgnum>1</chgnum><address>Headquarters<?Pub Caret><brk>Redstone
+Arsenal, AL 35898</address><date>dd mmmm yyyy</date>
+<prtitle>
+<nomen></nomen>
+<partno></partno><nsn></nsn><eic></eic>
+</prtitle>
+<distrib type="a"></distrib>
+<para> The following pages are to be removed and inserted as noted:</para>
+<chglist>
+<removepg>1-1 thru 1-3</removepg><insertpg>1-1 thru 1-3</insertpg></chglist>
+</chginssht>
+<lep><totalpgs>Total Page Count</totalpgs></lep>
+<reportoferrors>
+<para>You can help improve this manual. If you find mistakes or know of a
+way to improve procedures, please let us know. Mail your letter, DA Form 2028
+(Recommended Changes to Publications and Blank Forms) located at the back
+of this manual, directly to: US.</para>
+</reportoferrors>
+<contents>
+<illuslist>
+<tablelist></front>
+<body>
+<chapter xid="chap1">
+<title></title>
+<para0>
+<title></title><para> </para>
+</para0>
+</chapter>
+<chapter>
+<title></title>
+<para0>
+<title></title><para> </para>
+</para0>
+</chapter></body>
+<rear>
+<appendix xid="appa">
+<title>REFERENCES</title>
+<lrp>
+<lrpentry tmid="aianas-nas410" spacing="4pt"><tmidno> </tmidno><title></title>
+</lrpentry>
+</lrp>
+</appendix>
+<glossary>
+<deflist>
+<term></term><def></def>
+<term></term><def></def></deflist>
+</glossary>
+<index></rear>
+</doc>
+<?Pub *0000003807 0>

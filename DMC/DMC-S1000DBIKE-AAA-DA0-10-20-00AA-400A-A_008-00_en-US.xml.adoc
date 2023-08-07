@@ -1,0 +1,36 @@
+Tire does not function correctly
+
+== Preliminary requirements
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Tire pressure gauge |BSK-TLST-001-01 |KZ666 |1 |
+|Specialist toolset |BSK-TLST-001 |KZ666 |1 |
+|===
+
+Use the tire pressure gauge (
+
+Tire pressure gauge
+
+) to do a check of the pressure What is the tire pressure reading? More
+than 2700 hPa Between 100 hPa and 2700 hPa Less than 100 hPa Deflate the
+tire until the pressure is 2700 hPa Inflate the tire as given in
+
+S1000DBIKE-AAA-DA0-10-20-00AA-215A-A
+
+To do a check of the tire for damage Is there damage to the tire?
+Replace the tire (refer to
+
+S1000DBIKE-AAA-DA0-10-20-00AA-921A-A
+
+) Replace the inner-tube (refer to
+
+S1000DBIKE-AAA-DA0-10-10-00AA-921A-A
+
+)
+
+== Requirements after job completion

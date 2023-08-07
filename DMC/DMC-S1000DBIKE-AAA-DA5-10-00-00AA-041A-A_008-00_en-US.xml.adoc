@@ -1,0 +1,47 @@
+== Derailleur
+
+There are two different types of derailleur, the front and the rear.
+
+=== Front derailleur
+
+The front derailleur (refer to
+link:#ID_S1000DBIKE-AAA-DA5-10-00-00AA-041A-A_fig-0001[Front
+derailleur]) contains two types of screws to keep the movement of the
+derailleur to a minimum. These screws are:
+
+* the stop screw low-gear
+* the stop screw high-gear
+
+The function of these screws is to prevent the rider from over shifting
+. If this occurs, the chain will go out of the chain wheel.
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0396-001-01.CGM[Front
+derailleur]
+
+The derailleur is installed on the bicycle seat tube with a clamp and is
+parallel to the three front sprockets.
+
+The shift cable is connected between the shifters on the handle bars and
+the cable clamp bolt on the front derailleur. This operates the
+derailleur. On the sprockets there is an inner and outer cage. The clamp
+attaches the cage.
+
+=== Rear derailleur
+
+The rear derailleur (refer to
+link:#ID_S1000DBIKE-AAA-DA5-10-00-00AA-041A-A_fig-0002[Rear derailleur])
+section contains the sprockets for the different gear changes. When the
+cable clamp bolt is tight, it holds the shift cable in its position. A
+screwed bolt holds the tension wheel.
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0397-001-01.CGM[Rear
+derailleur]
+
+The derailleur mounting bolt connects the derailleur to the frame. When
+the user attaches this bolt, this makes sure that the cage plates are
+parallel with the chain rings.
+
+The guide wheel has the function to move the chain with the derailleur.
+It moves the chain from one sprocket to the other. The guide wheel must
+not move on its axis. If this occurs, there will be wear on the wheel.
+The position of the guide wheel is below the largest sprocket.

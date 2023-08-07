@@ -37,3 +37,4 @@ endif::CONFIG1[]
 |Perform inspection|
 <<../DMC/DMC-DEMO-000-10-00-01A-280A-A.adoc#DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A>>
 |===
+

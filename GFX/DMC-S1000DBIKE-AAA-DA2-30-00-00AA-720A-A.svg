@@ -1,0 +1,98 @@
+<svg width="562.91052" height="351.33826" xmlns="http://www.w3.org/2000/svg">
+ <metadata id="metadata84">image/svg+xml</metadata>
+ <defs>
+  <marker id="Arrow1MendD" orient="auto" refY="0" refX="0">
+   <path fill="#0000ff" fill-rule="evenodd" stroke="#0000ff" stroke-width="1pt" marker-start="none" id="path6345" d="m-4,0l-2,2l7,-2l-7,-2l2,2z"/>
+  </marker>
+  <marker id="Arrow1Mendn" orient="auto" refY="0" refX="0">
+   <path fill="#0000ff" fill-rule="evenodd" stroke="#0000ff" stroke-width="1pt" marker-start="none" id="path6348" d="m-4,0l-2,2l7,-2l-7,-2l2,2z"/>
+  </marker>
+  <marker id="Arrow1Mend3" orient="auto" refY="0" refX="0">
+   <path fill="#0000ff" fill-rule="evenodd" stroke="#0000ff" stroke-width="1pt" marker-start="none" id="path6351" d="m-4,0l-2,2l7,-2l-7,-2l2,2z"/>
+  </marker>
+  <marker id="Arrow1Mstartr" orient="auto" refY="0" refX="0">
+   <path fill="#0000ff" fill-rule="evenodd" stroke="#0000ff" stroke-width="1pt" marker-start="none" id="path6354" d="m4,0l2,-2l-7,2l7,2l-2,-2z"/>
+  </marker>
+  <marker id="Arrow1MendZ" orient="auto" refY="0" refX="0">
+   <path fill="#0000ff" fill-rule="evenodd" stroke="#0000ff" stroke-width="1pt" marker-start="none" id="path6357" d="m-4,0l-2,2l7,-2l-7,-2l2,2z"/>
+  </marker>
+  <marker id="Arrow1MendG" orient="auto" refY="0" refX="0">
+   <path fill="#0000ff" fill-rule="evenodd" stroke="#0000ff" stroke-width="1pt" marker-start="none" id="path6360" d="m-4,0l-2,2l7,-2l-7,-2l2,2z"/>
+  </marker>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill="none" stroke="#000000" stroke-miterlimit="4" d="m540.50493,216.82918a98.48988,98.48988 0 1 1 -196.97975,0a98.48988,98.48988 0 1 1 196.97975,0z" id="path2403"/>
+  <path fill="none" stroke="#000000" stroke-miterlimit="4" d="m532.68368,216.82918a90.66863,90.66863 0 0 1 -181.33725,0a90.66863,90.66863 0 1 1 181.33725,0z" id="path3175"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m444.8722,216.82918a2.85715,2.85715 0 0 1 -5.71429,0a2.85715,2.85715 0 1 1 5.71429,0z" id="path3177"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m446.65791,216.82918a4.64286,4.64286 0 1 1 -9.28571,0a4.64286,4.64286 0 1 1 9.28571,0z" id="path3179"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m441.34216,213.88421c-20.49138,-11.19394 -29.17718,-42.52368 -53.10969,-120.60661" id="path3181"/>
+  <path fill="none" stroke="#000000" stroke-width="1px" d="m562.41051,315.81906l-561.91051,0" id="path3183"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m439.1492,218.41734c-20.49138,-11.19394 -32.96525,-45.3016 -56.89776,-123.38453" id="path3191"/>
+  <rect fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" width="12.606095" height="3.179215" rx="2.645421" ry="1.344407" x="333.45578" y="200.82036" transform="matrix(0.95491924,-0.29686571,0.29686571,0.95491924,0,0) " id="rect3193"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m379.13305,92.32785l-10.10152,-31.69354" id="path2398"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m388.3507,89.61307l-10.10152,-31.69354" id="path2400"/>
+  <rect fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" width="12.606094" height="3.179215" rx="2.645421" ry="1.344407" x="332.86633" y="164.96812" transform="matrix(0.95491924,-0.29686571,0.29686571,0.95491924,0,0) " id="rect2402"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m369.78914,64.54865l-155.31095,0" id="path2404"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m371.93572,70.35703l-155.75289,0" id="path2406"/>
+  <g id="g3103">
+   <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" id="path2408" d="m375.07214,79.17556l-123.35348,144.19858"/>
+   <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" id="path2410" d="m377.36528,86.26693l-122.14865,142.05322"/>
+  </g>
+  <g id="g3099">
+   <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" id="path2412" d="m256.559137,231.596609a7.95495,7.95495 0 1 1 -15.90991,0a7.95495,7.95495 0 1 1 15.90991,0z"/>
+   <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" id="path2414" d="m252.771057,231.596609a4.16688,4.16688 0 1 1 -8.33375,0a4.16688,4.16688 0 1 1 8.33375,0z"/>
+  </g>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m248.63944,222.79752l-35.07353,-164.59652" id="path2416"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m243.53259,224.85489l-35.49414,-165.29387" id="path2418"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m207.75976,59.52405l5.98248,-1.1553" id="path2424"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m208.601,59.77575l-5.12868,-27.14459" id="path2426"/>
+  <path fill="none" stroke="#000000" stroke-miterlimit="4" d="m208.21112,32.09121l25.83118,-0.16619c2.52635,-0.0163 1.93595,-3.03281 1.86254,-3.98547c-0.0727,-0.94272 -1.13331,-3.24685 -1.99432,-4.23791c-0.94599,-1.08887 -2.79085,-1.83205 -4.0717,-2.40979c-1.31382,-0.59261 -5.33496,-1.49343 -7.64487,-1.57883c-2.30992,-0.0854 -5.14265,-0.12029 -7.47867,-0.1662c-2.33586,-0.0459 -9.59157,0.49858 -13.04611,-0.33238c-4.58634,-1.20016 -7.94857,-2.61761 -11.55039,-3.40694c-3.58533,-0.78574 -5.35399,-0.58169 -6.98008,-0.58169c-1.44033,0 -2.79759,-0.24928 -4.23792,0.49858c-1.03386,0.53682 -2.22181,1.14841 -3.32385,2.99146c-1.1245,1.88066 -1.51974,5.86104 -1.41264,8.39273c0.1071,2.5317 0.5235,5.29903 2.16468,5.29903l27.45241,0" id="path2480"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m213.22153,58.25789c-0.63949,-3.54671 -4.15694,-22.65359 -4.84759,-26.18972" id="path2428"/>
+  <path fill="none" stroke="#000000" stroke-miterlimit="4" d="m217.04796,216.82918a98.48988,98.48988 0 1 1 -196.97975,0a98.48988,98.48988 0 1 1 196.97975,0z" id="path2430"/>
+  <path fill="none" stroke="#000000" stroke-miterlimit="4" d="m209.22671,216.82918a90.66863,90.66863 0 0 1 -181.33725,0a90.66863,90.66863 0 1 1 181.33725,0z" id="path2432"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m121.41523,216.82918a2.85715,2.85715 0 0 1 -5.71429,0a2.85715,2.85715 0 1 1 5.71429,0z" id="path2434"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m123.20094,216.82918a4.64286,4.64286 0 1 1 -9.28571,0a4.64286,4.64286 0 1 1 9.28571,0z" id="path2436"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m121.96176,216.3508l120.22432,10.7438" id="path2438"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m119.89564,219.64182l121.05077,14.04959" id="path2440"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m120.96707,214.28468l89.83226,-140.02167" id="path2442"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m117.0385,213.92753l92.75254,-144.95853" id="path2444"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m369.28407,57.47758l-8.33376,-26.76904" id="path2446"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m375.85006,55.45728l-6.93582,-23.11095" id="path2448"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m368.52645,28.49882a4.16688,4.16688 0 1 1 -8.33375,0a4.16688,4.16688 0 1 1 8.33375,0z" id="path2460"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m393.65272,27.57347c-0.46175,-7.38117 -0.78148,-13.51508 -5.83003,-20.54903c-5.19381,-7.23631 -14.43179,-6.71763 -25.21915,-6.69642l-45.39771,0.0893l0,7.44987l45.3092,-0.0893c9.33246,-0.0184 16.46153,0.33227 19.23777,4.01787c2.8613,3.79852 4.20647,5.33918 3.9233,12.19732" id="path2468"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m393.88359,28.49882a4.16688,4.16688 0 1 1 -8.33375,0a4.16688,4.16688 0 1 1 8.33375,0z" id="path2470"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m364.18136,24.28467l25.35714,0" id="path2474"/>
+  <path fill="none" stroke="#000000" stroke-width="0.625" stroke-miterlimit="4" d="m366.14565,32.32038l22.05356,0" id="path2476"/>
+  <path fill="none" fill-rule="evenodd" stroke="#0000ff" stroke-width="0.625" stroke-miterlimit="4" stroke-dasharray="1.875, 1.875" stroke-dashoffset="0" id="path3253" d="m442.015046,216.829161l0,132.84955"/>
+  <path fill="none" fill-rule="evenodd" stroke="#0000ff" stroke-width="0.625" stroke-miterlimit="4" stroke-dasharray="1.875, 1.875" stroke-dashoffset="0" id="path3255" d="m373.072136,58.487751l85.03779,257.58265"/>
+  <path fill="none" fill-rule="evenodd" stroke="#0000ff" stroke-width="0.625" stroke-miterlimit="4" stroke-dasharray="1.875, 1.875" stroke-dashoffset="0" id="path3257" d="m432.508866,187.081111l19.25787,57.59497"/>
+  <path fill="none" fill-rule="evenodd" stroke="#0000ff" stroke-width="0.625" marker-start="url(#Arrow1Mstartr)" marker-end="url(#Arrow1MendZ)" stroke-miterlimit="4" stroke-dasharray="1.875, 1.875" stroke-dashoffset="0" id="path3269" d="m350.616846,315.142273a106.42857,106.42857 0 0 1 72.36963,-102.04874"/>
+  <path fill="none" fill-rule="evenodd" stroke="#0000ff" stroke-width="0.625" stroke-miterlimit="4" stroke-dasharray="1.875, 1.875" stroke-dashoffset="0" id="path5628" d="m458.109926,315.891831l0,29.46428"/>
+  <path fill="none" fill-rule="evenodd" stroke="#0000ff" stroke-width="0.625" marker-end="url(#Arrow1Mendn)" stroke-miterlimit="4" stroke-dasharray="1.875, 1.875" stroke-dashoffset="0" id="path5630" d="m417.266306,332.491631l22.72844,0"/>
+  <path fill="none" fill-rule="evenodd" stroke="#0000ff" stroke-width="0.625" marker-end="url(#Arrow1MendD)" stroke-miterlimit="4" stroke-dasharray="1.875, 1.875" stroke-dashoffset="0" id="path6159" d="m410.478526,249.180441l21.24397,-8.07936"/>
+  <path fill="none" fill-rule="evenodd" stroke="#0000ff" stroke-width="0.625" marker-end="url(#Arrow1MendG)" stroke-miterlimit="4" stroke-dasharray="1.875, 1.875" stroke-dashoffset="0" id="path6161" d="m482.384826,332.491631l-22.72844,0"/>
+  <path fill="none" fill-rule="evenodd" stroke="#0000ff" stroke-width="0.625" marker-end="url(#Arrow1Mend3)" stroke-miterlimit="4" stroke-dasharray="1.875, 1.875" stroke-dashoffset="0" id="path6163" d="m470.629476,224.947431l-21.07368,8.51366"/>
+  <path fill="none" fill-rule="evenodd" stroke="#0000ff" stroke-width="0.625" marker-end="url(#Arrow1MendG)" stroke-miterlimit="4" stroke-dasharray="1.875, 1.875" stroke-dashoffset="0" id="path3668" d="m261.407146,342.088081l-141.28829,0"/>
+  <path fill="none" fill-rule="evenodd" stroke="#0000ff" stroke-width="0.625" marker-end="url(#Arrow1Mendn)" stroke-miterlimit="4" stroke-dasharray="1.875, 1.875" stroke-dashoffset="0" id="path3670" d="m342.814486,341.999241l97.18026,0"/>
+  <path fill="none" fill-rule="evenodd" stroke="#0000ff" stroke-width="0.625" stroke-miterlimit="4" stroke-dasharray="1.875, 1.875" stroke-dashoffset="0" id="path4237" d="m118.57143,216.74004l0,134.28571"/>
+  <g id="svg_13">
+   <switch transform="translate(-17.6043643951416,-363.7917785644531) " id="text4303">
+    <text id="svg_14" systemLanguage="en" y="746" x="190">Rake</text>
+    <text id="svg_15" systemLanguage="fr" y="746" x="190">Déport</text>
+    <text id="svg_16" systemLanguage="es" y="760" x="160">Desplazamiento</text>
+   </switch>
+  </g>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_17" y="292.122253" x="305.955261" fill-opacity="null" stroke-width="0" stroke="#000000" fill="#000000">Axis</text>
+  <text transform="rotate(-19 484.20388793945324,211.6171874999999) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_18" y="216.122253" x="470.948212" fill-opacity="null" stroke-width="0" stroke="#000000" fill="#000000">Fork</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_19" y="346.122253" x="270.955261" fill-opacity="null" stroke-width="0" stroke="#000000" fill="#000000">Wheelbase</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_20" y="336.122253" x="488.955261" fill-opacity="null" stroke-width="0" stroke="#000000" fill="#000000">Trail</text>
+  <text transform="rotate(-19 493.1481323242187,226.61718750000006) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_21" y="231.122253" x="475.728394" fill-opacity="null" stroke-width="0" stroke="#000000" fill="#000000">Offset</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_22" y="308.122253" x="305.955261" fill-opacity="null" stroke-width="0" stroke="#000000" fill="#000000">Angle</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="13" id="svg_23" y="276.122253" x="304.955261" fill-opacity="null" stroke-width="0" stroke="#000000" fill="#000000">Steering</text>
+ </g>
+</svg>

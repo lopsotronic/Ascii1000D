@@ -1,0 +1,23 @@
+== Preliminary requirements
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Specialist toolset |BSK-TLST-001 |KZ666 |1 |
+|===
+
+== Procedure
+
+[arabic]
+. Hold the front of the bicycle.
+. Use the
+(link:#ID_S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_seq-0001[Specialist
+toolset]) to disengage the fork from the chainring by pushing the wheel
+forwards and down.
+. Lift the wheel away from the frame.
+. Put the frame on the floor.
+
+== Requirements after job completion

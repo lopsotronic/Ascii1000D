@@ -1,0 +1,38 @@
+== Preliminary requirements
+
+S1000DBIKE-AAA-DA2-10-00-00AA-720A-A
+
+S1000DBIKE-AAA-DA2-30-00-00AA-720A-A
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|General grease | |KZ222 |As required |
+|===
+
+*Spares*
+
+.Spares
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Fork | | |1 |
+|===
+
+== Procedure
+
+[arabic]
+. Apply grease
+(link:#ID_S1000DBIKE-AAA-D00-00-01-00AB-720A-A_sup-0001[General grease])
+on the headset
+. Install the headset, refer to:
+link:#ID_S1000DBIKE-AAA-DA2-30-00-00AA-720A-A[S1000DBIKE-AAA-DA2-30-00-00AA-720A-A]
+. Install the stem, refer to:
+link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-720A-A[S1000DBIKE-AAA-DA2-10-00-00AA-720A-A]
+. Install the fork
+(link:#ID_S1000DBIKE-AAA-D00-00-01-00AB-720A-A_spa-0001[Fork])
+
+== Requirements after job completion

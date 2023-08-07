@@ -1,0 +1,3 @@
+The pedal mechanism is jammed The derailleur is jammed Bicycle chain
+KZ120 Tchain-120 Prepare the derailleur to put transmission chain back
+on pedal mechanism.

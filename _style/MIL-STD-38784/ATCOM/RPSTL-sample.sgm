@@ -1,0 +1,1773 @@
+<?xml-stylesheet href="RPSTL.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="RPSTL.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2006, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN" [
+<!ENTITY ms029704 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029704.tif" NDATA tif>
+<!ENTITY ms029714 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029714.tif" NDATA tif>
+<!ENTITY ms029713 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029713.tif" NDATA tif>
+<!ENTITY ms029712 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029712.tif" NDATA tif>
+<!ENTITY ms029711 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029711.tif" NDATA tif>
+<!ENTITY ms029710 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029710.tif" NDATA tif>
+<!ENTITY ms029709 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029709.tif" NDATA tif>
+<!ENTITY ms029708 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029708.tif" NDATA tif>
+<!ENTITY ms029707 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029707.tif" NDATA tif>
+<!ENTITY ms029706 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029706.tif" NDATA tif>
+<!ENTITY ms029705 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029705.tif" NDATA tif>
+<!ENTITY ms029703 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029703.tif" NDATA tif>
+<!ENTITY ms029702 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029702.tif" NDATA tif>
+<!ENTITY ms029701 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029701.tif" NDATA tif>
+<!ENTITY ms029700 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029700.tif" NDATA tif>
+<!ENTITY ms029699 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029699.tif" NDATA tif>
+<!ENTITY ms029698 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029698.tif" NDATA tif>
+<!ENTITY ms029697 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029697.tif" NDATA tif>
+<!ENTITY ms029696 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029696.tif" NDATA tif>
+<!ENTITY ms029695 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029695.tif" NDATA tif>
+<!ENTITY ms029694 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029694.tif" NDATA tif>
+<!ENTITY ms029693 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029693.tif" NDATA tif>
+<!ENTITY ms029692 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029692.tif" NDATA tif>
+<!ENTITY ms029691 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029691.tif" NDATA tif>
+<!ENTITY ms029690 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029690.tif" NDATA tif>
+<!ENTITY ms029689 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029689.tif" NDATA tif>
+<!ENTITY ms029688 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029688.tif" NDATA tif>
+<!ENTITY ms029687 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029687.tif" NDATA tif>
+<!ENTITY ms029686 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029686.tif" NDATA tif>
+<!ENTITY ms029685 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029685.tif" NDATA tif>
+<!ENTITY ms029684 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029684.tif" NDATA tif>
+<!ENTITY ms029683 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029683.tif" NDATA tif>
+<!ENTITY ms029682 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029682.tif" NDATA tif>
+<!ENTITY ms029681 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029681.tif" NDATA tif>
+<!ENTITY ms029680 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029680.tif" NDATA tif>
+<!ENTITY ms029679 SYSTEM "P:\Graphics\TM9-5855-450-24P\ms029679.tif" NDATA tif>
+<!ENTITY ms029590 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029590.tif" NDATA tif>
+<!ENTITY ms029589 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029589.tif" NDATA tif>
+<!ENTITY ms029588 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029588.tif" NDATA tif>
+<!ENTITY ms029587 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029587.tif" NDATA tif>
+<!ENTITY ms029586 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029586.tif" NDATA tif>
+<!ENTITY ms029585 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029585.tif" NDATA tif>
+<!ENTITY ms029584 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029584.tif" NDATA tif>
+<!ENTITY ms029583 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029583.tif" NDATA tif>
+<!ENTITY ms029582 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029582.tif" NDATA tif>
+<!ENTITY ms029581 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029581.tif" NDATA tif>
+<!ENTITY ms029580 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029580.tif" NDATA tif>
+<!ENTITY ms029579 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029579.tif" NDATA tif>
+<!ENTITY ms029578 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029578.tif" NDATA tif>
+<!ENTITY ms029577 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029577.tif" NDATA tif>
+<!ENTITY ms029576 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029576.tif" NDATA tif>
+<!ENTITY ms029575 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029575.tif" NDATA tif>
+<!ENTITY ms029574 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029574.tif" NDATA tif>
+<!ENTITY ms029573 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029573.tif" NDATA tif>
+<!ENTITY ms029572 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029572.tif" NDATA tif>
+<!ENTITY ms029571 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029571.tif" NDATA tif>
+<!ENTITY ms029570 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029570.tif" NDATA tif>
+<!ENTITY ms029569 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029569.tif" NDATA tif>
+<!ENTITY ms029568 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029568.tif" NDATA tif>
+<!ENTITY need_a_graphic1 SYSTEM "P:\Graphics\_Standard symbols\need_a_graphic.tif" NDATA tif>
+<!ENTITY ms029567 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029567.tif" NDATA tif>
+<!ENTITY ms029566 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029566.tif" NDATA tif>
+<!ENTITY ms029565 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029565.tif" NDATA tif>
+<!ENTITY ms029564 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029564.tif" NDATA tif>
+<!ENTITY ms029563 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029563.tif" NDATA tif>
+<!ENTITY ms029562 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029562.tif" NDATA tif>
+<!ENTITY ms029561 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029561.tif" NDATA tif>
+<!ENTITY ms029560 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029560.tif" NDATA tif>
+<!ENTITY ms029559 SYSTEM "P:\Graphics\TM9-1425-450-24P\ms029559.tif" NDATA tif>
+<!ENTITY availability SYSTEM "\\pubs\amcom-pubs\Common\Boilerplates\Availability.txt">
+<!ENTITY warningicon_fire2 SYSTEM "P:\Graphics\_Standard symbols\Warning icons\warningicon_fire2.tif" NDATA tif>
+<!ENTITY warningicon_earprotection SYSTEM "P:\Graphics\_Standard symbols\Warning icons\warningicon_earprotection.tif" NDATA tif>
+<!ENTITY warningicon_cryogenic SYSTEM "\\pubs\amcom-pubs\Graphics\_Standard symbols\Warning icons\warningicon_cryogenic.tif" NDATA tif>
+<!ENTITY empty_square SYSTEM "\\pubs\amcom-pubs\Graphics\_Standard symbols\empty_square.tif" NDATA tif>
+<!ENTITY need_a_graphic SYSTEM "\\pubs\amcom-pubs\Graphics\_Standard symbols\need_a_graphic.tif" NDATA tif>
+<!ENTITY need-a-graphic1 SYSTEM "\\pubs\amcom-pubs\Graphics\_Standard symbols\need-a-graphic.eps" NDATA eps>
+<!NOTATION eps SYSTEM "eps">
+<!ENTITY ms023285 SYSTEM "P:\Graphics\TM55-1520-210-23-3\ms023285.tif" NDATA tif>
+<!ENTITY reportoferrors 'You can help improve this bulletin. If you find mistakes
+or know of a way to improve procedures, pleas let us know. Mail you letter,
+DA Form 2028 (Recommended Changes to Publications and Blank Forms) located
+at the back of this bulletin, directly to: Commander, U.S. Army Aviation and
+Missile Command, ATTN: AMSAM-MMC-MA-NP, Redstone Arsenal, AL 35898-5000. 
+A reply will be furnished to you.  You may also provide DA Form 2028 information
+to AMCOM via e-mail, fax or the World Wide Web.  Our fax number is DSN 788-6546
+or Commercial (256) 842-6546. Our e-mail address i 2028@redstone.army.mil.
+Instruction for sending an electronic 2028 may be found at the back of this
+bulletin immediately preceding the hard copy 2028.  For the World Wide We
+use: <?Pub _font Underline="yes">htpps://amcom2028.redstone.army.mil'>
+<!ENTITY b0200801 SYSTEM "P:\Graphics\TM55-1520-210-23P-1\ms025481.tif" NDATA tif>
+<!ENTITY b0301001 SYSTEM "graphics\tif\b0301001.tif" NDATA fax>
+<!ENTITY b0301101 SYSTEM "graphics\tif\b0301101.tif" NDATA fax>
+<!ENTITY b0301201 SYSTEM "graphics\tif\b0301201.tif" NDATA fax>
+<!ENTITY b0301301 SYSTEM "graphics\tif\b0301301.tif" NDATA fax>
+<!ENTITY b0301501 SYSTEM "graphics\tif\b0301501.tif" NDATA fax>
+<!ENTITY b0400101 SYSTEM "graphics\tif\b0400101.tif" NDATA fax>
+<!ENTITY triang1 SYSTEM "graphics\tif\triang1.tif" NDATA fax>
+<!ENTITY b0400201 SYSTEM "graphics\tif\b0400201.tif" NDATA fax>
+<!ENTITY triang2 SYSTEM "graphics\tif\triang2.tif" NDATA fax>
+<!ENTITY b0400301 SYSTEM "graphics\tif\b0400301.tif" NDATA fax>
+<!ENTITY b0400401 SYSTEM "graphics\tif\b0400401.tif" NDATA fax>
+<!ENTITY b0400501 SYSTEM "graphics\tif\b0400501.tif" NDATA fax>
+<!ENTITY b0400601 SYSTEM "graphics\tif\b0400601.tif" NDATA fax>
+<!ENTITY b0400701 SYSTEM "graphics\tif\b0400701.tif" NDATA fax>
+<!ENTITY b0400801 SYSTEM "graphics\tif\b0400801.tif" NDATA fax>
+<!ENTITY b0400901 SYSTEM "graphics\tif\b0400901.tif" NDATA fax>
+<!ENTITY b0401001 SYSTEM "graphics\tif\b0401001.tif" NDATA fax>
+<!ENTITY b0401101 SYSTEM "graphics\tif\b0401101.tif" NDATA fax>
+<!ENTITY b0401201 SYSTEM "graphics\tif\b0401201.tif" NDATA fax>
+<!ENTITY triang3 SYSTEM "graphics\tif\triang3.tif" NDATA fax>
+<!ENTITY empty SYSTEM "graphics\tif\empty.tif" NDATA fax>
+<!ENTITY b0401501 SYSTEM "graphics\tif\b0401501.tif" NDATA fax>
+<!ENTITY b0401601 SYSTEM "graphics\tif\b0401601.tif" NDATA fax>
+<!ENTITY b0401701 SYSTEM "graphics\tif\b0401701.tif" NDATA fax>
+<!ENTITY triang4 SYSTEM "graphics\tif\triang4.tif" NDATA fax>
+<!ENTITY triang5 SYSTEM "graphics\tif\triang5.tif" NDATA fax>
+<!ENTITY b0401901 SYSTEM "graphics\tif\b0401901.tif" NDATA fax>
+<!ENTITY b0402001 SYSTEM "graphics\tif\b0402001.tif" NDATA fax>
+<!ENTITY b0402101 SYSTEM "graphics\tif\b0402101.tif" NDATA fax>
+<!ENTITY b0402201 SYSTEM "graphics\tif\b0402201.tif" NDATA fax>
+<!ENTITY b0402301 SYSTEM "graphics\tif\b0402301.tif" NDATA fax>
+<!ENTITY b0402401 SYSTEM "graphics\tif\b0402401.tif" NDATA fax>
+<!ENTITY b0402501 SYSTEM "graphics\tif\b0402501.tif" NDATA fax>
+<!ENTITY b0402701 SYSTEM "graphics\tif\b0402701.tif" NDATA fax>
+<!ENTITY b0402801 SYSTEM "graphics\tif\b0402801.tif" NDATA fax>
+<!ENTITY b0402901 SYSTEM "graphics\tif\b0402901.tif" NDATA fax>
+<!ENTITY b0403001 SYSTEM "graphics\tif\b0403001.tif" NDATA fax>
+<!ENTITY b0403101 SYSTEM "graphics\tif\b0403101.tif" NDATA fax>
+<!ENTITY b0403201 SYSTEM "graphics\tif\b0403201.tif" NDATA fax>
+<!ENTITY b0403301 SYSTEM "graphics\tif\b0403301.tif" NDATA fax>
+<!ENTITY b0403501 SYSTEM "graphics\tif\b0403501.tif" NDATA fax>
+<!ENTITY b0403601 SYSTEM "graphics\tif\b0403601.tif" NDATA fax>
+<!ENTITY b0403701 SYSTEM "graphics\tif\b0403701.tif" NDATA fax>
+<!ENTITY b0403801 SYSTEM "graphics\tif\b0403801.tif" NDATA fax>
+<!ENTITY b0404001 SYSTEM "graphics\tif\b0404001.tif" NDATA fax>
+<!ENTITY b0404101 SYSTEM "graphics\tif\b0404101.tif" NDATA fax>
+<!ENTITY b0404201 SYSTEM "graphics\tif\b0404201.tif" NDATA fax>
+<!ENTITY b0404301 SYSTEM "graphics\tif\b0404301.tif" NDATA fax>
+<!ENTITY b0404401 SYSTEM "graphics\tif\b0404401.tif" NDATA fax>
+<!ENTITY b0500101 SYSTEM "graphics\tif\b0500101.tif" NDATA fax>
+<!ENTITY b0500201 SYSTEM "graphics\tif\b0500201.tif" NDATA fax>
+<!ENTITY b0500301 SYSTEM "graphics\tif\b0500301.tif" NDATA fax>
+<!ENTITY b0500401 SYSTEM "graphics\tif\b0500401.tif" NDATA fax>
+<!ENTITY b0500501 SYSTEM "graphics\tif\b0500501.tif" NDATA fax>
+<!ENTITY b0500701 SYSTEM "graphics\tif\b0500701.tif" NDATA fax>
+<!ENTITY b0500901 SYSTEM "graphics\tif\b0500901.tif" NDATA fax>
+<!ENTITY b0501001 SYSTEM "graphics\tif\b0501001.tif" NDATA fax>
+<!ENTITY b0501101 SYSTEM "graphics\tif\b0501101.tif" NDATA fax>
+<!ENTITY b0501201 SYSTEM "graphics\tif\b0501201.tif" NDATA fax>
+<!ENTITY b0501301 SYSTEM "graphics\tif\b0501301.tif" NDATA fax>
+<!ENTITY b0501401 SYSTEM "graphics\tif\b0501401.tif" NDATA fax>
+<!ENTITY b0501501 SYSTEM "graphics\tif\b0501501.tif" NDATA fax>
+<!ENTITY b0501601 SYSTEM "graphics\tif\b0501601.tif" NDATA fax>
+<!ENTITY b0501701 SYSTEM "graphics\tif\b0501701.tif" NDATA fax>
+<!ENTITY b0501801 SYSTEM "graphics\tif\b0501801.tif" NDATA fax>
+<!ENTITY b0501901 SYSTEM "graphics\tif\b0501901.tif" NDATA fax>
+<!ENTITY b0502001 SYSTEM "graphics\tif\b0502001.tif" NDATA fax>
+<!ENTITY b0502101 SYSTEM "graphics\tif\b0502101.tif" NDATA fax>
+<!ENTITY b0502201 SYSTEM "graphics\tif\b0502201.tif" NDATA fax>
+<!ENTITY b0502301 SYSTEM "graphics\tif\b0502301.tif" NDATA fax>
+<!ENTITY spring SYSTEM "graphics\tif\spring.tif" NDATA fax>
+<!ENTITY b0502401 SYSTEM "graphics\tif\b0502401.tif" NDATA fax>
+<!ENTITY b0502501 SYSTEM "graphics\tif\b0502501.tif" NDATA fax>
+<!ENTITY b0503001 SYSTEM "graphics\tif\b0503001.tif" NDATA fax>
+<!ENTITY b0503101 SYSTEM "graphics\tif\b0503101.tif" NDATA fax>
+<!ENTITY b0503201 SYSTEM "graphics\tif\b0503201.tif" NDATA fax>
+<!ENTITY b0503301 SYSTEM "graphics\tif\b0503301.tif" NDATA fax>
+<!ENTITY b0101201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0101201.tif" NDATA tif>
+<!ENTITY b0103201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0103201.tif" NDATA tif>
+<!ENTITY b0200008 SYSTEM "\\pubs\amcom-pubs\Graphics\DMWR1-1650-358\b0200008.tif" NDATA tif>
+<!ENTITY b0101401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0101401.tif" NDATA tif>
+<!ENTITY b0101301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0101301.tif" NDATA tif>
+<!ENTITY b0103001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0103001.tif" NDATA tif>
+<!ENTITY b0102001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr55-1680-341\b0102001.tif" NDATA tif>
+<!ENTITY boatdraw SYSTEM "\\pubs\amcom-pubs\Graphics\boatdraw.tif" NDATA tif>
+<!ENTITY atilogo SYSTEM "\\pubs\amcom-pubs\Graphics\atilogo.gif" NDATA gif>
+<!ENTITY arches2 SYSTEM "\\pubs\amcom-pubs\graphics\arches.bmp" NDATA bmp>
+<!ENTITY arches1 SYSTEM "\\pubs\amcom-pubs\Graphics\arches.gif" NDATA gif>
+<!ENTITY arches SYSTEM "\\pubs\amcom-pubs\Graphics\arches.bmp" NDATA bmp>
+<!ENTITY triangleb SYSTEM "P:\Graphics\_Standard symbols\Triangles with letters\triangle_B.tif" NDATA tif>
+<!ENTITY nothing SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\nothing.jpg" NDATA jpg>
+<!ENTITY box SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\box.jpg" NDATA jpg>
+<!ENTITY ms022467 SYSTEM "P:\Graphics\DMWR 1-1520-240\ms022467.cgm" NDATA cgm>
+<!ENTITY distrd-foreigngov SYSTEM "P:\Common\Distribution Stmts\distrD-foreigngov.txt">
+<!ENTITY distrc-software SYSTEM "P:\Common\Distribution Stmts\distrC-software.txt">
+<!ENTITY face SYSTEM "P:\Graphics\face.gif" NDATA gif>
+<!ENTITY moonrove SYSTEM "P:\Graphics\saw.tif" NDATA tif>
+<!ENTITY home SYSTEM "P:\Graphics\home.gif" NDATA gif>
+<!ENTITY dtduck3 SYSTEM "P:\Graphics\dtduck3.gif" NDATA gif>
+<!ENTITY bull1 SYSTEM "P:\Graphics\bull.gif" NDATA gif>
+<!ENTITY bulldoze SYSTEM "P:\Graphics\bulldoze.tif" NDATA tif>
+<!ENTITY need-a-graphic SYSTEM "\\pubs\amcom-pubs\Graphics\need_a_graphic.cgm" NDATA fax>
+<!ENTITY reperrors1 PUBLIC "reperrors1" NDATA cgm>
+<!NOTATION gif SYSTEM "gif">
+<!NOTATION bmp SYSTEM "bmp">
+<!ENTITY DSCN6688 SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\40bday\DSCN6688.JPG" NDATA jpg>
+<!ENTITY DSCN6684 SYSTEM "C:\Documents and Settings\junkin-ka\Desktop\40bday\DSCN6684.jpg" NDATA jpg>
+<!NOTATION jpg SYSTEM "jpg">
+<!ENTITY b0100301 SYSTEM "\\pubs\AMCOM-Pubs\Graphics\dmwr 55-1680-341\b0100301.tif" NDATA tif>
+<!ENTITY b0203301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0203301.tif" NDATA tif>
+<!ENTITY b0202201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0202201.tif" NDATA tif>
+<!ENTITY b0202001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0202001.tif" NDATA tif>
+<!ENTITY b0201301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0201301.tif" NDATA tif>
+<!ENTITY b0201101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0201101.tif" NDATA tif>
+<!ENTITY b0201001 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0201001.tif" NDATA tif>
+<!ENTITY b0200901 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200901.tif" NDATA tif>
+<!ENTITY b0200701 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200701.tif" NDATA tif>
+<!ENTITY b0200601 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200601.tif" NDATA tif>
+<!ENTITY b0200501 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200501.tif" NDATA tif>
+<!ENTITY b0200401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200401.tif" NDATA tif>
+<!ENTITY b0200301 SYSTEM "\\pubs\amcom-pubs\graphics\dmwr 55-1680-341\b0200301.tif" NDATA tif>
+<!ENTITY b0200201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200201.tif" NDATA tif>
+<!ENTITY b0200101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0200101.tif" NDATA tif>
+<!ENTITY b0103301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0103301.tif" NDATA tif>
+<!ENTITY b0103101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0103101.tif" NDATA tif>
+<!ENTITY b0102901 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102901.tif" NDATA tif>
+<!ENTITY b0102801 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102801.tif" NDATA tif>
+<!ENTITY b0102701 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102701.tif" NDATA tif>
+<!ENTITY b0102601 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102601.tif" NDATA tif>
+<!ENTITY b0102501 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102501.tif" NDATA tif>
+<!ENTITY b0102401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102401.tif" NDATA tif>
+<!ENTITY b0102301 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102301.tif" NDATA tif>
+<!ENTITY b0102201 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102201.tif" NDATA tif>
+<!ENTITY b0102101 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0102101.tif" NDATA tif>
+<!ENTITY b0101901 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101901.tif" NDATA tif>
+<!ENTITY b0101801 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101801.tif" NDATA tif>
+<!ENTITY b0101701 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101701.tif" NDATA tif>
+<!ENTITY b0101601 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101601.tif" NDATA tif>
+<!ENTITY b0101501 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0101501.tif" NDATA tif>
+<!ENTITY b0100401 SYSTEM "\\pubs\AMCOM-pubs\graphics\dmwr 55-1680-341\b0100401.tif" NDATA tif>
+<!ENTITY maintl "DEPOT MAINTENANCE WORK REQUIREMENT">
+<!ENTITY pubdate "30 APRIL 1986">
+]>
+<?Pub EntList alpha bull copy rArr sect trade aelig deg percnt amp plusmn
+ delta ast mdash nbsp emsp14 emsp13 sdotb>
+<?Pub Inc>
+<doc service="army" docid="9-5855-450-24P" docstat="revision" columns="one">
+<?Pub Tag atict:info tracking="off" ref="0"><?Pub Tag atict:user user="overstreet-ro"
+fullname="overstreet-ro"><front><idinfo>
+<tmidno service="army"></tmidno>
+<doctype pubtype="tm"> ORGANIZATIONAL, DIRECT SUPPORT, AND GENERAL SUPPORT
+MAINTENANCE REPAIR PARTS AND SPECIAL TOOLS LIST <brk>(INCLUDING DEPOT MAINTENANCE
+REPAIR PARTS AND SPECIAL TOOLS)<brk> FOR</doctype>
+<prtitle>
+<nomen>EQUIPMENT SET, NIGHT VISION SIGHT INFRARED</nomen>
+<modelno>AN/UAS-12A </modelno>
+<nsn>5855-01-152-8781</nsn><eic> N/A</eic><nsn>5855-01-245-8689</nsn><eic>
+ N/A</eic></prtitle>
+<prtitle>
+<subject>(TOW 2 HEAVY ANTITANK/ASSAULT WEAPON SYSTEM)</subject>
+</prtitle>
+<effdatenot>7 August 2005</effdatenot>
+<distrib type="d">Distribution authorized to Department of Defense and DoD
+contractors only to protect critical technical data on systems or hardware.
+This determination was made Nov 1986. Other requests shall be referred to
+Project Manager,Close Combat Weapons Systems, ATTN: SFAE-MSLS-CWS-L, Redstone
+Arsenal, AL 35898-5750.</distrib>
+<expcont></expcont>
+<destr></destr>
+<supersed location="top">Supersedes TM 9-5855-450-24P dated 11 January 1996
+</supersed>
+<authnot>HEADQUARTERS, DEPARTMENT OF THE ARMY</authnot>
+<pubdate>13 January 2006</pubdate></idinfo>
+<lep></lep>
+<reportoferrors>
+<para>You can improve this manual. If you find mistakes or if you know of
+a way to improve procedures, please let us know. Mail you letter or DA Form
+2028 (Recommended Changes to Publications and Blank Forms) located at the
+back of this manual, directly to: Commander, U.S. Army Aviation and Missile
+Command, ATTN: AMSAM-MMC-MA-NP, Redstone Arsenal, AL 35898-5000. A reply will
+be furnished to you. You may also provide DA Form 2028 information to AMCOM
+via e-mail, fax or the World Wide Web. Our fax number is: DSN 788-6546 or
+Commercial (256) 842-6546. Our e-mail address is <emphasis type="boldundl">
+2028@redstone.army.mil</emphasis>. Instructions for sending an electronic
+2028 may be found at the back of this bulletin immediately preceding the hard
+copy 2028. For the World Wide Web use: <emphasis type="boldundl">https://amcom2028.redstone.army.mil
+</emphasis>.</para>
+</reportoferrors>
+<distrib type="d">Distribution authorized to Department of Defense and DOD
+contractors only to protect critical technical data on systems or hardware.
+This determination was made Nov 1986. Other requests shall be referred to
+Project Manager, .Close Combat Weapons Systems, ATTN: SFAE-MSLS-CWS-L, Redstone
+Arsenal, AL 35898-5750.</distrib>
+<contents>
+<illuslist><?Pub Caret>
+<tablelist></front><body>
+<chapter xid="chap1">
+<title>INTRODUCTION </title>
+<para0 label="1" xid="par1">
+<title>SCOPE.</title>
+<brk><para>This Repair Parts and Special Tools List (RPSTL) lists and authorizes
+spares and repair parts; special tools; special test, measurement, and diagnostic
+equipment (TMDE); and other special support equipment required for performance
+of organizational, direct support, general support, and depot maintenance
+of Equipment Set, Night Vision Sight, Infrared AN/UAS-12A. It authorizes the
+requisition, issue, and disposition of spares, repair parts, and special tools
+as indicated by the Source, Maintenance, and Recoverability (SMR) codes.</para>
+</para0>
+<para0 label="2" xid="par2">
+<title>GENERAL.</title>
+<brk><para>In addition to Section I, Introduction, this RPSTL is divided into
+the following sections:</para>
+<subpara1 xid="sub2a">
+<title>Section II, Repair Parts List.</title><para>A list of spares and repair
+parts authorized by this RPSTL for use in the performance of maintenance.
+The list also includes parts which must be removed for replacement of the
+authorized parts. Parts lists are composed of functional groups in ascending
+alphanumeric sequence, with the parts in each group listed in ascending figure
+and item number sequence. Bulk materials are listed alphabetically by item
+name in FIG. BULK at the end of the section. Items listed are shown on the
+associated illustrations/figures.</para>
+</subpara1>
+<subpara1 xid="sub2b">
+<title>Section III, Special Tools List.</title><para>Not applicable.</para>
+</subpara1>
+<subpara1 xid="sub2c">
+<title>Section IV, Cross-Reference Indexes.</title><para>There are two cross-reference
+indexes in this RPSTL: the National Stock Number (NSN) Index and the Part
+Number Index. The NSN Index refers to the figure and item number. The Part
+Number Index refers to the NSN and figure and item number.</para>
+</subpara1></para0>
+<para0 label="3" xid="par3">
+<title>EXPLANATION OF COLUMNS (SECTIONS II and III).</title>
+<subpara1 xid="sub3a">
+<title>ILLUSTRATION (Column (1)).</title><para>This column is divided as follows:
+</para>
+<subpara2 xid="sub3a1">
+<title>((a) FIG NO.) Figure Number.</title><para>Indicates the figure number
+illustrating an exploded view of a functional group.</para>
+</subpara2>
+<subpara2 xid="sub3a2">
+<title>((b) ITEM NO.) Item Number.</title><para>Indicates the number used
+to identify items called out in the illustration.</para>
+</subpara2>
+</subpara1>
+<subpara1 xid="sub3b">
+<title>SMR CODE (Column (2)).</title><para>The Source, Maintenance, and Recoverability
+(SMR) code is a 5-position code containing supply/requisitioning information,
+maintenance level authorization criteria, and disposition instruction, as
+shown in the following breakout:</para>
+<table label="nonum-cont" frame="topbot">
+<title></title>
+<tgroup cols="3"><colspec colname="col1" colwidth="1.01*"><colspec colname="col2"
+colwidth="1.02*"><colspec colname="col3" colwidth="0.97*">
+<tbody><row>
+<?PubTbl row rht="0.25in">
+<entry align="center"><emphasis type="italic">Source Code</emphasis></entry>
+<entry align="center"><emphasis type="italic">Maintenance Code</emphasis></entry>
+<entry align="center"><emphasis type="italic">Recoverability Code</emphasis></entry>
+</row></tbody>
+</tgroup>
+<tgroup cols="5">
+<?PubTbl tgroup rth="1.00pt">
+<colspec colname="col1" colwidth="85.00pt"><colspec colname="colspec2" colwidth="85.00pt">
+<colspec colname="colspec1" colwidth="85.00pt"><colspec colname="col2" colwidth="86.78pt">
+<colspec colname="col3" colwidth="5.00*"><spanspec namest="col1" nameend="col3"
+spanname="span2"><spanspec namest="col1" nameend="colspec2" spanname="span1">
+<tbody><row><entry align="center"><emphasis type="italic">1st position</emphasis></entry>
+<entry align="center"><emphasis type="italic">2d position</emphasis></entry>
+<entry align="center"><emphasis type="italic">3d position</emphasis></entry>
+<entry align="center"><emphasis type="italic">4th position</emphasis></entry>
+<entry align="center"><emphasis type="italic">5th position</emphasis></entry>
+</row><row><entry spanname="span1">How you get an item</entry><entry>Who can
+install, replace, or use the item </entry><entry>Who can complete repair*
+on the item </entry><entry>Indicates special handling requirements or who
+determines disposition action on an unserviceable item</entry></row></tbody>
+</tgroup>
+</table><para>*Complete Repair: Maintenance capacity, capability, and authority
+to perform all the corrective maintenance tasks of the "Repair" function in
+a use/user environment in order to restore serviceability to a failed item.
+</para>
+<pgbrk>
+<subpara2 xid="sub3b1">
+<title>Source Code.</title><para> The source code tells you how to get an
+item needed for maintenance, repair, or overhaul of an end item/equipment.
+Explanations of source codes follow:</para>
+<table label="nonum-cont" frame="topbot">
+<title></title>
+<tgroup cols="2">
+<?PubTbl tgroup ctmarg="3.00pt" cbmarg="3.00pt">
+<colspec colname="col1" colwidth="0.47*"><colspec colname="col2" colwidth="1.53*">
+<spanspec namest="col1" nameend="col2" spanname="span1">
+<thead><row><entry valign="top" align="center"><emphasis type="italic">Code
+</emphasis></entry><entry valign="top" align="center"><emphasis type="italic">
+Application/Explanation</emphasis></entry></row></thead>
+<tbody><row>
+<?PubTbl row rht="1.02in">
+<entry rowsep="0">PA<brk>PB<brk>PC**</entry><entry rowsep="0">Stocked items;
+use the applicable NSN to request/requisition items with these source codes.
+They are authorized to the level indicated by the code entered in the 3d position
+of the SMR code.</entry></row><row><entry rowsep="1">PD<brk>PE<brk>PF<brk>PG
+</entry><entry rowsep="1" valign="middle" align="center"><emphasis type="bold">
+**NOTE</emphasis><brk>Items coded PC are subject to deterioration.</entry>
+</row><row><entry rowsep="1">KD<brk>KF<brk>KB</entry><entry rowsep="1">Items
+with these codes are not to be requested/requisitioned individually. They
+are part of a kit which is authorized to the maintenance level indicated in
+the 3d position of the SMR code. The complete kit must be requisitioned and
+applied.</entry></row><row><entry rowsep="0">MO-(Made at org/AVUM level)</entry>
+<entry morerows="3" rowsep="0">Items with these codes are not to be requested/requisitioned
+individually. They must be made from bulk material which is identified by
+the part number in the DESCRIPTION AND USABLE ON CODE (UOC) column and listed
+in the Bulk Material group of the repair parts list in the RPSTL. If the item
+is authorized to you by the 3d position of the SMR code, but the source code
+indicates it is made at a higher level, order the item from the higher level
+of maintenance.</entry></row><row><entry rowsep="0">MF-(Made at DS/AVUM level)
+</entry></row><row><entry rowsep="0">MH-(Made at GS level)</entry></row><row>
+<entry rowsep="0">ML-(Made at Specialized Repair Activity (SRA))</entry></row>
+<row><entry>MD-(Made at Depot)</entry><entry></entry></row><row><entry rowsep="0">
+AO-(Assembled by org/AVUM level)</entry><entry morerows="3" rowsep="0">Items
+with these codes are not to be requested/requisitioned individually. The parts
+that make up the assembled item must be requisitioned or fabricated and assembled
+at the level of maintenance indicated by the source code. If the 3d position
+of the SMR code authorizes you to replace the item, but the source code indicates
+the item is assembled at a higher level, order the item from the higher level
+of maintenance.</entry></row><row><entry rowsep="0">AF-(Assembled by DS/AVUM
+level)</entry></row><row><entry rowsep="0">AH-(Assembled by GS level)</entry>
+</row><row><entry rowsep="0">AL-(Assembled by SRA)</entry></row><row><entry>
+AD-(Assembled by Depot)</entry><entry></entry></row><row><entry>XA</entry>
+<entry>Do not requisition an &ldquo;XA&rsquo;&rsquo;-coded item. Order its
+next higher assembly. (Also refer to the NOTE below).</entry></row><row><entry>
+XB</entry><entry>If an &ldquo;XB&rdquo; item is not available from salvage,
+order it using the Commercial and Government Entity Code (CAGEC) and part
+number given.</entry></row><row><entry>XC</entry><entry>Installation drawing,
+diagram, instruction sheet, field service drawing, that is identified by manufacturers
+part number.</entry></row><row><entry>XD</entry><entry>Item is not stocked.
+Order an &ldquo;XD&rsquo;&rsquo;-coded item through normal supply channels
+using the CAGEC and part number given, if no NSN is available.</entry></row>
+</tbody>
+</tgroup>
+</table><note>
+<para>Cannibalization or controlled exchange, when authorized, may be used
+as a source of supply for items with the above source codes, except for those
+source coded &ldquo;XA&rdquo; or those aircraft support items restricted by
+requirements of AR 750-1.</para>
+</note></subpara2>
+<pgbrk>
+<subpara2 xid="sub3b2">
+<title>Maintenance Code.</title><para>Maintenance codes tell you the level(s)
+of maintenance authorized to USE and REPAIR support items. The maintenance
+codes are entered in the third and fourth positions of the SMR code as follows:
+</para>
+<subpara3 xid="sub3b2a">
+<title></title><para>The maintenance code entered in the third position tells
+you the lowest maintenance level authorized to remove, replace, and use an
+item. The maintenance code entered in the third position will indicate authorization
+to one of the following levels of maintenance.</para>
+<table label="nonum-cont" frame="topbot">
+<title></title>
+<tgroup cols="2"><colspec colname="col1" colwidth="0.41*"><colspec colname="col2"
+colwidth="1.59*">
+<thead><row><entry valign="top" align="center"><emphasis type="italic">Code
+</emphasis></entry><entry valign="top" align="center"><emphasis type="italic">
+Application/Explanation</emphasis></entry></row></thead>
+<tbody><row><entry rowsep="0" align="center">C</entry><entry rowsep="0">Crew
+or operator maintenance done within organizational or aviation unit maintenance.
+</entry></row><row><entry rowsep="0" align="center">O</entry><entry rowsep="0">
+Organizational or aviation unit level can remove, replace, and use the item.
+</entry></row><row><entry rowsep="0" align="center">F</entry><entry rowsep="0">
+Direct support or aviation intermediate level can remove, replace, and use
+the item.</entry></row><row><entry rowsep="0" align="center">H</entry><entry
+rowsep="0">General support level can remove, replace, and use the item.</entry>
+</row><row><entry rowsep="0" align="center">L</entry><entry rowsep="0">Specialized
+repair activity can remove, replace, and use the item.</entry></row><row>
+<entry align="center">D</entry><entry>Depot level can remove, replace, and
+use the item.</entry></row></tbody>
+</tgroup>
+</table></subpara3>
+<subpara3 xid="sub3b2b">
+<title></title><para>The maintenance code entered in the fourth position tells
+you whether or not the item is to be repaired and identifies the lowest maintenance
+level with the capability to do complete repair (i.e., perform all authorized
+repair functions). This position will contain one of the following maintenance
+codes.</para>
+<note>
+<para>Some limited repair may be done on the item at a lower level of maintenance,
+if authorized by the Maintenance Allocation Chart (MAC) and SMR codes.</para>
+</note>
+<table label="nonum-cont" frame="topbot">
+<title></title>
+<tgroup cols="2"><colspec colname="col1" colwidth="0.41*"><colspec colname="col2"
+colwidth="1.59*">
+<thead><row><entry valign="top" align="center"><emphasis type="italic">Code
+</emphasis></entry><entry valign="top" align="center"><emphasis type="italic">
+Application/Explanation</emphasis></entry></row></thead>
+<tbody><row><entry rowsep="0" align="center">O</entry><entry rowsep="0">Organizational
+or aviation unit is the lowest level that can do complete repair of the item.
+</entry></row><row><entry rowsep="0" align="center">F</entry><entry rowsep="0">
+Direct support or aviation intermediate is the lowest level that can do complete
+repair of the item.</entry></row><row><entry rowsep="0" align="center">H</entry>
+<entry rowsep="0">General support is the lowest level that can do complete
+repair of the item.</entry></row><row><entry rowsep="0" align="center">L</entry>
+<entry rowsep="0">Specialized repair activity is the lowest level that can
+do complete repair of the item.</entry></row><row><entry rowsep="0" align="center">
+D</entry><entry rowsep="0">Depot is the lowest level that can do complete
+repair of the item.</entry></row><row><entry rowsep="0" align="center">Z</entry>
+<entry rowsep="0">Nonreparable. No repair is authorized.</entry></row><row>
+<entry align="center">B</entry><entry>No repair is authorized. No parts or
+special tools are authorized for the maintenance of a &ldquo;B&rdquo;-coded
+item. However, the item may be reconditioned by adjusting, lubricating, etc.,
+at the user level.</entry></row></tbody>
+</tgroup>
+</table></subpara3>
+</subpara2>
+<pgbrk>
+<subpara2 xid="sub3b3">
+<title>Recoverability Code.</title><para>Recoverability codes are assigned
+to items to indicate the disposition action on unserviceable items. The recoverability
+code is entered in the fifth position of the SMR code as follows:</para>
+<table label="nonum-cont" frame="topbot">
+<title></title>
+<tgroup cols="2"><colspec colname="col1" colwidth="0.41*"><colspec colname="col2"
+colwidth="1.59*">
+<tbody><row><entry align="center"><emphasis type="italic">Code</emphasis></entry>
+<entry align="center"><emphasis type="italic">Application/Explanation</emphasis></entry>
+</row><row><entry rowsep="0" align="center">Z</entry><entry rowsep="0">Nonreparable
+item. When unserviceable, condemn and dispose of the item at the level of
+maintenance shown in 3d position of SMR code.</entry></row><row><entry rowsep="0"
+align="center">O</entry><entry rowsep="0">Reparable item. When uneconomically
+reparable, condemn and dispose of the item at organization or aviation unit
+level.</entry></row><row><entry rowsep="0" align="center">F</entry><entry
+rowsep="0">Reparable item. When uneconomically reparable, condemn and dispose
+of the item at the direct support or aviation intermediate unit level.</entry>
+</row><row><entry rowsep="0" align="center">H</entry><entry rowsep="0">Reparable
+item. When uneconomically reparable, condemn and dispose of the item at the
+general support level.</entry></row><row><entry rowsep="0" align="center">
+D</entry><entry rowsep="0">Reparable item. When beyond lower level repair
+capability, return to depot. Condemnation and disposal of item not authorized
+below depot level.</entry></row><row><entry rowsep="0" align="center">L</entry>
+<entry rowsep="0">Reparable item. Condemnation and disposal not authorized
+below specialized repair activity (SRA).</entry></row><row><entry align="center">
+A</entry><entry>Item requires special handling or condemnation procedures
+because of specific reasons (e.g., precious metal content, high dollar value,
+critical material, or hazardous material). Refer to appropriate manuals/directives
+for specific instructions.</entry></row></tbody>
+</tgroup>
+</table><note centered-para="1">
+<para>See SPECIAL INFORMATION, paragraph 5a for additional explanation of
+Recoverability Code A.</para>
+</note></subpara2>
+</subpara1>
+<subpara1 xid="sub3c">
+<title>NATIONAL STOCK NUMBER (Column (3)).</title><para>This column lists
+the NSN assigned to the item. Use the NSN for requests/requisitions.</para>
+</subpara1>
+<subpara1 xid="sub3d">
+<title>CAGEC (Column (4)).</title><para>The CAGEC is a 5-digit code which
+is used to identify the manufacturer, distributor, or government agency/activity,
+etc., that supplies the item.</para>
+</subpara1>
+<subpara1 xid="sub3e">
+<title>PART NUMBER (Column (5)).</title><para>Indicates the primary number
+used by the manufacturer (individual, company, firm, corporation, or government
+agency/activity), which controls the design and characteristics of the item
+by means of its engineering drawings, specifications, standards, and inspection
+requirements to identify an item or range of items.</para>
+<note></note><para>When you use an NSN to requisition an item, the item you
+receive may have a different part number from the part ordered.</para>
+</subpara1>
+<subpara1 xid="sub3f">
+<title>DESCRIPTION AND USABLE ON CODE (UOC) (Column (6)).</title><para>This
+column includes the following information:</para>
+<subpara2 xid="sub3f1">
+<title></title><para>The Federal item name and, when required, a minimum description
+to identify the item.</para>
+</subpara2>
+<subpara2 xid="sub3f2">
+<title></title><para>The physical security classification of an item, when
+applicable, is indicated by a parenthetical entry following the Controlled
+Item Inventory Code (CIIC), e.g., CIIC(C) means the item is classified Confidential.
+</para>
+</subpara2>
+<subpara2 xid="sub3f3">
+<title></title><para>Items that are included in kits and sets are listed below
+the name of the kit or set.</para>
+</subpara2>
+<subpara2 xid="sub3f4">
+<title></title><para>Spare/repair parts that make up an assembled item are
+listed immediately following the assembled item line entry or reference is
+made to the applicable figure/functional group.</para>
+</subpara2>
+<subpara2 xid="sub3f5">
+<title></title><para>Part numbers for bulk materials are referenced in this
+column in the line entry for the item to be manufactured/fabricated.</para>
+</subpara2>
+<pgbrk>
+<subpara2 xid="sub3f6">
+<title></title><para>When the item is not used with all serial numbers of
+the same model, the effective serial numbers are shown as the last line(s)
+of the description (before UOC).</para>
+</subpara2>
+<subpara2 xid="sub3f7">
+<title></title><para>In the Special Tools List section, the basis of issue
+(BOI) appears as the last line(s) in the entry for each special tool, special
+TMDE, and other special support equipment. When density of equipment supported
+exceeds density spread indicated in the basis of issue, the total authorization
+is increased proportionately.</para>
+</subpara2>
+<subpara2 xid="sub3f8">
+<title></title><para>The Usable on Code (UOC), when applicable (see paragraph <xref
+xref="par5">, Special Information).</para>
+</subpara2>
+</subpara1>
+<subpara1 xid="sub3g">
+<title>QTY (Column (7)).</title><para>The quantity (QTY) (quantity per figure
+column) indicates the quantity of the item used in the breakout shown on the
+illustration/figure, which is prepared for a functional group, sub-functional
+group, or an assembly. A &ldquo;V&rdquo; appearing in this column in lieu
+of a quantity indicates that the quantity is variable and may vary from application
+to application.</para>
+</subpara1></para0>
+<para0 label="4" xid="par4">
+<title>EXPLANATION OF COLUMNS (SECTION IV).</title>
+<subpara1 xid="sub4a">
+<title>NATIONAL STOCK NUMBER INDEX.</title>
+<subpara2 xid="sub4a1">
+<title>STOCK NUMBER Column.</title><para>This column lists the NSN by National
+item identification number (NIIN) sequence. The NIIN consists of the last
+nine digits of the NSN (e.g.,</para>
+<table label="nonum" frame="none" colsep="0" rowsep="0">
+<title></title>
+<tgroup cols="1">
+<?PubTbl tgroup clmarg="1.00pt" crmarg="1.00pt" ctmarg="1.00pt" cbmarg="1.00pt" dispwid="1.40in">
+<colspec colname="col1" colwidth="1.30in">
+<tbody><row rowsep="1" valign="bottom"><entry align="center">NSN</entry></row>
+<row valign="middle"><entry align="center">5305-<emphasis type="undl">01-574-1467).
+</emphasis></entry></row><row><entry align="center">NIIN</entry></row></tbody>
+</tgroup>
+</table><para>When using this column to locate an item, ignore the first 4
+digits of the NSN. However, the complete NSN should be used when ordering
+items by stock number.</para>
+</subpara2>
+<subpara2 xid="sub4a2">
+<title>FIG. Column.</title><para>This column lists the number of the figure
+where the item is identified/located. The figures are in numerical order in
+Sections II or III.</para>
+</subpara2>
+<subpara2 xid="sub4a3">
+<title>ITEM Column.</title><para>The item number identifies the item associated
+with the figure listed in the adjacent FIG. column. This item is also identified
+by the NSN listed on the same line.</para>
+</subpara2>
+</subpara1>
+<subpara1 xid="sub4b">
+<title>PART NUMBER INDEX.</title><para>Part numbers in this index are listed
+by part number in ascending alphanumeric sequence.</para>
+<subpara2 xid="sub4b1">
+<title>PART NUMBER Column.</title><para>Indicates the primary number used
+by the manufacturer (individual, firm, corporation, or government agency/activity),
+which controls the design and characteristics of the item by means of its
+engineering drawings, specification standards, and inspection requirements
+to identify  an item or range of items.</para>
+</subpara2>
+<subpara2 xid="sub4b2">
+<title>FIG. Column.</title><para>This column lists the number of the figure
+where the item is identified/located in Sections II or III.</para>
+</subpara2>
+<subpara2 xid="sub4b3">
+<title>ITEM column.</title><para>The item number is that number assigned to
+the item as it appears in the figure referenced in the adjacent figure number
+column.</para>
+</subpara2>
+</subpara1></para0>
+<para0 label="5" xid="par5">
+<title>SPECIAL INFORMATION.</title>
+<subpara1 xid="sub5a">
+<title>RECOVERABILITY CODE A.</title><para>Items assigned recoverability code
+&ldquo;A&rdquo; require research to determine the appropriate special handling
+or condemnation procedures. The &ldquo;A&rdquo; recoverability code is utilized
+to identify items containing precious metal and/or hazardous material and
+items requiring special disposal instructions, such as, centralized recovery,
+due to unique management interests. If the item with a recoverability code
+of &ldquo;A&rdquo; cannot be identified as being an item under one of the
+above conditions, the item may require special cannibalization actions prior
+to disposal of the item. The &ldquo;A&rdquo; code is also utilized to denote
+selected reparable items which require lower generation spares/repair parts
+to be removed prior to the disposal of the reparable item. When these &ldquo;A&rsquo;&rsquo;-coded
+items are determined to be uneconomically reparable at the authorized 4th
+position level, the recoverability code of all lower generation items must
+be reviewed. Any lower generation items which have a higher recoverability
+code level than the SMR 4th position level of the uneconomically reparable
+item must be removed and forwarded to the appropriate level authorized for
+individual disposition prior to disposal of the uneconomically reparable item.
+The uneconomically reparable item is then authorized to be disposed of, with
+the higher level recoverability item missing, at the level denoted by the
+SMR 4th position.</para>
+</subpara1>
+<subpara1 xid="sub5b">
+<title>INDEX NUMBERS.</title><para>Items which have the word BULK in the figure
+column will have an index number shown in the item number column. This index
+number is a cross-reference between the National Stock Number/Part Number
+Index and the bulk material list in Section II.</para>
+</subpara1>
+<subpara1 xid="sub5c">
+<title></title><para>National stock numbers (NSN) that are missing for &ldquo;P&rdquo;
+source coded items have been applied for and will be added to this manual
+by a change/revision when they are entered in the Army Master Data File (AMDF).
+ Until the NSNs are established and published, submit exception requisitions
+to: Commander, U.S. Army Missile Command, ATTN: AMSMI-MMC-MM-DDT, Redstone
+Arsenal, AL 35898-5239.</para>
+</subpara1>
+<subpara1 xid="sub5d">
+<title></title><para>For requisitioning miscellaneous consumable maintenance
+supplies or expendable supplies, use CTA 50-970.</para>
+</subpara1>
+<subpara1 xid="sub5e">
+<title></title><para>To report quality deficiencies due to design, manufacturing,
+and maintenance, or recommendations for improvements to equipment, submit
+SF 368, Quality Deficiency Report (QDR), to: Commander, U.S. Army Missile
+Command, ATTN: AMSMI-QA-QM-QD, Redstone Arsenal, AL 35898-5290.</para>
+</subpara1>
+<subpara1 xid="sub5f">
+<title>USABLE ON CODE.</title><para>The UOC is a three-position, alphanumeric
+code that represents each model in which an item is used. The UOC appears
+on the last line of an item&rsquo;s description following the letters "UOC."
+Uncoded items are used in all models. The UOCs in this RPSTL are identified
+as follows:</para>
+</subpara1>
+<table label="nonum" frame="none">
+<title></title>
+<tgroup cols="2">
+<?PubTbl tgroup ctmarg="3.00pt" cbmarg="3.00pt" clmarg="1.00in">
+<colspec colname="col1"><colspec colname="col2"><spanspec namest="col1" nameend="col2"
+spanname="span1">
+<thead><row><entry colsep="0" rowsep="0" valign="top"><emphasis type="undlitalic">
+UOC</emphasis></entry><entry colsep="0" rowsep="0" valign="top"><emphasis
+type="undlitalic">Used On</emphasis></entry></row></thead>
+<tbody><row><entry colsep="0" rowsep="0">YAG</entry><entry colsep="0" rowsep="0">
+13220196 AN/UAS-12A (TI)</entry></row><row><entry colsep="0" rowsep="0">YAL
+</entry><entry colsep="0" rowsep="0">13251667 AN/UAS-12A (KIC)</entry></row>
+<row><entry spanname="span1" colsep="0" rowsep="0"></entry></row></tbody>
+</tgroup>
+</table>
+<subpara1 xid="sub5h">
+<title>ILLUSTRATIONS.</title><para>Certain assemblies in this RPSTL have fully
+exploded illustrations depicting all parts. Illustrations for other assemblies
+reflect only those spares and repair parts that are authorized for use in
+performance of maintenance plus those parts which must be removed for replacement
+of the authorized items. Regardless of which type illustration is shown in
+this RPSTL, only those spares and repair parts listed in the parts list are
+authorized for requisitioning, issue, and disposition as indicated by the
+Source, Maintenance, and Recoverability (SMR) code.</para>
+</subpara1>
+<subpara1 xid="sub5i">
+<title>ASSOCIATED PUBLICATIONS.</title><para>The publications listed below
+pertain to the AN/UAS-12C, and their components.</para>
+</subpara1>
+<table label="nonum" frame="none">
+<title></title>
+<tgroup cols="2">
+<?PubTbl tgroup ctmarg="3.00pt" cbmarg="3.00pt" clmarg="1.00in">
+<colspec colname="col1" align="left" charoff="50" char="." colwidth="0.80*">
+<colspec colname="col2" align="left" colwidth="1.20*">
+<thead><row>
+<?PubTbl row rht="0.52in">
+<entry colsep="0" rowsep="0" valign="top"><emphasis type="italic">Publication
+</emphasis></entry><entry colsep="0" rowsep="0" valign="top"><emphasis type="italic">
+Short Title</emphasis></entry></row></thead>
+<tbody><row><entry xid="m9-5855-450-24" colsep="0" rowsep="0">TM 9-5855-450-24
+</entry><entry colsep="0" rowsep="0">Org, DS/GS, and Depot Maint Manual for
+Night Vision Sight, Infrared AN/TAS-4A</entry></row></tbody>
+</tgroup>
+</table>
+<subpara1 xid="sub5j">
+<title>ASSEMBLY INSTRUCTIONS.</title><para>Detailed assembly instructions
+for items source coded to be assembled from component spare/repair parts are
+found in TM 9-5855-450-24. Items that make up the assembly are listed immediately
+following the assembly item entry or reference is made to an applicable figure/functional
+group.</para>
+</subpara1></para0>
+<para0 label="6" xid="par6">
+<title>HOW TO LOCATE REPAIR PARTS.</title>
+<subpara1 xid="sub6a">
+<title></title><para>When National Stock Number, Part Number is not known:
+</para>
+<subpara2 xid="sub6a1">
+<title>First.</title><para>Using the Table of Contents, determine the assembly
+group or subassembly group to which the item belongs. This is necessary since
+figures are prepared for assembly groups and subassembly groups and listings
+are divided into the same groups.</para>
+</subpara2>
+<subpara2 xid="sub6a2">
+<title>Second.</title><para>Find the figure covering the assembly group or
+subassembly group to which the item belongs.</para>
+</subpara2>
+<subpara2 xid="sub6a3">
+<title>Third.</title><para>Identify the item on the illustration and note
+the illustration figure and item number of the item.</para>
+</subpara2>
+<subpara2 xid="sub6a4">
+<title>Fourth.</title><para>Using the Repair Parts Listing, find the figure
+and item number noted on the illustration.</para>
+</subpara2>
+</subpara1>
+<subpara1 xid="sub6b">
+<title></title><para>When National Stock Number, Part Number known:</para>
+<subpara2 xid="sub6b1">
+<title>First.</title><para>If you have the NSN, look in the STOCK NUMBER Column
+of the National Stock Number Index. The NSN Index is arranged in National
+item identification number (NIIN) sequence (see paragraph <xref xref="par4">a).
+Note the figure and item number next to the NSN.</para>
+</subpara2>
+<subpara2 xid="sub6b2">
+<title>Second.</title><para>Turn to the figure and locate the item number.
+Verify that the item is the one you are looking for.</para>
+<note></note><para>If you have the part number or reference designator, look
+in the PART NUMBER column of the Part Number Index. Identify the figure and
+item number, look up the item in the applicable figure in Section II or III.
+</para>
+</subpara2>
+</subpara1></para0>
+<para0 label="7" xid="par7">
+<title>ABBREVIATIONS.</title><para>(Not applicable)</para>
+</para0>
+</chapter>
+<chapter>
+<title>REPAIR PARTS LIST</title>
+<figure xid="fig1">
+<graphic boardno="ms029679" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Equipment set, night vision sight, infrared AN/UAS-12A (13220196, 132S1667)
+(Group 0010)</title>
+</figtitle></figure>
+<table label="0010" tabstyle="rpstl" rpstl-indenture="1">
+<title>EQUIPMENT SET,NIGHT VISION SIGHT, INFRARED AN/UAS-12A, 13220196, 13251667
+</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure xid="fig2">
+<graphic boardno="ms029680" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Night vision sight, infrared AN/TAS-4A (13220197, 13251668) (Group
+0020)</title>
+</figtitle></figure>
+<table label="0020" tabstyle="rpstl" rpstl-indenture="1">
+<title>NIGHT VISION SIGHT, INFRARED AN/TAS-4A, 13220197, 13251668</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure xid="fig3">
+<graphic boardno="ms029681" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Night vision sight, infrared (13220199, 13251670) (Group 0040)</title>
+</figtitle></figure>
+<table label="0040" tabstyle="rpstl" rpstl-indenture="3">
+<title>NIGHT VISION SIGHT,INFRARED, 13220199, 13251670</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure xid="fig4">
+<graphic boardno="ms029682" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Night vision sight, infrared (SM-D-968914, 13251660) (Group 0060)</title>
+</figtitle></figure>
+<table label="0060" tabstyle="rpstl" rpstl-indenture="4">
+<title>NIGHT VISION SIGHT, INFRARED, SM-D-968914, 13251660</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure xid="fig5">
+<graphic boardno="ms029683" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Afocal cover (SM-D-968915, 13251661, 13265271) (Group 0080)</title>
+</figtitle></figure>
+<table label="0080" tabstyle="rpstl" rpstl-indenture="5">
+<title>AFOCAL COVER, SM-D-968915, 13251661, 13265271</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure xid="fig6"><subfig>
+<graphic boardno="ms029684" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Lens switching assembly (SM-D-807578, 13251689, 13348407) (Group 0100)
+</title>
+</figtitle></subfig><subfig>
+<graphic boardno="ms029685" reprowid="1" reprodep="1" vplace="middle"></subfig>
+<subfig>
+<graphic boardno="ms029686" reprowid="1" reprodep="1" vplace="middle"></subfig>
+</figure>
+<table label="0100" tabstyle="rpstl" rpstl-indenture="6">
+<title>LENS SWITCHING ASSEMBLY, SM-D-807578, 13251689, 13348407</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure xid="fig7">
+<graphic boardno="ms029687" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Cover assembly (13265136-2) (Group 0120)</title>
+</figtitle></figure>
+<table label="0120" tabstyle="rpstl" rpstl-indenture="6">
+<title>COVER ASSEMBLY, 13265136-2</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure xid="fig8">
+<graphic boardno="ms029688" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Mount assembly (SM-C-807558) (Group 0140)</title>
+</figtitle></figure>
+<table label="0140" tabstyle="rpstl" rpstl-indenture="6">
+<title>MOUNT ASSEMBLY, SM-C-807558</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure xid="fig9">
+<graphic boardno="ms029689" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Post amplifier assembly (13099840) (Group 0160)</title>
+</figtitle></figure>
+<table label="0160" tabstyle="rpstl" rpstl-indenture="4">
+<title>POSTAMPLIFIER ASSEMBLY, 13099840</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure xid="fig10">
+<graphic boardno="ms029690" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Cable, interconnect (13099870) (Group 0180)</title>
+</figtitle></figure>
+<table label="0180" tabstyle="rpstl" rpstl-indenture="5">
+<title>CABLE, INTERCONNECT, 13099870</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<brk type="opg">
+<figure xid="fig11"><subfig>
+<graphic boardno="ms029691" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Circuit card assembly, post amplifier number 1 (13099843-2) (Group
+0200)</title>
+</figtitle></subfig><subfig>
+<macrograph>
+<figtable rowsep="1">
+<tgroup cols="6">
+<?PubTbl tgroup clmarg="1.00pt" crmarg="1.00pt" ctmarg="1.00pt" cbmarg="1.00pt">
+<colspec colname="col1" align="center" colwidth="30.00pt"><colspec colname="col2"
+align="center" colwidth="30.00pt"><colspec colname="col3" align="center" colwidth="30.00pt">
+<colspec colname="col4" align="center" colwidth="30.00pt"><colspec colname="col5"
+align="center" colwidth="30.00pt"><colspec colname="col6" align="center" colwidth="30.00pt">
+<thead><row valign="middle">
+<?PubTbl row rht="0.30in">
+<entry><?Pub _cellfont TypeSize="8pt">REF<brk>DES</entry><entry><?Pub _cellfont
+TypeSize="8pt">ITEM<brk>NO.</entry><entry><?Pub _cellfont TypeSize="8pt">
+REF<brk>DES</entry><entry><?Pub _cellfont TypeSize="8pt">ITEM<brk>NO.</entry>
+<entry><?Pub _cellfont TypeSize="8pt">REF<brk>DES</entry><entry><?Pub _cellfont
+TypeSize="8pt">ITEM<brk>NO.</entry></row></thead>
+<tbody><row valign="middle">
+<?PubTbl row rht="0.12in">
+<entry><?Pub _cellfont TypeSize="8pt">AR1</entry><entry><?Pub _cellfont TypeSize="8pt"></entry>
+<entry><?Pub _cellfont TypeSize="8pt">R1</entry><entry><?Pub _cellfont TypeSize="8pt"></entry>
+<entry><?Pub _cellfont TypeSize="8pt">THRU</entry><entry><?Pub _cellfont TypeSize="8pt"></entry>
+</row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R68</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">24</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">AR8</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">1</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R3</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry><entry
+valign="middle"><?Pub _cellfont TypeSize="8pt">R69</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">20</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C1</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R4</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry><entry
+valign="middle"><?Pub _cellfont TypeSize="8pt">R70</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">25</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R71</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">26</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C5</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">2</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R7</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">15</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R73</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">25</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C6</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">3</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R8</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry><entry
+valign="middle"><?Pub _cellfont TypeSize="8pt">R74</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">27</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C7</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">2</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R76</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">28</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C8</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">3</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R11</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">14</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R77</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">29</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C9</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">3</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R12</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R78</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">30</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C10</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">2</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R79</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C11</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">2</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R15</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">16</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C12</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">3</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R16</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R90</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">29</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C13</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">3</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R91</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C14</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R19</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">14</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R20</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R102</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">31</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C37</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">2</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R103</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">25</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C38</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">3</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R23</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">17</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R104</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">32</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C39</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">4</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R24</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R105</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">33</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C40</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">4</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R106</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C41</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">5</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R27</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">18</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C42</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R28</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R113</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">23</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R114</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C45</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">6</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R31</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">19</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C46</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R32</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R117</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">34</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R118</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C49</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">7</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R35</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">18</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C50</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R36</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R145</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">35</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R146</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C77</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">8</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R39</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">20</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C78</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R40</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R173</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">27</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R174</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C80</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">9</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R43</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">14</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C81</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">3</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R44</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R177</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">29</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C82</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">3</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R178</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C83</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R47</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">21</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R48</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R181</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">36</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C110</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">8</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R182</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">37</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C111</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R51</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">14</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R183</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">18</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R52</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">U1</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C114</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">9</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C115</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">10</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R55</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">22</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">U4</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">38</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">J1</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">11</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R56</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">U5</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">J2</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">12</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">L1</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">13</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R59</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">23</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">U12</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">39</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">L2</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">13</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R60</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">14</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">U13</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">40</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">L3</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">13</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R61</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row></tbody>
+</tgroup>
+</figtable>
+</macrograph>
+</subfig></figure>
+<table label="0200" tabstyle="rpstl" rpstl-indenture="5">
+<title>CIRCUIT CARD ASSEMBLY, POSTAMPLIFIER NUMBER 1, 13099843-2</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<brk type="opg">
+<figure xid="fig12"><subfig>
+<graphic boardno="ms029692" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Circuit card assembly, post amplifier number 2 (13099846-2) (Group
+0220)</title>
+</figtitle></subfig><subfig>
+<macrograph>
+<figtable rowsep="1">
+<tgroup cols="6">
+<?PubTbl tgroup clmarg="1.00pt" crmarg="1.00pt" ctmarg="1.00pt" cbmarg="1.00pt">
+<colspec colname="col1" align="center" colwidth="30.00pt"><colspec colname="col2"
+align="center" colwidth="30.00pt"><colspec colname="col3" align="center" colwidth="30.00pt">
+<colspec colname="col4" align="center" colwidth="30.00pt"><colspec colname="col5"
+align="center" colwidth="30.00pt"><colspec colname="col6" align="center" colwidth="30.00pt">
+<thead><row valign="middle">
+<?PubTbl row rht="0.30in">
+<entry><?Pub _cellfont TypeSize="8pt">REF<brk>DES</entry><entry><?Pub _cellfont
+TypeSize="8pt">ITEM<brk>NO.</entry><entry><?Pub _cellfont TypeSize="8pt">
+REF<brk>DES</entry><entry><?Pub _cellfont TypeSize="8pt">ITEM<brk>NO.</entry>
+<entry><?Pub _cellfont TypeSize="8pt">REF<brk>DES</entry><entry><?Pub _cellfont
+TypeSize="8pt">ITEM<brk>NO.</entry></row></thead>
+<tbody><row valign="middle">
+<?PubTbl row rht="0.12in">
+<entry><?Pub _cellfont TypeSize="8pt">AR1</entry><entry><?Pub _cellfont TypeSize="8pt"></entry>
+<entry><?Pub _cellfont TypeSize="8pt">THRU</entry><entry><?Pub _cellfont TypeSize="8pt"></entry>
+<entry><?Pub _cellfont TypeSize="8pt">R81</entry><entry><?Pub _cellfont TypeSize="8pt">
+17</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R11</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">16</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R82</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">AR7</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">1</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R12</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C1</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">2</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R93</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">24</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C2</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">2</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R15</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">15</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R94</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C3</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R16</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R97</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">25</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C41</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">3</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R19</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">17</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R98</entry><entry valign="middle"></entry>
+</row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C42</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R20</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.20in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R101</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">26</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C45</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">4</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R23</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">18</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R102</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C46</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R24</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R105</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">27</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C49</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">5</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R27</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">16</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R106</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C50</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R28</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R109</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">28</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C77</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">2</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R31</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">18</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R110</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C78</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">6</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R32</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C79</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">7</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R113</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">29</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C80</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">6</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R35</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">16</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R114</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C81</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">7</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R36</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C82</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">8</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R117</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">30</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C83</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">7</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R39</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">18</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R118</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">31</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C84</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R40</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R119</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">32</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R120</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C109</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">2</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R43</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">19</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C110</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R44</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R131</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">30</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R132</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">C113</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">7</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R47</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">15</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">J1</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">9</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R48</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R135</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">33</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">J2</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">9</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R136</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">J3</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">10</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R51</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">20</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">J4</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">11</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R52</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R163</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">34</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">J5</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">12</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R164</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">L1</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R55</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">15</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R56</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">14</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R180</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">16</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">L3</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">13</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R57</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">21</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">U1</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R1</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R58</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">U4</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">35</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R3</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">14</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R65</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">22</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">U5</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">36</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R4</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R66</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">U6</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">37</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">U7</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R7</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">15</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R69</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">23</entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">THRU</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R8</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">14</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+R70</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">U14</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">38</entry></row><row>
+<?PubTbl row rht="0.12in">
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">R9</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt"></entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt">
+THRU</entry><entry valign="middle"><?Pub _cellfont TypeSize="8pt"></entry>
+<entry valign="middle"><?Pub _cellfont TypeSize="8pt">U15</entry><entry valign="middle"><?Pub _cellfont
+TypeSize="8pt">39</entry></row></tbody>
+</tgroup>
+</figtable>
+</macrograph>
+</subfig></figure>
+<table label="0220" tabstyle="rpstl" rpstl-indenture="5">
+<title>CIRCUIT CARD ASSEMBLY, POSTAMPLIFIER NUMBER 2, 13099846-2</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<brk type="opg">
+<figure xid="fig13"><subfig>
+<graphic boardno="ms029693" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Basic sight assembly (SM-D-968920, 13251583) (Group 0240)</title>
+</figtitle></subfig><subfig>
+<graphic boardno="ms029694" reprowid="1" reprodep="1" vplace="middle"></subfig>
+</figure>
+<table label="0240" tabstyle="rpstl" rpstl-indenture="1">
+<title>BASIC SIGHT ASSEMBLY,SU-108A/TAS, SM-D-968920, 13251583</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure xid="fig14">
+<graphic boardno="ms029695" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Eyepiece assembly (SM-C-968024) (Group 0260)</title>
+</figtitle></figure>
+<table label="0260" tabstyle="rpstl" rpstl-indenture="2">
+<title>EYEPIECE ASSEMBLY, SM-C-968024</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure xid="fig15">
+<graphic boardno="ms029696" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Eyepiece housing assembly (SM-D-968025) (Group 0280)</title>
+</figtitle></figure>
+<table label="0280" tabstyle="rpstl" rpstl-indenture="3">
+<title>EYEPIECE HOUSING ASSEMBLY, SM-D-968025</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row>
+<?PubTbl row rht="0.32in">
+<entry></entry><entry></entry></row><row><entry></entry><entry></entry></row>
+</tbody>
+</tgroup>
+</table>
+<figure xid="fig16">
+<graphic boardno="ms029697" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Cell assembly, optic (13265127) (Group 0300)</title>
+</figtitle></figure>
+<table label="0300" tabstyle="rpstl" rpstl-indenture="2">
+<title>CELL ASSEMBLY, OPTICAL, 13265127</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure xid="fig17">
+<graphic boardno="ms029698" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Cooler-detector assembly (SM-D-969111) (Group 0340)</title>
+</figtitle></figure>
+<table label="0340" tabstyle="rpstl" rpstl-indenture="2">
+<title>COOLER-DETECTOR ASSEMBLY, SM-D-969111</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<table label="" tabstyle="rpstl">
+<title>FIGURE 18 INTENTIONALLY OMITTED</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure label="19" xid="fig19">
+<graphic boardno="ms029699" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Circuit Card Assembly, (SM-D-967931-1) (Group 0380)</title>
+</figtitle></figure>
+<table label="0380" tabstyle="rpstl" rpstl-indenture="6">
+<title>CIRCUIT CARD ASSEMBLY, SM-D-967931-1</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<brk type="opg">
+<figure label="20" xid="fig20"><subfig>
+<graphic boardno="ms029700" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Chassis assembly (SM-D-968930-1, 13251584-1) (Group 0420)</title>
+</figtitle></subfig><subfig>
+<graphic boardno="ms029701" reprowid="1" reprodep="1" vplace="middle"></subfig>
+</figure>
+<table label="0420" tabstyle="rpstl" rpstl-indenture="2">
+<title>CHASSIS ASSEMBLY, SM-D-968930-1, 13251584-1</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure label="21" xid="fig21">
+<graphic boardno="ms029702" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Cable Assembly, W1 (SM-D-968932, 13251585) (Group 0440)</title>
+</figtitle></figure>
+<table label="0440" tabstyle="rpstl" rpstl-indenture="3">
+<title>CABLE ASSEMBLY, W1, SM-D-968932, 13251585</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<brk type="opg">
+<figure label="22" xid="fig22"><subfig>
+<graphic boardno="ms029703" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Junction box assembly (SM-D-968922, 13251587) (Group 0460)</title>
+</figtitle></subfig><subfig>
+<graphic boardno="ms029704" reprowid="1" reprodep="1" vplace="middle"></subfig>
+</figure>
+<table label="0460" tabstyle="rpstl" rpstl-indenture="2">
+<title>JUNCTION BOX ASSEMBLY, 13366219, 13251587</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure label="23" xid="fig23"><subfig>
+<graphic boardno="ms029705" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Collimator, boresight (SM-D-775002) (Group 0480)</title>
+</figtitle></subfig><subfig>
+<graphic boardno="ms029706" reprowid="1" reprodep="1" vplace="middle"></subfig>
+<subfig>
+<graphic boardno="ms029707" reprowid="1" reprodep="1" vplace="middle"></subfig>
+</figure>
+<table label="0480" tabstyle="rpstl" rpstl-indenture="1">
+<title>BORESIGHT COLLIMATOR, SM-C-775002</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure label="24" xid="fig24">
+<graphic boardno="ms029708" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Mount, boresight assembly (SM-D-775000) (Group 0500)</title>
+</figtitle></figure>
+<table label="0500" tabstyle="rpstl" rpstl-indenture="3">
+<title>MOUNT, BORESIGHT ASSEMBLY, SM-D-775000</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure label="25" xid="fig25">
+<graphic boardno="ms029709" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Reticle assembly (SM-D-807405) (Group 0520)</title>
+</figtitle></figure>
+<table label="0520" tabstyle="rpstl" rpstl-indenture="3">
+<title>RETICLE ASSEMBLY, SM-D-807405</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure label="26" xid="fig26">
+<graphic boardno="ms029710" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title>Vehicle power conditioner (SM-C-969172) (Group 0540)</title>
+</figtitle></figure>
+<table label="0540" tabstyle="rpstl" rpstl-indenture="1">
+<title>VEHICLE POWER CONDITIONER, SM-C-969172</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure label="27" xid="fig27">
+<graphic boardno="ms029711" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title> Battery power conditioner (SM-D-969142, 13251627) (Group 0580)</title>
+</figtitle></figure>
+<table label="0580" tabstyle="rpstl" rpstl-indenture="1">
+<title>BATTERY POWER CONDITIONER, SM-D-969142, 13251627</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<figure label="28" xid="fig28"><subfig>
+<graphic boardno="ms029712" reprowid="1" reprodep="1" vplace="middle"><figtitle>
+<title> Battery power conditioner assembly (SM-D-969875, 13251610) (Group
+0600)</title>
+</figtitle></subfig><subfig>
+<graphic boardno="ms029713" reprowid="1" reprodep="1" vplace="middle"></subfig>
+<subfig>
+<graphic boardno="ms029714" reprowid="1" reprodep="1" vplace="middle"></subfig>
+</figure>
+<table label="0600" tabstyle="rpstl" rpstl-indenture="2">
+<title>BATTERY POWER CONDITIONER ASSEMBLY, SM-D-969875, 13251610</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table>
+<table label="9998" tabstyle="rpstl" rpstl-indenture="1">
+<!--This table is used to create an entry in the TOC only.-->
+<title>BULK MATERIAL</title>
+<tgroup cols="2"><colspec colname="col1"><colspec colname="col2">
+<tbody><row><entry></entry><entry></entry></row><row><entry></entry><entry></entry>
+</row></tbody>
+</tgroup>
+</table></chapter>
+<chapter label="rpstl">
+<title>SPECIAL &ndash;TOOLS &mdash;LIST &mdash;(Not Applicable)</title>
+</chapter>
+<chapter label="rpstl">
+<title> CROSS-REFERENCE INDEXES</title>
+<section label="IV-1">
+<title>National Stock Number Index</title>
+<para0>
+<title></title></para0>
+</section>
+<section label="IV-55">
+<title>Part Number Index</title>
+<para0>
+<title></title></para0>
+</section>
+</chapter></body>
+<rear></rear>
+</doc>
+<?Pub *0000106180 0>

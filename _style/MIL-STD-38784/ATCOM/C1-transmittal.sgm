@@ -1,0 +1,27 @@
+<?xml-stylesheet href="TB.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2008, v.4002-->
+<!DOCTYPE CHGINSSHT PUBLIC "-//atcom//DTD MIL-M-38784D Change Instruction Sheet//EN" "ChangeSheet.dtd" [
+<!ENTITY lt SDATA "[lt    ]">
+<!ENTITY amp SDATA "[amp   ]">
+]>
+<?Pub Inc>
+<chginssht>
+<tmidno docstat="routine"></tmidno>
+<tmidno>TB 1-1500–355-50</tmidno>
+<chgnum>1</chgnum>
+<authnot>U.S. Army Aviation and Missile</authnot>
+<date>26 August 2009</date>
+<prtitle>
+<nomen> AN/AAR-57 COMMON MISSILE WARNING SYSTEM (CMWS) AIRCRAFT RESET PROCEDURES</nomen>
+</prtitle>
+<distrib type="d">Distribution is authorized to Department of Defense and U.S. DoD contractors only to protect critical technology. This determination was made on 31 August 2007. Other requests for this document shall be referred to SFAE-IEW&amp;S-ASE, Redstone Arsenal, AL 35898-5000.</distrib>
+<destr></destr>
+<avail></avail>
+<para>TB 1-1500-355-50, dated 27 December 2007, is changed as follows:</para>
+<para>1. Remove and insert pages as indicated below. New or changed text material is indicated by a vertical bar in the margin. An illustration change is indicated by a miniature pointing hand.</para>
+<chglist><?Pub Caret>
+<removepg>7 and 8</removepg><insertpg>7 and 8</insertpg>
+<removepg>B9/(B-10 blank)</removepg><insertpg>B9/(B-10 blank)</insertpg>
+</chglist>
+</chginssht>
+<?Pub *0000001397 0>

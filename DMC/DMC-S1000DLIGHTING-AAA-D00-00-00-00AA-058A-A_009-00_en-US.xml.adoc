@@ -1,0 +1,4 @@
+Batt_01 Battery_123 123 A Battery harness LS1 500 SPN1234 UK MoD Tacho
+Tachometer_101 101 A Tachometer harness LS2 -10 60 UK MoD Lamp1 Front
+light_501 501 A Front light harness LS3 -10 SPN1234 SPN4321 UK MoD Lamp2
+Rear light_503 503 A Rear light harness LS3 UK MoD

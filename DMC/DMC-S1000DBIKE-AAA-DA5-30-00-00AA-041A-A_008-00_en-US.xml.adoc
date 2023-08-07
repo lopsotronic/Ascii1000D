@@ -1,0 +1,43 @@
+== Shifters
+
+The thumb shifter is a usual type in modern bicycles. It is possible to
+adjust this type of shifter for operation in the index position or in
+the friction position. The differences between the two are:
+
+* The index shifters change the gears with a click of a lever.
+* The friction shifters hold the derailleur in its position by friction.
+
+The thumb shifters (refer to
+link:#ID_S1000DBIKE-AAA-DA5-30-00-00AA-041A-A_fig-0001[Thumb shifter
+index type]) are held on the bicycle with a screw. The paragraph that
+follows gives a description of a thumb shifter.
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0405-001-01.CGM[Thumb
+shifter index type]
+
+== How a thumb shifter is made up
+
+A wing nut (refer to
+link:#ID_S1000DBIKE-AAA-DA5-30-00-00AA-041A-A_fig-0002[Unscrew wingnut])
+from the top of the lever holds the thumb shifter. The lever is on top
+of the mount and the mount is on the handle bar with a nut. To remove
+the mount, it is necessary to loosen the nut of two turns (refer to
+link:#ID_S1000DBIKE-AAA-DA5-30-00-00AA-041A-A_fig-0003[Loosen the nut]),
+then the mount can move from the handle bar from the top of the lever.
+The lever sits on top of the mount and the mount is fixed into pace on
+the handle bar by a nut.
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0402-001-01.CGM[Unscrew
+wingnut]
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0403-001-01.CGM[Loosen
+the nut]
+
+On modern models of this shifter, there is a clamp bolt that holds the
+shifter in its position (refer to
+link:#ID_S1000DBIKE-AAA-DA5-30-00-00AA-041A-A_fig-0004[Loosen the
+shifter clamp bolt]). The user can loosen the clamp bolt with an
+applicable tool. This lets the shifter release the handlebar.
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0404-001-01.CGM[Loosen
+the shifter clamp bolt]

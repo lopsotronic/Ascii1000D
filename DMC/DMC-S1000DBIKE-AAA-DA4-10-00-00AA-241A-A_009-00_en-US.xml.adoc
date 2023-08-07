@@ -1,0 +1,123 @@
+== Preliminary requirements
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|The bicycle chain is clean and dry |
+|===
+
+Bike rider 0,5
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Clean dry cloth |BSK-TLST-001-12 |KZ666 |1 |
+|Floor covering |PPP-001 |KK999 |1 |
+|===
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|ACME sticky lube 52B | |KZ222 |1 |
+|AECMA Heavy duty Oil 1988 | |B6865 |1 |
+|===
+
+[WARNING]
+====
+link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_sup-0001[ACME sticky lube
+52B] is a very dangerous substance. Do not get it onto your skin. Use it
+in a well ventilated area. If you swallow it seek immediate medical
+advice. If it gets into your eyes wash your eyes in clean water and seek
+medical advice.
+====
+
+[WARNING]
+====
+link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_sup-0002[AECMA Heavy duty
+Oil 1988] is a very dangerous substance. Do not get it onto your skin.
+Use it in a well ventilated area. If you swallow it seek immediate
+medical advice. If it gets into your eyes wash your eyes in clean water
+and seek medical advice.
+====
+
+== Procedure
+
+[arabic]
+. {blank}
+[arabic]
+.. Apply link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_sup-0001[ACME
+sticky lube 52B] to:
+* derailleur pivots (refer to
+link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_fig-0001[Derailleur
+pivots])
+* derailleur tension (refer to
+link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_fig-0002[Derailleur
+tension])
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0398-001-01.CGM[Derailleur
+pivots]
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0399-001-01.CGM[Derailleur
+tension]
+.. Apply link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_sup-0001[ACME
+sticky lube 52B] to:
+* brake lever pivots (refer to
+link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_fig-0003[Brake lever
+pivots])
++
+These brake lever pivots include:
+* derailleur pivots
+* derailleur tension
+* guide wheels
+* brake lever pivots
+* control cables and where they go into their casings
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0383-001-01.CGM[Brake
+lever pivots]
+. Apply the link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_sup-0002[AECMA
+Heavy duty Oil 1988] to each roller of the chain (refer to
+link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_fig-0004[Lubricate the
+chain]) but only apply a small quantity.
++
+Apply the link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_sup-0001[ACME
+sticky lube 52B] to each roller of the chain (refer to
+link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_fig-0004[Lubricate the
+chain]) but only apply a small quantity.
+[arabic]
+.. Make sure the chain is clean and dry.
+.. Put the link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_seq-0002[Floor
+covering] on the floor below the chain.
+.. Hold the nozzle of the container above the front of the chain ring
+and slowly turn the cranks rearwards.
+.. {blank}
++
+[CAUTION]
+====
+Do not get lubrication oil into the brake system. Oil in the break
+system can affect the efficiency of the bake system. Do not get oil onto
+the floor where it can easily get transferred onto the brake system.
+====
++
+Let the lubricant soak into chain before you clean the unwanted
+lubricant from the chain.
+. {blank}
+[arabic]
+.. Do a check of the rear wheel rim and clean the unwanted lubricant if
+necessary.
+.. Do a check of the chain to make sure that each link is lubricated. If
+there are links that do not move easily or have become frozen, lubricate
+the chain again (refer to
+link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_stp-0002[Lubricate the
+chain]).
+.. Do a check of the remaining lubricated parts and clean the unwanted
+lubricant with a
+link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_seq-0001[Clean dry cloth].
+
+== Requirements after job completion

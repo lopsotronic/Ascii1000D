@@ -1,0 +1,50 @@
+<ixpt> </ixpt><ixsub1>Equipment Data Plate.</ixsub1><ixpgstr>1-5.a</ixpgstr><ixpgkey>
+00</ixpgkey><ixpt> </ixpt><ixsub1>Generator Control Unit (GCU)</ixsub1><ixpgstr>F 1-1
+</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Overhaul Data Plate.</ixsub1>
+<ixpgstr>1-5.b</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Application Procedure.
+</ixsub1><ixpgstr>1-5.c</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Contractors.
+</ixsub1><ixpgstr>1-8.a</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Depots.
+</ixsub1><ixpgstr>1-8.b</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Data Plates
+</ixsub1><ixpgstr>F 1-2</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Leading Particulars
+</ixsub1><ixpgstr>T 1-1</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Special Tools and Equipment.
+</ixsub1><ixpgstr>2-2.a</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Inspection and Test Equipment.
+</ixsub1><ixpgstr>2-2.b</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Fabricated Tools and Equipment.
+</ixsub1><ixpgstr>2-2.c</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Finite Life Items, Time Between Overhaul (TBO) Items and Mandatory Replacement Parts.
+</ixsub1><ixpgstr>2-2.d</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Special Tools and Equipment
+</ixsub1><ixpgstr>T 2-1</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Inspection and Test Equipment
+</ixsub1><ixpgstr>T 2-2</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Fabricated Tools and Equipment
+</ixsub1><ixpgstr>T 2-3</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Mandatory Requirement Parts List
+</ixsub1><ixpgstr>T 2-4</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Work-hour Standards
+</ixsub1><ixpgstr>T 2-5</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Signal Conditioner Fabrication
+</ixsub1><ixpgstr>F 2-1</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Voltage Divider Fabrication
+</ixsub1><ixpgstr>F 2-2</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Preshop Analysis Checklist
+</ixsub1><ixpgstr>T 3-1</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Generator Control Unit, Exploded View
+</ixsub1><ixpgstr>F 3-1</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Cover OIP Data
+</ixsub1><ixpgstr>F 3-2</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>PC Board Assembly No. 1 OIP Data
+</ixsub1><ixpgstr>F 3-3</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>PC Board Assembly No. 2 OIP Data
+</ixsub1><ixpgstr>F 3-4</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>PC Board Assembly No. 3 OIP Data
+</ixsub1><ixpgstr>F 3-5</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Connector Assembly OIP Data
+</ixsub1><ixpgstr>F 3-6</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Connector Bracket OIP Data
+</ixsub1><ixpgstr>F 3-7</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Integrated Circuit OIP Data
+</ixsub1><ixpgstr>F 3-8</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Bracket OIP Data
+</ixsub1><ixpgstr>F 3-9</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Base OIP Data
+</ixsub1><ixpgstr>F 3-10</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>PC Board Assembly No. 1 Component Locations
+</ixsub1><ixpgstr>F 3-11</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>PC Board Assembly No. 2 Component Locations
+</ixsub1><ixpgstr>F 3-12</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>PC Board Assembly No. 3 Component Locations
+</ixsub1><ixpgstr>F 3-13</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Wiring Diagram
+</ixsub1><ixpgstr>F 3-14</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Printed Circuit Board Assembly No. 1, Test Point and Terminal Locations
+</ixsub1><ixpgstr>F 4-1</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Printed Circuit Board Assembly No. 2, Test Point and Terminal Locations
+</ixsub1><ixpgstr>F 4-2</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Printed Circuit Board Assembly No. 3, Test Point and Terminal Locations
+</ixsub1><ixpgstr>F 4-3</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Slave Generator/GCU Interconnection
+</ixsub1><ixpgstr>F 4-4</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Typical Performance Test Setup
+</ixsub1><ixpgstr>F 4-5</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Typical Oscillograph Trace
+</ixsub1><ixpgstr>F 4-6</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Transient Response and Steady-State Voltage Regulation Requirements
+</ixsub1><ixpgstr>F 4-7</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Inspection Definitions
+</ixsub1><ixpgstr>T 5-1</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Column (1) - Item Number.
+</ixsub1><ixpgstr>C-2.a</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Column (2) - National Stock Number.
+</ixsub1><ixpgstr>C-2.b</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Column (3) - CAGE.
+</ixsub1><ixpgstr>C-2.c</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Column (4) - Description.
+</ixsub1><ixpgstr>C-2.d</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Column (5) - Unit of Measure (U/M).
+</ixsub1><ixpgstr>C-2.e</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixpgstr>F FO-1
+</ixpgstr><ixpgkey>00</ixpgkey><ixpt> </ixpt><ixsub1>Schematic Diagram</ixsub1><ixpgstr>
+F FO-1</ixpgstr><ixpgkey>00</ixpgkey>

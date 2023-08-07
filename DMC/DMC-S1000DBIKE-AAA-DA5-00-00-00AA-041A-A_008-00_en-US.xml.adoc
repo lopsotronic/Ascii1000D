@@ -1,0 +1,27 @@
+== Gears
+
+The gears include the mechanism, the hubs and the shifters.
+
+The description of the mechanisms is given in
+link:#ID_S1000DBIKE-AAA-DA5-10-00-00AA-041A-A[S1000DBIKE-AAA-DA5-10-00-00AA-041A-A]
+
+The description of the shifters is given in
+link:#ID_S1000DBIKE-AAA-DA5-30-00-00AA-041A-A[S1000DBIKE-AAA-DA5-30-00-00AA-041A-A]
+
+The bicycles of these days can have 27 gears or more. The mountain bikes
+use a set that includes:
+
+* Three socket sprockets of different dimension on the front
+* Nine socket sprockets of different dimensions at the rear
+
+This set gives the gear ratios.
+
+The shifters installed on the handlebars change the gears and operate
+the mechanisms (also known as derailleurs). These derailleurs are
+cable-actuated mechanisms. They move the chain from the different
+sprockets.
+
+The hub is the center of the wheel and contains the axle and bearings.
+
+The gears let the rider crank at the pedals at a constant movement on
+slopes of different angles.

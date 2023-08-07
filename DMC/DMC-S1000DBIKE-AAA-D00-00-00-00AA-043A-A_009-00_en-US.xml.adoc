@@ -1,0 +1,75 @@
+== Introduction
+
+Data about the bicycle and its control system is given in this document.
+This data will help you operate the bicycle.
+
+== 
+
+=== Controls
+
+Data about the controls that follow is given in this document:
+
+* link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-043A-A_par-0001[Steering]
+* link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-043A-A_par-0002[Shifters]
+* link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-043A-A_par-0003[Brakes]
+* link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-043A-A_par-0004[Pedals]
+
+[[ID_S1000DBIKE-AAA-D00-00-00-00AA-043A-A_par-0001]]
+=== Steering
+
+The handlebars are used to steer the bike. They are at the front of the
+bicycle. You hold one of the handlebar grips with each hand and move the
+handle bar to change the direction of the bike.
+
+[[ID_S1000DBIKE-AAA-D00-00-00-00AA-043A-A_par-0002]]
+=== Shifters
+
+The gears control the ratio of pedal rotation to wheel rotation. You can
+change this with the shifters
+link:#ID_S1000DBIKE-AAA-DA5-30-00-00AA-041A-A[S1000DBIKE-AAA-DA5-30-00-00AA-041A-A]
+. The shifters are on the handlebar.
+
+A description of the two
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-043A-A_tab-0001[shifter
+correlation] follows.
+
+.shifter correlation
+[cols=",",options="header",]
+|===
+|Shifter Location |Affected Gears
+|Left |The buttons on the left shifter changes the gears on the front
+derailleur.
+
+|Right |The buttons on the right shifter changes the gears on the rear
+derailleur.
+|===
+
+[[ID_S1000DBIKE-AAA-D00-00-00-00AA-043A-A_par-0003]]
+=== Brakes
+
+[WARNING]
+====
+If you operate the front brake without the rear brake you can cause a
+crash.
+====
+
+You can decrease the speed of the bike with the brakes. You operate the
+brakes with the brake levers on the handlebar.
+
+A description of the
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-043A-A_tab-0002[brake lever
+correlation] follows.
+
+.brake lever correlation
+[cols=",",options="header",]
+|===
+|Brake Lever Location |Affected Brake
+|Left |This lever operates the front brake.
+|Right |This lever operates the rear brake.
+|===
+
+[[ID_S1000DBIKE-AAA-D00-00-00-00AA-043A-A_par-0004]]
+=== Pedals
+
+The are at the bottom of the seat tube. You operate the to move the
+bicycle forward.

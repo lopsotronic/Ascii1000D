@@ -1,0 +1,60 @@
+== The bicycle wheel
+
+The wheel (refer to
+link:#ID_S1000DBIKE-AAA-DA0-00-00-00AA-041A-A_fig-0001[Parts of the
+wheel]) of a bicycle is a complex structure. The wheel assembly has
+these parts:
+
+* the tire
+* the tube
+* the spokes
+* the spoke nipples
+* the valve
+* the hub
+
+On their own, the individual components are not very strong. But, when
+they are installed together, the components make the complete wheel
+(refer to link:#ID_S1000DBIKE-AAA-DA0-00-00-00AA-041A-A_fig-0001[Parts
+of the wheel]). The complete wheel is resistant to almost any type of
+heavy loads and operation.
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0365-001-01.CGM[Parts
+of the wheel,width=680]
+
+[[ID_S1000DBIKE-AAA-DA0-00-00-00AA-041A-A_par-0001]]
+=== Spokes
+
+The spokes go out from the hub and go across and below each other. The
+spoke nipples attach the spokes to the rim with the threads on the end
+of the spokes. You can use the spoke nipples to adjust the tension of
+the spokes. The tension on each of the spokes must be equal.
+
+[[ID_S1000DBIKE-AAA-DA0-00-00-00AA-041A-A_par-0002]]
+=== Wheel rim
+
+The rim (refer to
+link:#ID_S1000DBIKE-AAA-DA0-00-00-00AA-041A-A_fig-0002[The tire and
+rim]) of the wheel has a lining of rim tape. This tape protects the tube
+from damage that the rough edges on the spoke nipples can cause.
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0366-001-01.CGM[The
+tire and rim,width=680]
+
+[[ID_S1000DBIKE-AAA-DA0-00-00-00AA-041A-A_par-0003]]
+=== Tube and tire
+
+The tube and the tire install on the rim. The sidewalls of the tire have
+markings on them. These which are used to indicate the correct direction
+of rotation. The markings also make sure the tire installs on the rim
+and that the directional arrows points in the correct direction. You
+install the tube into the tire before you inflate it. The tube has a
+valve (refer to
+link:#ID_S1000DBIKE-AAA-DA0-00-00-00AA-041A-A_fig-0003[Valve]) which you
+put through the hole in the rim. This valve (refer to
+link:#ID_S1000DBIKE-AAA-DA0-00-00-00AA-041A-A_fig-0003[Valve]) is used
+to inflate the tube and the tire to the correct pressure. A dust cap
+installs on the valve (refer to
+link:#ID_S1000DBIKE-AAA-DA0-00-00-00AA-041A-A_fig-0003[Valve]) to
+prevent damage that dust and debris can cause.
+
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0367-001-01.CGM[Valve,width=680]

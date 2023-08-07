@@ -1,0 +1,16 @@
+== Preliminary requirements
+
+== Procedure
+
+[arabic]
+. {blank}
++
+[NOTE]
+====
+It is necessary to install the fork before installing the brakes
+====
+. Hold the front of the bicycle.
+. Install the front brakes on the fork.
+. Put the frame on the floor.
+
+== Requirements after job completion

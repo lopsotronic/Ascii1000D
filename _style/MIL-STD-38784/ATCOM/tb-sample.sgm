@@ -1,0 +1,410 @@
+<?xml-stylesheet href="TB.fos" type="text/x-fosi" media="print,pdf" alternate="yes">
+<?xml-stylesheet href="TB.fos" type="text/x-fosi" media="editor" alternate="yes">
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE DOC PUBLIC "-//atcom//DTD atcom-dmwrs//EN" [
+<!ENTITY flyingparticles_eyeshield SYSTEM "P:\Graphics\_Standard symbols\Warning icons\flyingparticles_eyeshield.tif" NDATA tif>
+<!ENTITY cryogenic SYSTEM "P:\Graphics\_Standard symbols\Warning icons\cryogenic.tif" NDATA tif>
+<!ENTITY need-a-graphic SYSTEM "P:\Graphics\_Standard symbols\need_a_graphic.tif" NDATA tif>
+<!NOTATION txt SYSTEM "txt">
+<!NOTATION gif SYSTEM "gif">
+<!NOTATION bmp SYSTEM "bmp">
+<!NOTATION jpg SYSTEM "jpg">
+]>
+<?Pub Inc>
+<doc service="army" docid="1-4920-445-30-1" docstat="formal"
+columns="one"><front>
+<idinfo>
+<tmidno service="army"></tmidno>
+<doctype pubtype="tb"> </doctype>
+<prtitle>
+<nomen> </nomen>
+<partno> </partno><nsn> </nsn><eic> </eic>
+<brk>
+<brk>
+<modelno></modelno>
+</prtitle>
+<distrib type="d">Approved for public release, distribution is unlimited.
+Approved for public release, distribution is unlimited. Approved for
+public release, distribution is unlimited.</distrib>
+<supersed>This bulletin supersedes TB #-####-###, dated DD, MMM YYYY,
+including all changes.</supersed>
+<authnot>Headquarters, Department of the Army</authnot>
+<pubdate>DD MMMMMMM YYYY</pubdate></idinfo>
+<warnpage>
+<wpgentry warnbox="0">
+<title></title>
+<para></para>
+</wpgentry>
+</warnpage>
+<lep><notepara></notepara><totalpgs>12</totalpgs></lep>
+<reportoferrors>
+<para>You can improve this manual.  If you find any mistakes or if
+you know of a way to improve these procedures, please let us know.
+ Mail your letter or DA Form 2028 (Recommended Changes to Publications
+and Blank Forms), directly to:  Commander, U.S. Army Aviation and
+Missile Command, ATTN:  AMSAM-MMC-MA-NP, Redstone Arsenal, AL  35898-5000.
+ A reply will be furnished to you.  You may also send in your comments
+electronically to our E-mail address:  2028@redstone.army.mil or by
+fax 256-842-6546/DSN 788-6546.  For the World Wide Web use:  https://amcom2028.redstone.army.mil.
+ Instructions for sending an electronic 2028 can be found at the back
+of this manual.</para>
+</reportoferrors>
+<contents></front>
+<body>
+<chapter label="nonum">
+<title></title>
+<section>
+<title>IDENTIFICATION AND DESCRIPTION</title>
+<para0>
+<title>PURPOSE.</title><para>The purpose of the TB is to inspect and
+repair all subject Aviation Ground Support Equipment returning from
+Enduring Freedom/Iraqi Freedom (EF/IF) to determine the need for repair,
+to incorporate corrections to reported operational problems and approved
+configuration changes.</para>
+<subpara1>
+<title></title><para></para>
+</subpara1>
+<subpara1>
+<title>Title.</title><para>This is a para</para>
+</subpara1></para0>
+<para0>
+<title>PRIORITY CLASSIFICATION.</title><para>URGENT.</para>
+</para0>
+<para0 label="nonum">
+<title></title><para>Operations in EF/IF may have caused serious deterioration
+to the subject AGSE equipment, which will make necessary cleaning,
+replacement or repair of component parts.</para>
+</para0>
+<para0>
+<title>PRIORITY CLASSIFICATION.</title><para>URGENT.</para>
+</para0>
+<para0>
+<title>SUMMARY OF PROBLEM.</title><para>Operations in EF/IF may have
+caused serious deterioration to the subject AGSE equipment, which
+will make necessary cleaning, replacement or repair of component parts.</para>
+</para0>
+<para0>
+<title>PRIORITY CLASSIFICATION.</title><para>URGENT.</para>
+</para0>
+<para0>
+<title>SUMMARY OF PROBLEM.</title><para>Operations in EF/IF may have
+caused serious deterioration to the subject AGSE equipment, which
+will make necessary cleaning, replacement or repair of component parts.</para>
+</para0>
+<para0>
+<title>PRIORITY CLASSIFICATION.</title><para>URGENT.</para>
+<warning>
+<para>This is a warning. This is a warning. This is a warning. This
+is a warning. This is a warning. This is a warning. This is a warning.
+This is a warning. This is a warning. This is a warning. This is a
+warning. This is a warning. This is a warning. This is a warning.
+This is a warning. </para>
+</warning>
+<caution>
+<para>This is a caution. This is a caution. This is a caution. This
+is a caution. This is a caution. This is a caution. This is a caution.
+This is a caution. This is a caution. This is a caution. This is a
+caution. This is a caution. This is a caution. </para>
+</caution>
+<note>
+<para>This is a note. This is a note. This is a note. This is a note.
+This is a note. This is a note. This is a note. This is a note. This
+is a note. This is a note. </para>
+</note>
+<para>This is a paragraph with a wcn associated with it.</para>
+<warning>
+<para>This is a warning. This is a warning. This is a warning. This
+is a warning. This is a warning. This is a warning. This is a warning.
+This is a warning. This is a warning. This is a warning. This is a
+warning. This is a warning. This is a warning. This is a warning.
+This is a warning. </para>
+</warning>
+<caution>
+<para>This is a caution. This is a caution. This is a caution. This
+is a caution. This is a caution. This is a caution. This is a caution.
+This is a caution. This is a caution. This is a caution. This is a
+caution. This is a caution. This is a caution. </para>
+</caution>
+<note>
+<para>This is a note. This is a note. This is a note. This is a note.
+This is a note. This is a note. This is a note. This is a note. This
+is a note. This is a note. </para>
+</note>
+<para>This is a paragraph with a wcn associated with it.</para>
+</para0>
+<para0>
+<title>SUMMARY OF PROBLEM.</title><para>Operations in EF/IF may have
+caused serious deterioration to the subject AGSE equipment, which
+will make necessary cleaning, replacement or repair of component parts.</para>
+<step1>
+<warning>
+<para>Eye Protection will be worn during drilling operations.</para><?Pub
+Caret -2>
+</warning>
+<para>Center punch hole location and drill hole size 0.257-0.261 as
+ shown in <xref xref="fig1">.</para>
+<figure xid="fig1">
+<graphic boardno="need-a-graphic" reprowid="7in" reprodep="5in">
+<figtitle>
+<title>Drilling Rivet Holes.</title>
+</figtitle></figure>
+</step1></para0>
+<para0>
+<title>PRIORITY CLASSIFICATION.</title><para>URGENT.</para>
+</para0>
+<para0>
+<title>SUMMARY OF PROBLEM.</title><para>Operations in EF/IF may have
+caused serious deterioration to the subject AGSE equipment, which
+will make necessary cleaning, replacement or repair of component parts.</para>
+</para0>
+<para0>
+<title></title><para>URGENT.</para>
+</para0>
+<para0>
+<title>SUMMARY OF PROBLEM.</title><para>Operations in EF/IF may have
+caused serious deterioration to the subject AGSE equipment, which
+will make necessary cleaning, replacement or repair of component parts.</para>
+</para0>
+<para0>
+<title>INSPECTION AND REPAIR PROCEDURES.</title><para>Inspect AGSE
+equipment IAW with the applicable TB/TM for serviceability and completeness
+and document status.</para>
+</para0>
+<para0>
+<title>ghghfgh.</title><para>This TB shall be applied to all equipment
+listed within returning from operations in SWA.<ftnote ftnid="ch1">This
+is a footnote</ftnote></para>
+<subpara1>
+<title></title><para>sdfgfdgfdg</para>
+</subpara1>
+<subpara1>
+<title>dfjlsfjldjfklklfjls.</title><para>Shop Equipment Contact Maintenance
+(SECM), P/N: 50154&ndash;001, NSN: 4940&ndash;01&ndash;442&ndash;2734,
+TM 1&ndash;4940&ndash;355&ndash;12&amp;P, dated 2 September 2003.</para>
+<subpara2>
+<title>dfgdgdfg.</title><para>Maintenance Platform, Adjustable, Mechanical,
+Aircraft Type B-1, P/N: 1560&ndash;EG-100, NSN: 1730&ndash;00&ndash;529&ndash;6235,
+TM 55&ndash;1730&ndash;223&ndash;13, dated 17 June 1982 and TM 55&ndash;1730&ndash;223&ndash;23P
+dated 14 November 1988.</para>
+<table orient="land2">
+<title></title>
+<tgroup cols="2"><colspec colname="col1" colwidth="3.49in"><colspec
+colname="col2" colwidth="3.49in">
+<tbody>
+<row><entry>first line</entry><entry></entry></row>
+<row><entry></entry><entry>last line</entry></row>
+</tbody>
+</tgroup>
+</table>
+<subpara3>
+<title></title><para>Maintenance Platform, Adjustable, Mechanical,
+Aircraft Type B-1, P/N: 1560&ndash;EG-100, NSN: 1730&ndash;00&ndash;529&ndash;6235, <brk>TM
+55&ndash;1730&ndash;223&ndash;13, dated 17 June 1982 and TM 55&ndash;1730&ndash;223&ndash;23P
+dated 14 November 1988.</para>
+<subpara4>
+<title>adfads</title>
+<subpara5>
+<title>adf</title>
+<subpara6>
+<title>asfdfadsf</title>
+<subpara7 label="nonum">
+<title>gfg</title></subpara7>
+</subpara6>
+</subpara5>
+</subpara4>
+</subpara3>
+</subpara2>
+</subpara1>
+<subpara1>
+<title></title><para>Maintenance Platform, Adjustable, Mechanical,
+Aircraft Type B-1, P/N: 1560&ndash;EG-100, NSN: 1730&ndash;00&ndash;529&ndash;6235,
+TM 55&ndash;1730&ndash;223&ndash;13, dated 17 June 1982 and TM 55&ndash;1730&ndash;223&ndash;23P
+dated 14 November 1988.</para>
+</subpara1><ftnote ftnid="ch2">This is a footnote</ftnote></para0>
+</section>
+<section>
+<title>EQUIPMENT REQUIREMENTS</title>
+<para0>
+<title>Test.</title><para>Next Step for Section 2.</para>
+<table>
+<title></title>
+<tgroup cols="3"><colspec colname="col1" colwidth="3.19in"><colspec
+colname="col2" colwidth="0.86in"><colspec colname="colspec0"
+colwidth="2.94in"><spanspec namest="col2" nameend="colspec0"
+spanname="span1">
+<tbody>
+<row><entry>Test instrument parameters</entry><entry spanname="span1">Performance
+specifications</entry></row>
+<row><entry>Length (English)</entry><entry>Range: <brk>Accuracy:</entry>
+<entry>1 1/2 to 40 in.<brk>&plusmn;0.0001 in. (without vernier scale)<brk>&plusmn;0.0001
+in (with vernier scale)</entry></row>
+<row><entry>Length (Metric)</entry><entry>Range: <brk>Accuracy: </entry>
+<entry>25 to 800 mm<brk>&plusmn;0.01 mm</entry></row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+</section>
+<section>
+<title>EQUIPMENT REQUIREMENTS</title>
+<para0>
+<title>Equipment Requirements.</title><para>This is empty for now.</para>
+</para0>
+<para0>
+<title>Equipment Requirements.</title><para>This is empty for now.</para>
+<note>
+<para>Notes on the TB.</para>
+</note>
+</para0>
+</section></chapter>
+<chapter label="nonum">
+<title></title>
+<section>
+<title>IDENTIFICATION AND DESCRIPTION</title>
+<para0>
+<title>PURPOSE.</title><para>The purpose of the TB is to inspect and
+repair all subject Aviation Ground Support Equipment returning from
+Enduring Freedom/Iraqi Freedom (EF/IF) to determine the need for repair,
+to incorporate corrections to reported operational problems and approved
+configuration changes.</para>
+<subpara1>
+<title></title><para></para>
+</subpara1>
+<subpara1>
+<title>Title.</title><para>This is a para</para>
+</subpara1></para0>
+<para0>
+<title>PRIORITY CLASSIFICATION.</title><para>URGENT.</para>
+</para0>
+<para0 label="nonum">
+<title></title><para>Operations in EF/IF may have caused serious deterioration
+to the subject AGSE equipment, which will make necessary cleaning,
+replacement or repair of component parts.</para>
+</para0>
+<para0>
+<title>PRIORITY CLASSIFICATION.</title><para>URGENT.</para>
+</para0>
+<para0>
+<title>SUMMARY OF PROBLEM.</title><para>Operations in EF/IF may have
+caused serious deterioration to the subject AGSE equipment, which
+will make necessary cleaning, replacement or repair of component parts.</para>
+</para0>
+<para0>
+<title>PRIORITY CLASSIFICATION.</title><para>URGENT.</para>
+</para0>
+<para0>
+<title>SUMMARY OF PROBLEM.</title><para>Operations in EF/IF may have
+caused serious deterioration to the subject AGSE equipment, which
+will make necessary cleaning, replacement or repair of component parts.</para>
+</para0>
+<para0>
+<title>PRIORITY CLASSIFICATION.</title><para>URGENT.</para>
+<warning>
+<para>This is a warning. This is a warning. This is a warning. This
+is a warning. This is a warning. This is a warning. This is a warning.
+This is a warning. This is a warning. This is a warning. This is a
+warning. This is a warning. This is a warning. This is a warning.
+This is a warning. </para>
+</warning>
+<caution>
+<para>This is a caution. This is a caution. This is a caution. This
+is a caution. This is a caution. This is a caution. This is a caution.
+This is a caution. This is a caution. This is a caution. This is a
+caution. This is a caution. This is a caution. </para>
+</caution>
+<note>
+<para>This is a note. This is a note. This is a note. This is a note.
+This is a note. This is a note. This is a note. This is a note. This
+is a note. This is a note. </para>
+</note>
+<para></para>
+<warning>
+<para>This is a warning. This is a warning. This is a warning. This
+is a warning. This is a warning. This is a warning. This is a warning.
+This is a warning. This is a warning. This is a warning. This is a
+warning. This is a warning. This is a warning. This is a warning.
+This is a warning. </para>
+</warning>
+<caution>
+<para>This is a caution. This is a caution. This is a caution. This
+is a caution. This is a caution. This is a caution. This is a caution.
+This is a caution. This is a caution. This is a caution. This is a
+caution. This is a caution. This is a caution. </para>
+</caution>
+<note>
+<para>This is a note. This is a note. This is a note. This is a note.
+This is a note. This is a note. This is a note. This is a note. This
+is a note. This is a note. </para>
+</note>
+<para></para>
+<warning>
+<para>This is a warning. This is a warning. This is a warning. This
+is a warning. This is a warning. This is a warning. This is a warning.
+This is a warning. This is a warning. This is a warning. This is a
+warning. This is a warning. This is a warning. This is a warning.
+This is a warning. </para>
+</warning>
+<caution>
+<para>This is a caution. This is a caution. This is a caution. This
+is a caution. This is a caution. This is a caution. This is a caution.
+This is a caution. This is a caution. This is a caution. This is a
+caution. This is a caution. This is a caution. </para>
+</caution>
+<note>
+<para>This is a note. This is a note. This is a note. This is a note.
+This is a note. This is a note. This is a note. This is a note. This
+is a note. This is a note. </para>
+</note>
+</para0>
+<para0>
+<title>SUMMARY OF PROBLEM.</title><para>Operations in EF/IF may have
+caused serious deterioration to the subject AGSE equipment, which
+will make necessary cleaning, replacement or repair of component parts.</para>
+</para0>
+<para0>
+<title>PRIORITY CLASSIFICATION.</title><para>URGENT.</para>
+</para0>
+<para0>
+<title>SUMMARY OF PROBLEM.</title><para>Operations in EF/IF may have
+caused serious deterioration to the subject AGSE equipment, which
+will make necessary cleaning, replacement or repair of component parts.</para>
+</para0>
+<para0>
+<title></title><para>URGENT.</para>
+</para0>
+<para0>
+<title>SUMMARY OF PROBLEM.</title><para>Operations in EF/IF may have
+caused serious deterioration to the subject AGSE equipment, which
+will make necessary cleaning, replacement or repair of component parts.</para>
+</para0>
+<para0>
+<title>INSPECTION AND REPAIR PROCEDURES.</title><para>Inspect AGSE
+equipment IAW with the applicable TB/TM for serviceability and completeness
+and document status.</para>
+</para0>
+<para0>
+<title>ghghfgh.</title><para>This TB shall be applied to all equipment
+listed within returning from operations in SWA.</para>
+<subpara1>
+<title></title><para>sdfgfdgfdg</para>
+</subpara1>
+<subpara1>
+<title></title><para>Maintenance Platform, Adjustable, Mechanical,
+Aircraft Type B-1, P/N: 1560&ndash;EG-100, NSN: 1730&ndash;00&ndash;529&ndash;6235,
+TM 55&ndash;1730&ndash;223&ndash;13, dated 17 June 1982 and TM 55&ndash;1730&ndash;223&ndash;23P
+dated 14 November 1988.</para>
+</subpara1></para0>
+</section>
+<section>
+<title></title>
+<para> </para>
+<para0>
+<title></title></para0>
+</section></chapter></body><rear><foldsect>
+<foldout pgstyle="17">
+<graphic boardno="need-a-graphic" reprowid="14in" reprodep="9in"
+scalefit="1" hplace="center" vplace="middle"><figtitle>
+<title>Foldout title goes here.</title>
+</figtitle></foldout>
+</foldsect></rear></doc>
+<?Pub *0000015833 0>

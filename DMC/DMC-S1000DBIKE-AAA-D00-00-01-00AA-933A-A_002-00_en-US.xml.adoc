@@ -1,0 +1,82 @@
+== Preliminary requirements
+
+S1000DBIKE-AAA-DA0-30-00-00AA-520A-A
+
+S1000DBIKE-AAA-DA1-20-00-00AA-520A-A
+
+S1000DBIKE-AAA-D00-00-01-00AA-520A-A
+
+S1000DBIKE-AAA-D00-00-01-00AA-93AA-A
+
+S1000DBIKE-AAA-D00-00-01-00AA-720A-A
+
+S1000DBIKE-AAA-D00-00-01-00AB-720A-A
+
+S1000DBIKE-AAA-DA1-20-00-00AA-720A-A
+
+S1000DBIKE-AAA-DA0-30-00-00AA-720A-A
+
+S1000DBIKE-AAA-D00-00-01-00AA-341A-A
+
+BRAKE-AAA-DA1-00-00-00AA-341A-A
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+| | | |1 |
+|===
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|General grease | |KZ222 |As required |
+|===
+
+*Spares*
+
+.Spares
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Fork set | | |1 |
+|Fork | | |1 |
+|===
+
+== Procedure
+
+[arabic]
+. Remove the front wheel, refer to:
+link:#ID_S1000DBIKE-AAA-DA0-30-00-00AA-520A-A[S1000DBIKE-AAA-DA0-30-00-00AA-520A-A]
++
+Remove the front brakes, refer to:
+link:#ID_S1000DBIKE-AAA-DA1-20-00-00AA-520A-A[S1000DBIKE-AAA-DA1-20-00-00AA-520A-A]
+. Remove the fork, refer to:
+link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-520A-A[S1000DBIKE-AAA-D00-00-01-00AA-520A-A]
++
+Change the bike axis, refer to:
+link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-93AA-A[S1000DBIKE-AAA-D00-00-01-00AA-93AA-A]
++
+Install the new fork, refer to:
+link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-720A-A[S1000DBIKE-AAA-D00-00-01-00AA-720A-A]
++
+Install the new fork, refer to:
+link:#ID_S1000DBIKE-AAA-D00-00-01-00AB-720A-A[S1000DBIKE-AAA-D00-00-01-00AB-720A-A]
++
+Install the front brakes, refer to:
+link:#ID_S1000DBIKE-AAA-DA1-20-00-00AA-720A-A[S1000DBIKE-AAA-DA1-20-00-00AA-720A-A]
++
+Install the front wheel, refer to:
+link:#ID_S1000DBIKE-AAA-DA0-30-00-00AA-720A-A[S1000DBIKE-AAA-DA0-30-00-00AA-720A-A]
+. Test that the fork is properly installed, refer to:
+link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-341A-A[S1000DBIKE-AAA-D00-00-01-00AA-341A-A]
++
+Front brakes test, refer to:
+link:#ID_BRAKE-AAA-DA1-00-00-00AA-341A-A[BRAKE-AAA-DA1-00-00-00AA-341A-A]
+
+== Requirements after job completion

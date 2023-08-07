@@ -1,0 +1,98 @@
+== Functional description of a bicycle
+
+Below is a list of the different bicycle components and a functional
+description of them.
+
+Frame::
+  The frame is the skeleton of the bicycle. Refer to
+  link:#ID_S1000DBIKE-AAA-DA3-00-00-00AA-041A-A[S1000DBIKE-AAA-DA3-00-00-00AA-041A-A]
+  for a functional description of the frame system.
+Wheel::
+  The wheel is the point of contact between the bicycle and the road for
+  the bicycle to have movement. Refer to
+  link:#ID_S1000DBIKE-AAA-DA0-00-00-00AA-041A-A[S1000DBIKE-AAA-DA0-00-00-00AA-041A-A]
+  for a functional description of the wheel.
+Spokes::
+  The spokes are thick wires with tension applied that connect the hub
+  to the rim. You can adjust the tension with the nipple on the rim
+  side.
+Hub::
+  The hub attaches to the center of the wheel where the axle and the
+  bearings are.
+Metal rim::
+  The metal rim is a metal ring that has a U-shaped cross section to
+  hold the spokes on the inner side and the tire on the outer side.
+Seat::
+  The seat, which is also known as the "saddle", is used as the support
+  platform for the person to sit on the bicycle.
+Seat post::
+  The seat post is used as a support post for the seat and to change the
+  height of the seat for the rider.
+Handle bar::
+  The handle bar is a horizontal bar with handles on each end. The
+  handle bar is a steering mechanism that the rider uses to change the
+  direction of the bicycle. The brake levers are also on the handle bar.
+  Refer to
+  link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-720A-A[S1000DBIKE-AAA-DA2-20-00-00AA-720A-A]
+  for information on how to install the handle bar. Refer to
+  link:#ID_S1000DBIKE-AAA-DA2-20-00-00AA-520A-A[S1000DBIKE-AAA-DA2-20-00-00AA-520A-A]
+  for information on removing the handlebar.
+Handle bar stem::
+  The handle bar stem (the stem) attaches the handle bar to the steering
+  tube. Refer to
+  link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-720A-A[S1000DBIKE-AAA-DA2-10-00-00AA-720A-A]
+  for information on how to install a stem. Refer to
+  link:#ID_S1000DBIKE-AAA-DA2-10-00-00AA-520A-A[S1000DBIKE-AAA-DA2-10-00-00AA-520A-A]
+  for information on how to remove the stem.
+Brake levers::
+  When you operate the brake lever, the brake pads move against the
+  wheel to decrease the speed. The brake lever on the left side operates
+  the front brake. The brake lever on the right side operates the rear
+  brake.
+Brakes::
+  When you operate the brakes, the brake pad moves against the wheel to
+  decrease the speed of the bicycle. Refer to
+  link:#ID_S1000DBIKE-AAA-DA1-00-00-00AA-041A-A[S1000DBIKE-AAA-DA1-00-00-00AA-041A-A]
+  for a description of the braking system.
+Shifters::
+  The shifters are the mechanisms that you use to change the gears on
+  the bicycle. There are 7 different types of shifters that have been
+  developed over the years, but they all have the same functionality.
+  When you operate the shifters, they pull the control cable to move the
+  derailleur towards a larger diameter chain ring. The shifters can also
+  loosen the cable to let the derailleur move towards a smaller diameter
+  chain ring. Refer to
+  link:#ID_S1000DBIKE-AAA-DA5-30-00-00AA-041A-A[S1000DBIKE-AAA-DA5-30-00-00AA-041A-A]
+  for a functional description of the shifters.
+Crank::
+  The crank moves the power to the chain rings when the pedals operate.
+Pedals::
+  The pedals move the force of movement from the feet to the cranks.
+Chain::
+  The chain moves the power from the chain rings to the cogs on the
+  freewheel. Refer to
+  link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-251B-A[S1000DBIKE-AAA-DA4-10-00-00AA-251B-A]
+  for the procedure on how to clean the chain.
+Gears::
+  The gears have different mechanisms that function together to change
+  the speed of the bicycle. These mechanisms include:
+  +
+  * the sprockets
+  * the chain
+  * the derailleur
+  +
+  Refer to
+  link:#ID_S1000DBIKE-AAA-DA5-00-00-00AA-041A-A[S1000DBIKE-AAA-DA5-00-00-00AA-041A-A]
+  for a functional description of the gear system.
+Chain rings::
+  The chain rings (also known as the "chain wheel") pull on the chain
+  when the cranks turn.
+Derailleur::
+  A derailleur moves the chain from one sprocket to another to change
+  the gears. There are two different types of derailleur, the front and
+  the rear. The highest ratio (highest gear) is when the chain is on the
+  largest sprocket on the front and the smallest at the rear. To get the
+  lowest gear, the smallest sprocket is at the front and the largest at
+  the rear. Refer to
+  link:#ID_S1000DBIKE-AAA-DA5-10-00-00AA-041A-A[S1000DBIKE-AAA-DA5-10-00-00AA-041A-A]
+  for a functional description of the derailleur system.
