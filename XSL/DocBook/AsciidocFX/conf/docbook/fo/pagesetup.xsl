@@ -3101,23 +3101,19 @@
         <!-- nop; no footer on title pages -->
       </xsl:when>
 
-      <xsl:when test="($sequence='odd' and $position='left')">
+      <xsl:when test="$sequence='odd' and $position='left'">
         <xsl:value-of select="//simpara[@role='proprietary_short']"/>
         <xsl:value-of select="'&#x2028;'"/>
         <xsl:value-of select="//simpara[@role='export_short']"/>
       </xsl:when>
 
-      <xsl:when test="($sequence='even' and $position='right')">
+      <xsl:when test="$sequence='even' and $position='right'">
         <xsl:value-of select="//simpara[@role='proprietary_short']"/>
         <xsl:value-of select="'&#x2028;'"/>
         <xsl:value-of select="//simpara[@role='export_short']"/>
       </xsl:when>
 
-      <xsl:when test="$double.sided != 0 and $sequence = 'blank' and $position = 'center'">
-        <xsl:text>THIS PAGE INTENTIONALLY LEFT BLANK</xsl:text>
-      </xsl:when>
-
-      <xsl:when test="$position='center' and and $sequence != 'blank'">
+      <xsl:when test="$double.sided != 0 and $sequence != 'blank' and $position = 'center'">
         <xsl:value-of select="//revremark"/> - <xsl:value-of select="//revnumber"/>
       </xsl:when>
 
@@ -3133,10 +3129,10 @@
                       <fo:page-number/>
       </xsl:when>
 
-      <xsl:when test="$double.sided = 0 and $position='center'">
+<!--       <xsl:when test="$double.sided = 0 and $position='center'">
         <xsl:text>Chapter </xsl:text><xsl:number count="chapter" from="book" level="any"/><xsl:text> - p</xsl:text>
         <fo:page-number/>
-      </xsl:when>
+      </xsl:when> -->
 
       <xsl:when test="$sequence='blank'">
         <xsl:choose>

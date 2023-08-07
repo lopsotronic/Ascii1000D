@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc maxdepth="4"?>
+<?asciidoc-numbered maxdepth="5"?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en" xml:id="DMC-DEMO-000-40-01-01A-040B-A">
+<info>
+<title>Teledyne Asciidoc</title>
+<subtitle>DocBook-XSL</subtitle>
+<date>2023-08-07 08:50:32 -0700</date>
+<author>
+<personname>
+<firstname>Teledyne</firstname>
+<surname>Techpubs</surname>
+</personname>
+<email>teledynetechpubs@teledyne.com</email>
+</author>
+<authorinitials>TT</authorinitials>
+<revhistory>
+<revision>
+<revnumber>0.0.1</revnumber>
+<date>2023-08-07 08:50:32 -0700</date>
+<authorinitials>TT</authorinitials>
+<revremark>Revremark</revremark>
+</revision>
+</revhistory>
+</info>
+<preface>
+<title></title>
+<informaltable xml:id="DMC-DEMO-000-00-00-01A-998Z-A" frame="all" rowsep="1" colsep="1">
+<tgroup cols="1">
+<colspec colname="col_1" colwidth="100*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara><emphasis role="strong">DOCUMENTATION SYSTEM INFORMATION</emphasis></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara role="revnumber"><emphasis role="strong">Revision Number</emphasis>: 0.0.1</simpara>
+<simpara><emphasis role="strong">Processor Backend</emphasis>: docbook5</simpara>
+<simpara><emphasis role="strong">Publication Module Path</emphasis>: C:/Users/lopso/Documents/GitHub/DMC</simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="1">
+<colspec colname="col_1" colwidth="100*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara><emphasis role="strong">CONTACT</emphasis></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara role="contact">TELEDYNE FLIR LLC<?asciidoc-br?>
+27700 SW Parkway Avenue<?asciidoc-br?>
+Wilsonville, OR 97070 USA<?asciidoc-br?>
+Phone: 800.868.0639</simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="1">
+<colspec colname="col_1" colwidth="100*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara><emphasis role="strong">DATA RESTRICTIONS</emphasis></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara role="export"><emphasis role="strong">WARNING</emphasis> - This document contains technical data subject to the International Traffic in Arms Regulations
+(ITAR) (22 C.F.R. Sections 120-130). Export or diversion contrary to law is prohibited.</simpara>
+<simpara role="proprietary"><emphasis role="strong">PROPRIETARY</emphasis> - This document contains proprietary information to Teledyne FLIR LLC. This information must be
+maintained in confidence and used only in a manner consistent with the documentation and any executed
+Non Disclosure Agreement, and may not be disclosed to any third parties without Teledyne FLIR&#8217;s written
+consent.</simpara>
+<simpara role="uspatent"><emphasis role="strong">U.S. PATENTS</emphasis> - The Star SAFIRE&#169; 380-HD Series Systems are protected by the following patents: U.S. Patent No. 7,264,220;
+U.S. Patent No. 7,471,451; U.S. Patent No. 7,561,784; and U.S. Patent No. 7,671,311. Other U.S. and International Patents Pending.</simpara>
+<simpara role="proprietary_short">&#169; PROPRIETARY by Teledyne FLIR LLC</simpara>
+<simpara role="export_short"><emphasis role="strong">WARNING</emphasis> - ITAR Controlled Technical Data</simpara>
+<informaltable xml:id="DMC-DEMO-000-00-00-01A-020A-A.adoc" frame="all" rowsep="1" colsep="1">
+<tgroup cols="1">
+<colspec colname="col_1" colwidth="100*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara><emphasis role="strong">APPLICABILITY</emphasis></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara>This document applies to the following product configurations:</simpara>
+<simpara>Product configuration 0 baseline.</simpara>
+</preface>
+<chapter xml:id="_general">
+<title>General</title>
+<note>
+<simpara>"Autogen" refers to content created or referenced by the DocBook-XSL stylesheets</simpara>
+</note>
+</chapter>
+<chapter xml:id="_page_examples">
+<title>Page Examples</title>
+<figure>
+<title>Cover Page Template (title recto)</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../GFX/DMC-DEMO-000-10-00-01A-000A-A.png"/>
+</imageobject>
+<textobject><phrase>DMC DEMO 000 10 00 01A 000A A</phrase></textobject>
+</mediaobject>
+</figure>
+<orderedlist numeration="arabic">
+<title>Legend for Cover Page Template</title>
+<listitem>
+<simpara>Asciidoc PM (map) <literal>doctitle</literal></simpara>
+</listitem>
+<listitem>
+<simpara>Asciidoc PM (map) <literal>subtitle</literal></simpara>
+</listitem>
+<listitem>
+<simpara>Asciidoc PM (map) <literal>revnumber</literal></simpara>
+</listitem>
+<listitem>
+<simpara>Asciidoc PM (map) <literal>revdate</literal></simpara>
+</listitem>
+<listitem>
+<simpara>Asciidoc PM (map) <literal>revremark</literal></simpara>
+</listitem>
+<listitem>
+<simpara>CIR element from <literal>DMC-DEMO-000-00-00-01A-998Z-A.adoc</literal> with role <literal>contact</literal></simpara>
+</listitem>
+<listitem>
+<simpara>Cover logo set in DocBook-XSL <literal>fo-pdf.xsl</literal></simpara>
+</listitem>
+<listitem>
+<simpara>CIR element from <literal>DMC-DEMO-000-00-00-01A-998Z-A.adoc</literal> with role <literal>export</literal></simpara>
+</listitem>
+<listitem>
+<simpara>CIR element from <literal>DMC-DEMO-000-00-00-01A-998Z-A.adoc</literal> with role <literal>proprietary</literal></simpara>
+</listitem>
+<listitem>
+<simpara>CIR element from <literal>DMC-DEMO-000-00-00-01A-998Z-A.adoc</literal> with role <literal>uspatent</literal></simpara>
+</listitem>
+</orderedlist>
+<figure>
+<title>Book title verso</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../GFX/DMC-DEMO-000-10-00-01A-002A-A.png"/>
+</imageobject>
+<textobject><phrase>DMC DEMO 000 10 00 01A 002A A</phrase></textobject>
+</mediaobject>
+</figure>
+<figure>
+<title>Front Matter: ToC (autogen)</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../GFX/DMC-DEMO-000-10-00-01A-003A-A.png"/>
+</imageobject>
+<textobject><phrase>DMC DEMO 000 10 00 01A 003A A</phrase></textobject>
+</mediaobject>
+</figure>
+<figure>
+<title>Front Matter: LoF (autogen)</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../GFX/DMC-DEMO-000-10-00-01A-004A-A.png"/>
+</imageobject>
+<textobject><phrase>DMC DEMO 000 10 00 01A 004A A</phrase></textobject>
+</mediaobject>
+</figure>
+<figure>
+<title>Front Matter: LoT (autogen)</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../GFX/DMC-DEMO-000-10-00-01A-006A-A.png"/>
+</imageobject>
+<textobject><phrase>DMC DEMO 000 10 00 01A 006A A</phrase></textobject>
+</mediaobject>
+</figure>
+<figure>
+<title>Intentionally Blank Page (autogen)</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../GFX/DMC-DEMO-000-10-00-01A-005A-A.png"/>
+</imageobject>
+<textobject><phrase>DMC DEMO 000 10 00 01A 005A A</phrase></textobject>
+</mediaobject>
+</figure>
+<figure>
+<title>Chapter title page (always recto side)</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../GFX/DMC-DEMO-000-10-00-01A-007A-A.png"/>
+</imageobject>
+<textobject><phrase>DMC DEMO 000 10 00 01A 007A A</phrase></textobject>
+</mediaobject>
+</figure>
+<figure>
+<title>Content page, left side (verso)</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../GFX/DMC-DEMO-000-10-00-01A-008A-A.png"/>
+</imageobject>
+<textobject><phrase>DMC DEMO 000 10 00 01A 008A A</phrase></textobject>
+</mediaobject>
+</figure>
+<orderedlist numeration="arabic">
+<title>Legend for Content, Verso</title>
+<listitem>
+<simpara>Asciidoc DM (module/topic) chapter title</simpara>
+</listitem>
+<listitem>
+<simpara>Asciidoc PM (map) <literal>doctitle</literal></simpara>
+</listitem>
+<listitem>
+<simpara>Chapter number - Page number autogen</simpara>
+</listitem>
+<listitem>
+<simpara>Asciidoc PM (map) <literal>revremark</literal> + <literal>revnumber</literal></simpara>
+</listitem>
+<listitem>
+<simpara>CIR element from <literal>DMC-DEMO-000-00-00-01A-998Z-A.adoc</literal> with role <literal>proprietary_short</literal></simpara>
+</listitem>
+<listitem>
+<simpara>CIR element from <literal>DMC-DEMO-000-00-00-01A-998Z-A.adoc</literal> with role <literal>export_short</literal></simpara>
+</listitem>
+</orderedlist>
+<figure>
+<title>Content page, right side (recto)</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../GFX/DMC-DEMO-000-10-00-01A-009A-A.png"/>
+</imageobject>
+<textobject><phrase>DMC DEMO 000 10 00 01A 009A A</phrase></textobject>
+</mediaobject>
+</figure>
+<figure>
+<title>Index (autogen)</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../GFX/DMC-DEMO-000-10-00-01A-010A-A.png"/>
+</imageobject>
+<textobject><phrase>DMC DEMO 000 10 00 01A 010A A</phrase></textobject>
+</mediaobject>
+</figure>
+<figure>
+<title>Glossary (gentext label "Terminology")</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../GFX/DMC-DEMO-000-10-00-01A-011A-A.png"/>
+</imageobject>
+<textobject><phrase>DMC DEMO 000 10 00 01A 011A A</phrase></textobject>
+</mediaobject>
+</figure>
+</chapter>
+</book>
