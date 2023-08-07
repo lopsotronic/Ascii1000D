@@ -1209,7 +1209,7 @@
               <fo:table-column column-width="50%"/>
               <fo:table-column column-width="50%"/>
               <fo:table-body>
-                <fo:table-row height="15mm">
+                <fo:table-row height="5mm">
                   <fo:table-cell number-columns-spanned="2">
                     <fo:block text-align="center">
                     </fo:block>
