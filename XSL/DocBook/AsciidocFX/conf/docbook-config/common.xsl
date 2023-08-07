@@ -8,10 +8,10 @@
     <xsl:param name="border.color">#DDDDDD</xsl:param>
     <xsl:param name="header.font-weight">normal</xsl:param>
     <xsl:param name="header.column.widths">1 2 1</xsl:param>
-    <xsl:param name="title.color">black</xsl:param>
+    <xsl:param name="title.color">blue</xsl:param>
     <xsl:param name="chapter.title.color" select="$title.color"/>
     <xsl:param name="section.title.color" select="$title.color"/>
-    <xsl:param name="caption.color">black</xsl:param>
+    <xsl:param name="caption.color">blue</xsl:param>
     <xsl:param name="code.color" select="$text.color"/>
     <xsl:param name="code.font-weight">normal</xsl:param>
     <xsl:param name="code.background-color">#EEEEEE</xsl:param>
@@ -53,7 +53,7 @@
     <xsl:template name="root.messages"/>
 
     <!-- Disable watermark image to avoid long timeouts fetching from internet -->
-    <xsl:param name="draft.watermark.image"/>
+    <!-- <xsl:param name="draft.watermark.image">images/draft.png</xsl:param> -->
 
     <!--
     <xsl:param name="use.extensions">1</xsl:param>

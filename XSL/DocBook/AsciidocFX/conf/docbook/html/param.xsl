@@ -454,4 +454,3 @@ set       toc,title
 <xsl:param name="link.to.self.for.mediaobject" select="0"/>
 
 </xsl:stylesheet>
-

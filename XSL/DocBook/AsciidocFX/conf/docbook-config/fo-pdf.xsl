@@ -120,6 +120,8 @@
       Text properties
     -->
 
+    <xsl:param name="image.teledyne.logo">images/teledyneflir.png</xsl:param>
+
     <xsl:param name="hyphenate">false</xsl:param>
     <!--
     <xsl:param name="alignment">left</xsl:param>
@@ -442,6 +444,7 @@
                            keep-with-next.within-line="always"/>
                 <xsl:text> </xsl:text>
                 <fo:basic-link internal-destination="{$id}" color="#005498">
+                    <xsl:number count="chapter" from="book" level="any"/><xsl:text> - </xsl:text>
                     <fo:page-number-citation ref-id="{$id}"/>
                 </fo:basic-link>
             </fo:inline>
@@ -496,10 +499,19 @@
             <xsl:choose>
                 <xsl:when test="ancestor-or-self::note"     >blue</xsl:when>
                 <xsl:when test="ancestor-or-self::warning"  >red</xsl:when>
-                <xsl:when test="ancestor-or-self::caution"  >yellow</xsl:when>
+                <xsl:when test="ancestor-or-self::caution"  >orange</xsl:when>
                 <xsl:otherwise>1pt solid black</xsl:otherwise>
             </xsl:choose>
         </xsl:attribute>
+<!--JM attributes for admonition background  -->
+<!--       <xsl:attribute name="background-color">
+        <xsl:choose>
+            <xsl:when test="ancestor-or-self::note"     >white</xsl:when>
+            <xsl:when test="ancestor-or-self::warning"  >red</xsl:when>
+            <xsl:when test="ancestor-or-self::caution"  >yellow</xsl:when>
+            <xsl:otherwise>white</xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute> -->
       <xsl:attribute name="font-size">14pt</xsl:attribute>
       <xsl:attribute name="text-align">center</xsl:attribute>
       <xsl:attribute name="font-weight">bold</xsl:attribute>
@@ -514,7 +526,7 @@
             <xsl:choose>
                 <xsl:when test="ancestor-or-self::note"     >1pt solid blue</xsl:when>
                 <xsl:when test="ancestor-or-self::warning"  >1pt solid red</xsl:when>
-                <xsl:when test="ancestor-or-self::caution"  >1pt solid yellow</xsl:when>
+                <xsl:when test="ancestor-or-self::caution"  >1pt solid orange</xsl:when>
                 <xsl:otherwise>1pt solid black</xsl:otherwise>
             </xsl:choose>
         </xsl:attribute>
@@ -1075,7 +1087,7 @@
       Title pages
     -->
 
-    <xsl:param name="titlepage.color">#6F6F6F</xsl:param>
+    <xsl:param name="titlepage.color">blue</xsl:param>
     <!--
     <xsl:param name="titlepage.color" select="$title.color"/>
     -->
@@ -1113,18 +1125,21 @@
     </xsl:attribute-set>
 
     <xsl:attribute-set name="chapter.titlepage.recto.style">
-        <xsl:attribute name="text-align">right</xsl:attribute>
+        <xsl:attribute name="text-align">left</xsl:attribute>
         <xsl:attribute name="font-family">
             <xsl:value-of select="$title.font.family"/>
         </xsl:attribute>
     </xsl:attribute-set>
 
     <xsl:attribute-set name="chapter.titlepage.label.properties">
-        <xsl:attribute name="font-size">48pt</xsl:attribute>
+        <xsl:attribute name="font-size">20pt</xsl:attribute>
+        <xsl:attribute name="color">blue</xsl:attribute>
+
     </xsl:attribute-set>
     <xsl:attribute-set name="chapter.titlepage.title.properties">
         <xsl:attribute name="font-size">20pt</xsl:attribute>
         <xsl:attribute name="font-weight">bold</xsl:attribute>
+        <xsl:attribute name="color">blue</xsl:attribute>
     </xsl:attribute-set>
 
     <xsl:template match="title" mode="chapter.titlepage.recto.auto.mode">
@@ -1158,10 +1173,10 @@
 
     <!-- override to set different color for book title -->
     <xsl:template match="db:title | title" mode="book.titlepage.recto.auto.mode">
-        <fo:block xsl:use-attribute-sets="book.titlepage.recto.style" text-align="center" font-size="24.8832pt"
+        <fo:block xsl:use-attribute-sets="book.titlepage.recto.style" text-align="center" font-size="144"
                   space-before="18.6624pt">
             <!-- FIXME don't use hardcoded value here -->
-            <xsl:attribute name="color">black</xsl:attribute>
+            <xsl:attribute name="color">blue</xsl:attribute>
             <xsl:attribute name="font-weight">
                 <xsl:value-of select="$header.font-weight"/>
             </xsl:attribute>
@@ -1189,15 +1204,12 @@
 
     <!-- override to force use of title, author and one revision on titlepage -->
     <xsl:template name="book.titlepage.recto">
-        <fo:block text-align="center">
-            <fo:external-graphic src="InsituLogo.png" content-width="4.5cm" content-height="2.2cm" />
-        </fo:block>
           <fo:block>
             <fo:table inline-progression-dimension="100%" table-layout="fixed">
               <fo:table-column column-width="50%"/>
               <fo:table-column column-width="50%"/>
               <fo:table-body>
-                <fo:table-row height="80mm">
+                <fo:table-row height="15mm">
                   <fo:table-cell number-columns-spanned="2">
                     <fo:block text-align="center">
                     </fo:block>
@@ -1221,7 +1233,7 @@
                     </fo:block>
                   </fo:table-cell>
                 </fo:table-row>
-                <fo:table-row height="80mm">
+                <fo:table-row height="15mm">
                   <fo:table-cell number-columns-spanned="2">
                     <fo:block text-align="center">
                       <xsl:choose>
@@ -1239,27 +1251,9 @@
                     </fo:block>
                   </fo:table-cell>
                 </fo:table-row>
-                <fo:table-row height="10mm">
+                <fo:table-row height="5mm">
                   <fo:table-cell number-columns-spanned="2">
-                    <fo:block text-align="right">
-                      <xsl:choose>
-                        <xsl:when test="bookinfo/title">
-                          <xsl:apply-templates 
-                                 mode="book.titlepage.recto.auto.mode" 
-                                 select="bookinfo/date"/>
-                        </xsl:when>
-                        <xsl:when test="title">
-                          <xsl:apply-templates 
-                                 mode="book.titlepage.recto.auto.mode" 
-                                 select="date"/>
-                        </xsl:when>
-                      </xsl:choose>
-                    </fo:block>
-                  </fo:table-cell>
-                </fo:table-row>
-                <fo:table-row height="10mm">
-                  <fo:table-cell number-columns-spanned="2">
-                    <fo:block text-align="right">
+                    <fo:block text-align="center">
                       <xsl:choose>
                         <xsl:when test="bookinfo/title">
                           <xsl:apply-templates 
@@ -1275,9 +1269,27 @@
                     </fo:block>
                   </fo:table-cell>
                 </fo:table-row >
-                <fo:table-row height="10mm">
+                <fo:table-row height="5mm">
                   <fo:table-cell number-columns-spanned="2">
-                    <fo:block text-align="right">
+                    <fo:block text-align="center">
+                      <xsl:choose>
+                        <xsl:when test="bookinfo/title">
+                          <xsl:apply-templates 
+                                 mode="book.titlepage.recto.auto.mode" 
+                                 select="bookinfo/date"/>
+                        </xsl:when>
+                        <xsl:when test="title">
+                          <xsl:apply-templates 
+                                 mode="book.titlepage.recto.auto.mode" 
+                                 select="date"/>
+                        </xsl:when>
+                      </xsl:choose>
+                    </fo:block>
+                  </fo:table-cell>
+                </fo:table-row>
+                <fo:table-row height="20mm">
+                  <fo:table-cell number-columns-spanned="2">
+                    <fo:block text-align="center">
                       <xsl:choose>
                         <xsl:when test="bookinfo/title">
                           <xsl:apply-templates 
@@ -1293,20 +1305,62 @@
                     </fo:block>
                   </fo:table-cell>
                 </fo:table-row >
-                <fo:table-row height="10mm">
+                <fo:table-row height="30mm">
                   <fo:table-cell number-columns-spanned="2">
-                    <fo:block text-align="right">
-                      <xsl:choose>
-                        <xsl:when test="preface">
-                          <xsl:apply-templates 
-                                 mode="book.titlepage.recto.auto.mode" 
-                                 select="preface/abstract"/>
-                        </xsl:when>
-                      </xsl:choose>
+                    <fo:block text-align="center">
+                        <xsl:choose>
+                          <xsl:when test="preface/simpara[@role='contact']">
+                            <xsl:apply-templates 
+                                   select="preface/simpara[@role='contact']"/>
+                          </xsl:when>
+                        </xsl:choose>
                     </fo:block>
                   </fo:table-cell>
                 </fo:table-row > 
-              </fo:table-body> 
+                <fo:table-row height="50mm">
+                    <fo:table-cell number-columns-spanned="2">
+                        <fo:block text-align="center">
+                            <fo:external-graphic src="url(images/_TeledyneFLIR.svg)" content-height="72mm" content-width="96mm"/>
+                        </fo:block>
+                    </fo:table-cell>
+                </fo:table-row > 
+                <fo:table-row height="15mm">
+                    <fo:table-cell number-columns-spanned="2">
+                        <fo:block text-align="left">
+                            <xsl:choose>
+                              <xsl:when test="preface/simpara[@role='export']">
+                                <xsl:apply-templates 
+                                       select="preface/simpara[@role='export']"/>
+                              </xsl:when>
+                            </xsl:choose>
+                        </fo:block>
+                    </fo:table-cell>
+                  </fo:table-row > 
+                  <fo:table-row height="30mm">
+                    <fo:table-cell number-columns-spanned="2">
+                        <fo:block text-align="left">
+                            <xsl:choose>
+                              <xsl:when test="preface/simpara[@role='proprietary']">
+                                <xsl:apply-templates 
+                                       select="preface/simpara[@role='proprietary']"/>
+                              </xsl:when>
+                            </xsl:choose>
+                        </fo:block>
+                    </fo:table-cell>
+                  </fo:table-row > 
+                  <fo:table-row height="15mm">
+                    <fo:table-cell number-columns-spanned="2">
+                        <fo:block text-align="left">
+                            <xsl:choose>
+                              <xsl:when test="preface/simpara[@role='uspatent']">
+                                <xsl:apply-templates 
+                                       select="preface/simpara[@role='uspatent']"/>
+                              </xsl:when>
+                            </xsl:choose>
+                        </fo:block>
+                    </fo:table-cell>
+                  </fo:table-row > 
+               </fo:table-body> 
             </fo:table>
           </fo:block>
         </xsl:template>

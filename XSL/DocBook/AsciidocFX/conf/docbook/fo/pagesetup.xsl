@@ -2751,16 +2751,24 @@
     <!-- sequence can be odd, even, first, blank -->
     <!-- position can be left, center, right -->
     <xsl:choose>
-      <xsl:when test="$sequence = 'blank'">
-        <!-- nothing -->
+
+    <xsl:when test="($sequence='odd' and $position='right')">
+        <xsl:apply-templates select="." mode="title.markup"/>
       </xsl:when>
 
-      <xsl:when test="$position='left'">
-        <!-- Same for odd, even, empty, and blank sequences -->
-        <xsl:call-template name="draft.text"/>
+      <xsl:when test="($sequence='even' and $position='left')">
+        <xsl:apply-templates select="." mode="title.markup"/>
       </xsl:when>
 
-      <xsl:when test="($sequence='odd' or $sequence='even') and $position='center'">
+      <xsl:when test="($sequence='odd' and $position='left')">
+        <xsl:value-of select="//title[1]"/>      
+      </xsl:when>
+
+      <xsl:when test="($sequence='even' and $position='right')">
+        <xsl:value-of select="//title[1]"/>      
+      </xsl:when>
+
+<!--       <xsl:when test="($sequence='odd' or $sequence='even') and $position='center'">
         <xsl:if test="$pageclass != 'titlepage'">
           <xsl:choose>
             <xsl:when test="ancestor::book and ($double.sided != 0)">
@@ -2773,15 +2781,14 @@
             </xsl:otherwise>
           </xsl:choose>
         </xsl:if>
-      </xsl:when>
+      </xsl:when> -->
 
-      <xsl:when test="$position='center'">
-        <!-- nothing for empty and blank sequences -->
+      <xsl:when test="$double.sided != 0 and $sequence = 'blank' and $position = 'center'">
+        <xsl:text>THIS PAGE INTENTIONALLY LEFT BLANK</xsl:text>
       </xsl:when>
 
       <xsl:when test="$position='right'">
         <!-- Same for odd, even, empty, and blank sequences -->
-        <xsl:call-template name="draft.text"/>
       </xsl:when>
 
       <xsl:when test="$sequence = 'first'">
@@ -3094,27 +3101,52 @@
         <!-- nop; no footer on title pages -->
       </xsl:when>
 
+      <xsl:when test="($sequence='odd' and $position='left')">
+        <xsl:value-of select="//simpara[@role='proprietary_short']"/>
+        <xsl:value-of select="'&#x2028;'"/>
+        <xsl:value-of select="//simpara[@role='export_short']"/>
+      </xsl:when>
+
+      <xsl:when test="($sequence='even' and $position='right')">
+        <xsl:value-of select="//simpara[@role='proprietary_short']"/>
+        <xsl:value-of select="'&#x2028;'"/>
+        <xsl:value-of select="//simpara[@role='export_short']"/>
+      </xsl:when>
+
+      <xsl:when test="$double.sided != 0 and $sequence = 'blank' and $position = 'center'">
+        <xsl:text>THIS PAGE INTENTIONALLY LEFT BLANK</xsl:text>
+      </xsl:when>
+
+      <xsl:when test="$position='center' and and $sequence != 'blank'">
+        <xsl:value-of select="//revremark"/> - <xsl:value-of select="//revnumber"/>
+      </xsl:when>
+
       <xsl:when test="$double.sided != 0 and $sequence = 'even'
                       and $position='left'">
-        <fo:page-number/>
+                      <xsl:text>Chapter </xsl:text><xsl:number count="chapter" from="book" level="any"/><xsl:text> - p</xsl:text>
+                      <fo:page-number/>
       </xsl:when>
 
       <xsl:when test="$double.sided != 0 and ($sequence = 'odd' or $sequence = 'first')
                       and $position='right'">
-        <fo:page-number/>
+                      <xsl:text>Chapter </xsl:text><xsl:number count="chapter" from="book" level="any"/><xsl:text> - p</xsl:text>
+                      <fo:page-number/>
       </xsl:when>
 
       <xsl:when test="$double.sided = 0 and $position='center'">
+        <xsl:text>Chapter </xsl:text><xsl:number count="chapter" from="book" level="any"/><xsl:text> - p</xsl:text>
         <fo:page-number/>
       </xsl:when>
 
       <xsl:when test="$sequence='blank'">
         <xsl:choose>
           <xsl:when test="$double.sided != 0 and $position = 'left'">
-            <fo:page-number/>
+            <xsl:text>Chapter </xsl:text><xsl:number count="chapter" from="book" level="any"/><xsl:text> - p</xsl:text>
+          <fo:page-number/>
           </xsl:when>
           <xsl:when test="$double.sided = 0 and $position = 'center'">
-            <fo:page-number/>
+            <xsl:text>Chapter </xsl:text><xsl:number count="chapter" from="book" level="any"/><xsl:text> - p</xsl:text>
+          <fo:page-number/>
           </xsl:when>
           <xsl:otherwise>
             <!-- nop -->
@@ -3477,5 +3509,7 @@
     </xsl:otherwise>
   </xsl:choose>
 </xsl:template>
+
+
 
 </xsl:stylesheet>

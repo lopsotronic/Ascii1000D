@@ -1,0 +1,17 @@
+[[DMC-DEMO-000-00-00-01A-020A-A.adoc]]
+
+**APPLICABILITY**
+
+This document applies to the following product configurations:
+
+ifdef::CONFIG1[]
+Product configuration 1 serial number beginning {CONFIG1}
+endif::CONFIG1[]
+
+ifdef::CONFIG2[]
+Product configuration 1 serial number beginning {CONFIG2}
+endif::CONFIG2[]
+
+ifdef::CONFIG3[]
+Product configuration 1 serial number beginning {CONFIG3}
+endif::CONFIG3[]

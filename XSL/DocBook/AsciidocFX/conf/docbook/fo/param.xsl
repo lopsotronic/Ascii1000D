@@ -393,7 +393,7 @@ set       toc,title
 <xsl:param name="index.range.separator"/>
 <xsl:param name="index.term.separator"/>
 <xsl:param name="insert.link.page.number">no</xsl:param>
-<xsl:param name="insert.xref.page.number">no</xsl:param>
+<xsl:param name="insert.xref.page.number">yes</xsl:param>
 <xsl:param name="insert.xref.page.number.para">yes</xsl:param>
 <xsl:attribute-set name="itemizedlist.properties" use-attribute-sets="list.block.properties">
 </xsl:attribute-set>
@@ -430,6 +430,7 @@ set       toc,title
   <xsl:attribute name="space-before.minimum">0.8em</xsl:attribute>
   <xsl:attribute name="space-before.maximum">1.2em</xsl:attribute>
 </xsl:attribute-set>
+<xsl:param name="image.teledyne.logo">images/teledyneflir.png</xsl:param>
 <xsl:param name="make.index.markup" select="0"/>
 <xsl:param name="make.single.year.ranges" select="0"/>
 <xsl:param name="make.year.ranges" select="0"/>
@@ -744,10 +745,10 @@ set       toc,title
 <xsl:param name="runinhead.default.title.end.punct">.</xsl:param>
 <xsl:param name="runinhead.title.end.punct">.!?:</xsl:param>
 <xsl:param name="sans.font.family">sans-serif</xsl:param>
-<xsl:param name="section.autolabel" select="0"/>
+<xsl:param name="section.autolabel" select="1"/>
 <xsl:param name="section.autolabel.max.depth">8</xsl:param>
 <xsl:param name="section.container.element">block</xsl:param>
-<xsl:param name="section.label.includes.component.label" select="0"/>
+<xsl:param name="section.label.includes.component.label" select="1"/>
 <xsl:attribute-set name="section.title.level1.properties">
   <xsl:attribute name="font-size">
     <xsl:value-of select="$body.font.master * 2.0736"/>
@@ -785,6 +786,7 @@ set       toc,title
   </xsl:attribute>
 </xsl:attribute-set>
 <xsl:attribute-set name="section.title.properties">
+  <xsl:attribute name="color">blue</xsl:attribute>
   <xsl:attribute name="font-family">
     <xsl:value-of select="$title.fontset"/>
   </xsl:attribute>

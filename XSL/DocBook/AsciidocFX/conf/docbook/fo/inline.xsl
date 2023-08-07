@@ -603,21 +603,27 @@
 </xsl:template>
 
 <xsl:template match="keycap">
-  <xsl:choose>
-    <xsl:when test="@function and normalize-space(.) = ''">
-      <xsl:call-template name="inline.boldseq">
-        <xsl:with-param name="content">
-          <xsl:call-template name="gentext.template">
-            <xsl:with-param name="context" select="'keycap'"/>
-            <xsl:with-param name="name" select="@function"/>
-          </xsl:call-template>
-        </xsl:with-param>
-      </xsl:call-template>
-    </xsl:when>
-    <xsl:otherwise>
-      <xsl:call-template name="inline.boldseq"/>
-    </xsl:otherwise>
-  </xsl:choose>
+    <xsl:param name="key.contents" select="."/>
+    <xsl:variable name="key.length" select="string-length($key.contents)"/>
+   
+    <fo:inline font-size="7.5pt" border="0.45pt solid black"
+        padding-top="2pt" padding-bottom="0.75pt"
+        padding-left="2pt" padding-right="2pt">
+        <xsl:choose>
+            <!-- NovDoc style keycaps -->
+            <xsl:when test="@function">
+                <xsl:call-template name="inline.sansseq">
+                    <xsl:with-param name="content">
+                        <xsl:value-of select="@function"/>
+                    </xsl:with-param>
+                </xsl:call-template>
+            </xsl:when>
+            <!-- regular Docbook Keycaps -->
+            <xsl:otherwise>
+                <xsl:call-template name="inline.sansseq"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </fo:inline>
 </xsl:template>
 
 <xsl:template match="keycode">
@@ -1384,4 +1390,3 @@
 </xsl:template>
 
 </xsl:stylesheet>
-
