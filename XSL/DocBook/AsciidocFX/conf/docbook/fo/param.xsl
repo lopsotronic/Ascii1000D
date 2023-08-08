@@ -174,7 +174,7 @@
 <xsl:param name="default.units">pt</xsl:param>
 <xsl:param name="dingbat.font.family">serif</xsl:param>
 <xsl:param name="double.sided" select="0"/>
-<xsl:param name="draft.mode">no</xsl:param>
+<xsl:param name="draft.mode">yes</xsl:param>
 <xsl:param name="draft.watermark.image">images/draft.png</xsl:param>
 
 <xsl:param name="ebnf.assignment">

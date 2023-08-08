@@ -3,6 +3,7 @@
 :!part-title:
 :part-title: DMC-ASCII1KD-DEMO-000-10-00-01A-040B-A
 :experimental:
+:pdf-page-layout: landscape
 
 == Description
 

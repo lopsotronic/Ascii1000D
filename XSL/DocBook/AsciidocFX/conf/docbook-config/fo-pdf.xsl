@@ -539,7 +539,7 @@
             <xsl:value-of select="$border.color"/>
         </xsl:attribute>
         <xsl:attribute name="margin-left">0</xsl:attribute>
-        <!--<xsl:attribute name="keep-with-next.within-column">always</xsl:attribute>-->
+        <xsl:attribute name="keep-together.within-column">always</xsl:attribute>
     </xsl:attribute-set>
 
     <xsl:attribute-set name="graphical.admonition.properties">
@@ -1209,7 +1209,7 @@
               <fo:table-column column-width="50%"/>
               <fo:table-column column-width="50%"/>
               <fo:table-body>
-                <fo:table-row height="15mm">
+                <fo:table-row height="5mm">
                   <fo:table-cell number-columns-spanned="2">
                     <fo:block text-align="center">
                     </fo:block>
