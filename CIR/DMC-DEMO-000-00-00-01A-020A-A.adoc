@@ -1,7 +1,7 @@
 [[DMC-DEMO-000-00-00-01A-020A-A.adoc]]
 
 |===
-**APPLICABILITY**
+|**APPLICABILITY**
 |===
 
 This document applies to the following product configurations:
