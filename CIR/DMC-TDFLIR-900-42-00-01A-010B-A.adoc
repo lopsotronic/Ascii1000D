@@ -1,6 +1,9 @@
 [glossary]
 = Terminology
 
+[abstract]
+DMC-TDFLIR-900-42-00-01A-010B-A.adoc
+
 [glossary]
 mud:: wet, cold dirt
 rain::

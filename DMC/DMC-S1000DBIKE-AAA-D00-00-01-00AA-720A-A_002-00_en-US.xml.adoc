@@ -1,3 +1,6 @@
+[[DMC-S1000DBIKE-AAA-D00-00-01-00AA-720A-A_002-00_en-US]]
+= Fork - Install
+
 == Preliminary requirements
 
 S1000DBIKE-AAA-DA2-10-00-00AA-720A-A
@@ -6,7 +9,7 @@ S1000DBIKE-AAA-DA2-30-00-00AA-720A-A
 
 S1000DBIKE-AAA-DA2-40-00-00AA-720A-A
 
-*Consumables, materials, and expendables*
+== Parts Information
 
 .Consumables, materials, and expendables
 [cols=",,,,",options="header",]
@@ -14,8 +17,6 @@ S1000DBIKE-AAA-DA2-40-00-00AA-720A-A
 |Name/Alternate name |Part number |MFC |Quantity |Remark
 |General grease | |KZ222 |As required |
 |===
-
-*Spares*
 
 .Spares
 [cols=",,,,",options="header",]
@@ -27,9 +28,7 @@ S1000DBIKE-AAA-DA2-40-00-00AA-720A-A
 == Procedure
 
 [arabic]
-. Apply grease
-(link:#ID_S1000DBIKE-AAA-D00-00-01-00AA-720A-A_sup-0001[General grease])
-on the headset
+. Apply grease on the headset
 . Install the headset, refer to:
 link:#ID_S1000DBIKE-AAA-DA2-30-00-00AA-720A-A[S1000DBIKE-AAA-DA2-30-00-00AA-720A-A]
 . To install the spacers, refer to:

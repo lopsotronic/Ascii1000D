@@ -3,6 +3,7 @@
 :revealjs_theme: solarized
 :revealjs_width: 1920
 :icons: font
+:imagesdir: images
 
 
 == State of the Art

@@ -453,6 +453,14 @@
   </fo:block>
 </xsl:template>
 
+<xsl:template match="abstract/simpara">
+  <fo:block xsl:use-attribute-sets="abstract.properties">
+    <fo:marker marker-class-name="DMC">
+    <xsl:apply-templates/>
+    </fo:marker>
+  </fo:block>
+</xsl:template>
+
 <xsl:template match="abstract/title|abstract/info/title">
   <fo:block xsl:use-attribute-sets="abstract.title.properties">
     <xsl:apply-templates/>

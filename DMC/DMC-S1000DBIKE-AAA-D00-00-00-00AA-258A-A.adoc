@@ -1,0 +1,149 @@
+[[DMC-S1000DBIKE-AAA-D00-00-00-00AA-258A-A]]
+= Bicycle - Alternate cleaning procedures
+
+[abstract]
+DMC-S1000DBIKE-AAA-D00-00-00-00AA-258A-A
+
+== Common information
+
+According to The International Bikers' Association (IBA) code of honor
+you are kindly requested to drive a properly maintained bicycle, which
+means the bike has to be regularly cleaned.
+
+== Preliminary requirements
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|The bicycle is outdoors |
+|===
+
+*Support equipment*
+
+.Support equipment
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|Water hose |BSK-TLST-001-09 |KZ666 |1 |
+|Stiff bristle brush |BSK-TLST-001-02 |KZ666 |1 |
+|Sponge |BSK-TLST-001-11 |KZ666 |1 |
+|===
+
+*Consumables, materials, and expendables*
+
+.Consumables, materials, and expendables
+[cols=",,,,",options="header",]
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+|ACME super 45 Agent | |KZ222 |1 |
+|ACME Middling Detergent 69 | |KZ666 |1 |
+|BoeBus DeLux Detergent No.6 | |KZ666 |1 |
+|===
+
+[WARNING]
+====
+Do not get link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_sup-0002[ACME
+Middling Detergent 69] into your eyes. If it gets into your eyes, wash
+them immediately in clean warm water.
+====
+
+[WARNING]
+====
+Do not get link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_sup-0003[BoeBus
+DeLux Detergent No.6] into your eyes. If it gets into your eyes, wash
+them immediately in clean warm water.
+====
+
+[CAUTION]
+====
+Do not use a
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_seq-0001[Water hose] that
+has high pressure. A water hose that has high pressure can cause some
+parts to become loose or full of water.
+====
+
+[CAUTION]
+====
+Do not point the hose directly at the hub or at the bottom bracket
+bearings. This can cause damage to the parts.
+====
+
+[CAUTION]
+====
+Apply link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_sup-0003[BoeBus
+DeLux Detergent No.6] in accordance with the instruction on the
+container. The substance may cause damage to the Bike paint if it is not
+applied correctly.
+====
+
+== Procedure
+
+[arabic]
+. Clean the bicycle with water to remove all dirt. Refer to
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_fig-0001[Cleaning the
+bike].
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0359-001-01.CGM[Cleaning
+the bike]
+. Use a link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_seq-0002[Stiff
+bristle brush] to get access to areas that are not easy to clean. These
+are the shift levers, the knobbly tires, and the brakes.
+. Clean the caked grime from the chain and the sprockets with a
+screwdriver that has a small blade.
+. Remove the grease from the freewheel assembly with the
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_sup-0001[ACME super 45
+Agent] as shown in
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_fig-0002[Degreasing the
+freehub].
++
+Use a brush to remove the grease from these parts:
+* sprockets
+* guide and tension wheels of the derailleur
+* chain ring teeth
++
+image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0400-001-01.CGM[Degreasing
+the freehub]
+. Flush the sprockets, the derailleurs, the chain rings and the chain
+with water.
++
+[NOTE]
+====
+If necessary, do the flush procedure again.
+====
+. Wash the Bike
+[arabic]
+.. Soak the
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_seq-0003[Sponge] into
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_sup-0002[ACME Middling
+Detergent 69] and water.
+.. Clean the bicycle with the soaked sponge.
+.. Flush the bicycle and make sure that all
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_sup-0002[ACME Middling
+Detergent 69] is removed.
+.. Move the bicycle up and down on its tires to remove all water.
+. Wash the Bike
+[arabic]
+.. Soak the
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_seq-0003[Sponge] into
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_sup-0003[BoeBus DeLux
+Detergent No.6] and water.
+.. Clean the bicycle with the soaked sponge.
+.. Soak the
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_seq-0003[Sponge] into
+link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_sup-0002[ACME Middling
+Detergent 69] and water.
+.. Fully clean the bicycle with the soaked sponge.
+.. Flush the bicycle to make sure that all detergents are removed.
+.. Move the bicycle up and down on its tires to remove all water.
+. Lubricate the bicycle. Refer to
+link:#ID_S1000DBIKE-AAA-DA4-10-00-00AA-241A-A[S1000DBIKE-AAA-DA4-10-00-00AA-241A-A].
+
+== Requirements after job completion
+
+.Required conditions
+[cols=",",options="header",]
+|===
+|Action/Condition |Data module/Technical publication
+|Make sure the bicycle is dry |
+|===

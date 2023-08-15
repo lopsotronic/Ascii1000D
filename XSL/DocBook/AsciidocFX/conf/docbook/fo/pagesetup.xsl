@@ -2760,6 +2760,12 @@
         <xsl:apply-templates select="." mode="title.markup"/>
       </xsl:when>
 
+      <xsl:when test="($position='center')">
+          <fo:block>
+            <fo:retrieve-marker retrieve-class-name="DMC" />
+          </fo:block>
+      </xsl:when>
+
       <xsl:when test="($sequence='odd' and $position='left')">
         <xsl:value-of select="//title[1]"/>      
       </xsl:when>

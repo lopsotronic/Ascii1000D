@@ -1,6 +1,9 @@
 [[DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A]]
 = Frame fork - Install
 
+[abstract]
+DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A
+
 == Preliminary requirements
 
 .Required conditions

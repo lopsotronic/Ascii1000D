@@ -1,7 +1,10 @@
 [[DMC-ASCII1KD-DEMO-000-10-00-01A-720A-A]]
-= Ascii1000D - Install:DMC
+= Ascii1000D - Install
 :!part-title:
 :part-title: DMC-ASCII1KD-DEMO-000-10-00-01A-720A-A
+
+[abstract]
+DMC-ASCII1KD-DEMO-000-10-00-01A-720A-A
 
 == Prerequisites
 

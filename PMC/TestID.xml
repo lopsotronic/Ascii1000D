@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Test ID</title>
+<date>2023-08-01</date>
+</info>
+<orderedlist role="procedure" numeration="arabic">
+<listitem>
+<simpara>Here&#8217;s a step</simpara>
+</listitem>
+</orderedlist>
+<listitem xml:id="foo">
+    <para>Do foo</para>
+  </listitem>
+  <listitem xml:id="bar">
+    <para>Do bar</para>
+  </listitem>
+  <listitem>
+    <para>Repeat steps <xref linkend="foo"/> to <xref linkend="bar"/>.</para>
+  </listitem>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Step 3</simpara>
+</listitem>
+<listitem>
+<simpara>Head on back to <xref linkend="bar"/></simpara>
+</listitem>
+</orderedlist>
+</article>
