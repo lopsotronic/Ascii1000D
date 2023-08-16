@@ -8,7 +8,7 @@ digraph g {
   node [shape=record]
   node [fontname="Arial" fontsize=18]
   rankdir="TD";
-    "Is it DITA" -> "Is it same DITA version" -> "Convert topic type?" -> "Old DITAMAPs work" -> "Styler works with old .style files?" -> "DITA-OT for SCORM" -> "Process graphics library" -> "Testing"
+    "Is it DITA" -> "Is it same DITA version" -> "Convert topic type?" -> "Old DITAMAPs work" -> "Styler works with old .style files?" -> "Process graphics library" ->  "DITA-OT for SCORM" -> "TEST"
     "Is it DITA" -> "Process source into DITA" [label="no"]
     "Is it same DITA version" -> "Process into unified DITA" [label="no"]
     "Convert topic type?" -> "Convert concept to task" [label=yes]

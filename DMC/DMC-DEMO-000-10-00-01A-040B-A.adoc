@@ -1,9 +1,5 @@
 [[DMC-ASCII1KD-DEMO-000-10-00-01A-040B-A]]
 = Ascii1000D - Description
-:!part-title:
-:part-title: DMC-ASCII1KD-DEMO-000-10-00-01A-040B-A
-:experimental:
-:pdf-page-layout: landscape
 
 [abstract]
 DMC-ASCII1KD-DEMO-000-10-00-01A-040B-A
