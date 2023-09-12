@@ -6,7 +6,7 @@ DMC-ASCII1KD-DEMO-000-10-00-01A-040B-A
 
 == Description
 
-image::../GFX/_TeledyneFLIR.png[]
+image::../GFX/Ascii1000D.svg[]
 
 === System definitions
 

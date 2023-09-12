@@ -276,7 +276,7 @@
     <xsl:with-param name="master-reference">titlepage-cover-image</xsl:with-param>
     <xsl:with-param name="content">
       <fo:block text-align="center">
-     <fo:external-graphic src="url(images/_TeledyneFLIR.svg)" content-width="scale-to-fit" content-height="scale-to-fit"/>
+     <fo:external-graphic src="url(images/Cover_Rockets.svg)" content-width="scale-to-fit" content-height="scale-to-fit"/>
       </fo:block>
     </xsl:with-param>
   </xsl:call-template>

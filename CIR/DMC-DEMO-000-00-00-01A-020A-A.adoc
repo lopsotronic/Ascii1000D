@@ -4,7 +4,9 @@
 |**APPLICABILITY**
 |===
 
-This document applies to the following product configurations:
+Each document deliverable contains applicable content for its specific maintainable configuration.
+
+This document deliverable applies to the following product configurations:
 
 Product configuration 0 baseline.
 

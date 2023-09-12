@@ -2760,7 +2760,7 @@
         <xsl:apply-templates select="." mode="title.markup"/>
       </xsl:when>
 
-      <xsl:when test="($position='center')">
+      <xsl:when test="($sequence != 'blank' and $position = 'center')">
           <fo:block>
             <fo:retrieve-marker retrieve-class-name="DMC" />
           </fo:block>
@@ -3291,7 +3291,11 @@
 
   <!-- Customize to add side region content-->
   <fo:block xsl:use-attribute-sets="outer.region.content.properties">
-    <!-- Add your content here -->
+    <xsl:choose>
+      <xsl:when test="($sequence != 'blank' and $pageclass = 'body')">
+        <xsl:value-of select="//simpara[@role='applic_short']"/>
+      </xsl:when>
+    </xsl:choose>
   </fo:block>
 </xsl:template>
 

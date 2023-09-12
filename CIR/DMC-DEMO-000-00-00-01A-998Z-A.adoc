@@ -21,10 +21,10 @@
 
 // tag::contact[]
 [.contact]
-TELEDYNE FLIR LLC +
-27700 SW Parkway Avenue +
-Wilsonville, OR 97070 USA +
-Phone: 800.868.0639
+SPECAGILE +
+99999 Somestreet Ave +
+Sometown ZZ 99999 +
+Phone: 999.999.9999
 // end::contact[]
 
 |===
@@ -33,33 +33,28 @@ Phone: 800.868.0639
 
 // tag::export[]
 [.export]
-*WARNING* - This document contains technical data subject to the International Traffic in Arms Regulations
-(ITAR) (22 C.F.R. Sections 120-130). Export or diversion contrary to law is prohibited.
+*EAR* - This document contains no ITAR-controlled data.
 // end::export[]
 
 // tag::proprietary[]
 [.proprietary]
-*PROPRIETARY* - This document contains proprietary information to Teledyne FLIR LLC. This information must be
-maintained in confidence and used only in a manner consistent with the documentation and any executed
-Non Disclosure Agreement, and may not be disclosed to any third parties without Teledyne FLIR's written
-consent.
+*PROPRIETARY* - This document contains proprietary information to SPECAGILE.
 // end::proprietary[]
 
 // end::cover_all[]
 
 // tag::uspatent[]
 [.uspatent]
-*U.S. PATENTS* - The Star SAFIRE(C) 380-HD Series Systems are protected by the following patents: U.S. Patent No. 7,264,220;
-U.S. Patent No. 7,471,451; U.S. Patent No. 7,561,784; and U.S. Patent No. 7,671,311. Other U.S. and International Patents Pending.
+*U.S. PATENTS* - Ascii1000D is patent pending SPECAGILE
 // end::uspatent[]
 
 // tag::proprietary_short[]
 [.proprietary_short]
-(C) PROPRIETARY by Teledyne FLIR LLC
+(C) PROPRIETARY by SPECAGILE
 // end::proprietary_short[]
 
 
 // tag::export_short[]
 [.export_short]
-*WARNING* - ITAR Controlled Technical Data
+*EAR* - EAR uncontrolled data
 // end::export_short[]

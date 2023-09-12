@@ -1,0 +1,72 @@
+[[DMC-ASCII1KD-DEMO-000-45-02-01A-040B-A]]
+= Ascii1000D Hotspot - Description
+
+:kroki-server-url: http://localhost:8000/
+
+== General
+
+Demonstration of Graph/Image with linked hotspot images
+
+== Hotspot
+
+[plantuml]
+----
+skinparam ranksep 11
+skinparam dpi 125
+skinparam packageTitleAlignment left
+
+rectangle "Main" {
+  (main.view)
+  (singleton)
+}
+rectangle "Base" {
+  (base.component)
+  (component)
+  (model)
+}
+rectangle "<b>main.ts</b>" as main_ts
+
+(component) ..> (base.component)
+main_ts ==> (main.view)
+(main.view) --> (component)
+(main.view) ...> (singleton)
+(singleton) ---> (model)
+----
+
+[wireviz]
+----
+connectors:
+  X1:
+    type: D-Sub
+    subtype: female
+    pinlabels: [DCD, RX, TX, DTR, GND, DSR, RTS, CTS, RI]
+  X2:
+    type: Molex KK 254
+    subtype: female
+    pinlabels: [GND, RX, TX]
+
+cables:
+  W1:
+    gauge: 0.25 mm2
+    length: 0.2
+    color_code: DIN
+    wirecount: 3
+    shield: true
+
+connections:
+  -
+    - X1: [5,2,3]
+    - W1: [1,2,3]
+    - X2: [1,3,2]
+  -
+    - X1: 5
+    - W1: s
+----
+
+.Legend
+[options=header]
+|===
+|Item|Number
+|Item|Number
+|Item|Number
+|===

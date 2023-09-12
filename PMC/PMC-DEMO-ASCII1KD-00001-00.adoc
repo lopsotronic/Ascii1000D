@@ -1,33 +1,32 @@
-= Teledyne Doctitle: Teledyne subtitle
-Teledyne Techpubs <teledynetechpubs@teledyne.com>
-v0.1.1, {docdatetime}: Revremark
+= Doctitle Demo: 999-9999-999
+SpecAgile Demo <john.mogilewsky@specagile.org>
+v0.1.4, {docdatetime}: Revremark
 :doctype: book
 :encoding: utf-8
 :lang: en
 :toc: left
 :toclevels: 4
 :experimental:
-:title-page-background-image: image:../GFX/_TeledyneFLIR.png[]
 :numbering:
 :sectnums:
 :sectnumlevels: 5
-:stylesheet: ../css/document.css,../css/cover.css
+//:stylesheet: ../css/document.css,../css/cover.css
 //../css/features/title-document-numbering.css
 //../css/features/title-page.css
 :docpnr: 999-999999-999
 //:docinfo: shared
-:title-logo-image: ../GFX/_TeledyneFLIR.png[]
 :chapter-signifier: Chapter
 //Applicability Attributes
 :CONFIG1: 000000100
 :CONFIG3: 100000001
 
+include::../CIR/DMC-DEMO-000-00-00-01A-00KA-A.adoc[leveloffset=+1]
 
-include::../CIR/DMC-DEMO-000-00-00-01A-998Z-A.adoc[]
+include::../CIR/DMC-DEMO-000-00-00-01A-0A2A-A.adoc[leveloffset=+1]
 
-include::../CIR/DMC-DEMO-000-00-00-01A-999Z-A.adoc[]
+include::../CIR/DMC-DEMO-000-00-00-01A-020A-A.adoc[leveloffset=+1]
 
-include::../CIR/DMC-DEMO-000-00-00-01A-020A-A.adoc[]
+include::../CIR/DMC-DEMO-000-00-00-01A-999Z-A.adoc[leveloffset=+1]
 
 include::../DMC/DMC-DEMO-000-10-00-01A-040B-A.adoc[leveloffset=+1]
 
@@ -37,11 +36,11 @@ include::../DMC/DMC-DEMO-000-10-00-01A-520A-A.adoc[leveloffset=+1]
 
 include::../DMC/DMC-DEMO-000-10-00-01A-720A-A.adoc[leveloffset=+1]
 
+include::../DMC/DMC-S1000DBIKE-AAA-D00-00-00-00AA-258A-A.adoc[leveloffset=+1]
+
 include::../DMC/DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A.adoc[leveloffset=+1]
 
 include::../DMC/DMC-S1000DBIKE-AAA-DA2-10-00-00AA-520A-A.adoc[leveloffset=+1]
-
-include::../DMC/DMC-TDFLIR-900-42-00-01A-040A-A.adoc[leveloffset=+1]
 
 include::../CIR/DMC-TDFLIR-900-42-00-01A-013A-A.adoc[leveloffset=+1]
 

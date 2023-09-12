@@ -1,0 +1,19 @@
+[[DMC-DEMO-000-00-00-01A-0A2A-A]]
+
+|===
+|**APPLICABILITY - SHORTENED**
+|===
+
+// tag::applic_short[]
+[.applic_short]
+*Applicability, Shortened*:
+ifdef::CONFIG1[]
+Configuration State 1 |
+endif::CONFIG1[]
+ifdef::CONFIG2[]
+Configuration State 2 |
+endif::CONFIG2[]
+ifdef::CONFIG3[]
+Configuration State 3 |
+endif::CONFIG3[]
+// end::applic_short[]

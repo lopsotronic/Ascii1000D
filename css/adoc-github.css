@@ -215,7 +215,32 @@ ul.no-bullet { list-style: none; }
 
 /* Ordered Lists */
 ol li ul, ol li ol { margin-left: 1.33333em; margin-bottom: 0; }
+ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+}
 
+ol > li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+}
+
+ol > li:before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+  padding-right: 1.5em;
+}
+
+li ol > li {
+  margin: 0;
+}
+
+li ol > li:before {
+  content: counters(item, ".") " ";
+}
 /* Definition Lists */
 dl dt { margin-bottom: 0.33333em; font-weight: bold; }
 dl dd { margin-bottom: 1.33333em; }

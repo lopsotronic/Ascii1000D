@@ -2,6 +2,7 @@
 = Ascii1000D - Inspect
 :!part-title:
 :part-title: DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A
+:CIR_WARN: ../CIR/DMC-DEMO-000-00-00-01A-0A4A-A.adoc
 
 [abstract]
 DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A
@@ -22,12 +23,13 @@ NA
 
 == Procedure
 
+
 include::../CIR/DMC-DEMO-000-00-00-01A-0A4A-A.adoc[tag=Flammable]
 
 [.procedure]
 . {empty}
 +
-include::../CIR/DMC-DEMO-000-00-00-01A-0A4A-A.adoc[tag=HighVoltage]
+include::{CIR_WARN}[tag=HighVoltage]
 +
 Turn on the system if the temperature is under 80{deg}
 . Use the `source` switch to ensure that the electrical system is not

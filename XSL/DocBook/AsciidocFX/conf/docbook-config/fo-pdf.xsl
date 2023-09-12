@@ -370,8 +370,8 @@
     <xsl:param name="page.margin.inner">2.35cm</xsl:param>
     <xsl:param name="page.margin.outer">1.65cm</xsl:param>
 
-    <xsl:param name="body.margin.inner">0cm</xsl:param>
-    <xsl:param name="body.margin.outer">0cm</xsl:param>
+    <xsl:param name="body.margin.inner">1cm</xsl:param>
+    <xsl:param name="body.margin.outer">1cm</xsl:param>
 
     <xsl:param name="body.start.indent">0cm</xsl:param>
     <!-- text indentation -->
@@ -1204,7 +1204,7 @@
 
     <!-- override to force use of title, author and one revision on titlepage -->
     <xsl:template name="book.titlepage.recto">
-          <fo:block>
+          <fo:block background-image="file:///D:/BackupLEGION5/E/resume/resume/Cover_Rockets.svg" background-repeat="no-repeat" background-position="center">
             <fo:table inline-progression-dimension="100%" table-layout="fixed">
               <fo:table-column column-width="50%"/>
               <fo:table-column column-width="50%"/>
@@ -1305,7 +1305,7 @@
                     </fo:block>
                   </fo:table-cell>
                 </fo:table-row >
-                <fo:table-row height="30mm">
+                <fo:table-row height="20mm">
                   <fo:table-cell number-columns-spanned="2">
                     <fo:block text-align="center">
                         <xsl:choose>
@@ -1317,10 +1317,10 @@
                     </fo:block>
                   </fo:table-cell>
                 </fo:table-row > 
-                <fo:table-row height="50mm">
+                <fo:table-row height="40mm">
                     <fo:table-cell number-columns-spanned="2">
                         <fo:block text-align="center">
-                            <fo:external-graphic src="url(images/_TeledyneFLIR.svg)" content-height="72mm" content-width="96mm"/>
+                            <fo:external-graphic src="url(images/Ascii1000D.svg)" content-height="72mm" content-width="96mm"/>
                         </fo:block>
                     </fo:table-cell>
                 </fo:table-row > 
@@ -1336,7 +1336,7 @@
                         </fo:block>
                     </fo:table-cell>
                   </fo:table-row > 
-                  <fo:table-row height="30mm">
+                  <fo:table-row height="15mm">
                     <fo:table-cell number-columns-spanned="2">
                         <fo:block text-align="left">
                             <xsl:choose>

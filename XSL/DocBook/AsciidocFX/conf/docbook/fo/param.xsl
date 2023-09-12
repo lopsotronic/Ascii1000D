@@ -541,13 +541,13 @@ set       toc,title
 <xsl:param name="page.margin.bottom">0.5in</xsl:param>
 <xsl:param name="page.margin.inner">
   <xsl:choose>
-    <xsl:when test="$double.sided != 0">1.25in</xsl:when>
+    <xsl:when test="$double.sided != 0">1.5in</xsl:when>
     <xsl:otherwise>1in</xsl:otherwise>
   </xsl:choose>
 </xsl:param>
 <xsl:param name="page.margin.outer">
   <xsl:choose>
-    <xsl:when test="$double.sided != 0">0.75in</xsl:when>
+    <xsl:when test="$double.sided != 0">1in</xsl:when>
     <xsl:otherwise>1in</xsl:otherwise>
   </xsl:choose>
 </xsl:param>
@@ -997,6 +997,7 @@ set       toc,title
 <xsl:attribute-set name="inner.region.content.properties">
 </xsl:attribute-set>
 <xsl:attribute-set name="outer.region.content.properties">
+  <xsl:attribute name="text-align">center</xsl:attribute>
 </xsl:attribute-set>
 <xsl:attribute-set name="region.inner.properties">
   <xsl:attribute name="border-width">0</xsl:attribute>
