@@ -8,3 +8,7 @@ WARNING: High voltage kills! ZAP
 // tag::Flammable[]
 WARNING: Material may cause burning to death
 // end::Flammable[]
+
+//tag::Detergent[]
+WARNING: Do not get detergent into your eyes. If it gets into your eyes, wash them immediately in clean warm water.
+//end::Detergent[]

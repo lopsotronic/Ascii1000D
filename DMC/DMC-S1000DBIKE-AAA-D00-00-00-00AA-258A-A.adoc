@@ -46,7 +46,7 @@ ifdef::CONFIG1[]
 WARNING: When using the bike with CONFIG1 installed, prepare for spontaneous disassembly followed by fire. Locate the nearest Deck Officer and hide behind him immediately
 endif::CONFIG1[]
 
-WARNING: Do not get detergent into your eyes. If it gets into your eyes, wash them immediately in clean warm water.
+include::../CIR/DMC-DEMO-000-00-00-01A-0A4A-A.adoc[tag=Detergent]
 
 WARNING: Do not get link:#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_sup-0003[BoeBus DeLux Detergent No.6] into  your eyes. If it gets into your eyes, wash them immediately in clean warm water.
 
