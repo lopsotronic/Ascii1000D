@@ -5,7 +5,8 @@ v0.0.7, {docdate}
 [abstract]
 DMC-ASDEMO-AAAA-000-00-00-01A-000B-A
 
-image::Ascii1000D.svg[]
+.Simple Example of Ascii1000D CCSfootnote:[Component Content System] Functionality
+image::Ascii1000DSample.jfif[]
 
 
 == Premise
@@ -35,181 +36,73 @@ Demonstration of an https://s1000d.org/[S1000D] publication architecture using t
 
 See xref:Ascii1000D_Flow.adoc#Example Data Flow[Data Flow] for details on data flow.
 
-[vega]
+Parts data information is always customized for each business. In the below example, we can see that parts data changes as the product maturity advances. 
+
+.The red line shows one of the big problems: MTAs need to be done before writers start writing.
+ifdef::env-github[image::JABS076.svg[]]
+ifndef::env-github[]
+[graphviz, JABS076.svg, svg]
 ----
-{
-  "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "A searchable, stacked area chart of U.S. occupations from 1850 to 2000.",
-  "width": 800,
-  "height": 500,
-  "padding": 5,
-
-  "signals": [
-    {
-      "name": "sex", "value": "all",
-      "bind": {"input": "radio", "options": ["men", "women", "all"]}
-    },
-    {
-      "name": "query", "value": "",
-      "on": [
-        {"events": "area:click!", "update": "datum.job"},
-        {"events": "dblclick!", "update": "''"}
-      ],
-      "bind": {"input": "text", "placeholder": "search", "autocomplete": "off"}
-    }
-  ],
-
-  "data": [
-    {
-      "name": "jobs",
-      "url": "data/jobs.json",
-      "transform": [
-        {
-          "type": "filter",
-          "expr": "(sex === 'all' || datum.sex === sex) && (!query || test(regexp(query,'i'), datum.job))"
-        },
-        {
-          "type": "stack",
-          "field": "perc",
-          "groupby": ["year"],
-          "sort": {
-            "field": ["job", "sex"],
-            "order": ["descending", "descending"]
-          }
-        }
-      ]
-    },
-    {
-      "name": "series",
-      "source": "jobs",
-      "transform": [
-        {
-          "type": "aggregate",
-          "groupby": ["job", "sex"],
-          "fields": ["perc", "perc"],
-          "ops": ["sum", "argmax"],
-          "as": ["sum", "argmax"]
-        }
-      ]
-    }
-  ],
-
-  "scales": [
-    {
-      "name": "x",
-      "type": "linear",
-      "range": "width",
-      "zero": false, "round": true,
-      "domain": {"data": "jobs", "field": "year"}
-    },
-    {
-      "name": "y",
-      "type": "linear",
-      "range": "height", "round": true, "zero": true,
-      "domain": {"data": "jobs", "field": "y1"}
-    },
-    {
-      "name": "color",
-      "type": "ordinal",
-      "domain": ["men", "women"],
-      "range": ["#33f", "#f33"]
-    },
-    {
-      "name": "alpha",
-      "type": "linear", "zero": true,
-      "domain": {"data": "series", "field": "sum"},
-      "range": [0.4, 0.8]
-    },
-    {
-      "name": "font",
-      "type": "sqrt",
-      "range": [0, 20], "round": true, "zero": true,
-      "domain": {"data": "series", "field": "argmax.perc"}
-    },
-    {
-      "name": "opacity",
-      "type": "quantile",
-      "range": [0, 0, 0, 0, 0, 0.1, 0.2, 0.4, 0.7, 1.0],
-      "domain": {"data": "series", "field": "argmax.perc"}
-    },
-    {
-      "name": "align",
-      "type": "quantize",
-      "range": ["left", "center", "right"], "zero": false,
-      "domain": [1730, 2130]
-    },
-    {
-      "name": "offset",
-      "type": "quantize",
-      "range": [6, 0, -6], "zero": false,
-      "domain": [1730, 2130]
-    }
-  ],
-
-  "axes": [
-    {
-      "orient": "bottom", "scale": "x", "format": "d", "tickCount": 15
-    },
-    {
-      "orient": "right", "scale": "y", "format": "%",
-      "grid": true, "domain": false, "tickSize": 12,
-      "encode": {
-        "grid": {"enter": {"stroke": {"value": "#ccc"}}},
-        "ticks": {"enter": {"stroke": {"value": "#ccc"}}}
-      }
-    }
-  ],
-
-  "marks": [
-    {
-      "type": "group",
-      "from": {
-        "data": "series",
-        "facet": {
-          "name": "facet",
-          "data": "jobs",
-          "groupby": ["job", "sex"]
-        }
-      },
-
-      "marks": [
-        {
-          "type": "area",
-          "from": {"data": "facet"},
-          "encode": {
-            "update": {
-              "x": {"scale": "x", "field": "year"},
-              "y": {"scale": "y", "field": "y0"},
-              "y2": {"scale": "y", "field": "y1"},
-              "fill": {"scale": "color", "field": "sex"},
-              "fillOpacity": {"scale": "alpha", "field": {"parent": "sum"}}
-            },
-            "hover": {
-              "fillOpacity": {"value": 0.2}
+digraph g {
+  graph [fontsize=10 fontname="Arial" compound=true];
+  edge [arrowsize=".5"]
+  node [shape=record]
+  node [fontname="Arial" fontsize=10]
+  rankdir="LR";
+"Blue = git version controlled" [color=blue]
+"Red = DMC process problem" [color=red]
+"??Business??
+??Intelligence??
+??Thing??" [shape=tripleoctagon]
+"??Business??
+??Intelligence??
+??Thing??" -> "Solid Model" [style="dotted" arrowsize=0]
+"??Business??
+??Intelligence??
+??Thing??" -> "PDM" [style="dotted" arrowsize=0]
+"??Business??
+??Intelligence??
+??Thing??" -> "LSAR" [style="dotted" arrowsize=0]
+"Xquery" [color=blue]
+"PCIR (engineering)" [color=blue]
+"PCIR (release)" [color=blue]
+"PCIR (production)" [color=blue]
+"LSAR" -> "PCIR (production)"
+"LSAR" -> "MTA" [color=red]
+"MTA" -> "DMC" [color=red]
+"MTA" -> "Many many many
+other MX Procedures" [color=red]
+"Solid Model" -> "3MF/STEP"
+"PDM" -> "PCIR (release)"
+"PCIR (release)" -> "Parts Data (TextQL)"
+"3MF/STEP" [color=blue]
+"3MF/STEP" -> "OpenCascade"
+"OpenCascade" -> "SVG (PDF)"
+"OpenCascade" -> "Web 3D (HTML)"
+"3MF/STEP" -> "Xquery"
+"Xquery" -> "PCIR (engineering)"
+"PCIR (engineering)" -> "Parts Data (TextQL)"
+"PCIR (production)" -> "Parts Data (TextQL)"
+        subgraph cluster_01{
+        color=blue;
+        subgraph cluster_0 {
+            subgraph cluster_1 {
+            color=black;
+            "Web 3D (HTML)" [color=blue];
+            "SVG (PDF)" [color=blue];
+            label = "ICN";
             }
-          }
-        }
-      ]
-    },
-    {
-      "type": "text",
-      "from": {"data": "series"},
-      "interactive": false,
-      "encode": {
-        "update": {
-          "x": {"scale": "x", "field": "argmax.year"},
-          "dx": {"scale": "offset", "field": "argmax.year"},
-          "y": {"signal": "scale('y', 0.5 * (datum.argmax.y0 + datum.argmax.y1))"},
-          "fill": {"value": "#000"},
-          "fillOpacity": {"scale": "opacity", "field": "argmax.perc"},
-          "fontSize": {"scale": "font", "field": "argmax.perc", "offset": 5},
-          "text": {"field": "job"},
-          "align": {"scale": "align", "field": "argmax.year"},
-          "baseline": {"value": "middle"}
-        }
-      }
+        "Parts Data (TextQL)" ;
+        "DMC";
+        label = "MX Procedure 000" ;
     }
-  ]
+        "Many many many
+other MX Procedures" [color=blue]
+    label = "Publication Module" ;
+    "User-defined Attributes
+for Applicability";
+    } 
+    
 }
-
 ----
+endif::env-github[]
