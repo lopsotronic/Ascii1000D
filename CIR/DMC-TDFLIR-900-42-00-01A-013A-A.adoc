@@ -1,5 +1,0 @@
-[index]
-= Index
-
-[abstract]
-DMC-TDFLIR-900-42-00-01A-013A-A.adoc

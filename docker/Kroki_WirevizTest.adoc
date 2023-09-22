@@ -1,0 +1,178 @@
+= Test Kroki Wireviz
+:kroki-server-url: https://kroki.io/
+
+[blockdiag]
+----
+blockdiag {
+  Kroki -> generates -> "Block diagrams";
+  Kroki -> is -> "very easy!";
+
+  Kroki [color = "greenyellow"];
+  "Block diagrams" [color = "pink"];
+  "very easy!" [color = "orange"];
+}
+----
+
+[kroki-wireviz]
+----
+connectors:
+  X1:
+    type: D-Sub
+    subtype: female
+    pinlabels: [DCD, RX, TX, DTR, GND, DSR, RTS, CTS, RI]
+  X2:
+    type: Molex KK 254
+    subtype: female
+    pinlabels: [GND, RX, TX]
+
+cables:
+  W1:
+    gauge: 0.25 mm2
+    length: 0.2
+    color_code: DIN
+    wirecount: 3
+    shield: true
+
+connections:
+  -
+    - X1: [5,2,3]
+    - W1: [1,2,3]
+    - X2: [1,3,2]
+  -
+    - X1: 5
+    - W1: s
+----
+
+
+[vegalite]
+----
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Horizontally concatenated charts that show different types of discretizing scales.",
+  "data": {
+    "values": [
+      {"a": "A", "b": 28},
+      {"a": "B", "b": 55},
+      {"a": "C", "b": 43},
+      {"a": "D", "b": 91},
+      {"a": "E", "b": 81},
+      {"a": "F", "b": 53},
+      {"a": "G", "b": 19},
+      {"a": "H", "b": 87},
+      {"a": "I", "b": 52}
+    ]
+  },
+  "hconcat": [
+    {
+      "mark": "circle",
+      "encoding": {
+        "y": {
+          "field": "b",
+          "type": "nominal",
+          "sort": null,
+          "axis": {
+            "ticks": false,
+            "domain": false,
+            "title": null
+          }
+        },
+        "size": {
+          "field": "b",
+          "type": "quantitative",
+          "scale": {
+            "type": "quantize"
+          }
+        },
+        "color": {
+          "field": "b",
+          "type": "quantitative",
+          "scale": {
+            "type": "quantize",
+            "zero": true
+          },
+          "legend": {
+            "title": "Quantize"
+          }
+        }
+      }
+    },
+    {
+      "mark": "circle",
+      "encoding": {
+        "y": {
+          "field": "b",
+          "type": "nominal",
+          "sort": null,
+          "axis": {
+            "ticks": false,
+            "domain": false,
+            "title": null
+          }
+        },
+        "size": {
+          "field": "b",
+          "type": "quantitative",
+          "scale": {
+            "type": "quantile",
+            "range": [80, 160, 240, 320, 400]
+          }
+        },
+        "color": {
+          "field": "b",
+          "type": "quantitative",
+          "scale": {
+            "type": "quantile",
+            "scheme": "magma"
+          },
+          "legend": {
+            "format": "d",
+            "title": "Quantile"
+          }
+        }
+      }
+    },
+    {
+      "mark": "circle",
+      "encoding": {
+        "y": {
+          "field": "b",
+          "type": "nominal",
+          "sort": null,
+          "axis": {
+            "ticks": false,
+            "domain": false,
+            "title": null
+          }
+        },
+        "size": {
+          "field": "b",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [30, 70],
+            "range": [80, 200, 320]
+          }
+        },
+        "color": {
+          "field": "b",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [30, 70],
+            "scheme": "viridis"
+          },
+          "legend": {
+            "title": "Threshold"
+          }
+        }
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent",
+      "size": "independent"
+    }
+  }
+}
+----
