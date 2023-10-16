@@ -120,8 +120,6 @@
       Text properties
     -->
 
-    <xsl:param name="image.teledyne.logo">images/teledyneflir.png</xsl:param>
-
     <xsl:param name="hyphenate">false</xsl:param>
     <!--
     <xsl:param name="alignment">left</xsl:param>
@@ -1043,7 +1041,7 @@
       Lists
     -->
 
-    <xsl:param name="qandadiv.autolabel">0</xsl:param>
+    <xsl:param name="qandadiv.autolabel">1</xsl:param>
     <xsl:param name="variablelist.as.blocks">1</xsl:param>
 
     <xsl:attribute-set name="list.block.properties">
@@ -1087,7 +1085,7 @@
       Title pages
     -->
 
-    <xsl:param name="titlepage.color">blue</xsl:param>
+    <xsl:param name="titlepage.color">black</xsl:param>
     <!--
     <xsl:param name="titlepage.color" select="$title.color"/>
     -->
@@ -1133,13 +1131,13 @@
 
     <xsl:attribute-set name="chapter.titlepage.label.properties">
         <xsl:attribute name="font-size">20pt</xsl:attribute>
-        <xsl:attribute name="color">blue</xsl:attribute>
+        <xsl:attribute name="color">black</xsl:attribute>
 
     </xsl:attribute-set>
     <xsl:attribute-set name="chapter.titlepage.title.properties">
         <xsl:attribute name="font-size">20pt</xsl:attribute>
         <xsl:attribute name="font-weight">bold</xsl:attribute>
-        <xsl:attribute name="color">blue</xsl:attribute>
+        <xsl:attribute name="color">black</xsl:attribute>
     </xsl:attribute-set>
 
     <xsl:template match="title" mode="chapter.titlepage.recto.auto.mode">
@@ -1173,10 +1171,10 @@
 
     <!-- override to set different color for book title -->
     <xsl:template match="db:title | title" mode="book.titlepage.recto.auto.mode">
-        <fo:block xsl:use-attribute-sets="book.titlepage.recto.style" text-align="center" font-size="144"
+        <fo:block xsl:use-attribute-sets="book.titlepage.recto.style" text-align="center" font-size="20pt"
                   space-before="18.6624pt">
             <!-- FIXME don't use hardcoded value here -->
-            <xsl:attribute name="color">blue</xsl:attribute>
+            <xsl:attribute name="color">black</xsl:attribute>
             <xsl:attribute name="font-weight">
                 <xsl:value-of select="$header.font-weight"/>
             </xsl:attribute>
@@ -1204,7 +1202,8 @@
 
     <!-- override to force use of title, author and one revision on titlepage -->
     <xsl:template name="book.titlepage.recto">
-          <fo:block background-image="file:///D:/BackupLEGION5/E/resume/resume/Cover_Rockets.svg" background-repeat="no-repeat" background-position="center">
+        <fo:block>  
+    <!--    <fo:block background-image="file:///D:/BackupLEGION5/E/resume/resume/Cover_Rockets.svg" background-repeat="no-repeat" background-position="center">-->
             <fo:table inline-progression-dimension="100%" table-layout="fixed">
               <fo:table-column column-width="50%"/>
               <fo:table-column column-width="50%"/>
@@ -1287,7 +1286,7 @@
                     </fo:block>
                   </fo:table-cell>
                 </fo:table-row>
-                <fo:table-row height="20mm">
+                <fo:table-row height="10mm">
                   <fo:table-cell number-columns-spanned="2">
                     <fo:block text-align="center">
                       <xsl:choose>
@@ -1305,7 +1304,7 @@
                     </fo:block>
                   </fo:table-cell>
                 </fo:table-row >
-                <fo:table-row height="20mm">
+                <fo:table-row height="30mm">
                   <fo:table-cell number-columns-spanned="2">
                     <fo:block text-align="center">
                         <xsl:choose>
@@ -1317,11 +1316,20 @@
                     </fo:block>
                   </fo:table-cell>
                 </fo:table-row > 
-                <fo:table-row height="40mm">
+                <fo:table-row height="80mm">
                     <fo:table-cell number-columns-spanned="2">
                         <fo:block text-align="center">
-                            <fo:external-graphic src="url(images/Ascii1000D.svg)" content-height="72mm" content-width="96mm"/>
+                            <fo:external-graphic src="url(images/SVTOL_exploded.png)" content-height="80mm"/>
                         </fo:block>
+<!--                         <fo:block text-align="center">
+                            <xsl:choose>
+                              <xsl:when test="preface/informalfigure[@role='cover_logo']">
+                                <xsl:apply-templates
+                                        mode="fo-external-image"
+                                       select="mediaobject/imageobject"/>
+                              </xsl:when>
+                            </xsl:choose>                        
+                        </fo:block> -->
                     </fo:table-cell>
                 </fo:table-row > 
                 <fo:table-row height="15mm">

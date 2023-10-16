@@ -16,4 +16,7 @@ endif::CONFIG2[]
 ifdef::CONFIG3[]
 Configuration State 3 |
 endif::CONFIG3[]
+ifdef::CADDEMO[]
+CAD-PUB Demo CLASS 1
+endif::CADDEMO[]
 // end::applic_short[]

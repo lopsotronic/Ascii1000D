@@ -6,7 +6,7 @@ WARNING: High voltage kills! ZAP
 // end::HighVoltage[]
 
 // tag::Flammable[]
-WARNING: Material may cause burning to death
+WARNING: Fuel may cause burning to death
 // end::Flammable[]
 
 //tag::Detergent[]

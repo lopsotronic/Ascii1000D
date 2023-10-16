@@ -1,0 +1,12 @@
+[[DMC-RSME-000-00-00-01A-040A-A]]
+= Resume - General
+
+[abstract]
+DMC-RSME-000-00-00-01A-040A-A
+
+This RESUME system describes all document systems for the purpose of job classification and promotion.
+
+All content is composed and built with "Ascii1000D" (https://docs.asciidoctor.org/[Asciidoc] + https://s1000d.org/[S1000D]) documentation systems.
+
+ifdef::CADDEMO[]
+For the CADDEMO view, this section also includes demonstration of interoperability between CAD models (STEP, ISO 10303-21) and "Ascii1000D" (https://docs.asciidoctor.org/[Asciidoc] + https://s1000d.org/[S1000D]) documentation systems.

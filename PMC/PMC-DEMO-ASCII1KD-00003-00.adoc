@@ -1,0 +1,32 @@
+= CAD-PUB Interoperability: Sample pages
+John Mogilewsky <john.mogilewsky@specagile.org>
+v0.0.1, {docdatetime}: Draft
+:doctype: book
+:encoding: utf-8
+:lang: en
+:toc: left
+:toclevels: 4
+:experimental:
+:numbering:
+:sectnums:
+:sectnumlevels: 5
+// Applic attrubutes
+:CADDEMO:
+
+include::../CIR/DMC-DEMO-000-00-01-01A-00KA-A.adoc[leveloffset=+1]
+
+<<<
+
+include::../CIR/DMC-DEMO-000-00-00-01A-0A2A-A.adoc[leveloffset=+1]
+
+include::../CIR/DMC-DEMO-000-00-00-01A-020A-A.adoc[leveloffset=+1]
+
+include::../CIR/DMC-DEMO-000-00-00-01A-999Z-A.adoc[leveloffset=+1]
+
+include::../DMC/DMC-DEMO-E15-45-01-01A-141A-A.adoc[leveloffset=+1]
+
+include::../DMC/DMC-RSME-000-00-00-01A-040A-A.adoc[leveloffset=+1]
+
+include::../DMC/DMC-RSME-E00-01-01-01A-040A-A.adoc[leveloffset=+1]
+
+include::../DMC/DMC-RSME-E28-10-01-01A-280A-A.adoc[leveloffset=+1]

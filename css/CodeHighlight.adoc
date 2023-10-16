@@ -1,0 +1,16 @@
+= Test Code Highlight
+:source-highlighter: highlight.js
+
+[source, javascript]
+----
+include::Code.js[tag=ConstHome]
+----
+
+
+[source, shell]
+----
+sudo curl -L "url" -o /path
+ls
+----
+
+

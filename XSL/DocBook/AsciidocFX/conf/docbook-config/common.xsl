@@ -8,10 +8,10 @@
     <xsl:param name="border.color">#DDDDDD</xsl:param>
     <xsl:param name="header.font-weight">normal</xsl:param>
     <xsl:param name="header.column.widths">1 2 1</xsl:param>
-    <xsl:param name="title.color">blue</xsl:param>
+    <xsl:param name="title.color">black</xsl:param>
     <xsl:param name="chapter.title.color" select="$title.color"/>
     <xsl:param name="section.title.color" select="$title.color"/>
-    <xsl:param name="caption.color">blue</xsl:param>
+    <xsl:param name="caption.color">black</xsl:param>
     <xsl:param name="code.color" select="$text.color"/>
     <xsl:param name="code.font-weight">normal</xsl:param>
     <xsl:param name="code.background-color">#EEEEEE</xsl:param>
@@ -60,7 +60,7 @@
     -->
 
     <!-- show URLs of links in footnotes -->
-    <xsl:param name="ulink.show" select="1"/>
+    <xsl:param name="ulink.show" select="0"/>
     <xsl:param name="ulink.footnotes" select="1"/>
 
     <!-- disable period at end of formal block title -->

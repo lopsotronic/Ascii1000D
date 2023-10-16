@@ -174,7 +174,7 @@
 <xsl:param name="default.units">pt</xsl:param>
 <xsl:param name="dingbat.font.family">serif</xsl:param>
 <xsl:param name="double.sided" select="0"/>
-<xsl:param name="draft.mode">yes</xsl:param>
+<xsl:param name="draft.mode">no</xsl:param>
 <xsl:param name="draft.watermark.image">images/draft.png</xsl:param>
 
 <xsl:param name="ebnf.assignment">
@@ -751,7 +751,7 @@ set       toc,title
 <xsl:param name="section.label.includes.component.label" select="1"/>
 <xsl:attribute-set name="section.title.level1.properties">
   <xsl:attribute name="font-size">
-    <xsl:value-of select="$body.font.master * 2.0736"/>
+    <xsl:value-of select="$body.font.master * 1.7"/>
     <xsl:text>pt</xsl:text>
   </xsl:attribute>
 </xsl:attribute-set>
@@ -786,7 +786,7 @@ set       toc,title
   </xsl:attribute>
 </xsl:attribute-set>
 <xsl:attribute-set name="section.title.properties">
-  <xsl:attribute name="color">blue</xsl:attribute>
+  <xsl:attribute name="color">black</xsl:attribute>
   <xsl:attribute name="font-family">
     <xsl:value-of select="$title.fontset"/>
   </xsl:attribute>
@@ -939,10 +939,10 @@ set       toc,title
 </xsl:attribute-set>
 <xsl:param name="toc.max.depth">8</xsl:param>
 <xsl:param name="toc.section.depth">2</xsl:param>
-<xsl:param name="ulink.footnotes" select="0"/>
+<xsl:param name="ulink.footnotes" select="1"/>
 <xsl:param name="ulink.hyphenate"/>
 <xsl:param name="ulink.hyphenate.chars">/</xsl:param>
-<xsl:param name="ulink.show" select="1"/>
+<xsl:param name="ulink.show" select="0"/>
 <xsl:param name="use.extensions" select="0"/>
 <xsl:param name="use.local.olink.style" select="0"/> 
 <xsl:param name="use.role.as.xrefstyle" select="1"/>

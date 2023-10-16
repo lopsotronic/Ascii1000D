@@ -1,0 +1,65 @@
+[[DMC-DEMO-E15-45-01-01A-141A-A]]
+= Fire - Emergency operations procedure
+
+
+[abstract]
+DMC-DEMO-E15-45-01-01A-141A-A
+
+== ENGINE FIRE STARTING
+
+[.acrw]
+|===
+|Throttle| CUTOFF
+|Manual fuel shutoff| OFF
+|If fire continues| ABANDON
+|===
+
+== ENGINE FIRE STARTING
+
+:interactive:
+[horizontal]
+Throttle::
+* [ ] CUTOFF
+Manual fuel shutoff::
+* [ ] OFF
+If fire continues::
+* [ ] ABANDON
+
+== ENG FIRE IN FLIGHT WITH INDICATION
+
+[.acrw]
+|===
+|Throttle|CUTOFF
+|Manual Fuel Shutoff|OFF
+|Energebcy Generator|EXTEND
+
+DO NOT RESTART ENGINE
+|If conditions warrant|EJECT
+|===
+
+== ENG FIRE IN FLIGHT WARNING LIGHT ONLY
+
+[.acrw]
+|===
+|Throttle|MINIMUM FOR LEVEL FLIGHT
+
+LAND AS SOON AS POSSIBLE
+|===
+
+== WING FIRE IN FLIGHT
+
+[.acrw]
+|===
+|Combustible Stores|JETTISON
+|If Fire Continues|EJECT
+|===
+
+== ELECTRICAL FIRE IN FLIGHT
+
+[.acrw]
+|===
+|Electrical Equipment|OFF
+|EMER GEN|Extend If Fire Persists
+|Once fire extinguised|NECESSARY ELECTRICAL EQUIPMENT ON ONE AT A TIME
+|If Fire Continues|EJECT
+|===

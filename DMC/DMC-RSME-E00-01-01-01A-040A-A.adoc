@@ -1,0 +1,18 @@
+[[DMC-RSME-E00-01-01-01A-040A-A]]
+= Airframe - General
+
+[abstract]
+DMC-RSME-E00-01-01-01A-040A-A
+
+The RSME test airframe can be described as follows
+
+image::../GFX/DMC-RSME-E00-01-01-01A-999Z-A.svg[scaledwidth=100]
+
+.Components
+. Forward payload
+. Belly cover
+. Modular bay
+. Turbine-electric PMU (Propulsion Module Unit)
+. Fuel, anti-slosh, flexible
+. Rear payload (Hover camera)
+. Counter-rotating propeller/module unit

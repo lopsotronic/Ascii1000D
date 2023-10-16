@@ -22,3 +22,7 @@ endif::CONFIG2[]
 ifdef::CONFIG3[]
 Product configuration 3 serial number beginning {CONFIG3}.
 endif::CONFIG3[]
+
+ifdef::CADDEMO[]
+One-time configuration for CAD-PUB demo.
+endif::CADDEMO[]
