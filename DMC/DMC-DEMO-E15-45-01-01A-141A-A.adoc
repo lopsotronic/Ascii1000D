@@ -26,12 +26,15 @@ If fire continues::
 * [ ] ABANDON
 
 == ENG FIRE IN FLIGHT WITH INDICATION
-
+:CONFIG1:
 [.acrw]
 |===
 |Throttle|CUTOFF
 |Manual Fuel Shutoff|OFF
-|Energebcy Generator|EXTEND
+|Energency Generator|EXTEND
+ifdef::CONFIG1[]
+|Config1 disable|ON
+endif::CONFIG1[]
 
 DO NOT RESTART ENGINE
 |If conditions warrant|EJECT

@@ -1,7 +1,12 @@
+// PCIR Spares
+// tag::520A[]
+PNR,NOMEN,QTY,MFC,UOM,PLREV
+000-111111-11,GasketSpared,1,EA,A
+// end::520A[]
 // tag::720A[]
-PNR,NOMEN,QTY
-999-999999-99,SparePart,1
+PNR,NOMEN,QTY,MFC,UOM,PLREV
+999-999999-99,SparePart,1,EA,A
 ifdef::CONFIG1[]
-999-888888-991,SpareConfig1,1
+999-888888-991,SpareConfig1,1,EA,A
 endif::CONFIG1[]
 // end::720A[]

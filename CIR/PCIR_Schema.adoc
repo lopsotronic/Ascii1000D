@@ -1,0 +1,51 @@
+[graphviz, JABS076.svg, svg]
+----
+digraph g {
+  graph [fontsize=10 fontname="Arial" compound=true];
+  edge [arrowsize=".5"]
+  node [shape=record]
+  node [fontname="Arial" fontsize=10]
+  rankdir="LR";
+LSAR->CSN->IPC
+MULTIPLE->applic->ALL
+MULTIPLE->modelic->ALL
+MULTIPLE->sdc->ALL
+MULTIPLE->micc->ALL
+MULTIPLE->PLREV->ALL
+LSAR->SNS->ALL
+LSAR->discode->ALL
+LSAR->discodev->ALL
+LSAR->incode->ALL
+LSAR->incodev->ALL
+MULTIPLE->itemloc->ALL
+MULTIPLE->partNumber->ALL
+LSAR->manufacturerCodeValue->SPECIAL
+MULTIPLE->descForPart->SPECIAL
+MULTIPLE->partKeyword->SPECIAL
+MULTIPLE->shortName->SPECIAL
+LSAR->overLengthPartNumber->SPECIAL
+LSAR->limitedPartNumber->SPECIAL
+CMMIS->customerStockNumber->SPECIAL
+PROGRAMS->natoStockNumber->IPC
+LSAR->enterpriseRef->SPECIAL
+MULTIPLE->buyerFurnishedEquipFlag->IPC
+CMMIS->sourcingType->SPECIAL
+LSAR->sparePartsClass->ALL
+LSAR->partUsage->ALL
+MULTIPLE->SPECIALDocument->SPECIAL
+MULTIPLE->quantity->ALL
+LSAR->physicalSecurityPilferageCode->SPECIAL
+LSAR->fitmentCode->SPECIAL
+MULTIPLE->uniteOfIssue->ALL
+MULTIPLE->unitOfIssueQualificationSegment->IPC
+FACILITIES->SPECIALialStorage->IPC
+CMMIS->calibrationMarker->SPECIAL
+LSAR->placardText->SPECIAL
+FACILITIES->hazardousClass->ALL
+PROGRAMS->replacedBy->SPECIAL
+PROGRAMS->optionalPart->SPECIAL
+PROGRAMS->preferredSparePart->SPECIAL
+CMMIS->alteredFromPart->SPECIAL
+CMMIS->localFabricationMaterial->SPECIAL
+}
+----

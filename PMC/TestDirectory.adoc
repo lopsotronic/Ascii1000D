@@ -1,0 +1,39 @@
+[tree]
+---
+    Ascii1000d  
+    ├── 3MF
+    |   ├── widget001.3mf
+    ├── CIR
+    |   ├── DMC-DEMO-000-00-00-01A-00GA-A.adoc
+    |   ├── DMC-DEMO-000-00-00-01A-00KA-A.adoc
+    ├── CPAK
+    |   └── README.adoc
+    ├── DMC
+    |   ├── DMC-DEMO-000-00-00-01A-020A-A.adoc
+    |   ├── DMC-DEMO-000-10-00-01A-040B-A.adoc
+    |   ├── DMC-DEMO-000-10-00-01A-280A-A.adoc
+    |   ├── DMC-S1000DBIKE-AAA-DA2-10-00-00AA-520A-A.adoc
+    |   ├── DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A.adoc
+    ├── GFX
+    |   ├── DMC-DEMO-000-10-00-01A-000A-A.png
+    |   ├── DMC-RSME-E28-10-01-01A-280B-A.svg
+    |   ├── DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A.svg
+    ├── ICF
+    |   └── DMC-DEMO-000-10-00-01A-911B-A.adoc
+    ├── ICN
+    |   ├── ICN-ASCII1KD-0000000A01-001-01.svg
+    |   ├── ICN-ASCII1KD-0000000A02-001-01.svg
+    |   └── ICN-ASCII1KD-0000000B01-001-01.svg
+    ├── PIR
+    |   ├── DMC-DEMO-000-10-00-01A-00GA-A.adoc
+    |   ├── DMC-DEMO-000-10-00-01A-00GA-A.csv
+    |   ├── widget001.csv
+    |   └── widget002.csv
+    ├── PMC
+    |   ├── PMC-DEMO-ASCII1KD-00001-00.adoc
+    |   ├── PMC-DEMO-ASCII1KD-00002-00.adoc
+    |   ├── PMC-DEMO-ASCII1KD-00003-00.adoc
+    ├── README.adoc
+    ├── SB
+    |   └── DMC-DEMO-000-10-00-01A-930A-A.adoc
+   

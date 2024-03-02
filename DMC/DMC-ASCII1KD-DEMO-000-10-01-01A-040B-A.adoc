@@ -1,0 +1,44 @@
+[[DMC-ASCII1KD-DEMO-000-10-01-01A-040B-A]]
+= SVG hotspots - Description
+:stylesheet: ..\css\adoc-github.css
+
+ifndef::backend-docbook5[]
+++++
+<style>
+         :target {
+            border: 2px solid orange;
+            background-color: orange;
+            color: orange;
+         }
+</style>
+++++
+endif::backend-docbook5[]
+
+
+////
+image::../GFX/SVGInteractive.svg[Embedded,300,opts=inline]
+
+.Parts Table
+|===
+a|[[p999999999999]]999-999999-999|Circle
+a|[[p888888888888]]888-888888-888|Blue Rectangle
+a|[[p777777777777]]777-777777-777|Green Rectangle
+|===
+
+[[bookmark-a]]Inline anchors make arbitrary content referenceable.
+
+////
+
+image::../GFX/DMC-RSME-E00-01-01-01A-999Z-A.svg[Embedded,800,opts=inline]
+
+.Callouts Table
+|===
+a|[[DMCRSMEE00010101A999ZA_1]]{counter:DMCRSMEE00010101A999ZA}|Forward payload
+a|[[DMCRSMEE00010101A999ZA_2]]{counter:DMCRSMEE00010101A999ZA}|Belly access panel
+a|[[DMCRSMEE00010101A999ZA_3]]{counter:DMCRSMEE00010101A999ZA}|Modular bay
+a|[[DMCRSMEE00010101A999ZA_4]]{counter:DMCRSMEE00010101A999ZA}|Turbine-Electric Power Unit
+a|[[DMCRSMEE00010101A999ZA_5]]{counter:DMCRSMEE00010101A999ZA}|Expandable fuel storage unit
+a|[[DMCRSMEE00010101A999ZA_6]]{counter:DMCRSMEE00010101A999ZA}|Rear payloadfootnote:[Functions as look-down camera in hover flight mode]
+a|[[DMCRSMEE00010101A999ZA_7]]{counter:DMCRSMEE00010101A999ZA}|Integrated brushless motor and propeller pods
+|===
+

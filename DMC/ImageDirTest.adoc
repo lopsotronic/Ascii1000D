@@ -1,0 +1,5 @@
+= Imagesdir test
+
+:imagesdir: DMC/gfx
+
+image::image.png[]

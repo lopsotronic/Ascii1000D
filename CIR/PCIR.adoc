@@ -1,0 +1,23 @@
+= PCIR - CIR
+
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+// tag::28-00-00[]
+|UnitA|999-999999-999|ZZZZ|1|etc
+// tag::520A[]
+|UnitA520|999-888888-999|ZZZZ|1|etc
+ifdef::CONFIG1[]
+|UnitA_CONFIG1|999-888888-888|ZZZZ|1|etc
+endif::CONFIG1[]
+// end::520A[]
+// end::28-00-00[]
+// tag::28-00-01[]
+|UnitB|777-999999-999|ZZZZ|1|etc
+// tag::520A[]
+|UnitB520|777-888888-999|ZZZZ|1|etc
+ifdef::CONFIG1[]
+|UnitB_CONFIG1|777-888888-888|ZZZZ|1|etc
+endif::CONFIG1[]
+// end::520A[]
+// end::28-00-01[]
+|===

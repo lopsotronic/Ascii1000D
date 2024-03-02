@@ -1,0 +1,10 @@
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+// tag:: IC720
+|Work stand |Stand-001 |Stand |1 |
+|Frame fork |St-001-02 |KZ555 |1 |
+|Upper bearing cup |St-001-03 |KZ555 |1 |
+|Brake cable hangar |BR-LVRS-002 |KT444 |1 |
+|Dust seal |St-001-04 |KZ555 |1 |
+|Conical expansion washer |St-001-05 |KZ555 |1 |
+|Work stand |Stand-001 |Bikey |1 |
+// end:: IC720

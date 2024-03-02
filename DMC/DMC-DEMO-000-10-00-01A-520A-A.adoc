@@ -18,7 +18,10 @@ NA
 
 === Spares
 
-NA
+|===
+|Name/Alternate name |Part number |MFC |Quantity |Remark
+include::../CIR/PCIR.adoc[tag=28-00-00]
+|===
 
 == Procedure
 

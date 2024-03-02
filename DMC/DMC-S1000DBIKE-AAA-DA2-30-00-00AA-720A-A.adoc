@@ -13,6 +13,8 @@ DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A
 |The bicycle is safely held on a work stand |
 |===
 
+== Parts information
+
 *Support equipment*
 
 .Support equipment
@@ -44,8 +46,7 @@ image::../GFX/DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A.svg[]
 . Install the Frame Fork on the frame.
 . Install the Upper bearing cup.
 . Install the components that follow on the steering tube:
-* Brake cable
-hangar
+* Brake cable hangar
 * Dust seal
 * Conical expansion washer
 . Install the stem 

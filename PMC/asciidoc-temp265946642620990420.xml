@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc maxdepth="4"?>
+<?asciidoc-numbered maxdepth="5"?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Doctitle Demo</title>
+<subtitle>999-9999-999</subtitle>
+<date>2023-11-21 14:41:26 -0500</date>
+<author>
+<personname>
+<firstname>SpecAgile</firstname>
+<surname>Demo</surname>
+</personname>
+<email>john.mogilewsky@specagile.org</email>
+</author>
+<authorinitials>SD</authorinitials>
+<revhistory>
+<revision>
+<revnumber>0.1.4</revnumber>
+<date>2023-11-21 14:41:26 -0500</date>
+<authorinitials>SD</authorinitials>
+<revremark>Revremark</revremark>
+</revision>
+</revhistory>
+</info>
+<preface>
+<title></title>
+<informaltable xml:id="DMC-DEMO-000-00-00-01A-00KA-A" frame="all" rowsep="1" colsep="1">
+<tgroup cols="1">
+<colspec colname="col_1" colwidth="100*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara><emphasis role="strong">DOCUMENTATION SYSTEM INFORMATION</emphasis></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara role="revnumber"><emphasis role="strong">Revision Number</emphasis>: 0.1.4</simpara>
+<simpara><emphasis role="strong">Processor Backend</emphasis>: docbook5</simpara>
+<simpara><emphasis role="strong">Publication Module Path</emphasis>: C:/Users/lopso/Documents/GitHub/PMC</simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="1">
+<colspec colname="col_1" colwidth="100*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara><emphasis role="strong">CONTACT</emphasis></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara role="contact">SPECAGILE<?asciidoc-br?>
+99999 Somestreet Ave<?asciidoc-br?>
+Sometown ZZ 99999<?asciidoc-br?>
+Phone: 999.999.9999</simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="1">
+<colspec colname="col_1" colwidth="100*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara><emphasis role="strong">DATA RESTRICTIONS</emphasis></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara role="export"><emphasis role="strong">EAR</emphasis> - This document contains no ITAR-controlled data.</simpara>
+<simpara role="proprietary"><emphasis role="strong">PROPRIETARY</emphasis> - This document contains proprietary information to SPECAGILE.</simpara>
+<simpara role="uspatent"><emphasis role="strong">U.S. PATENTS</emphasis> - Ascii1000D is patent pending SPECAGILE</simpara>
+<informalfigure role="cover_logo">
+<mediaobject>
+<imageobject>
+<imagedata fileref="images/GFX/cover_logo.svg"/>
+</imageobject>
+<textobject><phrase>cover logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara role="proprietary_short">&#169; PROPRIETARY by SPECAGILE</simpara>
+<simpara role="export_short"><emphasis role="strong">EAR</emphasis> - EAR uncontrolled data</simpara>
+<informaltable xml:id="DMC-DEMO-000-00-00-01A-0A2A-A" frame="all" rowsep="1" colsep="1">
+<tgroup cols="1">
+<colspec colname="col_1" colwidth="100*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara><emphasis role="strong">APPLICABILITY - SHORTENED</emphasis></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara role="applic_short"><emphasis role="strong">Applicability, Shortened</emphasis>:
+Configuration State 1 |
+Configuration State 3 |</simpara>
+<informaltable xml:id="DMC-DEMO-000-00-00-01A-020A-A.adoc" frame="all" rowsep="1" colsep="1">
+<tgroup cols="1">
+<colspec colname="col_1" colwidth="100*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara><emphasis role="strong">APPLICABILITY</emphasis></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara>Each document deliverable contains applicable content for its specific maintainable configuration.</simpara>
+<simpara>This document deliverable applies to the following product configurations:</simpara>
+<simpara>Product configuration 0 baseline.</simpara>
+<simpara>Product configuration 1 serial number beginning 000000100.</simpara>
+<simpara>Product configuration 3 serial number beginning 100000001.</simpara>
+</preface>
+<chapter xml:id="DMC-ASCII1KD-DEMO-000-10-00-01A-040B-A">
+<title>Ascii1000D - Description</title>
+<abstract>
+<simpara>DMC-ASCII1KD-DEMO-000-10-00-01A-040B-A</simpara>
+</abstract>
+<section xml:id="_description">
+<title>Description</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="GFX/Ascii1000D.svg"/>
+</imageobject>
+<textobject><phrase>Ascii1000D</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="_system_definitions">
+<title>System definitions</title>
+<simpara><emphasis role="strong">Bold</emphasis>, <emphasis>underline</emphasis>, <emphasis role="marked">highlight</emphasis>, <subscript>subscript</subscript>, <superscript>superscript</superscript>, other text styles available.</simpara>
+<simpara>Special characters invoked by character substitution such as &#169;, &#174;, &#8594;, and more.</simpara>
+<simpara>Keyboard sequences are supported by the <literal>kbd</literal> macro, for example <keycombo><keycap>CTRL</keycap><keycap>ALT</keycap><keycap>DEL</keycap></keycombo>.</simpara>
+<simpara>The footnote macro produces notes in the bottom of the page<footnote><simpara>Text of the footnote</simpara></footnote></simpara>
+<note>
+<simpara>The KBD macro is only active when the EXPERIMENTAL document attribute is declared. Otherwise, it appears as monospaced verbatim text.</simpara>
+</note>
+</section>
+<section xml:id="_index_test">
+<title>Index test</title>
+<simpara>The Lady of the Lake, her arm clad in the purest shimmering samite,
+held aloft Excalibur from the bosom of the water,
+signifying by divine providence that I, <indexterm>
+<primary>Arthur</primary>
+</indexterm>Arthur,
+was to carry Excalibur <indexterm>
+<primary>Sword</primary><secondary>Broadsword</secondary><tertiary>Excalibur</tertiary>
+</indexterm>.
+That is why I am your king. Shut up! Will you shut up?!
+Burn her anyway! I&#8217;m not a witch.
+Look, my liege! We found them.</simpara>
+<itemizedlist>
+<title>Unordered List</title>
+<listitem>
+<simpara>Item</simpara>
+</listitem>
+<listitem>
+<simpara>Item</simpara>
+</listitem>
+<listitem>
+<simpara>Item</simpara>
+</listitem>
+</itemizedlist>
+<orderedlist numeration="arabic">
+<title>Ordered list</title>
+<listitem>
+<simpara>Item</simpara>
+</listitem>
+<listitem>
+<simpara>Item</simpara>
+<orderedlist numeration="loweralpha">
+<listitem>
+<simpara>Item</simpara>
+</listitem>
+<listitem>
+<simpara>Item</simpara>
+<orderedlist numeration="lowerroman">
+<listitem>
+<simpara>Item</simpara>
+</listitem>
+</orderedlist>
+</listitem>
+</orderedlist>
+</listitem>
+<listitem>
+<simpara>Item</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_system_2_definitions">
+<title>System 2 Definitions</title>
+<simpara>Demo for change process</simpara>
+</section>
+</section>
+<section xml:id="_description_part_two">
+<title>Description part two</title>
+<simpara>Descriptive data modules are relatively unconstrained.</simpara>
+<simpara>This content is specific to CONFIG1.</simpara>
+</section>
+</chapter>
+<chapter xml:id="DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A">
+<title>Ascii1000D - Inspect</title>
+<abstract>
+<simpara>DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A</simpara>
+</abstract>
+<section xml:id="_prerequisites">
+<title>Prerequisites</title>
+<section xml:id="_support_equipment">
+<title>Support equipment</title>
+<simpara>NA</simpara>
+</section>
+<section xml:id="_supplies">
+<title>Supplies</title>
+<simpara>NA</simpara>
+</section>
+<section xml:id="_spares">
+<title>Spares</title>
+<simpara>NA</simpara>
+</section>
+</section>
+<section xml:id="_procedure">
+<title>Procedure</title>
+<warning>
+<simpara>Fuel may cause burning to death</simpara>
+</warning>
+<orderedlist role="procedure" numeration="arabic">
+<listitem>
+<simpara></simpara>
+<warning>
+<simpara>High voltage kills! ZAP</simpara>
+</warning>
+<simpara>Turn on the system if the temperature is under 80&#176;</simpara>
+</listitem>
+<listitem>
+<simpara>Use the <literal>source</literal> switch to ensure that the electrical system is not
+AC (Alternating Current)
+ during maintenance.</simpara>
+</listitem>
+<listitem>
+<simpara>Ensure electrical safety procedures are followed.</simpara>
+</listitem>
+<listitem>
+<simpara>If the system is CONFIG1, check yellow warning light</simpara>
+</listitem>
+<listitem>
+<simpara>Confirm green light</simpara>
+</listitem>
+<listitem>
+<simpara>Reserve spare units in accordance with
+OEM (Original Equipment Manufacturer)
+published storage procedures.</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_closing_requirements">
+<title>Closing Requirements</title>
+<simpara>NA</simpara>
+</section>
+</chapter>
+<chapter xml:id="DMC-ASCII1KD-DEMO-000-10-00-01A-520A-A">
+<title>Ascii1000D - Remove</title>
+<abstract>
+<simpara>DMC-ASCII1KD-DEMO-000-10-00-01A-520A-A</simpara>
+</abstract>
+<section xml:id="_prerequisites_2">
+<title>Prerequisites</title>
+<section xml:id="_support_equipment_2">
+<title>Support equipment</title>
+<simpara>NA</simpara>
+</section>
+<section xml:id="_supplies_2">
+<title>Supplies</title>
+<simpara>NA</simpara>
+</section>
+<section xml:id="_spares_2">
+<title>Spares</title>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="5">
+<colspec colname="col_1" colwidth="20*"/>
+<colspec colname="col_2" colwidth="20*"/>
+<colspec colname="col_3" colwidth="20*"/>
+<colspec colname="col_4" colwidth="20*"/>
+<colspec colname="col_5" colwidth="20*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Name/Alternate name</simpara></entry>
+<entry align="left" valign="top"><simpara>Part number</simpara></entry>
+<entry align="left" valign="top"><simpara>MFC</simpara></entry>
+<entry align="left" valign="top"><simpara>Quantity</simpara></entry>
+<entry align="left" valign="top"><simpara>Remark</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UnitA</simpara></entry>
+<entry align="left" valign="top"><simpara>999-999999-999</simpara></entry>
+<entry align="left" valign="top"><simpara>ZZZZ</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"><simpara>etc</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UnitA520</simpara></entry>
+<entry align="left" valign="top"><simpara>999-888888-999</simpara></entry>
+<entry align="left" valign="top"><simpara>ZZZZ</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"><simpara>etc</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UnitA_CONFIG1</simpara></entry>
+<entry align="left" valign="top"><simpara>999-888888-888</simpara></entry>
+<entry align="left" valign="top"><simpara>ZZZZ</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"><simpara>etc</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+</section>
+<section xml:id="_procedure_2">
+<title>Procedure</title>
+<orderedlist role="procedure" numeration="arabic">
+<listitem>
+<simpara></simpara>
+<warning>
+<simpara>Do not remove the wrong part</simpara>
+</warning>
+<simpara>Remove the part.</simpara>
+<orderedlist numeration="loweralpha">
+<listitem>
+<simpara></simpara>
+<caution>
+<simpara>Skydrol is a surface irritant and inhalation hazard</simpara>
+</caution>
+<simpara>Drain fluids from part.</simpara>
+</listitem>
+<listitem>
+<simpara>Perform other cleaning operations.</simpara>
+</listitem>
+</orderedlist>
+</listitem>
+<listitem>
+<simpara>Reserve the removed part for bench testing according to
+OEM (Original Equipment Manufacturer)
+ storage procedures.</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_closing_requirements_2">
+<title>Closing Requirements</title>
+<simpara>NA</simpara>
+</section>
+</chapter>
+<chapter xml:id="DMC-ASCII1KD-DEMO-000-10-00-01A-720A-A">
+<title>Ascii1000D - Install</title>
+<abstract>
+<simpara>DMC-ASCII1KD-DEMO-000-10-00-01A-720A-A</simpara>
+</abstract>
+<section xml:id="_prerequisites_3">
+<title>Prerequisites</title>
+<section xml:id="_support_equipment_3">
+<title>Support equipment</title>
+<simpara>NA</simpara>
+</section>
+<section xml:id="_supplies_3">
+<title>Supplies</title>
+<simpara>NA</simpara>
+</section>
+<section xml:id="_spares_3">
+<title>Spares</title>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>PNR</simpara></entry>
+<entry align="left" valign="top"><simpara>NOMEN</simpara></entry>
+<entry align="left" valign="top"><simpara>QTY</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>999-999999-99</simpara></entry>
+<entry align="left" valign="top"><simpara>SparePart</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>999-888888-991</simpara></entry>
+<entry align="left" valign="top"><simpara>SpareConfig1</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+</section>
+<section xml:id="_procedure_3">
+<title>Procedure</title>
+<orderedlist role="procedure" numeration="arabic">
+<listitem>
+<simpara>Install the part</simpara>
+</listitem>
+<listitem>
+<simpara>For CONFIG1, perform the following steps</simpara>
+<orderedlist numeration="loweralpha">
+<listitem>
+<simpara>Remove the yellow light]</simpara>
+</listitem>
+</orderedlist>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_closing_requirements_3">
+<title>Closing Requirements</title>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Perform inspection</simpara></entry>
+<entry align="left" valign="top"><simpara><xref linkend="DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A"/></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+</chapter>
+<chapter xml:id="DMC-S1000DBIKE-AAA-D00-00-00-00AA-258A-A">
+<title>Bicycle - Alternate cleaning procedures</title>
+<abstract>
+<simpara>DMC-S1000DBIKE-AAA-D00-00-00-00AA-258A-A</simpara>
+</abstract>
+<section xml:id="_common_information">
+<title>Common information</title>
+<simpara>According to The International Bikers' Association (IBA) code of honor
+you are kindly requested to drive a properly maintained bicycle, which
+means the bike has to be regularly cleaned.</simpara>
+</section>
+<section xml:id="_preliminary_requirements">
+<title>Preliminary requirements</title>
+<section xml:id="_required_conditions">
+<title>Required conditions</title>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Action/Condition</entry>
+<entry align="left" valign="top">Data module/Technical publication</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>The bicycle is outdoors</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section xml:id="_support_equipment_4">
+<title>Support equipment</title>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="5">
+<colspec colname="col_1" colwidth="20*"/>
+<colspec colname="col_2" colwidth="20*"/>
+<colspec colname="col_3" colwidth="20*"/>
+<colspec colname="col_4" colwidth="20*"/>
+<colspec colname="col_5" colwidth="20*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Name/Alternate name</entry>
+<entry align="left" valign="top">Part number</entry>
+<entry align="left" valign="top">MFC</entry>
+<entry align="left" valign="top">Quantity</entry>
+<entry align="left" valign="top">Remark</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Water hose</simpara></entry>
+<entry align="left" valign="top"><simpara>BSK-TLST-001-09</simpara></entry>
+<entry align="left" valign="top"><simpara>KZ666</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Stiff bristle brush</simpara></entry>
+<entry align="left" valign="top"><simpara>BSK-TLST-001-02</simpara></entry>
+<entry align="left" valign="top"><simpara>KZ666</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Sponge</simpara></entry>
+<entry align="left" valign="top"><simpara>BSK-TLST-001-11</simpara></entry>
+<entry align="left" valign="top"><simpara>KZ666</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section xml:id="_consumables_materials_and_expendables">
+<title>Consumables, materials, and expendables</title>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="5">
+<colspec colname="col_1" colwidth="20*"/>
+<colspec colname="col_2" colwidth="20*"/>
+<colspec colname="col_3" colwidth="20*"/>
+<colspec colname="col_4" colwidth="20*"/>
+<colspec colname="col_5" colwidth="20*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Name/Alternate name</entry>
+<entry align="left" valign="top">Part number</entry>
+<entry align="left" valign="top">MFC</entry>
+<entry align="left" valign="top">Quantity</entry>
+<entry align="left" valign="top">Remark</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>ACME super 45 Agent</simpara></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"><simpara>KZ222</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>ACME Middling Detergent 69</simpara></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"><simpara>KZ666</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>BoeBus DeLux Detergent No.6</simpara></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"><simpara>KZ666</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+</section>
+<section xml:id="_admonitions">
+<title>Admonitions</title>
+<warning>
+<simpara>When using the bike with CONFIG1 installed, prepare for spontaneous disassembly followed by fire. Locate the nearest Deck Officer and hide behind him immediately</simpara>
+</warning>
+<warning>
+<simpara>Do not get detergent into your eyes. If it gets into your eyes, wash them immediately in clean warm water.</simpara>
+</warning>
+<warning>
+<simpara>Do not get <link xl:href="#ID_S1000DBIKE-AAA-D00-00-00-00AA-258A-A_sup-0003">BoeBus DeLux Detergent No.6</link> into  your eyes. If it gets into your eyes, wash them immediately in clean warm water.</simpara>
+</warning>
+<caution>
+<simpara>Do not use a hose that has high pressure. A water hose that has high pressure can cause some parts to become loose or full of water.</simpara>
+</caution>
+<caution>
+<simpara>Do not point the hose directly at the hub or at the bottom bracket bearings. This can cause damage to the parts.</simpara>
+</caution>
+<caution>
+<simpara>Apply detergent in accordance with the instruction on the container. The substance may cause damage to the Bike paint if it is not applied correctly.</simpara>
+</caution>
+</section>
+<section xml:id="_procedure_4">
+<title>Procedure</title>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Clean the bicycle with water to remove all dirt.</simpara>
+</listitem>
+<listitem>
+<simpara>Use a brush to get access to areas that are not easy to clean. These
+are the shift levers, the knobbly tires, and the brakes.</simpara>
+</listitem>
+<listitem>
+<simpara>Clean the caked grime from the chain and the sprockets with a
+screwdriver that has a small blade.</simpara>
+</listitem>
+<listitem>
+<simpara>Remove the grease from the freewheel assembly with the ACME Super45 agent</simpara>
+<simpara>Use a brush to remove the grease from these parts:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>sprockets</simpara>
+</listitem>
+<listitem>
+<simpara>guide and tension wheels of the derailleur</simpara>
+</listitem>
+<listitem>
+<simpara>chain ring teeth</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Flush the sprockets, the derailleurs, the chain rings and the chain
+with water.</simpara>
+<note>
+<simpara>If necessary, do the flush procedure again.</simpara>
+</note>
+</listitem>
+<listitem>
+<simpara>Wash the Bike</simpara>
+<orderedlist numeration="loweralpha">
+<listitem>
+<simpara>Soak the sponge into detergent and water.</simpara>
+</listitem>
+<listitem>
+<simpara>Clean the bicycle with the soaked sponge.</simpara>
+</listitem>
+<listitem>
+<simpara>Flush the bicycle and make sure that all detergent is removed.</simpara>
+</listitem>
+<listitem>
+<simpara>Move the bicycle up and down on its tires to remove all water.</simpara>
+</listitem>
+</orderedlist>
+</listitem>
+<listitem>
+<simpara>Wash the Bike</simpara>
+<orderedlist numeration="loweralpha">
+<listitem>
+<simpara>Soak the sponge in DeLuxe Detergent and water.</simpara>
+</listitem>
+<listitem>
+<simpara>Clean the bicycle with the soaked sponge.</simpara>
+</listitem>
+<listitem>
+<simpara>Soak the sponge into Middling detertent and water.</simpara>
+</listitem>
+<listitem>
+<simpara>Fully clean the bicycle with the soaked sponge.</simpara>
+</listitem>
+<listitem>
+<simpara>Flush the bicycle to make sure that all detergents are removed.</simpara>
+</listitem>
+<listitem>
+<simpara>Move the bicycle up and down on its tires to remove all water.</simpara>
+</listitem>
+</orderedlist>
+</listitem>
+<listitem>
+<simpara>Lubricate the bicycle.</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_requirements_after_job_completion">
+<title>Requirements after job completion</title>
+<table frame="all" rowsep="1" colsep="1">
+<title>Required conditions</title>
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Action/Condition</entry>
+<entry align="left" valign="top">Data module/Technical publication</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Make sure the bicycle is dry</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+</chapter>
+<chapter xml:id="DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A">
+<title>Frame fork - Install</title>
+<abstract>
+<simpara>DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A</simpara>
+</abstract>
+<section xml:id="_preliminary_requirements_2">
+<title>Preliminary requirements</title>
+<table frame="all" rowsep="1" colsep="1">
+<title>Required conditions</title>
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Action/Condition</entry>
+<entry align="left" valign="top">Data module/Technical publication</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>The bicycle is safely held on a work stand</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section xml:id="_parts_information">
+<title>Parts information</title>
+<simpara><emphasis role="strong">Support equipment</emphasis></simpara>
+<table frame="all" rowsep="1" colsep="1">
+<title>Support equipment</title>
+<tgroup cols="5">
+<colspec colname="col_1" colwidth="20*"/>
+<colspec colname="col_2" colwidth="20*"/>
+<colspec colname="col_3" colwidth="20*"/>
+<colspec colname="col_4" colwidth="20*"/>
+<colspec colname="col_5" colwidth="20*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Name/Alternate name</entry>
+<entry align="left" valign="top">Part number</entry>
+<entry align="left" valign="top">MFC</entry>
+<entry align="left" valign="top">Quantity</entry>
+<entry align="left" valign="top">Remark</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Work stand</simpara></entry>
+<entry align="left" valign="top"><simpara>Stand-001</simpara></entry>
+<entry align="left" valign="top"><simpara>Stand</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<simpara><emphasis role="strong">Spares</emphasis></simpara>
+<table frame="all" rowsep="1" colsep="1">
+<title>Spares</title>
+<tgroup cols="5">
+<colspec colname="col_1" colwidth="20*"/>
+<colspec colname="col_2" colwidth="20*"/>
+<colspec colname="col_3" colwidth="20*"/>
+<colspec colname="col_4" colwidth="20*"/>
+<colspec colname="col_5" colwidth="20*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Name/Alternate name</entry>
+<entry align="left" valign="top">Part number</entry>
+<entry align="left" valign="top">MFC</entry>
+<entry align="left" valign="top">Quantity</entry>
+<entry align="left" valign="top">Remark</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Frame fork</simpara></entry>
+<entry align="left" valign="top"><simpara>St-001-02</simpara></entry>
+<entry align="left" valign="top"><simpara>KZ555</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Upper bearing cup</simpara></entry>
+<entry align="left" valign="top"><simpara>St-001-03</simpara></entry>
+<entry align="left" valign="top"><simpara>KZ555</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Brake cable hangar</simpara></entry>
+<entry align="left" valign="top"><simpara>BR-LVRS-002</simpara></entry>
+<entry align="left" valign="top"><simpara>KT444</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Dust seal</simpara></entry>
+<entry align="left" valign="top"><simpara>St-001-04</simpara></entry>
+<entry align="left" valign="top"><simpara>KZ555</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Conical expansion washer</simpara></entry>
+<entry align="left" valign="top"><simpara>St-001-05</simpara></entry>
+<entry align="left" valign="top"><simpara>KZ555</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section xml:id="_procedure_5">
+<title>Procedure</title>
+<figure>
+<title>Test SVG image</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="GFX/DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A.svg"/>
+</imageobject>
+<textobject><phrase>DMC S1000DBIKE AAA DA2 30 00 00AA 720A A</phrase></textobject>
+</mediaobject>
+</figure>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Install the Frame Fork on the frame.</simpara>
+</listitem>
+<listitem>
+<simpara>Install the Upper bearing cup.</simpara>
+</listitem>
+<listitem>
+<simpara>Install the components that follow on the steering tube:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Brake cable hangar</simpara>
+</listitem>
+<listitem>
+<simpara>Dust seal</simpara>
+</listitem>
+<listitem>
+<simpara>Conical expansion washer</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Install the stem</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_requirements_after_job_completion_2">
+<title>Requirements after job completion</title>
+<simpara>NA</simpara>
+</section>
+</chapter>
+<chapter xml:id="DMC-S1000DBIKE-AAA-DA2-10-00-00AA-520A-A">
+<title>Stem - Remove</title>
+<abstract>
+<simpara>DMC-S1000DBIKE-AAA-DA2-10-00-00AA-520A-A</simpara>
+</abstract>
+<section xml:id="_preliminary_requirements_3">
+<title>Preliminary requirements</title>
+<table frame="all" rowsep="1" colsep="1">
+<title>Required conditions</title>
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Action/Condition</entry>
+<entry align="left" valign="top">Data module/Technical publication</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Safety the bicycle in a bicycle stand and hold the front wheel off the
+ground</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section xml:id="_parts_information_2">
+<title>Parts information</title>
+<table frame="all" rowsep="1" colsep="1">
+<title>Support equipment</title>
+<tgroup cols="5">
+<colspec colname="col_1" colwidth="20*"/>
+<colspec colname="col_2" colwidth="20*"/>
+<colspec colname="col_3" colwidth="20*"/>
+<colspec colname="col_4" colwidth="20*"/>
+<colspec colname="col_5" colwidth="20*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Name/Alternate name</entry>
+<entry align="left" valign="top">Part number</entry>
+<entry align="left" valign="top">MFC</entry>
+<entry align="left" valign="top">Quantity</entry>
+<entry align="left" valign="top">Remark</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Set of Allen wrenches</simpara></entry>
+<entry align="left" valign="top"><simpara>BSK-TLST-001-13</simpara></entry>
+<entry align="left" valign="top"><simpara>KZ666</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Work stand</simpara></entry>
+<entry align="left" valign="top"><simpara>Stand-001</simpara></entry>
+<entry align="left" valign="top"><simpara>KZ555</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section xml:id="_procedure_6">
+<title>Procedure</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="GFX/ICN-C0419-S1000D0387-001-01.svg"/>
+</imageobject>
+<textobject><phrase>ICN C0419 S1000D0387 001 01</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<note>
+<simpara>It is not necessary to remove the handlebar when you remove the stem to
+get access to the headset.</simpara>
+</note>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Remove the handlebar</simpara>
+</listitem>
+<listitem>
+<simpara>Remove the stem.</simpara>
+<orderedlist numeration="loweralpha">
+<listitem>
+<simpara>Remove the bolt in the center of the stem cap.</simpara>
+<simpara>image::file:/C:/Users/lopso/Documents/GitHub/xsl/S1000D_ADOC/Step2_S1000D4/ICN-C0419-S1000D0387-001-01.CGM[Remove
+the bolt]</simpara>
+</listitem>
+<listitem>
+<simpara>Loosen the stem clam bolt with Allen wrench.</simpara>
+</listitem>
+<listitem>
+<simpara>Remove the stem from the steerer tube.</simpara>
+<note>
+<simpara>It is not necessary to remove the handlebar if you remove the
+stem to get access to the headset.</simpara>
+</note>
+</listitem>
+</orderedlist>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_requirements_after_job_completion_3">
+<title>Requirements after job completion</title>
+<simpara>NA</simpara>
+</section>
+</chapter>
+</book>

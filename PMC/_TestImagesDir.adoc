@@ -1,0 +1,7 @@
+= Testing imagesdir
+
+:imagesdir: ../DMC/gfx
+
+include::../DMC/ImageDirTest.adoc[leveloffset=+1]
+
+    

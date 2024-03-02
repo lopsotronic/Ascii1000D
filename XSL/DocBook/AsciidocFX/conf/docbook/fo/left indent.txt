@@ -1,9 +1,0 @@
-left indent
-
-single line chapter
-
-Headers footers
-
-"global edition" is subtitle
-
-"edition" element in DITA is used currently

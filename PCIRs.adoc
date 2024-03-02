@@ -1,0 +1,71 @@
+It's PCIR time again! Today we'll look at Ascii1000D PCIRs via TextQL Asciidoc extension[1].
+
+
+
+Running extensions is a little outside the post's scope, so we're assuming you've got extension running. Might be its own post someday, because deploying extensions globally can be tricky. If you're averse to extensions, in ANY form, fear not - a future PCIR post will detail Ascii1000D PCIRs in vanilla Asciidoc.
+
+
+
+We're assuming we have CSV data out of LSA/ILS/MTA. Which Logistics system, and how - again, out of scope. You got a big CSV file with columns for: SNS, incode, nomen, PNR, MFC, QTY, UOM, partUsageCode, and Remark(PLREV). That's just for maintenance - IPCs need more. 
+
+
+
+The PCIR CSV gets dropped in a directory with a DMC a 00GA incode. It's in your source control, so it shows up in your change artifacts (LoEDM/RevHist/ChangeBars). As with all Ascii1000D assets, the PCIR directory is - like DMC, PMC, SB, ICN - ONE level down from root. EVERYTHING has the same relative paths as PM/SB/OA - we don't fuss with :imagesdir:.
+
+
+
+Inside our DM - let's say ENGINE - INSTALL - a spares table that uses PCIR+TextQL might go:
+
+
+
+[textql%header, "select NOMEN, PNR, MFC, QTY, UOM, PLREV from tbl where SNS="E28-00-00" and incode="720" and partUsageCode="pu22"]
+
+----
+
+include::../PCIR/DMC-DEMO-AAA-E00-00-00-01A-00GA-A.csv
+
+----
+
+
+
+Our processor + extension goes to this CSV, runs SQL against the CSV, then returns the SELECT and formats it as a table.
+
+
+
+This is . . obviously . . the most stripped down possible example. 
+
+
+
+But you see the utility. Bump PNRs across the entire doc system with one file drop. Integrate standalone LSAR with the pubs system, via the expedient of using plain ol' CSV as a backend. And monkey with that CSV without going back for another LSA pass. 
+
+
+
+Yes, that last one is bad practice, and yes, it's going to be more common than you think.
+
+
+
+Particularly when you got a lot of churn. On that note, see PLREV in that spares table? That's because the parts change faster than LSA, faster than the CMMIS, MOD DOTS - or even our applicability model - can keep up. Unless DIRECTLY integrated with ERP/LSA, a formal S1000D system wouldn't have a chance.
+
+
+
+But Ascii1000D does. Which, well, OK . . yeah, that's a double edged sword. On that note, if you bring up including PLREV or DWGREV in user-facing pubs, say, at the S1000D User Forum, you'll be laughed out of the room. "What, are you updating your plane every week?!"
+
+
+
+Yes, yes we are. But we're not likely to be able to change our entire org from the frickin' techpubs department. That's like a lone stoker changing the course of the Titanic after pie on 4/14/1912. Especially if Leadership is trying to use the techpubs department as a bludgeon to beat "The Right Way" into the rest of the business. 
+
+
+
+At the end of the day - regardless of Right Ways and Wrong Ways - the deadline ain't going no place. The books have to get done.
+
+
+[1] https://github.com/asciidoctor/asciidoctor-extensions-lab/blob/main/lib/textql-block.rb
+
+.Spares
+|===
+|NOMEN| PNR| MFC| QTY| UOM|PLREV
+|UnitA|999-999999-999|ZZZZ|1|EA|D
+|UnitB|999-999999-888|YYYY|4|EA|C
+|UnitB_Config1|777-999999-777|YYYY|4|EA|C
+|===
+

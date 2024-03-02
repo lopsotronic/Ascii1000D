@@ -30,6 +30,8 @@ include::../CIR/DMC-DEMO-000-00-00-01A-999Z-A.adoc[leveloffset=+1]
 
 include::../DMC/DMC-DEMO-000-10-00-01A-040B-A.adoc[leveloffset=+1]
 
+include::../DMC/DMC-ASCII1KD-DEMO-000-10-01-01A-040B-A.adoc[leveloffset=+1]
+
 include::../DMC/DMC-DEMO-000-10-00-01A-280A-A.adoc[leveloffset=+1]
 
 include::../DMC/DMC-DEMO-000-10-00-01A-520A-A.adoc[leveloffset=+1]

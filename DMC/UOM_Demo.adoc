@@ -1,0 +1,48 @@
+= Thing - Do This
+include::../CIR/UOM.adoc[]
+
+. Apply some force
+. Make sure to use one bazillion {ftlb}
+
+22 years in aviation and defense, experience with more than thirty programs, several mil-std including 40051 and 38784, and S1000D usses 2.3, 301, 41, 42, 5, and MIL-STD 3031 and 3048. I know XSL PDF and HTML pipelines for print and ietm production, and many ccms systems
+
+Furthermore, I am also a technical candidate, experienced with vsc, git, python, typescript. I have excellent data analysis skills, using xquery and formal stats in pythin against many data formats. I have excellent 3d skills, both in modelling and in simulation and animation. 
+
+It's going to be a rare combination. Candidate egenraly come from either tech or aerospace. I come from both.
+
+
+First, I have been away from manned aviation for a while, and I deeply desire to work with planes again. Parts of planes, in any case.
+
+Second, I know Collins has been an excellent OEM in terms of technology, judging from my working with their products with L3 Aviation Recorders.
+
+There's no easy way to say this, but in two decades of using "the spec", I've yet to see it implemented elegantly. That's one part of this new search, is to find the way, as I put it, "the grown ups use S1000D". Finding an intelligent team working on an elegant system will be pure catnip for me, and I have zero doubt I'll be able to contribute and collaborate.
+
+The first ATA compliant content was ATA100 formatted CMM and IOMAN (FAR p91) as designed on Quicksilver Interleaf. I adopted these to the Drupal Web CMS for increased turnaround time. 
+
+CASA Airbus A400m S1000D program , issue 2.3. CMMs, IPCs, and IOMANs. I adapted the Drupal framework for this, also increasing turnaround time. I also started using xquery as a sanity checker and general toolset, integrating it with the PDM/ERP platform.
+
+I delivered a S1000D 3.1 for a NAVAIR program, building on the xquery for this new environment, since it lacked brex and much of everythign else. I adopted Issue 4 SB schema for this as well, and integrated with ARAS PDM, Slicwave, and the CMMIS.
+
+I consulted on a MIL-STD-3031 deliverable, which would be 
+the beginning of my relationship with that spec. This was extended into pushing brex for the MIL-STD-3048 spec as well.
+
+Somewhat along the same lines, a NATOPS deliverable, using the S1000D aircrew schema as source. That unified the toolset considerably.
+
+I developed XSL for delivery of S1000D 4.1 in a MILp-STD-38784 style PDF, and used the MIL-STD-40051 FOSI as basis for a CSS subset to deliver to that spec.
+
+Finally, I'veintegrated Siemens ERP/ TeamCenter into S1000D 4.1 and 3031
+
+Framemaker 
+
+Quicksilver
+
+PTC Arbortext
+
+ACL
+
+Flare
+
+Visual Studio Code
+
+Xquery
+
