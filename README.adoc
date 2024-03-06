@@ -34,7 +34,7 @@ Demonstration of an https://s1000d.org/[S1000D] publication architecture using t
 * Validation requirement is satisfied/exceeded via usage of linters: LanguageTools, Vale, and/or Redpen.cc.
 * Line art parts identification via SVG+CSS or inclusion of X3D or applicable HTML5 web 3d format.
 
-See xref:Ascii1000D_Flow.adoc#Example Data Flow[Data Flow] for details on data flow.
+See xref:Ascii1000D_Flow.adoc#Example Data Flow[Parts Data Flow] for details on data flow from parts information systems to the Ascii1000D files.
 
 Parts data information is always customized for each business. In the below example, we can see that parts data changes as the product maturity advances. 
 
