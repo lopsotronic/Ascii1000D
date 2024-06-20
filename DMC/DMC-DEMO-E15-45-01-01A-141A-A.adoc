@@ -1,5 +1,7 @@
 [[DMC-DEMO-E15-45-01-01A-141A-A]]
 = Fire - Emergency operations procedure
+:stylesheet: ../css/adoc-github.css
+
 
 
 [abstract]
@@ -7,7 +9,7 @@ DMC-DEMO-E15-45-01-01A-141A-A
 
 == ENGINE FIRE STARTING
 
-[.acrw]
+[grid=rows, cols="<,>", stripes="all"]
 |===
 |Throttle| CUTOFF
 |Manual fuel shutoff| OFF
@@ -27,7 +29,7 @@ If fire continues::
 
 == ENG FIRE IN FLIGHT WITH INDICATION
 :CONFIG1:
-[.acrw]
+[grid=rows, cols="<,>", stripes="all"]
 |===
 |Throttle|CUTOFF
 |Manual Fuel Shutoff|OFF
@@ -42,7 +44,7 @@ DO NOT RESTART ENGINE
 
 == ENG FIRE IN FLIGHT WARNING LIGHT ONLY
 
-[.acrw]
+[grid=rows, cols="<,>", stripes="all"]
 |===
 |Throttle|MINIMUM FOR LEVEL FLIGHT
 
@@ -51,7 +53,7 @@ LAND AS SOON AS POSSIBLE
 
 == WING FIRE IN FLIGHT
 
-[.acrw]
+[grid=rows, cols="<,>", stripes="all"]
 |===
 |Combustible Stores|JETTISON
 |If Fire Continues|EJECT
@@ -59,10 +61,23 @@ LAND AS SOON AS POSSIBLE
 
 == ELECTRICAL FIRE IN FLIGHT
 
-[.acrw]
+[grid=rows, cols="<,>", stripes="all"]
 |===
 |Electrical Equipment|OFF
 |EMER GEN|Extend If Fire Persists
 |Once fire extinguised|NECESSARY ELECTRICAL EQUIPMENT ON ONE AT A TIME
 |If Fire Continues|EJECT
 |===
+
+. {empty}
++
+WARNING: Do not set parking brake at V1, you will die
++
+[grid=rows, cols="<,>", stripes="all"]
+|===
+|Parking brake|SET|
+|===
++
+ifndef::135[]
+Activate parking brake under left side of the console.
+endif::135[]

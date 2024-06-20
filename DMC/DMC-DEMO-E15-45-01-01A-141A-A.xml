@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en" xml:id="DMC-DEMO-E15-45-01-01A-141A-A">
+<info>
+<title>Fire - Emergency operations procedure</title>
+<date>2024-03-16</date>
+</info>
+<abstract>
+<simpara>DMC-DEMO-E15-45-01-01A-141A-A</simpara>
+</abstract>
+<section xml:id="_engine_fire_starting">
+<title>ENGINE FIRE STARTING</title>
+<informaltable role="acrw" frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Throttle</simpara></entry>
+<entry align="left" valign="top"><simpara>CUTOFF</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Manual fuel shutoff</simpara></entry>
+<entry align="left" valign="top"><simpara>OFF</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>If fire continues</simpara></entry>
+<entry align="left" valign="top"><simpara>ABANDON</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section xml:id="_engine_fire_starting_2">
+<title>ENGINE FIRE STARTING</title>
+<informaltable tabstyle="horizontal" frame="none" colsep="0" rowsep="0">
+<tgroup cols="2">
+<colspec colwidth="15*"/>
+<colspec colwidth="85*"/>
+<tbody valign="top">
+<row>
+<entry>
+<simpara>Throttle</simpara>
+</entry>
+<entry>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; CUTOFF</simpara>
+</listitem>
+</itemizedlist>
+</entry>
+</row>
+<row>
+<entry>
+<simpara>Manual fuel shutoff</simpara>
+</entry>
+<entry>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; OFF</simpara>
+</listitem>
+</itemizedlist>
+</entry>
+</row>
+<row>
+<entry>
+<simpara>If fire continues</simpara>
+</entry>
+<entry>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; ABANDON</simpara>
+</listitem>
+</itemizedlist>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section xml:id="_eng_fire_in_flight_with_indication">
+<title>ENG FIRE IN FLIGHT WITH INDICATION</title>
+<informaltable role="acrw" frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Throttle</simpara></entry>
+<entry align="left" valign="top"><simpara>CUTOFF</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Manual Fuel Shutoff</simpara></entry>
+<entry align="left" valign="top"><simpara>OFF</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Energency Generator</simpara></entry>
+<entry align="left" valign="top"><simpara>EXTEND</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Config1 disable</simpara></entry>
+<entry align="left" valign="top"><simpara>ON</simpara><simpara>DO NOT RESTART ENGINE</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>If conditions warrant</simpara></entry>
+<entry align="left" valign="top"><simpara>EJECT</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section xml:id="_eng_fire_in_flight_warning_light_only">
+<title>ENG FIRE IN FLIGHT WARNING LIGHT ONLY</title>
+<informaltable role="acrw" frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Throttle</simpara></entry>
+<entry align="left" valign="top"><simpara>MINIMUM FOR LEVEL FLIGHT</simpara><simpara>LAND AS SOON AS POSSIBLE</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section xml:id="_wing_fire_in_flight">
+<title>WING FIRE IN FLIGHT</title>
+<informaltable role="acrw" frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Combustible Stores</simpara></entry>
+<entry align="left" valign="top"><simpara>JETTISON</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>If Fire Continues</simpara></entry>
+<entry align="left" valign="top"><simpara>EJECT</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section xml:id="_electrical_fire_in_flight">
+<title>ELECTRICAL FIRE IN FLIGHT</title>
+<informaltable role="acrw" frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Electrical Equipment</simpara></entry>
+<entry align="left" valign="top"><simpara>OFF</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>EMER GEN</simpara></entry>
+<entry align="left" valign="top"><simpara>Extend If Fire Persists</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Once fire extinguised</simpara></entry>
+<entry align="left" valign="top"><simpara>NECESSARY ELECTRICAL EQUIPMENT ON ONE AT A TIME</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>If Fire Continues</simpara></entry>
+<entry align="left" valign="top"><simpara>EJECT</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+</article>

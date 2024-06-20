@@ -10,12 +10,11 @@ v0.0.1, {docdatetime}: Draft
 :numbering:
 :sectnums:
 :sectnumlevels: 5
+:keywords: fire, emergency, aircrew
 // Applic attrubutes
 :CADDEMO:
 
 include::../CIR/DMC-DEMO-000-00-01-01A-00KA-A.adoc[leveloffset=+1]
-
-<<<
 
 include::../CIR/DMC-DEMO-000-00-00-01A-0A2A-A.adoc[leveloffset=+1]
 

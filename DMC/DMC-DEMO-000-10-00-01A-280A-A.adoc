@@ -3,7 +3,6 @@
 :!part-title:
 :part-title: DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A
 
-
 [abstract]
 DMC-ASCII1KD-DEMO-000-10-00-01A-280A-A
 
@@ -32,9 +31,8 @@ include::../CIR/DMC-DEMO-000-00-00-01A-0A4A-A.adoc[tag=Flammable]
 include::../CIR/DMC-DEMO-000-00-00-01A-0A4A-A.adoc[tag=HighVoltage]
 +
 Turn on the system if the temperature is under 80{deg}
-. Use the `source` switch to ensure that the electrical system is not
+. Use the `source` switch to select
 include::../CIR/DMC-DEMO-000-00-00-01A-0A6A-A.adoc[tag=AC]
- during maintenance.
 
 . Ensure electrical safety procedures are followed.
 
