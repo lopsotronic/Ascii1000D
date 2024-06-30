@@ -1,7 +1,11 @@
-= TECHNAME - Service Bulletin : SUBTITLE Description of change
+= SUPERPLANE propulsion - Service Bulletin : Engine modification for ULTRAPROP
 Technical Publications
-v1.0, {docdate}: DRAFT
+v0.0.2.8fd0dfa, {docdatetime}: INITIAL DRAFT
 :sectnums:
+:toc: left
+:toclevels: 9
+:version-label: ISSUE
+:doctype: article
 :docpnr: ###-######-##
 //initial release (date)
 :initrel: {docdate}
@@ -24,13 +28,28 @@ v1.0, {docdate}: DRAFT
 //See S1000D42 sbComplianceCategory
 :compliance: Recommended
 :chargecode: N999.99.9.9.9
+//APPLIC
+:PRODUCT: SUPERPLANE | SUPERPLUS
+:ENGINE: TURBO | HIFLOW
+:PROP: ULTRAPROP
+:SERIAL: 000000009
 
 [abstract]
 DMC-DEMO-000-10-00-01A-930A-A.adoc
 
+[.compliance]
+include::../ICN/ICN-DEMO-000-10-00-01A-930A-A.adoc[]
+
+include::../CIR/DMC-DEMO-000-00-00-01A-00KA-A.adoc[leveloffset=+1]
+
+include::../CIR/DMC-DEMO-000-00-00-01A-0A2A-A.adoc[leveloffset=+1]
+
+include::../CIR/DMC-DEMO-000-00-00-01A-999Z-A.adoc[leveloffset=+1]
+
 == Applicability
 
 //include to applicability asset
+include::../CIR/DMC-DEMO-000-00-00-01A-020A-A.adoc[]
 
 == Referenced Data Modules
 
@@ -42,61 +61,8 @@ DMC-DEMO-000-10-00-01A-930A-A.adoc
 
 ==== Compliance
 
-ifeval::["{compliance}" == "Recommended"]
-[graphviz, file ="../TEMPimages/Recommended.svg"]
-----
-digraph g {
-    bgcolor = green
-    label="Recommended"
-    fontsize="40"
-    shape=record
-    fontname = Arial
-    fontcolor = white
-}
-----
-endif::[]
- 
-ifeval::["{compliance}" == "Mandatory"]
-[graphviz, file ="../TEMPimages/Mandatory.svg"]
-----
-digraph g {
-    bgcolor = red
-    label="Mandatory"
-    fontsize="40"
-    shape=record
-    fontname = Arial
-    fontcolor = white
-}
-----
-endif::[]
- 
-ifeval::["{compliance}" == "Desirable"]
-[graphviz, file ="../TEMPimages/Urgent.svg"]
-----
-digraph g {
-    bgcolor = darkorange
-    label="Urgent"
-    fontsize="40"
-    shape=record
-    fontname = Arial
-    fontcolor = white
-}
-----
-endif::[]
-
-ifeval::["{compliance}" == "Optional"]
-[graphviz, file ="../TEMPimages/Optional.svg"]
-----
-digraph g {
-    bgcolor = yellow
-    label="Optional"
-    fontsize="40"
-    shape=record
-    fontname = Arial
-    fontcolor = white
-}
-----
-endif::[]
+//Dynamic compliance button generator
+include::../ICN/ICN-DEMO-000-10-00-01A-930A-A.adoc[]
 
 ==== Task Type
 

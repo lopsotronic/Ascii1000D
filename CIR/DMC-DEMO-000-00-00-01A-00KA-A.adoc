@@ -46,7 +46,7 @@ Phone: 999.999.9999
 
 // tag::cover_logo[]
 [.cover_logo]
-image::GFX/cover_logo.svg[]
+image::../GFX/SpecAgile.png[width=25%]
 // end::cover_logo[]
 
 // tag::proprietary_short[]

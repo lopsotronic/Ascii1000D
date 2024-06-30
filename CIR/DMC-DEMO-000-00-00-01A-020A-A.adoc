@@ -26,3 +26,5 @@ endif::CONFIG3[]
 ifdef::CADDEMO[]
 One-time configuration for CAD-PUB demo.
 endif::CADDEMO[]
+
+Product {PRODUCT} with engine configs {ENGINE} propeller configs {PROP} beginning serial {SERIAL}

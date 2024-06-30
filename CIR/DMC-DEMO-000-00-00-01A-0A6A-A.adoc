@@ -4,11 +4,3 @@
 // tag::AC[]
 AC (Alternating Current)
 // end::AC[]
-
-// tag::OEM[]
-OEM (Original Equipment Manufacturer)
-// end::OEM[]
-
-// tag::VSC[]
-VSC (Visual Studio Code)
-// end::VSC[]

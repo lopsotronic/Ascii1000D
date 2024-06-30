@@ -19,4 +19,5 @@ endif::CONFIG3[]
 ifdef::CADDEMO[]
 CAD-PUB Demo CLASS 1
 endif::CADDEMO[]
+{PRODUCT} | {ENGINE} | {PROP} |start serial {SERIAL}
 // end::applic_short[]
